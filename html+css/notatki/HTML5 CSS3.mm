@@ -99,6 +99,7 @@
 <node CREATED="1481064240810" ID="ID_48780899" LINK="http://tympanus.net/codrops/category/freebies/" MODIFIED="1481064251023" TEXT="http://tympanus.net/codrops/category/freebies/">
 <node CREATED="1481064252235" ID="ID_982676351" MODIFIED="1481064264223" TEXT="serwis z zestawami ikon tematycznych"/>
 </node>
+<node CREATED="1481735941155" ID="ID_1619613792" LINK="http://diveintohtml5.info/introduction.html" MODIFIED="1481735954815" TEXT="http://diveintohtml5.info/introduction.html"/>
 </node>
 <node CREATED="1480359280597" ID="ID_88307567" MODIFIED="1480440097186" POSITION="left" TEXT="Jednostki relatywne">
 <cloud/>
@@ -513,8 +514,7 @@
       uwaga! przypisanie position:fixed, ma negatywn&#261; cech&#281; polegaj&#261;c&#261; na tym ,&#380;e element z blokowego staje si&#281; liniowy i je&#347;li nie ma tre&#347;ci, zniknie (nawet display:block przestaje mie&#263; znaczenie) . &#379;eby tego unikn&#261;&#263; trzeba przypisa&#263; mu wysoko&#347;&#263; i szeroko&#347;&#263;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1480441596388" ID="ID_1415973508" MODIFIED="1480441639576" TEXT="z-index">
 <richcontent TYPE="NOTE"><html>
@@ -734,8 +734,7 @@
       Aby ustrzec si&#281; przed tym &#380;e na du&#380;ej rozdzielczo&#347;ci elementy h1i h3 nie odjecha&#322;y od siebie, trzeba zapewni&#263; sobie &#380;eby trzyma&#322;y si&#281; razem nale&#380;y ustawi&#263; display-inline:block dla elementu hgroup.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1480445755819" ID="ID_446665069" MODIFIED="1481064075034" POSITION="left" TEXT="Responsive Web Design">
@@ -957,8 +956,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1481312638697" ID="ID_1502923497" MODIFIED="1481312661761" TEXT="reset styl&#xf3;w">
 <richcontent TYPE="NOTE"><html>
@@ -1102,8 +1100,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1481312813974" ID="ID_807510193" MODIFIED="1481313053562" TEXT="Pseudoklasy :before, :after">
 <richcontent TYPE="NOTE"><html>
@@ -1226,8 +1223,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1481064054919" ID="ID_1686238225" MODIFIED="1481064083310" POSITION="left" TEXT="Formaty graficzne">
