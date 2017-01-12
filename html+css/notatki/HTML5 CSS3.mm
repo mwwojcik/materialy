@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1480358164757" ID="ID_1464255391" MODIFIED="1480711619860" TEXT="HTML5 CSS3">
+<node CREATED="1480358164757" ID="ID_1464255391" MODIFIED="1484246476915" TEXT="HTML5 CSS3">
 <font NAME="SansSerif" SIZE="24"/>
 <node CREATED="1480358251257" ID="ID_1572046406" MODIFIED="1480440075590" POSITION="right" TEXT="Wa&#x17c;ne linki">
 <cloud/>
@@ -1244,6 +1244,138 @@
 <node CREATED="1481064681367" ID="ID_874687894" MODIFIED="1481064694277" TEXT="tylko wtedy gdy traktujemy j&#x105; jak ozdobnik"/>
 </node>
 <node CREATED="1481064632243" ID="ID_409579567" MODIFIED="1481064648604" TEXT="u&#x17c;ywamy wtedy gdy ma sens tre&#x15b;ciowy"/>
+</node>
+</node>
+<node CREATED="1484246480147" ID="ID_1968874212" MODIFIED="1484246484154" POSITION="right" TEXT="HTLM 5">
+<node CREATED="1484246486048" ID="ID_415740351" MODIFIED="1484246662786" TEXT="Nag&#x142;&#xf3;wki, sekcje">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      UWAGA!
+    </p>
+    <p>
+      Ka&#380;dy element taki jak section, article mo&#380;e posiada&#263; dowolne nag&#322;&#243;wki H1..H6. Tak m&#243;wi specyfikacja HTML5, natomiast na chwil&#281; obecn&#261; przyj&#281;&#322;o si&#281; &#380;e na stronie jest tylko jeden H1.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ka&#380;dy H, zostaje odzwierciedlony w strukturze OUTLINE, je&#347;li w sekcji jest wiele nag&#322;&#243;wk&#243;w, to wszystkie trafi&#261; do OUTLINE, je&#347;li chcemy by znalaz&#322; si&#281; tam tylko jeden , wtedy otaczamy je elementem hgroup, do outline trafi tylko najwi&#281;kszy z nich.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      UWAGA! W hgroup mog&#261; znale&#378;&#263; si&#281; tylko elementy Hx.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1484246666342" ID="ID_1208269052" MODIFIED="1484246671628" TEXT="Cytowanie">
+<node CREATED="1484246672937" ID="ID_1022538119" MODIFIED="1484246741496" TEXT="q">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      najbardziej dowolny
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1484246677621" ID="ID_626138129" MODIFIED="1484246726272" TEXT="blockquote">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      najbardziej ustrukturyzowany, je&#347;li si&#281; go u&#380;yje nale&#380;y ustawi&#263; atrybut cite, a w nim wstawi&#263; url do &#378;r&#243;d&#322;a cytatu.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1484246683194" ID="ID_1973313480" MODIFIED="1484246684736" TEXT="cite"/>
+</node>
+<node CREATED="1484246819508" ID="ID_850918477" MODIFIED="1484247418797" TEXT="footer ">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      UWAGA!
+    </p>
+    <p>
+      Nie jest elementem typu sectioning content, wi&#281;c nie wprowadza element&#243;w do OUTLINE
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mo&#380;e zawiera&#263; w sobie section, article. Ka&#380;dy section, article mo&#380;e mie&#263; swoje footer.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Uwaga!
+    </p>
+    <p>
+      Nast&#281;puj&#261;ca konstrukcja:
+    </p>
+    <p>
+      &lt;footer&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&lt;h2&gt;Tytu&#322; stopki&lt;/h2&gt;
+    </p>
+    <p>
+      &lt;/footer&gt;
+    </p>
+    <p>
+      spowoduje &#380;e w outline pojawi si&#281; sekcja &quot;Tytu&#322; stopki&quot;(mimo tego &#380;e footer nie wzbogaca outline). Nale&#380;y rozwa&#380;y&#263; wa&#380;no&#347;&#263;. Je&#347;li umie&#347;cimy tam jakie&#347; wa&#380;ne informacje (np. noty prawne) to pewnie by&#347;my chcieli by znalaz&#322;y si&#281; one w outline, wtedy u&#380;ywamy Hx.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1484246823155" ID="ID_11451842" MODIFIED="1484246823155" TEXT=""/>
+</node>
+<node CREATED="1484246858800" ID="ID_961793756" MODIFIED="1484246879545" TEXT="header">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      UWAGA!
+    </p>
+    <p>
+      Nie jest elementem typu sectioning content, wi&#281;c nie wprowadza element&#243;w do OUTLINE
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1484247834955" ID="ID_539941058" MODIFIED="1484247879571" TEXT="aside">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Dodaje si&#281; do outline. Je&#347;li nie dodamy nag&#322;&#243;wka Hx, wtedy analogicznie jak w przypadku pozosta&#322;ych element&#243;w zarejestrowany zostanie jako untitled.
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
