@@ -1272,8 +1272,7 @@
       UWAGA! W hgroup mog&#261; znale&#378;&#263; si&#281; tylko elementy Hx.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1484246666342" ID="ID_1208269052" MODIFIED="1484246671628" TEXT="Cytowanie">
 <node CREATED="1484246672937" ID="ID_1022538119" MODIFIED="1484246741496" TEXT="q">
@@ -1286,8 +1285,7 @@
       najbardziej dowolny
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1484246677621" ID="ID_626138129" MODIFIED="1484246726272" TEXT="blockquote">
 <richcontent TYPE="NOTE"><html>
@@ -1299,8 +1297,7 @@
       najbardziej ustrukturyzowany, je&#347;li si&#281; go u&#380;yje nale&#380;y ustawi&#263; atrybut cite, a w nim wstawi&#263; url do &#378;r&#243;d&#322;a cytatu.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1484246683194" ID="ID_1973313480" MODIFIED="1484246684736" TEXT="cite"/>
 </node>
@@ -1344,8 +1341,7 @@
       spowoduje &#380;e w outline pojawi si&#281; sekcja &quot;Tytu&#322; stopki&quot;(mimo tego &#380;e footer nie wzbogaca outline). Nale&#380;y rozwa&#380;y&#263; wa&#380;no&#347;&#263;. Je&#347;li umie&#347;cimy tam jakie&#347; wa&#380;ne informacje (np. noty prawne) to pewnie by&#347;my chcieli by znalaz&#322;y si&#281; one w outline, wtedy u&#380;ywamy Hx.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1484246823155" ID="ID_11451842" MODIFIED="1484246823155" TEXT=""/>
 </node>
 <node CREATED="1484246858800" ID="ID_961793756" MODIFIED="1484246879545" TEXT="header">
@@ -1361,8 +1357,7 @@
       Nie jest elementem typu sectioning content, wi&#281;c nie wprowadza element&#243;w do OUTLINE
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1484247834955" ID="ID_539941058" MODIFIED="1484247879571" TEXT="aside">
 <richcontent TYPE="NOTE"><html>
@@ -1374,8 +1369,1200 @@
       Dodaje si&#281; do outline. Je&#347;li nie dodamy nag&#322;&#243;wka Hx, wtedy analogicznie jak w przypadku pozosta&#322;ych element&#243;w zarejestrowany zostanie jako untitled.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1496643506331" ID="ID_72960858" MODIFIED="1498208628054" POSITION="left" TEXT="JQuery">
+<arrowlink DESTINATION="ID_72960858" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_771826808" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_72960858" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_771826808" SOURCE="ID_72960858" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<node CREATED="1496643514617" ID="ID_756852457" MODIFIED="1496643688564" TEXT="Selektory">
+<node CREATED="1497444813994" ID="ID_1828636965" MODIFIED="1498208635046" TEXT="Podstawowe">
+<node CREATED="1496643618639" ID="ID_1590176896" MODIFIED="1496643618639">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="HTML5 CSS3_3665537505288052890.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1496643687083" ID="ID_1390573249" MODIFIED="1496643687083">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="HTML5 CSS3_2854470836009474457.jpeg" />
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1497441160160" ID="ID_368452929" MODIFIED="1497444865076" TEXT="Z&#x142;o&#x17c;one">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var lis = $(&quot;.rte ul &gt; li&quot;); ----&gt; wybierz te elementy li, kt&#243;re s&#261; bezpo&#347;rednio podleg&#322;e elementowi ul, kt&#243;ry le&#380;y w elemencie o klasie rte.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var pap = $(&quot;.rte p + p&quot;); ---&gt; wybierz te paragrafy, kt&#243;re znajduj&#261; si&#281; za paragrafem , w elemencie o klasie rte.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var paul = $(&quot;.rte ul ~ p&quot;); ---&gt; sibling paragrafy kt&#243;re s&#261; na tym samym poziomie co ul, ale znajduj&#261; si&#281; za nim i s&#261; w elemencie o klasie rte. ??? uwaga czym r&#243;&#380;ni si&#281; od poprzedniego ?
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var texts = $(&quot;.rte p, .rte ul, .rte .heading&quot;); ---&gt; wi&#281;ksza ilo&#347;&#263; element&#243;w oddzielone przecinkiem
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;$('[title]')--&gt; wybierz elementy kt&#243;re maj&#261; atrybut title
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;$(&quot;a[href='#']&quot;) --&gt; wybierz linki kt&#243;re s&#261; puste
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;var eduwebLinks = $(&quot;.rte a[href*='eduweb']&quot;); --&gt; ma atrybut zawieraj&#261;cy warto&#347;&#263; (*=)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var zoomLink = $(&quot;a[title~='Powi&#281;ksz']&quot;); --&gt; ma atrybut zawieraj&#261;cy warto&#347;&#263;, ale uwaga! u&#380;ycie tylda wymusza &#380;e musi on by&#263; oddzielony spacj&#261;(~=).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var pictureLink = $(&quot;a[href$='.jpg']&quot;); --&gt;&#160;te elementy kt&#243;rych atrybut href ko&#324;czy si&#281; na .jpg ($=)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var notBlank = $(&quot;a[href!='#']&quot;); ---&gt; te elementy kt&#243;re nie s&#261; puste (!=)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var outSide = $(&quot;a[href^='http']&quot;); ---&gt;&#160;&#160;te elementy kt&#243;rych atrybut href zaczyna si&#281; na http (^=)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      var notTitle=$(&quot;h2:not('.page-title')&quot;) --&gt; takie h2 kt&#243;re nie maj&#261; przypisanej klasy page-title
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var externalLinks = $(&quot;a[href^='http']&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var notTitle = $(&quot;h2:not('.page-title')&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var buttonDisabled = $(&quot;button:disabled&quot;);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1497444871992" ID="ID_240382522" LINK="https://api.jquery.com/category/selectors/" MODIFIED="1497950633307" TEXT="Niestandardowe (niewyst&#x119;puj&#x105;ce w CSS3)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (function($) {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;$(document).ready(function() {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var buttons = $(&quot;:button&quot;); -&gt; wybiera wszystkie elementy b&#281;d&#261;ce buttonami (niewa&#380;ne czy &lt;button&gt; czy &lt;input type=&quot;button&quot;/)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var contains = $(&quot;a:contains('minima')&quot;); --&gt; wybierze te linki kt&#243;re maj&#261; tekst minima np: &lt;a href=&quot;#&quot;&gt; test minima &lt;/a&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var secondLi = $(&quot;.rte ul li:eq(1)&quot;); --&gt; wybierz drugi element listy (drugi bo indeks od 0) znajduj&#261;cej si&#281; w elemencie o klasie rte
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;var oddLi = $(&quot;.rte ul li:odd&quot;); --&gt; wybierz elementy nieparzyste
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var evenLi = $(&quot;.rte ul li:even&quot;); --&gt;wybierz elementy parzyste
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var firstP = $(&quot;p:first&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var liWithLink = $(&quot;.rte li:has(a)&quot;); --&gt; tylko te elementy li kt&#243;re posiadaj&#261; a
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var liWithLink = $(&quot;.rte li:has(a[title])&quot;); --&gt; tylko te elementy li kt&#243;re posiadaj&#261; a z atrybutem title
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var headings = $(&quot;:header:parent(.rte)&quot;); --&gt;zwraca elementy h1:h6, a potem wybieramy te, kt&#243;rych rodzicem jest element o klasie rte
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;//znajd&#378; te linki kt&#243;rych atrybut href n ie jest r&#243;wny #
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var notBlankLinks=links.not(&quot;[href='#']&quot;)&#160;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var firstA=links.first();
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var thirdA=links.eq(2);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;mo&#380;na to zast&#261;pi&#263; w nast&#281;puj&#261;cy spos&#243;b:
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var thirdA=links.filter(&quot;:eq(2)&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var pA=$(&quot;p&quot;).has(&quot;a&quot;);&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;//wycina wszystkie elementy spe&#322;niaj&#261;ce dany selektor ale poza pierwszym
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var notFirstLink=$(&quot;.rte a&quot;).slice(1);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;headings.hl();
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;});
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      })(jQuery);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1497943042304" ID="ID_620736075" MODIFIED="1497958090624" TEXT="Filtrowanie elementu / metoda find/filter">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (function($) {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;$(document).ready(function() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;//element jest wybierany
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var rte = $(&quot;.rte&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;//zagl&#261;damy do &#347;rodka i wybieramy z niego wszystkie elementy a
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var links = rte.find(&quot;a&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;//tutaj operujemy na p&#322;askiej li&#347;cie, nie analizowane s&#261; elementy we wn&#281;trzu
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var externalLinks = links.filter(&quot;[href^='http']&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;//wi&#281;kszo&#347;&#263; funkcji potrafi przyj&#261;&#263; inn&#261; funkcj&#281; opar&#261; o iteracj&#281;. Pozwala to na budowanie bardziej z&#322;o&#380;onych warunk&#243;w kwalifikacji
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;// je&#347;li taka funkcja zwr&#243;ci true, element trafia do zbioru, je&#347;li false to nie trafia
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var longP = rte.find(&quot;p&quot;).filter(function(i, elem) {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return $(elem).text().length &gt; 100;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;});
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;longP.hl();
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;});
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      })(jQuery);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1497950665113" ID="ID_475985018" MODIFIED="1497958082916" TEXT="Filtrowanie hierarchiczne">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (function($) {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;$(document).ready(function() {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var ul = $(&quot;.rte ul&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //wyszukuje wszystkie dzieci typu li
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var lis = ul.children(&quot;li&quot;);
+    </p>
+    <p>
+      //mozna to zrobic inaczej
+    </p>
+    <p>
+      //var lis=ul.find(&quot;&gt;li&quot;) UWAGA! &#380;eby dosta&#263; bezpo&#347;rednie dzieci trzeba u&#380;y&#263; znaczka &gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var firstLi = lis.first();
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //element na tym samym poziomie posiadaj&#261;cy klas&#281; selected
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;firstLi.next(&quot;.selected&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //wszystkie elementy na tym samym poziomie co znaleziony
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var nextAll = firstLi.nextAll();
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //wszystkie kolejne na tym samym poziomie a&#380; do ostatniengo - nie wliczaj&#261;c go, nie wybrany zostanie r&#243;wnie&#380; element first
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var nextUntil = firstLi.nextUntil(&quot;:last-child&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //rodzic
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var parent = firstLi.parent();
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //wszystkich rodzic&#243;w a&#380; do samej g&#243;ry
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var parents = firstLi.parents();
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //zwr&#243;ci wszystkich rodzic&#243;w , a&#380; do napotkania elementu o klasie (bez niego)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var parentsUntil = firstLi.parentsUntil(&quot;.rte&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var closestDiv = firstLi.closest(&quot;div&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;});
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      })(jQuery);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1497441633659" ID="ID_229533313" MODIFIED="1497441650760" TEXT="sizzle.js - zaawansowane metody w modelu DOM"/>
+<node CREATED="1497950974004" ID="ID_1576619066" MODIFIED="1497950975904" TEXT="DOM">
+<node CREATED="1497950992499" ID="ID_1656297559" MODIFIED="1497951292169" TEXT="detach() vs remove()">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      remove() - usuwa element z drzewa DOM
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      detach() - usuwa element z drzewa DOM, ale nie jest on usuwany na trwa&#322;e, mo&#380;e zosta&#263; przywr&#243;cony
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1497958030250" ID="ID_1343889342" MODIFIED="1497958036054" TEXT="Zdarzenia">
+<node CREATED="1497958043978" ID="ID_1932598243" MODIFIED="1497958071638" TEXT="document.ready vs window.load">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (function($) {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;console.time(&quot;DOMContentLoaded&quot;);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;console.time(&quot;Window Loaded&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //zdarzenie load wywo&#322;ywane na obiekcie window wywo&#322;ywane jest wtedy gdy
+    </p>
+    <p>
+      //wszysko na stronie zostanie za&#322;adowane
+    </p>
+    <p>
+      &#160;&#160;&#160;
+    </p>
+    <p>
+      //obiekt window jest dost&#281;pny w js, ale &#380;eby nabra&#322; cech &quot;jQuery&quot;
+    </p>
+    <p>
+      //musi mu zosta&#263; nadany kontekst jQuery, dlatego u&#380;ywamy operatora $()
+    </p>
+    <p>
+      //pozwala to doda&#263; callbac do zdarzenia load
+    </p>
+    <p>
+      $(window).load(function() {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;console.timeEnd(&quot;Window Loaded&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;});
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //zdarzenie wywo&#322;ywane wtedy gdy wczytany zostanie model domain
+    </p>
+    <p>
+      //moze si&#281; zdarzy&#263; &#380;e struktura b&#281;dzie ju&#380; wczytana ale nie zostanie za&#322;adowany content (np. obrazek do diva)
+    </p>
+    <p>
+      //je&#347;li w funkcji spr&#243;bujemy sprawdzi&#263; ile div ma wysoko&#347;ci to wyjdzie nam &#380;e 0
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;$(document).ready(function() {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;console.timeEnd(&quot;DOMContentLoaded&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;});
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      })(jQuery);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1497958203847" ID="ID_1221410564" MODIFIED="1497958215795" TEXT="Przypisywanie zdarze&#x144;">
+<node CREATED="1497958240405" ID="ID_1499335783" MODIFIED="1497958809668" TEXT="Przez funkcj&#x119; reprezentuj&#x105;c&#x105; zdarzenie">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (function($) {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;$(document).ready(function() {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;$(&quot;li&quot;).click(function() {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;alert(&quot;Klikni&#281;ty!&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;});
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;});
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      })(jQuery);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      WADA! Metody tylko dla niekt&#243;rych zdarze&#324;!
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1497958252534" ID="ID_1071939328" MODIFIED="1497959243517" TEXT="Przez metod&#x119; bind">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (function($) {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;$(document).ready(function() {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;$(&quot;#button&quot;).bind(&quot;click&quot;, function() {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;alert(&quot;Klikni&#281;ty!&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;});
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;});
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      })(jQuery);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mamy dost&#281;pne wszystkie zdarzenia. Jest to tylko nak&#322;adka na metod&#281; on().
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1497958259685" ID="ID_1894637382" MODIFIED="1497959169854" TEXT="Przez metod&#x119; on">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (function($) {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;$(document).ready(function() {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;//alert wy&#347;wietli si&#281; w dw&#243;ch sytuacjach , po dwukliku , i po prawym przycisku
+    </p>
+    <p>
+      &#160;&#160;$(&quot;#button&quot;).on(&quot;dblclick contextmenu&quot;, function() {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;alert(&quot;Klikni&#281;ty!&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;});
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;});
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      })(jQuery);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Metoda pozwala na wi&#281;ksz&#261; kontrol&#281;, po spacji mo&#380;na doda&#263; wiele zdarze&#324;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mo&#380;na r&#243;wnie&#380; przypisywa&#263; r&#243;&#380;ne funkcje do r&#243;&#380;nych zdarze&#324;.
+    </p>
+    <p>
+      Wtedy jako parametr podajes si&#281; obiekt json , ograniczony przez {}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;$(&quot;#button&quot;).on({
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;dblclick&quot;: function() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;alert(&quot;Klikni&#281;ty dwukrotnie!&quot;);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;},
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&quot;contextmenu&quot;: function() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;alert(&quot;Klikni&#281;ty prawym przyciskiem!&quot;);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;});
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mo&#380;liwe jest te&#380; &#322;&#261;czenie &#322;a&#324;cuchowe:
+    </p>
+    <p>
+      &#160;$(&quot;#button&quot;).on(&quot;click&quot;, fn).on(&quot;dbllick&quot;, fn2);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //Mo&#380;liwe jest te&#380; definiowanie zdarze&#324; kt&#243;re wywo&#322;aj&#261; si&#281; tylko raz:
+    </p>
+    <p>
+      $(&quot;#button&quot;).one(&quot;click&quot;, function() {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;console.log( $(this) );
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;});
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1497959756078" ID="ID_666265965" MODIFIED="1497960301625" TEXT="Od&#x142;&#x105;czanie zdarze&#x144; - off">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (function($) {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;$(document).ready(function() {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;function message() {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;alert(&quot;Klikni&#281;ty!&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;$(this).off(&quot;click&quot;, message);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;//uwaga! je&#347;li jako callback podana jest funkcja anonimowa to odbindowaniu usuni&#281;te zostan&#261; wszystkie callbacki
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// $(&quot;#button&quot;).bind(&quot;click&quot;, function() {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;//&#160;&#160;&#160;&#160;&#160;alert(&quot;Klini&#281;ty!&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;//&#160;&#160;&#160;&#160;&#160;$(this).unbind(&quot;click&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// });
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //ten spos&#243;b u suwa tylko jedn&#261; funkcj&#281;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;$(&quot;#button&quot;).on(&quot;click&quot;, message).on(&quot;click&quot;, function() {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;alert(&quot;Zupe&#322;nie inna funkcja!&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;});
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;});
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      })(jQuery);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1497960463482" ID="ID_1689406080" MODIFIED="1498208597001" TEXT="Delegacja zdarze&#x144;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Delegacja zdarze&#324; dotyczy tych element&#243;w, kt&#243;re jeszcze nie istniej&#261; w momencie &#322;adowania si&#281; dokumentu.
+    </p>
+    <p>
+      Uwaga, je&#347;li dochodzi&#263; b&#281;d&#261; elementy listy li, to delegowane zdarzenie dodaje si&#281; do parenta, czyli ul,
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (function($) {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;$(document).ready(function() {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var ul = $(&quot;.rte ul&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ul.on(&quot;click&quot;, &quot;li&quot;, function() {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;console.log(&quot;Klikni&#281;te li numer: &quot; + $(this).index());
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;});
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;//usuwamy, ale TYLKO zdarzenia delegowane, nie usuwamy zdarze&#324; niedelegowanych.&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;ul.off(&quot;click&quot;, &quot;**&quot;);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;});
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      })(jQuery);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mo&#380;na u&#380;y&#263; r&#243;wnie&#380; dedykowanych metod delegate/undelegate.
+    </p>
+    <p>
+      &#160;// ul.delegate(&quot;li&quot;, &quot;click&quot;, function() {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;//&#160;&#160;&#160;&#160;&#160;console.log(&quot;Klikni&#281;te li numer: &quot; + $(this).index());
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// });
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// ul.undelegate(&quot;click&quot;);
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1497444925191" ID="ID_1745060325" MODIFIED="1497958083423" TEXT="Funkcja anonimowa jQuery - ograniczenie zasi&#x119;gu zmiennych">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      (function($) {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;$(document).ready(function() {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;});
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      })(jQuery);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Funkcja anonimowa ma zapewni&#263; separacj&#281; zmiennych. Wszystko co u&#380;yjemy poza funkcj&#261; ma zasi&#281;g globalny. W argumencie przyjmuje $, i UWAGA podlega autowywo&#322;aniu, robi to kod &quot;(jQuery)&quot; . W parametrze przekazuje si&#281; kontekst JQuery w spos&#243;b jawny, w
+    </p>
+    <p>
+      ten spos&#243;b zapewniamy sobie &#380;e wewn&#261;trz funkcji wywo&#322;anie $() b&#281;dzie r&#243;wnoznaczne z&#160;&#160;u&#380;yciem jQuery(). Jest to bardzo wa&#380;ne bo na stronie mo&#380;emy mie&#263; inn&#261; bibliotek&#281;, do kt&#243;rej odwo&#322;ujemy si&#281; przez $.
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
