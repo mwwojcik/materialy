@@ -1,0 +1,73 @@
+node-js -> środowisko uruchomieniowe Javascipt
+npm --version -> wersja instalatora pakietów node
+node --version -> wersja node
+
+
+npm install -> pobiera pakiety na podstawie package.json
+npm run start -> uruchamia projekt
+
+angular-cli -> klient angularowy 
+instalowanie globalnego klienta angulara
+mozna zainstalować całą strukturę projektu
+
+npm install -g @angular/cli
+instaluje klienta angular cli globalnie,
+poza projektem poza node-modules.
+teraz można w dowolnym miejscu uruchamiać polecenie:
+
+ng
+
+uruchamianie projektu przy pomocy ng:
+ng serve -> uruchamiamy w katalogu projektu
+
+uruchamiany jest standardowy serwer na porcie 4200
+
+ng new nazwa_projektu -> tworzy nowy projekt angular
+
+npm install -> kompiluje stworzony program
+
+
+npm install --save bootstrap@4.0.0-alpha.5
+instaluje do projektu biblioteke bootstrap w danej wersji
+--save powoduje że zostaje zapisane w package.json
+
+angular-cli.json - plik sterujący, stanowiący instruktaż dla cli w jaki sposób
+budować pliki wynikowe. Np aby dołączyć bootstrap do index.html należy zmodyfikować sekcję styles.
+"../node_modules/bootstrap/dist/css/bootstrap-flex.css"
+UWAGA należy wyłączyć serwer
+
+w sekcji script można zamieścić biblioteki javascript
+
+Binding zmiennych:
+app.component.ts
+export class AppComponent {
+  title = 'Witaj w kursie mw';
+  zmienna='Hello moja zmienna testowa';
+  test='Test';
+
+  lista={
+    nazwa:"Moja lista",
+    liczbaUtworow:40,
+    kolor:"#FF0000",
+    ulubione:true
+  }
+}
+app.component.html
+<input type="number" [value]="lista.liczbaUtworow" class="form-control">
+<input type="checkbox" [checked]="lista.ulubione">
+
+
+Podłączenie zdarzenia pod przycisk:
+<button class="btn btn-success float-xs-right" (click)="save($event)">Zapisz</button>
+wywołuje metodę save(event) w komponencie:
+ save(event){
+    console.log('Zapisano',event);
+  }
+  
+  keyup -> propagacja wartości inputa poza formularz
+  <input type="text" [value]="lista.nazwa" (keyup)="lista.nazwa=$event.target.value"  class="form-control">
+   <td>{{lista.nazwa}} </td>
+   
+   
+   Dyrektywy do zarządzania stylami/klasami css
+   ngClass i ngStyle lekcje 11:15
