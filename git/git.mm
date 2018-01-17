@@ -39,8 +39,7 @@
       Spowoduje zapis takiego skr&#243;tu w katalogu .git/objects
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1516179402707" ID="ID_822086018" MODIFIED="1516179452746" TEXT="git cat-file -p hashcode">
 <richcontent TYPE="NOTE"><html>
@@ -52,8 +51,7 @@
       wylistuje zawarto&#347;&#263; pliku identyfikowanego przez danego hasha (a wi&#281;c w danej wersji)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1516178469010" ID="ID_1655235639" MODIFIED="1516178648760" TEXT="Konfiguracja">
@@ -92,8 +90,7 @@
       sprawdza status repozytorium
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1516180494127" ID="ID_1393219814" MODIFIED="1516184574035" TEXT="git add plik.txt">
 <richcontent TYPE="NOTE"><html>
@@ -117,8 +114,7 @@
       git add *txt
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1516180503343" ID="ID_1831321927" MODIFIED="1516187252643" TEXT="git commit -m &quot;zmieniono&quot;">
 <richcontent TYPE="NOTE"><html>
@@ -133,10 +129,9 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1516180521551" ID="ID_545998005" MODIFIED="1516185276755" TEXT="git log">
+<node CREATED="1516180521551" ID="ID_545998005" MODIFIED="1516212580642" TEXT="git log">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -147,6 +142,81 @@
     </p>
     <p>
       --format=full
+    </p>
+    <p>
+      Domy&#347;lnie wy&#347;wietla list&#281; ostatnich zmian.
+    </p>
+    <p>
+      git log --oneline -&gt; wersja skr&#243;cona
+    </p>
+    <p>
+      git log --format=short
+    </p>
+    <p>
+      git log --format=medium
+    </p>
+    <p>
+      git log --format=full
+    </p>
+    <p>
+      git log --format=fuller
+    </p>
+    <p>
+      git log --format=&quot;Commit %s (%h) %an&quot; - dowolny ci&#261;g formatuj&#261;cy (s-message,h-hash,an-autor)
+    </p>
+    <p>
+      git log --help&#160;&#160;-&gt; 'PRETTY FORMATS' - lista placeholder-&#243;w
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git log -n 2 -&gt; 2 pierwsze wyniki
+    </p>
+    <p>
+      git log -4 -&gt; skr&#243;cona wersja - pierwsze 4 wyniki
+    </p>
+    <p>
+      git log -2 --skip 2-&gt;przesuwa &quot;okno&quot;
+    </p>
+    <p>
+      git log --before=2017-03-10
+    </p>
+    <p>
+      git log --after=2017-03-10
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git log --after=&quot;2017-03-10T15:00:00&quot;
+    </p>
+    <p>
+      git log --after=&quot;1 week, 5 days ago&quot; -&gt; przecinek rozdziela elementy
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git log --author=Mariusz -&gt; uwaga regexp
+    </p>
+    <p>
+      git log --committer=Mariusz
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git log -- logs -&gt; &quot;dwie kreski&quot; pokazuje tylko commity dotycz&#261;ce kagalogu logs
+    </p>
+    <p>
+      git log --grep &quot;Witaj&quot; -&gt; grep szuka po message
+    </p>
+    <p>
+      git log -grep &quot;witaj&quot; -i -&gt; ignorecase
+    </p>
+    <p>
+      git log -G &quot;Wita.*&quot; -&gt; z opcj&#261; stosowania regexp
     </p>
   </body>
 </html>
@@ -163,8 +233,7 @@
       Poprawia ostatni komentarz commit
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1516186760065" ID="ID_515091438" MODIFIED="1516189625778" TEXT="git checkout">
 <richcontent TYPE="NOTE"><html>
@@ -194,8 +263,7 @@
       Pobiera ostatni&#261; wersj&#281; i przywraca do kopii roboczej.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1516187018188" ID="ID_40071250" MODIFIED="1516189399713" TEXT="git reset">
 <richcontent TYPE="NOTE"><html>
@@ -219,8 +287,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1516189278525" ID="ID_658116179" MODIFIED="1516190073271" TEXT="git rm">
 <richcontent TYPE="NOTE"><html>
@@ -280,8 +347,7 @@
       Mo&#380;na r&#243;wnie&#380; usun&#261;&#263; plik z systemu plik&#243;w, wtedy zostanie automatycznie oznaczony jako deleted. Je&#347;li zrobimy reset to operacj&#281; te mo&#380;na doda&#263; ponownie przez git add, wtedy w indeksie pojawi si&#281; jako deleted.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1516190081270" ID="ID_1751979189" MODIFIED="1516190272094" TEXT="git mv notatki/nazwa1.txt notatki/nazwa2.txt">
 <richcontent TYPE="NOTE"><html>
@@ -299,11 +365,23 @@
       Op&#322;aca si&#281; u&#380;ywa&#263; bo dla du&#380;ych plik&#243;w przeniesienie w systemie plik&#243;w spowoduje utworzenie kopii, co zajmie miejsce. Przy rename dla pliku nie tworzona jest kopia w historii. Rename pozwala r&#243;wnie&#380; zachowa&#263; ci&#261;g&#322;o&#347;&#263; historii.
     </p>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1516211430237" ID="ID_1287350650" MODIFIED="1516211456965" TEXT="git show">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Pokazuje szczeg&#243;&#322;owe informacje
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
 </node>
-<node CREATED="1516193976867" ID="ID_165376124" MODIFIED="1516194622267" TEXT=".gitignore">
+<node CREATED="1516193976867" ID="ID_165376124" MODIFIED="1516212788476" TEXT="Ignorowanie plik&#xf3;w.gitignore">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -376,9 +454,9 @@
       !logs/specjalny.log -&gt; wy&#322;&#261;czenie (zaprzeczenie cz&#281;&#347;ci regu&#322;y)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
+<node CREATED="1516212768893" ID="ID_730445367" MODIFIED="1516212806878" TEXT="Por&#xf3;wnywanie zawarto&#x15b;ci git diff"/>
 </node>
 </node>
 </map>
