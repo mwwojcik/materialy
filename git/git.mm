@@ -131,97 +131,6 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1516180521551" ID="ID_545998005" MODIFIED="1516212580642" TEXT="git log">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Podgl&#261;da histori&#281; zmian
-    </p>
-    <p>
-      --format=full
-    </p>
-    <p>
-      Domy&#347;lnie wy&#347;wietla list&#281; ostatnich zmian.
-    </p>
-    <p>
-      git log --oneline -&gt; wersja skr&#243;cona
-    </p>
-    <p>
-      git log --format=short
-    </p>
-    <p>
-      git log --format=medium
-    </p>
-    <p>
-      git log --format=full
-    </p>
-    <p>
-      git log --format=fuller
-    </p>
-    <p>
-      git log --format=&quot;Commit %s (%h) %an&quot; - dowolny ci&#261;g formatuj&#261;cy (s-message,h-hash,an-autor)
-    </p>
-    <p>
-      git log --help&#160;&#160;-&gt; 'PRETTY FORMATS' - lista placeholder-&#243;w
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      git log -n 2 -&gt; 2 pierwsze wyniki
-    </p>
-    <p>
-      git log -4 -&gt; skr&#243;cona wersja - pierwsze 4 wyniki
-    </p>
-    <p>
-      git log -2 --skip 2-&gt;przesuwa &quot;okno&quot;
-    </p>
-    <p>
-      git log --before=2017-03-10
-    </p>
-    <p>
-      git log --after=2017-03-10
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      git log --after=&quot;2017-03-10T15:00:00&quot;
-    </p>
-    <p>
-      git log --after=&quot;1 week, 5 days ago&quot; -&gt; przecinek rozdziela elementy
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      git log --author=Mariusz -&gt; uwaga regexp
-    </p>
-    <p>
-      git log --committer=Mariusz
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      git log -- logs -&gt; &quot;dwie kreski&quot; pokazuje tylko commity dotycz&#261;ce kagalogu logs
-    </p>
-    <p>
-      git log --grep &quot;Witaj&quot; -&gt; grep szuka po message
-    </p>
-    <p>
-      git log -grep &quot;witaj&quot; -i -&gt; ignorecase
-    </p>
-    <p>
-      git log -G &quot;Wita.*&quot; -&gt; z opcj&#261; stosowania regexp
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
 <node CREATED="1516184410107" ID="ID_802941821" MODIFIED="1516184443678" TEXT="git init lub git init nazwa_katalogu"/>
 <node CREATED="1516185076950" ID="ID_583320997" MODIFIED="1516185139813" TEXT="git commit --amend">
 <richcontent TYPE="NOTE"><html>
@@ -456,7 +365,167 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1516212768893" ID="ID_730445367" MODIFIED="1516212806878" TEXT="Por&#xf3;wnywanie zawarto&#x15b;ci git diff"/>
+<node CREATED="1516212768893" ID="ID_730445367" MODIFIED="1516212806878" TEXT="Por&#xf3;wnywanie zawarto&#x15b;ci git diff">
+<node CREATED="1516214878497" ID="ID_183758386" MODIFIED="1516215672596" TEXT="git diff">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Por&#243;wnanie ostatniej zapami&#281;tanej wersji a wersj&#261; robocz&#261;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      UWAGA! Por&#243;wnujemy nie z ostatnim commitem tylko z wersj&#261; zgodn&#261; z ostatnim indeksem.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git diff --cached -&gt; por&#243;wnuje wersj&#281; robocz&#261; z ostatnim commitem
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git diff notatki/ -&gt; zmiany w katalogu notatki
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git diff notatki/notatka.txt -&gt; tylko w jednym pliku
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git diff --no-index witaj.txt notatka.txt -&gt; por&#243;wnaj bezpo&#347;rednio dwa wskazane pliki
+    </p>
+    <p>
+      git diff witaj.txt notatka.txt -&gt; por&#243;wnaj wersje robocze wskazanych plik&#243;w z ich zaindeksowanymi zmianami
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git diff --stat -&gt; kr&#243;tka informacja o tym co si&#281; zmieni&#322;o, nie pokazuje ca&#322;ej zawarto&#347;ci
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1516213523115" ID="ID_314629976" MODIFIED="1516213528997" TEXT="Przegl&#x105;danie historii">
+<node CREATED="1516180521551" ID="ID_545998005" MODIFIED="1516212580642" TEXT="git log">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Podgl&#261;da histori&#281; zmian
+    </p>
+    <p>
+      --format=full
+    </p>
+    <p>
+      Domy&#347;lnie wy&#347;wietla list&#281; ostatnich zmian.
+    </p>
+    <p>
+      git log --oneline -&gt; wersja skr&#243;cona
+    </p>
+    <p>
+      git log --format=short
+    </p>
+    <p>
+      git log --format=medium
+    </p>
+    <p>
+      git log --format=full
+    </p>
+    <p>
+      git log --format=fuller
+    </p>
+    <p>
+      git log --format=&quot;Commit %s (%h) %an&quot; - dowolny ci&#261;g formatuj&#261;cy (s-message,h-hash,an-autor)
+    </p>
+    <p>
+      git log --help&#160;&#160;-&gt; 'PRETTY FORMATS' - lista placeholder-&#243;w
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git log -n 2 -&gt; 2 pierwsze wyniki
+    </p>
+    <p>
+      git log -4 -&gt; skr&#243;cona wersja - pierwsze 4 wyniki
+    </p>
+    <p>
+      git log -2 --skip 2-&gt;przesuwa &quot;okno&quot;
+    </p>
+    <p>
+      git log --before=2017-03-10
+    </p>
+    <p>
+      git log --after=2017-03-10
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git log --after=&quot;2017-03-10T15:00:00&quot;
+    </p>
+    <p>
+      git log --after=&quot;1 week, 5 days ago&quot; -&gt; przecinek rozdziela elementy
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git log --author=Mariusz -&gt; uwaga regexp
+    </p>
+    <p>
+      git log --committer=Mariusz
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git log -- logs -&gt; &quot;dwie kreski&quot; pokazuje tylko commity dotycz&#261;ce kagalogu logs
+    </p>
+    <p>
+      git log --grep &quot;Witaj&quot; -&gt; grep szuka po message
+    </p>
+    <p>
+      git log -grep &quot;witaj&quot; -i -&gt; ignorecase
+    </p>
+    <p>
+      git log -G &quot;Wita.*&quot; -&gt; z opcj&#261; stosowania regexp
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1516216317668" ID="ID_1274014106" MODIFIED="1516216411018" TEXT="Przywracanie ostatni&#x105;zapisan&#x105; wersj&#x119;">
+<node CREATED="1516216412278" ID="ID_1994576626" MODIFIED="1516216451435" TEXT="git checkout">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Przywracamy ostatni&#261; zapisan&#261; wersj&#281;, nadpisujemy wszystkie niezapisane zmiany
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </map>
