@@ -512,7 +512,7 @@
 </node>
 </node>
 <node CREATED="1516216317668" ID="ID_1274014106" MODIFIED="1516216411018" TEXT="Przywracanie ostatni&#x105;zapisan&#x105; wersj&#x119;">
-<node CREATED="1516216412278" ID="ID_1994576626" MODIFIED="1516216451435" TEXT="git checkout">
+<node CREATED="1516216412278" ID="ID_1994576626" MODIFIED="1516219085824" TEXT="git checkout">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -520,6 +520,12 @@
   <body>
     <p>
       Przywracamy ostatni&#261; zapisan&#261; wersj&#281;, nadpisujemy wszystkie niezapisane zmiany
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mo&#380;na r&#243;wnie&#380; wskaza&#263; rewizj&#281; do kt&#243;rej chcemy si&#281; cofn&#261;&#263;..
     </p>
   </body>
 </html>
