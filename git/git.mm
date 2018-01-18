@@ -286,11 +286,10 @@
       Pokazuje szczeg&#243;&#322;owe informacje
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1516193976867" ID="ID_165376124" MODIFIED="1516212788476" TEXT="Ignorowanie plik&#xf3;w.gitignore">
+<node CREATED="1516193976867" ID="ID_165376124" MODIFIED="1516261835267" TEXT="Ignorowanie plik&#xf3;w.gitignore">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -363,7 +362,8 @@
       !logs/specjalny.log -&gt; wy&#322;&#261;czenie (zaprzeczenie cz&#281;&#347;ci regu&#322;y)
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1516212768893" ID="ID_730445367" MODIFIED="1516212806878" TEXT="Por&#xf3;wnywanie zawarto&#x15b;ci git diff">
 <node CREATED="1516214878497" ID="ID_183758386" MODIFIED="1516215672596" TEXT="git diff">
@@ -415,8 +415,7 @@
       git diff --stat -&gt; kr&#243;tka informacja o tym co si&#281; zmieni&#322;o, nie pokazuje ca&#322;ej zawarto&#347;ci
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1516213523115" ID="ID_314629976" MODIFIED="1516213528997" TEXT="Przegl&#x105;danie historii">
@@ -511,8 +510,8 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1516216317668" ID="ID_1274014106" MODIFIED="1516216411018" TEXT="Przywracanie ostatni&#x105;zapisan&#x105; wersj&#x119;">
-<node CREATED="1516216412278" ID="ID_1994576626" MODIFIED="1516219085824" TEXT="git checkout">
+<node CREATED="1516216317668" ID="ID_1274014106" MODIFIED="1516267529794" TEXT="Przywracanie poprzedniejzapisanej wersji">
+<node CREATED="1516216412278" ID="ID_1994576626" MODIFIED="1516263243554" TEXT="git checkout">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -526,6 +525,81 @@
     </p>
     <p>
       Mo&#380;na r&#243;wnie&#380; wskaza&#263; rewizj&#281; do kt&#243;rej chcemy si&#281; cofn&#261;&#263;..
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git checkout HEAD - ostatni commit na naszej ga&#322;&#281;zi master
+    </p>
+    <p>
+      git checkout HEAD witaj.txt -&gt; przywr&#243;cenie z ostatniego commita na ga&#322;&#281;zi master pliku witaj.txt
+    </p>
+    <p>
+      git checkout 65gfgfgfg witaj.txt -&gt; przywr&#243;cenie z rewizji 65gf... pliku witaj.txt
+    </p>
+    <p>
+      git checkout HEAD~3 notatki -&gt; katalog notatki wraca do wersji sprzed 3 ostatnich commit&#243;w
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1516265853698" ID="ID_1362628624" MODIFIED="1516265869884" TEXT="Wycofywanie zmian z konkretnej rewizji i commit">
+<node CREATED="1516265871695" ID="ID_655290019" MODIFIED="1516266805417" TEXT="git revert">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Przyk&#322;ad w commicie abc11 w pliku witaj.txt wyrzucone zosta&#322;y dwie linie, a dodana jedna.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Chcemy przygotowa&#263; commita odwracaj&#261;cego t&#281; zmian&#281;. Wyrzucona musi zosta&#263; jedna a dodane dwie usuni&#281;te.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git revert abc11 -&gt; UWAGA! Polecenie to wykonuje COMMIT. Nie wycofuje zmian, wylko wykonuje modyfikacj&#281; odwrotn&#261; do wybranego commita.&#160; Sprawia wra&#380;enie &#380;e commit nigdy si&#281; nie wydarzy&#322;.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1516267533303" ID="ID_270237738" MODIFIED="1516267539931" TEXT="Modyfikacja historii">
+<node CREATED="1516267541862" ID="ID_1951126445" MODIFIED="1516269689300" TEXT="git reset">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Pozwala zmodyfikowa&#263; istniej&#261;ce commity
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Dodajemy zmian&#281;. Status pokazuje zmian&#281; w pliku. git status pokazuje&#160;&#160;&#380;e mamy zmodyfikowany plik, ale nie jest zapisany, trzeba wykona&#263; git add co spowoduje &#380;e informacja o zmianie zostanie dodana do indeksu.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git reset HEAD witaj.txt -&gt; z comita kt&#243;ry jest HEADem naszego brancha chc&#281; przywr&#243;ci&#263; do indeksu plik witaj.txt
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Pozwala wybra&#263; wcze&#347;niejsze wersje plik&#243;w i ustawi&#263; je w indeksie. Wszystko co wcze&#347;niej znajdowa&#322;o si&#281; w indeksie
     </p>
   </body>
 </html>
