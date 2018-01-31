@@ -362,8 +362,7 @@
       !logs/specjalny.log -&gt; wy&#322;&#261;czenie (zaprzeczenie cz&#281;&#347;ci regu&#322;y)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1516212768893" ID="ID_730445367" MODIFIED="1516212806878" TEXT="Por&#xf3;wnywanie zawarto&#x15b;ci git diff">
 <node CREATED="1516214878497" ID="ID_183758386" MODIFIED="1516215672596" TEXT="git diff">
@@ -511,7 +510,7 @@
 </node>
 </node>
 <node CREATED="1516216317668" ID="ID_1274014106" MODIFIED="1516267529794" TEXT="Przywracanie poprzedniejzapisanej wersji">
-<node CREATED="1516216412278" ID="ID_1994576626" MODIFIED="1516263243554" TEXT="git checkout">
+<node CREATED="1516216412278" ID="ID_1994576626" MODIFIED="1517434305357" TEXT="git checkout">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -541,32 +540,44 @@
     <p>
       git checkout HEAD~3 notatki -&gt; katalog notatki wraca do wersji sprzed 3 ostatnich commit&#243;w
     </p>
+    <p>
+      
+    </p>
+    <p>
+      Wybiera pliki z wcze&#347;niejszych wersji i ustawia je w katalogu roboczym.
+    </p>
   </body>
 </html>
 </richcontent>
 </node>
 </node>
 <node CREATED="1516265853698" ID="ID_1362628624" MODIFIED="1516265869884" TEXT="Wycofywanie zmian z konkretnej rewizji i commit">
-<node CREATED="1516265871695" ID="ID_655290019" MODIFIED="1516266805417" TEXT="git revert">
+<node CREATED="1516265871695" ID="ID_655290019" MODIFIED="1517433901309" TEXT="git revert">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      Przyk&#322;ad w commicie abc11 w pliku witaj.txt wyrzucone zosta&#322;y dwie linie, a dodana jedna.
+      <font size="2">Przyk&#322;ad w commicie abc11 w pliku witaj.txt wyrzucone zosta&#322;y dwie linie, a dodana jedna. </font>
     </p>
     <p>
       
     </p>
     <p>
-      Chcemy przygotowa&#263; commita odwracaj&#261;cego t&#281; zmian&#281;. Wyrzucona musi zosta&#263; jedna a dodane dwie usuni&#281;te.
+      <font size="2">Chcemy przygotowa&#263; commita odwracaj&#261;cego t&#281; zmian&#281;. Wyrzucona musi zosta&#263; jedna a dodane dwie usuni&#281;te. </font>
     </p>
     <p>
       
     </p>
     <p>
-      git revert abc11 -&gt; UWAGA! Polecenie to wykonuje COMMIT. Nie wycofuje zmian, wylko wykonuje modyfikacj&#281; odwrotn&#261; do wybranego commita.&#160; Sprawia wra&#380;enie &#380;e commit nigdy si&#281; nie wydarzy&#322;.
+      <font size="2">git revert abc11 -&gt; UWAGA! Polecenie to wykonuje COMMIT. Nie wycofuje zmian, wylko wykonuje modyfikacj&#281; odwrotn&#261; do wybranego commita.&#160;&#160;Sprawia wra&#380;enie &#380;e commit nigdy si&#281; nie wydarzy&#322;. </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="2">Git revert na zmianie x powoduje przygotowanie nowej zmiany, kt&#243;ra jest odwrotno&#347;ci&#261; zmiany X. </font>
     </p>
   </body>
 </html>
@@ -574,32 +585,91 @@
 </node>
 </node>
 <node CREATED="1516267533303" ID="ID_270237738" MODIFIED="1516267539931" TEXT="Modyfikacja historii">
-<node CREATED="1516267541862" ID="ID_1951126445" MODIFIED="1516269689300" TEXT="git reset">
+<node CREATED="1516267541862" ID="ID_1951126445" MODIFIED="1517435692412" TEXT="git reset">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      Pozwala zmodyfikowa&#263; istniej&#261;ce commity
+      <font size="2">Pozwala zmodyfikowa&#263; istniej&#261;ce commity . W odr&#243;&#380;nieniu od revert i checkout, kt&#243;re dzia&#322;aj&#261; na katalogach roboczych, reset dzia&#322;a na indeksie.</font>
     </p>
     <p>
       
     </p>
     <p>
-      Dodajemy zmian&#281;. Status pokazuje zmian&#281; w pliku. git status pokazuje&#160;&#160;&#380;e mamy zmodyfikowany plik, ale nie jest zapisany, trzeba wykona&#263; git add co spowoduje &#380;e informacja o zmianie zostanie dodana do indeksu.
+      <font size="2">Dodajemy zmian&#281;. Status pokazuje zmian&#281; w pliku. git status pokazuje&#160;&#160;&#380;e mamy zmodyfikowany plik, ale nie jest zapisany, trzeba wykona&#263; git add co spowoduje &#380;e informacja o zmianie zostanie dodana do indeksu. </font>
     </p>
     <p>
       
     </p>
     <p>
-      git reset HEAD witaj.txt -&gt; z comita kt&#243;ry jest HEADem naszego brancha chc&#281; przywr&#243;ci&#263; do indeksu plik witaj.txt
+      <font size="2">git reset HEAD witaj.txt -&gt; z comita kt&#243;ry jest HEADem naszego brancha chc&#281; przywr&#243;ci&#263; do indeksu plik witaj.txt </font>
     </p>
     <p>
       
     </p>
     <p>
-      Pozwala wybra&#263; wcze&#347;niejsze wersje plik&#243;w i ustawi&#263; je w indeksie. Wszystko co wcze&#347;niej znajdowa&#322;o si&#281; w indeksie
+      <font size="2">Pozwala wybra&#263; wcze&#347;niejsze wersje plik&#243;w i ustawi&#263; je w indeksie. Wszystko co wcze&#347;niej znajdowa&#322;o si&#281; w indeksie zostaje wrzucone do katalogu roboczego. </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Dzi&#281;ki temu nie tracimy zmian. Plik z historii trafia do indeksu, zmiany umieszczane zostaj&#261; w katalog roboczym..
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Przyk&#322;ad dzia&#322;ania:
+    </p>
+    <p>
+      git reset HEAD~2 witaj.txt -&gt; pobiera plik witaj.txt z rewizji HEAD-2 i trafia on do indeksu (UWAGA! w odr&#243;&#380;nieniu od checkout wersja pliku na dysku pozostaje niezmieniona!!!, otwieraj&#261;c go w edytorze widzimy to co by&#322;o przed wykonaniem reset)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git status -&gt; pokazuje &#380;e witaj.txt trafi&#322; do indeksu.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git diff witaj.txt -&gt; Por&#243;wnuje kopi&#281; robocz&#261; ale UWAGA nie z ostanim commitem tylko z ostatnim indeksem, a tam znajduje si&#281; wersja przywr&#243;cona przez reset!!
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Teraz uwaga! git status pokazuje &#380;e plik witaj.txt jest gotowy do commita (a wi&#281;c jest w indeksie), jak i ma zmiany lokalne.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Teraz mamy kilka opcji.
+    </p>
+    <ol>
+      <li>
+        Wykonanie git add witaj.txt spowoduje nadpisanie indeksu (a wi&#281;c tego co przywr&#243;ci&#322;o reset) zmianami lokalnymi.
+      </li>
+      <li>
+        Nadpisanie wersji lokalnej, do tego wykorzystujemy git checkout, &quot;git checkout -- witaj.txt&quot; -&gt; spowoduje pobranie ostatniej zapisanej wersji i zamian&#281; kopii lokalnej, ale uwaga! ta &quot;ostatnia&quot; wersja b&#281;dzie nie z HEAD, nie z ostatniego commita, ale z tego co jest w indeksie, czyli tego co jest wynikiem dzia&#322;ania reset.
+      </li>
+      <li>
+        Ca&#322;kowite pozbycie si&#281; zmian i to zar&#243;wno z kopii lokalnej jak i z indeksu &quot;git checkout HEAD witaj.txt&quot;
+      </li>
+      <li>
+        Przywr&#243;cenie indeksu do stanu r&#243;wnego z ostatnim commitem - powoduje &#380;e w indeksie nie ma &#380;adnej zmiany &quot;git reset HEAD witaj.txt&quot;
+      </li>
+    </ol>
+    <p>
+      Wynik reset na ca&#322;ym commicie dotycz&#261;cym wielu plik&#243;w (13:07)
+    </p>
+    <p>
+      
     </p>
   </body>
 </html>
