@@ -1,10 +1,10 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1516178361161" ID="ID_1497598541" MODIFIED="1516178960943" TEXT="System Kontroli wersji GIT">
+<node BACKGROUND_COLOR="#ff9933" CREATED="1516178361161" ID="ID_1497598541" MODIFIED="1517480421160" TEXT="System Kontroli wersji GIT">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1516178844372" ID="ID_1943665698" MODIFIED="1516178998857" POSITION="left" TEXT="Polecenia">
+<node CREATED="1516178844372" ID="ID_1943665698" MODIFIED="1517474006498" POSITION="left" TEXT="Komendy">
 <cloud COLOR="#ccffcc"/>
-<node CREATED="1516178782501" ID="ID_1786391734" MODIFIED="1516189118724" TEXT="polecenia typu plumbing - niskopoziomowe">
+<node CREATED="1516178782501" ID="ID_1786391734" MODIFIED="1517480439034" TEXT="polecenia typu plumbing - niskopoziomowe">
 <node CREATED="1516178794868" ID="ID_706609072" MODIFIED="1516178824828" TEXT="git init">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -54,7 +54,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1516178469010" ID="ID_1655235639" MODIFIED="1516178648760" TEXT="Konfiguracja">
+<node CREATED="1516178469010" ID="ID_1655235639" MODIFIED="1517480438081" TEXT="Konfiguracja">
 <cloud COLOR="#ccffcc"/>
 <node CREATED="1516178473931" ID="ID_1856660359" MODIFIED="1516178543527" TEXT="git config --global --add user.email &quot;mw.wojcik@gmail.com&quot;">
 <richcontent TYPE="NOTE"><html>
@@ -79,7 +79,7 @@
 </node>
 <node CREATED="1516178484285" ID="ID_1701710997" MODIFIED="1516178496902" TEXT="git config --list"/>
 </node>
-<node CREATED="1516180475359" ID="ID_1954342353" MODIFIED="1516180485389" TEXT="Polecenia typowe">
+<node CREATED="1516180475359" ID="ID_1954342353" MODIFIED="1517480423314" TEXT="Polecenia typowe">
 <node CREATED="1516180487887" ID="ID_951599835" MODIFIED="1516184465412" TEXT="git status">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -364,7 +364,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1516212768893" ID="ID_730445367" MODIFIED="1516212806878" TEXT="Por&#xf3;wnywanie zawarto&#x15b;ci git diff">
+<node CREATED="1516212768893" ID="ID_730445367" MODIFIED="1517480432360" TEXT="Por&#xf3;wnywanie zawarto&#x15b;ci git diff">
 <node CREATED="1516214878497" ID="ID_183758386" MODIFIED="1516215672596" TEXT="git diff">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -417,7 +417,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1516213523115" ID="ID_314629976" MODIFIED="1516213528997" TEXT="Przegl&#x105;danie historii">
+<node CREATED="1516213523115" ID="ID_314629976" MODIFIED="1517480433104" TEXT="Przegl&#x105;danie historii">
 <node CREATED="1516180521551" ID="ID_545998005" MODIFIED="1516212580642" TEXT="git log">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -509,7 +509,7 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1516216317668" ID="ID_1274014106" MODIFIED="1516267529794" TEXT="Przywracanie poprzedniejzapisanej wersji">
+<node CREATED="1516216317668" ID="ID_1274014106" MODIFIED="1517480434328" TEXT="Przywracanie poprzedniejzapisanej wersji">
 <node CREATED="1516216412278" ID="ID_1994576626" MODIFIED="1517434305357" TEXT="git checkout">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -547,11 +547,10 @@
       Wybiera pliki z wcze&#347;niejszych wersji i ustawia je w katalogu roboczym.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1516265853698" ID="ID_1362628624" MODIFIED="1516265869884" TEXT="Wycofywanie zmian z konkretnej rewizji i commit">
+<node CREATED="1516265853698" ID="ID_1362628624" MODIFIED="1517480435177" TEXT="Wycofywanie zmian z konkretnej rewizji i commit">
 <node CREATED="1516265871695" ID="ID_655290019" MODIFIED="1517433901309" TEXT="git revert">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -580,11 +579,10 @@
       <font size="2">Git revert na zmianie x powoduje przygotowanie nowej zmiany, kt&#243;ra jest odwrotno&#347;ci&#261; zmiany X. </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1516267533303" ID="ID_270237738" MODIFIED="1516267539931" TEXT="Modyfikacja historii">
+<node CREATED="1516267533303" ID="ID_270237738" MODIFIED="1517480436200" TEXT="Modyfikacja historii">
 <node CREATED="1516267541862" ID="ID_1951126445" MODIFIED="1517435692412" TEXT="git reset">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -672,9 +670,57 @@
       
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1517473875896" ID="ID_751435581" MODIFIED="1517480417445" POSITION="right" TEXT="Podpowiedzi">
+<cloud COLOR="#ffffcc"/>
+<node CREATED="1517473932122" ID="ID_671322508" MODIFIED="1517480318057" TEXT="git pull-pull z ca&#x142;kowitym zast&#x105;pieniem plik&#xf3;w lokalnych">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><code>git reset --hard origin/master</code></pre>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    Then the
+
+    <p>
+      <code>git reset</code>&#160;resets the master branch to what you just fetched. The <code>--hard</code>&#160; option changes all the files in your working tree to match the files in <code>origin/master</code>
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
+<node CREATED="1517474607110" ID="ID_1554533457" MODIFIED="1517480307554" TEXT="git push - push do zdalnego brancha">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><code>git push origin master:master</code></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1517480249527" ID="ID_1470399699" MODIFIED="1517480296440" TEXT="git remote - sprawdzanie listy zarejestrowanych zdalnych serwer&#xf3;w repozytori&#xf3;w">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;git remote -v
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
