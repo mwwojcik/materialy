@@ -132,7 +132,7 @@
 </html></richcontent>
 </node>
 <node CREATED="1516184410107" ID="ID_802941821" MODIFIED="1516184443678" TEXT="git init lub git init nazwa_katalogu"/>
-<node CREATED="1516185076950" ID="ID_583320997" MODIFIED="1516185139813" TEXT="git commit --amend">
+<node CREATED="1516185076950" ID="ID_583320997" MODIFIED="1517605872513" TEXT="git commit --amend">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -140,6 +140,12 @@
   <body>
     <p>
       Poprawia ostatni komentarz commit
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Resetuje commit i commituje go jeszcze raz - co prawda poprawia histori&#281;, ale niestety za&#347;mieca histori&#281;.
     </p>
   </body>
 </html></richcontent>
@@ -583,7 +589,7 @@
 </node>
 </node>
 <node CREATED="1516267533303" ID="ID_270237738" MODIFIED="1517480436200" TEXT="Modyfikacja historii">
-<node CREATED="1516267541862" ID="ID_1951126445" MODIFIED="1517435692412" TEXT="git reset">
+<node CREATED="1516267541862" ID="ID_1951126445" MODIFIED="1517779363130" TEXT="git reset">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -669,8 +675,51 @@
     <p>
       
     </p>
+    <p>
+      git reset HEAD~1&#160;&#160;-&gt; resetujemy ostatni commit, ale nie podajemy ostatniej &#160;&#347;cie&#380;ki, spowoduje to &#380;e zmieniany b&#281;dzie CA&#321;Y COMMIT
+    </p>
+    <p>
+      git reset HEAD~1 --soft -&gt; opcja ta sprawi &#380;e wszystkie zmiany z ostatniego commita zosta&#322;y umieszczone w indeksie. Head zostaje cofni&#281;ty, ale zmiany pozostaj&#261;. Czyli mo&#380;na cofa&#263; commity ale bez utraty zmian.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git reset HEAD~1 --hard -&gt; HEAD przesuwa si&#281; o 1 tracimy wszystkie zmiany. Commit zostaje zapomniany.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      UWAGA!&#160;&#160;Je&#347;li mam HEAD kt&#243;ry ustawiony jest na commit o nazwie xxx i zresetuj&#281; HEAD git HEAD~1 to chocia&#380; wska&#378;nik si&#281; przesunie na commit przedostatni, to ten pierwszy ci&#261;gle istnieje i git reset xxx spowoduje przesuni&#281;cie si&#281; do przodu. Wtedy plik witaj.txt zostaje przeniesiony do katalogu roboczego ze stanem z rewizji xxx-1. (18)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Je&#347;li na pliku witaj.txt wykonamy polecenie git reset HEAD~1 witaj.txt to wska&#378;nik si&#281; cofnie, ale zawarto&#347;&#263; pliku zostanie niezmieniona, ci&#261;gle b&#281;dzie pokazywana ta z wersji HEAD rpzed resetem. Je&#347;li teraz na nim zrobimy diff to poka&#380;e nam r&#243;&#380;nice pomi&#281;dzy tym co mamy w katalogu roboczym (a wi&#281;c zawarto&#347;&#263; z rewizji sprzed reseta z tym co jest w indeksie, czyli HEAD~1 - po resecie).
+    </p>
+    <p>
+      Dopiero git checkout sprawi &#380;e nasza kopia robocza (a wi&#281;c git HEAD sprzed resetu) zostanie nadpisany (git HEAD~1 - czyli po resecie).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Je&#347;li skorzystamy z opcji hard, to usuni&#281;te zostan&#261; tylko pliki obj&#281;te resetowanym commitem, te kt&#243;re by&#322;y poza indeksem (a wi&#281;c nowe gotowe do dodania do indeksu ) przetrwaj&#261;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -695,8 +744,7 @@
       <code>git reset</code>&#160;resets the master branch to what you just fetched. The <code>--hard</code>&#160; option changes all the files in your working tree to match the files in <code>origin/master</code>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1517474607110" ID="ID_1554533457" MODIFIED="1517480307554" TEXT="git push - push do zdalnego brancha">
 <richcontent TYPE="NOTE"><html>
@@ -706,8 +754,7 @@
   <body>
     <pre><code>git push origin master:master</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1517480249527" ID="ID_1470399699" MODIFIED="1517480296440" TEXT="git remote - sprawdzanie listy zarejestrowanych zdalnych serwer&#xf3;w repozytori&#xf3;w">
 <richcontent TYPE="NOTE"><html>
@@ -719,8 +766,7 @@
       &#160;git remote -v
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
