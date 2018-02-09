@@ -718,6 +718,112 @@
       
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1518041644037" ID="ID_1892216434" MODIFIED="1518041654228" TEXT="Odzyskiwanie commita">
+<node CREATED="1518041656401" ID="ID_1137295217" MODIFIED="1518042968048" TEXT="git reflog">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Git reset cofa si&#281; w historii do wcze&#347;niejszych commit&#243;w. Po cofni&#281;ciu si&#281; tracimy hashe commit&#243;w kt&#243;re znajduj&#261; si&#281; powy&#380;ej, chocia&#380; same commity nie gin&#261;. Je&#347;li chcemy do nich wr&#243;ci&#263; to musimy pozyska&#263; ich hashe.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Pomocne polecenie to git reflog.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#346;ledzi referencje co si&#281; dzieje z poszczeg&#243;lnymi ga&#322;&#281;ziami. Jest to dokumentacja operacji na HEAD. Ka&#380;da operacja jest opisana, wy&#347;wietlony jest hash commita. W nawiasach pokazana jest liczba PRZESUNI&#280;&#262; HEADA kt&#243;re nale&#380;y wykona&#263; by osi&#261;gn&#261;&#263; dany stan.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Np.
+    </p>
+    <p>
+      git reset HEAD@{23} -&gt; alternatywa dla git reset hash
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Domy&#347;lnie reflog trwa 90 dni.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git log jest to skr&#243;t dla git log -g --online
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git reflog -5 --before=&quot;2 weeks ago&quot; - 5 operacji sprzed 2 tygodni
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1518187568803" ID="ID_1998407586" MODIFIED="1518187578781" TEXT="Jednoczesna modeyfikacja wielu commit&#xf3;w">
+<node CREATED="1518187582022" ID="ID_1034379869" MODIFIED="1518212247407" TEXT="git rebase">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git rebase -i HEAD~3
+    </p>
+    <p>
+      zdejmie trzy commity na bok - i -&gt; interaktywnie
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Po wydaniu polecenia pojawia si&#281; edytor w kt&#243;rym pokazane s&#261; trzy commity. Uwaga kolejno&#347;&#263; odwrotna, naj&#347;wie&#380;sze s&#261; na samym dole.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Przy ka&#380;dym commicie mo&#380;emy wyda&#263; komend&#281; kt&#243;ra poinstruuje gita co chcemy zrobi&#263; z tym w&#322;a&#347;nie commitem.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      W odr&#243;&#380;nieniu od polecenia reset - tutaj dzia&#322;amy jednocze&#347;nie na wielu commitach.(8:00)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Polecenia b&#281;d&#261; po kolei aplikowane. (14:00)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Je&#347;li w cyklu napotka operacj&#281;, z kt&#243;r&#261; nie mo&#380;e sobie poradzi&#263; zatrzymuje si&#281; i pozwala podj&#261;&#263; kolejne decyzje.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git rebase --abort&#160;-&gt; je&#347;li wyst&#261;pi&#261; jakie&#347; b&#322;&#281;dy jedn&#261; operacj&#261; mo&#380;na wycofa&#263; ca&#322;y cykl zmian okre&#347;lony przez rebase
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
@@ -746,7 +852,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1517474607110" ID="ID_1554533457" MODIFIED="1517480307554" TEXT="git push - push do zdalnego brancha">
+<node CREATED="1517474607110" ID="ID_1554533457" MODIFIED="1518041630634" TEXT="git push - push do zdalnego brancha">
 <richcontent TYPE="NOTE"><html>
   <head>
     
