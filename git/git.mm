@@ -824,6 +824,110 @@
       git rebase --abort&#160;-&gt; je&#347;li wyst&#261;pi&#261; jakie&#347; b&#322;&#281;dy jedn&#261; operacj&#261; mo&#380;na wycofa&#263; ca&#322;y cykl zmian okre&#347;lony przez rebase
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1518282696264" ID="ID_1074892480" MODIFIED="1518282704839" TEXT="Etykietowanie wybranego commita">
+<node CREATED="1518282706046" ID="ID_1752956108" MODIFIED="1518284080915" TEXT="git tag">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git tag - polecenie pozwalaj&#261;ce na przypisanie etykiety do pewnego wybranego commita
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git tag -&gt; wy&#347;wietla list&#281; tag&#243;w
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git tag testowa_etykieta 8f2345(identyfikator commita)
+    </p>
+    <p>
+      git tag testowa_etykieta HEAD -&gt; przypisuje etykiet&#281; do ostatniego commita HEAD
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      etykiety te mog&#261; by&#263; wykorzystywane do innych polece&#324; np:
+    </p>
+    <p>
+      git show testowa_etykieta
+    </p>
+    <p>
+      git reset....
+    </p>
+    <p>
+      git checkout...
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Etykiety powinno przypisywa&#263; si&#281; takim wersjom, do kt&#243;rych by&#263; mo&#380;e b&#281;dziemy musieli si&#281; cofn&#261;&#263;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git tag -l wzorzec test* -&gt; -l (list) powoduje znalezienie tych etykiet kt&#243;re pasuj&#261; do wzorca test*
+    </p>
+    <p>
+      git tag -l pocz??tek -&gt; polski znak zapiswany jest na dw&#243;ch znakach
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git tag --contains HEAD -&gt; sprawdzamy w jakiej historii znajduje si&#281; aktualny commit , mo&#380;na sprawdzi&#263; poni&#380;ej kt&#243;rej etykiety znajduje si&#281; wskazany commit
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git tag --points-at 8f2345 -&gt; pokazuje jaki tag wskazuje na dany commit
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git tag -d pocz&#261;tek -&gt; usuwa etykiet&#281; &quot;pocz&#261;tek&quot; - przy usuwaniu wy&#347;wietla nam identyfikator commita z kt&#243;rego usuwany jest tag, mo&#380;na si&#281; dzi&#281;ki temu cofn&#261;&#263;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Tagi anotowane:
+    </p>
+    <p>
+      git tag pierwsza_wesja -a -&gt; je&#347;li u&#380;yjemy -a to zostaniemy zapytani o message, git show pierwsza_wersja -&gt; opr&#243;cz informacji o commicie pokazuje informacj&#281; o dodaniu taga, kto , kiedy go utworzy&#322; i message jaki doda&#322;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git tag -n -&gt; tagi annotowane wy&#347;wietlane s&#261; z dodanym message
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Czym r&#243;&#380;ni si&#281; tag od ga&#322;&#281;zi
+    </p>
+    <p>
+      git show-ref -&gt; pokazuje referencje, referencje do tag&#243;w s&#261; niezmienne, branche ga&#322;&#281;zie pozwalaj&#261; &#347;ledzi&#263; r&#243;&#380;ne drzewa
+    </p>
+    <p>
+      
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
@@ -874,6 +978,9 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node CREATED="1518253670253" ID="ID_956937492" MODIFIED="1518253772083" POSITION="right" TEXT="Praca r&#xf3;wnoleg&#x142;a">
+<cloud COLOR="#f6ce34"/>
 </node>
 </node>
 </map>
