@@ -828,7 +828,7 @@
 </node>
 </node>
 <node CREATED="1518282696264" ID="ID_1074892480" MODIFIED="1518282704839" TEXT="Etykietowanie wybranego commita">
-<node CREATED="1518282706046" ID="ID_1752956108" MODIFIED="1518284080915" TEXT="git tag">
+<node CREATED="1518282706046" ID="ID_1752956108" MODIFIED="1518373539553" TEXT="git tag">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -924,12 +924,8 @@
     <p>
       git show-ref -&gt; pokazuje referencje, referencje do tag&#243;w s&#261; niezmienne, branche ga&#322;&#281;zie pozwalaj&#261; &#347;ledzi&#263; r&#243;&#380;ne drzewa
     </p>
-    <p>
-      
-    </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -981,6 +977,81 @@
 </node>
 <node CREATED="1518253670253" ID="ID_956937492" MODIFIED="1518253772083" POSITION="right" TEXT="Praca r&#xf3;wnoleg&#x142;a">
 <cloud COLOR="#f6ce34"/>
+<node CREATED="1518373562855" ID="ID_962930775" MODIFIED="1518373575272" TEXT="Tworzenie drzew r&#xf3;wnloneg&#x142;ych historii">
+<node CREATED="1518373580468" ID="ID_1790865762" MODIFIED="1518449037091" TEXT="git branch">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git branch -&gt; wy&#347;wietli list&#281; wszystkich dost&#281;pnych ga&#322;&#281;zi&#160;&#160;je&#347;li nie by&#322;o dodawane &#380;adne niestandardowe, to tylko master
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git branch -v -&gt; to samo tylko z list&#261;osstatnich commit&#243;w
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git branch --list mas* -&gt; wyszukiwanie z mask&#261; / wzorcem
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git branch nazwa HEAD -&gt; tworzy nowego brancha o nazwie &quot;nazwa&quot; na podstawie najnowszego commita na kt&#243;ry wskazuje HEAD, mo&#380;na u&#380;y&#263; skr&#243;conej formie &quot;git branch nazwa&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git branch nowe_logo HEAD -&gt; odbijam brancha o nazwie nowe_logo na podstawie aktualnego commita w HEAD
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git checkout nowe_logo</b>&#160;-&gt; prze&#322;&#261;czenie si&#281; na nowego brancha, na now&#261; ga&#322;&#261;&#378;
+    </p>
+    <p>
+      od tego momentu ka&#380;dy commit b&#281;dzie robiony do ga&#322;&#281;zi nowe_logo, referencja o nazwie nowe_logo b&#281;dzie przestawia&#322;a si&#281; na coraz nowsze commity w tej ga&#322;&#281;zi (w odr&#243;&#380;nieniu od taga,etykiety kt&#243;ry wskazuje na sta&#322;ego commita)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git branch -m nowe_logo nowy_naglowek -&gt; zmiana nazwy brancha
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git branch -d nowy_naglowek -&gt; usuni&#281;cie brancha
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git checkout -b nowy_naglowek -&gt; utworzenie nowego brancha z jednoczesnym prze&#322;&#261;czeniem si&#281; na niego
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      W przypadku gita, ( w odr&#243;&#380;neniu od svn) tworzenie i prze&#322;&#261;czanie si&#281; pomi&#281;dzy branchami jest bardzo szybkie
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </map>
