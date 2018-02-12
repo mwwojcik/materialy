@@ -1048,6 +1048,152 @@
       
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1518451648357" ID="ID_676756115" MODIFIED="1518452103380" TEXT="Ga&#x142;&#x105;&#x17a; odci&#x119;ta (tymczasowa) -detached HEAD">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      checkout identyfikator_commit -&gt; HEAD zostaje przestawiony na wskazany commit ale uwaga! dzieje si&#281; to w oderwaniu od jakiegokolwiek brancha. Znaczy to &#380;e na tej wersji mo&#380;na wprowadza&#263; sobie zmiany ale b&#281;d&#261; one mia&#322;y charakter ulotny.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Je&#347;li HEAD nie zostanie przypisany do ga&#322;&#281;zi to zmiany zostan&#261; stracone.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Aby ich nie straci&#263; trzeba u&#380;y&#263; polecenia tworzenia nowego brancha
+    </p>
+    <p>
+      git checkout -b nazwa_brancha -&gt; stworzony zostanie nowy branch na podstawie commita na kt&#243;rego wskazuje aktualny HEAD, a wi&#281;c z tego &quot;tymczasowego&quot;
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1518452256890" ID="ID_1395376398" MODIFIED="1518452267769" TEXT="Przechowalnia (STASH)">
+<node CREATED="1518452473257" ID="ID_530270553" MODIFIED="1518453764378" TEXT="git stash">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Je&#347;li jeste&#347;my na branchu X i wprowadzimy jakie&#347; zmiany tymczasowe, kt&#243;re nie s&#261; jeszcze scommitowane i chcemy prze&#322;&#261;czy&#263; si&#281; na branch Y to wersja pliku z brancha Y nadpisze zmiany tymczasowe w branchu X i zostan&#261; one bezpowrotnie stracone, aby tak si&#281; nie sta&#322;o mo&#380;na umie&#347;ci&#263; je w przechowalni poleceniem
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git stash
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      po powrocie na brancha X mo&#380;emy wykona&#263; polecenie
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git stash list (bez --) &#380;eby zobaczy&#263; list&#281; zmian w przechowalni.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Przywr&#243;cenie zmian nast&#281;puje po wykonaniu polecenia:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git stash pop -&gt; zdejmuje z listy zmian ostatni&#261; dokonan&#261; zmian&#281;, wrzuca j&#261; do katalogu roboczego i usuwa j&#261; z listy zmian
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mo&#380;e si&#281; zdarzy&#263; &#380;e chcemy zdj&#261;&#263; ze stasha tylko wybrane pliki:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git stash apply -&gt; przywraca pliki ze stasha ale nie usuwa pliku
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git stash save --include--untracked(-u) zapami&#281;tuje nie tylko pliki &#347;ledzone ale r&#243;wnie&#380;&#160;&#160;te dodane do katalogu roboczego ale nie wci&#261;gni&#281;te do gita. Teraz po prze&#322;&#261;czeniu si&#281; na nowy branch untracked b&#281;d&#261; niewidoczne, bo zosta&#322;y przypisane do stasha w danym branchu.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git stash save &quot;wiadomo&#347;&#263;&quot; -&gt; zapis stasha z wiadomo&#347;ci&#261;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git stash --keep-index -&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git stash show stash@{0} -&gt; podejrzenie stasha o indeksie {0}
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      stash drop@{0} -&gt; usuwa zmiany z ostatniego stasha
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      zmiany mo&#380;na przenosi&#263; zmiany na innego brancha
+    </p>
+    <p>
+      git checkout -b nazwa_brancha -&gt; odbije branch ze wszystkimi zmianami
+    </p>
+    <p>
+      je&#347;li nie chcemy tworzy&#263; nowego brancha tylko on istnieje:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      przenosimy si&#281; na branch docelowy np. master
+    </p>
+    <p>
+      i aplikujemy zmiany
+    </p>
+    <p>
+      git stash apply -&gt; zmiany ze stasha (nawet zrobione w innym branchu) zostaj&#261; zaaplikowane na aktywn&#261; ga&#322;&#261;&#378;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
