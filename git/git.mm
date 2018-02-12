@@ -1082,7 +1082,7 @@
 </html></richcontent>
 </node>
 <node CREATED="1518452256890" ID="ID_1395376398" MODIFIED="1518452267769" TEXT="Przechowalnia (STASH)">
-<node CREATED="1518452473257" ID="ID_530270553" MODIFIED="1518453764378" TEXT="git stash">
+<node CREATED="1518452473257" ID="ID_530270553" MODIFIED="1518458289662" TEXT="git stash">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1191,7 +1191,73 @@
       
     </p>
     <p>
+      git stash clear -&gt; czy&#347;ci list&#281; - wykonna&#263; tylko gdy wszystkie zmiany s&#261; bezpieczne
+    </p>
+    <p>
       
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1518458295221" ID="ID_105877227" MODIFIED="1518458314378" TEXT="Wyb&#xf3;r zmian z r&#xf3;&#x17c;nych branchy i przenoszenie ich do aktualnej ga&#x142;&#x119;zi">
+<node CREATED="1518458317940" ID="ID_1270786740" MODIFIED="1518459359016" TEXT="git cherry-pick">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Polecenie s&#322;u&#380;&#261;ce do wskazania r&#243;&#380;nych zmian, w r&#243;&#380;nych branchach i zaaplikowanie ich do aktualnej ga&#322;&#281;zi.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git cherry-pick identyfikator_commita (wska&#378;nik na commit np. ga&#322;&#261;&#378;, etykieta, specjalny zapis)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git cherry_pick spis_tresci&#160;&#160;-&gt; ostatni commit z ga&#322;&#281;zi spis_tresci
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git cherry_pick spis_tresci ~1&#160;&#160;-&gt; przedostatni commit z ga&#322;&#281;zi spis_tresci
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Polecenie to wybiera wskazan&#261; zmian&#281;, aplikuje j&#261; w aktywnym branchu, tworzy nowego commita z nowym hashem o zawarto&#347;ci zgodnej ze wskazanym
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git log --oneline --branches --decorate</b>&#160;-<b>--graph</b>&gt; polecenie wy&#347;wietlenia informacji o commitach do wszystkich branchy z opcj&#261; dodania dodatkowych informacji m&#243;wi&#261;cych o tym sk&#261;d pochodzi dany commit. Opcja graph daje widok pe&#322;nego drzewka.Pokazuje od czego wywodz&#261; si&#281; dane commity.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git cherry-pick HEAD..spis_tresci -&gt; opcja podania zakresu, przeniesie x commit&#243;w kt&#243;re mieszcz&#261; si&#281; w podanym zakresie
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Zaleta: mo&#380;na wybra&#263; tylko niekt&#243;re commity , lub ich zakres
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Wada: tworzy nowe commity, przez co zaciemnia histori&#281;.
     </p>
   </body>
 </html>
