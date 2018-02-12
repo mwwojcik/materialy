@@ -1197,12 +1197,11 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1518458295221" ID="ID_105877227" MODIFIED="1518458314378" TEXT="Wyb&#xf3;r zmian z r&#xf3;&#x17c;nych branchy i przenoszenie ich do aktualnej ga&#x142;&#x119;zi">
-<node CREATED="1518458317940" ID="ID_1270786740" MODIFIED="1518459359016" TEXT="git cherry-pick">
+<node CREATED="1518458317940" ID="ID_1270786740" MODIFIED="1518472414745" TEXT="git cherry-pick">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1258,6 +1257,39 @@
     </p>
     <p>
       Wada: tworzy nowe commity, przez co zaciemnia histori&#281;.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1518472424897" ID="ID_1857742226" MODIFIED="1518472444742" TEXT="Merge - przenoszenie zmian od wsp&#xf3;lnego punktu">
+<node CREATED="1518472446727" ID="ID_338483407" MODIFIED="1518473264354" TEXT="git merge">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git merge nazwa_wspolnego_punktu
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git merge nowy_naglowek -&gt; wspolnym punktem jest HEAD master, powoduje doci&#261;gni&#281;cie do mastera (kt&#243;ry jest aktywny) histori&#281; z ga&#322;&#281;zi nowy_naglowek
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Je&#347;li mergowana historia wywodzi si&#281; z mastera to zostanie on zmergowany w trybie fast-forward, czyli head zostanie przesuni&#281;ty do przodu.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Po zaaplikowaniu zmian git tworzy dodatkowego commita kt&#243;rym aplikowane s&#261; zmergowane zmiany.
     </p>
   </body>
 </html>
