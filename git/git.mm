@@ -1329,5 +1329,72 @@
 </node>
 </node>
 </node>
+<node CREATED="1518539963121" ID="ID_1970466483" MODIFIED="1518540009852" POSITION="left" TEXT="Praca z repozytorium zdalnym GITHUB">
+<cloud COLOR="#2afdf3"/>
+<node CREATED="1518540128629" ID="ID_1887345036" MODIFIED="1518540133768" TEXT="Klonowanie repozytorium">
+<node CREATED="1518540134866" ID="ID_1417611534" MODIFIED="1518557104334" TEXT="git clone">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git clone -&gt; kopiuje katalog, razem z plikami git
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git clone ./pierwsza_strona moja_strona -&gt; klonowanie repozytorium lokalnego, pierwszy argument to &#347;cie&#380;ka do katalogu z repozytorium a druga to nazwa repozytorium pod kt&#243;r&#261; znajdzie si&#281; klon. Klonowaniu podelega ca&#322;a historia.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ka&#380;de sklonowane repozytorium dostaje nowe wpisy konfiguracyjne, np.
+    </p>
+    <p>
+      autor, email, oraz wskazania na brancha remote.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Wskazanie na remote pozwala na integracj&#281; nowego sklonowanego repozytorium z tym oryginalnym.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      remote.origin.url=adres_repozytorium_oryginalnego
+    </p>
+    <p>
+      remote.origin.fetch=informacje_o_zdalnym_drzewie_z_ktorego_pobierane_sa_dane
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mo&#380;na je obejrze&#263; przez polecenie:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git config --list </b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git clone https://github.com/mwwojcik/materialy.git&#160;&#160;materialy</b>&#160; -&gt; wykonujemy w katalogu g&#322;&#243;wnym, za&#322;o&#380;y nam katalog na repozytorium (drugi parametr)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1518557006596" ID="ID_1051063032" MODIFIED="1518557006596" TEXT=""/>
+</node>
+</node>
+</node>
 </node>
 </map>
