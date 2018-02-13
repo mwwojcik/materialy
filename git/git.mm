@@ -1259,12 +1259,11 @@
       Wada: tworzy nowe commity, przez co zaciemnia histori&#281;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1518472424897" ID="ID_1857742226" MODIFIED="1518472444742" TEXT="Merge - przenoszenie zmian od wsp&#xf3;lnego punktu">
-<node CREATED="1518472446727" ID="ID_338483407" MODIFIED="1518473264354" TEXT="git merge">
+<node CREATED="1518472446727" ID="ID_338483407" MODIFIED="1518539765323" TEXT="git merge">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1289,7 +1288,40 @@
       
     </p>
     <p>
-      Po zaaplikowaniu zmian git tworzy dodatkowego commita kt&#243;rym aplikowane s&#261; zmergowane zmiany.
+      W innym przypadku, po zaaplikowaniu zmian git tworzy dodatkowego commita kt&#243;rym aplikowane s&#261; zmergowane zmiany.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Rozwi&#261;zywanie konflikt&#243;w
+    </p>
+    <p>
+      git merge nazwa_galezi -&gt; nazwa ga&#322;&#281;zi kt&#243;r&#261; chc&#281; zaaplikowa&#263; do naszej ga&#322;&#281;zi
+    </p>
+    <p>
+      Je&#347;li wyst&#261;pi konflikt dostajemy informacj&#281; &#380;e merge automatyczny si&#281; nie uda&#322;. Pliki skonfliktowane zosta&#322;y wzbogacone o znaczniki m&#243;wi&#261;ce sk&#261;d pochodz&#261; dane linie.
+    </p>
+    <p>
+      Przy rozwi&#261;zaniu konfliktu nale&#380;y usun&#261;&#263; znaczniki.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git checkout --ours index.html-&gt; wejd&#261; zmiany z aktualnej ga&#322;&#281;zi (oznaczone jako HEAD) . Plik jest dalej w trakcie merge. Rozwi&#261;zanie konfliktu to git add index.html i commit
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git checkout --theirs index.html -&gt; wejd&#261; zmiany z domergowywanej ga&#322;&#281;zi zast&#281;puj&#261;c te z ga&#322;&#281;zi na kt&#243;rej jeste&#347;my
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git merge --abort -&gt; przerywa merge, git przywr&#243;ci zmiany do stanu w jakim startowa&#322; maerge
     </p>
   </body>
 </html>
