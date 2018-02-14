@@ -1389,8 +1389,7 @@
       <b>git clone https://github.com/mwwojcik/materialy.git&#160;&#160;materialy</b>&#160; -&gt; wykonujemy w katalogu g&#322;&#243;wnym, za&#322;o&#380;y nam katalog na repozytorium (drugi parametr)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1518557006596" ID="ID_1051063032" MODIFIED="1518557006596" TEXT=""/>
 </node>
 </node>
@@ -1418,8 +1417,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1518594726980" ID="ID_1726390518" MODIFIED="1518594729659" TEXT="git push -u origin master"/>
 </node>
 <node CREATED="1518594919669" ID="ID_299675789" MODIFIED="1518594923265" TEXT="Klucze SSH">
@@ -1523,12 +1521,11 @@
       .
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1518607345733" ID="ID_1050003530" MODIFIED="1518607354494" TEXT="Ga&#x142;&#x119;zie zdalne">
-<node CREATED="1518607369360" ID="ID_599334832" MODIFIED="1518608362940" TEXT="git remote">
+<node CREATED="1518607369360" ID="ID_599334832" MODIFIED="1518642975904" TEXT="git remote">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1539,6 +1536,15 @@
     </p>
     <p>
       git remote show origin -&gt; poka&#380; szczeg&#243;&#322;owe informacje o repozytorium zdalnym o nazwie origin
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#000000" face="monospace"><b>git remote add origin https://github.com/mwwojcik/portfolio.git</b></font><font face="monospace"><br /></font>
+    </p>
+    <p>
+      
     </p>
     <p>
       
@@ -1632,9 +1638,6 @@
     </p>
     <p>
       <b>git remote remove backup</b>&#160;-&gt; usuwa konfiguracj&#281;
-    </p>
-    <p>
-      
     </p>
     <p>
       
@@ -1784,8 +1787,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1518614509656" ID="ID_1354188083" MODIFIED="1518614509656" TEXT=""/>
 </node>
 </node>
@@ -1860,8 +1862,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1518625484157" ID="ID_1674241826" MODIFIED="1518625495385" TEXT="Pobieranie ze zmian&#x105; bazy">
@@ -1923,8 +1924,7 @@
       <b>Na ga&#322;&#281;ziach zdalnych robimy tylko PUSH i PULL. </b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
