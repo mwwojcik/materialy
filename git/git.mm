@@ -1865,7 +1865,7 @@
 </node>
 </node>
 <node CREATED="1518625484157" ID="ID_1674241826" MODIFIED="1518625495385" TEXT="Pobieranie ze zmian&#x105; bazy">
-<node CREATED="1518625501311" ID="ID_368100839" MODIFIED="1518625761738" TEXT="git pull rebase">
+<node CREATED="1518625501311" ID="ID_368100839" MODIFIED="1518626222658" TEXT="git pull rebase">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1873,6 +1873,24 @@
   <body>
     <p>
       Daje mo&#380;liwo&#347;&#263; aplikacji zmian ze zdalnego repo ale pozwala kontrolowa&#263; kolejno&#347;&#263; w jakiej aplikowane b&#281;d&#261; commity.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mo&#380;e si&#281; zdarzy&#263; &#380;e ga&#322;&#261;&#378; lokalna i zdalna &#347;ledzona rozdwoj&#261; si&#281;. Do ka&#380;dej z nich b&#281;d&#261; dochodzi&#322;y nowe commity.
+    </p>
+    <p>
+      W kt&#243;rym&#347; momencie trzeba b&#281;dzie je zmergowa&#263;. Wtedy powstaje zaburzenie historii, pomi&#281;dzy commity w lokalnej ga&#322;&#281;zi wchodzi commit z informacj&#261; o mergu.
+    </p>
+    <p>
+      Polecenie
+    </p>
+    <p>
+      git pull --rebase origin master
+    </p>
+    <p>
+      powoduje &#380;e m&#243;j branch zostaje cofni&#281;ty do wsp&#243;lnego korzenia, potem zostaj&#261; zaaplikowane commity z ga&#322;&#281;zi zdalnej i potem te kt&#243;re nast&#261;pi&#322;y p&#243;&#378;niej w ga&#322;&#281;zi lokalnej. Dzi&#281;ki temu historia b&#281;dzie du&#380;o bardziej naturalna.
     </p>
   </body>
 </html>
