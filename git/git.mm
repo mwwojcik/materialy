@@ -1865,7 +1865,7 @@
 </node>
 </node>
 <node CREATED="1518625484157" ID="ID_1674241826" MODIFIED="1518625495385" TEXT="Pobieranie ze zmian&#x105; bazy">
-<node CREATED="1518625501311" ID="ID_368100839" MODIFIED="1518626222658" TEXT="git pull rebase">
+<node CREATED="1518625501311" ID="ID_368100839" MODIFIED="1518626574052" TEXT="git pull rebase">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1891,6 +1891,36 @@
     </p>
     <p>
       powoduje &#380;e m&#243;j branch zostaje cofni&#281;ty do wsp&#243;lnego korzenia, potem zostaj&#261; zaaplikowane commity z ga&#322;&#281;zi zdalnej i potem te kt&#243;re nast&#261;pi&#322;y p&#243;&#378;niej w ga&#322;&#281;zi lokalnej. Dzi&#281;ki temu historia b&#281;dzie du&#380;o bardziej naturalna.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      rozwi&#261;zywanie konflikt&#243;w:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git rebase --continue (a nie git merge --continue)</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Nigdy nie rebasujemy zmian kt&#243;re zosta&#322;y ju&#380; wys&#322;ane!
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>PULL REBASE mo&#380;na robi&#263; tylko na ga&#322;&#281;ziach lokalnych. </b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>Na ga&#322;&#281;ziach zdalnych robimy tylko PUSH i PULL. </b>
     </p>
   </body>
 </html>
