@@ -1648,7 +1648,7 @@
 </node>
 </node>
 <node CREATED="1518608364547" ID="ID_536124645" MODIFIED="1518608374696" TEXT="Przesy&#x142;anie zmian na zdalne repo">
-<node CREATED="1518608376375" ID="ID_812101942" MODIFIED="1518619187056" TEXT="git push">
+<node CREATED="1518608376375" ID="ID_812101942" MODIFIED="1518625717393" TEXT="git push">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1668,6 +1668,12 @@
     </p>
     <p>
       git push na tej ga&#322;&#281;zi spowoduje &#380;e pojawi si&#281; komunikat &#380;e ga&#322;&#261;&#378; nie jest skojarzona z &#380;adnym branchem zdalnym.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git checkout -b wspolpraca -t origin/master </b>- tworzy now&#261; ga&#322;&#261;&#378; lokaln&#261; o nazwie 'wspolpraca' i sprawia &#380;e b&#281;dzie ona skojarzona z origin/master
     </p>
     <p>
       
@@ -1852,6 +1858,21 @@
     </p>
     <p>
       
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1518625484157" ID="ID_1674241826" MODIFIED="1518625495385" TEXT="Pobieranie ze zmian&#x105; bazy">
+<node CREATED="1518625501311" ID="ID_368100839" MODIFIED="1518625761738" TEXT="git pull rebase">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Daje mo&#380;liwo&#347;&#263; aplikacji zmian ze zdalnego repo ale pozwala kontrolowa&#263; kolejno&#347;&#263; w jakiej aplikowane b&#281;d&#261; commity.
     </p>
   </body>
 </html>
