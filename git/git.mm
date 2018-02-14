@@ -1783,6 +1783,81 @@
 <node CREATED="1518614509656" ID="ID_1354188083" MODIFIED="1518614509656" TEXT=""/>
 </node>
 </node>
+<node CREATED="1518621555827" ID="ID_247874086" MODIFIED="1518621565011" TEXT="Pobieranie zmian">
+<node CREATED="1518621567655" ID="ID_1609359400" MODIFIED="1518624007489" TEXT="git pull i git fetch">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Polecenie odtwarza struktur&#281; zdalnego repozytorium w repo lokalnym.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git remote -v&#160; </b>-&gt; informacja o aktualnej konfiguracji branchy zdalnych
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git fetch origin -</b>&gt;&#160;&#160;pobierze wszystko co znajduje si&#281; w repoztorium origin do repozytorium lokalnego, ale pobiera referencje do osbnego katalogu, ale na samym repozytorium master pozostaje niezmieniony (zmiany trafiaj&#261; do FETCH_HEAD)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Commity mog&#261; zosta&#263; pobrane do osobnego brancha
+    </p>
+    <p>
+      <b>git fetch origin master:temp </b>-&gt; spowoduje dodanie nowego brancha o nazwie temp i pobranie do niego zmian z mastera na zdalnym repozytorium
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git status-&gt; je&#347;li mamy komunikat
+    </p>
+    <p>
+      Your branch is behind/ahead... -&gt; znaczy to &#380;e nasze repozytorium jest rozsynchronizowane
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      je&#347;li chcemy by pobrane zmiany zosta&#322;y zaaplikowane do master to wykonujemy merge z FETCH_HEAD
+    </p>
+    <p>
+      <b>git merge FETCH_HEAD</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git pull skad:dokad -&gt; </b>zaci&#261;ga wszystkie zmiany ze &#347;ledzonej ga&#322;&#281;zi i automatyczne zaaplikowanie ich na aktywne repozytorium (w odr&#243;&#380;nieniu od fetch)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </map>
