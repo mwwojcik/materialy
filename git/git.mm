@@ -1324,15 +1324,14 @@
       git merge --abort -&gt; przerywa merge, git przywr&#243;ci zmiany do stanu w jakim startowa&#322; maerge
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 <node CREATED="1518539963121" ID="ID_1970466483" MODIFIED="1518540009852" POSITION="left" TEXT="Praca z repozytorium zdalnym GITHUB">
 <cloud COLOR="#2afdf3"/>
 <node CREATED="1518540128629" ID="ID_1887345036" MODIFIED="1518540133768" TEXT="Klonowanie repozytorium">
-<node CREATED="1518540134866" ID="ID_1417611534" MODIFIED="1518557104334" TEXT="git clone">
+<node CREATED="1518540134866" ID="ID_1417611534" MODIFIED="1518592265333" TEXT="git clone">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1393,6 +1392,395 @@
 </html>
 </richcontent>
 <node CREATED="1518557006596" ID="ID_1051063032" MODIFIED="1518557006596" TEXT=""/>
+</node>
+</node>
+<node CREATED="1518593065812" ID="ID_1050550579" MODIFIED="1518594857481" TEXT="Wysy&#x142;anie repozytorium lokalnego na GITHUB">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        Na Github tworzymy sobie projekt (np. nazwa moj_pierwszy_projekt_git)
+      </li>
+      <li>
+        W naszym lokalnym repozytorium przy pomocy git config nale&#380;y doda&#263; wskazanie na zdalne repozytorium, w tym celu wchodzimy do naszego lokalnego repozytorium i wykonujemy polecenie:<br /><b>git remote add origin https://github.com/mwwojcik/nazwa moj_pierwszy_projekt_git</b><br />Po wykonaniu polecenia git config --list poka&#380;e ustawione remote.origin.url i remote.origin.fetch<br />
+      </li>
+      <li>
+        Zmiany z lokalnego repozytorium mog&#261; zosta&#263; wypchni&#281;te do repozytorium zdalnego<br /><b>git push -u origin master</b><br />origin -&gt; referencja do &quot;&#378;r&#243;d&#322;a&quot;, czyli zdalnego serwera z przypisanym urlem, pierwszy, najwa&#380;niejszy dla tego repozytorium serwer<br />master - nazwa ga&#322;&#281;zi kt&#243;ra jest synchronizowana&#160;<br />-u -&gt; upstream zapami&#281;tuje by ka&#380;dy kolejny push tego repozytorium trafia&#322; do<br />tej samej ga&#322;&#281;zi<br /><br /><b>Lokalna ga&#322;&#261;&#378; master jest synchronizowana ze zdaln&#261; ga&#322;&#281;zi&#261; master</b><br /><br /><br /><br /><br /><br />
+      </li>
+    </ol>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1518594726980" ID="ID_1726390518" MODIFIED="1518594729659" TEXT="git push -u origin master"/>
+</node>
+<node CREATED="1518594919669" ID="ID_299675789" MODIFIED="1518594923265" TEXT="Klucze SSH">
+<node CREATED="1518595039976" ID="ID_951405050" MODIFIED="1518600421576" TEXT="Autoryzacja i autentykacja do GITHUB z pomini&#x119;ciem systemowych system&#xf3;w przechowywania hase&#x142;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Komunikacja ze zdalnym repozytorium najcz&#281;&#347;ciej opiera si&#281; o protoko&#322; HTTPS.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Po stronie GITHUB odszukujemy opcj&#281; SSH keys ( w settingsach)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Tworzymy standardow&#261; metod&#261; klucze:
+    </p>
+    <p>
+      ssh-keygen -&gt; narz&#281;dzie pyta o has&#322;a kt&#243;rym na lokalnym komputerze b&#281;d&#261; chronione pliki kluczy. Je&#347;li jeste&#347;my pewni &#380;e nikt nieuprawniony nie b&#281;dzie korzysta&#322; - zostawiamy puste.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Powstaj&#261; dwa pliki id_rsa i id_rsa.pub. Klucz prywatny b&#281;dzie s&#322;u&#380;y&#322; do podpisywania zmian, tworzony jest skr&#243;t, kt&#243;ry do&#322;&#261;czony b&#281;dzie do ka&#380;dego &#380;&#261;dania wys&#322;anego do github. Po stronie repozytorium zarejestrowany zostanie nasz klucz publiczny na podstawie kt&#243;rego b&#281;dzie nast&#281;powa&#322;a weryfikacja.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ssh-agent -&gt; powinien sam doda&#263; klucze, ale czasami mo&#380;e wyst&#261;pi&#263; konieczno&#347;&#263; dodania kluczy do agenta. Jest to proces zarz&#261;dzaj&#261;cy kluczami. Dodajemy do niego klucz prywatny, np:
+    </p>
+    <p>
+      ssh-add ~/.ssh/id_rsa
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Cz&#281;&#347;&#263; publiczn&#261; klucza wy&#347;wietlamy (cat) i kopiujemy do schowka (razem z rodzajem klucza i emailem) i w GITHUB przechodzimy do&#160;&#160;Settings-&gt;SSH keys dodaj&#281; nowy klucz i wklejam jego zawarto&#347;&#263;. Klucz publiczny zostaje dodany.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#379;eby ca&#322;a komunikacja zaistnia&#322;a konieczna jest zmiana protoko&#322;u komunikacyjnego (bo je&#347;li mamy ustawiony https zawsze b&#281;dziemy pytanie o has&#322;o i login). W tym celu wykonujemy polecenie:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git remote set-url origin git@github.com:mwwojcik/moj_pierwszy_projekt_git</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      od tego czasu mo&#380;na u&#380;ywa&#263;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git push
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      i
+    </p>
+    <p>
+      git pull
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Git nie powinien pyta&#263;&#160;&#160;o login i has&#322;o.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      .
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1518607345733" ID="ID_1050003530" MODIFIED="1518607354494" TEXT="Ga&#x142;&#x119;zie zdalne">
+<node CREATED="1518607369360" ID="ID_599334832" MODIFIED="1518608362940" TEXT="git remote">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git remote show-&gt;poka&#380; g&#322;&#243;wne repozytorium zdalne (origin=&#378;r&#243;d&#322;o)
+    </p>
+    <p>
+      git remote show origin -&gt; poka&#380; szczeg&#243;&#322;owe informacje o repozytorium zdalnym o nazwie origin
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Remote branch
+    </p>
+    <p>
+      master tracked -&gt; ga&#322;&#261;&#378; aktywna na zdalnym repo
+    </p>
+    <p>
+      Local branch configured for git pull -&gt; informacja &#380;e wykonanie 'git pull' pobierze dane do aktualnej ga&#322;&#281;zi z ga&#322;&#281;zi Remote branch
+    </p>
+    <p>
+      Local ref configured for 'git push'
+    </p>
+    <p>
+      master pushes to master -&gt; wypchni&#281;cie danych z lokalnego mastera spowoduje &#380;e trafi&#261; one do mastera zdalnego
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      UWAGA!
+    </p>
+    <p>
+      Mo&#380;liwe jest ustawienie innego repozytorium do pobierania zmian(Fetch URL) i innego do wysy&#322;ania (Push URL).
+    </p>
+    <p>
+      Dzi&#281;ki temu mo&#380;na ustawi&#263; repozytorium po&#347;rednie, do kt&#243;rego trafiaj&#261; zmiany do weryfikacji.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mo&#380;na po&#322;&#261;czy&#263; dowoln&#261; ga&#322;&#261;&#378; lokaln&#261; z ga&#322;&#281;zi&#261; zdaln&#261;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mo&#380;na doda&#263; drugi remote, nie pod nazw&#261; origin.
+    </p>
+    <p>
+      git remote add bitbucket git@bitbbucket.org:user/pierwsza_strona
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      teraz git remote poka&#380;e:
+    </p>
+    <p>
+      bitbucket
+    </p>
+    <p>
+      origin
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git push bitbucket master -</b>&gt; nasza ga&#322;&#261;&#378; master zostaje wypchni&#281;ta do serwera bitbucket
+    </p>
+    <p>
+      UWAGA! fajna opcja do wykonania kopii zapasowej.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git remote get-url origin</b>&#160;-&gt; daje adres zasobu zdalnego
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git remote set-url origin inny_adres </b>-&gt; zmienia adres dla origin
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git remote rename bitbucket backup</b>&#160;-&gt; zmienia nazw&#281; drugiego zasobu
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git remote remove backup</b>&#160;-&gt; usuwa konfiguracj&#281;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1518608364547" ID="ID_536124645" MODIFIED="1518608374696" TEXT="Przesy&#x142;anie zmian na zdalne repo">
+<node CREATED="1518608376375" ID="ID_812101942" MODIFIED="1518619187056" TEXT="git push">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git push
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Po stworzeniu nowej ga&#322;&#281;zi
+    </p>
+    <p>
+      <b>git checkout -b test</b>
+    </p>
+    <p>
+      git push na tej ga&#322;&#281;zi spowoduje &#380;e pojawi si&#281; komunikat &#380;e ga&#322;&#261;&#378; nie jest skojarzona z &#380;adnym branchem zdalnym.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git push origin master</b>&#160;-&gt; dwa parametry, pierwszy to nazwa repozytorium zdalnego (referencja), drugi to nazwa commita, brancha, hash taga itd...
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git push origin test:test </b>-&gt; w ten spos&#243;b wysy&#322;amy commit na kt&#243;ry wskazuje branch test do ga&#322;&#281;zi test zdalnej. Tam powinien pojawi&#263; si&#281; branch test. Po dwukropku podajemy nazw&#281; pod jak&#261; ma pojawi&#263; si&#281; branch zdalny.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git push origin HEAD:test -&gt; commit z HEAD stanie si&#281; pocz&#261;tkiem zdalnego brancha o nazwie test
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      je&#347;li chcemy ustawi&#263; automatyczne &#347;ledzenie tego brancha
+    </p>
+    <p>
+      <b>git push --set-upstream (lub -u) origin test</b>
+    </p>
+    <p>
+      nasza lokalna ga&#322;&#261;&#378; test jest przygotowana by &#347;ledzi&#263; zdaln&#261; ga&#322;&#261;&#378; test
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      git config --list pokazuje teraz po kolei jak spi&#281;te ze sob&#261; s&#261; ga&#322;&#281;zie
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git branch -u origin/master </b>-&gt; ponowna zmiana synchronizacji ga&#322;&#281;zi lokalnej ga&#322;&#281;zi test - przestawienie jej na zdalny master
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>UWAGA! Usuni&#281;cie ga&#322;&#281;zi lokalnej nie skutkuje usuni&#281;ciem ga&#322;&#281;zi zdalnej!</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Usuni&#281;cie zdalnej ga&#322;&#281;zi odbywa si&#281; przez ustawienie pustej zdalnej referencji (przed dwukropkiem nie wstawiamy nic)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git push origin&#160;&#160;:test</b>
+    </p>
+    <p>
+      lub jawnie:
+    </p>
+    <p>
+      <b>git push --delete origin test</b>
+    </p>
+    <p>
+      od tego momentu na zdalnym repozytorium znika branch o nazwie 'test'
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git push origin master:test</b>&#160;-&gt; pr&#243;ba nadpisania ga&#322;&#281;zi test tym co znajduje si&#281; w master, je&#347;li wyst&#261;pi&#261; konflikty serwer nie pozwoli na t&#281; operacj&#281;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git push origin master:test</b>&#160;<b>-f (force) </b>-&gt; wymusza aplikacj&#281; zmian, kasuj&#261;c te kt&#243;re s&#261; na serwerze
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mo&#380;liwe jest r&#243;wnie&#380; wypychanie na kilka branche jednocze&#347;nie:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git push origin master test</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>git push origin master test --dry-run -&gt; </b>wykonuje operacje ale bez zmiany czegokolwiek na serwerze, w celach testowych, &#380;eby sprawdzi&#263; czy zmiany nie konfliktuj&#261;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1518614509656" ID="ID_1354188083" MODIFIED="1518614509656" TEXT=""/>
 </node>
 </node>
 </node>
