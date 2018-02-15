@@ -100,6 +100,7 @@
 <node CREATED="1481064252235" ID="ID_982676351" MODIFIED="1481064264223" TEXT="serwis z zestawami ikon tematycznych"/>
 </node>
 <node CREATED="1481735941155" ID="ID_1619613792" LINK="http://diveintohtml5.info/introduction.html" MODIFIED="1481735954815" TEXT="http://diveintohtml5.info/introduction.html"/>
+<node CREATED="1518733053138" ID="ID_744590751" LINK="https://bs4.kursbootstrap.pl/kontenery-containers/" MODIFIED="1518733083478" TEXT="Kurs bootstrap4 "/>
 </node>
 <node CREATED="1480359280597" ID="ID_88307567" MODIFIED="1480440097186" POSITION="left" TEXT="Jednostki relatywne">
 <cloud/>
@@ -1301,7 +1302,7 @@
 </node>
 <node CREATED="1484246683194" ID="ID_1973313480" MODIFIED="1484246684736" TEXT="cite"/>
 </node>
-<node CREATED="1484246819508" ID="ID_850918477" MODIFIED="1484247418797" TEXT="footer ">
+<node CREATED="1484246819508" ID="ID_850918477" MODIFIED="1518721272539" TEXT="footer ">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1341,7 +1342,8 @@
       spowoduje &#380;e w outline pojawi si&#281; sekcja &quot;Tytu&#322; stopki&quot;(mimo tego &#380;e footer nie wzbogaca outline). Nale&#380;y rozwa&#380;y&#263; wa&#380;no&#347;&#263;. Je&#347;li umie&#347;cimy tam jakie&#347; wa&#380;ne informacje (np. noty prawne) to pewnie by&#347;my chcieli by znalaz&#322;y si&#281; one w outline, wtedy u&#380;ywamy Hx.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1484246823155" ID="ID_11451842" MODIFIED="1484246823155" TEXT=""/>
 </node>
 <node CREATED="1484246858800" ID="ID_961793756" MODIFIED="1484246879545" TEXT="header">
@@ -1376,28 +1378,7 @@
 <arrowlink DESTINATION="ID_72960858" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_771826808" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_72960858" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_771826808" SOURCE="ID_72960858" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <node CREATED="1496643514617" ID="ID_756852457" MODIFIED="1496643688564" TEXT="Selektory">
-<node CREATED="1497444813994" ID="ID_1828636965" MODIFIED="1498208635046" TEXT="Podstawowe">
-<node CREATED="1496643618639" ID="ID_1590176896" MODIFIED="1496643618639">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="HTML5 CSS3_3665537505288052890.jpeg" />
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1496643687083" ID="ID_1390573249" MODIFIED="1496643687083">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="HTML5 CSS3_2854470836009474457.jpeg" />
-  </body>
-</html></richcontent>
-</node>
-</node>
+<node CREATED="1497444813994" ID="ID_1828636965" MODIFIED="1498208635046" TEXT="Podstawowe"/>
 <node CREATED="1497441160160" ID="ID_368452929" MODIFIED="1497444865076" TEXT="Z&#x142;o&#x17c;one">
 <richcontent TYPE="NOTE"><html>
   <head>
