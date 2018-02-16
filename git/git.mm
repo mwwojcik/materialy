@@ -974,6 +974,64 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1518779982846" ID="ID_1090326839" MODIFIED="1518780037105" TEXT="Klonowanie jednego zdalnego repo do wn&#x119;trza drugiego z zachowaniem historii">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      git remote set-url origin https://github.com/mwwojcik/www.git
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Przeniesienie brancha https://github.com/mwwojcik/portfolio.git
+    </p>
+    <p>
+      do ga&#322;&#281;zi https://github.com/mwwojcik/www.git .
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Problememe jest to &#380;e branche maj&#261; roz&#322;&#261;czne historie.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      cd www
+    </p>
+    <p>
+      git checkout master
+    </p>
+    <p>
+      git remote add r1remote&#160;&#160;https://github.com/mwwojcik/portfolio.git
+    </p>
+    <p>
+      git fetch r1remote
+    </p>
+    <p>
+      git merge r1remote/master --allow-unrelated-histories
+    </p>
+    <p>
+      git remote rm r1remote
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      https://www.smashingmagazine.com/2014/05/moving-git-repository-new-server/
+    </p>
+    <p>
+      https://stackoverflow.com/questions/17371150/moving-git-repository-content-to-another-repository-preserving-history
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1518253670253" ID="ID_956937492" MODIFIED="1518253772083" POSITION="right" TEXT="Praca r&#xf3;wnoleg&#x142;a">
 <cloud COLOR="#f6ce34"/>
@@ -1259,12 +1317,11 @@
       Wada: tworzy nowe commity, przez co zaciemnia histori&#281;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1518472424897" ID="ID_1857742226" MODIFIED="1518472444742" TEXT="Merge - przenoszenie zmian od wsp&#xf3;lnego punktu">
-<node CREATED="1518472446727" ID="ID_338483407" MODIFIED="1518539765323" TEXT="git merge">
+<node CREATED="1518472446727" ID="ID_338483407" MODIFIED="1518767957876" TEXT="git merge">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1325,7 +1382,8 @@
       git merge --abort -&gt; przerywa merge, git przywr&#243;ci zmiany do stanu w jakim startowa&#322; maerge
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 </node>

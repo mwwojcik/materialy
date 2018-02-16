@@ -435,7 +435,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1480440163150" ID="ID_1697250381" MODIFIED="1480441405525" TEXT="Absolutne">
+<node CREATED="1480440163150" ID="ID_1697250381" MODIFIED="1518767801597" TEXT="Absolutne">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -489,11 +489,9 @@
     <p>
       Uwaga! je&#347;li nie ustawi si&#281; left/top to element nie jest przesuwany i pozostaje w miejscu.
     </p>
-    <p>
-      
-    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1480441407722" ID="ID_1132356042" MODIFIED="1481312354279" TEXT="Fixed">
 <richcontent TYPE="NOTE"><html>
