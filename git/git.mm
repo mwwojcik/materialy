@@ -1201,7 +1201,7 @@
 </node>
 </node>
 <node CREATED="1518458295221" ID="ID_105877227" MODIFIED="1518458314378" TEXT="Wyb&#xf3;r zmian z r&#xf3;&#x17c;nych branchy i przenoszenie ich do aktualnej ga&#x142;&#x119;zi">
-<node CREATED="1518458317940" ID="ID_1270786740" MODIFIED="1518472414745" TEXT="git cherry-pick">
+<node CREATED="1518458317940" ID="ID_1270786740" MODIFIED="1518739483118" TEXT="git cherry-pick">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1259,7 +1259,8 @@
       Wada: tworzy nowe commity, przez co zaciemnia histori&#281;.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1518472424897" ID="ID_1857742226" MODIFIED="1518472444742" TEXT="Merge - przenoszenie zmian od wsp&#xf3;lnego punktu">
@@ -1646,8 +1647,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1518608364547" ID="ID_536124645" MODIFIED="1518608374696" TEXT="Przesy&#x142;anie zmian na zdalne repo">

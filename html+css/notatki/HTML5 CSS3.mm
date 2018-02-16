@@ -100,7 +100,12 @@
 <node CREATED="1481064252235" ID="ID_982676351" MODIFIED="1481064264223" TEXT="serwis z zestawami ikon tematycznych"/>
 </node>
 <node CREATED="1481735941155" ID="ID_1619613792" LINK="http://diveintohtml5.info/introduction.html" MODIFIED="1481735954815" TEXT="http://diveintohtml5.info/introduction.html"/>
-<node CREATED="1518733053138" ID="ID_744590751" LINK="https://bs4.kursbootstrap.pl/kontenery-containers/" MODIFIED="1518733083478" TEXT="Kurs bootstrap4 "/>
+<node CREATED="1518739511685" ID="ID_1049733444" MODIFIED="1518739520629" TEXT="Bootstrap">
+<node CREATED="1518733053138" ID="ID_744590751" LINK="https://bs4.kursbootstrap.pl/kontenery-containers/" MODIFIED="1518739524946" TEXT="Kurs bootstrap4 "/>
+<node CREATED="1518739530400" ID="ID_1029510432" LINK="https://www.w3schools.com/bootstrap/bootstrap_templates.asp" MODIFIED="1518739588259" TEXT="Bootstrap 3-w3cschool templates"/>
+<node CREATED="1518739591957" ID="ID_717313567" LINK="https://www.w3schools.com/bootstrap4/default.asp" MODIFIED="1518739656355" TEXT="Boorstrap 4 - w3cschool templates"/>
+<node CREATED="1518739659415" ID="ID_1342766491" LINK="https://startbootstrap.com/template-categories/portfolios/" MODIFIED="1518739699458" TEXT="Bootstap portfolio"/>
+</node>
 </node>
 <node CREATED="1480359280597" ID="ID_88307567" MODIFIED="1480440097186" POSITION="left" TEXT="Jednostki relatywne">
 <cloud/>
@@ -1342,8 +1347,7 @@
       spowoduje &#380;e w outline pojawi si&#281; sekcja &quot;Tytu&#322; stopki&quot;(mimo tego &#380;e footer nie wzbogaca outline). Nale&#380;y rozwa&#380;y&#263; wa&#380;no&#347;&#263;. Je&#347;li umie&#347;cimy tam jakie&#347; wa&#380;ne informacje (np. noty prawne) to pewnie by&#347;my chcieli by znalaz&#322;y si&#281; one w outline, wtedy u&#380;ywamy Hx.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1484246823155" ID="ID_11451842" MODIFIED="1484246823155" TEXT=""/>
 </node>
 <node CREATED="1484246858800" ID="ID_961793756" MODIFIED="1484246879545" TEXT="header">
