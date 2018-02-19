@@ -1029,8 +1029,7 @@
       https://stackoverflow.com/questions/17371150/moving-git-repository-content-to-another-repository-preserving-history
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1518253670253" ID="ID_956937492" MODIFIED="1518253772083" POSITION="right" TEXT="Praca r&#xf3;wnoleg&#x142;a">
@@ -1321,7 +1320,7 @@
 </node>
 </node>
 <node CREATED="1518472424897" ID="ID_1857742226" MODIFIED="1518472444742" TEXT="Merge - przenoszenie zmian od wsp&#xf3;lnego punktu">
-<node CREATED="1518472446727" ID="ID_338483407" MODIFIED="1518767957876" TEXT="git merge">
+<node CREATED="1518472446727" ID="ID_338483407" MODIFIED="1519064689016" TEXT="git merge">
 <richcontent TYPE="NOTE"><html>
   <head>
     
