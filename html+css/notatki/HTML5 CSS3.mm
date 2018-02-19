@@ -105,6 +105,8 @@
 <node CREATED="1518739530400" ID="ID_1029510432" LINK="https://www.w3schools.com/bootstrap/bootstrap_templates.asp" MODIFIED="1518739588259" TEXT="Bootstrap 3-w3cschool templates"/>
 <node CREATED="1518739591957" ID="ID_717313567" LINK="https://www.w3schools.com/bootstrap4/default.asp" MODIFIED="1518739656355" TEXT="Boorstrap 4 - w3cschool templates"/>
 <node CREATED="1518739659415" ID="ID_1342766491" LINK="https://startbootstrap.com/template-categories/portfolios/" MODIFIED="1518739699458" TEXT="Bootstap portfolio"/>
+<node CREATED="1519029299371" ID="ID_1801115789" LINK="https://mdbootstrap.com/css/hover-effects/" MODIFIED="1519029327183" TEXT="Bootstrap - hover image"/>
+<node CREATED="1519050742873" ID="ID_996879305" LINK="https://www.youtube.com/watch?v=C2xv5m8Ra5k" MODIFIED="1519050773402" TEXT="Image card - hover effect"/>
 </node>
 </node>
 <node CREATED="1480359280597" ID="ID_88307567" MODIFIED="1480440097186" POSITION="left" TEXT="Jednostki relatywne">
