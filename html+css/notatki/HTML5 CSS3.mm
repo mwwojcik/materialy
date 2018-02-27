@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1480358164757" ID="ID_1464255391" MODIFIED="1484246476915" TEXT="HTML5 CSS3">
 <font NAME="SansSerif" SIZE="24"/>
-<node CREATED="1480358251257" ID="ID_1572046406" MODIFIED="1480440075590" POSITION="right" TEXT="Wa&#x17c;ne linki">
+<node CREATED="1480358251257" ID="ID_1572046406" MODIFIED="1519741795056" POSITION="right" TEXT="Wa&#x17c;ne linki">
 <cloud/>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1480359558214" ID="ID_535212958" LINK="http://caniuse.com/" MODIFIED="1480359604600" TEXT="Can I Use - okre&#x15b;la zakres wsparcia dla element&#xf3;w CSS3"/>
@@ -108,6 +108,8 @@
 <node CREATED="1519029299371" ID="ID_1801115789" LINK="https://mdbootstrap.com/css/hover-effects/" MODIFIED="1519029327183" TEXT="Bootstrap - hover image"/>
 <node CREATED="1519050742873" ID="ID_996879305" LINK="https://www.youtube.com/watch?v=C2xv5m8Ra5k" MODIFIED="1519050773402" TEXT="Image card - hover effect"/>
 </node>
+<node CREATED="1519741667639" ID="ID_593054896" LINK="https://developer.mozilla.org/en-US/docs/Web/HTML" MODIFIED="1519741751428" TEXT="Ciekawa dokumentacja HTML, struktua, elementy , znaczniki"/>
+<node CREATED="1519741795057" ID="ID_1479976430" LINK="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" MODIFIED="1519741818088" TEXT="HTML 5 - Lista element&#xf3;w"/>
 </node>
 <node CREATED="1480359280597" ID="ID_88307567" MODIFIED="1480440097186" POSITION="left" TEXT="Jednostki relatywne">
 <cloud/>
