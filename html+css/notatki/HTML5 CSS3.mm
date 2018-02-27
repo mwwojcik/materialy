@@ -111,6 +111,7 @@
 <node CREATED="1519741667639" ID="ID_593054896" LINK="https://developer.mozilla.org/en-US/docs/Web/HTML" MODIFIED="1519741751428" TEXT="Ciekawa dokumentacja HTML, struktua, elementy , znaczniki"/>
 <node CREATED="1519741795057" ID="ID_1479976430" LINK="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" MODIFIED="1519741818088" TEXT="HTML 5 - Lista element&#xf3;w"/>
 <node CREATED="1519744458119" ID="ID_480329475" LINK="http://kodu.je/flexbox/" MODIFIED="1519744479675" TEXT="Kurs FlexBox-darmowy"/>
+<node CREATED="1519746133458" ID="ID_232008523" LINK="https://www.w3schools.com/css/css3_flexbox.asp" MODIFIED="1519746165569" TEXT="Turorial FlexBox - w3schools"/>
 </node>
 <node CREATED="1480359280597" ID="ID_88307567" MODIFIED="1480440097186" POSITION="left" TEXT="Jednostki relatywne">
 <cloud/>
@@ -786,6 +787,22 @@
   </body>
 </html></richcontent>
 </node>
+</node>
+<node CREATED="1519746189505" ID="ID_682729110" MODIFIED="1519746260941" TEXT="Technika FlexBox">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    Model pozycjonowania oparty na pozycjonowaniu CSS. The biggest
+
+    <p>
+      <strong>difference between Bootstrap 3 and Bootstrap 4</strong>&#160;is that Bootstrap 4 now uses flexbox, instead of floats. One big advantage with flexbox is that grid columns without a specified width will automatically layout as &quot;equal width columns&quot; (and equal height). Example: Three elements with <code class="w3-codespan">.col-sm</code>&#160; will each automatically be 33.33% wide from the small breakpoint and up. <strong>Tip:</strong>&#160; If you want to learn more about Flexbox, you can read our <a href="https://www.w3schools.com/css/css3_flexbox.asp">CSS Flexbox Tutorial</a>
+    </p>
+    The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without having to use floats or positioning.
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1480885037140" ID="ID_451764995" MODIFIED="1481310206768" POSITION="right" TEXT="Ciekawe w&#x142;asno&#x15b;ci">
