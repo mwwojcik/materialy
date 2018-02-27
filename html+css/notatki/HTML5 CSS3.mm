@@ -110,6 +110,7 @@
 </node>
 <node CREATED="1519741667639" ID="ID_593054896" LINK="https://developer.mozilla.org/en-US/docs/Web/HTML" MODIFIED="1519741751428" TEXT="Ciekawa dokumentacja HTML, struktua, elementy , znaczniki"/>
 <node CREATED="1519741795057" ID="ID_1479976430" LINK="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" MODIFIED="1519741818088" TEXT="HTML 5 - Lista element&#xf3;w"/>
+<node CREATED="1519744458119" ID="ID_480329475" LINK="http://kodu.je/flexbox/" MODIFIED="1519744479675" TEXT="Kurs FlexBox-darmowy"/>
 </node>
 <node CREATED="1480359280597" ID="ID_88307567" MODIFIED="1480440097186" POSITION="left" TEXT="Jednostki relatywne">
 <cloud/>
