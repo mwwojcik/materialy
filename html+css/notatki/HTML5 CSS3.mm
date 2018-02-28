@@ -2,7 +2,7 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1480358164757" ID="ID_1464255391" MODIFIED="1484246476915" TEXT="HTML5 CSS3">
 <font NAME="SansSerif" SIZE="24"/>
-<node CREATED="1480358251257" ID="ID_1572046406" MODIFIED="1519741795056" POSITION="right" TEXT="Wa&#x17c;ne linki">
+<node CREATED="1480358251257" ID="ID_1572046406" MODIFIED="1519813624327" POSITION="right" TEXT="Wa&#x17c;ne linki">
 <cloud/>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1480359558214" ID="ID_535212958" LINK="http://caniuse.com/" MODIFIED="1480359604600" TEXT="Can I Use - okre&#x15b;la zakres wsparcia dla element&#xf3;w CSS3"/>
@@ -109,9 +109,20 @@
 <node CREATED="1519050742873" ID="ID_996879305" LINK="https://www.youtube.com/watch?v=C2xv5m8Ra5k" MODIFIED="1519050773402" TEXT="Image card - hover effect"/>
 </node>
 <node CREATED="1519741667639" ID="ID_593054896" LINK="https://developer.mozilla.org/en-US/docs/Web/HTML" MODIFIED="1519741751428" TEXT="Ciekawa dokumentacja HTML, struktua, elementy , znaczniki"/>
-<node CREATED="1519741795057" ID="ID_1479976430" LINK="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" MODIFIED="1519741818088" TEXT="HTML 5 - Lista element&#xf3;w"/>
+<node CREATED="1519741795057" ID="ID_1479976430" LINK="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" MODIFIED="1519816527215" TEXT="HTML 5 - Lista element&#xf3;w">
+<linktarget COLOR="#33ff33" DESTINATION="ID_1479976430" ENDARROW="Default" ENDINCLINATION="1044;0;" ID="Arrow_ID_317628192" SOURCE="ID_1968874212" STARTARROW="None" STARTINCLINATION="1044;0;"/>
+</node>
 <node CREATED="1519744458119" ID="ID_480329475" LINK="http://kodu.je/flexbox/" MODIFIED="1519744479675" TEXT="Kurs FlexBox-darmowy"/>
 <node CREATED="1519746133458" ID="ID_232008523" LINK="https://www.w3schools.com/css/css3_flexbox.asp" MODIFIED="1519746165569" TEXT="Turorial FlexBox - w3schools"/>
+<node CREATED="1519812386510" ID="ID_774927067" LINK="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" MODIFIED="1519816504337" TEXT="css-tricks - Complete Guide to Flexbox - obszerne opracowanie FlexBox">
+<linktarget COLOR="#0000ff" DESTINATION="ID_774927067" ENDARROW="Default" ENDINCLINATION="1294;0;" ID="Arrow_ID_1987793010" SOURCE="ID_1766130180" STARTARROW="None" STARTINCLINATION="1292;0;"/>
+</node>
+<node CREATED="1519813629298" ID="ID_157127801" LINK="https://css-tricks.com/snippets/css/complete-guide-grid/" MODIFIED="1519813764452" TEXT="css-tricks -&gt; Complete Guide to GRID -obszerne om&#xf3;wienie Grid Layoutu">
+<linktarget COLOR="#ff0033" DESTINATION="ID_157127801" ENDARROW="Default" ENDINCLINATION="1330;0;" ID="Arrow_ID_393769359" SOURCE="ID_1727603622" STARTARROW="None" STARTINCLINATION="1330;0;"/>
+</node>
+<node CREATED="1519820733474" ID="ID_84824368" LINK="https://www.w3schools.com/icons/default.asp" MODIFIED="1519821018033" TEXT="w3schools- jak u&#x17c;ywa&#x107; czcionek hostowanych zdalnie (Google, Font Awesome,Bootstap Glyphicons)">
+<icon BUILTIN="messagebox_warning"/>
+</node>
 </node>
 <node CREATED="1480359280597" ID="ID_88307567" MODIFIED="1480440097186" POSITION="left" TEXT="Jednostki relatywne">
 <cloud/>
@@ -590,10 +601,6 @@
 </html></richcontent>
 <cloud/>
 </node>
-<node CREATED="1480445252217" ID="ID_724598407" MODIFIED="1480445257039" TEXT="Techniki zaawansowane">
-<node CREATED="1480445236429" ID="ID_1842917374" MODIFIED="1480445241471" TEXT="FlexBox"/>
-<node CREATED="1480445244188" ID="ID_1056404032" MODIFIED="1480445248421" TEXT="CSS3 Layout"/>
-</node>
 <node CREATED="1480711621623" ID="ID_621907629" MODIFIED="1480711628479" TEXT="Model pude&#x142;kowy">
 <node CREATED="1480711678518" ID="ID_1814349134" MODIFIED="1481063644464" TEXT="Elementy liniowe vs elementy blokowe">
 <richcontent TYPE="NOTE"><html>
@@ -788,13 +795,13 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1519746189505" ID="ID_682729110" MODIFIED="1519746260941" TEXT="Technika FlexBox">
+<node CREATED="1519746189505" ID="ID_682729110" MODIFIED="1519813932035" TEXT="Bootstrap 4 - opiera si&#x119; na technikach FlexBox">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
-    Model pozycjonowania oparty na pozycjonowaniu CSS. The biggest
+    Model pozycjonowania oparty na pozycjonowaniu CSS. Cytat z w3cschool: &#160;The biggest
 
     <p>
       <strong>difference between Bootstrap 3 and Bootstrap 4</strong>&#160;is that Bootstrap 4 now uses flexbox, instead of floats. One big advantage with flexbox is that grid columns without a specified width will automatically layout as &quot;equal width columns&quot; (and equal height). Example: Three elements with <code class="w3-codespan">.col-sm</code>&#160; will each automatically be 33.33% wide from the small breakpoint and up. <strong>Tip:</strong>&#160; If you want to learn more about Flexbox, you can read our <a href="https://www.w3schools.com/css/css3_flexbox.asp">CSS Flexbox Tutorial</a>
@@ -803,6 +810,116 @@
   </body>
 </html>
 </richcontent>
+</node>
+<node CREATED="1519812075963" ID="ID_230263511" MODIFIED="1519812098750" TEXT="Wsparcie CSS3 w zakresie tworzenia responsywnych Layout&#xf3;w">
+<node CREATED="1519812193464" ID="ID_1766130180" MODIFIED="1519816514539" TEXT="Layout z FlexBox">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Nowy spos&#243;b tworzenia layout&#243;w zgodny z css3. Daje on wiele mo&#380;liwo&#347;ci w zakresie pozycjonowania obszar&#243;w.
+    </p>
+    <p>
+      W ramach kontenera mo&#380;emy sprawi&#263; &#380;e jeden z element&#243;w b&#281;dzie w okre&#347;lonej proporcji do innego, a reszta dopasuje si&#281; do tych dw&#243;ch. Mo&#380;na wyr&#243;wnywa&#263; w poziomie, pionie, stretch(rozci&#261;ganie)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      np. konstrukcja
+    </p>
+    <p>
+      &lt;div class=&quot;kontener&quot;&gt;
+    </p>
+    <p>
+      &#160;&lt;nav&gt;nav&lt;/nav&gt;
+    </p>
+    <p>
+      &lt;article&gt;&lt;/article&gt;
+    </p>
+    <p>
+      &lt;aside&gt;&lt;/aside&gt;
+    </p>
+    <p>
+      &lt;div&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      .kontener{display:flex;}
+    </p>
+    <p>
+      .aside{flex:1;}
+    </p>
+    <p>
+      .article{flex:1}
+    </p>
+    <p>
+      Taki uk&#322;ad spowoduje &#380;e: kontener g&#322;&#243;wny jest typu flex, zajmuje ca&#322;&#261; dost&#281;pn&#261; przestrze&#324; ekranu , aside i article zajm&#261; r&#243;wn&#261; cz&#281;&#347;&#263; ekranu, kontener nav zajmie to miejsce kt&#243;re pozostaje.
+    </p>
+    <p>
+      je&#347;li dodamy
+    </p>
+    <p>
+      .nav{flex:1;} to kontener g&#322;&#243;wny zostaje podzielony na trzy r&#243;wne kolumny.
+    </p>
+    <p>
+      je&#347;li zmienimy proporcje dla article:
+    </p>
+    <p>
+      .article{flex:1;} -&gt; to stanie si&#281; on 2xszerszy od pozosta&#322;ych
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      je&#347;li chcemy zmieni&#263; naturaln&#261; kolejno&#347;&#263; element&#243;w wyst&#281;puj&#261;cych w HTML mo&#380;na u&#380;y&#263; w&#322;asno&#347;ci order
+    </p>
+    <p>
+      .nav{flex:1;
+    </p>
+    <p>
+      order:-1;} -&gt; kontener trafi na lew&#261; stron&#281;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<arrowlink COLOR="#0000ff" DESTINATION="ID_774927067" ENDARROW="Default" ENDINCLINATION="1294;0;" ID="Arrow_ID_1987793010" STARTARROW="None" STARTINCLINATION="1292;0;"/>
+</node>
+<node CREATED="1519813397221" ID="ID_1727603622" MODIFIED="1519816523139" TEXT="Layout typu GRID -siatka">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Layout o mniejszym wsparciu (na chwil&#281; obecn&#261; ni&#380; FlexBox).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Cytat z opracowania css-tricks:
+    </p>
+    CSS Grid Layout is the most powerful layout system available in CSS. It is a 2-dimensional system, meaning it can handle both columns and rows, unlike
+
+    <p>
+      <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">flexbox</a>&#160;which is largely a 1-dimensional system. You work with Grid Layout by applying CSS rules both to a parent element (which becomes the Grid Container) and to that elements children (which become Grid Items).
+    </p>
+  </body>
+</html>
+</richcontent>
+<arrowlink COLOR="#ff0033" DESTINATION="ID_157127801" ENDARROW="Default" ENDINCLINATION="1330;0;" ID="Arrow_ID_393769359" STARTARROW="None" STARTINCLINATION="1330;0;"/>
+</node>
 </node>
 </node>
 <node CREATED="1480885037140" ID="ID_451764995" MODIFIED="1481310206768" POSITION="right" TEXT="Ciekawe w&#x142;asno&#x15b;ci">
@@ -1272,7 +1389,8 @@
 <node CREATED="1481064632243" ID="ID_409579567" MODIFIED="1481064648604" TEXT="u&#x17c;ywamy wtedy gdy ma sens tre&#x15b;ciowy"/>
 </node>
 </node>
-<node CREATED="1484246480147" ID="ID_1968874212" MODIFIED="1484246484154" POSITION="right" TEXT="HTLM 5">
+<node CREATED="1484246480147" ID="ID_1968874212" MODIFIED="1519820037921" POSITION="right" TEXT="HTLM 5">
+<arrowlink COLOR="#33ff33" DESTINATION="ID_1479976430" ENDARROW="Default" ENDINCLINATION="1044;0;" ID="Arrow_ID_317628192" STARTARROW="None" STARTINCLINATION="1044;0;"/>
 <node CREATED="1484246486048" ID="ID_415740351" MODIFIED="1484246662786" TEXT="Nag&#x142;&#xf3;wki, sekcje">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1385,7 +1503,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1484247834955" ID="ID_539941058" MODIFIED="1484247879571" TEXT="aside">
+<node CREATED="1484247834955" ID="ID_539941058" MODIFIED="1519815110745" TEXT="aside">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1394,8 +1512,67 @@
     <p>
       Dodaje si&#281; do outline. Je&#347;li nie dodamy nag&#322;&#243;wka Hx, wtedy analogicznie jak w przypadku pozosta&#322;ych element&#243;w zarejestrowany zostanie jako untitled.
     </p>
+    <p>
+      
+    </p>
+    <p>
+      Sugeruje tre&#347;&#263; kt&#243;ra nie pochodzi bezpo&#347;rednio z naszej strony. Mog&#261; to by&#263; reklamy.
+    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
+</node>
+<node CREATED="1519814545059" ID="ID_796889666" MODIFIED="1519814783427" TEXT="section">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Tre&#347;ci tworz&#261;ce grup&#281; tematyzn&#261;. Element section ma odwzorowanie w spisie tre&#347;ci (outline) strony (!). Element nie powinien by&#263; u&#380;ywany gdy chodzi o grupowanie w celu ostylowania. Przyk&#322;ady sekcji to bloki tematyczne na stronie: np. Informacje, o mnie, dane kontaktowe itd.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1519814678521" ID="ID_1935273444" MODIFIED="1519814703614" TEXT="div">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Znacznik kt&#243;ry ma by&#263; stosowany wy&#322;&#261;cznie do ostylowania.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1519814803848" ID="ID_984439779" MODIFIED="1519814941628" TEXT="article">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      R&#243;&#380;ni si&#281; tym od sekcji &#380;e stanowi tre&#347;&#263; kt&#243;ra stanowi jednolit&#261; sp&#243;jn&#261; ca&#322;o&#347;&#263; daj&#261;c&#261; si&#281; &quot;wyci&#261;&#263;&quot; wstawi&#263; do innego miejsca. Mo&#380;e zawiera&#263; header, footer, mo&#380;e podlega&#263; zagnie&#380;d&#380;aniu.&#160;Jest znacznikiem Flow Content, wi&#281;c wed&#322;ug specyfikacji mo&#380;e by&#263; zagnie&#380;d&#380;ane wszystko z grupy &#160;Flow.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1519820037922" ID="ID_1912336127" MODIFIED="1519820096463" TEXT="nav">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Grupa link&#243;w do innych stron tego samego serwisu. Tworzy wpis w spisie tre&#347;ci strony. Jest zarezerwowany dla g&#322;&#243;wnej nawigacji serwisu.
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1496643506331" ID="ID_72960858" MODIFIED="1498208628054" POSITION="left" TEXT="JQuery">
