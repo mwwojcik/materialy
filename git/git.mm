@@ -952,7 +952,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1517474607110" ID="ID_1554533457" MODIFIED="1518041630634" TEXT="git push - push do zdalnego brancha">
+<node CREATED="1517474607110" ID="ID_1554533457" MODIFIED="1519742048702" TEXT="git push - push do zdalnego brancha">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -960,7 +960,8 @@
   <body>
     <pre><code>git push origin master:master</code></pre>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1517480249527" ID="ID_1470399699" MODIFIED="1517480296440" TEXT="git remote - sprawdzanie listy zarejestrowanych zdalnych serwer&#xf3;w repozytori&#xf3;w">
 <richcontent TYPE="NOTE"><html>
@@ -1381,8 +1382,7 @@
       git merge --abort -&gt; przerywa merge, git przywr&#243;ci zmiany do stanu w jakim startowa&#322; maerge
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
