@@ -67,7 +67,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1480361932146" ID="ID_1889108911" MODIFIED="1480399677179" TEXT="https://fonts.google.com/ - czcionki hostowane przez google">
+<node CREATED="1480361932146" ID="ID_1889108911" LINK="https://fonts.google.com" MODIFIED="1519890389764" TEXT="https://fonts.google.com/ - czcionki hostowane przez google">
 <richcontent TYPE="NOTE"><html>
   <head>
     
