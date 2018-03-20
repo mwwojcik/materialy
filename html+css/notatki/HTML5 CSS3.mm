@@ -67,7 +67,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1480361932146" ID="ID_1889108911" LINK="https://fonts.google.com" MODIFIED="1519890389764" TEXT="https://fonts.google.com/ - czcionki hostowane przez google">
+<node CREATED="1480361932146" ID="ID_1889108911" LINK="https://fonts.google.com" MODIFIED="1521116147033" TEXT="https://fonts.google.com/ - czcionki hostowane przez google">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -83,7 +83,8 @@
       Polskie znaki tylko przy wybraniu opcji Latin Extended
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1480400000653" ID="ID_1027252120" LINK="http://www.colorzilla.com/gradient-editor/" MODIFIED="1480400023799" TEXT="http://www.colorzilla.com/gradient-editor/"/>
@@ -507,8 +508,7 @@
       Uwaga! je&#347;li nie ustawi si&#281; left/top to element nie jest przesuwany i pozostaje w miejscu.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1480441407722" ID="ID_1132356042" MODIFIED="1481312354279" TEXT="Fixed">
 <richcontent TYPE="NOTE"><html>
@@ -808,8 +808,7 @@
     </p>
     The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without having to use floats or positioning.
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1519812075963" ID="ID_230263511" MODIFIED="1519812098750" TEXT="Wsparcie CSS3 w zakresie tworzenia responsywnych Layout&#xf3;w">
 <node CREATED="1519812193464" ID="ID_1766130180" MODIFIED="1519816514539" TEXT="Layout z FlexBox">
@@ -891,8 +890,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <arrowlink COLOR="#0000ff" DESTINATION="ID_774927067" ENDARROW="Default" ENDINCLINATION="1294;0;" ID="Arrow_ID_1987793010" STARTARROW="None" STARTINCLINATION="1292;0;"/>
 </node>
 <node CREATED="1519813397221" ID="ID_1727603622" MODIFIED="1519816523139" TEXT="Layout typu GRID -siatka">
@@ -916,8 +914,7 @@
       <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">flexbox</a>&#160;which is largely a 1-dimensional system. You work with Grid Layout by applying CSS rules both to a parent element (which becomes the Grid Container) and to that elements children (which become Grid Items).
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <arrowlink COLOR="#ff0033" DESTINATION="ID_157127801" ENDARROW="Default" ENDINCLINATION="1330;0;" ID="Arrow_ID_393769359" STARTARROW="None" STARTINCLINATION="1330;0;"/>
 </node>
 </node>
@@ -1519,8 +1516,7 @@
       Sugeruje tre&#347;&#263; kt&#243;ra nie pochodzi bezpo&#347;rednio z naszej strony. Mog&#261; to by&#263; reklamy.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1519814545059" ID="ID_796889666" MODIFIED="1519814783427" TEXT="section">
 <richcontent TYPE="NOTE"><html>
@@ -1532,8 +1528,7 @@
       Tre&#347;ci tworz&#261;ce grup&#281; tematyzn&#261;. Element section ma odwzorowanie w spisie tre&#347;ci (outline) strony (!). Element nie powinien by&#263; u&#380;ywany gdy chodzi o grupowanie w celu ostylowania. Przyk&#322;ady sekcji to bloki tematyczne na stronie: np. Informacje, o mnie, dane kontaktowe itd.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1519814678521" ID="ID_1935273444" MODIFIED="1519814703614" TEXT="div">
 <richcontent TYPE="NOTE"><html>
@@ -1545,8 +1540,7 @@
       Znacznik kt&#243;ry ma by&#263; stosowany wy&#322;&#261;cznie do ostylowania.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1519814803848" ID="ID_984439779" MODIFIED="1519814941628" TEXT="article">
 <richcontent TYPE="NOTE"><html>
@@ -1558,8 +1552,7 @@
       R&#243;&#380;ni si&#281; tym od sekcji &#380;e stanowi tre&#347;&#263; kt&#243;ra stanowi jednolit&#261; sp&#243;jn&#261; ca&#322;o&#347;&#263; daj&#261;c&#261; si&#281; &quot;wyci&#261;&#263;&quot; wstawi&#263; do innego miejsca. Mo&#380;e zawiera&#263; header, footer, mo&#380;e podlega&#263; zagnie&#380;d&#380;aniu.&#160;Jest znacznikiem Flow Content, wi&#281;c wed&#322;ug specyfikacji mo&#380;e by&#263; zagnie&#380;d&#380;ane wszystko z grupy &#160;Flow.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1519820037922" ID="ID_1912336127" MODIFIED="1519820096463" TEXT="nav">
 <richcontent TYPE="NOTE"><html>
@@ -1571,8 +1564,7 @@
       Grupa link&#243;w do innych stron tego samego serwisu. Tworzy wpis w spisie tre&#347;ci strony. Jest zarezerwowany dla g&#322;&#243;wnej nawigacji serwisu.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1496643506331" ID="ID_72960858" MODIFIED="1498208628054" POSITION="left" TEXT="JQuery">

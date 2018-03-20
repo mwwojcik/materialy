@@ -960,8 +960,7 @@
   <body>
     <pre><code>git push origin master:master</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1517480249527" ID="ID_1470399699" MODIFIED="1517480296440" TEXT="git remote - sprawdzanie listy zarejestrowanych zdalnych serwer&#xf3;w repozytori&#xf3;w">
 <richcontent TYPE="NOTE"><html>
@@ -1031,6 +1030,55 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1521540740540" ID="ID_1959231696" MODIFIED="1521540790994" TEXT="Problem certyfikat&#xf3;w SSH pod windowsem">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      I once had the same problem. My problem occured after re-installing git for windows. I'm using git for windows 64-bit on windows 10.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      I found out that the installer did not install git anymore in C:/Users/[USER_NAME]/AppData/Local/Programs/Git. Instead it installed it under C:\Program Files\Git.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Nevertheless the old config file C:\ProgramData\Git\config was not edited by the installer. This file still contains the old path so I edited it manually.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      E.g. on my system I used
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      [http]
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;sslCAInfo = C:/Programme/Git/mingw64/ssl/certs/ca-bundle.crt
+    </p>
+    <p>
+      maybe you will have to use Program Files instead
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;sslCAInfo = C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1518253670253" ID="ID_956937492" MODIFIED="1518253772083" POSITION="right" TEXT="Praca r&#xf3;wnoleg&#x142;a">
