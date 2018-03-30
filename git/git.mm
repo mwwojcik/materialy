@@ -424,7 +424,7 @@
 </node>
 </node>
 <node CREATED="1516213523115" ID="ID_314629976" MODIFIED="1517480433104" TEXT="Przegl&#x105;danie historii">
-<node CREATED="1516180521551" ID="ID_545998005" MODIFIED="1516212580642" TEXT="git log">
+<node CREATED="1516180521551" ID="ID_545998005" MODIFIED="1522403318987" TEXT="git log">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -512,7 +512,8 @@
       git log -G &quot;Wita.*&quot; -&gt; z opcj&#261; stosowania regexp
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1516216317668" ID="ID_1274014106" MODIFIED="1517480434328" TEXT="Przywracanie poprzedniejzapisanej wersji">
@@ -929,7 +930,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1517473875896" ID="ID_751435581" MODIFIED="1517480417445" POSITION="right" TEXT="Podpowiedzi">
+<node CREATED="1517473875896" ID="ID_751435581" MODIFIED="1522393619202" POSITION="right" TEXT="Podpowiedzi">
 <cloud COLOR="#ffffcc"/>
 <node CREATED="1517473932122" ID="ID_671322508" MODIFIED="1517480318057" TEXT="git pull-pull z ca&#x142;kowitym zast&#x105;pieniem plik&#xf3;w lokalnych">
 <richcontent TYPE="NOTE"><html>
@@ -1075,6 +1076,18 @@
     </p>
     <p>
       &#160;&#160;&#160;&#160;&#160;sslCAInfo = C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1522393619202" ID="ID_843224725" MODIFIED="1522393695823" TEXT="Dodanie tylko wybranego pliku do stash">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <code>git stash push -m welcome_cart app/views/cart/welcome.thtml</code>
     </p>
   </body>
 </html>
