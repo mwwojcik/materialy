@@ -1106,6 +1106,19 @@
 </html>
 </richcontent>
 </node>
+<node CREATED="1524818898018" ID="ID_1978055557" MODIFIED="1524818913443" TEXT="Ustawienie obs&#x142;ugi d&#x142;ugich nazw plik&#xf3;w">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal">
+      <font color="#1F497D">git config --system core.longpaths true<o p="#DEFAULT"></o></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1518253670253" ID="ID_956937492" MODIFIED="1518253772083" POSITION="right" TEXT="Praca r&#xf3;wnoleg&#x142;a">
 <cloud COLOR="#f6ce34"/>
