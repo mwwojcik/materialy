@@ -512,8 +512,7 @@
       git log -G &quot;Wita.*&quot; -&gt; z opcj&#261; stosowania regexp
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1516216317668" ID="ID_1274014106" MODIFIED="1517480434328" TEXT="Przywracanie poprzedniejzapisanej wersji">
@@ -1089,6 +1088,20 @@
     <p>
       <code>git stash push -m welcome_cart app/views/cart/welcome.thtml</code>
     </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1524818546325" ID="ID_572318682" MODIFIED="1524818582136" TEXT="Sprawdzenie czy w repo nie mamy niezmergowanych plik&#xf3;w">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="crayon-pre" style="font-size: 12px !important; line-height: 15px !important">
+      <div class="crayon-line" id="crayon-5ae2e23cbf48a704943245-1">
+        git diff&#160;--check
+      </div>
+    </div>
   </body>
 </html>
 </richcontent>
