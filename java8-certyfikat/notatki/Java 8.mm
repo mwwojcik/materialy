@@ -43,7 +43,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="closed"/>
 </node>
-<node CREATED="1456141848055" ID="ID_1533132444" MODIFIED="1456588879508" TEXT="Wywo&#x142;anie instance of">
+<node CREATED="1456141848055" ID="ID_1533132444" MODIFIED="1526028392272" TEXT="Wywo&#x142;anie instance of">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -68,7 +68,7 @@
 </node>
 <node CREATED="1456142047919" ID="ID_1589874270" MODIFIED="1456258109058" TEXT="Sposoby implementacji interfejs&#xf3;w gnerycznych">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1456143412563" ID="ID_1581147469" MODIFIED="1456588879525" TEXT="Typ generyczny w definicji klasy">
+<node CREATED="1456143412563" ID="ID_1581147469" MODIFIED="1526028392281" TEXT="Typ generyczny w definicji klasy">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -87,7 +87,7 @@
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1456143513591" ID="ID_1411157695" MODIFIED="1456588879537" TEXT="Tworzenie klasy z parametrem generycznym - doprecyzowanie w podtypach">
+<node CREATED="1456143513591" ID="ID_1411157695" MODIFIED="1526028392286" TEXT="Tworzenie klasy z parametrem generycznym - doprecyzowanie w podtypach">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -106,7 +106,7 @@
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1456143592922" ID="ID_815586184" MODIFIED="1456588879549" TEXT="Pos&#x142;ugiwanie si&#x119; klas&#x105; Object">
+<node CREATED="1456143592922" ID="ID_815586184" MODIFIED="1526028392292" TEXT="Pos&#x142;ugiwanie si&#x119; klas&#x105; Object">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -140,7 +140,7 @@
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1456148748067" ID="ID_474742873" MODIFIED="1456588879586" TEXT="Poprawne: public static &lt;T&gt; void uruchom(T t)">
+<node CREATED="1456148748067" ID="ID_474742873" MODIFIED="1526028392321" TEXT="Poprawne: public static &lt;T&gt; void uruchom(T t)">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -155,7 +155,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1456150030914" HGAP="27" ID="ID_883994122" MODIFIED="1456588879610" TEXT="Raw Types" VSHIFT="29">
+<node CREATED="1456150030914" HGAP="27" ID="ID_883994122" MODIFIED="1526028392332" TEXT="Raw Types" VSHIFT="29">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -188,7 +188,7 @@
   </body>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1456150215794" ID="ID_699580332" MODIFIED="1456588879632" TEXT=" U&#x17c;ywanie raw types powoduje Warrning">
+<node CREATED="1456150215794" ID="ID_699580332" MODIFIED="1526028392341" TEXT=" U&#x17c;ywanie raw types powoduje Warrning">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -234,7 +234,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="yes"/>
 </node>
-<node CREATED="1456151073317" ID="ID_256352076" MODIFIED="1456588879655" TEXT="Mieszanie kontekstu generycznego z niegenerycznym - Przyk&#x142;ad 1">
+<node CREATED="1456151073317" ID="ID_256352076" MODIFIED="1526028392353" TEXT="Mieszanie kontekstu generycznego z niegenerycznym - Przyk&#x142;ad 1">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -249,7 +249,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 </html></richcontent>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
-<node CREATED="1456152039508" ID="ID_995885484" MODIFIED="1456588879674" TEXT="Mieszanie kontekstu generycznego z niegenerycznym - Przyk&#x142;ad 2">
+<node CREATED="1456152039508" ID="ID_995885484" MODIFIED="1526028392361" TEXT="Mieszanie kontekstu generycznego z niegenerycznym - Przyk&#x142;ad 2">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -263,7 +263,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 <node CREATED="1456154100010" ID="ID_289517087" MODIFIED="1456258109058" TEXT="Autoboxing">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="closed"/>
-<node CREATED="1456154118339" ID="ID_74271162" MODIFIED="1456588879692" TEXT="W raw collection przechowywane s&#x105; obiekty Object. Nie mo&#x17c;na zrzutowa&#x107; ich na typ prosty! - B&#x142;&#x105;d kompilacji!">
+<node CREATED="1456154118339" ID="ID_74271162" MODIFIED="1526028392370" TEXT="W raw collection przechowywane s&#x105; obiekty Object. Nie mo&#x17c;na zrzutowa&#x107; ich na typ prosty! - B&#x142;&#x105;d kompilacji!">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -300,7 +300,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1456176109542" ID="ID_1637216418" MODIFIED="1456258109058" TEXT="Kolekcje z nieprawid&#x142;owymi obiektami">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1456157714313" ID="ID_1075112098" MODIFIED="1456588879711" TEXT="List&lt;Integer&gt; to nie to samo co List&lt;Object&gt;">
+<node CREATED="1456157714313" ID="ID_1075112098" MODIFIED="1526028392379" TEXT="List&lt;Integer&gt; to nie to samo co List&lt;Object&gt;">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -337,7 +337,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 <icon BUILTIN="closed"/>
 <icon BUILTIN="clanbomber"/>
 </node>
-<node CREATED="1456158757571" ID="ID_447770827" MODIFIED="1456588879725" TEXT="Integer[] liczby mo&#x17c;na przypisa&#x107; do Object[] obiekty">
+<node CREATED="1456158757571" ID="ID_447770827" MODIFIED="1526028392386" TEXT="Integer[] liczby mo&#x17c;na przypisa&#x107; do Object[] obiekty">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -379,7 +379,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1456156540359" ID="ID_635566401" MODIFIED="1456258109058" TEXT="Wildcard with a lower bound">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1456156578041" ID="ID_1953997279" MODIFIED="1456588879739" TEXT="-MUTTABLE">
+<node CREATED="1456156578041" ID="ID_1953997279" MODIFIED="1526028392393" TEXT="-MUTTABLE">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -395,7 +395,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 </node>
 <node CREATED="1456156523502" ID="ID_1482689895" MODIFIED="1456258109058" TEXT="Wildcard with a upper bound">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1456156560384" ID="ID_289571496" MODIFIED="1456588879759" TEXT="&lt;? extends Type&gt;">
+<node CREATED="1456156560384" FOLDED="true" ID="ID_289571496" MODIFIED="1526028851722" TEXT="&lt;? extends Type&gt;">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -414,7 +414,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 </node>
 <node CREATED="1456156516055" ID="ID_23236170" MODIFIED="1456258109058" TEXT="Unbounded">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1456156551567" ID="ID_533223229" MODIFIED="1456588879773" TEXT="&lt;?&gt;">
+<node CREATED="1456156551567" FOLDED="true" ID="ID_533223229" MODIFIED="1526028851723" TEXT="&lt;?&gt;">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -435,7 +435,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 <node CREATED="1456176595177" ID="ID_1587505392" MODIFIED="1456258109058" TEXT="Prawid&#x142;owo nale&#x17c;y u&#x17c;y&#x107; wildcard with a upper bound: List&lt;? extends Number&gt; pLista=new ArrayList&lt;Integer&gt;(); &#xa;&#xa;Tego rodzaju deklaracja dopuszcza obiekt T oraz wszystkie jego obiekty potomne">
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="button_ok"/>
-<node CREATED="1456176310928" ID="ID_670739139" MODIFIED="1456588879799" TEXT="Przy deklaracji / definicji kolekcji generycznej nie mo&#x17c;na u&#x17c;y&#x107; podklasy">
+<node CREATED="1456176310928" ID="ID_670739139" MODIFIED="1526028392413" TEXT="Przy deklaracji / definicji kolekcji generycznej nie mo&#x17c;na u&#x17c;y&#x107; podklasy">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -461,7 +461,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 <font NAME="SansSerif" SIZE="12"/>
 <icon BUILTIN="closed"/>
 </node>
-<node CREATED="1456179294964" ID="ID_1643674700" MODIFIED="1456588879824" TEXT="Tego rodzaju wildcarda stosujemy gdy chcemy mie&#x107; metod&#x119; pasuj&#x105;c&#x105; do interfejsu i wszystkich obiekt&#xf3;w implementuj&#x105;cych go">
+<node CREATED="1456179294964" ID="ID_1643674700" MODIFIED="1526028392429" TEXT="Tego rodzaju wildcarda stosujemy gdy chcemy mie&#x107; metod&#x119; pasuj&#x105;c&#x105; do interfejsu i wszystkich obiekt&#xf3;w implementuj&#x105;cych go">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -669,7 +669,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 </node>
 </node>
 </node>
-<node CREATED="1456213770678" HGAP="168" ID="ID_1011146191" LINK="kolekcje-zestawienie.ods" MODIFIED="1456483103622" POSITION="left" TEXT="Java Collection" VSHIFT="52">
+<node CREATED="1456213770678" HGAP="168" ID="ID_1011146191" LINK="kolekcje-zestawienie.ods" MODIFIED="1526028798800" POSITION="left" TEXT="Java Collection" VSHIFT="52">
 <cloud COLOR="#ff9933"/>
 <font BOLD="true" NAME="SansSerif" SIZE="18"/>
 <node CREATED="1456229501816" ID="ID_369953786" MODIFIED="1456258109058" TEXT="Implementacje/Interfejsy">
@@ -677,8 +677,8 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 <node CREATED="1456237449271" ID="ID_146710892" MODIFIED="1456336694569" TEXT="List">
 <cloud/>
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1456234141129" ID="ID_31750679" MODIFIED="1456336889332" TEXT="LinkedList">
-<linktarget COLOR="#ff0033" DESTINATION="ID_31750679" ENDARROW="Default" ENDINCLINATION="468;0;" ID="Arrow_ID_1277352520" SOURCE="ID_537532904" STARTARROW="None" STARTINCLINATION="468;0;"/>
+<node CREATED="1456234141129" ID="ID_31750679" MODIFIED="1526028835956" TEXT="LinkedList">
+<linktarget COLOR="#ff0033" DESTINATION="ID_31750679" ENDARROW="Default" ENDINCLINATION="-343;9;" ID="Arrow_ID_1277352520" SOURCE="ID_537532904" STARTARROW="None" STARTINCLINATION="-343;9;"/>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1456234147145" ID="ID_1333690829" MODIFIED="1456258109058" TEXT="Implementuje zar&#xf3;wno List jak i Queue">
 <font NAME="SansSerif" SIZE="12"/>
@@ -718,8 +718,8 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1456237504801" ID="ID_580275527" MODIFIED="1456336852733" TEXT="TreeSet">
-<linktarget COLOR="#ff0000" DESTINATION="ID_580275527" ENDARROW="Default" ENDINCLINATION="50;0;" ID="Arrow_ID_1628254519" SOURCE="ID_702834552" STARTARROW="None" STARTINCLINATION="50;0;"/>
+<node CREATED="1456237504801" ID="ID_580275527" MODIFIED="1526028814347" TEXT="TreeSet">
+<linktarget COLOR="#ff0000" DESTINATION="ID_580275527" ENDARROW="Default" ENDINCLINATION="-162;-5;" ID="Arrow_ID_1628254519" SOURCE="ID_702834552" STARTARROW="None" STARTINCLINATION="-156;-5;"/>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1456237603053" ID="ID_1756410979" MODIFIED="1456258109058" TEXT="Dane przechowywane s&#x105; w strukturze posortowanej.">
 <font NAME="SansSerif" SIZE="12"/>
@@ -732,9 +732,9 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 </node>
 </node>
 </node>
-<node CREATED="1456237919443" ID="ID_702834552" MODIFIED="1456336852733" TEXT="NavigableSet">
+<node CREATED="1456237919443" ID="ID_702834552" MODIFIED="1526028814347" TEXT="NavigableSet">
 <cloud/>
-<arrowlink COLOR="#ff0000" DESTINATION="ID_580275527" ENDARROW="Default" ENDINCLINATION="50;0;" ID="Arrow_ID_1628254519" STARTARROW="None" STARTINCLINATION="50;0;"/>
+<arrowlink COLOR="#ff0000" DESTINATION="ID_580275527" ENDARROW="Default" ENDINCLINATION="-162;-5;" ID="Arrow_ID_1628254519" STARTARROW="None" STARTINCLINATION="-156;-5;"/>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1456238050728" ID="ID_1728251839" MODIFIED="1456258109057" TEXT="E lower (E e)">
 <font NAME="SansSerif" SIZE="12"/>
@@ -765,54 +765,54 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 <node CREATED="1456237967893" HGAP="24" ID="ID_828234528" MODIFIED="1456336860039" TEXT="Queue" VSHIFT="48">
 <cloud/>
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1456238421632" ID="ID_1966341934" MODIFIED="1456336918339" TEXT="ArrayDeque">
-<linktarget COLOR="#ff0033" DESTINATION="ID_1966341934" ENDARROW="Default" ENDINCLINATION="215;0;" ID="Arrow_ID_1813095608" SOURCE="ID_1956779896" STARTARROW="None" STARTINCLINATION="215;0;"/>
+<node CREATED="1456238421632" ID="ID_1966341934" MODIFIED="1526028825851" TEXT="ArrayDeque">
+<linktarget COLOR="#ff0033" DESTINATION="ID_1966341934" ENDARROW="Default" ENDINCLINATION="-251;-4;" ID="Arrow_ID_1813095608" SOURCE="ID_1956779896" STARTARROW="None" STARTINCLINATION="-251;-4;"/>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1456238446953" ID="ID_1952573458" MODIFIED="1456258109057" TEXT="">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1456336819855" ID="ID_537532904" MODIFIED="1456336896759" TEXT="LinkedList">
-<arrowlink COLOR="#ff0033" DESTINATION="ID_31750679" ENDARROW="Default" ENDINCLINATION="468;0;" ID="Arrow_ID_1277352520" STARTARROW="None" STARTINCLINATION="468;0;"/>
+<node CREATED="1456336819855" ID="ID_537532904" MODIFIED="1526028835956" TEXT="LinkedList">
+<arrowlink COLOR="#ff0033" DESTINATION="ID_31750679" ENDARROW="Default" ENDINCLINATION="-343;9;" ID="Arrow_ID_1277352520" STARTARROW="None" STARTINCLINATION="-343;9;"/>
 </node>
 <node CREATED="1456238519627" ID="ID_1405170060" MODIFIED="1456258109057" TEXT="metody">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1456239110967" ID="ID_975923232" MODIFIED="1456258109057" TEXT="Zwracaj&#x105; null je&#x15b;li brak">
+<node CREATED="1456239110967" FOLDED="true" ID="ID_975923232" MODIFIED="1526028851723" TEXT="Zwracaj&#x105; null je&#x15b;li brak">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1456238727578" ID="ID_1230708125" MODIFIED="1456337607520" TEXT="boolean offer(E e)">
+<node CREATED="1456238727578" FOLDED="true" ID="ID_1230708125" MODIFIED="1526028851719" TEXT="boolean offer(E e)">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1456238740713" ID="ID_1203443428" MODIFIED="1456258109057" TEXT="Dzia&#x142;anie jak przy add">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1456238880461" ID="ID_442654531" MODIFIED="1456337667255" TEXT="E poll()">
+<node CREATED="1456238880461" FOLDED="true" ID="ID_442654531" MODIFIED="1526028851719" TEXT="E poll()">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1456238888932" ID="ID_1754185450" MODIFIED="1456258109057" TEXT="Usuwa element i podaje nast&#x119;pny , zwraca null je&#x15b;li pusta kolejka">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1456238920882" ID="ID_1137875946" MODIFIED="1456258109057" TEXT="E peek()">
+<node CREATED="1456238920882" FOLDED="true" ID="ID_1137875946" MODIFIED="1526028851720" TEXT="E peek()">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1456238926570" ID="ID_488299074" MODIFIED="1456258109057" TEXT="Zwraca nast&#x119;pny lub null je&#x15b;li pusta">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
 </node>
-<node CREATED="1456239121215" ID="ID_627012206" MODIFIED="1456258109057" TEXT="Zwracaj&#x105; wyj&#x105;tek je&#x15b;li brak">
+<node CREATED="1456239121215" FOLDED="true" ID="ID_627012206" MODIFIED="1526028851723" TEXT="Zwracaj&#x105; wyj&#x105;tek je&#x15b;li brak">
 <font NAME="SansSerif" SIZE="12"/>
-<node CREATED="1456238523826" ID="ID_518364907" MODIFIED="1456337559107" TEXT="boolean add (E e)">
+<node CREATED="1456238523826" FOLDED="true" ID="ID_518364907" MODIFIED="1526028851720" TEXT="boolean add (E e)">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1456238536440" ID="ID_937308505" MODIFIED="1456258109057" TEXT="Dodaje na koniec, je&#x15b;li ok to TRUE, je&#x15b;li nie OK to wyj&#x105;tek">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1456238758174" ID="ID_823929429" MODIFIED="1456337561148" TEXT="E remove ()">
+<node CREATED="1456238758174" FOLDED="true" ID="ID_823929429" MODIFIED="1526028851720" TEXT="E remove ()">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1456238772875" ID="ID_307362973" MODIFIED="1456258109057" TEXT="Usuwa i zwraca nast&#x119;pny element, wyj&#x105;tek je&#x15b;li pusta kolejka">
 <font NAME="SansSerif" SIZE="12"/>
 </node>
 </node>
-<node CREATED="1456238585417" ID="ID_297506417" MODIFIED="1456258109057" TEXT="E element()">
+<node CREATED="1456238585417" FOLDED="true" ID="ID_297506417" MODIFIED="1526028851720" TEXT="E element()">
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1456238590952" ID="ID_1174622681" MODIFIED="1456337599380" TEXT="Zwraca nast&#x119;pny element albo wyj&#x105;tek je&#x15b;li nie ma - NIE USUWA ELEMENTU">
 <font NAME="SansSerif" SIZE="12"/>
@@ -824,8 +824,8 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 </node>
 <node CREATED="1456336716972" ID="ID_830831706" MODIFIED="1456336725394" TEXT="Deque">
 <cloud/>
-<node CREATED="1456238421632" ID="ID_1956779896" MODIFIED="1456336923508" TEXT="ArrayDeque">
-<arrowlink COLOR="#ff0033" DESTINATION="ID_1966341934" ENDARROW="Default" ENDINCLINATION="215;0;" ID="Arrow_ID_1813095608" STARTARROW="None" STARTINCLINATION="215;0;"/>
+<node CREATED="1456238421632" ID="ID_1956779896" MODIFIED="1526028825851" TEXT="ArrayDeque">
+<arrowlink COLOR="#ff0033" DESTINATION="ID_1966341934" ENDARROW="Default" ENDINCLINATION="-251;-4;" ID="Arrow_ID_1813095608" STARTARROW="None" STARTINCLINATION="-251;-4;"/>
 <font NAME="SansSerif" SIZE="12"/>
 <node CREATED="1456238428929" ID="ID_788160987" MODIFIED="1456258109057" TEXT="Bardziej efektywna nie&#x17c; LinkedList">
 <font NAME="SansSerif" SIZE="12"/>
@@ -835,25 +835,25 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 </node>
 </node>
 <node CREATED="1456337095569" ID="ID_1599125869" MODIFIED="1456337098539" TEXT="metody">
-<node CREATED="1456337103584" ID="ID_179850655" MODIFIED="1456337107334" TEXT="Pierwszy element">
-<node CREATED="1456337133060" ID="ID_307685792" MODIFIED="1456337145963" TEXT="Zwracaj&#x105;cy wyj&#x105;tek je&#x15b;li brak">
+<node CREATED="1456337103584" FOLDED="true" ID="ID_179850655" MODIFIED="1526028851723" TEXT="Pierwszy element">
+<node CREATED="1456337133060" FOLDED="true" ID="ID_307685792" MODIFIED="1526028851720" TEXT="Zwracaj&#x105;cy wyj&#x105;tek je&#x15b;li brak">
 <node CREATED="1456337208928" ID="ID_932617720" MODIFIED="1456337216754" TEXT="addFirst(E e)"/>
 <node CREATED="1456337219274" ID="ID_505861766" MODIFIED="1456337224394" TEXT="removeFirst()"/>
 <node CREATED="1456337232902" ID="ID_1340197509" MODIFIED="1456337237764" TEXT="getFirst()"/>
 </node>
-<node CREATED="1456337149086" ID="ID_708625098" MODIFIED="1456337292795" TEXT="Zwracaj&#x105;cy null je&#x15b;li brak">
+<node CREATED="1456337149086" FOLDED="true" ID="ID_708625098" MODIFIED="1526028851720" TEXT="Zwracaj&#x105;cy null je&#x15b;li brak">
 <node CREATED="1456337249100" ID="ID_1345952435" MODIFIED="1456337260126" TEXT="offerFirst(E e)"/>
 <node CREATED="1456337317437" ID="ID_283723897" MODIFIED="1456337676811" TEXT="pollFirst()"/>
 <node CREATED="1456337294494" ID="ID_384461443" MODIFIED="1456337300407" TEXT="peekFirst()"/>
 </node>
 </node>
-<node CREATED="1456337109457" ID="ID_1101889362" MODIFIED="1456337113792" TEXT="Ostatni element">
-<node CREATED="1456337133060" ID="ID_1626411668" MODIFIED="1456337145963" TEXT="Zwracaj&#x105;cy wyj&#x105;tek je&#x15b;li brak">
+<node CREATED="1456337109457" FOLDED="true" ID="ID_1101889362" MODIFIED="1526028851723" TEXT="Ostatni element">
+<node CREATED="1456337133060" FOLDED="true" ID="ID_1626411668" MODIFIED="1526028851720" TEXT="Zwracaj&#x105;cy wyj&#x105;tek je&#x15b;li brak">
 <node CREATED="1456337208928" ID="ID_1318550417" MODIFIED="1456337438039" TEXT="addLast(E e)"/>
 <node CREATED="1456337219274" ID="ID_1365807173" MODIFIED="1456337446362" TEXT="removeLast()"/>
 <node CREATED="1456337232902" ID="ID_1238020429" MODIFIED="1456337454409" TEXT="getLast()"/>
 </node>
-<node CREATED="1456337149086" ID="ID_429801668" MODIFIED="1456337157379" TEXT="Zwracaj&#x105;cy null je&#x15b;li brak">
+<node CREATED="1456337149086" FOLDED="true" ID="ID_429801668" MODIFIED="1526028851721" TEXT="Zwracaj&#x105;cy null je&#x15b;li brak">
 <node CREATED="1456337249100" ID="ID_271521227" MODIFIED="1456337469940" TEXT="offerLast(E e)"/>
 <node CREATED="1456337317437" ID="ID_1000162493" MODIFIED="1456337687954" TEXT="pollLast()"/>
 <node CREATED="1456337294494" ID="ID_42475692" MODIFIED="1456337490171" TEXT="peekLast()"/>
@@ -930,7 +930,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 </node>
 <node CREATED="1456501093688" ID="ID_475596670" MODIFIED="1456588917799" TEXT="List">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1456501097040" FOLDED="true" ID="ID_526164134" MODIFIED="1456760674661" TEXT="void replaceAll(UnaryOperator &lt;E&gt; o)">
+<node CREATED="1456501097040" ID="ID_526164134" MODIFIED="1526028851430" TEXT="void replaceAll(UnaryOperator &lt;E&gt; o)">
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1456501130862" ID="ID_577764228" MODIFIED="1456588939079" TEXT="rezultat dzia&#x142;ania podanego w parametrze wyra&#x17c;enia zast&#x119;puje i - ty element">
 <font NAME="SansSerif" SIZE="14"/>
@@ -939,7 +939,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 </node>
 <node CREATED="1456502147236" ID="ID_559981743" LINK="metody-merge-compute-porownanie.ods" MODIFIED="1456588917798" TEXT="Map">
 <font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1456502150908" FOLDED="true" ID="ID_1086919186" MODIFIED="1456821663575" TEXT="merge(K key, V value, BiFunction&lt;? super V,? super V,? extends V&gt; remappingFunction)">
+<node CREATED="1456502150908" ID="ID_1086919186" MODIFIED="1526028851449" TEXT="merge(K key, V value, BiFunction&lt;? super V,? super V,? extends V&gt; remappingFunction)">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1456589041953" HGAP="108" ID="ID_1184237228" MODIFIED="1456761260855" VSHIFT="-16">
 <richcontent TYPE="NODE"><html>
@@ -954,13 +954,13 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1456502633063" FOLDED="true" ID="ID_342395009" MODIFIED="1456589069746" TEXT="putIfAbsent(K key, V value)">
+<node CREATED="1456502633063" ID="ID_342395009" MODIFIED="1526028851453" TEXT="putIfAbsent(K key, V value)">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1456502638999" ID="ID_534577690" MODIFIED="1456588939084" TEXT="je&#x15b;li pod danym kluczem nie ma warto&#x15b;ci, lub jest ona nullowa to zostanie ona dodana i metoda zwr&#xf3;ci NULL, w przeciwnym wypadku zwr&#xf3;ci istniej&#x105;c&#x105; warto&#x15b;&#x107;">
 <font NAME="SansSerif" SIZE="14"/>
 </node>
 </node>
-<node CREATED="1456502800166" FOLDED="true" ID="ID_1441505321" MODIFIED="1456760878746" TEXT="V computeIfAbsent(K key, Function&lt;? super K,? extends V&gt; mappingFunction)">
+<node CREATED="1456502800166" ID="ID_1441505321" MODIFIED="1526028851459" TEXT="V computeIfAbsent(K key, Function&lt;? super K,? extends V&gt; mappingFunction)">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1456589104899" ID="ID_920552826" MODIFIED="1456589119626">
 <richcontent TYPE="NODE"><html>
@@ -973,7 +973,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1456502895464" FOLDED="true" ID="ID_66234548" MODIFIED="1456760880065" TEXT="default V computeIfPresent(K key, BiFunction&lt;? super K,? super V,? extends V&gt; remappingFunction)">
+<node CREATED="1456502895464" ID="ID_66234548" MODIFIED="1526028851464" TEXT="default V computeIfPresent(K key, BiFunction&lt;? super K,? super V,? extends V&gt; remappingFunction)">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1456589135266" ID="ID_140168755" MODIFIED="1456589151515">
 <richcontent TYPE="NODE"><html>
@@ -1023,7 +1023,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 </node>
 </node>
 <node CREATED="1456314219529" ID="ID_1566637751" MODIFIED="1456314403299" TEXT="Interfejs Callable">
-<node CREATED="1456314302484" ID="ID_286788388" MODIFIED="1456588880116" TEXT="Jest to interfejs zbli&#x17c;ony do Runnable ale zdefiniowana w nim metoda call zwraca wynik i wyrzuca checkowalne Exception">
+<node CREATED="1456314302484" ID="ID_286788388" MODIFIED="1526028392478" TEXT="Jest to interfejs zbli&#x17c;ony do Runnable ale zdefiniowana w nim metoda call zwraca wynik i wyrzuca checkowalne Exception">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1152,8 +1152,8 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 <node CREATED="1456318719519" ID="ID_1307956711" MODIFIED="1456318802948" TEXT="metody">
 <cloud/>
 <node CREATED="1456321348533" ID="ID_1232463425" MODIFIED="1456321430541" TEXT="obs&#x142;uguj&#x105;ce jeden w&#x105;tek na raz">
-<node CREATED="1456267357031" ID="ID_903440568" MODIFIED="1456320809815" TEXT="ExecutorService newSingleThreadExecutor()">
-<node CREATED="1456267670269" ID="ID_1699025416" MODIFIED="1456588880252" TEXT="Uwaga! Za pomoc&#x105; ExecutorService pozyskanego z tej metody mo&#x17c;emy kilkakrotnie uruchomi&#x107; metod&#x119; execute. Mamy gwarancj&#x119; kolejno&#x15b;ci. Kolejne zadanie jest uruchamiane po zako&#x144;czeniu poprzedniego.">
+<node CREATED="1456267357031" FOLDED="true" ID="ID_903440568" MODIFIED="1526028851723" TEXT="ExecutorService newSingleThreadExecutor()">
+<node CREATED="1456267670269" ID="ID_1699025416" MODIFIED="1526028392521" TEXT="Uwaga! Za pomoc&#x105; ExecutorService pozyskanego z tej metody mo&#x17c;emy kilkakrotnie uruchomi&#x107; metod&#x119; execute. Mamy gwarancj&#x119; kolejno&#x15b;ci. Kolejne zadanie jest uruchamiane po zako&#x144;czeniu poprzedniego.">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1165,22 +1165,22 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node CREATED="1456318890571" ID="ID_276083858" MODIFIED="1456320809815" TEXT="ScheduledExecutorService newSingleThreadScheduledExecutor()">
+<node CREATED="1456318890571" FOLDED="true" ID="ID_276083858" MODIFIED="1526028851724" TEXT="ScheduledExecutorService newSingleThreadScheduledExecutor()">
 <node CREATED="1456318944566" ID="ID_523225071" MODIFIED="1456318968131" TEXT="Metoda fabrykuj&#x105;ca zwracaj&#x105;ca ScheduledExecutorService"/>
 </node>
 </node>
 <node CREATED="1456321369269" ID="ID_886441401" MODIFIED="1456321611836" TEXT="obs&#x142;uguj&#x105;ce pul&#x119; w&#x105;tk&#xf3;w">
-<node CREATED="1456321057368" ID="ID_443391179" MODIFIED="1456321297164" STYLE="fork" TEXT="ExecutorService newCachedThreadPool()">
+<node CREATED="1456321057368" FOLDED="true" ID="ID_443391179" MODIFIED="1526028851724" STYLE="fork" TEXT="ExecutorService newCachedThreadPool()">
 <node CREATED="1456324302315" ID="ID_1701659987" MODIFIED="1456324410549" TEXT="Tworzy pul&#x119; w&#x105;tk&#xf3;w o nieokre&#x15b;lonej wielko&#x15b;ci. Tworzy nowy w&#x105;tek je&#x15b;li wszystkie istniej&#x105;ce s&#x105; zaj&#x119;te. UWAGA! odpowiednie dla tworzenia du&#x17c;ej ilo&#x15b;ci ma&#x142;ych zada&#x144;. Nie nadaje si&#x119; do obs&#x142;ugi zada&#x144; d&#x142;ugotrwa&#x142;ych. U&#x17c;ycie mo&#x17c;e mie&#x107; katastrofalny wp&#x142;yw na aplikacj&#x119;.">
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node CREATED="1456321110322" ID="ID_700024905" MODIFIED="1456321297164" STYLE="fork" TEXT="ExecutorService newFixedThreadPool(int nThreads)">
+<node CREATED="1456321110322" FOLDED="true" ID="ID_700024905" MODIFIED="1526028851724" STYLE="fork" TEXT="ExecutorService newFixedThreadPool(int nThreads)">
 <node CREATED="1456324476402" ID="ID_1150030628" MODIFIED="1456324601470" TEXT="Tworzy pul&#x119; w&#x105;tk&#xf3;w o okre&#x15b;lonej wielko&#x15b;ci. Dop&#xf3;ki liczba task&#xf3;w jest mniejsza od liczby w&#x105;tk&#xf3;w, b&#x119;d&#x105; one realizowne wsp&#xf3;&#x142;bie&#x17c;nie.  Je&#x17c;eli liczba zada&#x144; jest wi&#x119;ksza ni&#x17c; liczba w&#x105;tk&#xf3;w w puli to zadanie jest kolejkowane. ">
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node CREATED="1456321150436" ID="ID_751489967" MODIFIED="1456321297165" STYLE="fork" TEXT="ScheduledExecutorService newScheduledThreadPool(int nThreads)">
+<node CREATED="1456321150436" FOLDED="true" ID="ID_751489967" MODIFIED="1526028851724" STYLE="fork" TEXT="ScheduledExecutorService newScheduledThreadPool(int nThreads)">
 <node CREATED="1456324979327" ID="ID_1532732052" MODIFIED="1456325092635" TEXT="Tworzy pul&#x119; w&#x105;tk&#xf3;w o okre&#x15b;lonej wielko&#x15b;ci, z tym &#x17c;e zwraca instancj&#x119; ScheduledExecutorService, co pozwala na zarz&#x105;dzaie zadaniami odk&#x142;adanymi w czasie. Je&#x15b;li chodzi o obs&#x142;ug&#x119; puli to dzia&#x142;a tak samo jak newFixedThreadPool()">
 <icon BUILTIN="messagebox_warning"/>
 </node>
@@ -1189,7 +1189,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 </node>
 </node>
 </node>
-<node CREATED="1456267449259" FOLDED="true" ID="ID_1647529001" MODIFIED="1465243739359" TEXT="Przyk&#x142;ad: najprostsze uruchomienie w&#x105;tku">
+<node CREATED="1456267449259" ID="ID_1647529001" MODIFIED="1526028851467" TEXT="Przyk&#x142;ad: najprostsze uruchomienie w&#x105;tku">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1197,8 +1197,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
   <body>
     <pre style="background-color: #ffffff; color: #000000; font-family: DejaVu Sans Mono; font-size: 12pt">System.<font color="#660e7a"><b><i>out</i></b></font>.println(<font color="#008000"><b>&quot;poczatek&quot;</b></font>);<br /><br />ExecutorService pExecutor= Executors.<i>newSingleThreadExecutor</i>();<br /><br />pExecutor.execute(()-&gt;{<br />    (<font color="#000080"><b>new </b></font>Random()).ints().limit(<font color="#0000ff">100</font>).forEach(i -&gt; System.<font color="#660e7a"><b><i>out</i></b></font>.println(i));<br /><br />});<br /><br />System.<font color="#660e7a"><b><i>out</i></b></font>.println(<font color="#008000"><b>&quot;koniec&quot;</b></font>);</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1456267481384" ID="ID_1974964890" MODIFIED="1456267567662" TEXT="Uwaga! pomimo tego &#x17c;e w przyk&#x142;adzie uruchamiamy jeden w&#x105;tek, to przed zako&#x144;czeniem jego zadania mo&#x17c;e pojawi&#x107; si&#x119; s&#x142;owo &quot;koniec&quot;, poniewa&#x17c; sama aplikacja z defaultu uruchamia si&#x119; w osobnym w&#x105;tku.">
 <icon BUILTIN="messagebox_warning"/>
 </node>
@@ -1271,7 +1270,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 <node CREATED="1456329566724" ID="ID_213582648" MODIFIED="1456329571817" TEXT="Deque"/>
 </node>
 <node CREATED="1456329730795" ID="ID_1279579465" MODIFIED="1465244175312" TEXT="LinkedBlockingDeque">
-<node CREATED="1456329741483" ID="ID_504611802" MODIFIED="1456329757465" TEXT="BlockingQueue">
+<node CREATED="1456329741483" FOLDED="true" ID="ID_504611802" MODIFIED="1526028851724" TEXT="BlockingQueue">
 <node CREATED="1456330535830" ID="ID_1841354673" MODIFIED="1456330589276" TEXT="Interfejs podobny do Queue, ale dodaje metody, kt&#xf3;rych mog&#x105; czeka&#x107;  na zako&#x144;czenie operacji"/>
 <node CREATED="1456330656387" ID="ID_625599149" MODIFIED="1456330708217" TEXT="offer(E e, long timeout, TimeUnit time) - dodaje element do kolejki czekaj&#x105;c zadany czas,"/>
 <node CREATED="1456330711429" ID="ID_1999588630" MODIFIED="1456330750443" TEXT="poll(long timeout, TimeUnit unit) -  zdejmuje element z kolejki czekaj&#x105;ca okre&#x15b;lony czas"/>
@@ -1302,7 +1301,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 <icon BUILTIN="messagebox_warning"/>
 </node>
 <node CREATED="1456356524150" ID="ID_1929267721" LINK="http://examples.javacodegeeks.com/core-java/util/concurrent/cyclicbarrier/java-util-concurrent-cyclicbarrier-example/" MODIFIED="1456406489032" TEXT="CyclicBarrier">
-<node CREATED="1456400648852" ID="ID_1714284611" MODIFIED="1456588880452" TEXT="Mechanizm umo&#x17c;liwiaj&#x105;cy grupie w&#x105;tk&#xf3;w synchronizacj&#x119; w czasie. Wszystkie w&#x105;tki po osi&#x105;gni&#x119;ciu tego punktu czeka na pozosta&#x142;e. Je&#x17c;eli wszystkie w&#x105;tki osi&#x105;gn&#x105; ten punkt s&#x105; one ponownie wznawiane.">
+<node CREATED="1456400648852" ID="ID_1714284611" MODIFIED="1526028392596" TEXT="Mechanizm umo&#x17c;liwiaj&#x105;cy grupie w&#x105;tk&#xf3;w synchronizacj&#x119; w czasie. Wszystkie w&#x105;tki po osi&#x105;gni&#x119;ciu tego punktu czeka na pozosta&#x142;e. Je&#x17c;eli wszystkie w&#x105;tki osi&#x105;gn&#x105; ten punkt s&#x105; one ponownie wznawiane.">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1317,7 +1316,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 </node>
 </node>
 <node CREATED="1456356544262" ID="ID_620420336" LINK="http://examples.javacodegeeks.com/core-java/util/concurrent/forkjoinworkerthread/java-util-concurrent-forkjoinpool-example/" MODIFIED="1456406452698" TEXT="ForkJoinPool"/>
-<node CREATED="1456407782769" ID="ID_1212299424" MODIFIED="1456935230809" TEXT="RecursiveAction">
+<node CREATED="1456407782769" ID="ID_1212299424" MODIFIED="1526028392622" TEXT="RecursiveAction">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1328,7 +1327,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 </html></richcontent>
 <node CREATED="1456408263764" ID="ID_1868127264" MODIFIED="1456408306523" TEXT="Klasa abstrakcyjna wymagaj&#x105;ca zaimplementowania metody void compute()"/>
 </node>
-<node CREATED="1456407790960" ID="ID_1191932510" MODIFIED="1456935230599" TEXT="RecursiveTask">
+<node CREATED="1456407790960" ID="ID_1191932510" MODIFIED="1526028392641" TEXT="RecursiveTask">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1394,7 +1393,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 <node CREATED="1456484847762" ID="ID_1981409259" MODIFIED="1456484853118" TEXT="ArrayList::new"/>
 </node>
 </node>
-<node CREATED="1456486485669" ID="ID_1335642880" LINK="zestawienie-interfejsow-funkcyjnych.xls" MODIFIED="1456926803841" TEXT="Standardowe interfejsy funkcyjne">
+<node CREATED="1456486485669" ID="ID_1335642880" LINK="zestawienie-interfejsow-funkcyjnych.xls" MODIFIED="1526028851510" TEXT="Standardowe interfejsy funkcyjne">
 <cloud/>
 <arrowlink DESTINATION="ID_1335642880" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1526266024" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1335642880" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1526266024" SOURCE="ID_1335642880" STARTARROW="None" STARTINCLINATION="0;0;"/>
@@ -1546,7 +1545,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1456915366954" FOLDED="true" ID="ID_998062052" MODIFIED="1456926618412" TEXT="Przyk&#x142;ady u&#x17c;ycia">
+<node CREATED="1456915366954" ID="ID_998062052" MODIFIED="1526028851543" TEXT="Przyk&#x142;ady u&#x17c;ycia">
 <node CREATED="1456915378364" ID="ID_1481447783" MODIFIED="1456915648997">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1561,7 +1560,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 <node CREATED="1456926636500" ID="ID_1232641307" MODIFIED="1456927188748" TEXT="Zestawienie tabelaryczne">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
 <icon BUILTIN="messagebox_warning"/>
-<node CREATED="1456927082990" FOLDED="true" ID="ID_1489119204" MODIFIED="1456927181614" TEXT="Wszystkie">
+<node CREATED="1456927082990" ID="ID_1489119204" MODIFIED="1526028851552" TEXT="Wszystkie">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
 <node CREATED="1456927088319" ID="ID_1007482677" MODIFIED="1456927104343">
 <richcontent TYPE="NODE"><html>
@@ -1615,7 +1614,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 </node>
 </node>
 </node>
-<node CREATED="1456752333891" ID="ID_1628626880" MODIFIED="1456752447198" TEXT="Zmienna podawana jako implementacja interfejsu funkcyjnego musi by&#x107; finalna">
+<node CREATED="1456752333891" ID="ID_1628626880" MODIFIED="1526028392679" TEXT="Zmienna podawana jako implementacja interfejsu funkcyjnego musi by&#x107; finalna">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1742,7 +1741,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 </node>
 <node CREATED="1456784139909" ID="ID_1479725375" MODIFIED="1456784152206" TEXT="reduce()">
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
-<node CREATED="1456784944178" FOLDED="true" ID="ID_521165499" MODIFIED="1456822668190" TEXT="metoda zamieniaj&#x105;ca strumie&#x144; do jednego Object, wed&#x142;ug okre&#x15b;lonej funkcji przekszta&#x142;czaj&#x105;cej. Jako pierwszy parametr podajemy warto&#x15b;&#x107; inicjaln&#x105;, jako drugi BinaryOperator&lt;U&gt; okre&#x15b;laj&#x105;cy spos&#xf3;b przetwarzania element&#xf3;w. Metoda posiada prze&#x142;adowany wariant w kt&#xf3;rym nie podaje si&#x119; akumulatora, wtedy zaczyna zwraca&#x107; Optional.">
+<node CREATED="1456784944178" FOLDED="true" ID="ID_521165499" MODIFIED="1526028851724" TEXT="metoda zamieniaj&#x105;ca strumie&#x144; do jednego Object, wed&#x142;ug okre&#x15b;lonej funkcji przekszta&#x142;czaj&#x105;cej. Jako pierwszy parametr podajemy warto&#x15b;&#x107; inicjaln&#x105;, jako drugi BinaryOperator&lt;U&gt; okre&#x15b;laj&#x105;cy spos&#xf3;b przetwarzania element&#xf3;w. Metoda posiada prze&#x142;adowany wariant w kt&#xf3;rym nie podaje si&#x119; akumulatora, wtedy zaczyna zwraca&#x107; Optional.">
 <node CREATED="1456785814103" ID="ID_73034660" MODIFIED="1456785830869" TEXT="Strumie&#x144; pusty - zwraca Optional empty"/>
 <node CREATED="1456785833296" ID="ID_238071052" MODIFIED="1456785849353" TEXT="Strumie&#x144; jednoelementowy - zwraca element"/>
 <node CREATED="1456785851575" ID="ID_1578901604" MODIFIED="1456785878425" TEXT="Strumie&#x144; posiadaj&#x105;cy wiele element&#xf3;w - zwraca akumulator"/>
@@ -1822,7 +1821,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 </node>
 <node CREATED="1456825006029" ID="ID_34385191" MODIFIED="1456825011927" TEXT="flatMap()">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
-<node CREATED="1456825013141" FOLDED="true" ID="ID_1079598057" MODIFIED="1456825879380" TEXT="metoda przetwarzaj&#x105;ca wiele strumieni i &quot;sp&#x142;aszczaj&#x105;ca&quot; je do jednego strumienia wynikowego. ">
+<node CREATED="1456825013141" ID="ID_1079598057" MODIFIED="1526028851606" TEXT="metoda przetwarzaj&#x105;ca wiele strumieni i &quot;sp&#x142;aszczaj&#x105;ca&quot; je do jednego strumienia wynikowego. ">
 <node CREATED="1456825768885" ID="ID_828991478" MODIFIED="1456825859720">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -1836,7 +1835,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1456826345374" ID="ID_263044496" MODIFIED="1456826390177" TEXT="Przyk&#x142;ad">
+<node CREATED="1456826345374" ID="ID_263044496" MODIFIED="1526028392758" TEXT="Przyk&#x142;ad">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1880,7 +1879,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 <node CREATED="1456841716035" ID="ID_1541653878" MODIFIED="1456841719560" TEXT="IntStream">
 <node CREATED="1456841738548" ID="ID_282832239" MODIFIED="1456841750914" TEXT="int,short, byte, char"/>
 <node CREATED="1456842008511" ID="ID_20041869" MODIFIED="1456842011525" TEXT="Tworzenie">
-<node CREATED="1456842015144" ID="ID_354727498" MODIFIED="1456842031550" TEXT="IntStream.range(1,6)">
+<node CREATED="1456842015144" FOLDED="true" ID="ID_354727498" MODIFIED="1526028851726" TEXT="IntStream.range(1,6)">
 <node CREATED="1456842045449" ID="ID_1662147460" MODIFIED="1456842059294" TEXT="liczba 6 jest wy&#x142;&#x105;czona ze strumienia"/>
 </node>
 <node CREATED="1456842062770" ID="ID_608379870" MODIFIED="1456842075183" TEXT="IntStream.rangeClosed(1,5)"/>
@@ -1933,7 +1932,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 <node CREATED="1456846287679" ID="ID_191740288" MODIFIED="1456846399344" TEXT="- Uwaga! niezale&#x17c;nie od typ&#xf3;w zawsze zwraca OptionalDouble">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
 </node>
-<node CREATED="1456846293528" ID="ID_4706265" MODIFIED="1456846323218" TEXT="sum()">
+<node CREATED="1456846293528" FOLDED="true" ID="ID_4706265" MODIFIED="1526028851726" TEXT="sum()">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
 <node CREATED="1456846339713" ID="ID_1592095809" MODIFIED="1456846377175" TEXT="UWAGA! nie zwraca Optional! - przy dodawaniu pustych element&#xf3;w dostajemy 0"/>
 </node>
@@ -1943,7 +1942,7 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 <node CREATED="1456846302552" ID="ID_213071043" MODIFIED="1456846324666" TEXT="min()">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
 </node>
-<node CREATED="1456933957622" ID="ID_1088671625" MODIFIED="1456933960378" TEXT="Zestawienie">
+<node CREATED="1456933957622" FOLDED="true" ID="ID_1088671625" MODIFIED="1526028851726" TEXT="Zestawienie">
 <node CREATED="1456933961797" ID="ID_1909983673" MODIFIED="1456933971310">
 <richcontent TYPE="NODE"><html>
   <head>
@@ -2011,11 +2010,11 @@ Note: Recompile with -Xlint:unchecked for details.</pre>
 </node>
 </node>
 <node CREATED="1457015910965" ID="ID_1044113739" MODIFIED="1457016905475" TEXT="toMap()">
-<node CREATED="1457015931603" ID="ID_767286420" MODIFIED="1457016921623" TEXT="toMap()">
+<node CREATED="1457015931603" FOLDED="true" ID="ID_767286420" MODIFIED="1526028851727" TEXT="toMap()">
 <node CREATED="1457016923402" ID="ID_661012169" MODIFIED="1457016926798" TEXT=" W przypadku gdy funkcja tworz&#x105;ca klucze zwr&#xf3;ci dubluj&#x105;cy si&#x119; klucz, wyrzucany jest wyj&#x105;tek IllegalStateException."/>
 </node>
-<node CREATED="1457016328620" ID="ID_1016940536" MODIFIED="1457016333681" TEXT="toMap(Function k, Function v, BinaryOperator m) ">
-<node CREATED="1457016335883" ID="ID_1596735983" MODIFIED="1457016630747" TEXT="BinaryOperator s&#x142;u&#x17c;y do rozwi&#x105;zania konflikt&#xf3;w w przypadku dubluj&#x105;cych si&#x119; kluczy. ">
+<node CREATED="1457016328620" FOLDED="true" ID="ID_1016940536" MODIFIED="1526028851727" TEXT="toMap(Function k, Function v, BinaryOperator m) ">
+<node CREATED="1457016335883" ID="ID_1596735983" MODIFIED="1526028392838" TEXT="BinaryOperator s&#x142;u&#x17c;y do rozwi&#x105;zania konflikt&#xf3;w w przypadku dubluj&#x105;cych si&#x119; kluczy. ">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2028,8 +2027,8 @@ mapa wynikowa b&#281;dzie mia&#322;a 2 elementy: {6,&quot;tigers&quot;},{5,&quot
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1457016654593" ID="ID_721453993" MODIFIED="1457016656502" TEXT="toMap(Function k, Function v, BinaryOperator m,Supplier s)">
-<node CREATED="1457016657977" ID="ID_1148335041" MODIFIED="1457016795359" TEXT="Wskazanie Supplier wymusza u&#x17c;ycie wskazanego typu jako wynikowego">
+<node CREATED="1457016654593" FOLDED="true" ID="ID_721453993" MODIFIED="1526028851727" TEXT="toMap(Function k, Function v, BinaryOperator m,Supplier s)">
+<node CREATED="1457016657977" ID="ID_1148335041" MODIFIED="1526028392848" TEXT="Wskazanie Supplier wymusza u&#x17c;ycie wskazanego typu jako wynikowego">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2045,8 +2044,8 @@ Wymusza zastoswanie TreeMap</pre>
 </node>
 <node CREATED="1457016941505" ID="ID_791823325" MODIFIED="1457016950877" TEXT="groupingBy()">
 <node CREATED="1457020401713" ID="ID_836892437" MODIFIED="1457020568447" TEXT="matoda grupuj&#x105;ca elementy strumienia w listy organizuj&#x105;c je wed&#x142;ug dostarczonej funkcji. Tworzy map&#x119; w kt&#xf3;rej warto&#x15b;ci stanowi&#x105; Listy zawieraj&#x105;ce odpowiednie elementy, a klucze warto&#x15b;ci dostarczane przez fukcj&#x119;"/>
-<node CREATED="1457020646980" ID="ID_1381540637" MODIFIED="1457020655378" TEXT="groupingBy(Function f,Collector dc) ">
-<node CREATED="1457020656654" ID="ID_888857358" MODIFIED="1457020977615" TEXT="Dostarcza downstream collector, kt&#xf3;ry m&#xf3;wi jaka forma grupowania ma zosta&#x107; zastosowana do &quot;warto&#x15b;ci&quot; mapy. Mo&#x17c;na wykorzysta&#x107; je do tego by zamiast domy&#x15b;lnego Map&lt;klucz,List&lt;Wartosc&gt;) zastosowany zosta&#x142; inny rodzaj kolekcji, np: Map&lt;klucz,Set&lt;Wartosc&gt;&gt;">
+<node CREATED="1457020646980" FOLDED="true" ID="ID_1381540637" MODIFIED="1526028851727" TEXT="groupingBy(Function f,Collector dc) ">
+<node CREATED="1457020656654" ID="ID_888857358" MODIFIED="1526028392862" TEXT="Dostarcza downstream collector, kt&#xf3;ry m&#xf3;wi jaka forma grupowania ma zosta&#x107; zastosowana do &quot;warto&#x15b;ci&quot; mapy. Mo&#x17c;na wykorzysta&#x107; je do tego by zamiast domy&#x15b;lnego Map&lt;klucz,List&lt;Wartosc&gt;) zastosowany zosta&#x142; inny rodzaj kolekcji, np: Map&lt;klucz,Set&lt;Wartosc&gt;&gt;">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2057,8 +2056,8 @@ Wymusza zastoswanie TreeMap</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1457020978680" ID="ID_585648523" MODIFIED="1457020981405" TEXT="groupingBy(Function f,Collector dc,Supplier s) ">
-<node CREATED="1457020982568" ID="ID_705141553" MODIFIED="1457021083855" TEXT="Dostarcza Supplier, kt&#xf3;ry m&#xf3;wi jaka implementacja mapy ma zosta&#x107; zastosowana">
+<node CREATED="1457020978680" FOLDED="true" ID="ID_585648523" MODIFIED="1526028851727" TEXT="groupingBy(Function f,Collector dc,Supplier s) ">
+<node CREATED="1457020982568" ID="ID_705141553" MODIFIED="1526028392873" TEXT="Dostarcza Supplier, kt&#xf3;ry m&#xf3;wi jaka implementacja mapy ma zosta&#x107; zastosowana">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2077,7 +2076,7 @@ Wymusza zastoswanie TreeMap</pre>
 </node>
 </node>
 <node CREATED="1457021821364" ID="ID_1407495863" MODIFIED="1457021826897" TEXT="mapping()">
-<node CREATED="1457021828197" ID="ID_1570025740" MODIFIED="1457021866266" TEXT="metoda wykorzystywana do zagnie&#x17c;d&#x17c;ania kolektor&#xf3;w. ">
+<node CREATED="1457021828197" ID="ID_1570025740" MODIFIED="1526028392887" TEXT="metoda wykorzystywana do zagnie&#x17c;d&#x17c;ania kolektor&#xf3;w. ">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2183,7 +2182,7 @@ Wymusza zastoswanie TreeMap</pre>
 <node CREATED="1457298859742" ID="ID_1956290016" MODIFIED="1457298866727" TEXT="ofDays(int liczbaDni)"/>
 <node CREATED="1457298881489" ID="ID_1812198484" MODIFIED="1457298915050" TEXT="of(int liczbaLat,int liczbaMiesiecy,int liczbaDni)"/>
 </node>
-<node CREATED="1457298941415" ID="ID_1125775062" MODIFIED="1457299204148" TEXT="UWAGA! Metody klasy Period s&#x105; statyczne, nie mo&#x17c;na &#x142;&#x105;czy&#x107; ich w &#x142;a&#x144;cuch wywo&#x142;a&#x144;! Powoduje to ostrze&#x17c;enie kompilatora!">
+<node CREATED="1457298941415" ID="ID_1125775062" MODIFIED="1526028392967" TEXT="UWAGA! Metody klasy Period s&#x105; statyczne, nie mo&#x17c;na &#x142;&#x105;czy&#x107; ich w &#x142;a&#x144;cuch wywo&#x142;a&#x144;! Powoduje to ostrze&#x17c;enie kompilatora!">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2231,7 +2230,7 @@ Wymusza zastoswanie TreeMap</pre>
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node CREATED="1457299792098" ID="ID_771023773" MODIFIED="1457300236750" TEXT="UWAGA! Period nie wsp&#xf3;&#x142;gra z klasami typu &quot;czas&quot;. UnsupportedTemporalTypeException">
+<node CREATED="1457299792098" ID="ID_771023773" MODIFIED="1526028392985" TEXT="UWAGA! Period nie wsp&#xf3;&#x142;gra z klasami typu &quot;czas&quot;. UnsupportedTemporalTypeException">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2267,7 +2266,7 @@ Wymusza zastoswanie TreeMap</pre>
 <node CREATED="1457451256087" ID="ID_65011922" MODIFIED="1457451266452" TEXT="ofSeconds(int liczbaSekund)"/>
 <node CREATED="1457451268167" ID="ID_1731353449" MODIFIED="1457451287557" TEXT="ofMillis(int liczbaMilisekund)"/>
 <node CREATED="1457451289376" ID="ID_1586662479" MODIFIED="1457451302405" TEXT="ofNanos(int liczbaNanosekund)"/>
-<node CREATED="1457451373475" ID="ID_1731792060" MODIFIED="1457451394056" TEXT="of(int liczbaJesdnostek,ChronoUnit jednostka)">
+<node CREATED="1457451373475" FOLDED="true" ID="ID_1731792060" MODIFIED="1526028851727" TEXT="of(int liczbaJesdnostek,ChronoUnit jednostka)">
 <node CREATED="1457451396365" ID="ID_1956561987" MODIFIED="1457451404401" TEXT="ChronoUnit.DAYS"/>
 <node CREATED="1457451412461" ID="ID_224126060" MODIFIED="1457451420178" TEXT="ChronoUnit.HOURS"/>
 <node CREATED="1457451421789" ID="ID_1120213224" MODIFIED="1457451425938" TEXT="ChronoUnit.MINUTES"/>
@@ -2298,14 +2297,14 @@ Wymusza zastoswanie TreeMap</pre>
 <node CREATED="1457522688991" ID="ID_1361837823" MODIFIED="1457523055986" TEXT="Reprezentuje moment czasie w odniesieniu do GMT"/>
 <node CREATED="1457523062589" ID="ID_1120910171" MODIFIED="1457523064962" TEXT="metody">
 <node CREATED="1457523066077" ID="ID_303640427" MODIFIED="1457523068682" TEXT="now()"/>
-<node CREATED="1457523375467" ID="ID_726874665" MODIFIED="1457523401088" TEXT="ofEpochSecond(liczbaSekundOd1970)">
+<node CREATED="1457523375467" FOLDED="true" ID="ID_726874665" MODIFIED="1526028851727" TEXT="ofEpochSecond(liczbaSekundOd1970)">
 <node CREATED="1457523402467" ID="ID_701253616" MODIFIED="1457523427249" TEXT="metoda tworz&#x105;ca Instant na podstawie liczby sekunkd kt&#xf3;re up&#x142;yn&#x119;&#x142;y od 1970 r."/>
 </node>
 </node>
 <node CREATED="1457523242004" ID="ID_140055503" MODIFIED="1457523265245" TEXT="Konwersja do Instant jest mo&#x17c;liwa tylko z typ&#xf3;w posiadaj&#x105;cych informacje o strefie czasowej.">
 <icon BUILTIN="messagebox_warning"/>
 </node>
-<node CREATED="1457523307195" ID="ID_883765812" MODIFIED="1457523528216" TEXT="UWAGA! Na Instant mo&#x17c;na robi&#x107; r&#xf3;&#x17c;ne operacje, jednak tylko w jednostkach &lt;= ChronoUnit.DAY">
+<node CREATED="1457523307195" ID="ID_883765812" MODIFIED="1526028393031" TEXT="UWAGA! Na Instant mo&#x17c;na robi&#x107; r&#xf3;&#x17c;ne operacje, jednak tylko w jednostkach &lt;= ChronoUnit.DAY">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2365,7 +2364,7 @@ Wymusza zastoswanie TreeMap</pre>
 <node CREATED="1457092123479" ID="ID_561299060" MODIFIED="1457092139206" TEXT="Indeksowanie miesi&#x119;cy rozpoczyna si&#x119; od 1">
 <icon BUILTIN="messagebox_warning"/>
 </node>
-<node CREATED="1457294486074" ID="ID_504504347" MODIFIED="1457294573929" TEXT="UWAGA! Wszystkie klasy s&#x105; immutable!">
+<node CREATED="1457294486074" ID="ID_504504347" MODIFIED="1526028393053" TEXT="UWAGA! Wszystkie klasy s&#x105; immutable!">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2435,25 +2434,25 @@ Wymusza zastoswanie TreeMap</pre>
 </html></richcontent>
 </node>
 <node CREATED="1457694387990" ID="ID_1755786998" MODIFIED="1457694399093" TEXT="ofPattern(String)">
-<node CREATED="1457694403959" ID="ID_1505525166" MODIFIED="1457694421358" TEXT="M - miesi&#x105;c">
+<node CREATED="1457694403959" FOLDED="true" ID="ID_1505525166" MODIFIED="1526028851728" TEXT="M - miesi&#x105;c">
 <node CREATED="1457694441009" ID="ID_823051747" MODIFIED="1457694450147" TEXT="M-np 1"/>
 <node CREATED="1457694452137" ID="ID_120731889" MODIFIED="1457694461170" TEXT="MM-np 01"/>
 <node CREATED="1457694463130" ID="ID_938592752" MODIFIED="1457694470645" TEXT="MMM-Sty"/>
 <node CREATED="1457694472264" ID="ID_1122828448" MODIFIED="1457694483247" TEXT="MMMM-Stycze&#x144;"/>
 </node>
-<node CREATED="1457694515048" ID="ID_1932630786" MODIFIED="1457694520450" TEXT="y - rok">
+<node CREATED="1457694515048" FOLDED="true" ID="ID_1932630786" MODIFIED="1526028851728" TEXT="y - rok">
 <node CREATED="1457694532429" ID="ID_1498777883" MODIFIED="1457694534489" TEXT="yy"/>
 <node CREATED="1457694538064" ID="ID_1689769604" MODIFIED="1457694540955" TEXT="yyyy"/>
 </node>
-<node CREATED="1457694423934" ID="ID_1900737253" MODIFIED="1457694576591" TEXT="d - dzie&#x144;">
+<node CREATED="1457694423934" FOLDED="true" ID="ID_1900737253" MODIFIED="1526028851728" TEXT="d - dzie&#x144;">
 <node CREATED="1457694565047" ID="ID_1419073986" MODIFIED="1457694566222" TEXT="d"/>
 <node CREATED="1457694567796" ID="ID_333368580" MODIFIED="1457694569343" TEXT="dd"/>
 </node>
-<node CREATED="1457694578883" ID="ID_596205070" MODIFIED="1457694591208" TEXT="h">
+<node CREATED="1457694578883" FOLDED="true" ID="ID_596205070" MODIFIED="1526028851728" TEXT="h">
 <node CREATED="1457694592295" ID="ID_1547135173" MODIFIED="1457694594911" TEXT="h"/>
 <node CREATED="1457694596399" ID="ID_1209427400" MODIFIED="1457694597695" TEXT="hh"/>
 </node>
-<node CREATED="1457694602654" ID="ID_810320873" MODIFIED="1457694613695" TEXT="m-minuta">
+<node CREATED="1457694602654" FOLDED="true" ID="ID_810320873" MODIFIED="1526028851728" TEXT="m-minuta">
 <node CREATED="1457694614760" ID="ID_11650464" MODIFIED="1457694615867" TEXT="m"/>
 <node CREATED="1457694617285" ID="ID_782547626" MODIFIED="1457694618257" TEXT="mm"/>
 </node>
@@ -2512,15 +2511,15 @@ Wymusza zastoswanie TreeMap</pre>
 <node CREATED="1457623246996" ID="ID_1448698881" MODIFIED="1457623275746" TEXT="3. pobieramy warto&#x15b;&#x107; podaj&#x105;c jej klucz">
 <node CREATED="1457623256605" ID="ID_253989751" MODIFIED="1457623265810" TEXT="rb.getString(&quot;hello&quot;)"/>
 </node>
-<node CREATED="1457623952091" FOLDED="true" ID="ID_546793567" MODIFIED="1457624009705" TEXT="Mo&#x17c;liwe jest te&#x17c; iterowanie po wszystkich warto&#x15b;ciach - pobieramy wszystkie klucze i pos&#x142;ugujemy si&#x119; nimi jak setem">
+<node CREATED="1457623952091" ID="ID_546793567" MODIFIED="1526028851608" TEXT="Mo&#x17c;liwe jest te&#x17c; iterowanie po wszystkich warto&#x15b;ciach - pobieramy wszystkie klucze i pos&#x142;ugujemy si&#x119; nimi jak setem">
 <node CREATED="1457623963803" ID="ID_1349741523" MODIFIED="1457623981201" TEXT="Set&lt;String&gt; klucze=rb.keySet()"/>
 </node>
 <node CREATED="1457625937919" ID="ID_1680136104" MODIFIED="1457625940881" TEXT="metody">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
-<node CREATED="1457625941536" ID="ID_1786156180" MODIFIED="1457625956869" TEXT="ResourceBundle.getBundle(&quot;nazwa&quot;)">
+<node CREATED="1457625941536" FOLDED="true" ID="ID_1786156180" MODIFIED="1526028851728" TEXT="ResourceBundle.getBundle(&quot;nazwa&quot;)">
 <node CREATED="1457626048508" ID="ID_686799332" MODIFIED="1457626100028" TEXT="pobiera zasoby dla domy&#x15b;lnych Locale"/>
 </node>
-<node CREATED="1457625958144" ID="ID_214041214" MODIFIED="1457626043313" TEXT="ResourceBundle.getBundle(&quot;nazwa&quot;,Locale)">
+<node CREATED="1457625958144" FOLDED="true" ID="ID_214041214" MODIFIED="1526028851729" TEXT="ResourceBundle.getBundle(&quot;nazwa&quot;,Locale)">
 <node CREATED="1457626080662" ID="ID_1173638022" MODIFIED="1457626095147" TEXT="pobiera zasoby dla podanego Locale"/>
 </node>
 </node>
@@ -2570,7 +2569,7 @@ Wymusza zastoswanie TreeMap</pre>
 </node>
 </node>
 <node CREATED="1457624056719" ID="ID_1705237842" MODIFIED="1457625438519" TEXT="Przekszta&#x142;canie ResourceBoundle do Properties">
-<node CREATED="1457624154587" FOLDED="true" ID="ID_1488506555" MODIFIED="1457625444770" TEXT="1.Stw&#xf3;rz obiekt Properties">
+<node CREATED="1457624154587" ID="ID_1488506555" MODIFIED="1526028851609" TEXT="1.Stw&#xf3;rz obiekt Properties">
 <node CREATED="1457624188100" ID="ID_1795720868" MODIFIED="1457624197409" TEXT="Properties props=new Properties()"/>
 </node>
 <node CREATED="1457624095609" ID="ID_671946822" MODIFIED="1457624105718" TEXT="1. Iteruj po kluczach rb"/>
@@ -2595,21 +2594,21 @@ Wymusza zastoswanie TreeMap</pre>
 </node>
 <node CREATED="1457627073129" ID="ID_1158903361" MODIFIED="1457627076473" TEXT="metody">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
-<node CREATED="1457627078072" ID="ID_524819049" MODIFIED="1457627080926" TEXT="format()">
+<node CREATED="1457627078072" FOLDED="true" ID="ID_524819049" MODIFIED="1526028851729" TEXT="format()">
 <node CREATED="1457627102434" ID="ID_340379252" MODIFIED="1457627109735" TEXT="Number-&gt;String"/>
 </node>
-<node CREATED="1457627082089" ID="ID_104701248" MODIFIED="1457627084470" TEXT="parse()">
-<node CREATED="1457627091250" ID="ID_1410742573" MODIFIED="1457627099975" TEXT="String-&gt;Number">
+<node CREATED="1457627082089" FOLDED="true" ID="ID_104701248" MODIFIED="1526028851729" TEXT="parse()">
+<node CREATED="1457627091250" FOLDED="true" ID="ID_1410742573" MODIFIED="1526028851721" TEXT="String-&gt;Number">
 <node CREATED="1457627204286" ID="ID_852615707" MODIFIED="1457627471561" TEXT="pos&#x142;uguje si&#x119;  java.text.ParseException">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
 <icon BUILTIN="messagebox_warning"/>
 </node>
-<node CREATED="1457627273705" ID="ID_95732666" MODIFIED="1457627326624" TEXT="UWAGA! metoda dzia&#x142;a w taki spos&#xf3;b, &#x17c;e parsuje warto&#x15b;&#x107; a&#x17c; do napotkania znaku nieparsowalnego, je&#x15b;li uda jej si&#x119; to zwraca warto&#x15b;&#x107;, reszta jest ignorowana">
+<node CREATED="1457627273705" FOLDED="true" ID="ID_95732666" MODIFIED="1526028851609" TEXT="UWAGA! metoda dzia&#x142;a w taki spos&#xf3;b, &#x17c;e parsuje warto&#x15b;&#x107; a&#x17c; do napotkania znaku nieparsowalnego, je&#x15b;li uda jej si&#x119; to zwraca warto&#x15b;&#x107;, reszta jest ignorowana">
 <font BOLD="true" NAME="SansSerif" SIZE="13"/>
 <icon BUILTIN="messagebox_warning"/>
 <node CREATED="1457627283218" ID="ID_743925889" MODIFIED="1457627283218" TEXT=""/>
 </node>
-<node CREATED="1457627331420" ID="ID_455646159" MODIFIED="1457627333880" TEXT="Przyk&#x142;ad">
+<node CREATED="1457627331420" FOLDED="true" ID="ID_455646159" MODIFIED="1526028851610" TEXT="Przyk&#x142;ad">
 <node CREATED="1457627335108" ID="ID_1272741298" MODIFIED="1457627450776" TEXT="nr.parse(&quot;456abc&quot;)=456">
 <icon BUILTIN="button_ok"/>
 </node>
@@ -2739,7 +2738,7 @@ Wymusza zastoswanie TreeMap</pre>
 </node>
 </node>
 <node CREATED="1458056145172" ID="ID_188570432" MODIFIED="1458056149341" TEXT="Przyk&#x142;ady">
-<node CREATED="1458054222490" ID="ID_684671725" MODIFIED="1458056152963" TEXT="Przyk&#x142;ad (getParent() i getFileName()">
+<node CREATED="1458054222490" ID="ID_684671725" MODIFIED="1526028393330" TEXT="Przyk&#x142;ad (getParent() i getFileName()">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2809,13 +2808,10 @@ Wymusza zastoswanie TreeMap</pre>
     <p>
       Current parent=&gt;java8-cwiczenia
     </p>
-    <p>
-      
-    </p>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1458054863923" ID="ID_18246312" MODIFIED="1458056156927" TEXT="Przyk&#x142;ad toAbsolutePath()">
+<node CREATED="1458054863923" ID="ID_18246312" MODIFIED="1526028393338" TEXT="Przyk&#x142;ad toAbsolutePath()">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2843,19 +2839,19 @@ Wymusza zastoswanie TreeMap</pre>
 </html></richcontent>
 </node>
 <node CREATED="1458055309807" ID="ID_1724563986" MODIFIED="1458056167794" TEXT="Paths.get(&quot;/stripes/zebra.exe&quot;).isAbsolute()">
-<node CREATED="1458055352083" ID="ID_709041625" MODIFIED="1458055367450" TEXT="Windows:False">
+<node CREATED="1458055352083" FOLDED="true" ID="ID_709041625" MODIFIED="1526028851729" TEXT="Windows:False">
 <node CREATED="1458055376022" ID="ID_1398056824" MODIFIED="1458055393565" TEXT="Poniewa&#x17c; brakuje roota czyli litery oznaczaj&#x105;cej dysk"/>
 </node>
 <node CREATED="1458055368734" ID="ID_785201282" MODIFIED="1458055374282" TEXT="Linux:True"/>
 </node>
 <node CREATED="1458055400359" ID="ID_1203163254" MODIFIED="1458056172994" TEXT="Paths.get(&quot;c:/goats/Food.java&quot;).isAbsolute()">
 <node CREATED="1458055430782" ID="ID_78163616" MODIFIED="1458055435386" TEXT="Windows:true"/>
-<node CREATED="1458055436609" ID="ID_1376708034" MODIFIED="1458055442282" TEXT="Linux:false">
+<node CREATED="1458055436609" FOLDED="true" ID="ID_1376708034" MODIFIED="1526028851729" TEXT="Linux:false">
 <node CREATED="1458055443549" ID="ID_1959424973" MODIFIED="1458055458284" TEXT="Brak &quot;/&quot; na pocz&#x105;tku &#x15b;cie&#x17c;ki"/>
 </node>
 </node>
 <node CREATED="1458057290874" ID="ID_1057660970" MODIFIED="1458057301676" TEXT="subpath()">
-<node CREATED="1458057302647" ID="ID_226256878" MODIFIED="1458057340058" TEXT="Paths.get(&quot;/mammal/carnivore/raccoon.image&quot;)">
+<node CREATED="1458057302647" FOLDED="true" ID="ID_226256878" MODIFIED="1526028851729" TEXT="Paths.get(&quot;/mammal/carnivore/raccoon.image&quot;)">
 <node CREATED="1458057342600" ID="ID_1702579371" MODIFIED="1458057619026" TEXT="subpath(0,3)=&gt;mammal/carnivore/raccoon.image">
 <icon BUILTIN="button_ok"/>
 </node>
@@ -2871,17 +2867,17 @@ Wymusza zastoswanie TreeMap</pre>
 <node CREATED="1458057520193" ID="ID_1811122073" MODIFIED="1458057547514" TEXT="UWAGA! najwi&#x119;kszy indeks kt&#xf3;ry mo&#x17c;e zosta&#x107; u&#x17c;yty to 3">
 <icon BUILTIN="messagebox_warning"/>
 </node>
-<node CREATED="1458057590809" ID="ID_386971986" MODIFIED="1458057614514" TEXT="subpath(0,4)=&gt;IllegalArgumentException">
+<node CREATED="1458057590809" FOLDED="true" ID="ID_386971986" MODIFIED="1526028851721" TEXT="subpath(0,4)=&gt;IllegalArgumentException">
 <icon BUILTIN="button_cancel"/>
 <node CREATED="1458057677296" ID="ID_608321133" MODIFIED="1458057692093" TEXT="indeks przekracza najwi&#x119;kszy dopuszczony "/>
 </node>
-<node CREATED="1458057643826" ID="ID_782103784" MODIFIED="1458057657746" TEXT="subpath(1,1)=&gt;IllegalArgumentException">
+<node CREATED="1458057643826" FOLDED="true" ID="ID_782103784" MODIFIED="1526028851721" TEXT="subpath(1,1)=&gt;IllegalArgumentException">
 <icon BUILTIN="button_cancel"/>
 <node CREATED="1458057694306" ID="ID_1168238895" MODIFIED="1458057725756" TEXT="obydwa kra&#x144;ce przedzia&#x142;u wskazuj&#x105; na ten sam element"/>
 </node>
 </node>
 </node>
-<node CREATED="1458058372763" ID="ID_771366631" MODIFIED="1458058424927" TEXT="relativize()">
+<node CREATED="1458058372763" ID="ID_771366631" MODIFIED="1526028393385" TEXT="relativize()">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2898,7 +2894,7 @@ Wymusza zastoswanie TreeMap</pre>
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node CREATED="1458060039437" ID="ID_263031918" MODIFIED="1458060132504" TEXT="resolve()">
+<node CREATED="1458060039437" ID="ID_263031918" MODIFIED="1526028393396" TEXT="resolve()">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2930,7 +2926,7 @@ Wymusza zastoswanie TreeMap</pre>
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1458060727670" ID="ID_408286706" MODIFIED="1458060787218" TEXT="Przypadek szczeg&#xf3;lny: dwie &#x15b;cie&#x17c;ki absolutne">
+<node CREATED="1458060727670" ID="ID_408286706" MODIFIED="1526028393404" TEXT="Przypadek szczeg&#xf3;lny: dwie &#x15b;cie&#x17c;ki absolutne">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2944,7 +2940,7 @@ Wymusza zastoswanie TreeMap</pre>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1458062389155" ID="ID_1234644816" MODIFIED="1458062869903" TEXT="normalize()+resolve()+relativize">
+<node CREATED="1458062389155" ID="ID_1234644816" MODIFIED="1526028393412" TEXT="normalize()+resolve()+relativize">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3002,7 +2998,7 @@ E:\user\home<br />}</pre>
 <icon BUILTIN="messagebox_warning"/>
 <icon BUILTIN="button_cancel"/>
 </node>
-<node CREATED="1458066083952" ID="ID_1067815582" MODIFIED="1458066367997" TEXT="Przyk&#x142;ad">
+<node CREATED="1458066083952" ID="ID_1067815582" MODIFIED="1526028393436" TEXT="Przyk&#x142;ad">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3099,7 +3095,7 @@ E:\user\home<br />}</pre>
 <font BOLD="true" NAME="SansSerif" SIZE="12"/>
 <node CREATED="1458069879797" ID="ID_1090197703" MODIFIED="1458069956669" TEXT="Pisze do pliku wskazywanego przez Path przy u&#x17c;yciu BufferedWriter."/>
 <node CREATED="1458070006995" ID="ID_446454557" MODIFIED="1458070041553" TEXT="Mo&#x17c;liwe jest podanie dodatkowego enuma, kt&#xf3;ry m&#xf3;wi czy zawarto&#x15b;&#x107; ma zosta&#x107; dopisana w przypadku istnienia pliku."/>
-<node CREATED="1458070528173" ID="ID_1915236449" MODIFIED="1458075149219" TEXT="Przyk&#x142;ad">
+<node CREATED="1458070528173" ID="ID_1915236449" MODIFIED="1526028393502" TEXT="Przyk&#x142;ad">
 <richcontent TYPE="NOTE"><html>
   <head>
     

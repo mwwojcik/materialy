@@ -929,7 +929,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1517473875896" ID="ID_751435581" MODIFIED="1522393619202" POSITION="right" TEXT="Podpowiedzi">
+<node CREATED="1517473875896" ID="ID_751435581" MODIFIED="1525072335017" POSITION="right" TEXT="Podpowiedzi">
 <cloud COLOR="#ffffcc"/>
 <node CREATED="1517473932122" ID="ID_671322508" MODIFIED="1517480318057" TEXT="git pull-pull z ca&#x142;kowitym zast&#x105;pieniem plik&#xf3;w lokalnych">
 <richcontent TYPE="NOTE"><html>
@@ -1103,8 +1103,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1524818898018" ID="ID_1978055557" MODIFIED="1524818913443" TEXT="Ustawienie obs&#x142;ugi d&#x142;ugich nazw plik&#xf3;w">
 <richcontent TYPE="NOTE"><html>
@@ -1116,8 +1115,133 @@
       <font color="#1F497D">git config --system core.longpaths true<o p="#DEFAULT"></o></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+<node CREATED="1525071529339" ID="ID_710118458" MODIFIED="1525076251588" TEXT="Czyszczenie plik&#xf3;w kt&#xf3;e s&#x105; utracked">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      
+    </p>
+    <p>
+      https://stackoverflow.com/questions/673407/how-do-i-clear-my-local-working-directory-in-git
+    </p>
+    <p>
+      
+    </p>
+    <p class="MsoNormal">
+      W przypadku pracy z gitem, ka&#380;dy stanie przed konieczno&#347;ci&#261; wyczyszczenia swojej kopii roboczej z plik&#243;w zmodyfikowanych. S&#322;u&#380;y do tego polecenie <o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <o p="#DEFAULT">
+      &#160;</o>
+    </p>
+    <p class="MsoNormal">
+      git reset --hard origin/master &#160;<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      Uwaga na &#8211;hard: Resets the index and working tree. Any changes to tracked files in the working tree since &lt;commit&gt; are discarded.<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <o p="#DEFAULT">
+      &#160;</o>
+    </p>
+    <p class="MsoNormal">
+      Polecenie to jednak nie usuwa z dysku plik&#243;w kt&#243;re s&#261; w stanie nie&#347;ledzonym, a ich obecno&#347;&#263; mo&#380;e zablokowa&#263; niekt&#243;re operacje na repozytorium, &#380;eby si&#281; ich pozby&#263; trzeba u&#380;y&#263; clean:<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      git clean -df<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      Do&#322;o&#380;enie opcji -x czy&#347;ci r&#243;wnie&#380; te pliki kt&#243;re s&#261; w .gitignore<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <o p="#DEFAULT">
+      &#160;</o>
+    </p>
+    <p class="MsoNormal">
+      <o p="#DEFAULT">
+      &#160;</o>
+    </p>
+    <p class="MsoNormal">
+      <b>PS. Uwaga na te polecenia bo jako jedne z nielicznych (przy nieuwa&#380;nym u&#380;yciu) mog&#261; doprowadzi&#263; do nieodwracalnej utraty urobku.<o p="#DEFAULT"></o></b>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1525072335018" ID="ID_1724898821" MODIFIED="1525072463603" TEXT="Przenoszenie plik&#xf3;w">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p class="MsoNormal">
+      mv *as pu_dzialajace<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      mv *java pu_dzialajace<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <o p="#DEFAULT">
+      &#160;</o>
+    </p>
+    <p class="MsoNormal">
+      To z punktu widzenia GIT wykonane zosta&#322;y dwie operacje:<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <i>deleted:&#160;&#160;&#160;&#160;PU_0363.as<o p="#DEFAULT"></o></i>
+    </p>
+    <p class="MsoNormal">
+      <i><o p="#DEFAULT">
+      &#160;</o></i>
+    </p>
+    <p class="MsoNormal">
+      <i>Untracked files:<o p="#DEFAULT"></o></i>
+    </p>
+    <p class="MsoNormal">
+      <i>pu_dzialajace/PU_0363.as<o p="#DEFAULT"></o></i>
+    </p>
+    <p class="MsoNormal">
+      <b>Taka operacja z puntku widzenia gita powoduje &#380;e pozornie osi&#261;gamy to co chcemy, bo pliki gin&#261; ze starej lokalizacji a pojawiaj&#261; si&#281; w nowej, &#160;ale TRACIMY HISTORI&#280;&#8230;<o p="#DEFAULT"></o> </b>
+    </p>
+    <p class="MsoNormal">
+      <b>Dodatkowo opcja resetu nie zadzia&#322;a prawid&#322;owo&#160;&#160;git reset --hard origin/master, bo nie wyczy&#347;ci plik&#243;w untracked</b>
+    </p>
+    <p class="MsoNormal">
+      <o p="#DEFAULT">
+      &#160;</o>
+    </p>
+    <p class="MsoNormal">
+      &#379;eby zrobi&#263; to lepiej mo&#380;na u&#380;y&#263; gitowej wersji przenoszenia plik&#243;w<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      git mv &#160;*java pu_dzialajace/<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      git mv *as pu_dzialajace<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <o p="#DEFAULT">
+      &#160;</o>
+    </p>
+    <p class="MsoNormal">
+      Wtedy z punktu widzenia gita dosz&#322;o do operacji:<o p="#DEFAULT"></o>
+    </p>
+    <p class="MsoNormal">
+      <i>renamed:&#160;&#160;&#160;&#160;PU_0363.as -&gt; pu_dzialajace/PU_0363.as<o p="#DEFAULT"></o></i>
+    </p>
+    <p class="MsoNormal">
+      <o p="#DEFAULT">
+      &#160;</o>
+    </p>
+    <p class="MsoNormal">
+      Historia powinna zosta&#263;, a reset HEADA zadzia&#322;a prawid&#322;owo
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1518253670253" ID="ID_956937492" MODIFIED="1518253772083" POSITION="right" TEXT="Praca r&#xf3;wnoleg&#x142;a">
@@ -1227,7 +1351,7 @@
 </html></richcontent>
 </node>
 <node CREATED="1518452256890" ID="ID_1395376398" MODIFIED="1518452267769" TEXT="Przechowalnia (STASH)">
-<node CREATED="1518452473257" ID="ID_530270553" MODIFIED="1518458289662" TEXT="git stash">
+<node CREATED="1518452473257" ID="ID_530270553" MODIFIED="1526045984206" TEXT="git stash">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1338,11 +1462,9 @@
     <p>
       git stash clear -&gt; czy&#347;ci list&#281; - wykonna&#263; tylko gdy wszystkie zmiany s&#261; bezpieczne
     </p>
-    <p>
-      
-    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1518458295221" ID="ID_105877227" MODIFIED="1518458314378" TEXT="Wyb&#xf3;r zmian z r&#xf3;&#x17c;nych branchy i przenoszenie ich do aktualnej ga&#x142;&#x119;zi">
@@ -1408,7 +1530,7 @@
 </node>
 </node>
 <node CREATED="1518472424897" ID="ID_1857742226" MODIFIED="1518472444742" TEXT="Merge - przenoszenie zmian od wsp&#xf3;lnego punktu">
-<node CREATED="1518472446727" ID="ID_338483407" MODIFIED="1519064689016" TEXT="git merge">
+<node CREATED="1518472446727" ID="ID_338483407" MODIFIED="1525945409249" TEXT="git merge">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1468,6 +1590,11 @@
     <p>
       git merge --abort -&gt; przerywa merge, git przywr&#243;ci zmiany do stanu w jakim startowa&#322; maerge
     </p>
+    <p>
+      
+    </p>
+    <pre><code>https://stackoverflow.com/questions/173919/is-there-a-theirs-version-of-git-merge-s-ours
+git merge -X theirs branchB</code></pre>
   </body>
 </html></richcontent>
 </node>
@@ -1935,7 +2062,7 @@
 <node CREATED="1518614509656" ID="ID_1354188083" MODIFIED="1518614509656" TEXT=""/>
 </node>
 </node>
-<node CREATED="1518621555827" ID="ID_247874086" MODIFIED="1518621565011" TEXT="Pobieranie zmian">
+<node CREATED="1518621555827" ID="ID_247874086" MODIFIED="1525431380079" TEXT="Pobieranie zmian">
 <node CREATED="1518621567655" ID="ID_1609359400" MODIFIED="1518624007489" TEXT="git pull i git fetch">
 <richcontent TYPE="NOTE"><html>
   <head>
