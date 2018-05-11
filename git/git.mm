@@ -2198,6 +2198,24 @@ git merge -X theirs branchB</code></pre>
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1526046408919" ID="ID_382912495" MODIFIED="1526046425887" TEXT="Kasowanie branchy-lokalne i zdalne">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      To delete a local branch
+    </p>
+    <pre><code class="syntax_highlighted hljs bash">git branch -d the_local_branch</code></pre>
+    <p>
+      To remove a remote branch (if you know what you are doing!)
+    </p>
+    <pre><code class="syntax_highlighted hljs css">git push origin :the_remote_branch</code></pre>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </map>
