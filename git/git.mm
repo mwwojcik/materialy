@@ -1243,6 +1243,19 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1526632216511" ID="ID_1383711570" MODIFIED="1526632241906" TEXT="Klonowanie tylko jednego brancha (a nie ca&#x142;ego repo)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><code>git clone [url] -b [branch-name] --single-branch
+
+https://stackoverflow.com/questions/4811434/clone-only-one-branch?utm_medium=organic&amp;utm_source=google_rich_qa&amp;utm_campaign=google_rich_qa</code></pre>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1518253670253" ID="ID_956937492" MODIFIED="1518253772083" POSITION="right" TEXT="Praca r&#xf3;wnoleg&#x142;a">
 <cloud COLOR="#f6ce34"/>
