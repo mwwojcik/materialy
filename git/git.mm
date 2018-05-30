@@ -1256,7 +1256,7 @@ https://stackoverflow.com/questions/4811434/clone-only-one-branch?utm_medium=org
 </html>
 </richcontent>
 </node>
-<node CREATED="1527672304230" ID="ID_1668583105" LINK="https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting" MODIFIED="1527672356140" TEXT="Por&#xf3;wnanie git reset checkout i revert">
+<node CREATED="1527672304230" ID="ID_1668583105" LINK="https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting" MODIFIED="1527672509809" TEXT="Por&#xf3;wnanie git reset checkout i revert">
 <node CREATED="1527672323524" FOLDED="true" ID="ID_1582549908" MODIFIED="1527672339664" TEXT="">
 <node CREATED="1527672331227" MODIFIED="1527672331227">
 <richcontent TYPE="NODE"><html>
@@ -1270,6 +1270,7 @@ https://stackoverflow.com/questions/4811434/clone-only-one-branch?utm_medium=org
 </richcontent>
 </node>
 </node>
+<node CREATED="1527672509810" ID="ID_976747392" LINK="https://stackoverflow.com/questions/8358035/whats-the-difference-between-git-revert-checkout-and-reset?utm_medium=organic&amp;utm_source=google_rich_qa&amp;utm_campaign=google_rich_qa" MODIFIED="1527672544545" TEXT="Diff reset/checkout/revert"/>
 </node>
 </node>
 <node CREATED="1518253670253" ID="ID_956937492" MODIFIED="1518253772083" POSITION="right" TEXT="Praca r&#xf3;wnoleg&#x142;a">
