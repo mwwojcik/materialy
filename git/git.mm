@@ -929,7 +929,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1517473875896" ID="ID_751435581" MODIFIED="1525072335017" POSITION="right" TEXT="Podpowiedzi">
+<node CREATED="1517473875896" ID="ID_751435581" MODIFIED="1535453716070" POSITION="right" TEXT="Podpowiedzi">
 <cloud COLOR="#ffffcc"/>
 <node CREATED="1517473932122" ID="ID_671322508" MODIFIED="1517480318057" TEXT="git pull-pull z ca&#x142;kowitym zast&#x105;pieniem plik&#xf3;w lokalnych">
 <richcontent TYPE="NOTE"><html>
@@ -952,7 +952,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1517474607110" ID="ID_1554533457" MODIFIED="1519742048702" TEXT="git push - push do zdalnego brancha">
+<node CREATED="1517474607110" ID="ID_1554533457" MODIFIED="1529483746208" TEXT="git push - push do zdalnego brancha">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1253,8 +1253,7 @@
 
 https://stackoverflow.com/questions/4811434/clone-only-one-branch?utm_medium=organic&amp;utm_source=google_rich_qa&amp;utm_campaign=google_rich_qa</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1527672304230" ID="ID_1668583105" LINK="https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting" MODIFIED="1527672509809" TEXT="Por&#xf3;wnanie git reset checkout i revert">
 <node CREATED="1527672323524" FOLDED="true" ID="ID_1582549908" MODIFIED="1527672339664" TEXT="">
@@ -1266,11 +1265,59 @@ https://stackoverflow.com/questions/4811434/clone-only-one-branch?utm_medium=org
   <body>
     <img src="git_7068697785306170098.jpeg" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1527672509810" ID="ID_976747392" LINK="https://stackoverflow.com/questions/8358035/whats-the-difference-between-git-revert-checkout-and-reset?utm_medium=organic&amp;utm_source=google_rich_qa&amp;utm_campaign=google_rich_qa" MODIFIED="1527672544545" TEXT="Diff reset/checkout/revert"/>
+</node>
+<node CREATED="1531817075575" ID="ID_1593825201" MODIFIED="1531817085072" TEXT="Tworzenie/aplikowanie patchy">
+<node CREATED="1531817090219" ID="ID_1976797492" MODIFIED="1531817103566" TEXT="Tworzenie patcha">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><code>git diff --cached &gt; mypatch.patch</code></pre>
+    <p>
+      https://stackoverflow.com/questions/5159185/create-a-git-patch-from-the-changes-in-the-current-working-directory
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1531817105780" ID="ID_1822307283" MODIFIED="1531817119222" TEXT="Aplikowanie patcha">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><code>git apply mypatch.patch</code></pre>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1535453716071" ID="ID_51339641" MODIFIED="1535453729510" TEXT="Ilo&#x15b;&#x107; plik&#xf3;w w snapshocie">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;git status --short -uno |wc -l
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1535456008011" ID="ID_1290428286" MODIFIED="1535456038933" TEXT="Wy&#x15b;wietlanie listy plik&#xf3;w wys&#x142;anych w danym commicie">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    git show --name-only &lt;changeset&gt;
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1518253670253" ID="ID_956937492" MODIFIED="1518253772083" POSITION="right" TEXT="Praca r&#xf3;wnoleg&#x142;a">
@@ -1492,8 +1539,7 @@ https://stackoverflow.com/questions/4811434/clone-only-one-branch?utm_medium=org
       git stash clear -&gt; czy&#347;ci list&#281; - wykonna&#263; tylko gdy wszystkie zmiany s&#261; bezpieczne
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1518458295221" ID="ID_105877227" MODIFIED="1518458314378" TEXT="Wyb&#xf3;r zmian z r&#xf3;&#x17c;nych branchy i przenoszenie ich do aktualnej ga&#x142;&#x119;zi">
@@ -2242,8 +2288,7 @@ git merge -X theirs branchB</code></pre>
     </p>
     <pre><code class="syntax_highlighted hljs css">git push origin :the_remote_branch</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>

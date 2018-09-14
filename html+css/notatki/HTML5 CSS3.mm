@@ -67,7 +67,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1480361932146" ID="ID_1889108911" LINK="https://fonts.google.com" MODIFIED="1522392735707" TEXT="https://fonts.google.com/ - czcionki hostowane przez google">
+<node CREATED="1480361932146" ID="ID_1889108911" LINK="https://fonts.google.com" MODIFIED="1534161068203" TEXT="https://fonts.google.com/ - czcionki hostowane przez google">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -125,7 +125,7 @@
 <icon BUILTIN="messagebox_warning"/>
 </node>
 </node>
-<node CREATED="1480359280597" ID="ID_88307567" MODIFIED="1480440097186" POSITION="left" TEXT="Jednostki relatywne">
+<node CREATED="1480359280597" ID="ID_88307567" MODIFIED="1534161100185" POSITION="left" TEXT="Jednostki relatywne">
 <cloud/>
 <node CREATED="1480359286999" ID="ID_1437710109" MODIFIED="1480359291228" TEXT="%"/>
 <node CREATED="1480359293181" ID="ID_1602234507" MODIFIED="1480359297744" TEXT="em">
@@ -165,7 +165,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1480359299428" ID="ID_890544262" MODIFIED="1480359300755" TEXT="rem">
+<node CREATED="1480359299428" ID="ID_890544262" MODIFIED="1534161104425" TEXT="rem">
 <node CREATED="1480359329097" ID="ID_1115318672" MODIFIED="1480359343526" TEXT="prawie to samo co em 1rem=100%">
 <node CREATED="1480359681693" ID="ID_537818762" MODIFIED="1480402516540" TEXT="Po warto&#x15b;&#x107; rem si&#x119;gamy do roota">
 <richcontent TYPE="NOTE"><html>
