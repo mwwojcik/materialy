@@ -88,14 +88,16 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
 <node CREATED="1537108577629" ID="ID_1859262591" LINK="http://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html#sphx-glr-auto-examples-classification-plot-digits-classification-py" MODIFIED="1537108609679" TEXT="Rozpoznawanie rozpikslowanych liczb"/>
 <node CREATED="1537109516698" ID="ID_1591753340" LINK="http://scikit-learn.org/stable/tutorial/statistical_inference/putting_together.html" MODIFIED="1537109529903" TEXT="Rozpoznawanie twarzy"/>
 </node>
-<node CREATED="1537125549573" FOLDED="true" ID="ID_597002908" LINK="www.kaggle.com" MODIFIED="1537126364576" TEXT="www.kaggle.com">
+<node CREATED="1537125549573" ID="ID_597002908" LINK="www.kaggle.com" MODIFIED="1537128243386" TEXT="www.kaggle.com">
 <node CREATED="1537125562369" ID="ID_393793003" LINK="https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset" MODIFIED="1537125594294" TEXT="Rozpoznawanie gatunk&#xf3;w IRIS"/>
 <node CREATED="1537125621442" ID="ID_1591120814" LINK="https://www.kaggle.com/enerrio/scikit-learn-ml-from-start-to-finish" MODIFIED="1537125635912" TEXT="Titanic"/>
+<node CREATED="1537129777196" ID="ID_204708334" LINK="https://www.kaggle.com/startupsci/titanic-data-science-solutions" MODIFIED="1537129816356" TEXT="Titanic - przygotowanie modelu - ci&#x105;g my&#x15b;lowy"/>
 </node>
 </node>
 <node CREATED="1537126457177" ID="ID_138049994" MODIFIED="1537126501888" POSITION="left" TEXT="Zbiory danych">
 <cloud COLOR="#ccffff"/>
 <node CREATED="1537126468540" ID="ID_1186323848" LINK="https://www.kaggle.com/datasets" MODIFIED="1537126484510" TEXT="https://www.kaggle.com/datasets"/>
+<node CREATED="1537128486731" ID="ID_689208611" LINK="https://www.kaggle.com/c/titanic/data" MODIFIED="1537128502904" TEXT="Titanic"/>
 </node>
 </node>
 </map>
