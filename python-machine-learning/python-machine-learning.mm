@@ -78,7 +78,7 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
 </node>
 <node CREATED="1537104125211" ID="ID_254232834" MODIFIED="1537126448788" POSITION="right" TEXT="Tutoriale">
 <cloud COLOR="#ffcc00"/>
-<node CREATED="1537104141395" ID="ID_1449012645" MODIFIED="1537104165194" TEXT="machinelearningmastery.com">
+<node CREATED="1537104141395" ID="ID_1449012645" MODIFIED="1537167483134" TEXT="machinelearningmastery.com">
 <node CREATED="1537104170802" ID="ID_1870170993" LINK="https://machinelearningmastery.com/machine-learning-in-python-step-by-step/" MODIFIED="1537104222776" TEXT="Obr&#xf3;bka danych WE, tworzenie i por&#xf3;wnanie modelu,trening"/>
 <node CREATED="1537106804556" ID="ID_1361759728" LINK="https://machinelearningmastery.com/train-final-machine-learning-model/" MODIFIED="1537106830611" TEXT="Trening modelu"/>
 <node CREATED="1537104226493" ID="ID_218341857" LINK="https://machinelearningmastery.com/make-predictions-scikit-learn/" MODIFIED="1537106366025" TEXT="Tworzenie predykcji"/>
@@ -92,7 +92,9 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
 <node CREATED="1537125562369" ID="ID_393793003" LINK="https://www.kaggle.com/jchen2186/machine-learning-with-iris-dataset" MODIFIED="1537125594294" TEXT="Rozpoznawanie gatunk&#xf3;w IRIS"/>
 <node CREATED="1537125621442" ID="ID_1591120814" LINK="https://www.kaggle.com/enerrio/scikit-learn-ml-from-start-to-finish" MODIFIED="1537125635912" TEXT="Titanic"/>
 <node CREATED="1537129777196" ID="ID_204708334" LINK="https://www.kaggle.com/startupsci/titanic-data-science-solutions" MODIFIED="1537129816356" TEXT="Titanic - przygotowanie modelu - ci&#x105;g my&#x15b;lowy"/>
+<node CREATED="1537221362722" ID="ID_1055257074" LINK="https://www.kaggle.com/bhasha4995dushara/plotting-with-seaborn-ex-1" MODIFIED="1537221388332" TEXT="Przegl&#x105;d mo&#x17c;liwo&#x15b;cie Seaborn"/>
 </node>
+<node CREATED="1537220087259" ID="ID_430040135" MODIFIED="1537220094505" TEXT="https://www.datacamp.com"/>
 </node>
 <node CREATED="1537126457177" ID="ID_138049994" MODIFIED="1537126501888" POSITION="left" TEXT="Zbiory danych">
 <cloud COLOR="#ccffff"/>
