@@ -70,8 +70,7 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
       </blockquote>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1537080190167" ID="ID_703879907" LINK="https://www.pythonlikeyoumeanit.com/module_3.html" MODIFIED="1537080220045" TEXT="Modu&#x142; do oblicze&#x144; numerycznych NumPy"/>
 <node CREATED="1537080572644" ID="ID_879512837" LINK="https://www.pythonlikeyoumeanit.com/intro.html" MODIFIED="1537080622983" TEXT="pythonlikeyoumeanit - kompendium wiedzy o Pythonie i NumPy - Tutorial"/>
@@ -100,6 +99,76 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
 <cloud COLOR="#ccffff"/>
 <node CREATED="1537126468540" ID="ID_1186323848" LINK="https://www.kaggle.com/datasets" MODIFIED="1537126484510" TEXT="https://www.kaggle.com/datasets"/>
 <node CREATED="1537128486731" ID="ID_689208611" LINK="https://www.kaggle.com/c/titanic/data" MODIFIED="1537128502904" TEXT="Titanic"/>
+</node>
+<node CREATED="1537264218242" ID="ID_916888543" MODIFIED="1537265011540" POSITION="right" TEXT="Biblioteki">
+<cloud COLOR="#ccccff"/>
+<node CREATED="1537264227068" ID="ID_569257278" MODIFIED="1537264422969" TEXT="Wizualizacja danych">
+<node CREATED="1537264233499" ID="ID_1223580996" LINK="https://seaborn.pydata.org/tutorial.html" MODIFIED="1537264251216" TEXT="seaborn"/>
+<node CREATED="1537264422969" ID="ID_160232335" LINK="https://matplotlib.org/tutorials/index.html" MODIFIED="1537264437554" TEXT="matplotlib"/>
+</node>
+<node CREATED="1537264746416" ID="ID_757851962" MODIFIED="1537264750101" TEXT="Struktury danych">
+<node CREATED="1537264752433" ID="ID_884466558" LINK="https://pandas.pydata.org/" MODIFIED="1537264771785" TEXT="pandas"/>
+</node>
+<node CREATED="1537265011541" ID="ID_255410129" MODIFIED="1537265019103" TEXT="Biblioteki numeryczne">
+<node CREATED="1537265033980" ID="ID_1099353325" LINK="http://scikit-learn.org/stable/index.html" MODIFIED="1537265048635" TEXT="scikit-learn"/>
+<node CREATED="1537265088554" ID="ID_984656254" LINK="http://www.numpy.org/" MODIFIED="1537265106271" TEXT="numpy"/>
+<node CREATED="1537265148489" ID="ID_1690266914" LINK="https://www.scipy.org/" MODIFIED="1537265233817" TEXT="scipy">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ca&#322;y ekosystem:
+    </p>
+    <p>
+      NumPy
+    </p>
+    <p>
+      Pandas
+    </p>
+    <p>
+      Matplotlib
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      https://www.scipy.org/getting-started.html
+    </p>
+    <div class="section" id="what-are-numpy-scipy-matplotlib">
+      <h2>
+        What are NumPy, SciPy, matplotlib, &#8230;?<a class="headerlink" href="https://www.scipy.org/getting-started.html#what-are-numpy-scipy-matplotlib" title="Permalink to this headline">
+</a>      </h2>
+      <p>
+        SciPy and friends can be used for a variety of tasks:
+      </p>
+      <ul class="simple">
+        <li>
+          <em>NumPy</em>&#8217;s array type augments the Python language with an efficient data structure useful for numerical work, e.g., manipulating matrices. <em>NumPy</em>&#160;also provides basic numerical routines, such as tools for finding eigenvectors.
+        </li>
+        <li>
+          <em>SciPy</em>&#160;contains additional routines needed in scientific work: for example, routines for computing integrals numerically, solving differential equations, optimization, and sparse matrices.
+        </li>
+        <li>
+          The <a class="reference external" href="http://matplotlib.org/">matplotlib</a>&#160;module produces high quality plots. With it you can turn your data or your models into figures for presentations or articles. No need to do the numerical work in one program, save the data, and plot it with another program.
+        </li>
+        <li>
+          Using <a class="reference external" href="http://ipython.org/">IPython</a>&#160;makes interactive work easy. Data processing, exploration of numerical models, trying out operations on-the-fly allows to go quickly from an idea to a result. See the <a class="reference external" href="http://ipython.org/">IPython site</a>&#160; for many examples.
+        </li>
+        <li>
+          There is a sizeable collection of both generic and application-specific numerical and scientific code, written using Python, NumPy and SciPy. Don&#8217;t reinvent the wheel, there may already be a pre-made solution for your problem. See <a class="reference internal" href="https://www.scipy.org/topical-software.html">Topical Software</a>&#160; for a partial list.
+        </li>
+        <li>
+          As Python is a popular general-purpose programming language, it has many advanced modules for building for example interactive applications (see e.g. <a class="reference external" href="http://www.wxpython.org/">wxPython</a>&#160;and <a class="reference external" href="http://code.enthought.com/projects/traits/">Traits</a>) or web sites (see e.g. <a class="reference external" href="https://www.djangoproject.com/">Django</a>). Using SciPy with these is a quick way to build a fully-fledged scientific application.
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 </map>
