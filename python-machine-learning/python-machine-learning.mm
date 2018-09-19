@@ -94,6 +94,10 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
 <node CREATED="1537221362722" ID="ID_1055257074" LINK="https://www.kaggle.com/bhasha4995dushara/plotting-with-seaborn-ex-1" MODIFIED="1537221388332" TEXT="Przegl&#x105;d mo&#x17c;liwo&#x15b;cie Seaborn"/>
 </node>
 <node CREATED="1537220087259" ID="ID_430040135" MODIFIED="1537220094505" TEXT="https://www.datacamp.com"/>
+<node CREATED="1537392851490" ID="ID_269305331" LINK="https://elitedatascience.com" MODIFIED="1537393073899" TEXT="https://elitedatascience.com">
+<node CREATED="1537393001200" ID="ID_1443749702" LINK="https://elitedatascience.com/learn-statistics-for-data-science" MODIFIED="1537393189133" TEXT="https://elitedatascience.com/learn-statistics-for-data-science"/>
+<node CREATED="1537393017604" ID="ID_446748397" LINK="https://elitedatascience.com/python-seaborn-tutorial" MODIFIED="1537393115951" TEXT="https://elitedatascience.com/python-seaborn-tutorial"/>
+</node>
 </node>
 <node CREATED="1537126457177" ID="ID_138049994" MODIFIED="1537126501888" POSITION="left" TEXT="Zbiory danych">
 <cloud COLOR="#ccffff"/>
@@ -165,8 +169,7 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
       </ul>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
