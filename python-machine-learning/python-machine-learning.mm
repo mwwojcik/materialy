@@ -173,5 +173,55 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
 </node>
 </node>
 </node>
+<node CREATED="1537472524634" ID="ID_903931898" MODIFIED="1537472789209" POSITION="left" TEXT="Podstawowe poj&#x119;cia i definicje">
+<cloud COLOR="#99ff33"/>
+<node CREATED="1537472663175" ID="ID_126032317" MODIFIED="1537474481247" TEXT="Rodzaje system&#xf3;w uczenia maszynowego">
+<node CREATED="1537472679606" ID="ID_1866429816" MODIFIED="1537474048204" TEXT="Uczenie nadzorowane">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Dane ucz&#261;ce przekazywane&#160;&#160;algorytmowi zawieraj&#261; r&#243;wnie&#380; do&#322;&#261;czone rozwi&#261;zanie problemu, czyli etykiety.
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1537474023146" ID="ID_1618273359" MODIFIED="1537474033889" TEXT="k najbli&#x17c;szych s&#x105;siad&#xf3;w"/>
+<node CREATED="1537474038197" ID="ID_1482248806" MODIFIED="1537474043526" TEXT="regresja liniowa"/>
+<node CREATED="1537474048204" ID="ID_1484556178" MODIFIED="1537474054939" TEXT="regresja logistyczna"/>
+<node CREATED="1537474062656" ID="ID_1131122126" MODIFIED="1537474069814" TEXT="maszyny wektor&#xf3;w no&#x15b;nych"/>
+<node CREATED="1537474078399" ID="ID_987236096" MODIFIED="1537474082383" TEXT="drzewa decyzyjne"/>
+</node>
+<node CREATED="1537472696502" ID="ID_169541391" MODIFIED="1537472701245" TEXT="Uczenie nienadzorowane">
+<node CREATED="1537474147109" ID="ID_898229238" MODIFIED="1537474153672" TEXT="analiza skupie&#x144;">
+<node CREATED="1537474157037" ID="ID_1058228600" MODIFIED="1537474164350" TEXT="metoda k &#x15b;rednich"/>
+<node CREATED="1537474168714" ID="ID_1076892710" MODIFIED="1537474182090" TEXT="hierarchiczna analiza skupie&#x144;"/>
+<node CREATED="1537474185349" ID="ID_747993293" MODIFIED="1537474198476" TEXT="algorytm oczekiwanie -maksymalizacja"/>
+</node>
+<node CREATED="1537474202244" ID="ID_1707472949" MODIFIED="1537474213346" TEXT="wizualizacja i redukcja wymiarowo&#x15b;ci">
+<node CREATED="1537474222103" ID="ID_553316999" MODIFIED="1537474231151" TEXT="analiza g&#x142;&#xf3;wnych sk&#x142;adowych PCA"/>
+<node CREATED="1537474241818" ID="ID_791832850" MODIFIED="1537474251632" TEXT="j&#x105;drowa analiza g&#x142;&#xf3;wnych sk&#x142;adowych"/>
+<node CREATED="1537474255287" ID="ID_1622080494" MODIFIED="1537474266992" TEXT="lokalne liniowe zanurzanie"/>
+</node>
+<node CREATED="1537474289990" ID="ID_705519122" MODIFIED="1537474323446" TEXT="uczenie przy pomocy regu&#x142; asocjacyjnych">
+<node CREATED="1537474311835" ID="ID_1027774574" MODIFIED="1537474319711" TEXT="algorytm Apriori"/>
+<node CREATED="1537474323446" ID="ID_394576326" MODIFIED="1537474329916" TEXT="algorytm Eclat"/>
+</node>
+</node>
+<node CREATED="1537472718833" ID="ID_598806205" MODIFIED="1537472728342" TEXT="Uczenie p&#xf3;&#x142;nadzorowane"/>
+<node CREATED="1537474370635" ID="ID_1624110116" MODIFIED="1537474392510" TEXT="Uczenie przez wzmacnianie"/>
+<node CREATED="1537472745544" ID="ID_906364731" MODIFIED="1537472749954" TEXT="Uczenie wsadowe"/>
+<node CREATED="1537472756862" ID="ID_34410193" MODIFIED="1537472761255" TEXT="Uczenie przyrostowe"/>
+</node>
+<node CREATED="1537474510048" ID="ID_630640525" MODIFIED="1537474527348" TEXT="Rodzaje sytem&#xf3;w uczenia ze wzgl&#x119;du na rodzaj uog&#xf3;lniania">
+<node CREATED="1537474530181" ID="ID_1671898636" MODIFIED="1537474543746" TEXT="Uzenie z przyk&#x142;ad&#xf3;w"/>
+<node CREATED="1537474547589" ID="ID_562937529" MODIFIED="1537474550840" TEXT="Uczenie z modelu"/>
+</node>
+</node>
 </node>
 </map>
