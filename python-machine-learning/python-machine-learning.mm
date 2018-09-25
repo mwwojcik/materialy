@@ -107,7 +107,9 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
 <node CREATED="1537264218242" ID="ID_916888543" MODIFIED="1537265011540" POSITION="right" TEXT="Biblioteki">
 <cloud COLOR="#ccccff"/>
 <node CREATED="1537264227068" ID="ID_569257278" MODIFIED="1537264422969" TEXT="Wizualizacja danych">
-<node CREATED="1537264233499" ID="ID_1223580996" LINK="https://seaborn.pydata.org/tutorial.html" MODIFIED="1537264251216" TEXT="seaborn"/>
+<node CREATED="1537264233499" ID="ID_1223580996" LINK="https://seaborn.pydata.org/tutorial.html" MODIFIED="1537264251216" TEXT="seaborn">
+<node CREATED="1537906313439" ID="ID_179702431" LINK="https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html" MODIFIED="1537906335853" TEXT="https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html"/>
+</node>
 <node CREATED="1537264422969" ID="ID_160232335" LINK="https://matplotlib.org/tutorials/index.html" MODIFIED="1537264437554" TEXT="matplotlib"/>
 </node>
 <node CREATED="1537264746416" ID="ID_757851962" MODIFIED="1537264750101" TEXT="Struktury danych">
@@ -189,8 +191,7 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1537474023146" ID="ID_1618273359" MODIFIED="1537474033889" TEXT="k najbli&#x17c;szych s&#x105;siad&#xf3;w"/>
 <node CREATED="1537474038197" ID="ID_1482248806" MODIFIED="1537474043526" TEXT="regresja liniowa"/>
 <node CREATED="1537474048204" ID="ID_1484556178" MODIFIED="1537474054939" TEXT="regresja logistyczna"/>
