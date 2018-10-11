@@ -104,13 +104,16 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
 <node CREATED="1537126468540" ID="ID_1186323848" LINK="https://www.kaggle.com/datasets" MODIFIED="1537126484510" TEXT="https://www.kaggle.com/datasets"/>
 <node CREATED="1537128486731" ID="ID_689208611" LINK="https://www.kaggle.com/c/titanic/data" MODIFIED="1537128502904" TEXT="Titanic"/>
 </node>
-<node CREATED="1537264218242" ID="ID_916888543" MODIFIED="1537265011540" POSITION="right" TEXT="Biblioteki">
+<node CREATED="1537264218242" ID="ID_916888543" MODIFIED="1539290443924" POSITION="right" TEXT="Biblioteki">
 <cloud COLOR="#ccccff"/>
 <node CREATED="1537264227068" ID="ID_569257278" MODIFIED="1537264422969" TEXT="Wizualizacja danych">
-<node CREATED="1537264233499" ID="ID_1223580996" LINK="https://seaborn.pydata.org/tutorial.html" MODIFIED="1537264251216" TEXT="seaborn">
+<node CREATED="1537264233499" ID="ID_1223580996" LINK="https://seaborn.pydata.org/tutorial.html" MODIFIED="1537996373003" TEXT="seaborn">
 <node CREATED="1537906313439" ID="ID_179702431" LINK="https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html" MODIFIED="1537906335853" TEXT="https://jakevdp.github.io/PythonDataScienceHandbook/04.14-visualization-with-seaborn.html"/>
+<node CREATED="1537996373003" ID="ID_1226825100" LINK="https://www.datacamp.com/community/tutorials/seaborn-python-tutorial" MODIFIED="1537996386253" TEXT="https://www.datacamp.com/community/tutorials/seaborn-python-tutorial"/>
 </node>
-<node CREATED="1537264422969" ID="ID_160232335" LINK="https://matplotlib.org/tutorials/index.html" MODIFIED="1537264437554" TEXT="matplotlib"/>
+<node CREATED="1537264422969" ID="ID_160232335" LINK="https://matplotlib.org/tutorials/index.html" MODIFIED="1537264437554" TEXT="matplotlib">
+<node CREATED="1539290595901" ID="ID_1226578785" LINK="https://stackoverflow.com/questions/49428588/draw-node-shape-and-node-color-by-attribute" MODIFIED="1539290609865" TEXT="Kolorowanie w&#x119;z&#x142;&#xf3;w"/>
+</node>
 </node>
 <node CREATED="1537264746416" ID="ID_757851962" MODIFIED="1537264750101" TEXT="Struktury danych">
 <node CREATED="1537264752433" ID="ID_884466558" LINK="https://pandas.pydata.org/" MODIFIED="1537264771785" TEXT="pandas"/>
@@ -173,6 +176,9 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
   </body>
 </html></richcontent>
 </node>
+</node>
+<node CREATED="1539290443924" ID="ID_1688952549" LINK="https://jira.readthedocs.io/en/master/" MODIFIED="1539290533960" TEXT="jira-python">
+<node CREATED="1539290481877" ID="ID_278532220" LINK="https://community.atlassian.com/t5/Jira-questions/In-jira-python-what-should-be-the-tuple-of-crt-and-key-when-do/qaq-p/281774" MODIFIED="1539290494074" TEXT="client-cert"/>
 </node>
 </node>
 <node CREATED="1537472524634" ID="ID_903931898" MODIFIED="1537472789209" POSITION="left" TEXT="Podstawowe poj&#x119;cia i definicje">
