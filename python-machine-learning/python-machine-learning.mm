@@ -92,6 +92,7 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
 <node CREATED="1537125621442" ID="ID_1591120814" LINK="https://www.kaggle.com/enerrio/scikit-learn-ml-from-start-to-finish" MODIFIED="1537125635912" TEXT="Titanic"/>
 <node CREATED="1537129777196" ID="ID_204708334" LINK="https://www.kaggle.com/startupsci/titanic-data-science-solutions" MODIFIED="1537129816356" TEXT="Titanic - przygotowanie modelu - ci&#x105;g my&#x15b;lowy"/>
 <node CREATED="1537221362722" ID="ID_1055257074" LINK="https://www.kaggle.com/bhasha4995dushara/plotting-with-seaborn-ex-1" MODIFIED="1537221388332" TEXT="Przegl&#x105;d mo&#x17c;liwo&#x15b;cie Seaborn"/>
+<node CREATED="1538031392524" ID="ID_868452524" LINK="https://www.kaggle.com/learn/overview" MODIFIED="1538031403065" TEXT="https://www.kaggle.com/learn/overview"/>
 </node>
 <node CREATED="1537220087259" ID="ID_430040135" MODIFIED="1537220094505" TEXT="https://www.datacamp.com"/>
 <node CREATED="1537392851490" ID="ID_269305331" LINK="https://elitedatascience.com" MODIFIED="1537393073899" TEXT="https://elitedatascience.com">
@@ -173,6 +174,7 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1539242461791" ID="ID_35391444" LINK="https://networkx.github.io/" MODIFIED="1539242514834" TEXT="grafy"/>
 </node>
 </node>
 <node CREATED="1537472524634" ID="ID_903931898" MODIFIED="1537472789209" POSITION="left" TEXT="Podstawowe poj&#x119;cia i definicje">

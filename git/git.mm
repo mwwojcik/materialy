@@ -1305,16 +1305,33 @@ https://stackoverflow.com/questions/4811434/clone-only-one-branch?utm_medium=org
       &#160;git status --short -uno |wc -l
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1535456008011" ID="ID_1290428286" MODIFIED="1535456038933" TEXT="Wy&#x15b;wietlanie listy plik&#xf3;w wys&#x142;anych w danym commicie">
+<node CREATED="1535456008011" ID="ID_1290428286" MODIFIED="1537884251785" TEXT="Wy&#x15b;wietlanie listy plik&#xf3;w wys&#x142;anych w danym commicie">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     git show --name-only &lt;changeset&gt;
+
+    <p>
+      
+    </p>
+    <pre><code>git whatchanged -1 --format=oneline | wc -l</code></pre>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1537884240802" ID="ID_788840859" MODIFIED="1537884240802" TEXT=""/>
+<node CREATED="1548420407003" ID="ID_1968301525" LINK="https://labs.consol.de/development/git/2017/02/22/gitignore.html" MODIFIED="1548420444391" TEXT=".gitignore - instrukcja poprawnego u&#x17c;ycia">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://labs.consol.de/development/git/2017/02/22/gitignore.html
+    </p>
   </body>
 </html>
 </richcontent>
@@ -2290,6 +2307,28 @@ git merge -X theirs branchB</code></pre>
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1538038629763" ID="ID_1448705899" MODIFIED="1538038647955" TEXT="Reset brancha to aktualnego stanu origin">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><code>git checkout mybranch
+git reset --hard origin/mybranch</code></pre>
+  </body>
+</html></richcontent>
 </node>
+<node CREATED="1540463693638" ID="ID_364610215" MODIFIED="1540463715009" TEXT="Merge ze strategia nadpisywania zmian zdalnych">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><code>git merge -s recursive -X theirs origin/master</code></pre>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1548770118281" ID="ID_796495209" LINK="https://www.base64decode.org/" MODIFIED="1548770142231" POSITION="right" TEXT="Base64 encoder/decoder"/>
 </node>
 </map>
