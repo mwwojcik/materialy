@@ -33,8 +33,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1549230118421" ID="ID_1814410539" MODIFIED="1549230169605" TEXT="Z dost&#x119;pem do klasy nadrz&#x119;dnej - tylko je&#x15b;li zostanie opatrzona s&#x142;owem kluczowym inner, dost&#x119;p w notacji this@KlasaNadrzedna"/>
 <node CREATED="1549230223708" ID="ID_509291213" MODIFIED="1549230240565" TEXT="Bez dost&#x119;pu do klasy zewn&#x119;trznej (bez s&#x142;owa inner)"/>
 <node CREATED="1549230283841" ID="ID_1612786831" MODIFIED="1549230325906" TEXT="Klasy zapiecz&#x119;towanie - s&#x142;owo kluczowe sealed - wszystkie klasy wewn&#x119;trzne musz&#x105; by&#x107; klasami wewn&#x119;trznymi"/>
@@ -107,8 +106,7 @@
       class A private constructor(){}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1549230895058" ID="ID_611071147" MODIFIED="1549230946608" TEXT="Konstruktory dodatkowe">
 <richcontent TYPE="NOTE"><html>
@@ -135,8 +133,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1549231093965" ID="ID_1903371528" MODIFIED="1549231107111" TEXT="Odczyt zapis w&#x142;asno&#x15b;ci">
@@ -159,8 +156,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1549231232689" ID="ID_857009176" MODIFIED="1549231293627" TEXT="Klasy danych - s&#x142;owo kluczowe data przy deklaracji klasy - kompilator automatycznie generuje equals(), hashCode() i copy() dla takiego obiektu"/>
@@ -201,8 +197,7 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1549232522850" ID="ID_281494904" MODIFIED="1549232552441" TEXT="object - zdefiniowanie klasy z jednoczesnym utworzeniem instancji">
 <node CREATED="1549232554345" ID="ID_755078060" MODIFIED="1549233036192" TEXT="Singleton">
@@ -248,8 +243,7 @@
       UWAGA! mechanizm ten mo&#380;na wykorzystywa&#263; do tworzenia komparator&#243;w.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1549232560654" ID="ID_821168261" MODIFIED="1549233601566" TEXT="Obiekty towarzysz&#x105;ce (companion) - wzorzec metoda fabrykuj&#x105;ca">
 <richcontent TYPE="NOTE"><html>
@@ -300,10 +294,299 @@
       Jest to dobre miejsce do realizacji wzorca metoda fabrykuj&#261;ca
     </p>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1549232567150" ID="ID_1460795202" MODIFIED="1549232583301" TEXT="Odpowiedniki klas anonimowych Java"/>
+</node>
+</node>
+<node CREATED="1549308116235" ID="ID_880156859" MODIFIED="1549319755612" POSITION="left" TEXT="Typy danych">
+<cloud/>
+<node CREATED="1549318167642" ID="ID_1108792429" MODIFIED="1549318174009" TEXT="Operatory bezpieczne">
+<node CREATED="1549308128671" ID="ID_1391866889" MODIFIED="1549318178617" TEXT="Typy zerowalne">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Kotlin wymusza jawne okre&#347;lenie kt&#243;re zmienne/w&#322;asno&#347;ci/parametry mog&#261; przyj&#261;&#263; warto&#347;&#263; null.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Oznaczenie atrybutu zerowalnego to znak &quot;?&quot; wyst&#281;puj&#261;cy po nazwie typu.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      String?,Int?, DowolnyObiekt?
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      fun mojaFunkcja(s:String?)=s.length() =&gt; b&#322;&#261;d bo wywo&#322;anie mog&#322;oby sko&#324;czy&#263; si&#281; NullPointerException
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      fun mojaFunkcja(s:String)=s.length() =&gt; OK, bo s nie mo&#380;e by&#263; nullem
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1549310282122" ID="ID_363602419" MODIFIED="1549310582499" TEXT="&quot;?.&quot; - operator bezpiecznego wywo&#x142;ania">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      s?.toUpperCase() jest r&#243;wnoznaczne
+    </p>
+    <p>
+      &#160;if(s!=null){
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;s.toUpperCase()
+    </p>
+    <p>
+      &#160;&#160;} else
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;null
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Wynik takiego wyra&#380;enia jest zerowalny .
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Operator ten pozwala odwo&#322;ywa&#263; si&#281; do zagnie&#380;d&#380;onej struktury obiekt&#243;w
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      osoba?.miejscePracy.?adres.?ulica
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1549310729879" ID="ID_1850040035" MODIFIED="1549311099653" TEXT="&quot;?:&quot; - operator Elvisa">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      fun mojaFunkcja(s:String?){
+    </p>
+    <p>
+      &#160;val p:String=s?:&quot;&quot;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Operator Elvisa pozwala przypisa&#263; warto&#347;&#263; je&#347;li ona nienullowa, lub warto&#347;&#263; domy&#347;ln&#261; w przeciwnym razie.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Uwaga! Operator Elvisa dobrze &#322;&#261;czy si&#281; z operatorem bezpieczengo wywo&#322;ania.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Je&#347;li ten pierwszy zwr&#243;ci null, to zwracamy warto&#347;&#263; bezpieczn&#261;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      s<b>?.</b>length <b>?:</b>&#160;0 =&gt; je&#347;li s jest r&#243;wne null, to zwr&#243;&#263; 0 (a nie null, jak wynika z operatora bezp. wywo&#322;ania)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      fun Osoba.nazwaKraju()=firma?.adres?.kraj ?: &quot;Nieznany&quot;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      :? throw new IllegalArgumentException(&quot;Brak warto&#347;ci&quot;)=&gt; OK
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1549311117642" ID="ID_1391005880" MODIFIED="1549318178639" TEXT="&quot;as?&quot; - bezpieczne rzutowanie typ&#xf3;w">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Operator bezpiecznego rzutowania. Pr&#243;buje zrzutowa&#263; zmienn&#261; do zadanego typu a je&#347;li si&#281; nie uda, zwraca null
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      fun rzutuj(os:Any?):Boolean{
+    </p>
+    <p>
+      &#160;&#160;val drugaOsoba=os as? Osoba ?: return false
+    </p>
+    <p>
+      &#160;
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      W powy&#380;szym przyk&#322;adzie sprawdzane jest czy os jest odpowiedniego typu, wykonywane jest rzutowanie, a je&#347;li si&#281; nie uda zwracany jest null.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1549311419078" ID="ID_1024555774" MODIFIED="1549311595700" TEXT="&quot;!!&quot; - asercja niezerowa">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Pozwala na przekszta&#322;cenie typu zerowalnego w niezerowalny.
+    </p>
+    <p>
+      <br />
+      fun ignorujNull(s:String?){
+    </p>
+    <p>
+      &#160;&#160;val sNotNull:String=s!!
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Je&#347;li argument b&#281;dzie r&#243;wny null, zg&#322;oszony zostanie wyj&#261;tek.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1549311724618" ID="ID_53221552" MODIFIED="1549312145449" TEXT="&quot;let()&quot; - pozwala na umieszczenie zerowalnych zmiennych w niezerowalnych strybutach metod">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ol>
+      <li>
+        Funkcja z niezerowalnym parametrem email<br /><br />fun wyslijEmail(email:String){//wyslij}<br /><br />val email:String?=&quot;&quot;<br /><br />Funkcja let() zamienia obiekt, na rzecz kt&#243;rego jest wywo&#322;ywana na argument wyra&#380;enia lambda.<br /><br />email.?let{email-&gt;wyslijEmail(email)} - funkcja wyslijEmail() zostanie wywo&#322;ana tylko wtedy gdy email b&#281;dzie inny ni&#380; null.<br /><br />email?.let{wyslijEmail(it)} -&gt; po uproszczeniu i zastosowaniu zmiennej kontekstowej it<br />
+      </li>
+    </ol>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1549312254106" ID="ID_828700045" MODIFIED="1549317982693" TEXT="&quot;lateinit&quot; - w&#x142;a&#x15b;ciwo&#x15b;&#x107; inicjowana z op&#xf3;&#x17a;nieniem">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      W&#322;asno&#347;&#263; kt&#243;ra jest inicjalizowana poza konstruktorem (np w metodach typu PostConstruct).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Taka zmienna jest deklarowana s&#322;owem kluczowym var.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Je&#347;li zostanie zarejstrowane odwo&#322;anie do tej zmiennej przed jej inicjalizacj&#261; wtedy zostanie zg&#322;oszony b&#322;&#261;d braku inicjalizacji.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1549318188573" ID="ID_304511395" MODIFIED="1549318217694" TEXT="Wszystkie argumenty typowane funkcji i klas s&#x105; domy&#x15b;lnie typowalne"/>
+<node CREATED="1549319755613" ID="ID_942034489" MODIFIED="1549319761940" TEXT="Typy danych">
+<node CREATED="1549319764910" ID="ID_180125050" MODIFIED="1549319776365" TEXT="Liczby ca&#x142;kowite">
+<node CREATED="1549319778025" ID="ID_1566202219" MODIFIED="1549319782741" TEXT="Byte"/>
+<node CREATED="1549319786147" ID="ID_1007494368" MODIFIED="1549319787995" TEXT="Short"/>
+<node CREATED="1549319792125" ID="ID_801411262" MODIFIED="1549319793917" TEXT="Int"/>
+<node CREATED="1549319796272" ID="ID_1428176417" MODIFIED="1549319799287" TEXT="Long"/>
+</node>
+<node CREATED="1549319800556" ID="ID_1765530926" MODIFIED="1549319809801" TEXT="Liczby zmiennoprzecinkowe">
+<node CREATED="1549319810931" ID="ID_1429682043" MODIFIED="1549319813529" TEXT="Float"/>
+<node CREATED="1549319815653" ID="ID_412198177" MODIFIED="1549319819396" TEXT="Double"/>
+</node>
+<node CREATED="1549319821924" ID="ID_795690168" MODIFIED="1549319828060" TEXT="Typ znakowy">
+<node CREATED="1549319829141" ID="ID_1597484204" MODIFIED="1549319830207" TEXT="Char"/>
+</node>
+<node CREATED="1549319832853" ID="ID_855961406" MODIFIED="1549319837607" TEXT="Typ logiczny">
+<node CREATED="1549319838498" ID="ID_725192150" MODIFIED="1549319841192" TEXT="Boolean"/>
+</node>
+<node CREATED="1549319916685" ID="ID_7249515" MODIFIED="1549319929941" TEXT="Typ Any">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Odpowiednik java.lang.Object
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
-<node CREATED="1549232567150" ID="ID_1460795202" MODIFIED="1549232583301" TEXT="Odpowiedniki klas anonimowych Java"/>
+<node CREATED="1549319931042" ID="ID_35654413" MODIFIED="1549319949098" TEXT="Typ Unit">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Odpowiada javowemu &quot;void&quot;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
