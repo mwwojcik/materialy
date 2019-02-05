@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node CREATED="1549229151566" ID="ID_404393869" MODIFIED="1549229495996" TEXT="      Kotlin     ">
+<node CREATED="1549229151566" ID="ID_404393869" MODIFIED="1549357465162" TEXT="      Kotlin     ">
 <font NAME="SansSerif" SIZE="18"/>
 <node CREATED="1549229226843" ID="ID_1029108997" MODIFIED="1549232522849" POSITION="right" TEXT="Klasy i obiekty">
 <cloud/>
@@ -571,8 +571,7 @@
       Odpowiednik java.lang.Object
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1549319931042" ID="ID_35654413" MODIFIED="1549319949098" TEXT="Typ Unit">
 <richcontent TYPE="NOTE"><html>
@@ -584,9 +583,33 @@
       Odpowiada javowemu &quot;void&quot;
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1549357467394" ID="ID_1087613588" MODIFIED="1549357853031" POSITION="right" TEXT=" Kotlin DSL">
+<cloud/>
+<node CREATED="1549357475342" ID="ID_183015515" MODIFIED="1549357803250" TEXT="&#x179;r&#xf3;d&#x142;a">
+<node CREATED="1549357560109" ID="ID_37354530" LINK="https://stevenwilliamalexander.wordpress.com/2015/03/11/antlr-based-rules-evaluator/" MODIFIED="1549366321613" TEXT="Steven Alexander  ANTLR based rules evaluator">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#377;r&#243;d&#322;a:
+    </p>
+    <p>
+      https://github.com/stevenalexander/rules-evaluator
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
+<node CREATED="1549357803251" ID="ID_1871859265" LINK="https://tomassetti.me/antlr-mega-tutorial/" MODIFIED="1549357817350" TEXT="The ANTLR Mega Tutorial"/>
+<node CREATED="1549357830201" ID="ID_981523300" LINK="https://modeling-languages.com/building-languages-kotlin/" MODIFIED="1549357846228" TEXT="Building Languages on a budget using Kotlin"/>
+<node CREATED="1549359286521" ID="ID_301051168" LINK="https://dzone.com/articles/creating-an-editor-with-syntax-highlighting-using" MODIFIED="1549359301530" TEXT="Creating an Editor with Syntax Highlighting Using ANTLR and Kotlin"/>
+<node CREATED="1549359390101" ID="ID_1512162610" LINK="https://martinfowler.com/bliki/RulesEngine.html" MODIFIED="1549359549159" TEXT="Should I use Rules Engine - Martin Fowler"/>
 </node>
 </node>
 </node>
