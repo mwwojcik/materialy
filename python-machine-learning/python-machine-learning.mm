@@ -232,5 +232,20 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
 <node CREATED="1537474547589" ID="ID_562937529" MODIFIED="1537474550840" TEXT="Uczenie z modelu"/>
 </node>
 </node>
+<node CREATED="1550500697821" ID="ID_253863430" MODIFIED="1550500787346" POSITION="right" TEXT="NLP">
+<cloud COLOR="#ccffcc"/>
+<node CREATED="1550500720516" ID="ID_1814846753" MODIFIED="1550500757198" TEXT="Polskie zasoby">
+<node CREATED="1550500728043" ID="ID_225284684" LINK="https://ermlab.com/en/blog/nlp/polish-sentiment-analysis-using-keras-and-word2vec/" MODIFIED="1550500742864" TEXT="https://ermlab.com/en/blog/nlp/polish-sentiment-analysis-using-keras-and-word2vec/"/>
+<node CREATED="1550500757198" ID="ID_999118026" LINK="https://github.com/sdadas/polish-nlp-resources" MODIFIED="1550500768874" TEXT="https://github.com/sdadas/polish-nlp-resources"/>
+</node>
+<node CREATED="1550501834996" ID="ID_356273855" MODIFIED="1550501842689" TEXT="Opennlp">
+<node CREATED="1550501844652" ID="ID_893803388" LINK="https://stackoverflow.com/questions/37829542/how-to-train-tokenizer-in-opennlp" MODIFIED="1550501857757" TEXT="https://stackoverflow.com/questions/37829542/how-to-train-tokenizer-in-opennlp"/>
+<node CREATED="1550501918634" ID="ID_437135432" LINK="https://codeburst.io/nlp-implementation-using-java-opennlp-guide-and-examples-80d86b02b5b5" MODIFIED="1550501927151" TEXT="https://codeburst.io/nlp-implementation-using-java-opennlp-guide-and-examples-80d86b02b5b5"/>
+<node CREATED="1550501977258" ID="ID_1796813925" LINK="https://www.tutorialkart.com/opennlp/apache-opennlp-tutorial/" MODIFIED="1550501989320" TEXT="https://www.tutorialkart.com/opennlp/apache-opennlp-tutorial/">
+<arrowlink DESTINATION="ID_1796813925" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_171118207" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1796813925" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_171118207" SOURCE="ID_1796813925" STARTARROW="None" STARTINCLINATION="0;0;"/>
+</node>
+</node>
+</node>
 </node>
 </map>
