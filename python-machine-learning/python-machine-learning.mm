@@ -237,6 +237,7 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
 <node CREATED="1550500720516" ID="ID_1814846753" MODIFIED="1550500757198" TEXT="Polskie zasoby">
 <node CREATED="1550500728043" ID="ID_225284684" LINK="https://ermlab.com/en/blog/nlp/polish-sentiment-analysis-using-keras-and-word2vec/" MODIFIED="1550500742864" TEXT="https://ermlab.com/en/blog/nlp/polish-sentiment-analysis-using-keras-and-word2vec/"/>
 <node CREATED="1550500757198" ID="ID_999118026" LINK="https://github.com/sdadas/polish-nlp-resources" MODIFIED="1550500768874" TEXT="https://github.com/sdadas/polish-nlp-resources"/>
+<node CREATED="1550502855040" ID="ID_1024035160" LINK="https://github.com/lkobylinski" MODIFIED="1550502866360" TEXT="https://github.com/lkobylinski"/>
 </node>
 <node CREATED="1550501834996" ID="ID_356273855" MODIFIED="1550501842689" TEXT="Opennlp">
 <node CREATED="1550501844652" ID="ID_893803388" LINK="https://stackoverflow.com/questions/37829542/how-to-train-tokenizer-in-opennlp" MODIFIED="1550501857757" TEXT="https://stackoverflow.com/questions/37829542/how-to-train-tokenizer-in-opennlp"/>
