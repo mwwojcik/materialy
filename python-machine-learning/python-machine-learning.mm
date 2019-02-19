@@ -238,15 +238,27 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
 <node CREATED="1550500728043" ID="ID_225284684" LINK="https://ermlab.com/en/blog/nlp/polish-sentiment-analysis-using-keras-and-word2vec/" MODIFIED="1550500742864" TEXT="https://ermlab.com/en/blog/nlp/polish-sentiment-analysis-using-keras-and-word2vec/"/>
 <node CREATED="1550500757198" ID="ID_999118026" LINK="https://github.com/sdadas/polish-nlp-resources" MODIFIED="1550500768874" TEXT="https://github.com/sdadas/polish-nlp-resources"/>
 <node CREATED="1550502855040" ID="ID_1024035160" LINK="https://github.com/lkobylinski" MODIFIED="1550502866360" TEXT="https://github.com/lkobylinski"/>
+<node CREATED="1550587084368" ID="ID_699031179" LINK="http://namiekko.pl/2017/04/10/nlp-w-pigulce/" MODIFIED="1550587097048" TEXT="http://namiekko.pl/2017/04/10/nlp-w-pigulce/"/>
 </node>
-<node CREATED="1550501834996" ID="ID_356273855" MODIFIED="1550501842689" TEXT="Opennlp">
+<node CREATED="1550501834996" ID="ID_356273855" MODIFIED="1550586921031" TEXT="Opennlp">
 <node CREATED="1550501844652" ID="ID_893803388" LINK="https://stackoverflow.com/questions/37829542/how-to-train-tokenizer-in-opennlp" MODIFIED="1550501857757" TEXT="https://stackoverflow.com/questions/37829542/how-to-train-tokenizer-in-opennlp"/>
 <node CREATED="1550501918634" ID="ID_437135432" LINK="https://codeburst.io/nlp-implementation-using-java-opennlp-guide-and-examples-80d86b02b5b5" MODIFIED="1550501927151" TEXT="https://codeburst.io/nlp-implementation-using-java-opennlp-guide-and-examples-80d86b02b5b5"/>
 <node CREATED="1550501977258" ID="ID_1796813925" LINK="https://www.tutorialkart.com/opennlp/apache-opennlp-tutorial/" MODIFIED="1550501989320" TEXT="https://www.tutorialkart.com/opennlp/apache-opennlp-tutorial/">
 <arrowlink DESTINATION="ID_1796813925" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_171118207" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1796813925" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_171118207" SOURCE="ID_1796813925" STARTARROW="None" STARTINCLINATION="0;0;"/>
 </node>
+<node CREATED="1550569881605" ID="ID_150386592" LINK="https://codeburst.io/nlp-implementation-using-java-opennlp-guide-and-examples-80d86b02b5b5" MODIFIED="1550569892164" TEXT="https://codeburst.io/nlp-implementation-using-java-opennlp-guide-and-examples-80d86b02b5b5"/>
+<node CREATED="1550570421524" ID="ID_1353646626" LINK="https://www.wisdomjobs.com/e-university/opennlp-tutorial-1746/opennlp-tokenization-25588.html" MODIFIED="1550570431509" TEXT="https://www.wisdomjobs.com/e-university/opennlp-tutorial-1746/opennlp-tokenization-25588.html"/>
+<node CREATED="1550572285625" ID="ID_635664731" LINK="https://fahadusman.com/opennlp-custom-model-training/" MODIFIED="1550572298032" TEXT="https://fahadusman.com/opennlp-custom-model-training"/>
+<node CREATED="1550572407832" ID="ID_1226616249" LINK="https://stackoverflow.com/questions/17963972/how-to-create-custom-model-using-opennlp" MODIFIED="1550572429074" TEXT="https://stackoverflow.com/questions/17963972/how-to-create-custom-model-using-opennlp"/>
+<node CREATED="1550584308919" ID="ID_1602010169" LINK="https://svn.apache.org/repos/asf/opennlp/tags/asf_migration/opennlp-docs/Tokenizer.wiki" MODIFIED="1550584317312" TEXT="https://svn.apache.org/repos/asf/opennlp/tags/asf_migration/opennlp-docs/Tokenizer.wiki"/>
+<node CREATED="1550586921031" ID="ID_1920965575" LINK="https://self-learning-java-tutorial.blogspot.com/2015/10/opennlp-tokenizer-training.html" MODIFIED="1550586934225" TEXT="https://self-learning-java-tutorial.blogspot.com/2015/10/opennlp-tokenizer-training.html"/>
 </node>
+</node>
+<node CREATED="1550567202032" ID="ID_1258085364" MODIFIED="1550567262368" POSITION="left" TEXT="Kursy i szkolenia">
+<cloud COLOR="#99ff99"/>
+<node CREATED="1550567217271" ID="ID_435259625" LINK="https://www.coursera.org/learn/machine-learning" MODIFIED="1550567226585" TEXT="https://www.coursera.org/learn/machine-learning"/>
+<node CREATED="1550567332167" ID="ID_1273356407" LINK="https://digitaldefynd.com/7-best-machine-learning-training-certifications/" MODIFIED="1550567339988" TEXT="https://digitaldefynd.com/7-best-machine-learning-training-certifications/"/>
 </node>
 </node>
 </map>
