@@ -253,6 +253,7 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
 <node CREATED="1550572407832" ID="ID_1226616249" LINK="https://stackoverflow.com/questions/17963972/how-to-create-custom-model-using-opennlp" MODIFIED="1550572429074" TEXT="https://stackoverflow.com/questions/17963972/how-to-create-custom-model-using-opennlp"/>
 <node CREATED="1550584308919" ID="ID_1602010169" LINK="https://svn.apache.org/repos/asf/opennlp/tags/asf_migration/opennlp-docs/Tokenizer.wiki" MODIFIED="1550584317312" TEXT="https://svn.apache.org/repos/asf/opennlp/tags/asf_migration/opennlp-docs/Tokenizer.wiki"/>
 <node CREATED="1550586921031" ID="ID_1920965575" LINK="https://self-learning-java-tutorial.blogspot.com/2015/10/opennlp-tokenizer-training.html" MODIFIED="1550586934225" TEXT="https://self-learning-java-tutorial.blogspot.com/2015/10/opennlp-tokenizer-training.html"/>
+<node CREATED="1550670183812" ID="ID_1650975554" LINK="https://thetokenizer.com/tag/opennlp/" MODIFIED="1550670195237" TEXT="https://thetokenizer.com/tag/opennlp/"/>
 </node>
 </node>
 <node CREATED="1550567202032" ID="ID_1258085364" MODIFIED="1550567262368" POSITION="left" TEXT="Kursy i szkolenia">
