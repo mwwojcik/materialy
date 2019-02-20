@@ -2,8 +2,8 @@
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
 <node CREATED="1549229151566" ID="ID_404393869" MODIFIED="1549357465162" TEXT="      Kotlin     ">
 <font NAME="SansSerif" SIZE="18"/>
-<node CREATED="1549229226843" ID="ID_1029108997" MODIFIED="1549232522849" POSITION="right" TEXT="Klasy i obiekty">
-<cloud/>
+<node CREATED="1549229226843" ID="ID_1029108997" MODIFIED="1549393867954" POSITION="right" TEXT="Klasy i obiekty">
+<cloud COLOR="#f0f0f0"/>
 <node CREATED="1549229502445" ID="ID_1157169982" MODIFIED="1549229554726" TEXT="Modyfikatory">
 <node CREATED="1549229556321" ID="ID_804432089" MODIFIED="1549229693848" TEXT="open - (klasa, metoda, w&#x142;asno&#x15b;&#x107;) mo&#x17c;e zosta&#x107; nadpisana w klasach pochodnych (a klasa mo&#x17c;e by&#x107; dziedziczona) - bez modyfikatora domy&#x15b;lnie elementy s&#x105; zamkni&#x119;te"/>
 <node CREATED="1549229727403" ID="ID_1078002572" MODIFIED="1549229747352" TEXT="abstract - podobnie jak w java (abstract jest domy&#x15b;lnie open)"/>
@@ -586,6 +586,41 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1549394124257" ID="ID_1168909923" MODIFIED="1549394228760" TEXT="Kolekcje">
+<node CREATED="1549394134301" ID="ID_1265464276" MODIFIED="1549394138902" TEXT="Zerowalno&#x15b;&#x107;">
+<node CREATED="1549394141770" ID="ID_733881622" MODIFIED="1549394180485" TEXT="Zerowalny pojedynczy element List&lt;Int?&gt;"/>
+<node CREATED="1549394150455" ID="ID_1772674251" MODIFIED="1549394165006" TEXT="Zerowalna ca&#x142;a tablica List&lt;Int&gt;?"/>
+</node>
+<node CREATED="1549394216121" ID="ID_1418871988" MODIFIED="1549394342393" TEXT="Kolekcje tylko do odczytu- kotlin.collections.Collection">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Interfejs kotlin.collections.Collection - oferuje metody do przegl&#261;dania, ale nie pozwala na modyfikacje
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1549394346225" ID="ID_13212645" MODIFIED="1549394596736" TEXT="Kolekcje mutowalne - kotlin.collections.MutableCollection">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Dziedziczy z interfejsu Collection i wnosi metody do modyfikacji kolekcji.
+    </p>
+    <p>
+      &#160;MutableList i MutableSet
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1549357467394" ID="ID_1087613588" MODIFIED="1549357853031" POSITION="right" TEXT=" Kotlin DSL">
 <cloud/>
@@ -603,8 +638,7 @@
       https://github.com/stevenalexander/rules-evaluator
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1549357803251" ID="ID_1871859265" LINK="https://tomassetti.me/antlr-mega-tutorial/" MODIFIED="1549357817350" TEXT="The ANTLR Mega Tutorial"/>
 <node CREATED="1549357830201" ID="ID_981523300" LINK="https://modeling-languages.com/building-languages-kotlin/" MODIFIED="1549357846228" TEXT="Building Languages on a budget using Kotlin"/>
