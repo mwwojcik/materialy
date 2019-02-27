@@ -74,6 +74,10 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
 </node>
 <node CREATED="1537080190167" ID="ID_703879907" LINK="https://www.pythonlikeyoumeanit.com/module_3.html" MODIFIED="1537080220045" TEXT="Modu&#x142; do oblicze&#x144; numerycznych NumPy"/>
 <node CREATED="1537080572644" ID="ID_879512837" LINK="https://www.pythonlikeyoumeanit.com/intro.html" MODIFIED="1537080622983" TEXT="pythonlikeyoumeanit - kompendium wiedzy o Pythonie i NumPy - Tutorial"/>
+<node CREATED="1551254632289" ID="ID_97854497" MODIFIED="1551254638847" TEXT="conda">
+<node CREATED="1551254641089" ID="ID_434871543" MODIFIED="1551254653077" TEXT="aktywacja srodowiska source activate ml-env"/>
+<node CREATED="1551254686936" ID="ID_1572857462" MODIFIED="1551254698468" TEXT=" conda create --name ml-en -&gt; tworzenie &#x15b;rodowiska"/>
+</node>
 </node>
 <node CREATED="1537104125211" ID="ID_254232834" MODIFIED="1537126448788" POSITION="right" TEXT="Tutoriale">
 <cloud COLOR="#ffcc00"/>
