@@ -601,8 +601,7 @@
       Interfejs kotlin.collections.Collection - oferuje metody do przegl&#261;dania, ale nie pozwala na modyfikacje
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1549394346225" ID="ID_13212645" MODIFIED="1549394596736" TEXT="Kolekcje mutowalne - kotlin.collections.MutableCollection">
 <richcontent TYPE="NOTE"><html>
@@ -617,8 +616,7 @@
       &#160;MutableList i MutableSet
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -644,6 +642,7 @@
 <node CREATED="1549357830201" ID="ID_981523300" LINK="https://modeling-languages.com/building-languages-kotlin/" MODIFIED="1549357846228" TEXT="Building Languages on a budget using Kotlin"/>
 <node CREATED="1549359286521" ID="ID_301051168" LINK="https://dzone.com/articles/creating-an-editor-with-syntax-highlighting-using" MODIFIED="1549359301530" TEXT="Creating an Editor with Syntax Highlighting Using ANTLR and Kotlin"/>
 <node CREATED="1549359390101" ID="ID_1512162610" LINK="https://martinfowler.com/bliki/RulesEngine.html" MODIFIED="1549359549159" TEXT="Should I use Rules Engine - Martin Fowler"/>
+<node CREATED="1551699407306" ID="ID_735054638" LINK="https://www.cuba-platform.com/blog/kotlin-dsl-from-theory-to-practice" MODIFIED="1551699421673" TEXT="https://www.cuba-platform.com/blog/kotlin-dsl-from-theory-to-practice"/>
 </node>
 </node>
 </node>
