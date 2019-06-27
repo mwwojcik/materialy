@@ -236,7 +236,7 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
 <node CREATED="1537474547589" ID="ID_562937529" MODIFIED="1537474550840" TEXT="Uczenie z modelu"/>
 </node>
 </node>
-<node CREATED="1550500697821" ID="ID_253863430" MODIFIED="1550500787346" POSITION="right" TEXT="NLP">
+<node CREATED="1550500697821" FOLDED="true" ID="ID_253863430" MODIFIED="1561671887756" POSITION="right" TEXT="NLP">
 <cloud COLOR="#ccffcc"/>
 <node CREATED="1550500720516" ID="ID_1814846753" MODIFIED="1550500757198" TEXT="Polskie zasoby">
 <node CREATED="1550500728043" ID="ID_225284684" LINK="https://ermlab.com/en/blog/nlp/polish-sentiment-analysis-using-keras-and-word2vec/" MODIFIED="1550500742864" TEXT="https://ermlab.com/en/blog/nlp/polish-sentiment-analysis-using-keras-and-word2vec/"/>
@@ -272,6 +272,47 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
 <cloud COLOR="#99ff99"/>
 <node CREATED="1550567217271" ID="ID_435259625" LINK="https://www.coursera.org/learn/machine-learning" MODIFIED="1550567226585" TEXT="https://www.coursera.org/learn/machine-learning"/>
 <node CREATED="1550567332167" ID="ID_1273356407" LINK="https://digitaldefynd.com/7-best-machine-learning-training-certifications/" MODIFIED="1550567339988" TEXT="https://digitaldefynd.com/7-best-machine-learning-training-certifications/"/>
+</node>
+<node CREATED="1561671780573" ID="ID_1136030719" MODIFIED="1561672313896" POSITION="right" TEXT="Szkolenie zbuduj silne podstawy AI i ML">
+<cloud COLOR="#ffff99"/>
+<node CREATED="1561671897037" ID="ID_1109361101" MODIFIED="1561671911843" TEXT="MODU&#x141; 3: MACHINE LEARNING &#x2013; PODSTAWY cz. 2">
+<node CREATED="1561671915034" ID="ID_239606334" MODIFIED="1561671936088" TEXT="Wst&#x119;p do biblioteki Pandas">
+<node CREATED="1561671938000" ID="ID_1851312644" LINK="https://pandas.pydata.org/" MODIFIED="1561671961906" TEXT="https://pandas.pydata.org/"/>
+<node CREATED="1561671976046" ID="ID_1401990677" LINK="https://nikgrozev.com/2015/12/27/pandas-in-jupyter-quickstart-and-useful-snippets/" MODIFIED="1561671991946" TEXT="Ciekawe przyk&#x142;ady Pandas"/>
+<node CREATED="1561672001447" ID="ID_878032085" LINK="https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf" MODIFIED="1561673182876" STYLE="bubble" TEXT="Pandas cheatsheet">
+<icon BUILTIN="idea"/>
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node CREATED="1561672107644" ID="ID_1502677691" MODIFIED="1561672117831" TEXT="Biblioteka Scikit-Learn">
+<node CREATED="1561672119238" ID="ID_1814543580" LINK="https://scikit-learn.org/stable/index.html" MODIFIED="1561672130994" TEXT="Dokumentacja"/>
+<node CREATED="1561672143678" ID="ID_298083725" LINK="https://scikit-learn.org/stable/tutorial/basic/tutorial.html" MODIFIED="1561672161929" TEXT="Obszerny przyk&#x142;ad treningu modelu"/>
+<node CREATED="1561672271804" ID="ID_1847940645" LINK="https://eduzo.pl/ml-dl-ai/modul-3-machine-learning-podstawy-cz-2/lekcja-8-wstep-do-biblioteki-scikit-learn/?bpmj_eddpc_url=Ly%2B3z4CR4HqJGJUsulOCouqkjl9SzCnMjP9eKJcuIhusaXOqrnMp%2Bfwljs3ElznU2%2BJKNIK14RNqAjLvCvShrn%2FP3HLCSyNY69rAWASUmIbDsx2fM789VCB%2FqfbgVg6rUXtmVP1NoDvER%2Bbj3Ije4RtMmg%2F87tYViyYjwpzqomw%3D" MODIFIED="1561672286153" TEXT="Kod lekcji"/>
+</node>
+</node>
+<node CREATED="1561672321222" ID="ID_1150894497" MODIFIED="1561672382571" TEXT="MODU&#x141; 4: REGRESJA LINIOWA">
+<node CREATED="1561672497232" ID="ID_344961519" MODIFIED="1561672499507" TEXT="LEKCJA 3: Stworzenie Prostej Regresji Liniowej">
+<node CREATED="1561672502853" ID="ID_262442281" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html" MODIFIED="1561672530744" TEXT="Dokumentacja"/>
+<node CREATED="1561672539854" ID="ID_1790838144" LINK="https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html#sphx-glr-auto-examples-linear-model-plot-ols-py" MODIFIED="1561672552111" TEXT="Inny Przyk&#x142;ad Regresji Liniowej"/>
+<node CREATED="1561672560615" ID="ID_780610974" LINK="https://www.kaggle.com/shivam2503/diamonds" MODIFIED="1561672576751" TEXT="Zbi&#xf3;r danych Diamonds"/>
+<node CREATED="1561672586058" ID="ID_287543495" LINK="https://www.datacamp.com/community/tutorials/matplotlib-tutorial-python" MODIFIED="1561673177644" STYLE="bubble" TEXT="Poradnik Matplotlib">
+<icon BUILTIN="idea"/>
+<icon BUILTIN="button_ok"/>
+</node>
+</node>
+<node CREATED="1561672680386" ID="ID_852315820" MODIFIED="1561672689931" TEXT="LEKCJA 4: Multiple Linear Regresion">
+<node CREATED="1561672743742" ID="ID_120979360" LINK="https://eduzo.pl/ml-dl-ai/modul-4-regresja-liniowa/lekcja-4-multiple-linear-regresion-czym-jest-i-kiedy-ja-stosowac/?bpmj_eddpc_url=HAJCqGlmpaeJyG4v4svGPicqng%2FjQa9BLYn1uDBYSLqhvDPvSbZnDW6ejVS9RTfXjL%2FCg%2FE16uX7hUIcYa4SFjdiYot2fIMLkM23bnfOEQ5RzhGtqA958sKo%2FczCXPAZBqqh88p2SP9DrN%2BGG%2Bnur6avikDJKrrFKYYDJRiqqohfQccX5w5Cbg%3D%3D" MODIFIED="1561672757234" TEXT="Position_Salaries"/>
+</node>
+<node CREATED="1561672897120" ID="ID_1355565598" MODIFIED="1561672917286" TEXT="Lekcja 4: Polynomal Regression - regresja wielomianowa">
+<node CREATED="1561672709457" ID="ID_134567749" LINK="https://eduzo.pl/ml-dl-ai/modul-4-regresja-liniowa/lekcja-4-multiple-linear-regresion-czym-jest-i-kiedy-ja-stosowac/?bpmj_eddpc_url=TDw003h2OjmSCuqX9S%2FStiBxHf0DhbOS%2FXI5Rmv5AQAwHhwNb4N6RnSgheXC3R%2Fvsmne%2FXO9sG6r5D7p7G4N0Fq2OmtbmhX2oIED2TiB1FPQTuNlF1Ow9PWT942rHzYw4JGnqXjIZTy5T3nzGMXnS86F7DjNM7jPgy28W3EQDEaXEcK52YVcI46EEAelUntB" MODIFIED="1561672727551" TEXT="polynomial_regression.py_"/>
+</node>
+<node CREATED="1561673052325" ID="ID_867069094" MODIFIED="1561673091075" TEXT="LEKCJA 5: LEKCJA 5: Implementacja Multiple Linear Regresion z Wykorzystaniem Pythona">
+<node CREATED="1561673095140" ID="ID_1505531322" LINK="https://towardsdatascience.com/understanding-feature-engineering-part-2-categorical-data-f54324193e63" MODIFIED="1561673119461" TEXT="Wi&#x119;cej o radzeniu sobie z transformacj&#x105; cech nieliczbowych"/>
+<node CREATED="1561673129034" ID="ID_597446007" LINK="https://www.kaggle.com/shivam2503/diamonds" MODIFIED="1561673144605" TEXT="Zbi&#xf3;r danych o diamentach "/>
+<node CREATED="1561673215150" ID="ID_1457366068" LINK="https://eduzo.pl/ml-dl-ai/modul-4-regresja-liniowa/lekcja-5-implementacja-z-wykorzystaniem-pythona/?bpmj_eddpc_url=BotA15b5B4M2G2Hlf6riAOO9UVBfDuRZgYOjh%2FYyc2GXzqqajOtiXCGoovjMZG08yly5VxkE9qmQ3hRFLfjG4FySyVHms8X22A0LaEoPJ5Q%2Fa44EPgnhX7DBbVHg1CdOiJpcunWWYKtnObesNVpC2%2B8TqreieGEM7VWMgN4aDHV%2FrtEo" MODIFIED="1561673228061" TEXT="diamonds_multi"/>
+<node CREATED="1561673241600" ID="ID_464210158" LINK="https://eduzo.pl/ml-dl-ai/modul-4-regresja-liniowa/lekcja-5-implementacja-z-wykorzystaniem-pythona/?bpmj_eddpc_url=zUDE462R04DP5X94hrZfRIH2EXo4WOUOrwOmRJA3CHfCnVMFkEzEc%2B50Phj1Utu%2BPEUSXra03ynudvCHgzO2gzueAM98ODlHmpfWLhnn%2BhP8oQyaphNvrf4RunmQ0kr4hJS0RE6KP0bdlBmyIX5cPZY2HZABSE8F56LeomJaSaQ%3D" MODIFIED="1561673254341" TEXT="ekcja5.py_"/>
+</node>
+</node>
 </node>
 </node>
 </map>
