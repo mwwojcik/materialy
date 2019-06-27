@@ -645,5 +645,10 @@
 <node CREATED="1551699407306" ID="ID_735054638" LINK="https://www.cuba-platform.com/blog/kotlin-dsl-from-theory-to-practice" MODIFIED="1551699421673" TEXT="https://www.cuba-platform.com/blog/kotlin-dsl-from-theory-to-practice"/>
 </node>
 </node>
+<node CREATED="1553009829874" ID="ID_752719976" MODIFIED="1553009910288" POSITION="left" TEXT="Gradle">
+<cloud COLOR="#ffffcc"/>
+<node CREATED="1553009842633" ID="ID_298482540" LINK="https://guides.gradle.org/building-kotlin-jvm-libraries/" MODIFIED="1553009857209" TEXT="https://guides.gradle.org/building-kotlin-jvm-libraries/"/>
+<node CREATED="1553009847891" ID="ID_769766955" LINK="https://docs.gradle.org/current/userguide/building_java_projects.html" MODIFIED="1553009892485" TEXT="https://docs.gradle.org/current/userguide/building_java_projects.html"/>
+</node>
 </node>
 </map>
