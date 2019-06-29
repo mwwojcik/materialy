@@ -313,6 +313,21 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
 <node CREATED="1561673241600" ID="ID_464210158" LINK="https://eduzo.pl/ml-dl-ai/modul-4-regresja-liniowa/lekcja-5-implementacja-z-wykorzystaniem-pythona/?bpmj_eddpc_url=zUDE462R04DP5X94hrZfRIH2EXo4WOUOrwOmRJA3CHfCnVMFkEzEc%2B50Phj1Utu%2BPEUSXra03ynudvCHgzO2gzueAM98ODlHmpfWLhnn%2BhP8oQyaphNvrf4RunmQ0kr4hJS0RE6KP0bdlBmyIX5cPZY2HZABSE8F56LeomJaSaQ%3D" MODIFIED="1561673254341" TEXT="ekcja5.py_"/>
 </node>
 </node>
+<node CREATED="1561790067525" ID="ID_1218450914" MODIFIED="1561790070597" TEXT="MODU&#x141; 5: DRZEWA DECYZYJNE">
+<node CREATED="1561790110578" ID="ID_1563473844" MODIFIED="1561790112613" TEXT="LEKCJA 3: Implementacja Drzewa Decyzyjnego Za Pomoc&#x105; Pythona Dla Problemu Klasyfikacji">
+<node CREATED="1561790121271" ID="ID_85056367" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier" MODIFIED="1561790145722" TEXT="Dokumentacja"/>
+<node CREATED="1561790150273" ID="ID_943817503" LINK="https://scikit-learn.org/stable/modules/tree.html" MODIFIED="1561790172142" TEXT="Wi&#x119;cej o drzewach decyzyjnych"/>
+<node CREATED="1561790199920" ID="ID_996238433" LINK="https://archive.ics.uci.edu/ml/datasets/Breast+Cancer" MODIFIED="1561790225644" TEXT="Zbior danych - Breast Cancer Data Set"/>
+<node CREATED="1561790247087" ID="ID_1032407544" LINK="https://eduzo.pl/ml-dl-ai/modul-5/lekcja-3/?bpmj_eddpc_url=o4SmTiswnEmG52aj%2BvEJ%2FT9R6yf87hqGOl2iWAsK8tUmz1fbOf5XfB0VJabJaFej6H8wu8t%2Fuk24yDdMPmsp9H0VMlKYN6YJqcD0VxRdYfoHBKRtG2bh8ohxw4CjMrHrJ%2BiidFf2ZHVI0b69NSEE1Vd7ql3xS6MeVP5%2BDxuyo4%2F07Q8Q" MODIFIED="1561790263813" TEXT="lekcja3.py_-1"/>
+</node>
+<node CREATED="1561825081378" ID="ID_778637991" MODIFIED="1561825088723" TEXT="Zadanie">
+<node CREATED="1561825090171" ID="ID_1131099553" LINK="https://www.kaggle.com/c/titanic" MODIFIED="1561825106099" TEXT="Titanic"/>
+<node CREATED="1561832705884" ID="ID_1391883772" LINK="https://www.kaggle.com/jeffd23/scikit-learn-ml-from-start-to-finish" MODIFIED="1561832767820" TEXT="Titanic Machine Learning from Start to Finish with Scikit-Learn - Analiza rozwi&#x105;zania "/>
+<node CREATED="1561832773173" ID="ID_1627366534" LINK="https://www.kaggle.com/startupsci/titanic-data-science-solutions" MODIFIED="1561832805378" TEXT="Titanic Titanic Data Science Solutions Python Notebook"/>
+<node CREATED="1561832809075" ID="ID_207513605" LINK="https://towardsdatascience.com/data-visualization-for-machine-learning-and-data-science-a45178970be7" MODIFIED="1561832866973" TEXT="Data Visualization using Python for Machine Learning and Data science"/>
+<node CREATED="1561833800682" ID="ID_1003727294" LINK="https://www.kaggle.com/helgejo/an-interactive-data-science-tutorial" MODIFIED="1561833831915" TEXT="An Interactive Data Science Tutorial"/>
+</node>
+</node>
 </node>
 </node>
 </map>
