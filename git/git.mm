@@ -931,7 +931,7 @@
 </node>
 <node CREATED="1517473875896" ID="ID_751435581" MODIFIED="1535453716070" POSITION="right" TEXT="Podpowiedzi">
 <cloud COLOR="#ffffcc"/>
-<node CREATED="1517473932122" ID="ID_671322508" MODIFIED="1517480318057" TEXT="git pull-pull z ca&#x142;kowitym zast&#x105;pieniem plik&#xf3;w lokalnych">
+<node CREATED="1517473932122" ID="ID_671322508" MODIFIED="1559304665264" TEXT="git pull-pull z ca&#x142;kowitym zast&#x105;pieniem plik&#xf3;w lokalnych">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -947,10 +947,75 @@
     Then the
 
     <p>
-      <code>git reset</code>&#160;resets the master branch to what you just fetched. The <code>--hard</code>&#160; option changes all the files in your working tree to match the files in <code>origin/master</code>
+      <code>git reset</code>&#160;resets the master branch to what you just fetched. The <code>--hard</code>&#160; option changes all the files in your working tree to match the files in <code>origin/master </code>
     </p>
+    <p>
+      
+    </p>
+    <div class="answercell post-layout--right">
+      <div class="post-text" itemprop="text">
+        <h2>
+          Important: If you have any local changes, they will be lost. With or without <code>--hard</code>&#160;option, any local commits that haven't been pushed will be lost.<sup>[*]</sup>
+        </h2>
+        <p>
+          If you have any files that are <em>not</em>&#160;tracked by Git (e.g. uploaded user content), these files will not be affected.
+        </p>
+        <hr />
+        
+
+        <p>
+          I think this is the right way:
+        </p>
+        <pre><code>git fetch --all</code></pre>
+        <p>
+          Then, you have two options:
+        </p>
+        <pre><code>git reset --hard origin/master</code></pre>
+        <p>
+          OR If you are on some other branch:
+        </p>
+        <pre><code>git reset --hard origin/&lt;branch_name&gt;</code></pre>
+        <h3>
+          Explanation:
+        </h3>
+        <p>
+          <code>git fetch</code>&#160;downloads the latest from remote without trying to merge or rebase anything.
+        </p>
+        <p>
+          Then the <code>git reset</code>&#160;resets the master branch to what you just fetched. The <code>--hard</code>&#160;option changes all the files in your working tree to match the files in <code>origin/master</code>
+        </p>
+        <hr />
+        
+
+        <h3>
+          Maintain current local commits
+        </h3>
+        <p>
+          <sup>[*]</sup>: It's worth noting that it is possible to maintain current local commits by creating a branch from <code>master</code>&#160;before resetting:
+        </p>
+        <pre><code>git checkout master
+git branch new-branch-to-save-current-commits
+git fetch --all
+git reset --hard origin/master</code></pre>
+        <p>
+          After this, all of the old commits will be kept in <code>new-branch-to-save-current-commits</code>.
+        </p>
+        <h3>
+          Uncommitted changes
+        </h3>
+        <p>
+          Uncommitted changes, however (even staged), will be lost. Make sure to stash and commit anything you need. For that you can run the following:
+        </p>
+        <pre><code>git stash</code></pre>
+        <p>
+          And then to reapply these uncommitted changes:
+        </p>
+        <pre><code>git stash pop</code></pre>
+      </div>
+    </div>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1517474607110" ID="ID_1554533457" MODIFIED="1529483746208" TEXT="git push - push do zdalnego brancha">
 <richcontent TYPE="NOTE"><html>
@@ -1307,7 +1372,7 @@ https://stackoverflow.com/questions/4811434/clone-only-one-branch?utm_medium=org
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1535456008011" ID="ID_1290428286" MODIFIED="1537884251785" TEXT="Wy&#x15b;wietlanie listy plik&#xf3;w wys&#x142;anych w danym commicie">
+<node CREATED="1535456008011" ID="ID_1290428286" MODIFIED="1558959248371" TEXT="Wy&#x15b;wietlanie listy plik&#xf3;w wys&#x142;anych w danym commicie">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1320,7 +1385,8 @@ https://stackoverflow.com/questions/4811434/clone-only-one-branch?utm_medium=org
     </p>
     <pre><code>git whatchanged -1 --format=oneline | wc -l</code></pre>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1537884240802" ID="ID_788840859" MODIFIED="1537884240802" TEXT=""/>
 <node CREATED="1548420407003" ID="ID_1968301525" LINK="https://labs.consol.de/development/git/2017/02/22/gitignore.html" MODIFIED="1548420444391" TEXT=".gitignore - instrukcja poprawnego u&#x17c;ycia">
@@ -1333,8 +1399,7 @@ https://stackoverflow.com/questions/4811434/clone-only-one-branch?utm_medium=org
       https://labs.consol.de/development/git/2017/02/22/gitignore.html
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1518253670253" ID="ID_956937492" MODIFIED="1518253772083" POSITION="right" TEXT="Praca r&#xf3;wnoleg&#x142;a">

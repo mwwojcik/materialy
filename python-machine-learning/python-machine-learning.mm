@@ -327,11 +327,15 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
 <node CREATED="1561832809075" ID="ID_207513605" LINK="https://towardsdatascience.com/data-visualization-for-machine-learning-and-data-science-a45178970be7" MODIFIED="1561832866973" TEXT="Data Visualization using Python for Machine Learning and Data science"/>
 <node CREATED="1561833800682" ID="ID_1003727294" LINK="https://www.kaggle.com/helgejo/an-interactive-data-science-tutorial" MODIFIED="1561930199047" TEXT="An Interactive Data Science Tutorial"/>
 <node CREATED="1561927185546" ID="ID_516081157" LINK="https://www.kaggle.com/vikumsw/titanic-introducing-basic-workflow-for-beginners" MODIFIED="1561927202222" TEXT="https://www.kaggle.com/vikumsw/titanic-introducing-basic-workflow-for-beginners"/>
-<node CREATED="1561929462507" ID="ID_1902689533" LINK="https://towardsdatascience.com/a-gentle-introduction-to-exploratory-data-analysis-f11d843b8184" MODIFIED="1561929484111" TEXT="EDA - Explanatory Data Analysis"/>
 </node>
 </node>
 <node CREATED="1561930144270" ID="ID_1326584649" LINK="https://www.kaggle.com/learn/overview" MODIFIED="1561930162631" TEXT="KAGGLE LEARN">
 <icon BUILTIN="info"/>
+</node>
+<node CREATED="1561974853980" ID="ID_119736979" MODIFIED="1561974892981" TEXT="EDA">
+<icon BUILTIN="info"/>
+<node CREATED="1561929462507" ID="ID_1902689533" LINK="https://towardsdatascience.com/a-gentle-introduction-to-exploratory-data-analysis-f11d843b8184" MODIFIED="1561929484111" TEXT="EDA - Explanatory Data Analysis"/>
+<node CREATED="1561974861882" ID="ID_453479336" LINK="https://www.kaggle.com/ekami66/detailed-exploratory-data-analysis-with-python" MODIFIED="1561974888747" TEXT="https://www.kaggle.com/ekami66/detailed-exploratory-data-analysis-with-python"/>
 </node>
 </node>
 </node>
