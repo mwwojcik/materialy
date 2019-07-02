@@ -337,6 +337,19 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
 <node CREATED="1561929462507" ID="ID_1902689533" LINK="https://towardsdatascience.com/a-gentle-introduction-to-exploratory-data-analysis-f11d843b8184" MODIFIED="1561929484111" TEXT="EDA - Explanatory Data Analysis"/>
 <node CREATED="1561974861882" ID="ID_453479336" LINK="https://www.kaggle.com/ekami66/detailed-exploratory-data-analysis-with-python" MODIFIED="1561974888747" TEXT="https://www.kaggle.com/ekami66/detailed-exploratory-data-analysis-with-python"/>
 </node>
+<node CREATED="1562040521015" ID="ID_403884768" MODIFIED="1562040524419" TEXT="MODU&#x141; 6: METODA K-&#x15a;REDNICH ORAZ WEKTOR&#xd3;W NO&#x15a;NYCH (SVM)">
+<node CREATED="1562040544096" ID="ID_437577469" MODIFIED="1562040546718" TEXT="Implementacja Metody K-&#x15a;rednich z Wykorzystaniem Pythona">
+<node CREATED="1562040687306" ID="ID_1080726179" LINK="https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html" MODIFIED="1562041698954" TEXT="Dokumentacja"/>
+<node CREATED="1562040697907" ID="ID_1331901310" LINK="https://mubaris.com/posts/kmeans-clustering/" MODIFIED="1562041708380" TEXT="Inny przyk&#x142;ad algorytmu k-means z zastosowan&#x105; metod&#x105; &#x142;okciow&#x105;"/>
+<node CREATED="1562040706824" ID="ID_286164445" LINK="https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial-in-python" MODIFIED="1562041717520" TEXT="Link do zbioru danych"/>
+<node CREATED="1562040720085" ID="ID_1477337063" LINK="https://eduzo.pl/ml-dl-ai/modul-6/lekcja-3/?bpmj_eddpc_url=MLlKOFTLObomla9sIz3zU%2FBFzI8ykZm3DZ4ErTf%2Bu9gABaEm0mVXtc7lNy3yE7KzCxgezHPRZCl7yE1o65jukYjLj0yr%2BCHITkEQnrmvBAvvhRaYKr56PeMjE00jt%2B3nj9nZMFmRiQQGMPGEhL8Eb%2FsBxaE4A0yBZIizmRzmsEtvFv0i" MODIFIED="1562041727249" TEXT="Mall_Customers"/>
+<node CREATED="1562040731897" ID="ID_1511286125" LINK="https://eduzo.pl/ml-dl-ai/modul-6/lekcja-3/?bpmj_eddpc_url=BJEEFIwqcrkonlQoRuVZolwt9LtMBzPOYKHw7ecTLR8dXE%2BQsVfuy1Rl6PMacgMvMJJQysVJnuuPmYyHNk8%2F%2Fur6Q9IAOvQycTQ9VCnTkjXiZR08IyayjX7ZCamD21OLUhieT7K4gtUu8oHK0MDcKC6hn0bj5YkEd4A3Vh2Zwdc2WwHL" MODIFIED="1562041736631" TEXT="lekcja3.py_-2"/>
+</node>
+<node CREATED="1562040561353" ID="ID_486607123" MODIFIED="1562040583255" TEXT="Implementacja SVM w Pythonie">
+<node CREATED="1562041632522" ID="ID_745123079" LINK="https://eduzo.pl/ml-dl-ai/modul-6/lekcja-5/?bpmj_eddpc_url=GG83BVlaLuAayfM691lK4Jw%2FVfed2PJlC4sVFazcap4W4k%2Bebpdar63zZdnfwD0PMK93DVjSvUVRbtkjkmv%2FtQ8abK0fIq9pmt1Nr5f7IeYZ9285c1mQayIMEtnafN4Z%2B5exrKpAYhM7E6RtBofFF7rNavrgxpB8zawEkczQO64d%2FtsO" MODIFIED="1562041680010" TEXT="caesarian.csv"/>
+<node CREATED="1562041654666" ID="ID_466277010" LINK="https://eduzo.pl/ml-dl-ai/modul-6/lekcja-5/?bpmj_eddpc_url=vEJyEzMdgAmg7RAPfnZmuS0VJoir30pXFEPKjFIED85eXpEhR9GTMevD96L%2FQznPvTrOzff8ytrNFw5SRTx8dDdJfOL6JvKNqRiRZRHnrA0Qli8OycLUEqdtqKXolkfVod0feLPiU0xiPdC8%2Bqn%2F7IgFTZt5hJc2rEuARXvn7EVpGTQQ" MODIFIED="1562041668162" TEXT="lekcja5.py_-2"/>
+</node>
+</node>
 </node>
 </node>
 </map>
