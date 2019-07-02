@@ -349,6 +349,11 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
 <node CREATED="1562041632522" ID="ID_745123079" LINK="https://eduzo.pl/ml-dl-ai/modul-6/lekcja-5/?bpmj_eddpc_url=GG83BVlaLuAayfM691lK4Jw%2FVfed2PJlC4sVFazcap4W4k%2Bebpdar63zZdnfwD0PMK93DVjSvUVRbtkjkmv%2FtQ8abK0fIq9pmt1Nr5f7IeYZ9285c1mQayIMEtnafN4Z%2B5exrKpAYhM7E6RtBofFF7rNavrgxpB8zawEkczQO64d%2FtsO" MODIFIED="1562041680010" TEXT="caesarian.csv"/>
 <node CREATED="1562041654666" ID="ID_466277010" LINK="https://eduzo.pl/ml-dl-ai/modul-6/lekcja-5/?bpmj_eddpc_url=vEJyEzMdgAmg7RAPfnZmuS0VJoir30pXFEPKjFIED85eXpEhR9GTMevD96L%2FQznPvTrOzff8ytrNFw5SRTx8dDdJfOL6JvKNqRiRZRHnrA0Qli8OycLUEqdtqKXolkfVod0feLPiU0xiPdC8%2Bqn%2F7IgFTZt5hJc2rEuARXvn7EVpGTQQ" MODIFIED="1562041668162" TEXT="lekcja5.py_-2"/>
 </node>
+<node CREATED="1562042713054" ID="ID_1351031867" MODIFIED="1562042716434" TEXT="Zadanie">
+<node CREATED="1562042718280" ID="ID_1072669312" LINK="http://archive.ics.uci.edu/ml/datasets/Pen-Based+Recognition+of+Handwritten+Digits?fbclid=IwAR1Z5D_J4yeK4FVGT4vAnRwSg3kAV7Ec1DIpCRBzk_ng5_dzGZdsSbpicaw" MODIFIED="1562042765012" TEXT="Dataset"/>
+<node CREATED="1562042732824" ID="ID_521355834" LINK="https://scikit-learn.org/stable/auto_examples/datasets/plot_digits_last_image.html?fbclid=IwAR3m5Qg4R0waYwo2USXQ3Gt1fLGMmG8rbg36HustofzqIZNODvVfw9bUs4s" MODIFIED="1562042774001" TEXT="Scikit przetwarzanie obrazu"/>
+<node CREATED="1562042750305" ID="ID_1052851366" LINK="https://johnloeber.com/docs/kmeans.html" MODIFIED="1562042788836" TEXT="Przyk&#x142;ady"/>
+</node>
 </node>
 </node>
 </node>
