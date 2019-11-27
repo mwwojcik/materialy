@@ -298,35 +298,6 @@
 <node CREATED="1574754474119" ID="ID_1633146600" MODIFIED="1574754474119" TEXT="CTRL+ALT+T =&gt; otocz przez blok kodu"/>
 <node CREATED="1574773962954" ID="ID_368035535" LINK="https://www.jetbrains.com/help/idea/2016.1/refactoring-source-code.html" MODIFIED="1574773979746" TEXT="https://www.jetbrains.com/help/idea/2016.1/refactoring-source-code.html"/>
 </node>
-<node CREATED="1574757323580" ID="ID_1323724712" MODIFIED="1574757498611" POSITION="right" TEXT="Bazy rozproszone">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Wyodr&#281;bniamy dokument rozumiany jako zbi&#243;r atrybut&#243;w stanowi&#261;cych ca&#322;o&#347;&#263;.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Uzyskujemy ogromn&#261; skalowalno&#347;&#263; horyzontaln&#261;. Dokumenty nie s&#261; dzielone . Dany node mo&#380;e obs&#322;ugiwa&#263; dokumenty o id mniejsze od n, nast&#281;pny od n+1 do 2n itd...
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      R&#243;&#380;ne zapytania mog&#261; by&#263; kierowane do r&#243;&#380;nych cz&#281;&#347;ci infrastruktury.
-    </p>
-    <p>
-      
-    </p>
-  </body>
-</html>
-</richcontent>
-<cloud/>
-</node>
 <node CREATED="1574758571416" ID="ID_1113805724" MODIFIED="1574758574269" POSITION="left" TEXT="TODO">
 <node CREATED="1574758575595" ID="ID_748841116" MODIFIED="1574763659108" TEXT="adnotacja do jsona analogiczna do xmlrefid">
 <richcontent TYPE="NOTE"><html>
@@ -757,14 +728,130 @@ U&#380;ycie:</pre>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_414147436" ENDARROW="Default" ENDINCLINATION="163;0;" ID="Arrow_ID_677796176" SOURCE="ID_1389132856" STARTARROW="None" STARTINCLINATION="331;0;"/>
 </node>
 </node>
-<node CREATED="1574843073919" ID="ID_813334677" MODIFIED="1574843103930" POSITION="right" TEXT="Programowanie reaktywne">
+<node CREATED="1574843073919" HGAP="165" ID="ID_813334677" MODIFIED="1574855659546" POSITION="right" TEXT="Programowanie reaktywne" VSHIFT="18">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Java 9 ma wsparcie do programowania reaktywnego:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Publisher,Subscriber, Subscription, Processor(Publisher+Subscriber) - standardowe interfejsy zgodne z specyfikacj&#261; Reactive Streams, p&#243;ki co Reactive Streams korzysta ze swoich interfejs&#243;w, ale
+    </p>
+    <p>
+      to si&#281; zmieni i przejd&#261; na te kt&#243;re dostarczy Java.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Implementacji dostarczaj&#261; dostawcy.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Te interfejsy s&#261; niewystarczaj&#261;ce i komunikacja z ich po&#347;rednictwem by&#322;aby niewygodna.
+    </p>
+  </body>
+</html>
+</richcontent>
 <cloud COLOR="#ffcccc"/>
+<node CREATED="1574853583555" ID="ID_1678386152" MODIFIED="1574854999046" TEXT="Standardowa obs&#x142;uga &#x17c;&#x105;dania">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#379;&#261;danie -&gt; serwer -&gt;start w&#261;tku-&gt;wywo&#322;anie zasobu w ramach w&#261;tku -&gt;w&#261;tek czeka -&gt; dostaje odpowied&#378;-&gt;odpowied&#378; do klienta
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      W programowaniu reaktywnym eliminujemy to oczekiwania. Zamiast tego wysy&#322;amy sygna&#322;y &#380;e co&#347; si&#281; dzieje, systemy reaguj&#261; na zmian&#281; i si&#281; informuj&#261;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Systemy dzia&#322;aj&#261; w modelu push. Publisher wpycha informacj&#281; do subscribera.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Retpack - framework do obs&#322;ugi programowania reaktywnego.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Reaktywno&#347;&#263; ma sens je&#347;li ca&#322;y stos jest reaktywny. Np. u&#380;ycie bazy relacyjnej ju&#380; ogranicza programowanie reaktywne. Bo b&#281;dzie tam w&#261;tek kt&#243;ry stanie si&#281; w&#261;skim gard&#322;em (nawet je&#347;li wo&#322;anie b&#281;dzie asynchroniczne). &#379;eby uzyska&#263; pe&#322;ne wsparcie nale&#380;a&#322;oby wyeliminowa&#263; relacyjn&#261; baz&#281; na baz&#281; reaktywn&#261; np. MongoDB.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Komunikacja sieciowa:
+    </p>
+    <p>
+      Serwer utrzymuje powi&#261;zanie prz wykorzystaniu NIO.&#160;&#160;FileChannel i ByteBuffer. Jest to niskopoziomowy mechanizm obecny ju&#380; w java 5. Mamy wiele otwartych po&#322;&#261;cze&#324; i multiplexujemy pomi&#281;dzy nimi na jednym w&#261;tku.
+    </p>
+    <p>
+      ServerSocketChannel tworzy kana&#322; zbindowany na jakim&#347; porcie i adresie, serverSocket.configureBlocking(false) , potem rejestrujemy kana&#322; i startujemy niesko&#324;czone nas&#322;uchiwanie.
+    </p>
+    <p>
+      W p&#281;tli pobieramy selektory reprezentuj&#261;ce klient&#243;w, wybieramy te, kt&#243;re s&#261; gotowe do odbioru i piszemy do nich.
+    </p>
+  </body>
+</html>
+</richcontent>
+<arrowlink DESTINATION="ID_1420432324" ENDARROW="Default" ENDINCLINATION="956;73;" ID="Arrow_ID_602685065" STARTARROW="None" STARTINCLINATION="1597;452;"/>
+</node>
 </node>
 <node CREATED="1574843125039" ID="ID_328884833" MODIFIED="1574843225767" POSITION="left" TEXT="Architektura">
 <node CREATED="1574841559632" ID="ID_1984439955" MODIFIED="1574841596509" TEXT="Domain Driven Development"/>
 <node CREATED="1574780218589" ID="ID_1502084458" MODIFIED="1574780242393" TEXT="Architektura warstwowa vs heksagonalna Ports -Adapters"/>
 <node CREATED="1574841576743" ID="ID_1831841956" MODIFIED="1574846067937" TEXT="Test Driven Development i Ports Adapters"/>
 <node CREATED="1574846378166" ID="ID_37503193" MODIFIED="1574846390891" TEXT=" Preferowany spos&#xf3;b konteneryzacji to ma&#x142;y kontener np tomcat, wrzucony na Dockera i zarz&#x105;dzany Qubernetesem)."/>
+<node CREATED="1574850424391" ID="ID_1407406561" MODIFIED="1574850439924" TEXT="Bazy rozproszone">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Wyodr&#281;bniamy dokument rozumiany jako zbi&#243;r atrybut&#243;w stanowi&#261;cych ca&#322;o&#347;&#263;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Uzyskujemy ogromn&#261; skalowalno&#347;&#263; horyzontaln&#261;. Dokumenty nie s&#261; dzielone . Dany node mo&#380;e obs&#322;ugiwa&#263; dokumenty o id mniejsze od n, nast&#281;pny od n+1 do 2n itd...
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      R&#243;&#380;ne zapytania mog&#261; by&#263; kierowane do r&#243;&#380;nych cz&#281;&#347;ci infrastruktury.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1574843235419" ID="ID_125913200" MODIFIED="1574846584937" POSITION="left" TEXT="Spring Boot i dobre praktyki konfiguracji">
 <richcontent TYPE="NOTE"><html>
@@ -863,11 +950,167 @@ U&#380;ycie:</pre>
 </html>
 </richcontent>
 </node>
+<node CREATED="1574849015708" ID="ID_1544835948" MODIFIED="1574850829958" TEXT="Tworzenie nowego startera">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      nazwa_naszego_startera-spring-boot-starter
+    </p>
+    <p>
+      starter jest pomem kt&#243;ry definiuje zale&#380;no&#347;ci wersje i benchmark-spring-boot-autoconfigure, jest to cz&#281;&#347;&#263; realizuj&#261;ca warunkow&#261; konfiguracj&#281;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      benchmark-spring-boot-autoconfigure - dostarcza automatycznej konfiguracji.
+    </p>
+    <p>
+      Zawiera klas&#281; oznaczon&#261; @Configuration i tworzy warunkowo&#160;&#160;beana.&#160;&#160;U&#380;ywa adnotacji warunkowych rozpoczynaj&#261;cych si&#281; od Conditional....
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      @Conditional - adnotacja umo&#380;liwiaj&#261;ca na &#322;&#261;czenie warunk&#243;w (do sprawdzenia)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Obs&#322;uga propertis&#243;w:
+    </p>
+    <p>
+      Tworz&#281; klas&#281; beana np. BenchmarkProperties, kt&#243;ra b&#281;dzie po&#322;&#261;czona z property. Prefix m&#243;wi &#380;e je&#347;li w propertisach b&#281;dzie &quot;benchmark_timeout&quot;
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@ConfigurationProperties</font>(prefix = <font color="#008000"><b>&quot;benchmark&quot;</b></font>)<br /><font color="#000080"><b>public class </b></font>BenchmarkProperties {<br /><br />   <font color="#000080"><b>private long </b></font><b><font color="#660e7a">timeout</font></b>;</pre>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#379;eby spring m&#243;g&#322; zainstancjonowa&#263; autokonfiguracje konieczne jest dodanie pliku META-INF/spring.factories
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>org.springframework.boot.autoconfigure.EnableAutoConfiguration</b></font>=<font color="#008000"><b>pro</b></font><b><font color="#000080">\<br /></font><font color="#008000">  .buildmysoftware.spring.boot.benchmark.autoconfigure</font><font color="#000080">\<br /></font><font color="#008000">  .BenchmarkAutoConfiguration</font></b></pre>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#808000">@TestConfiguration - na potrzeby testu tworzymy now&#261; konfiguracj&#281; przykrywaj&#261;c&#261; beana</font>
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@TestConfiguration<br /></font><font color="#000080"><b>public static class </b></font>BenchmarkTestConfiguration {<br /><br />   <font color="#808000">@Bean<br />   </font><font color="#000080"><b>public </b></font>Benchmark benchmark() {<br />      <font color="#000080"><b>return new </b></font>CustomBenchmark();<br />   }<br />}</pre>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574850832350" ID="ID_1008594554" MODIFIED="1574850997145" TEXT="Debugging &#x142;adowania autokonfiguracji">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      
+    </p>
+    <p>
+      Mo&#380;liwy jest debugging autokonfiguracji
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Program arguments : --debug
+    </p>
+    <p>
+      Dostajemy raport ze springboota kt&#243;ry m&#243;wi nam o tym&#160;&#160;jakie konfiguracje s&#261; za&#322;adowane: Conditions evaluation report - na podstawie conditional on spring rozpoznaje jakie modu&#322;y s&#261; aktywowane.
+    </p>
+    <p>
+      Positive matches: m&#243;wi nam kt&#243;ra autokonfiguracja si&#281; za&#322;adowa&#322;a i co wa&#380;ne dlaczego . np. (spring.aop.auto=true)&#160;&#160;- czyli wyst&#261;pi&#322;a gdzie&#347; ta w&#322;asno&#347;&#263; z t&#261; warto&#347;ci&#261;.
+    </p>
+    <p>
+      Je&#347;li wymienione s&#261; dwa Conditionale to pomi&#281;dzy nimi jest AND.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Negative matches: s&#261; to autokonfiguracje kt&#243;re s&#261; na classpathu ale nie aktywowa&#322;y si&#281; dlatego &#380;e zabrak&#322;o spe&#322;nienia jakiego&#347; warunku.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Unconditional classes: - &#322;aduj&#261; si&#281; zawsze (je&#347;li warunek jest per metoda to autokonfiguracja za&#322;aduje si&#281; zawsze a warunek b&#281;dzie sprawdzany na metodzie)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Je&#347;li aktywuje si&#281; co&#347; wi&#281;cej ni&#380; chcemy to mo&#380;emy u&#380;y&#263; adnotacji Exclude w konfiguracji, wtedy mimo &#380;e z warunk&#243;w &#322;adowania wyjdzie true, to zostanie ona excludowana.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1574846109249" ID="ID_326552104" MODIFIED="1574846511409" POSITION="right" TEXT="Linki">
 <cloud COLOR="#cc99ff"/>
 <node CREATED="1574846113095" ID="ID_612735272" LINK="https://www.youtube.com/watch?v=wwi1wXOFaA8" MODIFIED="1574846487491" TEXT="Prezentacja po&#x15b;wi&#x119;cona TDD"/>
 <node CREATED="1574844439087" ID="ID_739718076" LINK="https://github.com/spring-projects/spring-boot/tree/master/spring-boot-project/spring-boot-starters" MODIFIED="1574844611680" TEXT="Spring boot kody na GitHub, lista starter&#xf3;w"/>
+<node CREATED="1574848630256" ID="ID_1657360382" LINK="http://www.querydsl.com/" MODIFIED="1574848645512" TEXT="QueryDSL"/>
+<node CREATED="1574853721580" ID="ID_263345616" LINK="https://www.reactivemanifesto.org/" MODIFIED="1574853738695" TEXT="Manifest programowania reaktywnego"/>
+<node CREATED="1574853933942" ID="ID_334741856" LINK="https://www.youtube.com/watch?v=gyMDRE_gg2k" MODIFIED="1574853949140" TEXT="Precentacja dotycz&#x105;ca Retpack"/>
+<node CREATED="1574854908903" ID="ID_482096914" LINK="https://github.com/r2dbc" MODIFIED="1574854936856" TEXT="Reaktywne sterowniki do baz relacyjnych - projekt eksperymentalny"/>
+<node CREATED="1574853033040" ID="ID_1935823768" LINK="https://github.com/ddd-by-examples/library" MODIFIED="1574853071788" TEXT="DDD by Examples"/>
+</node>
+<node CREATED="1574848969456" ID="ID_33004900" MODIFIED="1574854690320" POSITION="left" TEXT="Repozytoria kodu">
+<cloud COLOR="#ff33cc"/>
+<node CREATED="1574848975641" ID="ID_1141345053" LINK="https://github.com/mikewojtyna" MODIFIED="1574848994398" TEXT="Root"/>
+<node CREATED="1574854690320" ID="ID_1420432324" LINK="https://github.com/mikewojtyna/efficient-java" MODIFIED="1574854999046" TEXT="Efficient java - serwer NIO, minimalny system reaktywny">
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1420432324" ENDARROW="Default" ENDINCLINATION="956;73;" ID="Arrow_ID_602685065" SOURCE="ID_1678386152" STARTARROW="None" STARTINCLINATION="1597;452;"/>
+</node>
+<node CREATED="1574855228730" ID="ID_1938294586" LINK="https://github.com/mikewojtyna/ddd-training" MODIFIED="1574855244091" TEXT="DDD"/>
+<node CREATED="1574855373811" ID="ID_885595811" LINK="https://github.com/mikewojtyna/rest-api-training" MODIFIED="1574855396788" TEXT="Rest API+HTEOAS(starsza wersja)"/>
+<node CREATED="1574855938802" ID="ID_1022438264" LINK="https://github.com/mikewojtyna/webflux-training" MODIFIED="1574856459443" TEXT="WebFlux-nowy framework wobowy Spring">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Jest w opozycji do Spring MVC, kontrolerem jest dowolna funkcja Consumer, odej&#347;cie od adnotacji. W tym frameworku nie startuje tomcat tylko netty, bo ma lepsze wsparcie, wstaje aplikacja nas&#322;uchuj&#261;ca.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ciekawym typem jest typ MediaType.TEXT_EVENT_STREAM_VALUE
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">@RestController<br />@RequestMapping(<font color="#008000"><b>&quot;/controller/hello&quot;</b></font>)<br /><font color="#000080"><b>public class </b></font>ReactiveHelloController {<br />    @GetMapping(produces = MediaType.TEXT_EVENT_STREAM_VALUE)<br />    <font color="#000080"><b>public </b></font>Flux&lt;Hello&gt; allMsgs() {<br />        <font color="#000080"><b>return </b></font>Flux.interval(Duration.ofSeconds(<font color="#0000ff">1</font>))<br />                .map(i -&gt; <font color="#000080"><b>new </b></font>Hello(<font color="#008000"><b>&quot;Hello &quot; </b></font>+ i));<br />    }<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Przegl&#261;darka nigdy nie dostaje responsa, serwer pisze ca&#322;y czas do tego kana&#322;u
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </map>
