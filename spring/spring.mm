@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node BACKGROUND_COLOR="#ffcc66" CREATED="1574754004883" ID="ID_222410746" MODIFIED="1574758569429" TEXT="Spring szkolenie">
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1574754004883" ID="ID_222410746" MODIFIED="1574843072968" TEXT="Spring szkolenie">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1574754054673" ID="ID_755476824" MODIFIED="1574762370303" POSITION="right" TEXT="Dobre praktyki Rest">
 <richcontent TYPE="NOTE"><html>
@@ -257,6 +257,29 @@
 </html>
 </richcontent>
 </node>
+<node CREATED="1574843323437" ID="ID_63865453" MODIFIED="1574843620447" TEXT="Metoda z HTEOAS">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@GetMapping</font>(<font color="#008000"><b>&quot;/{id}&quot;</b></font>)<br /><font color="#808080"><i>// this method uses HATEOAS to produce self link reference<br /></i></font><font color="#000080"><b>public </b></font>ResponseEntity&lt;EntityModel&lt;Tweet&gt;&gt; findTweet(<font color="#808000">@PathVariable</font>(<font color="#008000"><b>&quot;id&quot;</b></font>) String uuid) {<br />   <font color="#000080"><b>return </b></font><b><font color="#660e7a">repo</font></b>.findById(UUID.<i>fromString</i>(uuid))<br />      .map(t -&gt; ResponseEntity.<i>status</i>(HttpStatus.<font color="#660e7a"><b><i>OK</i></b></font>)<br />         .body(<font color="#000080"><b>new </b></font>EntityModel&lt;&gt;(t,<br />            <i>linkTo</i>(<i>methodOn</i>(TweetController.<font color="#000080"><b>class</b></font>)<br />            .findTweet(<font color="#660e7a">uuid</font>)).withSelfRel())))<br />      .orElse(ResponseEntity.<i>notFound</i>().build());<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      UWAGA! zmiany wersji - to co kiedy&#347; nazywa&#322;o si&#281; Resource teraz EntityModel, pojawi&#322;a si&#281; klasa MVCLinkBuilder a znikn&#281;&#322;a ResourceLinkBuilder (jest w starych przyk&#322;&#261;dach). Dostarczony zosta&#322; skrypt kt&#243;ry to przemapowuje.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      W body jest EntityModel, pierwszy argument to co ma by&#263; w ciele responsa(czyli Tweet), a drugi argument to linki kt&#243;re budujemy linkto(methodOn/*metoda w kontrolerze do kt&#243;rej ma by&#263; link*/) i nazwa symboliczna linku.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1574754452242" ID="ID_679307258" MODIFIED="1574754619634" POSITION="left" TEXT="IntelIj - skr&#xf3;ty">
 <cloud COLOR="#ffff66"/>
@@ -319,9 +342,9 @@
 </node>
 <node CREATED="1574765867834" ID="ID_1362240137" MODIFIED="1574765889577" TEXT="Czy mo&#x17c;na uzyska&#x107; kody przyk&#x142;adowego projektu REST z dedykowanego kursu"/>
 <node CREATED="1574779350676" ID="ID_963590606" MODIFIED="1574779369638" TEXT="Tworze property o nieznanym typie, i skrot kt&#xf3;ry tworzy z tego interfejs"/>
-<node CREATED="1574780218589" ID="ID_1502084458" MODIFIED="1574780242393" TEXT="Architektura warstwowa vs heksagonalna Ports -Adapters"/>
+<node CREATED="1574844981036" ID="ID_620713990" MODIFIED="1574845001679" TEXT="Kody z prawid&#x142;ow&#x105; architektur&#x105; DDD"/>
 </node>
-<node CREATED="1574767521883" ID="ID_342452735" MODIFIED="1574780090387" POSITION="right" TEXT="Testy jednostkowe i integracyjne">
+<node CREATED="1574767521883" ID="ID_342452735" MODIFIED="1574846683796" POSITION="right" TEXT="Testy jednostkowe i integracyjne">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -524,7 +547,7 @@ U&#380;ycie:</pre>
   </body>
 </html>
 </richcontent>
-<cloud/>
+<cloud COLOR="#ccff00"/>
 <node CREATED="1574773157813" ID="ID_756001144" MODIFIED="1574780938915" TEXT="Testy integracyjne">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -628,22 +651,223 @@ U&#380;ycie:</pre>
 </html>
 </richcontent>
 </node>
-<node CREATED="1574781426419" ID="ID_1389132856" MODIFIED="1574781538956" TEXT="Kiedy testy nie maj&#x105; sensu">
+<node CREATED="1574781426419" ID="ID_1389132856" MODIFIED="1574843053358" TEXT="Kiedy stosowa&#x107; testy, wyr&#xf3;&#x17c;nianie jednostek DDD">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      Je&#347;eli
+      Je&#347;li widzimy klasy kt&#243;re maj&#261; niewiele kodu, kt&#243;ry jest typowo glue code (infrastrukturalny), bardzo boilerplate to mockowanie tego nie b&#281;dzie dobrym podej&#347;ciem (bo mamy do czynienia z opakowaniem,
+    </p>
+    <p>
+      nie ma &#380;adnego procesu). Przy glue codzie, adapterze dopasowuj&#261;cym wywo&#322;ania (np. proste wywo&#322;anie repository przez us&#322;ug&#281; jest tylko adapterem).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      W opozycji do kodu kt&#243;ry ma jakie&#347; branche (if, else, regu&#322;a, polityka), je&#347;li mamy decyzyjno&#347;&#263;, wtedy mo&#380;na przymierzy&#263; si&#281; do mockowania i testy jednostkowe. Ich zadaniem jest testowanie tej decyzyjno&#347;ci,
+    </p>
+    <p>
+      procesu.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Czy je&#347;li dostajemy zale&#380;no&#347;&#263; kt&#243;r&#261; dostajemy sama jest strategi&#261;, wtedy wzgl&#281;dnie &#322;atwo mo&#380;na j&#261; zmockowa&#263;, bo decyzja o wywo&#322;aniach jest zawarta w samej strategii.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Repository nie jest strategi&#261;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Jednostk&#261; jest co&#347; wyodr&#281;bnione na podstawie przypadk&#243;w u&#380;ycia, biznesowym. Nie mockuje si&#281; byt&#243;w wchodz&#261;cych w sk&#322;ad jednostek.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mamy tendencj&#281; do patrzenia na&#160;&#160;aplikacj&#281;&#160;&#160;warstwowo. W podej&#347;ciu DDD logika jest w klasach domeny, application layer jest bardzo ograniczony , jest tylko adapterem. Czyli w tym podej&#347;ciu
+    </p>
+    <p>
+      nie mockujemy repository, testujemy go integracyjnie. Logik&#281; testujemy na obiektach domenowych.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Kroki wed&#322;ug DDD:
+    </p>
+    <ol>
+      <li>
+        load aggregate (jeden reprezentant, agregat root przez kt&#243;ry idzie komunikacja z t&#261; grup&#261;, nigdy nie mo&#380;na zrobi&#263; commanda na sk&#322;adowej agregatu inaczej ni&#380; za pomoc&#261; jego metody)
+      </li>
+      <li>
+        aggregate command() -&gt; wykonujemy akcj&#281; na agregacie - on zawiera wszystko co potrzebuje agregat do realizacji swego celu biznesowego
+      </li>
+      <li>
+        save aggregate() -&gt; utrwalamy stan
+      </li>
+      <li>
+        publish events()
+      </li>
+    </ol>
+    <p>
+      W tym procesie najwa&#380;niejszy jest pkt.&#160;&#160;2, tam wykonuje si&#281; logika dlatego ten krok nale&#380;y przetestowa&#263; oddzielnie. Ten krok nale&#380;y wykona&#263; w izolacji testem jednostkowym.&#160;&#160;Reszt&#281; krok&#243;w testujemy testem integracyjnym.
+    </p>
+    <p>
+      W DDD obiekty realizuj&#261;ce logik&#281; nie gadaj&#261; z repo, nie gadaj&#261; z us&#322;ugami, dostaj&#261; tylko obiekty. Utrwalamy ca&#322;y agregat.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      W architekturze layer cz&#281;sto mamy do czynienia z prostym modelem encyjnym, bez &#380;adnej logiki a ta zosta&#322;a przeniesiona do warstwy service/application bo gdzie&#347; musi si&#281; pojawi&#263; to
+    </p>
+  </body>
+</html>
+</richcontent>
+<arrowlink DESTINATION="ID_414147436" ENDARROW="Default" ENDINCLINATION="163;0;" ID="Arrow_ID_677796176" STARTARROW="None" STARTINCLINATION="331;0;"/>
+<node CREATED="1574841029066" ID="ID_285364157" MODIFIED="1574841029066" TEXT=""/>
+</node>
+<node CREATED="1574842991245" ID="ID_414147436" MODIFIED="1574843053358" TEXT="Przyk&#x142;ad z&#x142;&#x119;go mockowania">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@DisplayName</font>(<font color="#008000"><b>&quot;find by message using mocks&quot;</b></font>)<br /><font color="#808000">@Test<br />@Disabled<br /></font><font color="#000080"><b>void </b></font>testMock() <font color="#000080"><b>throws </b></font>Exception {<br />   <font color="#808080"><i>// given<br />   </i></font>TweetRepo tweetRepo = inMemoryFakeRepo(<i>tweetWithMsg</i>(<font color="#008000"><b>&quot;hello&quot;</b></font>),<br />      <i>tweetWithMsg</i>(<font color="#008000"><b>&quot;hello&quot;</b></font>));<br />   TweetAppService tweetAppService =<br />      <font color="#000080"><b>new </b></font>TweetAppServiceRepoDelegatingImpl(tweetRepo);<br /><br />   <font color="#808080"><i>// when<br />   </i></font>Collection&lt;Tweet&gt; allTweets = tweetAppService<br />      .findByMsg(<font color="#008000"><b>&quot;hello&quot;</b></font>);<br /><br />   <font color="#808080"><i>// then<br />   </i></font><i>assertThat</i>(allTweets).hasSize(<font color="#0000ff">2</font>);<br />}<br /><br /><font color="#000080"><b>private </b></font>TweetRepo inMemoryFakeRepo(Tweet... tweet) {<br />   <font color="#808080"><i>// we should not mock any specific methods here, because we<br />   // could implement the other way and still have exactly the<br />   // same results (like findAll and call stream.filter())<br />   </i></font>TweetRepo mock = <i>mock</i>(TweetRepo.<font color="#000080"><b>class</b></font>);<br />   <i>when</i>(mock.findByMessage(<i>anyString</i>()))<br />      .thenReturn(List.<i>of</i>(tweet));<br />   <font color="#000080"><b>return </b></font>mock;<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@Service<br /></font><font color="#000080"><b>public class </b></font>TweetAppServiceRepoDelegatingImpl <font color="#000080"><b>implements </b></font>TweetAppService {<br /><br />   <font color="#000080"><b>private </b></font>TweetRepo <font color="#660e7a"><b>tweetRepo</b></font>;<br /><br />   <font color="#000080"><b>public </b></font>TweetAppServiceRepoDelegatingImpl(TweetRepo tweetRepo) {<br />      <font color="#000080"><b>this</b></font>.<font color="#660e7a"><b>tweetRepo </b></font>= tweetRepo;<br />   }<br /><br />   <font color="#808000">@Override<br />   </font><font color="#000080"><b>public void </b></font>createNewTweet(String msg) {<br />      <font color="#660e7a"><b>tweetRepo</b></font>.save(<font color="#000080"><b>new </b></font>Tweet(msg, defaultAuthor()));<br />   }<br /><br />   <font color="#808000">@Override<br />   </font><font color="#000080"><b>public </b></font>Collection&lt;Tweet&gt; findByMsg(String msg) {<br />      <font color="#000080"><b>return </b></font><b><font color="#660e7a">tweetRepo</font></b>.findAll().stream()<br />         .filter(t -&gt; <font color="#660e7a">msg</font>.equals(t.getMessage()))<br />         .collect(Collectors.<i>toList</i>());<br />      <font color="#808080"><i>// Now, try to uncomment this code and run test &quot;find by<br />      // message using mocks&quot; again - now, this time it should pass<br />      // return tweetRepo.findByMessage(msg);<br />   </i></font>}<br /><br />   <font color="#000080"><b>private </b></font>String defaultAuthor() {<br />      <font color="#000080"><b>return </b></font><b><font color="#008000">&quot;goobar&quot;</font></b>;<br />   }<br />}</pre>
+  </body>
+</html>
+</richcontent>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_414147436" ENDARROW="Default" ENDINCLINATION="163;0;" ID="Arrow_ID_677796176" SOURCE="ID_1389132856" STARTARROW="None" STARTINCLINATION="331;0;"/>
+</node>
+</node>
+<node CREATED="1574843073919" ID="ID_813334677" MODIFIED="1574843103930" POSITION="right" TEXT="Programowanie reaktywne">
+<cloud COLOR="#ffcccc"/>
+</node>
+<node CREATED="1574843125039" ID="ID_328884833" MODIFIED="1574843225767" POSITION="left" TEXT="Architektura">
+<node CREATED="1574841559632" ID="ID_1984439955" MODIFIED="1574841596509" TEXT="Domain Driven Development"/>
+<node CREATED="1574780218589" ID="ID_1502084458" MODIFIED="1574780242393" TEXT="Architektura warstwowa vs heksagonalna Ports -Adapters"/>
+<node CREATED="1574841576743" ID="ID_1831841956" MODIFIED="1574846067937" TEXT="Test Driven Development i Ports Adapters"/>
+<node CREATED="1574846378166" ID="ID_37503193" MODIFIED="1574846390891" TEXT=" Preferowany spos&#xf3;b konteneryzacji to ma&#x142;y kontener np tomcat, wrzucony na Dockera i zarz&#x105;dzany Qubernetesem)."/>
+</node>
+<node CREATED="1574843235419" ID="ID_125913200" MODIFIED="1574846584937" POSITION="left" TEXT="Spring Boot i dobre praktyki konfiguracji">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Zbi&#243;r konwencji konfiugracyjnych pozwalaj&#261;cy na niedookre&#347;lanie pewnych element&#243;w np. wersji. To wsp&#243;lny parent z okre&#347;lonymi dependencymanagement. Mo&#380;na nie u&#380;ywa&#263; parenta tylko zrobi&#263; sobie dependencymanagement sami.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Startery s&#261; paczkami , ka&#380;da z nich ma wiele zale&#380;no&#347;ci.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Otwieraj&#261;c starter widziemy jego zale&#380;no&#347;ci. Starter ma pewn&#261; wersj&#281;. Na jej podstawie okre&#347;la zgodno&#347;&#263; innych zale&#380;no&#347;ci.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Spring Boot ma te&#380; cz&#281;&#347;&#263; javow&#261;. Zawiera seri&#281; autokonfigurator&#243;w, kt&#243;re pod pewnymi warunkami (obecno&#347;&#263; na classpath, zmiennej,klasy, propertisa,obecno&#347;&#263; startera) za&#322;aduje odpowiednie biblioteki.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      mvn dependency:list | grep
+    </p>
+    <p>
+      Je&#347;li nie przeszkadza to nie excludowa&#263;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Np
+    </p>
+    <p>
+      spring-boot-starter-test dodaje dependency do junit4 i jupyter (junit5) -&gt; &#380;eby nie miesza&#322;y si&#281; importy mo&#380;na wyekskludowa&#263; junit &lt;exclusion&gt;&lt;groupId&gt;junit&lt;/groupId&gt;&lt;artifactId&gt;junit&lt;/artifactId&gt;&lt;/exclusion&gt;
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<cloud COLOR="#66ff66"/>
+<node CREATED="1574844088909" ID="ID_102057145" MODIFIED="1574844118942" TEXT="Umbralla projects">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Projekty parasolowe kt&#243;rych celem jest zarz&#261;dzanie zale&#380;no&#347;ciami.
     </p>
   </body>
 </html>
 </richcontent>
 </node>
+<node CREATED="1574845673709" ID="ID_324475603" MODIFIED="1574846041001" TEXT="Importowanie dependency management">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Jako parent nie musimy ustawia&#263; spring boota, mo&#380;emy zrobi&#263; projekt umbrella, kt&#243;ry nie ma ustawionego parenta na spring boot ale dziedziczy z niego tylko
+    </p>
+    <p>
+      dependency management (nie dostaniemy niczego co w SpringBoot jest dodane jako zwyk&#322;e &lt;dependency&gt;, poza DM) . W naszym projekcie jako parent ustawiamy ten nasz umbrella, a nie Spring Boot.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      BOM - pom zawieraj&#261;cy tylko wersje (xxx of materials)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Fragment pom z projektu umbrella dziedzicz&#261;cy dependencyManagement z projektu spring boota.
+    </p>
+    <pre class="c-mrkdwn__pre" data-stringify-type="pre">&lt;dependencyManagement&gt;<br />&#x9;&#x9;&lt;dependencies&gt;<br />&#x9;&#x9;&#x9;&lt;dependency&gt;<br />&#x9;&#x9;&#x9;&#x9;&lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;<br />&#x9;&#x9;&#x9;&#x9;&lt;artifactId&gt;spring-boot-dependencies&lt;/artifactId&gt;<br />&#x9;&#x9;&#x9;&#x9;&lt;version&gt;${spring-boot.version}&lt;/version&gt;<br />&#x9;&#x9;&#x9;&#x9;&lt;type&gt;pom&lt;/type&gt;<br />&#x9;&#x9;&#x9;&#x9;&lt;scope&gt;import&lt;/scope&gt;<br />&#x9;&#x9;&#x9;&lt;/dependency&gt;<br />&#x9;&#x9;&lt;/dependencies&gt;<br />&#x9;&lt;/dependencyManagement&gt;</pre>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1574781742855" ID="ID_1345842995" MODIFIED="1574781750933" POSITION="left" TEXT="Domain driven development">
-<node CREATED="1574781752189" ID="ID_67094534" MODIFIED="1574781755275" TEXT="polityki"/>
+</node>
+<node CREATED="1574846109249" ID="ID_326552104" MODIFIED="1574846511409" POSITION="right" TEXT="Linki">
+<cloud COLOR="#cc99ff"/>
+<node CREATED="1574846113095" ID="ID_612735272" LINK="https://www.youtube.com/watch?v=wwi1wXOFaA8" MODIFIED="1574846487491" TEXT="Prezentacja po&#x15b;wi&#x119;cona TDD"/>
+<node CREATED="1574844439087" ID="ID_739718076" LINK="https://github.com/spring-projects/spring-boot/tree/master/spring-boot-project/spring-boot-starters" MODIFIED="1574844611680" TEXT="Spring boot kody na GitHub, lista starter&#xf3;w"/>
 </node>
 </node>
 </map>
