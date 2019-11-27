@@ -728,7 +728,7 @@ U&#380;ycie:</pre>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_414147436" ENDARROW="Default" ENDINCLINATION="163;0;" ID="Arrow_ID_677796176" SOURCE="ID_1389132856" STARTARROW="None" STARTINCLINATION="331;0;"/>
 </node>
 </node>
-<node CREATED="1574843073919" HGAP="165" ID="ID_813334677" MODIFIED="1574855659546" POSITION="right" TEXT="Programowanie reaktywne" VSHIFT="18">
+<node CREATED="1574843073919" HGAP="165" ID="ID_813334677" MODIFIED="1574864781026" POSITION="right" TEXT="Programowanie reaktywne" VSHIFT="18">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -750,7 +750,7 @@ U&#380;ycie:</pre>
       
     </p>
     <p>
-      Implementacji dostarczaj&#261; dostawcy.
+      Implementacji dostarczaj&#261; dostawcy: RxJava2, ProjectReactor, AkkaStreams.
     </p>
     <p>
       
@@ -758,11 +758,25 @@ U&#380;ycie:</pre>
     <p>
       Te interfejsy s&#261; niewystarczaj&#261;ce i komunikacja z ich po&#347;rednictwem by&#322;aby niewygodna.
     </p>
+    <p>
+      
+    </p>
+    <p>
+      Istnieje pewne podobie&#324;stwo pomi&#281;dzy strumieniami Java8 i Rx
+    </p>
+    <ul>
+      <li>
+        jedne s&#261; push(rx) a drugie pop(java)
+      </li>
+      <li>
+        strumienie javowe s&#261; jednokrotne a rx wielokrotne
+      </li>
+    </ul>
   </body>
 </html>
 </richcontent>
 <cloud COLOR="#ffcccc"/>
-<node CREATED="1574853583555" ID="ID_1678386152" MODIFIED="1574854999046" TEXT="Standardowa obs&#x142;uga &#x17c;&#x105;dania">
+<node CREATED="1574853583555" ID="ID_1678386152" LINK="https://github.com/mikewojtyna/efficient-java/blob/master/src/main/java/pro/buildmysoftware/efficientjava/newio/server/EchoServer.java" MODIFIED="1574859185982" TEXT="Standardowa obs&#x142;uga &#x17c;&#x105;dania">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -810,10 +824,452 @@ U&#380;ycie:</pre>
     <p>
       W p&#281;tli pobieramy selektory reprezentuj&#261;ce klient&#243;w, wybieramy te, kt&#243;re s&#261; gotowe do odbioru i piszemy do nich.
     </p>
+    <p>
+      
+    </p>
+    <p>
+      https://github.com/mikewojtyna/efficient-java/blob/master/src/main/java/pro/buildmysoftware/efficientjava/newio/server/EchoServer.java
+    </p>
   </body>
 </html>
 </richcontent>
 <arrowlink DESTINATION="ID_1420432324" ENDARROW="Default" ENDINCLINATION="956;73;" ID="Arrow_ID_602685065" STARTARROW="None" STARTINCLINATION="1597;452;"/>
+</node>
+<node CREATED="1574859581218" ID="ID_312242938" MODIFIED="1574868662775" TEXT="Reactor i WebFlux">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Reactor - zbi&#243;r wielu klas , bibliotek&#261; umo&#380;liwiaj&#261;c&#261; pisanie kodu reaktywnego, mo&#380;na go u&#380;ywa&#263; z innymi biblitekami&#160;&#160;RxJava2, ProjectReactor, AkkaStreams, poniewa&#380; maj&#261; wsp&#243;lne interfejsy i mo&#380;na je u&#380;ywa&#263; zamiennie.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Bibliotek&#281; t&#281; tak samo jak webflux wnosi starter :
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">spring-boot-starter-webflux
+
+ </pre>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Najwa&#380;niejsze klasy Reactor to Mono(co najwy&#380;ej jeden element/wiadomo&#347;&#263;) i&#160;&#160;Flux(wiele element&#243;w/wiadomo&#347;ci).
+    </p>
+    <p>
+      Flux.just(&quot;pierwszy&quot;,&quot;drugi&quot;)
+    </p>
+    <p>
+      Mono.just(&quot;tylko jeden&quot;) - dzia&#322;a troch&#281; jak Optional
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Publisher jest czym&#347; co publikuje wiadomo&#347;ci, mo&#380;emy si&#281; na nim zasubskrybowa&#263; za pomoc&#261; interfejsu Subscriber.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      publisher.subscribe()- pozwala na zarejestrowanie handler&#243;w, kt&#243;re zostan&#261;&#160;&#160;wywo&#322;ane gdy co&#347; si&#281; zadzieje.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Interfejsy mo&#380;na adaptowa&#263; jedne do drugich. Np&#160;&#160;Flux.from(publisher) - publisher jest cz&#281;&#347;ci&#261; innej implementacji - warunek musz&#261; by&#263; zgodne ze specyfikacj&#261; ReactiveStreams.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1574861867065" ID="ID_1882296978" MODIFIED="1574862208350" TEXT="Testy">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Programowanie reaktywne musi by&#263; testowane w specjalny spos&#243;b . S&#322;u&#380;y do tego klasa pomocnicza StepVerifier. Pozwala ona expectowa&#263; dowolny krok naszego strumienia.
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        przekazuj&#261;c warto&#347;&#263; kt&#243;rej si&#281; spodziewamy
+      </li>
+      <li>
+        przekazuj&#261;c asercj&#281;
+      </li>
+      <li>
+        uruchomienie lambdy expectuj&#261;cy nast&#281;pny match
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>public class </b></font>StepVerifierExampleTest {<br />   <font color="#808080"><i>// @formatter:off<br />   </i></font><font color="#808000">@DisplayName</font>(<br />      <font color="#008000"><b>&quot;show how to use step verifier&quot;<br />   </b></font>)<br />   <font color="#808080"><i>// @formatter:on<br />   </i></font><font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>test() <font color="#000080"><b>throws </b></font>Exception {<br />      Publisher&lt;String&gt; flux = Flux.<i>just</i>(<font color="#0000ff">1</font>, <font color="#0000ff">2</font>, <font color="#0000ff">3</font>)<br />         .map(String::<i>valueOf</i>);<br /><br />      StepVerifier.<i>create</i>(flux)<br />         <font color="#808080"><i>// @formatter:off<br /><br />         </i></font>.expectSubscription()<br />         .expectNext(<font color="#008000"><b>&quot;1&quot;</b></font>)<br />         .assertNext(s -&gt; <i>assertThat</i>(s).isEqualTo(<br />            <font color="#008000"><b>&quot;2&quot;</b></font>))<br />         .expectNextMatches(s -&gt; <font color="#008000"><b>&quot;3&quot;</b></font>.equals(s))<br /><font color="#808080"><i>// @formatter:on<br />         </i></font>.verifyComplete();<br />   }<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      Wi&#281;kszo&#347;&#263; logiki reaktywnej da si&#281; przetestowa&#263; w podobny spos&#243;b, bo na ko&#324;cu lec&#261; sygna&#322;y, wynik jest prosty, niezale&#380;ny od by&#263; mo&#380;e z&#322;o&#380;onego procesu jego pozyskania.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574862593723" ID="ID_1578366213" MODIFIED="1574865242173" TEXT="Hot vs cold streams">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://projectreactor.io/docs/core/release/reference/
+    </p>
+    <p>
+      
+    </p>
+    <h4 id="reactive.hotCold">
+      3.3.6. Hot vs Cold
+    </h4>
+    <div class="paragraph">
+      <p>
+        The Rx family of reactive libraries distinguishes two broad categories of reactive sequences: <strong>hot</strong>&#160;and <strong>cold</strong>. This distinction mainly has to do with how the reactive stream reacts to subscribers:
+      </p>
+    </div>
+    <div class="ulist">
+      <ul>
+        <li>
+          <p>
+            A <strong>Cold</strong>&#160;sequence starts anew for each <code>Subscriber</code>, including at the source of data. For example, if the source wraps an HTTP call, a new HTTP request is made for each subscription.
+          </p>
+        </li>
+        <li>
+          <p>
+            A <strong>Hot</strong>&#160;sequence does not start from scratch for each <code>Subscriber</code>. Rather, late subscribers receive signals emitted <em>after</em>&#160;they subscribed. Note, however, that some hot reactive streams can cache or replay the history of emissions totally or partially. From a general perspective, a hot sequence can even emit when no subscriber is listening (an exception to the &#8220;nothing happens before you subscribe&#8221; rule).
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="paragraph">
+      <p>
+        For more information on hot vs cold in the context of Reactor, see <a href="https://projectreactor.io/docs/core/release/reference/#reactor.hotCold">this reactor-specific section</a>.
+      </p>
+    </div>
+    <div class="paragraph">
+      <p>
+        <a href="https://github.com/reactor/reactor-core/edit/master/docs/asciidoc/reactiveProgramming.adoc" class="fa fa-edit" title="Suggest an edit to the above section via github" target="_blank" rel="noopener">Suggest Edit</a>&#160;to &quot;<a href="https://projectreactor.io/docs/core/release/reference/#intro-reactive">Introduction to Reactive Programming</a>&quot;
+      </p>
+    </div>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>public class </b></font>ColdAndHotStreamsExampleTest {<br />   <font color="#808080"><i>// @formatter:off<br />   </i></font><font color="#808000">@DisplayName</font>(<br />      <font color="#008000"><b>&quot;cold stream example&quot;<br />   </b></font>)<br />   <font color="#808080"><i>// @formatter:on<br />   </i></font><font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>cold() <font color="#000080"><b>throws </b></font>Exception {<br />      Flux&lt;Long&gt; ticks = Flux.<i>interval</i>(Duration.<i>ofSeconds</i>(<font color="#0000ff">1</font>));<br /><br />      ticks.subscribe(System.<font color="#660e7a"><b><i>out</i></b></font>::println);<br />      Thread.<i>sleep</i>(<font color="#0000ff">2000</font>);<br />      ticks.subscribe(System.<font color="#660e7a"><b><i>out</i></b></font>::println);<br /><br />      Thread.<i>sleep</i>(<font color="#0000ff">5000</font>);<br />   }<br /><br />   <font color="#808080"><i>// @formatter:off<br />   </i></font><font color="#808000">@DisplayName</font>(<br />      <font color="#008000"><b>&quot;hot stream example&quot;<br />   </b></font>)<br />   <font color="#808080"><i>// @formatter:on<br />   </i></font><font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>hot() <font color="#000080"><b>throws </b></font>Exception {<br />      Flux&lt;Long&gt; ticks =<br />         Flux.<i>interval</i>(Duration.<i>ofSeconds</i>(<font color="#0000ff">1</font>)).share();<br /><br />      ticks.subscribe(System.<font color="#660e7a"><b><i>out</i></b></font>::println);<br />      Thread.<i>sleep</i>(<font color="#0000ff">2000</font>);<br />      ticks.subscribe(System.<font color="#660e7a"><b><i>out</i></b></font>::println);<br /><br />      Thread.<i>sleep</i>(<font color="#0000ff">5000</font>);<br />   }<br /><br />   <font color="#808080"><i>// @formatter:off<br />   </i></font><font color="#808000">@DisplayName</font>(<br />      <font color="#008000"><b>&quot;hot stream still requires at least subscription example&quot;<br />   </b></font>)<br />   <font color="#808080"><i>// @formatter:on<br />   </i></font><font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>hotSubscribe() <font color="#000080"><b>throws </b></font>Exception {<br />      Flux&lt;Long&gt; ticks = Flux.<i>interval</i>(Duration.<i>ofSeconds</i>(<font color="#0000ff">1</font>))<br />         .doOnNext(System.<font color="#660e7a"><b><i>out</i></b></font>::println).share();<br /><br />      Thread.<i>sleep</i>(<font color="#0000ff">2000</font>);<br />   }<br /><br />   <font color="#808080"><i>// @formatter:off<br />   </i></font><font color="#808000">@DisplayName</font>(<br />      <font color="#008000"><b>&quot;connectable flux example&quot;<br />   </b></font>)<br />   <font color="#808080"><i>// @formatter:on<br />   </i></font><font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>test() <font color="#000080"><b>throws </b></font>Exception {<br />      ConnectableFlux&lt;Long&gt; source = Flux<br />         .<i>interval</i>(Duration.<i>ofSeconds</i>(<font color="#0000ff">1</font>)).publish();<br /><br />      source.subscribe(System.<font color="#660e7a"><b><i>out</i></b></font>::println);<br />      source.connect();<br />      Thread.<i>sleep</i>(<font color="#0000ff">2000</font>);<br />      source.subscribe(System.<font color="#660e7a"><b><i>out</i></b></font>::println);<br /><br />      Thread.<i>sleep</i>(<font color="#0000ff">5000</font>);<br />   }<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      Subskrypcja 1 po dw&#243;ch sekundach subskrybuje si&#281; drugi, i potem czekamy 5 sekund.
+    </p>
+    <p>
+      Cold produkuje po zasubskrybowaniu co subskrybent (od pocz&#261;tku).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      HOT:
+    </p>
+    <p>
+      Subskrybujemy si&#281; , wcze&#347;niej robimy share() - stworzy&#322; Hotflaxa z oryginalnego, hot nie respektuje tego &#380;e musi odtwarza&#263; sygna&#322;y od pocz&#261;tku po pod&#322;&#261;czeniu si&#281;, on kontynuuje zdarzenia dla nowego
+    </p>
+    <p>
+      subskrybenta. (czyli je&#347;li pierwszy w&#261;tek skonsumowa&#322; 0,1, to drugi subskrybent zacznie od 2)
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808080"><i>// @formatter:off<br /></i></font><font color="#808000">@DisplayName</font>(<br />   <font color="#008000"><b>&quot;hot stream still requires at least subscription example&quot;<br /></b></font>)<br /><font color="#808080"><i>// @formatter:on<br /></i></font><font color="#808000">@Test<br /></font><font color="#000080"><b>void </b></font>hotSubscribe() <font color="#000080"><b>throws </b></font>Exception {<br />   Flux&lt;Long&gt; ticks = Flux.<i>interval</i>(Duration.<i>ofSeconds</i>(<font color="#0000ff">1</font>))<br />      .doOnNext(System.<font color="#660e7a"><b><i>out</i></b></font>::println).share();<br /><br />   Thread.<i>sleep</i>(<font color="#0000ff">2000</font>);<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Wisi bo nie pod&#322;&#261;czy&#322; si&#281; nowy subskrybent.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574862729068" ID="ID_1720680666" MODIFIED="1574862858241" TEXT="ConnectableFlux">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>public class </b></font>AutoConnectExampleTest {<br />   <font color="#808000">@DisplayName</font>(<font color="#008000"><b>&quot;auto connect example (from documentation)&quot;</b></font>)<br />   <font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>test() <font color="#000080"><b>throws </b></font>Exception {<br />      Flux&lt;Integer&gt; source = Flux.<i>range</i>(<font color="#0000ff">1</font>, <font color="#0000ff">3</font>)<br />         .doOnSubscribe(s -&gt; System.<font color="#660e7a"><b><i>out<br />            </i></b></font>.println(<font color="#008000"><b>&quot;subscribed to source&quot;</b></font>));<br /><br />      Flux&lt;Integer&gt; autoCo = source.publish().autoConnect(<font color="#0000ff">2</font>);<br /><br />      autoCo.subscribe(System.<font color="#660e7a"><b><i>out</i></b></font>::println, e -&gt; {<br />      }, () -&gt; {<br />      });<br />      System.<font color="#660e7a"><b><i>out</i></b></font>.println(<font color="#008000"><b>&quot;subscribed first&quot;</b></font>);<br />      System.<font color="#660e7a"><b><i>out</i></b></font>.println(<font color="#008000"><b>&quot;subscribing second&quot;</b></font>);<br />      autoCo.subscribe(System.<font color="#660e7a"><b><i>out</i></b></font>::println, e -&gt; {<br />      }, () -&gt; {<br />      });<br />   }<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      Flux&lt;Integer&gt; autoCo = source.publish().autoConnect(<font color="#0000ff">2</font>);
+    </p>
+    <p>
+      source.publish()-&gt; zwraca
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">ConnectableFlux</pre>
+    <p>
+      
+    </p>
+    <p>
+      metoda autoconnect m&#243;wi &#380;eby aktywowa&#263; po po&#322;&#261;czeniu 2 subskrybent&#243;w (w odr&#243;&#380;nienieniu od connect(), kt&#243;ry uruchomi od razu))
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574867195987" ID="ID_1710229213" MODIFIED="1574867198704" TEXT="operatory">
+<node CREATED="1574863153175" ID="ID_589926972" MODIFIED="1574863297381" TEXT="map i flatMap">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>public class </b></font>OperatorExamplesTest {<br />   <font color="#808000">@DisplayName</font>(<font color="#008000"><b>&quot;map example&quot;</b></font>)<br />   <font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>mapExample() <font color="#000080"><b>throws </b></font>Exception {<br />      StepVerifier.<i>create</i>(Mono.<i>just</i>(<font color="#008000"><b>&quot;hello&quot;</b></font>).log().map(Hello::<font color="#000080"><b>new</b></font>)<br />         .map(m -&gt; m)).expectNext(<font color="#000080"><b>new </b></font>Hello(<font color="#008000"><b>&quot;hello&quot;</b></font>))<br />         .expectComplete().verify();<br />   }<br /><br />   <font color="#808000">@DisplayName</font>(<font color="#008000"><b>&quot;flat map example&quot;</b></font>)<br />   <font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>flatMapExample() <font color="#000080"><b>throws </b></font>Exception {<br />      StepVerifier.<i>create</i>(Mono.<i>just</i>(<font color="#008000"><b>&quot;hello&quot;</b></font>).log().map(Hello::<font color="#000080"><b>new</b></font>)<br />         .flatMap(m -&gt; Mono.<i>fromCallable</i>(() -&gt; <font color="#660e7a">m</font>)))<br />         .expectNext(<font color="#000080"><b>new </b></font>Hello(<font color="#008000"><b>&quot;hello&quot;</b></font>)).verifyComplete();<br />   }<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      A----B----C
+    </p>
+    <p>
+      je&#347;li stworzymy publishery to flatMap stworzy co&#347; takigo:
+    </p>
+    <p>
+      A0---A1---A2---B0---B1---B2---C0---C1---C2
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1574863377156" ID="ID_78067105" MODIFIED="1574863620642" TEXT="FlatMap">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>public class </b></font>FlatMapExamplesTest {<br />   <font color="#808000">@DisplayName</font>(<font color="#008000"><b>&quot;flat map blocking example&quot;</b></font>)<br />   <font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>test() <font color="#000080"><b>throws </b></font>Exception {<br />      Flux.<i>range</i>(<font color="#0000ff">1</font>, <font color="#0000ff">10</font>).log()<br />         .flatMap(i -&gt; Mono.<i>fromRunnable</i>(() -&gt; blockingTask())<br />            .subscribeOn(Schedulers.<i>elastic</i>()), <font color="#0000ff">3</font>)<br />         .blockLast();<br />   }<br /><br />   <font color="#000080"><b>private void </b></font>blockingTask() {<br />      <font color="#000080"><b>try </b></font>{<br />         Thread.<i>sleep</i>(<font color="#0000ff">2000</font>);<br />         System.<font color="#660e7a"><b><i>out</i></b></font>.println(<font color="#008000"><b>&quot;hello&quot;</b></font>);<br />      }<br />      <font color="#000080"><b>catch </b></font>(InterruptedException e) {<br />         <font color="#000080"><b>throw new </b></font>RuntimeException(e.getMessage(), e);<br />      }<br />   }<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;Flux.<i>range</i>(<font color="#0000ff">1</font>, <font color="#0000ff">10</font>).log()&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.flatMap(i -&gt; Mono.<i>fromRunnable</i>(() -&gt; blockingTask())&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.subscribeOn(Schedulers.<i>elastic</i>()), <font color="#0000ff">3</font>)&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.blockLast();
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Spos&#243;b obs&#322;ugi wielow&#261;tkowej, zostanie odpalone w trzech w&#261;tkach.Mamy 10 element&#243;w, dzielimy je po trzy , ka&#380;da tr&#243;jka zostanie odpalon na elastycznych schedulerach.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Scheduler jest jest abstrakcj&#261; ponad Excecutorami.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1574863690476" ID="ID_1008745289" MODIFIED="1574863784879" TEXT="Parallel">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>public class </b></font>ParallelExampleTest {<br />   <font color="#808080"><i>// @formatter:off<br />   </i></font><font color="#808000">@DisplayName</font>(<br />      <font color="#008000"><b>&quot;show how to use parallel mapping&quot;<br />   </b></font>)<br />   <font color="#808080"><i>// @formatter:on<br />   </i></font><font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>parallel() <font color="#000080"><b>throws </b></font>Exception {<br />      Flux.<i>range</i>(<font color="#0000ff">1</font>, <font color="#0000ff">10</font>).parallel().runOn(Schedulers.<i>elastic</i>())<br />         .map(i -&gt; {<br />            <font color="#000080"><b>try </b></font>{<br />               Thread.<i>sleep</i>(<font color="#0000ff">1000</font>);<br />               <font color="#000080"><b>return </b></font>i;<br />            }<br />            <font color="#000080"><b>catch </b></font>(InterruptedException e) {<br />               <font color="#000080"><b>throw new </b></font>RuntimeException(e);<br />            }<br />         }).log().subscribe(System.<font color="#660e7a"><b><i>out</i></b></font>::println);<br /><br />      Thread.<i>sleep</i>(<font color="#0000ff">2000</font>);<br />   }<br /><br />   <font color="#808080"><i>// @formatter:off<br />   </i></font><font color="#808000">@DisplayName</font>(<br />      <font color="#008000"><b>&quot;show how NOT to use parallel mapping&quot;<br />   </b></font>)<br />   <font color="#808080"><i>// @formatter:on<br />   </i></font><font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>parallelBad() <font color="#000080"><b>throws </b></font>Exception {<br />      Flux.<i>range</i>(<font color="#0000ff">1</font>, <font color="#0000ff">10</font>).parallel()<br />         <font color="#808080"><i>// Only this line changed - map is invoked before<br />         // runOn! Therefore, it doesn't run on elastic<br />         // scheduler.<br />         </i></font>.map(i -&gt; {<br />            <font color="#000080"><b>try </b></font>{<br />               Thread.<i>sleep</i>(<font color="#0000ff">1000</font>);<br />               <font color="#000080"><b>return </b></font>i;<br />            }<br />            <font color="#000080"><b>catch </b></font>(InterruptedException e) {<br />               <font color="#000080"><b>throw new </b></font>RuntimeException(e);<br />            }<br />         }).runOn(Schedulers.<i>elastic</i>()).log()<br />         .subscribe(System.<font color="#660e7a"><b><i>out</i></b></font>::println);<br /><br />      <font color="#808080"><i>// we don't even need Thread.sleep here to see the problem<br />      // (mapping happens on a single thread)<br />   </i></font>}<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      Warto&#347;ci dostajemy du&#380;o szybciej, jednak nikt nie gwarantuje nam zachowania kolejno&#347;ci.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1574864745401" ID="ID_1428460398" MODIFIED="1574864877489" TEXT="Finite and Infinite">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>public class </b></font>FiniteAndInfiniteFluxExamplesTest {<br />   <font color="#808000">@DisplayName</font>(<font color="#008000"><b>&quot;show map operator&quot;</b></font>)<br />   <font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>mapFinite() <font color="#000080"><b>throws </b></font>Exception {<br />      Flux&lt;String&gt; flux = Flux.<i>just</i>(<font color="#008000"><b>&quot;hi&quot;</b></font>, <font color="#008000"><b>&quot;hello&quot;</b></font>);<br /><br />      flux.log().map(String::length).filter(l -&gt; l &gt; <font color="#0000ff">2</font>)<br />         .subscribe(System.<font color="#660e7a"><b><i>out</i></b></font>::println);<br />   }<br /><br />   <font color="#808000">@DisplayName</font>(<font color="#008000"><b>&quot;show working on infinite stream&quot;</b></font>)<br />   <font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>infinite() <font color="#000080"><b>throws </b></font>Exception {<br />      Flux&lt;Long&gt; flux = Flux.<i>interval</i>(Duration.<i>ofSeconds</i>(<font color="#0000ff">1</font>));<br /><br />      flux.log().subscribe(l -&gt; {<br />         <font color="#000080"><b>try </b></font>{<br />            System.<font color="#660e7a"><b><i>out</i></b></font>.println(<font color="#008000"><b>&quot;Subscriber 0 &quot; </b></font>+ l);<br />            Thread.<i>sleep</i>(<font color="#0000ff">5000</font>);<br />         }<br />         <font color="#000080"><b>catch </b></font>(InterruptedException e) {<br />            e.printStackTrace();<br />         }<br />      });<br />      flux.log().subscribe(l -&gt; System.<font color="#660e7a"><b><i>out<br />         </i></b></font>.println(<font color="#008000"><b>&quot;Subscriber 1: &quot; </b></font>+ l));<br /><br />      Thread.<i>sleep</i>(<font color="#0000ff">2000</font>);<br />   }<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      &#160;Flux&lt;Long&gt; flux = Flux.<i>interval</i>(Duration.<i>ofSeconds</i>(<font color="#0000ff">1</font>));
+    </p>
+    <p>
+      Jestem w stanie wyprodukowa&#263; co sekund&#281;, je&#347;li nie dasz rady przetworzy&#263; to dostaniesz wtedy gdy b&#281;dziesz m&#243;g&#322;.
+    </p>
+    <p>
+      Jest to punkt w kt&#243;rym wida&#263; r&#243;&#380;nic&#281; mi&#281;dzy stream(java) i rx
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1574867145000" ID="ID_1086971785" MODIFIED="1574867182339" TEXT="SubscribeOn i PublishOn">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>package </b></font>pro.buildmysoftware.webflux.examples.operators;<br /><br /><font color="#000080"><b>import </b></font>org.junit.jupiter.api.<font color="#808000">DisplayName</font>;<br /><font color="#000080"><b>import </b></font>org.junit.jupiter.api.<font color="#808000">Test</font>;<br /><font color="#000080"><b>import </b></font>reactor.core.publisher.Flux;<br /><font color="#000080"><b>import </b></font>reactor.core.scheduler.Schedulers;<br /><br /><font color="#000080"><b>public class </b></font>SubscribeAndPublishOnExampleTest {<br />   <font color="#808080"><i>// @formatter:off<br />   </i></font><font color="#808000">@DisplayName</font>(<font color="#008000"><b>&quot;subscribeOn example&quot;</b></font>)<br />   <font color="#808080"><i>// @formatter:on<br />   </i></font><font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>subscribeOn() <font color="#000080"><b>throws </b></font>Exception {<br />      Flux&lt;Integer&gt; flux = Flux.<i>range</i>(<font color="#0000ff">1</font>, <font color="#0000ff">10</font>);<br />      System.<font color="#660e7a"><b><i>out</i></b></font>.println(<font color="#008000"><b>&quot;Without subscribeOn (default thread)&quot;</b></font>);<br />      flux.log().blockLast();<br />      System.<font color="#660e7a"><b><i>out</i></b></font>.println(<font color="#008000"><b>&quot;With subscribeOn using single scheduler&quot;</b></font>);<br />      flux.subscribeOn(Schedulers.<i>single</i>()).log().blockLast();<br />      <font color="#808080"><i>//subscribeOn(); - ca&#322;y proces otrzymywania dzieje si&#281; na publisherze<br />   </i></font>}<br /><br />   <font color="#808080"><i>// @formatter:off<br />   </i></font><font color="#808000">@DisplayName</font>(<font color="#008000"><b>&quot;publishOn example&quot;</b></font>)<br />   <font color="#808080"><i>// @formatter:on<br />   </i></font><font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>publishOn() <font color="#000080"><b>throws </b></font>Exception {<br />      Flux&lt;Integer&gt; flux = Flux.<i>range</i>(<font color="#0000ff">1</font>, <font color="#0000ff">10</font>);<br />      System.<font color="#660e7a"><b><i>out</i></b></font>.println(<font color="#008000"><b>&quot;Publish on before log&quot;</b></font>);<br />      flux.publishOn(Schedulers.<i>single</i>()).log().blockLast();<br />      System.<font color="#660e7a"><b><i>out</i></b></font>.println(<font color="#008000"><b>&quot;Publish on after log&quot;</b></font>);<br />      flux.log().publishOn(Schedulers.<i>single</i>()).blockLast();<br />      <font color="#808080"><i>//publishOn()-od tego momentu publikuj mi na innym w&#261;tku<br />   </i></font>}<br />}<br /></pre>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1574867351531" ID="ID_1104413791" MODIFIED="1574867468131" TEXT="debugging">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>package </b></font>pro.buildmysoftware.webflux.examples.debug;<br /><br /><font color="#000080"><b>import </b></font>org.junit.jupiter.api.<font color="#808000">DisplayName</font>;<br /><font color="#000080"><b>import </b></font>org.junit.jupiter.api.<font color="#808000">Test</font>;<br /><font color="#000080"><b>import </b></font>org.reactivestreams.Publisher;<br /><font color="#000080"><b>import </b></font>reactor.core.publisher.Flux;<br /><font color="#000080"><b>import </b></font>reactor.core.publisher.Hooks;<br /><br /><font color="#000080"><b>public class </b></font>DebugExampleTest {<br />   <font color="#808080"><i>// @formatter:off<br />   </i></font><font color="#808000">@DisplayName</font>(<br />      <font color="#008000"><b>&quot;show debugging example using global hooks (costly)&quot;<br />   </b></font>)<br />   <font color="#808080"><i>// @formatter:on<br />   </i></font><font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>test0() <font color="#000080"><b>throws </b></font>Exception {<br />      Hooks.<i>onOperatorDebug</i>();<br />      Flux&lt;String&gt; flux =<br />         Flux.<i>just</i>(<font color="#0000ff">1</font>, <font color="#0000ff">2</font>).log().flatMap(<font color="#000080"><b>this</b></font>::handle);<br />      flux.subscribe();<br />   }<br /><br />   <font color="#808080"><i>// @formatter:off<br />   </i></font><font color="#808000">@DisplayName</font>(<br />      <font color="#008000"><b>&quot;show debugging example using checkpoint&quot;<br />   </b></font>)<br />   <font color="#808080"><i>// @formatter:on<br />   </i></font><font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>test1() <font color="#000080"><b>throws </b></font>Exception {<br />      Flux&lt;String&gt; flux = Flux.<i>just</i>(<font color="#0000ff">1</font>, <font color="#0000ff">2</font>).log().flatMap(<font color="#000080"><b>this</b></font>::handle)<br />         <font color="#808080"><i>// checkpoint should be constructed near the end of<br />         // the stream, to be able to instrument all operations<br />         </i></font>.checkpoint();<br />      flux.subscribe();<br />   }<br /><br />   <font color="#000080"><b>private </b></font>Publisher&lt;String&gt; handle(<font color="#000080"><b>int </b></font>i) {<br />      <font color="#000080"><b>throw new </b></font>RuntimeException(<font color="#008000"><b>&quot;exception when processing &quot; </b></font>+ i);<br />   }<br />}<br /></pre>
+    <p>
+      
+    </p>
+    <p>
+      Hooks.<i>onOperatorDebug</i>(); - informuje na kt&#243;rym operatorze wylecia&#322; b&#322;&#261;d, operacja bardzo kosztowna wydajno&#347;ciowo
+    </p>
+    <p>
+      Flux&lt;String&gt; flux = Flux.<i>just</i>(<font color="#0000ff">1</font>, <font color="#0000ff">2</font>).log().flatMap(<font color="#000080"><b>this</b></font>::handle) &#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#808080"><i>// checkpoint should be constructed near the end of&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;// the stream, to be able to instrument all operations&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </i></font>.checkpoint();
+    </p>
+    <p>
+      - drugi spos&#243;b znacznie mniej obci&#261;&#380;aj&#261;cy
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574867755896" ID="ID_614698306" MODIFIED="1574867755896" TEXT=""/>
+</node>
+<node CREATED="1574867762713" ID="ID_125537416" MODIFIED="1574868920276" TEXT="WebFlux">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Bibliotek&#281; t&#281; wnosi starter :
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">spring-boot-starter-webflux
+
+Webflux jest frameworkiem webowym zbudowanym na bazie projektu Reactor. Webflux jest altenatyw&#261; dla MVC. Od siebie dodaje aspekty programowania webowego.</pre>
+    <p>
+      
+    </p>
+    <p>
+      Mog&#261; istnie&#263; kontrolery, mo&#380;na u&#380;ywa&#263; tych samych adnotacji co przy mvc.
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@RestController<br />@RequestMapping</font>(<font color="#008000"><b>&quot;/controller/hello&quot;</b></font>)<br /><font color="#000080"><b>public class </b></font>ReactiveHelloController {<br />   <font color="#808000">@GetMapping</font>(produces = MediaType.<font color="#660e7a"><b><i>TEXT_EVENT_STREAM_VALUE</i></b></font>)<br />   <font color="#000080"><b>public </b></font>Flux&lt;Hello&gt; allMsgs() {<br />      <font color="#000080"><b>return </b></font>Flux.<i>interval</i>(Duration.<i>ofSeconds</i>(<font color="#0000ff">1</font>))<br />         .map(i -&gt; <font color="#000080"><b>new </b></font>Hello(<font color="#008000"><b>&quot;Hello &quot; </b></font>+ i));<br />   }<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      &#160;<font color="#808000">@GetMapping</font>(produces = MediaType.<font color="#660e7a"><b><i>TEXT_EVENT_STREAM_VALUE</i></b></font>) -&gt; ta linia ma ogromne znaczenie, poniewa&#380; ona powoduje &#380;e klient nie otrzyma odpowiedzi tylko b&#281;dzie czeka&#322;
+    </p>
+    <p>
+      na kolejne eventy.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Je&#347;li ustawiliby&#347;my typ na JSON to u&#380;ytkownik ko&#324;cowy nie zobaczy tego dopisywania, tylko jsona,
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@GetMapping</font>(produces = MediaType.<font color="#660e7a"><b><i>APPLICATION_JSON_UTF8_VALUE</i></b></font>)</pre>
+    <p>
+      Pr&#243;buje skompletowa&#263; odpowied&#378;, ale strumie&#324; jest niesko&#324;czony, wi&#281;c b&#281;dzie wisia&#322;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Dostajemy nowy spos&#243;b mapowania kontroler&#243;w (nie musz&#261; by&#263; reaktywne) robimy to przy pomocy RouterFunction .
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@Configuration<br /></font><font color="#000080"><b>public class </b></font>HandlerConfig {<br /><br />   <font color="#808000">@Bean<br />   </font><font color="#000080"><b>public </b></font>RouterFunction&lt;ServerResponse&gt; route(HelloHandler helloHandler) {<br />      <font color="#000080"><b>return </b></font>RouterFunctions<br />         .<i>route</i>(<i>GET</i>(<font color="#008000"><b>&quot;/hello&quot;</b></font>), helloHandler::hello);<br />   }<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      Mo&#380;na je &#322;&#261;czy&#263; je w chain
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>return </b></font>RouterFunctions<br />   .<i>route</i>(<i>GET</i>(<font color="#008000"><b>&quot;/hello&quot;</b></font>), helloHandler::hello).and(....);</pre>
+    <p>
+      
+    </p>
+    <p>
+      Mo&#380;na dodawa&#263; dowoln&#261; funkcj&#281;
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>return </b></font>RouterFunctions<br />   .<i>route</i>(<i>GET</i>(<font color="#008000"><b>&quot;/hello&quot;</b></font>), r-&gt;ServerResponse.<i>ok</i>().build());</pre>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">Inny spos&#243;b pisania test&#243;w. Nie mamy MockMVC (bo &#347;ci&#347;le &#322;&#261;czy si&#281; z API Servlet&#243;w).
+
+Mamy odpowiednik RestTemplate(zawsze jest blokuj&#261;ce), nazywa si&#281; WebClient (mo&#380;e by&#263; reaktywne, jest og&#243;lnego przeznaczenia).</pre>
+    <p>
+      WebClient jest og&#243;lnego przeznaczenia a nie dedykowany do test&#243;w. Zwraca Flux.
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@SpringBootTest<br />@AutoConfigureWebTestClient<br /></font><font color="#000080"><b>public class </b></font>HelloHandlerIntegrationTest {<br />   <font color="#808000">@Autowired<br />   </font><font color="#000080"><b>private </b></font>WebTestClient <font color="#660e7a"><b>webTestClient</b></font>;<br /><br />   <font color="#808080"><i>// @formatter:off<br />   </i></font><font color="#808000">@DisplayName</font>(<br />      <font color="#008000"><b>&quot;when GET on /hello, &quot; </b></font>+<br />      <font color="#008000"><b>&quot;then hello message with status 200 is returned&quot;<br />   </b></font>)<br />   <font color="#808080"><i>// @formatter:on<br />   </i></font><font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>test() <font color="#000080"><b>throws </b></font>Exception {<br />      <font color="#808080"><i>// when<br />      </i></font><font color="#660e7a"><b>webTestClient</b></font>.get().uri(<font color="#008000"><b>&quot;/hello&quot;</b></font>).exchange()<br />         <font color="#808080"><i>// then<br />         </i></font>.expectStatus().isOk().expectBody().jsonPath(<font color="#008000"><b>&quot;$.msg&quot;</b></font>)<br />         .isEqualTo(<font color="#008000"><b>&quot;hello&quot;</b></font>);<br />   }<br />}<br /></pre>
+    <p>
+      
+    </p>
+    <p>
+      Przy pomocy WebClient mo&#380;emy si&#281; dobra&#263; do cia&#322;a Flux zwracanego z innego serwisu:
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">WebClient wb;<br />wb.get().uri(<font color="#008000"><b>&quot;&quot;</b></font>).exchange().map(r-&gt;r.bodyToFlux())</pre>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1574843125039" ID="ID_328884833" MODIFIED="1574843225767" POSITION="left" TEXT="Architektura">
@@ -1066,15 +1522,36 @@ U&#380;ycie:</pre>
 <node CREATED="1574846113095" ID="ID_612735272" LINK="https://www.youtube.com/watch?v=wwi1wXOFaA8" MODIFIED="1574846487491" TEXT="Prezentacja po&#x15b;wi&#x119;cona TDD"/>
 <node CREATED="1574844439087" ID="ID_739718076" LINK="https://github.com/spring-projects/spring-boot/tree/master/spring-boot-project/spring-boot-starters" MODIFIED="1574844611680" TEXT="Spring boot kody na GitHub, lista starter&#xf3;w"/>
 <node CREATED="1574848630256" ID="ID_1657360382" LINK="http://www.querydsl.com/" MODIFIED="1574848645512" TEXT="QueryDSL"/>
-<node CREATED="1574853721580" ID="ID_263345616" LINK="https://www.reactivemanifesto.org/" MODIFIED="1574853738695" TEXT="Manifest programowania reaktywnego"/>
-<node CREATED="1574853933942" ID="ID_334741856" LINK="https://www.youtube.com/watch?v=gyMDRE_gg2k" MODIFIED="1574853949140" TEXT="Precentacja dotycz&#x105;ca Retpack"/>
-<node CREATED="1574854908903" ID="ID_482096914" LINK="https://github.com/r2dbc" MODIFIED="1574854936856" TEXT="Reaktywne sterowniki do baz relacyjnych - projekt eksperymentalny"/>
 <node CREATED="1574853033040" ID="ID_1935823768" LINK="https://github.com/ddd-by-examples/library" MODIFIED="1574853071788" TEXT="DDD by Examples"/>
+<node CREATED="1574859554859" ID="ID_1647435931" LINK="https://medium.com/olivers-tech-blog/profiling-with-java-agents-part-1-a-hello-world-example-d5531189c418" MODIFIED="1574859567445" TEXT="Java agent (AOP)"/>
+<node CREATED="1574861009343" ID="ID_897775662" MODIFIED="1574861014191" TEXT="Reaktywne">
+<node CREATED="1574853721580" ID="ID_263345616" LINK="https://www.reactivemanifesto.org/" MODIFIED="1574853738695" TEXT="Manifest programowania reaktywnego"/>
+<node CREATED="1574862315685" ID="ID_878967681" LINK="https://ratpack.io/manual/current/streams.html" MODIFIED="1574862325277" TEXT="RatPack">
+<node CREATED="1574853933942" ID="ID_334741856" LINK="https://www.youtube.com/watch?v=gyMDRE_gg2k" MODIFIED="1574862349656" TEXT="Prezentacja dotycz&#x105;ca Ratpack"/>
+</node>
+<node CREATED="1574854908903" ID="ID_482096914" LINK="https://github.com/r2dbc" MODIFIED="1574854936856" TEXT="Reaktywne sterowniki do baz relacyjnych - projekt eksperymentalny"/>
+<node CREATED="1574860343731" ID="ID_1745772201" LINK="https://blog.softwaremill.com/how-not-to-use-reactive-streams-in-java-9-7a39ea9c2cb3" MODIFIED="1574860393046" TEXT="How (not) to use Reactive Streams in Java 9+"/>
+<node CREATED="1574860670772" ID="ID_668374872" LINK="https://rxmarbles.com/" MODIFIED="1574860727415" TEXT="Understanding Marble Diagrams for Reactive Streams">
+<arrowlink DESTINATION="ID_668374872" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1281085005" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_668374872" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1281085005" SOURCE="ID_668374872" STARTARROW="None" STARTINCLINATION="0;0;"/>
+</node>
+</node>
 </node>
 <node CREATED="1574848969456" ID="ID_33004900" MODIFIED="1574854690320" POSITION="left" TEXT="Repozytoria kodu">
 <cloud COLOR="#ff33cc"/>
 <node CREATED="1574848975641" ID="ID_1141345053" LINK="https://github.com/mikewojtyna" MODIFIED="1574848994398" TEXT="Root"/>
-<node CREATED="1574854690320" ID="ID_1420432324" LINK="https://github.com/mikewojtyna/efficient-java" MODIFIED="1574854999046" TEXT="Efficient java - serwer NIO, minimalny system reaktywny">
+<node CREATED="1574854690320" ID="ID_1420432324" LINK="https://github.com/mikewojtyna/efficient-java" MODIFIED="1574859126999" TEXT="Efficient java - serwer NIO, minimalny system reaktywny">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://github.com/mikewojtyna/efficient-java/blob/master/src/main/java/pro/buildmysoftware/efficientjava/newio/server/EchoServer.java
+    </p>
+  </body>
+</html>
+</richcontent>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1420432324" ENDARROW="Default" ENDINCLINATION="956;73;" ID="Arrow_ID_602685065" SOURCE="ID_1678386152" STARTARROW="None" STARTINCLINATION="1597;452;"/>
 </node>
 <node CREATED="1574855228730" ID="ID_1938294586" LINK="https://github.com/mikewojtyna/ddd-training" MODIFIED="1574855244091" TEXT="DDD"/>
