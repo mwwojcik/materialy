@@ -351,8 +351,19 @@ a[-3::-1]&#160;&#160;# everything except the last two items, reversed</code></pr
 </node>
 <node CREATED="1562042713054" ID="ID_1351031867" MODIFIED="1562042716434" TEXT="Zadanie">
 <node CREATED="1562042718280" ID="ID_1072669312" LINK="http://archive.ics.uci.edu/ml/datasets/Pen-Based+Recognition+of+Handwritten+Digits?fbclid=IwAR1Z5D_J4yeK4FVGT4vAnRwSg3kAV7Ec1DIpCRBzk_ng5_dzGZdsSbpicaw" MODIFIED="1562042765012" TEXT="Dataset"/>
-<node CREATED="1562042732824" ID="ID_521355834" LINK="https://scikit-learn.org/stable/auto_examples/datasets/plot_digits_last_image.html?fbclid=IwAR3m5Qg4R0waYwo2USXQ3Gt1fLGMmG8rbg36HustofzqIZNODvVfw9bUs4s" MODIFIED="1562042774001" TEXT="Scikit przetwarzanie obrazu"/>
-<node CREATED="1562042750305" ID="ID_1052851366" LINK="https://johnloeber.com/docs/kmeans.html" MODIFIED="1562042788836" TEXT="Przyk&#x142;ady"/>
+<node CREATED="1562042732824" ID="ID_521355834" LINK="https://scikit-learn.org/stable/auto_examples/datasets/plot_digits_last_image.html?fbclid=IwAR3m5Qg4R0waYwo2USXQ3Gt1fLGMmG8rbg36HustofzqIZNODvVfw9bUs4s" MODIFIED="1562397540142" TEXT="Scikit przetwarzanie obrazu">
+<icon BUILTIN="yes"/>
+</node>
+<node CREATED="1562042750305" ID="ID_1052851366" LINK="https://johnloeber.com/docs/kmeans.html" MODIFIED="1562397544293" TEXT="Przyk&#x142;ady">
+<icon BUILTIN="yes"/>
+</node>
+<node CREATED="1562266718290" ID="ID_1828346548" LINK="https://www.kaggle.com/c/digit-recognizer" MODIFIED="1562266727424" TEXT="https://www.kaggle.com/c/digit-recognizer"/>
+<node CREATED="1562397473297" ID="ID_365591833" LINK="https://github.com/Datamine/MNIST-K-Means-Clustering/blob/master/Kmeans.ipynb" MODIFIED="1562397537061" TEXT="https://github.com/Datamine/MNIST-K-Means-Clustering/blob/master/Kmeans.ipynb">
+<icon BUILTIN="yes"/>
+</node>
+<node CREATED="1562397505432" ID="ID_768929147" LINK="https://www.kaggle.com/c/digit-recognizer" MODIFIED="1562397533903" TEXT="https://www.kaggle.com/c/digit-recognizer">
+<icon BUILTIN="yes"/>
+</node>
 </node>
 </node>
 </node>

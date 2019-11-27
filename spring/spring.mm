@@ -1,286 +1,7 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node BACKGROUND_COLOR="#ffcc66" CREATED="1574754004883" ID="ID_222410746" MODIFIED="1574843072968" TEXT="Spring szkolenie">
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1574754004883" ID="ID_222410746" MODIFIED="1574843072968" TEXT="Spring szkolenie" VGAP="0">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1574754054673" ID="ID_755476824" MODIFIED="1574762370303" POSITION="right" TEXT="Dobre praktyki Rest">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Rest
-    </p>
-    <p>
-      Zbi&#243;r zasad architektoniczny w kt&#243;rym wyr&#243;&#380;ni&#263; mo&#380;emy stan i zasoby. W wymianie wyst&#281;puje zas&#243;b i stan. Klient i serwer musz&#261; wysy&#322;a&#263; wszystko co jest potrzebne do&#160;&#160;odtworzenia stanu danych.
-    </p>
-    <p>
-      Serwisy stanowe s&#261; bezstanowe powinni&#347;my wys&#322;a&#263; i odebra&#263; wszystko co jest potrzebne do realizacji zadania.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Wysy&#322;amy co&#347; -&gt;efekt -&gt;restart-&gt;wys&#322;anie tego samego -&gt; ten same efekt
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Poziomy dojrza&#322;o&#347;ci Richardsona - warstwy poziomu dojrza&#322;o&#347;ci naszego API.
-    </p>
-    <ul>
-      <li>
-        The Swamp of POX - us&#322;ugi nie maj&#261;ce ustalonych verb&#243;w, status&#243;w, jest to wst&#281;pna wersja serwisu kt&#243;ry dopiero mo&#380;e sta&#263; si&#281; us&#322;ug&#261; ale w tej chwili nie jest, jaki&#347; endpoint, co&#347; odbiera co&#347; zwraca . Verby nie maj&#261; znaczenia, wszystko mo&#380;e lecie&#263; POSTEM. Wymieszane &quot;bagienko&quot;<br />
-      </li>
-      <li>
-        Resources -&#160;&#160;z bagienka zaczynamy wyci&#261;ga&#263; zasoby, zamiast jednego endpoita zaczynamy wyodr&#281;bnia&#263; zasoby, np. api do user&#243;w, api do tweet&#243;w, produkt&#243;w, r&#243;&#380;ne resource na kt&#243;rych mo&#380;emy wykonywa&#263; operacje i w zale&#380;no&#347;ci na kt&#243;ry resource pu&#347;cimy &#380;&#261;danie b&#281;dziemy wiedzieli na jakim zasobie wykonana zostanie operacja. Jest to podstawa do wydzielania modu&#322;&#243;w, &#322;&#261;czenia tematycznego.<br />
-      </li>
-      <li>
-        HTTP Verb - u&#380;ywamy czasownik&#243;w, r&#243;&#380;nych metod kt&#243;re m&#243;wi&#261; nam o tym co zostanie wykonane na danym zasobie.<br />
-      </li>
-      <li>
-        Hypermedia Controls - menu nawigowalne - HTEOAS<br /><br />
-      </li>
-      <li>
-        Dodatkowo poza modelem: api powinno by&#263; skalowalne, dobrze operuj&#261;ce statusami, dobrze obs&#322;uguj&#261;ce headery<br />
-      </li>
-    </ul>
-    <p>
-      
-    </p>
-    <p>
-      /api/tweets/{id}
-    </p>
-    <p>
-      Mo&#380;na sobie wyobrazi&#263; nawet websocket tylko nie mo&#380;na si&#281; trzyma&#263; stanu
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      PUT - podmie&#324; nowy zas&#243;b -&#160;&#160;podmienia ca&#322;y zas&#243;b opr&#243;cz id . Je&#347;li chcemy u&#380;y&#263; do modyfikacji jednego elementu to pobieramy na klienta, zmieniamy i odsy&#322;amy na PUT, wszystkie pola zostan&#261; podmienione.
-    </p>
-    <p>
-      Nie mo&#380;na liczy&#263; &#380;e wy&#347;le si&#281; jedno pole i tylko one zostanie zmienione. Je&#347;li innych nie b&#281;dzie to zmieni&#261; si&#281; na nulle.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      PATCH - modyfikacja wybi&#243;rcza p&#243;l . Nie zawsze ma prze&#322;o&#380;enie na CRUD. Powinien w ciele wys&#322;a&#263; (np. json, ale nie musi) wysy&#322;a tylko te pola kt&#243;re chce podmieni&#263;. Je&#347;li
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      api/tweets/{id}/message -&gt; spos&#243;b do odwo&#322;ania si&#281; do pojedynczego zasobu -&gt; mo&#380;e zosta&#263; wys&#322;any PUT z plain/text, natomiast
-    </p>
-    <p>
-      je&#347;li nasze api wspiera xml to PUT na api&#160;api/tweets/{id} to tu musi by&#263; wys&#322;any xml , je&#347;li json to json. Znaczenie ma typ content, czyli REPREZENTACJA .
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Przyk&#322;ad
-    </p>
-    <p>
-      api/tweets/{id}/message -&gt; PUT z plain/text - zmiana message
-    </p>
-    <p>
-      api/tweets/{id} -&gt; PUT z json ({message:&quot;new message&quot;})- te&#380; zmiana message ale wysy&#322;amy na inny zas&#243;b i inny typ
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Wyj&#261;tki b&#322;&#281;dy nale&#380;a&#322;oby wy&#322;apa&#263; b&#322;&#261;d i zamieni&#263; go na kod b&#322;&#281;du.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Zasoby nie musz&#261; mie&#263; wsp&#243;lnego z baz&#261;. Np. Spring REST data jest driverem do bazy , nie ma stanu, jest specyficzne, nie nale&#380;y traktowa&#263; go jako pe&#322;noprawne api, bo tam nie ma stan&#243;w, absolutnie &#380;adnej logiki. To jest tylko spos&#243;b dost&#281;pu do bazy, inna reprezentacja.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Endpointy RESTowe nie mo&#380;na traktowa&#263; jako CRUD. Zasoby mog&#261; by&#263; &#322;&#261;czone, mo&#380;e by&#263; du&#380;a logika biznesowa . To tylko reprezentacja, nie musi oddawa&#263; struktury tego co jest pod spodem.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      W momencie gdy zas&#243;b jest du&#380;ym grafem mo&#380;na np. user -&gt; adress, mo&#380;na doda&#263; dodatkowy param np. fields kt&#243;ry m&#243;wi jak szeroka interpretacja jest potrzebna
-    </p>
-    <p>
-      api/users/{id}/fields=adress
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Cz&#281;sto dla searchy realizuje si&#281; go jako osobny endpoint nie przypisany do zasobu, taki crosszas&#243;b.
-    </p>
-  </body>
-</html>
-</richcontent>
-<cloud COLOR="#ccffcc"/>
-<font NAME="SansSerif" SIZE="14"/>
-<node CREATED="1574757826321" ID="ID_1724584093" MODIFIED="1574763655207" TEXT="Cykle">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Obs&#322;uga cykl&#243;w:
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      api/users/{id} i dostajemy
-    </p>
-    <p>
-      { name:'ale',
-    </p>
-    <p>
-      adress:{ street:&quot;&quot;,city:&quot;&quot; ,user:{}}
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      Powstaje cykl.
-    </p>
-    <ol>
-      <li>
-        Nie musi by&#263; pe&#322;na reprezentacja, wi&#281;c mo&#380;emy w adresie wys&#322;a&#263; tylko id usera
-      </li>
-      <li>
-        Wyci&#281;cie back ref do usera. To mog&#322;oby by&#263; np. co&#347; profile, user details, to nie musz&#261; by&#263; encje , w bazie nadal mo&#380;e by&#263; po staremu.<br />Wystawiamy nowe api: /api/dashboard/users/{id} - nowe api dostosowane do klienta, to mog&#322;oby by&#263; ukrete za gatewayem , kt&#243;ry podejmie decyzj&#281; na podstawie headera. Czyli idziemy w kierunku<br />robienia modelu pod konkretny use case. Tworzymy dto pod reprezentacje, jako we/wy pod reprezentacj&#281;, s&#261; to struktury (lombok + mapstruct). Mo&#380;na oznaczy&#263; co&#347; jako property podpi&#281;ta pod funkcj&#281; (json getter lub json property - do sprawdzenia, nie jest to skalowalne, bo kroimy encj&#281; pod przypadki u&#380;ycia).
-      </li>
-      <li>
-        Dodanie do api mo&#380;liwo&#347;ci tworzenia query. Np: api/users/{id}?fields=name,adress.street . To nie jest rozwi&#261;zanie generyczne. Nie ka&#380;de api musi dawa&#263; tak&#261; mo&#380;liwo&#347;&#263;. Filtr kt&#243;ry na poziomie requesta zbieramy pola, np aspektem t&#322;umaczy&#263; na dto, albo wybiera&#263; pola i tworzy&#263; jsona.
-      </li>
-    </ol>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1574758979929" ID="ID_711920599" MODIFIED="1574767846188" TEXT="HTEOAS">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Koncept m&#243;wi&#261;cy o sposobie nawigacji po api.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Przyk&#322;adem jest api githuba:
-    </p>
-    <p>
-      https://api.github.com/
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      s&#261; r&#243;&#380;ne formaty, linki do zasob&#243;w, api, nawigowalno&#347;&#263; do dokumentacji, ludziom jest &#322;atwiej operowa&#263; na api. Mo&#380;na trawersowa&#263; graf.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Klient jest ca&#322;kowicie niezale&#380;ny od &#347;cie&#380;ek. Ka&#380;de api ma sw&#243;j klucz, np:
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      emails_url : https://api.github.com/user/email
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      wi&#281;c uderzamy do g&#322;&#243;wnego api, i wyszukujemy po kluczu emails_url, zadzia&#322;a nawet je&#347;li adres do zasobu si&#281; zmieni.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Informacja o nawigacjach jest cz&#281;sto zagnie&#380;d&#380;ona . Tu pomocny jest https://github.com/traverson/traverson, poszukuje zasob&#243;w i wykonuje cache na kliencie.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      HTEOAS - nieco komplikuje spos&#243;b serializacji/deserializacji, klient musi by&#263; &#347;wiadomy link&#243;w. Zalety: uniezale&#380;nienie si&#281; od link&#243;w, je&#347;li jest sporo URL, resourc&#243;w
-    </p>
-  </body>
-</html>
-</richcontent>
-<node CREATED="1574766009198" ID="ID_701785038" MODIFIED="1574766078385" TEXT="Wersjonowanie api">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Po headerach:
-    </p>
-    <p>
-      Accept:application/vnd.nazwa.v3+hal+json - klient w headerze informuje nas z jakiej wersji api chce korzysta&#263;
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node CREATED="1574759124706" ID="ID_1354499676" LINK="https://api.github.com/" MODIFIED="1574759135709" TEXT="https://api.github.com/"/>
-<node CREATED="1574762377584" ID="ID_328938446" MODIFIED="1574767514448" TEXT="Przyk&#x142;ad ">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@RequestMapping</font>(<font color="#008000"><b>&quot;/api/tweets&quot;</b></font>) <font color="#808080"><i>//liczba mnoga, wszystkie tweety<br /></i></font><font color="#000080"><b>public class </b></font>TweetController {<br /><br />    <font color="#000080"><b>private </b></font>TweetRepo <font color="#660e7a"><b>repo</b></font>;<br /><br />    <font color="#000080"><b>public </b></font>TweetController(TweetRepo repo) {<br />        <font color="#000080"><b>this</b></font>.<font color="#660e7a"><b>repo </b></font>= repo;<br />        repo.saveAll(Stream.<i>generate</i>(() -&gt; <font color="#000080"><b>new </b></font>Tweet(<font color="#008000"><b>&quot;message&quot; </b></font>+ UUID<br />                .<i>randomUUID</i>(), <font color="#008000"><b>&quot;author&quot; </b></font>+ UUID.<i>randomUUID</i>())).limit(<font color="#0000ff">100</font>)<br />                .collect(Collectors.<i>toList</i>()));<br />    }<br /><br />    <font color="#808000">@GetMapping<br />    </font><font color="#000080"><b>public </b></font>Collection&lt;Tweet&gt; findAllTweets() {<br />        <font color="#000080"><b>return </b></font><b><font color="#660e7a">repo</font></b>.findAll();<br />    }<br /><br />    <font color="#808080"><i>/*Domyslny sposob bindinnngu parametrow to po konwencji z ciala.<br />    Uzywajac odpowiednich adnotacji:<br />    * mozna ze sciezki<br />    * mozna z parametrow<br />    * */<br />    </i></font><font color="#808000">@GetMapping</font>(<font color="#008000"><b>&quot;/{id}&quot;</b></font>)<br />    <font color="#808080"><i>//jawne mapowanie id-&gt;uuid , przy zgodno&#347;ci nazw niekonieczne<br />    </i></font><font color="#000080"><b>public </b></font>ResponseEntity&lt;Tweet&gt; findTweet(<font color="#808000">@PathVariable</font>(<font color="#008000"><b>&quot;id&quot;</b></font>) String uuid) {<br />        <font color="#000080"><b>return </b></font><b><font color="#660e7a">repo</font></b>.findById(UUID.<i>fromString</i>(uuid)).map(t -&gt; ResponseEntity.<i>status</i>(HttpStatus.<font color="#660e7a"><b><i>OK</i></b></font>).body(t)).orElse(ResponseEntity.<i>notFound</i>().build());<br />    }<br /><br />    <font color="#808000">@GetMapping</font>(<font color="#008000"><b>&quot;/empty&quot;</b></font>)<br />    <font color="#000080"><b>public </b></font>Optional&lt;Tweet&gt; findEmpty() {<br />      <font color="#000080"><b>return </b></font>Optional.<i>empty</i>();<br />    }<br /><br />    <font color="#808080"><i>/*<br />     * PathVariable - szuka po pasuj&#261;cej cz&#281;&#347;ci na potrzeby placeholdera - zmienna ze &#347;cie&#380;ki user/tweet/{id} np user/tweet/11<br />     * RequestParam- parametry po znaku zapytania user/tweet?id=11<br />     * */<br />    </i></font><font color="#808000">@GetMapping</font>(params = <font color="#008000"><b>&quot;msg&quot;</b></font>)<br />    <font color="#000080"><b>public </b></font>Collection&lt;Tweet&gt; findByMessage(<font color="#808000">@RequestParam</font>(<font color="#008000"><b>&quot;msg&quot;</b></font>) String msg) {<br />      <font color="#000080"><b>return </b></font><b><font color="#660e7a">repo</font></b>.findByMessage();<br />    }<br /><br />   <font color="#808080"><i>//status domyslny - mozna ustawiac tylko je&#347;li z cia&#322;a nie zmieniamy statusu<br />   //@ResponseStatus(HttpStatus.CREATED)<br />    </i></font><font color="#808000">@PostMapping<br />    </font><font color="#000080"><b>public </b></font>ResponseEntity&lt;?&gt; createTweet(<font color="#808000">@RequestBody </font>Tweet tweet) {<br />      Tweet saveTweet = <font color="#660e7a"><b>repo</b></font>.save(tweet);<br />      <font color="#000080"><b>return </b></font>ResponseEntity.<i>created</i>(URI.<i>create</i>(String.<i>format</i>(<font color="#008000"><b>&quot;api/tweets/%s&quot;</b></font>,<font color="#008000"><b>&quot;1&quot;</b></font>))).build();<br /><br />    }<br /><br />    <font color="#808000">@GetMapping</font>(params = {<font color="#008000"><b>&quot;page&quot;</b></font>})<br />    <font color="#000080"><b>public </b></font>Page&lt;Tweet&gt; findTweetPage(Pageable pageable) {<br />        <font color="#000080"><b>return </b></font><b><font color="#660e7a">repo</font></b>.findAll(pageable);<br />    }<br /><br />    <font color="#808080"><i>//wynosz&#261;c id wymuszam jesgo istnienie<br />    </i></font><font color="#808000">@PutMapping</font>(<font color="#008000"><b>&quot;/{id}&quot;</b></font>)<br />   <font color="#000080"><b>public void </b></font>replace(<br />         <font color="#808000">@PathVariable</font>(<font color="#008000"><b>&quot;id&quot;</b></font>) String uuid,<br />         <font color="#808000">@RequestBody </font>Tweet tweet){<br />       <font color="#660e7a"><b>repo</b></font>.save(tweet);<br />   }<br /><br />    <font color="#808000">@PostMapping</font>(<font color="#008000"><b>&quot;/exception&quot;</b></font>)<br />    <font color="#000080"><b>public void </b></font>throwEx() {<br />        <font color="#000080"><b>throw new </b></font>RuntimeException(<font color="#008000"><b>&quot;This method throws &quot; </b></font>+<br />                <font color="#008000"><b>&quot;exception&quot;</b></font>);<br />    }<br /><br /><br />}</pre>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1574843323437" ID="ID_63865453" MODIFIED="1574843620447" TEXT="Metoda z HTEOAS">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@GetMapping</font>(<font color="#008000"><b>&quot;/{id}&quot;</b></font>)<br /><font color="#808080"><i>// this method uses HATEOAS to produce self link reference<br /></i></font><font color="#000080"><b>public </b></font>ResponseEntity&lt;EntityModel&lt;Tweet&gt;&gt; findTweet(<font color="#808000">@PathVariable</font>(<font color="#008000"><b>&quot;id&quot;</b></font>) String uuid) {<br />   <font color="#000080"><b>return </b></font><b><font color="#660e7a">repo</font></b>.findById(UUID.<i>fromString</i>(uuid))<br />      .map(t -&gt; ResponseEntity.<i>status</i>(HttpStatus.<font color="#660e7a"><b><i>OK</i></b></font>)<br />         .body(<font color="#000080"><b>new </b></font>EntityModel&lt;&gt;(t,<br />            <i>linkTo</i>(<i>methodOn</i>(TweetController.<font color="#000080"><b>class</b></font>)<br />            .findTweet(<font color="#660e7a">uuid</font>)).withSelfRel())))<br />      .orElse(ResponseEntity.<i>notFound</i>().build());<br />}</pre>
-    <p>
-      
-    </p>
-    <p>
-      UWAGA! zmiany wersji - to co kiedy&#347; nazywa&#322;o si&#281; Resource teraz EntityModel, pojawi&#322;a si&#281; klasa MVCLinkBuilder a znikn&#281;&#322;a ResourceLinkBuilder (jest w starych przyk&#322;&#261;dach). Dostarczony zosta&#322; skrypt kt&#243;ry to przemapowuje.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      W body jest EntityModel, pierwszy argument to co ma by&#263; w ciele responsa(czyli Tweet), a drugi argument to linki kt&#243;re budujemy linkto(methodOn/*metoda w kontrolerze do kt&#243;rej ma by&#263; link*/) i nazwa symboliczna linku.
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
 <node CREATED="1574754452242" ID="ID_679307258" MODIFIED="1574754619634" POSITION="left" TEXT="IntelIj - skr&#xf3;ty">
 <cloud COLOR="#ffff66"/>
 <node CREATED="1574754474099" ID="ID_1133473917" MODIFIED="1574754474099" TEXT="Tworzenie pola z parametru konstruktora:">
@@ -307,13 +28,258 @@
   <body>
     <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"> <font color="#808080"><i>/*Domyslny sposob bindinnngu parametrow to po konwencji z ciala.<br />   Uzywajac odpowiednich adnotacji:<br />   * mozna ze sciezki<br />   * mozna z parametrow<br />   * */<br />   </i></font><font color="#808000">@GetMapping</font>(<font color="#008000"><b>&quot;/{id}&quot;</b></font>)<br /><font color="#808080"><i>//jawne mapowanie id-&gt;uuid , przy zgodno&#347;ci nazw niekonieczne<br />   </i></font><font color="#000080"><b>public </b></font>ResponseEntity&lt;Tweet&gt; findTweet(<font color="#808000">@PathVariable</font>(<font color="#008000"><b>&quot;id&quot;</b></font>) String uuid) {<br />       <font color="#000080"><b>return </b></font><b><font color="#660e7a">repo</font></b>.findById(UUID.<i>fromString</i>(uuid)).map(t-&gt;ResponseEntity.<i>status</i>(HttpStatus.<font color="#660e7a"><b><i>OK</i></b></font>).body(t)).orElse(ResponseEntity.<i>notFound</i>().build());<br />   }<br /><br />   <font color="#808000">@GetMapping</font>(<font color="#008000"><b>&quot;/empty&quot;</b></font>)<br /><font color="#000080"><b>public </b></font>Optional&lt;Tweet&gt;findEmpty(){<br />       <font color="#000080"><b>return </b></font>Optional.<i>empty</i>();<br />}<br /><br /><br />   <font color="#808000">@PostMapping<br /></font><font color="#808080"><i>//status domyslny<br />   </i></font><font color="#808000">@ResponseStatus</font>(HttpStatus.<font color="#660e7a"><b><i>CREATED</i></b></font>)<br />   <font color="#000080"><b>public void </b></font>createTweet(<font color="#808000">@RequestBody </font>Tweet tweet) {<br />       <font color="#660e7a"><b>repo</b></font>.save(tweet);<br />   }</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1574765860911" ID="ID_753674170" MODIFIED="1574765860911" TEXT=""/>
 </node>
 <node CREATED="1574765867834" ID="ID_1362240137" MODIFIED="1574765889577" TEXT="Czy mo&#x17c;na uzyska&#x107; kody przyk&#x142;adowego projektu REST z dedykowanego kursu"/>
 <node CREATED="1574779350676" ID="ID_963590606" MODIFIED="1574779369638" TEXT="Tworze property o nieznanym typie, i skrot kt&#xf3;ry tworzy z tego interfejs"/>
 <node CREATED="1574844981036" ID="ID_620713990" MODIFIED="1574845001679" TEXT="Kody z prawid&#x142;ow&#x105; architektur&#x105; DDD"/>
+</node>
+<node CREATED="1574886382303" HGAP="-30" ID="ID_873319434" MODIFIED="1574886496624" POSITION="right" TEXT="Spring Framework" VSHIFT="-115">
+<cloud COLOR="#00cc66"/>
+<node CREATED="1574887057230" ID="ID_1652339394" MODIFIED="1574887060752" TEXT="Interfejsy">
+<node CREATED="1574886709073" ID="ID_195164308" MODIFIED="1574886888661" TEXT="ApplicationContext">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="2">Daje wi&#281;cej ni&#380; BeanFactory, poniewa&#380; dok&#322;ada obs&#322;ug&#281; zdarze&#324; postprocessingowych </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="2">Central interface to provide configuration for an application. This is read-only while the application is running, but may be reloaded if the implementation supports this. </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="2">An ApplicationContext provides: </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;Bean factory methods for accessing application components. Inherited from ListableBeanFactory. </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;The ability to load file resources in a generic fashion. Inherited from the ResourceLoader interface. </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;The ability to publish events to registered listeners. Inherited from the ApplicationEventPublisher interface. </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;The ability to resolve messages, supporting internationalization. Inherited from the MessageSource interface. </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;Inheritance from a parent context. Definitions in a descendant context will always take priority. This means, for example, that a single parent context can be used by an entire web application, while each servlet has its own child context that is independent of that of any other servlet. aa </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="2">All Known Subinterfaces: </font>
+    </p>
+    <p>
+      <font size="2">&#160;&#160;&#160;&#160;ConfigurableApplicationContext, ConfigurableWebApplicationContext, WebApplicationContext </font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1574886514086" ID="ID_1121240579" MODIFIED="1574886705109" TEXT="BeanFactory">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="2">BeanFactory - abstrakcyjna fabryka bean&#243;w , jest to wzorzec Abstract Factory. Jest interfejsem wystarczaj&#261;cym do zarz&#261;dzania beanami. </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="2">BeanFactory/a&gt; interface provides a simple, yet flexible configuration mechanism to manage objects of any nature via the Spring IoC container. Let's have a look at some basics before diving deep into this central Spring API.</font>
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1574887067797" ID="ID_482146332" MODIFIED="1574887071998" TEXT="Implementacja">
+<node CREATED="1574887073992" ID="ID_1095533871" MODIFIED="1574887248680" TEXT="AnnotationConfigApplicationContext">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Kontekst aplikacji standalone. Pozwala na wczytanie konfiguracji przy pomocy adnotacji. Podstawowy kontekst aplikacji SpringBoot.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1574887259095" ID="ID_486119116" MODIFIED="1574887262400" TEXT="Aspekty">
+<node CREATED="1574887329114" ID="ID_1554319135" LINK="https://rieckpil.de/howto-java-benchmarking-with-jmh-java-microbenchmark-harness/" MODIFIED="1574887483778" TEXT="Java-Microbenchmark Current">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Pozwala na mierzenie wydajno&#347;ci kodu w skali Micro. Izoluje od problem&#243;w z rozgrzewaniem maszyny.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574887508850" ID="ID_708442675" MODIFIED="1574888218037" TEXT="Obs&#x142;uga aspekt&#xf3;w w Spring">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Spring zaprojektowa&#322; w&#322;asne api do obs&#322;ugi aspekt&#243;w. Ma on s&#322;u&#380;y&#263; u&#322;atwieniu Long Time Weaving bez konieczno&#347;ci u&#380;ywania Agent&#243;w (technika u&#380;ywana przez AspectJ, polegaj&#261;ca na wkopilowywaniu agent&#243;w do kodu wykonwywalnego). Realizuje aspekty przy pomocy proxy.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        &#160;&#160;&#160;&#160;Like singh101 said, Spring AOP is proxy-based, more exactly based on Java SE dynamic proxies (for interfaces) or CGLIB proxies (for classes). It uses a subset of AspectJ syntax and is a kind of &quot;AOP lite&quot; approach basically limited to method execution pointcuts, missing many AspectJ pointcut types like method call, class member set/get, constructor call/execution and others. Technologically it is very much different from AspectJ and always incurs a runtime overhead due to the proxy approach (call indirection). Furthermore, it is limited to Spring Bean methods being called from outside the bean class, i.e. it does not work if a bean calls one of its own methods (because it does not go through the corresponding proxy) and it also does not work for non-Spring Bean classes (normal POJOs).<br /><br />
+      </li>
+      <li>
+        &#160;AspectJ on the other hand is a full-fledged AOP framework which does not rely on either proxies or the Spring framework. It can be easily included into Spring applications, though. It works by generating byte code directly via its own compiler (which is a superset of the Java compiler) or instrumenting existing byte code. AspectJ can be used during compile time (no runtime overhead) or during classloading (load time weaving, LTW). While LTW has a little overhead during application start-up time (but the same applies to Spring AOP), both AspectJ weaving approaches have no runtime overhead due to call indirection because there are no proxies involved.&#160;&#160;&#160;&#160;The Spring manual chapter on AOP explains nicely how to integrate full AspectJ into Spring when Spring AOP is not powerful enough or simply too slow.
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574887797547" ID="ID_148618184" LINK="https://www.baeldung.com/java-instrumentation" MODIFIED="1574887909916" TEXT="Java Instrumentation API">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Pozwala na kontrolowanie mechanizmu agent&#243;w. Dodaje si&#281; do proces&#243;w JVM i umo&#380;liwia modyfikacj&#281; bytecodu.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1574888016837" ID="ID_1031250469" MODIFIED="1574888087242" TEXT="Agent">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      In general, a java agent is just a specially crafted jar file. It utilizes the Instrumentation API that the JVM provides to alter existing byte-code that is loaded in a JVM.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      For an agent to work, we need to define two methods:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;premain &#8211; will statically load the agent using -javaagent parameter at JVM startup
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;agentmain &#8211; will dynamically load the agent into the JVM using the Java Attach API
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      An interesting concept to keep in mind is that a JVM implementation, like Oracle, OpenJDK, and others, can provide a mechanism to start agents dynamically, but it is not a requirement.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      First, let's see how we'd use an existing Java agent.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      After that, we'll look at how we can create one from scratch to add the functionality we need in our byte-code.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      To be able to use the Java agent, we must first load it.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      We have two types of load:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;static &#8211; makes use of the premain to load the agent using -javaagent option
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;dynamic &#8211; makes use of the agentmain to load the agent into the JVM using the Java Attach API
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Next, we'll take a look at each type of load and explain how it works.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1574888099379" ID="ID_441018223" MODIFIED="1574888165341" TEXT="AspectJ">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Posiada dwa tryby dzia&#322;ania:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      statyczny - wkompoilowuje fragmenty kodu do kodu wykonywalnego
+    </p>
+    <p>
+      dynamiczny - long time weaving - wykorzystuje kod agent&#243;w
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574888009748" ID="ID_1336710840" MODIFIED="1574888009748" TEXT=""/>
+</node>
 </node>
 <node CREATED="1574767521883" ID="ID_342452735" MODIFIED="1574846683796" POSITION="right" TEXT="Testy jednostkowe i integracyjne">
 <richcontent TYPE="NOTE"><html>
@@ -516,8 +482,7 @@ U&#380;ycie:</pre>
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <cloud COLOR="#ccff00"/>
 <node CREATED="1574773157813" ID="ID_756001144" MODIFIED="1574780938915" TEXT="Testy integracyjne">
 <richcontent TYPE="NOTE"><html>
@@ -547,8 +512,7 @@ U&#380;ycie:</pre>
       Web jest tylko adapterem modelu transportowego do modelu serwisowego, wi&#281;c dobrze zaprojektowany kontroler powinnien mie&#263; dost&#281;p do jednego Primary Port (je&#347;li nasza us&#322;uga potrzebuje czego&#347; od innych to wtedy mamy doczynienia z Secondary Port, Secondary Adapter) , dlatego nie powinien wstrzykiwa&#263; wielu us&#322;ug.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574779076711" ID="ID_923232096" MODIFIED="1574779515112" TEXT="Slices annotations">
 <richcontent TYPE="NOTE"><html>
@@ -619,8 +583,7 @@ U&#380;ycie:</pre>
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574781426419" ID="ID_1389132856" MODIFIED="1574843053358" TEXT="Kiedy stosowa&#x107; testy, wyr&#xf3;&#x17c;nianie jednostek DDD">
 <richcontent TYPE="NOTE"><html>
@@ -703,8 +666,7 @@ U&#380;ycie:</pre>
       W architekturze layer cz&#281;sto mamy do czynienia z prostym modelem encyjnym, bez &#380;adnej logiki a ta zosta&#322;a przeniesiona do warstwy service/application bo gdzie&#347; musi si&#281; pojawi&#263; to
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <arrowlink DESTINATION="ID_414147436" ENDARROW="Default" ENDINCLINATION="163;0;" ID="Arrow_ID_677796176" STARTARROW="None" STARTINCLINATION="331;0;"/>
 <node CREATED="1574841029066" ID="ID_285364157" MODIFIED="1574841029066" TEXT=""/>
 </node>
@@ -723,12 +685,11 @@ U&#380;ycie:</pre>
     </p>
     <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@Service<br /></font><font color="#000080"><b>public class </b></font>TweetAppServiceRepoDelegatingImpl <font color="#000080"><b>implements </b></font>TweetAppService {<br /><br />   <font color="#000080"><b>private </b></font>TweetRepo <font color="#660e7a"><b>tweetRepo</b></font>;<br /><br />   <font color="#000080"><b>public </b></font>TweetAppServiceRepoDelegatingImpl(TweetRepo tweetRepo) {<br />      <font color="#000080"><b>this</b></font>.<font color="#660e7a"><b>tweetRepo </b></font>= tweetRepo;<br />   }<br /><br />   <font color="#808000">@Override<br />   </font><font color="#000080"><b>public void </b></font>createNewTweet(String msg) {<br />      <font color="#660e7a"><b>tweetRepo</b></font>.save(<font color="#000080"><b>new </b></font>Tweet(msg, defaultAuthor()));<br />   }<br /><br />   <font color="#808000">@Override<br />   </font><font color="#000080"><b>public </b></font>Collection&lt;Tweet&gt; findByMsg(String msg) {<br />      <font color="#000080"><b>return </b></font><b><font color="#660e7a">tweetRepo</font></b>.findAll().stream()<br />         .filter(t -&gt; <font color="#660e7a">msg</font>.equals(t.getMessage()))<br />         .collect(Collectors.<i>toList</i>());<br />      <font color="#808080"><i>// Now, try to uncomment this code and run test &quot;find by<br />      // message using mocks&quot; again - now, this time it should pass<br />      // return tweetRepo.findByMessage(msg);<br />   </i></font>}<br /><br />   <font color="#000080"><b>private </b></font>String defaultAuthor() {<br />      <font color="#000080"><b>return </b></font><b><font color="#008000">&quot;goobar&quot;</font></b>;<br />   }<br />}</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_414147436" ENDARROW="Default" ENDINCLINATION="163;0;" ID="Arrow_ID_677796176" SOURCE="ID_1389132856" STARTARROW="None" STARTINCLINATION="331;0;"/>
 </node>
 </node>
-<node CREATED="1574843073919" HGAP="165" ID="ID_813334677" MODIFIED="1574864781026" POSITION="right" TEXT="Programowanie reaktywne" VSHIFT="18">
+<node CREATED="1574843073919" HGAP="165" ID="ID_813334677" MODIFIED="1574886496650" POSITION="right" TEXT="Programowanie reaktywne" VSHIFT="18">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -831,8 +792,7 @@ U&#380;ycie:</pre>
       https://github.com/mikewojtyna/efficient-java/blob/master/src/main/java/pro/buildmysoftware/efficientjava/newio/server/EchoServer.java
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <arrowlink DESTINATION="ID_1420432324" ENDARROW="Default" ENDINCLINATION="956;73;" ID="Arrow_ID_602685065" STARTARROW="None" STARTINCLINATION="1597;452;"/>
 </node>
 <node CREATED="1574859581218" ID="ID_312242938" MODIFIED="1574868662775" TEXT="Reactor i WebFlux">
@@ -896,8 +856,7 @@ U&#380;ycie:</pre>
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1574861867065" ID="ID_1882296978" MODIFIED="1574862208350" TEXT="Testy">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -932,8 +891,7 @@ U&#380;ycie:</pre>
       Wi&#281;kszo&#347;&#263; logiki reaktywnej da si&#281; przetestowa&#263; w podobny spos&#243;b, bo na ko&#324;cu lec&#261; sygna&#322;y, wynik jest prosty, niezale&#380;ny od by&#263; mo&#380;e z&#322;o&#380;onego procesu jego pozyskania.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574862593723" ID="ID_1578366213" MODIFIED="1574865242173" TEXT="Hot vs cold streams">
 <richcontent TYPE="NOTE"><html>
@@ -1021,8 +979,7 @@ U&#380;ycie:</pre>
       Wisi bo nie pod&#322;&#261;czy&#322; si&#281; nowy subskrybent.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574862729068" ID="ID_1720680666" MODIFIED="1574862858241" TEXT="ConnectableFlux">
 <richcontent TYPE="NOTE"><html>
@@ -1048,8 +1005,7 @@ U&#380;ycie:</pre>
       metoda autoconnect m&#243;wi &#380;eby aktywowa&#263; po po&#322;&#261;czeniu 2 subskrybent&#243;w (w odr&#243;&#380;nienieniu od connect(), kt&#243;ry uruchomi od razu))
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574867195987" ID="ID_1710229213" MODIFIED="1574867198704" TEXT="operatory">
 <node CREATED="1574863153175" ID="ID_589926972" MODIFIED="1574863297381" TEXT="map i flatMap">
@@ -1174,8 +1130,7 @@ U&#380;ycie:</pre>
       - drugi spos&#243;b znacznie mniej obci&#261;&#380;aj&#261;cy
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574867755896" ID="ID_614698306" MODIFIED="1574867755896" TEXT=""/>
 </node>
@@ -1268,8 +1223,7 @@ Mamy odpowiednik RestTemplate(zawsze jest blokuj&#261;ce), nazywa si&#281; WebCl
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574843125039" ID="ID_328884833" MODIFIED="1574843225767" POSITION="left" TEXT="Architektura">
@@ -1305,8 +1259,7 @@ Mamy odpowiednik RestTemplate(zawsze jest blokuj&#261;ce), nazywa si&#281; WebCl
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574843235419" ID="ID_125913200" MODIFIED="1574846584937" POSITION="left" TEXT="Spring Boot i dobre praktyki konfiguracji">
@@ -1361,8 +1314,7 @@ Mamy odpowiednik RestTemplate(zawsze jest blokuj&#261;ce), nazywa si&#281; WebCl
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <cloud COLOR="#66ff66"/>
 <node CREATED="1574844088909" ID="ID_102057145" MODIFIED="1574844118942" TEXT="Umbralla projects">
 <richcontent TYPE="NOTE"><html>
@@ -1374,8 +1326,7 @@ Mamy odpowiednik RestTemplate(zawsze jest blokuj&#261;ce), nazywa si&#281; WebCl
       Projekty parasolowe kt&#243;rych celem jest zarz&#261;dzanie zale&#380;no&#347;ciami.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574845673709" ID="ID_324475603" MODIFIED="1574846041001" TEXT="Importowanie dependency management">
 <richcontent TYPE="NOTE"><html>
@@ -1403,8 +1354,7 @@ Mamy odpowiednik RestTemplate(zawsze jest blokuj&#261;ce), nazywa si&#281; WebCl
     </p>
     <pre class="c-mrkdwn__pre" data-stringify-type="pre">&lt;dependencyManagement&gt;<br />&#x9;&#x9;&lt;dependencies&gt;<br />&#x9;&#x9;&#x9;&lt;dependency&gt;<br />&#x9;&#x9;&#x9;&#x9;&lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;<br />&#x9;&#x9;&#x9;&#x9;&lt;artifactId&gt;spring-boot-dependencies&lt;/artifactId&gt;<br />&#x9;&#x9;&#x9;&#x9;&lt;version&gt;${spring-boot.version}&lt;/version&gt;<br />&#x9;&#x9;&#x9;&#x9;&lt;type&gt;pom&lt;/type&gt;<br />&#x9;&#x9;&#x9;&#x9;&lt;scope&gt;import&lt;/scope&gt;<br />&#x9;&#x9;&#x9;&lt;/dependency&gt;<br />&#x9;&#x9;&lt;/dependencies&gt;<br />&#x9;&lt;/dependencyManagement&gt;</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574849015708" ID="ID_1544835948" MODIFIED="1574850829958" TEXT="Tworzenie nowego startera">
 <richcontent TYPE="NOTE"><html>
@@ -1464,8 +1414,7 @@ Mamy odpowiednik RestTemplate(zawsze jest blokuj&#261;ce), nazywa si&#281; WebCl
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574850832350" ID="ID_1008594554" MODIFIED="1574850997145" TEXT="Debugging &#x142;adowania autokonfiguracji">
 <richcontent TYPE="NOTE"><html>
@@ -1513,8 +1462,7 @@ Mamy odpowiednik RestTemplate(zawsze jest blokuj&#261;ce), nazywa si&#281; WebCl
       Je&#347;li aktywuje si&#281; co&#347; wi&#281;cej ni&#380; chcemy to mo&#380;emy u&#380;y&#263; adnotacji Exclude w konfiguracji, wtedy mimo &#380;e z warunk&#243;w &#322;adowania wyjdzie true, to zostanie ona excludowana.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574846109249" ID="ID_326552104" MODIFIED="1574846511409" POSITION="right" TEXT="Linki">
@@ -1537,8 +1485,8 @@ Mamy odpowiednik RestTemplate(zawsze jest blokuj&#261;ce), nazywa si&#281; WebCl
 </node>
 </node>
 </node>
-<node CREATED="1574848969456" ID="ID_33004900" MODIFIED="1574854690320" POSITION="left" TEXT="Repozytoria kodu">
-<cloud COLOR="#ff33cc"/>
+<node CREATED="1574848969456" ID="ID_33004900" MODIFIED="1574883490503" POSITION="left" TEXT="Repozytoria kodu">
+<cloud COLOR="#ff9933"/>
 <node CREATED="1574848975641" ID="ID_1141345053" LINK="https://github.com/mikewojtyna" MODIFIED="1574848994398" TEXT="Root"/>
 <node CREATED="1574854690320" ID="ID_1420432324" LINK="https://github.com/mikewojtyna/efficient-java" MODIFIED="1574859126999" TEXT="Efficient java - serwer NIO, minimalny system reaktywny">
 <richcontent TYPE="NOTE"><html>
@@ -1550,8 +1498,7 @@ Mamy odpowiednik RestTemplate(zawsze jest blokuj&#261;ce), nazywa si&#281; WebCl
       https://github.com/mikewojtyna/efficient-java/blob/master/src/main/java/pro/buildmysoftware/efficientjava/newio/server/EchoServer.java
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1420432324" ENDARROW="Default" ENDINCLINATION="956;73;" ID="Arrow_ID_602685065" SOURCE="ID_1678386152" STARTARROW="None" STARTINCLINATION="1597;452;"/>
 </node>
 <node CREATED="1574855228730" ID="ID_1938294586" LINK="https://github.com/mikewojtyna/ddd-training" MODIFIED="1574855244091" TEXT="DDD"/>
@@ -1585,8 +1532,281 @@ Mamy odpowiednik RestTemplate(zawsze jest blokuj&#261;ce), nazywa si&#281; WebCl
       Przegl&#261;darka nigdy nie dostaje responsa, serwer pisze ca&#322;y czas do tego kana&#322;u
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1574754054673" ID="ID_755476824" MODIFIED="1574886499250" POSITION="right" TEXT="Dobre praktyki Rest">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Rest
+    </p>
+    <p>
+      Zbi&#243;r zasad architektoniczny w kt&#243;rym wyr&#243;&#380;ni&#263; mo&#380;emy stan i zasoby. W wymianie wyst&#281;puje zas&#243;b i stan. Klient i serwer musz&#261; wysy&#322;a&#263; wszystko co jest potrzebne do&#160;&#160;odtworzenia stanu danych.
+    </p>
+    <p>
+      Serwisy stanowe s&#261; bezstanowe powinni&#347;my wys&#322;a&#263; i odebra&#263; wszystko co jest potrzebne do realizacji zadania.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Wysy&#322;amy co&#347; -&gt;efekt -&gt;restart-&gt;wys&#322;anie tego samego -&gt; ten same efekt
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Poziomy dojrza&#322;o&#347;ci Richardsona - warstwy poziomu dojrza&#322;o&#347;ci naszego API.
+    </p>
+    <ul>
+      <li>
+        The Swamp of POX - us&#322;ugi nie maj&#261;ce ustalonych verb&#243;w, status&#243;w, jest to wst&#281;pna wersja serwisu kt&#243;ry dopiero mo&#380;e sta&#263; si&#281; us&#322;ug&#261; ale w tej chwili nie jest, jaki&#347; endpoint, co&#347; odbiera co&#347; zwraca . Verby nie maj&#261; znaczenia, wszystko mo&#380;e lecie&#263; POSTEM. Wymieszane &quot;bagienko&quot;<br />
+      </li>
+      <li>
+        Resources -&#160;&#160;z bagienka zaczynamy wyci&#261;ga&#263; zasoby, zamiast jednego endpoita zaczynamy wyodr&#281;bnia&#263; zasoby, np. api do user&#243;w, api do tweet&#243;w, produkt&#243;w, r&#243;&#380;ne resource na kt&#243;rych mo&#380;emy wykonywa&#263; operacje i w zale&#380;no&#347;ci na kt&#243;ry resource pu&#347;cimy &#380;&#261;danie b&#281;dziemy wiedzieli na jakim zasobie wykonana zostanie operacja. Jest to podstawa do wydzielania modu&#322;&#243;w, &#322;&#261;czenia tematycznego.<br />
+      </li>
+      <li>
+        HTTP Verb - u&#380;ywamy czasownik&#243;w, r&#243;&#380;nych metod kt&#243;re m&#243;wi&#261; nam o tym co zostanie wykonane na danym zasobie.<br />
+      </li>
+      <li>
+        Hypermedia Controls - menu nawigowalne - HTEOAS<br /><br />
+      </li>
+      <li>
+        Dodatkowo poza modelem: api powinno by&#263; skalowalne, dobrze operuj&#261;ce statusami, dobrze obs&#322;uguj&#261;ce headery<br />
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      /api/tweets/{id}
+    </p>
+    <p>
+      Mo&#380;na sobie wyobrazi&#263; nawet websocket tylko nie mo&#380;na si&#281; trzyma&#263; stanu
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PUT - podmie&#324; nowy zas&#243;b -&#160;&#160;podmienia ca&#322;y zas&#243;b opr&#243;cz id . Je&#347;li chcemy u&#380;y&#263; do modyfikacji jednego elementu to pobieramy na klienta, zmieniamy i odsy&#322;amy na PUT, wszystkie pola zostan&#261; podmienione.
+    </p>
+    <p>
+      Nie mo&#380;na liczy&#263; &#380;e wy&#347;le si&#281; jedno pole i tylko one zostanie zmienione. Je&#347;li innych nie b&#281;dzie to zmieni&#261; si&#281; na nulle.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      PATCH - modyfikacja wybi&#243;rcza p&#243;l . Nie zawsze ma prze&#322;o&#380;enie na CRUD. Powinien w ciele wys&#322;a&#263; (np. json, ale nie musi) wysy&#322;a tylko te pola kt&#243;re chce podmieni&#263;. Je&#347;li
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      api/tweets/{id}/message -&gt; spos&#243;b do odwo&#322;ania si&#281; do pojedynczego zasobu -&gt; mo&#380;e zosta&#263; wys&#322;any PUT z plain/text, natomiast
+    </p>
+    <p>
+      je&#347;li nasze api wspiera xml to PUT na api&#160;api/tweets/{id} to tu musi by&#263; wys&#322;any xml , je&#347;li json to json. Znaczenie ma typ content, czyli REPREZENTACJA .
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Przyk&#322;ad
+    </p>
+    <p>
+      api/tweets/{id}/message -&gt; PUT z plain/text - zmiana message
+    </p>
+    <p>
+      api/tweets/{id} -&gt; PUT z json ({message:&quot;new message&quot;})- te&#380; zmiana message ale wysy&#322;amy na inny zas&#243;b i inny typ
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Wyj&#261;tki b&#322;&#281;dy nale&#380;a&#322;oby wy&#322;apa&#263; b&#322;&#261;d i zamieni&#263; go na kod b&#322;&#281;du.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Zasoby nie musz&#261; mie&#263; wsp&#243;lnego z baz&#261;. Np. Spring REST data jest driverem do bazy , nie ma stanu, jest specyficzne, nie nale&#380;y traktowa&#263; go jako pe&#322;noprawne api, bo tam nie ma stan&#243;w, absolutnie &#380;adnej logiki. To jest tylko spos&#243;b dost&#281;pu do bazy, inna reprezentacja.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Endpointy RESTowe nie mo&#380;na traktowa&#263; jako CRUD. Zasoby mog&#261; by&#263; &#322;&#261;czone, mo&#380;e by&#263; du&#380;a logika biznesowa . To tylko reprezentacja, nie musi oddawa&#263; struktury tego co jest pod spodem.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      W momencie gdy zas&#243;b jest du&#380;ym grafem mo&#380;na np. user -&gt; adress, mo&#380;na doda&#263; dodatkowy param np. fields kt&#243;ry m&#243;wi jak szeroka interpretacja jest potrzebna
+    </p>
+    <p>
+      api/users/{id}/fields=adress
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Cz&#281;sto dla searchy realizuje si&#281; go jako osobny endpoint nie przypisany do zasobu, taki crosszas&#243;b.
+    </p>
+  </body>
+</html></richcontent>
+<edge COLOR="#ff9933"/>
+<cloud COLOR="#ccffcc"/>
+<font NAME="SansSerif" SIZE="14"/>
+<node CREATED="1574757826321" ID="ID_1724584093" MODIFIED="1574763655207" TEXT="Cykle">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Obs&#322;uga cykl&#243;w:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      api/users/{id} i dostajemy
+    </p>
+    <p>
+      { name:'ale',
+    </p>
+    <p>
+      adress:{ street:&quot;&quot;,city:&quot;&quot; ,user:{}}
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      Powstaje cykl.
+    </p>
+    <ol>
+      <li>
+        Nie musi by&#263; pe&#322;na reprezentacja, wi&#281;c mo&#380;emy w adresie wys&#322;a&#263; tylko id usera
+      </li>
+      <li>
+        Wyci&#281;cie back ref do usera. To mog&#322;oby by&#263; np. co&#347; profile, user details, to nie musz&#261; by&#263; encje , w bazie nadal mo&#380;e by&#263; po staremu.<br />Wystawiamy nowe api: /api/dashboard/users/{id} - nowe api dostosowane do klienta, to mog&#322;oby by&#263; ukrete za gatewayem , kt&#243;ry podejmie decyzj&#281; na podstawie headera. Czyli idziemy w kierunku<br />robienia modelu pod konkretny use case. Tworzymy dto pod reprezentacje, jako we/wy pod reprezentacj&#281;, s&#261; to struktury (lombok + mapstruct). Mo&#380;na oznaczy&#263; co&#347; jako property podpi&#281;ta pod funkcj&#281; (json getter lub json property - do sprawdzenia, nie jest to skalowalne, bo kroimy encj&#281; pod przypadki u&#380;ycia).
+      </li>
+      <li>
+        Dodanie do api mo&#380;liwo&#347;ci tworzenia query. Np: api/users/{id}?fields=name,adress.street . To nie jest rozwi&#261;zanie generyczne. Nie ka&#380;de api musi dawa&#263; tak&#261; mo&#380;liwo&#347;&#263;. Filtr kt&#243;ry na poziomie requesta zbieramy pola, np aspektem t&#322;umaczy&#263; na dto, albo wybiera&#263; pola i tworzy&#263; jsona.
+      </li>
+    </ol>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1574758979929" ID="ID_711920599" MODIFIED="1574767846188" TEXT="HTEOAS">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Koncept m&#243;wi&#261;cy o sposobie nawigacji po api.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Przyk&#322;adem jest api githuba:
+    </p>
+    <p>
+      https://api.github.com/
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      s&#261; r&#243;&#380;ne formaty, linki do zasob&#243;w, api, nawigowalno&#347;&#263; do dokumentacji, ludziom jest &#322;atwiej operowa&#263; na api. Mo&#380;na trawersowa&#263; graf.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Klient jest ca&#322;kowicie niezale&#380;ny od &#347;cie&#380;ek. Ka&#380;de api ma sw&#243;j klucz, np:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      emails_url : https://api.github.com/user/email
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      wi&#281;c uderzamy do g&#322;&#243;wnego api, i wyszukujemy po kluczu emails_url, zadzia&#322;a nawet je&#347;li adres do zasobu si&#281; zmieni.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Informacja o nawigacjach jest cz&#281;sto zagnie&#380;d&#380;ona . Tu pomocny jest https://github.com/traverson/traverson, poszukuje zasob&#243;w i wykonuje cache na kliencie.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      HTEOAS - nieco komplikuje spos&#243;b serializacji/deserializacji, klient musi by&#263; &#347;wiadomy link&#243;w. Zalety: uniezale&#380;nienie si&#281; od link&#243;w, je&#347;li jest sporo URL, resourc&#243;w
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1574766009198" ID="ID_701785038" MODIFIED="1574766078385" TEXT="Wersjonowanie api">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Po headerach:
+    </p>
+    <p>
+      Accept:application/vnd.nazwa.v3+hal+json - klient w headerze informuje nas z jakiej wersji api chce korzysta&#263;
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1574759124706" ID="ID_1354499676" LINK="https://api.github.com/" MODIFIED="1574759135709" TEXT="https://api.github.com/"/>
+<node CREATED="1574762377584" ID="ID_328938446" MODIFIED="1574767514448" TEXT="Przyk&#x142;ad ">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@RequestMapping</font>(<font color="#008000"><b>&quot;/api/tweets&quot;</b></font>) <font color="#808080"><i>//liczba mnoga, wszystkie tweety<br /></i></font><font color="#000080"><b>public class </b></font>TweetController {<br /><br />    <font color="#000080"><b>private </b></font>TweetRepo <font color="#660e7a"><b>repo</b></font>;<br /><br />    <font color="#000080"><b>public </b></font>TweetController(TweetRepo repo) {<br />        <font color="#000080"><b>this</b></font>.<font color="#660e7a"><b>repo </b></font>= repo;<br />        repo.saveAll(Stream.<i>generate</i>(() -&gt; <font color="#000080"><b>new </b></font>Tweet(<font color="#008000"><b>&quot;message&quot; </b></font>+ UUID<br />                .<i>randomUUID</i>(), <font color="#008000"><b>&quot;author&quot; </b></font>+ UUID.<i>randomUUID</i>())).limit(<font color="#0000ff">100</font>)<br />                .collect(Collectors.<i>toList</i>()));<br />    }<br /><br />    <font color="#808000">@GetMapping<br />    </font><font color="#000080"><b>public </b></font>Collection&lt;Tweet&gt; findAllTweets() {<br />        <font color="#000080"><b>return </b></font><b><font color="#660e7a">repo</font></b>.findAll();<br />    }<br /><br />    <font color="#808080"><i>/*Domyslny sposob bindinnngu parametrow to po konwencji z ciala.<br />    Uzywajac odpowiednich adnotacji:<br />    * mozna ze sciezki<br />    * mozna z parametrow<br />    * */<br />    </i></font><font color="#808000">@GetMapping</font>(<font color="#008000"><b>&quot;/{id}&quot;</b></font>)<br />    <font color="#808080"><i>//jawne mapowanie id-&gt;uuid , przy zgodno&#347;ci nazw niekonieczne<br />    </i></font><font color="#000080"><b>public </b></font>ResponseEntity&lt;Tweet&gt; findTweet(<font color="#808000">@PathVariable</font>(<font color="#008000"><b>&quot;id&quot;</b></font>) String uuid) {<br />        <font color="#000080"><b>return </b></font><b><font color="#660e7a">repo</font></b>.findById(UUID.<i>fromString</i>(uuid)).map(t -&gt; ResponseEntity.<i>status</i>(HttpStatus.<font color="#660e7a"><b><i>OK</i></b></font>).body(t)).orElse(ResponseEntity.<i>notFound</i>().build());<br />    }<br /><br />    <font color="#808000">@GetMapping</font>(<font color="#008000"><b>&quot;/empty&quot;</b></font>)<br />    <font color="#000080"><b>public </b></font>Optional&lt;Tweet&gt; findEmpty() {<br />      <font color="#000080"><b>return </b></font>Optional.<i>empty</i>();<br />    }<br /><br />    <font color="#808080"><i>/*<br />     * PathVariable - szuka po pasuj&#261;cej cz&#281;&#347;ci na potrzeby placeholdera - zmienna ze &#347;cie&#380;ki user/tweet/{id} np user/tweet/11<br />     * RequestParam- parametry po znaku zapytania user/tweet?id=11<br />     * */<br />    </i></font><font color="#808000">@GetMapping</font>(params = <font color="#008000"><b>&quot;msg&quot;</b></font>)<br />    <font color="#000080"><b>public </b></font>Collection&lt;Tweet&gt; findByMessage(<font color="#808000">@RequestParam</font>(<font color="#008000"><b>&quot;msg&quot;</b></font>) String msg) {<br />      <font color="#000080"><b>return </b></font><b><font color="#660e7a">repo</font></b>.findByMessage();<br />    }<br /><br />   <font color="#808080"><i>//status domyslny - mozna ustawiac tylko je&#347;li z cia&#322;a nie zmieniamy statusu<br />   //@ResponseStatus(HttpStatus.CREATED)<br />    </i></font><font color="#808000">@PostMapping<br />    </font><font color="#000080"><b>public </b></font>ResponseEntity&lt;?&gt; createTweet(<font color="#808000">@RequestBody </font>Tweet tweet) {<br />      Tweet saveTweet = <font color="#660e7a"><b>repo</b></font>.save(tweet);<br />      <font color="#000080"><b>return </b></font>ResponseEntity.<i>created</i>(URI.<i>create</i>(String.<i>format</i>(<font color="#008000"><b>&quot;api/tweets/%s&quot;</b></font>,<font color="#008000"><b>&quot;1&quot;</b></font>))).build();<br /><br />    }<br /><br />    <font color="#808000">@GetMapping</font>(params = {<font color="#008000"><b>&quot;page&quot;</b></font>})<br />    <font color="#000080"><b>public </b></font>Page&lt;Tweet&gt; findTweetPage(Pageable pageable) {<br />        <font color="#000080"><b>return </b></font><b><font color="#660e7a">repo</font></b>.findAll(pageable);<br />    }<br /><br />    <font color="#808080"><i>//wynosz&#261;c id wymuszam jesgo istnienie<br />    </i></font><font color="#808000">@PutMapping</font>(<font color="#008000"><b>&quot;/{id}&quot;</b></font>)<br />   <font color="#000080"><b>public void </b></font>replace(<br />         <font color="#808000">@PathVariable</font>(<font color="#008000"><b>&quot;id&quot;</b></font>) String uuid,<br />         <font color="#808000">@RequestBody </font>Tweet tweet){<br />       <font color="#660e7a"><b>repo</b></font>.save(tweet);<br />   }<br /><br />    <font color="#808000">@PostMapping</font>(<font color="#008000"><b>&quot;/exception&quot;</b></font>)<br />    <font color="#000080"><b>public void </b></font>throwEx() {<br />        <font color="#000080"><b>throw new </b></font>RuntimeException(<font color="#008000"><b>&quot;This method throws &quot; </b></font>+<br />                <font color="#008000"><b>&quot;exception&quot;</b></font>);<br />    }<br /><br /><br />}</pre>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1574843323437" ID="ID_63865453" MODIFIED="1574843620447" TEXT="Metoda z HTEOAS">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@GetMapping</font>(<font color="#008000"><b>&quot;/{id}&quot;</b></font>)<br /><font color="#808080"><i>// this method uses HATEOAS to produce self link reference<br /></i></font><font color="#000080"><b>public </b></font>ResponseEntity&lt;EntityModel&lt;Tweet&gt;&gt; findTweet(<font color="#808000">@PathVariable</font>(<font color="#008000"><b>&quot;id&quot;</b></font>) String uuid) {<br />   <font color="#000080"><b>return </b></font><b><font color="#660e7a">repo</font></b>.findById(UUID.<i>fromString</i>(uuid))<br />      .map(t -&gt; ResponseEntity.<i>status</i>(HttpStatus.<font color="#660e7a"><b><i>OK</i></b></font>)<br />         .body(<font color="#000080"><b>new </b></font>EntityModel&lt;&gt;(t,<br />            <i>linkTo</i>(<i>methodOn</i>(TweetController.<font color="#000080"><b>class</b></font>)<br />            .findTweet(<font color="#660e7a">uuid</font>)).withSelfRel())))<br />      .orElse(ResponseEntity.<i>notFound</i>().build());<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      UWAGA! zmiany wersji - to co kiedy&#347; nazywa&#322;o si&#281; Resource teraz EntityModel, pojawi&#322;a si&#281; klasa MVCLinkBuilder a znikn&#281;&#322;a ResourceLinkBuilder (jest w starych przyk&#322;&#261;dach). Dostarczony zosta&#322; skrypt kt&#243;ry to przemapowuje.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      W body jest EntityModel, pierwszy argument to co ma by&#263; w ciele responsa(czyli Tweet), a drugi argument to linki kt&#243;re budujemy linkto(methodOn/*metoda w kontrolerze do kt&#243;rej ma by&#263; link*/) i nazwa symboliczna linku.
+    </p>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
