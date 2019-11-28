@@ -19,22 +19,7 @@
 <node CREATED="1574754474119" ID="ID_1633146600" MODIFIED="1574754474119" TEXT="CTRL+ALT+T =&gt; otocz przez blok kodu"/>
 <node CREATED="1574773962954" ID="ID_368035535" LINK="https://www.jetbrains.com/help/idea/2016.1/refactoring-source-code.html" MODIFIED="1574773979746" TEXT="https://www.jetbrains.com/help/idea/2016.1/refactoring-source-code.html"/>
 </node>
-<node CREATED="1574758571416" ID="ID_1113805724" MODIFIED="1574758574269" POSITION="left" TEXT="TODO">
-<node CREATED="1574758575595" ID="ID_748841116" MODIFIED="1574763659108" TEXT="adnotacja do jsona analogiczna do xmlrefid">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"> <font color="#808080"><i>/*Domyslny sposob bindinnngu parametrow to po konwencji z ciala.<br />   Uzywajac odpowiednich adnotacji:<br />   * mozna ze sciezki<br />   * mozna z parametrow<br />   * */<br />   </i></font><font color="#808000">@GetMapping</font>(<font color="#008000"><b>&quot;/{id}&quot;</b></font>)<br /><font color="#808080"><i>//jawne mapowanie id-&gt;uuid , przy zgodno&#347;ci nazw niekonieczne<br />   </i></font><font color="#000080"><b>public </b></font>ResponseEntity&lt;Tweet&gt; findTweet(<font color="#808000">@PathVariable</font>(<font color="#008000"><b>&quot;id&quot;</b></font>) String uuid) {<br />       <font color="#000080"><b>return </b></font><b><font color="#660e7a">repo</font></b>.findById(UUID.<i>fromString</i>(uuid)).map(t-&gt;ResponseEntity.<i>status</i>(HttpStatus.<font color="#660e7a"><b><i>OK</i></b></font>).body(t)).orElse(ResponseEntity.<i>notFound</i>().build());<br />   }<br /><br />   <font color="#808000">@GetMapping</font>(<font color="#008000"><b>&quot;/empty&quot;</b></font>)<br /><font color="#000080"><b>public </b></font>Optional&lt;Tweet&gt;findEmpty(){<br />       <font color="#000080"><b>return </b></font>Optional.<i>empty</i>();<br />}<br /><br /><br />   <font color="#808000">@PostMapping<br /></font><font color="#808080"><i>//status domyslny<br />   </i></font><font color="#808000">@ResponseStatus</font>(HttpStatus.<font color="#660e7a"><b><i>CREATED</i></b></font>)<br />   <font color="#000080"><b>public void </b></font>createTweet(<font color="#808000">@RequestBody </font>Tweet tweet) {<br />       <font color="#660e7a"><b>repo</b></font>.save(tweet);<br />   }</pre>
-  </body>
-</html></richcontent>
-<node CREATED="1574765860911" ID="ID_753674170" MODIFIED="1574765860911" TEXT=""/>
-</node>
-<node CREATED="1574765867834" ID="ID_1362240137" MODIFIED="1574765889577" TEXT="Czy mo&#x17c;na uzyska&#x107; kody przyk&#x142;adowego projektu REST z dedykowanego kursu"/>
-<node CREATED="1574779350676" ID="ID_963590606" MODIFIED="1574779369638" TEXT="Tworze property o nieznanym typie, i skrot kt&#xf3;ry tworzy z tego interfejs"/>
-<node CREATED="1574844981036" ID="ID_620713990" MODIFIED="1574845001679" TEXT="Kody z prawid&#x142;ow&#x105; architektur&#x105; DDD"/>
-</node>
+<node CREATED="1574758571416" ID="ID_1113805724" MODIFIED="1574758574269" POSITION="left" TEXT="TODO"/>
 <node CREATED="1574886382303" HGAP="-30" ID="ID_873319434" MODIFIED="1574886496624" POSITION="right" TEXT="Spring Framework" VSHIFT="-115">
 <cloud COLOR="#00cc66"/>
 <node CREATED="1574887057230" ID="ID_1652339394" MODIFIED="1574887060752" TEXT="Interfejsy">
@@ -112,7 +97,7 @@
 </node>
 </node>
 <node CREATED="1574887067797" ID="ID_482146332" MODIFIED="1574887071998" TEXT="Implementacja">
-<node CREATED="1574887073992" ID="ID_1095533871" MODIFIED="1574887248680" TEXT="AnnotationConfigApplicationContext">
+<node CREATED="1574887073992" ID="ID_1095533871" MODIFIED="1574896273473" TEXT="AnnotationConfigApplicationContext">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -126,48 +111,37 @@
 </richcontent>
 </node>
 </node>
+<node CREATED="1574900254227" ID="ID_876600569" MODIFIED="1574900361657" TEXT="Klasy/interfejsy pomocnicze">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Spring umo&#380;liwia wpinanie si&#281; do cyklu &#380;ycia.
+    </p>
+    <p>
+      Ka&#380;da adnotacja typu Enable, najcz&#281;&#347;ciej posiada klas&#281; template *Support, a je&#347;li nie to interfejs *Cofigurer, z kt&#243;rych wydziedziczenie si&#281; lub implementacja pozwala na zmian&#281; domy&#347;lnego zachowania.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1574898340134" ID="ID_1175030303" MODIFIED="1574898352835" TEXT="Interfejsy typu *Configurer"/>
+<node CREATED="1574896276309" ID="ID_1695078347" MODIFIED="1574896449774" TEXT="Klasy pomocnicze typu *Support">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      S&#261; to klasy z metodami template, dzi&#281;ki kt&#243;rym mo&#380;liwe jest wpi&#281;cie si&#281; w cykl &#380;ycia niekt&#243;rych operacji i wyconanie pewnych customizacji.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 <node CREATED="1574887259095" ID="ID_486119116" MODIFIED="1574887262400" TEXT="Aspekty">
-<node CREATED="1574887329114" ID="ID_1554319135" LINK="https://rieckpil.de/howto-java-benchmarking-with-jmh-java-microbenchmark-harness/" MODIFIED="1574887483778" TEXT="Java-Microbenchmark Current">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Pozwala na mierzenie wydajno&#347;ci kodu w skali Micro. Izoluje od problem&#243;w z rozgrzewaniem maszyny.
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1574887508850" ID="ID_708442675" MODIFIED="1574888218037" TEXT="Obs&#x142;uga aspekt&#xf3;w w Spring">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Spring zaprojektowa&#322; w&#322;asne api do obs&#322;ugi aspekt&#243;w. Ma on s&#322;u&#380;y&#263; u&#322;atwieniu Long Time Weaving bez konieczno&#347;ci u&#380;ywania Agent&#243;w (technika u&#380;ywana przez AspectJ, polegaj&#261;ca na wkopilowywaniu agent&#243;w do kodu wykonwywalnego). Realizuje aspekty przy pomocy proxy.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      
-    </p>
-    <ul>
-      <li>
-        &#160;&#160;&#160;&#160;Like singh101 said, Spring AOP is proxy-based, more exactly based on Java SE dynamic proxies (for interfaces) or CGLIB proxies (for classes). It uses a subset of AspectJ syntax and is a kind of &quot;AOP lite&quot; approach basically limited to method execution pointcuts, missing many AspectJ pointcut types like method call, class member set/get, constructor call/execution and others. Technologically it is very much different from AspectJ and always incurs a runtime overhead due to the proxy approach (call indirection). Furthermore, it is limited to Spring Bean methods being called from outside the bean class, i.e. it does not work if a bean calls one of its own methods (because it does not go through the corresponding proxy) and it also does not work for non-Spring Bean classes (normal POJOs).<br /><br />
-      </li>
-      <li>
-        &#160;AspectJ on the other hand is a full-fledged AOP framework which does not rely on either proxies or the Spring framework. It can be easily included into Spring applications, though. It works by generating byte code directly via its own compiler (which is a superset of the Java compiler) or instrumenting existing byte code. AspectJ can be used during compile time (no runtime overhead) or during classloading (load time weaving, LTW). While LTW has a little overhead during application start-up time (but the same applies to Spring AOP), both AspectJ weaving approaches have no runtime overhead due to call indirection because there are no proxies involved.&#160;&#160;&#160;&#160;The Spring manual chapter on AOP explains nicely how to integrate full AspectJ into Spring when Spring AOP is not powerful enough or simply too slow.
-      </li>
-    </ul>
-  </body>
-</html>
-</richcontent>
-</node>
-<node CREATED="1574887797547" ID="ID_148618184" LINK="https://www.baeldung.com/java-instrumentation" MODIFIED="1574887909916" TEXT="Java Instrumentation API">
+<node CREATED="1574887797547" ID="ID_148618184" LINK="https://www.baeldung.com/java-instrumentation" MODIFIED="1574894839736" TEXT="Java Instrumentation API">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -252,11 +226,27 @@
       Next, we'll take a look at each type of load and explain how it works.
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1574895241914" ID="ID_1349910241" MODIFIED="1574895342024" TEXT="Sposoby realizacji aspekt&#xf3;w">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        &#160;&#160;&#160;&#160;Like singh101 said, Spring AOP is proxy-based, more exactly based on Java SE dynamic proxies (for interfaces) or CGLIB proxies (for classes). It uses a subset of AspectJ syntax and is a kind of &quot;AOP lite&quot; approach basically limited to method execution pointcuts, missing many AspectJ pointcut types like method call, class member set/get, constructor call/execution and others. Technologically it is very much different from AspectJ and always incurs a runtime overhead due to the proxy approach (call indirection). Furthermore, it is limited to Spring Bean methods being called from outside the bean class, i.e. it does not work if a bean calls one of its own methods (because it does not go through the corresponding proxy) and it also does not work for non-Spring Bean classes (normal POJOs).<br /><br />
+      </li>
+      <li>
+        &#160;AspectJ on the other hand is a full-fledged AOP framework which does not rely on either proxies or the Spring framework. It can be easily included into Spring applications, though. It works by generating byte code directly via its own compiler (which is a superset of the Java compiler) or instrumenting existing byte code. AspectJ can be used during compile time (no runtime overhead) or during classloading (load time weaving, LTW). While LTW has a little overhead during application start-up time (but the same applies to Spring AOP), both AspectJ weaving approaches have no runtime overhead due to call indirection because there are no proxies involved.&#160;&#160;&#160;&#160;The Spring manual chapter on AOP explains nicely how to integrate full AspectJ into Spring when Spring AOP is not powerful enough or simply too slow.
+      </li>
+    </ul>
+  </body>
 </html>
 </richcontent>
-</node>
-</node>
-<node CREATED="1574888099379" ID="ID_441018223" MODIFIED="1574888165341" TEXT="AspectJ">
+<node CREATED="1574888099379" ID="ID_441018223" MODIFIED="1574894816299" TEXT="AspectJ">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -269,16 +259,388 @@
       
     </p>
     <p>
-      statyczny - wkompoilowuje fragmenty kodu do kodu wykonywalnego
+      statyczny - wkompilowuje fragmenty kodu do kodu wykonywalnego
     </p>
     <p>
       dynamiczny - long time weaving - wykorzystuje kod agent&#243;w
     </p>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1574887508850" ID="ID_708442675" MODIFIED="1574895284003" TEXT="Spring">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Spring zaprojektowa&#322; w&#322;asne api do obs&#322;ugi aspekt&#243;w. Ma on s&#322;u&#380;y&#263; u&#322;atwieniu Long Time Weaving bez konieczno&#347;ci u&#380;ywania Agent&#243;w (technika u&#380;ywana przez AspectJ, polegaj&#261;ca na wkopilowywaniu agent&#243;w do kodu wykonwywalnego). Realizuje aspekty przy pomocy proxy.
+    </p>
+    <p>
+      
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
-<node CREATED="1574888009748" ID="ID_1336710840" MODIFIED="1574888009748" TEXT=""/>
+</node>
+<node CREATED="1574895351057" ID="ID_785829186" MODIFIED="1574895549713" TEXT="Przyk&#x142;ad">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">Dobr&#261; praktyk&#261; jest posiadanie klasy konfiguracyjnej z samymi Pointcutami, kt&#243;re potem mog&#261; by&#263; u&#380;yte w kodzie. 
+
+@Aspect<br />@Configuration<br /></font><font color="#000080"><b>public class </b></font>LoggingAspect {<br /><br />&#160;&#160; <font color="#000080"><b>private static final </b></font>Logger <font color="#660e7a"><b><i>logger </i></b></font>= LoggerFactory<br />&#160;&#160;&#160;&#160;&#160;&#160;.<i>getLogger</i>(LoggingAspect.<font color="#000080"><b>class</b></font>);<br /><br />&#160;&#160; <font color="#808000">@Before</font>(<br />&#160;&#160;&#160;&#160;&#160; <font color="#808080"><i>// @formatter:off<br />&#160;&#160;&#160;&#160;&#160; </i></font><font color="#008000"><b>&quot;Pointcuts.servicePointcut()&quot;<br />&#160;&#160;&#160;&#160;&#160; </b></font><font color="#808080"><i>// @formatter:on<br />&#160;&#160; </i></font>)<br />&#160;&#160; <font color="#000080"><b>public void </b></font>logMethodCall(JoinPoint joinPoint) {<br />&#160;&#160;&#160;&#160;&#160; <font color="#660e7a"><b><i>logger</i></b></font>.info(<font color="#008000"><b>&quot;Calling method {}&quot;</b></font>, joinPoint.getSignature()<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.getName());<br />&#160;&#160;&#160;}<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>import </b></font>org.aspectj.lang.annotation.<font color="#808000">Pointcut</font>;<br /><br /><font color="#000080"><b>public interface </b></font>Pointcuts {<br /><br />   <font color="#808080"><i>// @formatter:off<br />   </i></font><font color="#808000">@Pointcut</font>(<br />      <font color="#008000"><b>&quot;execution(* pro.buildmysoftware.spring.core.aop.service.*.*(..))&quot;<br />   </b></font>)<br />   <font color="#808080"><i>// @formatter:on<br />   </i></font><font color="#000080"><b>static void </b></font>servicePointcut() {<br /><br />   }<br />}<br /></pre>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@SpringBootTest<br /></font><font color="#000080"><b>class </b></font>LoggingAspectTest {<br /><br />   <font color="#808000">@Autowired<br />   </font><font color="#000080"><b>private </b></font>HelloService <font color="#660e7a"><b>helloService</b></font>;<br /><br />   <font color="#808000">@DisplayName</font>(<font color="#008000"><b>&quot;should log using aspect&quot;</b></font>)<br />   <font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>test() <font color="#000080"><b>throws </b></font>Exception {<br />      <font color="#808080"><i>// when<br />      </i></font><font color="#660e7a"><b>helloService</b></font>.method();<br /><br />      <font color="#808080"><i>// then<br />      // should log<br />   </i></font>}</pre>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Wynik dzia&#322;ania:
+    </p>
+    <p>
+      2019-11-27 23:50:33.347&#160;&#160;INFO 18828 --- [&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;main] p.b.s.core.aop.aspects.LoggingAspect&#160;&#160;&#160;&#160;&#160;: Calling method method
+    </p>
+    <p>
+      Hello
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1574894878906" ID="ID_1566384778" MODIFIED="1574894882386" TEXT="Proxy">
+<node CREATED="1574894884061" ID="ID_856672565" MODIFIED="1574894941395" TEXT="CGLIB">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Domy&#347;lna strategia tworzenia Proxy, daje wi&#281;ksze mo&#380;liwo&#347;ci kontroli ni&#380; zwyk&#322;e javove dynamic proxy
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574894890637" ID="ID_964447875" MODIFIED="1574894972880" TEXT="Java Dynamic Proxy">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      U&#380;ywa natywnego javowego mechanizmu tworzenia proxy. Daje mniejsze mo&#380;liwo&#347;ci kontroli.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1574895759311" ID="ID_1117030228" MODIFIED="1574896296663" TEXT="Przetwarzanie asynchroniczne @Async">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      @Async dzia&#322;a w&#160;&#160;oparciu o mechanizm proxy.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Przekierowanie do zdefiniowanego egzekutora kodu oznaczonego t&#261; adnotacj&#261;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      UWAGA! Wszystkie aspekty &quot;before&quot; wykonaj&#261; si&#281; w w&#261;tku oryginalnym. Do nowego w&#261;tku trafi tylko to, co oznaczone zosta&#322;o adnotacj&#261;.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1574896094751" ID="ID_1077123248" MODIFIED="1574896406098" TEXT="AsyncConfigurerSupport">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Jest to klasa typu template pozwalaj&#261;ca na customizowanie metody dostarczaj&#261;cej egzekutora wykorzystywanego w @Async
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@SpringBootApplication<br />@EnableAsync<br /></font><font color="#000080"><b>public class </b></font>AsyncApp <font color="#000080"><b>extends </b></font>AsyncConfigurerSupport {<br /><br />   <font color="#000080"><b>public static void </b></font>main(String[] args) {<br />      SpringApplication.<i>run</i>(AsyncApp.<font color="#000080"><b>class</b></font>, args);<br />   }<br /><br />   <font color="#808000">@Override<br />   </font><font color="#000080"><b>public </b></font>Executor getAsyncExecutor() {<br />      <font color="#000080"><b>return super</b></font>.getAsyncExecutor();<br />      <font color="#808080"><i>// configure the executor here<br />      // return Executors.newSingleThreadExecutor();<br />   </i></font>}<br />}<br /></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574896455209" ID="ID_1736447451" MODIFIED="1574896934627" TEXT="@EnableAsync na aplikacji">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Aby dzia&#322;a&#322;y adnotacje @Async, tryb asynchroniczny musi zosta&#263; w&#322;&#261;czony przez adnotacj&#281; @EnableAsync (na klasie aplikacji lub konfiguracyjnej).
+    </p>
+    <p>
+      @EnableAsync samo podnosi egzekutory domy&#347;lne.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574896820053" ID="ID_203883637" MODIFIED="1574897387776" TEXT="Uwaga! transakcje">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Metoda oznaczona jako @Async uruchamia si&#281; w osobnym w&#261;tku, wi&#281;c transakcja nie spropaguje si&#281; z w&#261;tku rodzica.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Oznaczenie Transactional.NEW r&#243;wnie&#380; nie wykona si&#281; w&#322;a&#347;ciwie.
+    </p>
+  </body>
+</html>
+</richcontent>
+<icon BUILTIN="yes"/>
+</node>
+<node CREATED="1574897370533" ID="ID_262895414" MODIFIED="1574897532147" TEXT="Kontrolery asynchroniczne">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Kontrolery wspieraj&#261; zwracanie obiektu
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">CompletableFuture</pre>
+    <p>
+      kt&#243;ry opakowuje wynik.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Z punktu widzenia klienta &#380;&#261;danie jest otwarte, widzi &#380;e ono si&#281; wykonuje, ale tak naprawd&#281; po stronie serwera w&#261;tek obs&#322;uguj&#261;cy &#380;&#261;dania jest zwalniany i mo&#380;e obs&#322;u&#380;y&#263; kolejne &#380;&#261;danie.
+    </p>
+    <p>
+      Klient czeka i dopiero jak w&#261;tek wykonuj&#261;cy zadanie je zako&#324;czy to wtedy dostaje odpowied&#378;.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574896549581" ID="ID_1460212368" MODIFIED="1574897388224" TEXT="Przyk&#x142;ad">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@RestController<br />@RequestMapping</font>(<font color="#008000"><b>&quot;/api/async&quot;</b></font>)<br /><font color="#000080"><b>public class </b></font>AsyncController {<br /><br />   <font color="#000080"><b>private </b></font>AsyncService <font color="#660e7a"><b>asyncService</b></font>;<br /><br />   <font color="#000080"><b>public </b></font>AsyncController(AsyncService asyncService) {<br />      <font color="#000080"><b>this</b></font>.<font color="#660e7a"><b>asyncService </b></font>= asyncService;<br />   }<br /><br />   <font color="#808000">@GetMapping<br />   </font><font color="#000080"><b>public </b></font>CompletableFuture&lt;Result&gt; async() {<br />      <font color="#000080"><b>return </b></font><b><font color="#660e7a">asyncService</font></b>.process();<br />   }<br />}<br /></pre>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@Service<br /></font><font color="#000080"><b>public class </b></font>AsyncService {<br /><br />   <font color="#808000">@Async<br />   </font><font color="#000080"><b>public </b></font>CompletableFuture&lt;Result&gt; process() {<br />      <font color="#000080"><b>try </b></font>{<br />         Thread.<i>sleep</i>(<font color="#0000ff">2000</font>);<br />         <font color="#000080"><b>return </b></font>CompletableFuture<br />            .<i>completedFuture</i>(<font color="#000080"><b>new </b></font>Result(<font color="#008000"><b>&quot;OK&quot;</b></font>));<br />      }<br />      <font color="#000080"><b>catch </b></font>(InterruptedException e) {<br />         <font color="#000080"><b>throw new </b></font>RuntimeException(e);<br />      }<br />   }<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@SpringBootTest<br /></font><font color="#000080"><b>class </b></font>AsyncServiceTest {<br /><br />   <font color="#808000">@Autowired<br />   </font><font color="#000080"><b>private </b></font>AsyncService <font color="#660e7a"><b>asyncService</b></font>;<br /><br />   <font color="#808000">@DisplayName</font>(<font color="#008000"><b>&quot;async example&quot;</b></font>)<br />   <font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>test() <font color="#000080"><b>throws </b></font>Exception {<br />      <font color="#808080"><i>// when<br />      </i></font>CompletableFuture&lt;Result&gt; result = <font color="#660e7a"><b>asyncService</b></font>.process();<br /><br />      <font color="#808080"><i>// then<br />      </i></font><i>assertThat</i>(result.isDone()).isFalse(); <font color="#808080"><i>// should return<br />      // immediately, since we are using @Async on AsyncService<br />      // method<br />      </i></font><i>assertThat</i>(result.get()).isEqualTo(<font color="#000080"><b>new </b></font>Result(<font color="#008000"><b>&quot;OK&quot;</b></font>));<br />   }<br />}</pre>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1574897635969" ID="ID_780018507" MODIFIED="1574899819851" TEXT="Event Sourcing i Scheduler @Scheduled">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Przez zdarzenie rozumiemy raportowan&#261; przez system zmian&#281; stanu aplikacji, np:
+    </p>
+    <ul>
+      <li>
+        z&#322;o&#380;ono zam&#243;wienie
+      </li>
+      <li>
+        przygotowano zam&#243;wienie
+      </li>
+      <li>
+        wys&#322;ano paczk&#281;
+      </li>
+    </ul>
+    <p>
+      Koncepcja:
+    </p>
+    <p>
+      Gdyby&#347;my od startu systemu rejestrowali wszystkie zdarzenia to jeste&#347;my w stanie zarejestrowa&#263; ka&#380;dy stan systemu to jeste&#347;my w stanie odtworzy&#263; stan systemu na dowoln&#261; chwil&#281; t0.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      e0-----e1-------e1000-----e2000
+    </p>
+    <p>
+      Je&#347;li uznamy &#380;e nie iteresuj&#261; nas stanysystemu sprzed jakiego&#347; czasu to np. mo&#380;na odtworzy&#263; snapshot systemu dla e1000, b&#281;dzie to stan pocz&#261;tkowy i na niego nak&#322;ada&#263; nowe zdarzenia.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Scheduler mo&#380;e zosta&#263; wykorzystany do publikacji zdarze&#324; na jaki&#347; czas.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Przyk&#322;&#261;d:
+    </p>
+    <p>
+      Chcieliby&#347;my by system publikowa&#322; informacj&#281; o zdarzeniu dopiero po zatwierdzeniu transakcji bazodanowej.
+    </p>
+    <ul>
+      <li>
+        Spos&#243;b 1: Wykorzysta&#263; TransactionalEventListener
+      </li>
+      <li>
+        Spos&#243;b 2: Informacj&#281;o zdarzeniu zapisa&#263; w bazie danych. Potem scheduler analizuje od&#322;o&#380;one informacje, i dla ka&#380;dej z nich wykonuje publikacj&#281; zdarzenia (np do kolejki)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1574899622994" ID="ID_1374743167" MODIFIED="1574899979773" TEXT="SchedulingConfigurer">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    Interfejs kt&#243;ry mo&#380;e zosta&#263; zaimplementowany przez klas&#281; configuracyjn&#261; . Implementacja mo&#380;e pos&#322;u&#380;y&#263; do nadpisywania defaultowych Scheduler&#243;w. Optional interface to be implemented by @
+
+    <p>
+      <a href="https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Configuration.html" title="annotation in org.springframework.context.annotation"><code>Configuration</code></a>&#160;classes annotated with @<a href="https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/scheduling/annotation/EnableScheduling.html" title="annotation in org.springframework.scheduling.annotation"><code>EnableScheduling</code></a>. Typically used for setting a specific <a href="https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/scheduling/TaskScheduler.html" title="interface in org.springframework.scheduling"><code>TaskScheduler</code></a>&#160;bean to be used when executing scheduled tasks or for registering scheduled tasks in a <em>programmatic</em>&#160;fashion as opposed to the <em>declarative</em>&#160; approach of using the @<a href="https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/scheduling/annotation/Scheduled.html" title="annotation in org.springframework.scheduling.annotation"><code>Scheduled</code></a>&#160;annotation. For example, this may be necessary when implementing <a href="https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/scheduling/Trigger.html" title="interface in org.springframework.scheduling"><code>Trigger</code></a>-based tasks, which are not supported by the <code>@Scheduled</code>&#160;annotation.
+    </p>
+    <p>
+      See @<a href="https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/scheduling/annotation/EnableScheduling.html" title="annotation in org.springframework.scheduling.annotation"><code>EnableScheduling</code></a>&#160;for detailed usage examples.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574899774079" ID="ID_1617656753" MODIFIED="1574899804999" TEXT="@EnableScheduling - na aplikacji">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Adnotacja
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@EnableScheduling</font></pre>
+    <p>
+      aktywuje schedulery.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574899843217" ID="ID_320875141" MODIFIED="1574899901847" TEXT="@Scheduled">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      S&#322;u&#380;y do oznaczenia kodu wykonywanego przez Schedulera.
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@Scheduled</font>(fixedDelay = <font color="#0000ff">1000</font>)</pre>
+    <p>
+      
+    </p>
+    <p>
+      fixdelay- op&#243;&#378;nienie, przerwy w wykonaniu metody
+    </p>
+    <p>
+      cron - mo&#380;na u&#380;ywa&#263; wyra&#380;e&#324; znanych z crona
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574899996853" ID="ID_1878521913" MODIFIED="1574900238592" TEXT="Przyk&#x142;ad">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@SpringBootApplication<br />@EnableScheduling<br /></font><font color="#000080"><b>public class </b></font>SchedulerApp <font color="#000080"><b>implements </b></font>SchedulingConfigurer {<br /><br />   <font color="#000080"><b>public static void </b></font>main(String[] args) {<br />      SpringApplication.<i>run</i>(SchedulerApp.<font color="#000080"><b>class</b></font>, args);<br />   }<br /><br />   <font color="#808000">@Override<br />   </font><font color="#000080"><b>public void </b></font>configureTasks(ScheduledTaskRegistrar scheduledTaskRegistrar) {<br /><br />   }<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@Component<br /></font><font color="#000080"><b>public class </b></font>SimpleScheduler {<br /><br />   <font color="#000080"><b>private </b></font>ScheduledActionHandler <font color="#660e7a"><b>handlingStrategy</b></font>;<br /><br />   <font color="#000080"><b>public </b></font>SimpleScheduler(ScheduledActionHandler handlingStrategy) {<br />      <font color="#000080"><b>this</b></font>.<font color="#660e7a"><b>handlingStrategy </b></font>= handlingStrategy;<br />   }<br /><br />   <font color="#808000">@Scheduled</font>(fixedDelay = <font color="#0000ff">1000</font>)<br />   <font color="#000080"><b>void </b></font>run() {<br />      <font color="#660e7a"><b>handlingStrategy</b></font>.handle();<br />   }<br />}</pre>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>public interface </b></font>ScheduledActionHandler {<br /><br />   <font color="#000080"><b>void </b></font>handle();<br />}<br /></pre>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@SpringBootTest<br /></font><font color="#000080"><b>public class </b></font>SchedulerIntegrationTest {<br /><br />   <font color="#808000">@MockBean<br />   </font><font color="#000080"><b>private </b></font>ScheduledActionHandler <font color="#660e7a"><b>handlerStrategy</b></font>;<br /><br />   <font color="#808080"><i>// @formatter:off<br />   </i></font><font color="#808000">@DisplayName</font>(<font color="#008000"><b>&quot;run handler at least 3 times when running for 4 seconds&quot;</b></font>)<br />   <font color="#808080"><i>// @formatter:on<br />   </i></font><font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>test() <font color="#000080"><b>throws </b></font>Exception {<br />      <font color="#808080"><i>// when<br />      </i></font>Thread.<i>sleep</i>(<font color="#0000ff">4000</font>);<br /><br />      <font color="#808080"><i>// then<br />      </i></font><i>verify</i>(<font color="#660e7a"><b>handlerStrategy</b></font>, <i>atLeast</i>(<font color="#0000ff">3</font>)).handle();<br />   }<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      W te&#347;cie dokonujemy mockowania strategii realizuj&#261;cej biznes. Testujemy zatem tylko infrastruktur&#281;.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1574767521883" ID="ID_342452735" MODIFIED="1574846683796" POSITION="right" TEXT="Testy jednostkowe i integracyjne">
@@ -734,8 +1096,7 @@ U&#380;ycie:</pre>
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <cloud COLOR="#ffcccc"/>
 <node CREATED="1574853583555" ID="ID_1678386152" LINK="https://github.com/mikewojtyna/efficient-java/blob/master/src/main/java/pro/buildmysoftware/efficientjava/newio/server/EchoServer.java" MODIFIED="1574859185982" TEXT="Standardowa obs&#x142;uga &#x17c;&#x105;dania">
 <richcontent TYPE="NOTE"><html>
@@ -1226,7 +1587,8 @@ Mamy odpowiednik RestTemplate(zawsze jest blokuj&#261;ce), nazywa si&#281; WebCl
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1574843125039" ID="ID_328884833" MODIFIED="1574843225767" POSITION="left" TEXT="Architektura">
+<node CREATED="1574843125039" ID="ID_328884833" MODIFIED="1574900511805" POSITION="left" TEXT="Architektura">
+<cloud COLOR="#ccccff"/>
 <node CREATED="1574841559632" ID="ID_1984439955" MODIFIED="1574841596509" TEXT="Domain Driven Development"/>
 <node CREATED="1574780218589" ID="ID_1502084458" MODIFIED="1574780242393" TEXT="Architektura warstwowa vs heksagonalna Ports -Adapters"/>
 <node CREATED="1574841576743" ID="ID_1831841956" MODIFIED="1574846067937" TEXT="Test Driven Development i Ports Adapters"/>
@@ -1465,77 +1827,7 @@ Mamy odpowiednik RestTemplate(zawsze jest blokuj&#261;ce), nazywa si&#281; WebCl
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1574846109249" ID="ID_326552104" MODIFIED="1574846511409" POSITION="right" TEXT="Linki">
-<cloud COLOR="#cc99ff"/>
-<node CREATED="1574846113095" ID="ID_612735272" LINK="https://www.youtube.com/watch?v=wwi1wXOFaA8" MODIFIED="1574846487491" TEXT="Prezentacja po&#x15b;wi&#x119;cona TDD"/>
-<node CREATED="1574844439087" ID="ID_739718076" LINK="https://github.com/spring-projects/spring-boot/tree/master/spring-boot-project/spring-boot-starters" MODIFIED="1574844611680" TEXT="Spring boot kody na GitHub, lista starter&#xf3;w"/>
-<node CREATED="1574848630256" ID="ID_1657360382" LINK="http://www.querydsl.com/" MODIFIED="1574848645512" TEXT="QueryDSL"/>
-<node CREATED="1574853033040" ID="ID_1935823768" LINK="https://github.com/ddd-by-examples/library" MODIFIED="1574853071788" TEXT="DDD by Examples"/>
-<node CREATED="1574859554859" ID="ID_1647435931" LINK="https://medium.com/olivers-tech-blog/profiling-with-java-agents-part-1-a-hello-world-example-d5531189c418" MODIFIED="1574859567445" TEXT="Java agent (AOP)"/>
-<node CREATED="1574861009343" ID="ID_897775662" MODIFIED="1574861014191" TEXT="Reaktywne">
-<node CREATED="1574853721580" ID="ID_263345616" LINK="https://www.reactivemanifesto.org/" MODIFIED="1574853738695" TEXT="Manifest programowania reaktywnego"/>
-<node CREATED="1574862315685" ID="ID_878967681" LINK="https://ratpack.io/manual/current/streams.html" MODIFIED="1574862325277" TEXT="RatPack">
-<node CREATED="1574853933942" ID="ID_334741856" LINK="https://www.youtube.com/watch?v=gyMDRE_gg2k" MODIFIED="1574862349656" TEXT="Prezentacja dotycz&#x105;ca Ratpack"/>
-</node>
-<node CREATED="1574854908903" ID="ID_482096914" LINK="https://github.com/r2dbc" MODIFIED="1574854936856" TEXT="Reaktywne sterowniki do baz relacyjnych - projekt eksperymentalny"/>
-<node CREATED="1574860343731" ID="ID_1745772201" LINK="https://blog.softwaremill.com/how-not-to-use-reactive-streams-in-java-9-7a39ea9c2cb3" MODIFIED="1574860393046" TEXT="How (not) to use Reactive Streams in Java 9+"/>
-<node CREATED="1574860670772" ID="ID_668374872" LINK="https://rxmarbles.com/" MODIFIED="1574860727415" TEXT="Understanding Marble Diagrams for Reactive Streams">
-<arrowlink DESTINATION="ID_668374872" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1281085005" STARTARROW="None" STARTINCLINATION="0;0;"/>
-<linktarget COLOR="#b0b0b0" DESTINATION="ID_668374872" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1281085005" SOURCE="ID_668374872" STARTARROW="None" STARTINCLINATION="0;0;"/>
-</node>
-</node>
-</node>
-<node CREATED="1574848969456" ID="ID_33004900" MODIFIED="1574883490503" POSITION="left" TEXT="Repozytoria kodu">
-<cloud COLOR="#ff9933"/>
-<node CREATED="1574848975641" ID="ID_1141345053" LINK="https://github.com/mikewojtyna" MODIFIED="1574848994398" TEXT="Root"/>
-<node CREATED="1574854690320" ID="ID_1420432324" LINK="https://github.com/mikewojtyna/efficient-java" MODIFIED="1574859126999" TEXT="Efficient java - serwer NIO, minimalny system reaktywny">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      https://github.com/mikewojtyna/efficient-java/blob/master/src/main/java/pro/buildmysoftware/efficientjava/newio/server/EchoServer.java
-    </p>
-  </body>
-</html></richcontent>
-<linktarget COLOR="#b0b0b0" DESTINATION="ID_1420432324" ENDARROW="Default" ENDINCLINATION="956;73;" ID="Arrow_ID_602685065" SOURCE="ID_1678386152" STARTARROW="None" STARTINCLINATION="1597;452;"/>
-</node>
-<node CREATED="1574855228730" ID="ID_1938294586" LINK="https://github.com/mikewojtyna/ddd-training" MODIFIED="1574855244091" TEXT="DDD"/>
-<node CREATED="1574855373811" ID="ID_885595811" LINK="https://github.com/mikewojtyna/rest-api-training" MODIFIED="1574855396788" TEXT="Rest API+HTEOAS(starsza wersja)"/>
-<node CREATED="1574855938802" ID="ID_1022438264" LINK="https://github.com/mikewojtyna/webflux-training" MODIFIED="1574856459443" TEXT="WebFlux-nowy framework wobowy Spring">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Jest w opozycji do Spring MVC, kontrolerem jest dowolna funkcja Consumer, odej&#347;cie od adnotacji. W tym frameworku nie startuje tomcat tylko netty, bo ma lepsze wsparcie, wstaje aplikacja nas&#322;uchuj&#261;ca.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Ciekawym typem jest typ MediaType.TEXT_EVENT_STREAM_VALUE
-    </p>
-    <p>
-      
-    </p>
-    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">@RestController<br />@RequestMapping(<font color="#008000"><b>&quot;/controller/hello&quot;</b></font>)<br /><font color="#000080"><b>public class </b></font>ReactiveHelloController {<br />    @GetMapping(produces = MediaType.TEXT_EVENT_STREAM_VALUE)<br />    <font color="#000080"><b>public </b></font>Flux&lt;Hello&gt; allMsgs() {<br />        <font color="#000080"><b>return </b></font>Flux.interval(Duration.ofSeconds(<font color="#0000ff">1</font>))<br />                .map(i -&gt; <font color="#000080"><b>new </b></font>Hello(<font color="#008000"><b>&quot;Hello &quot; </b></font>+ i));<br />    }<br />}</pre>
-    <p>
-      
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Przegl&#261;darka nigdy nie dostaje responsa, serwer pisze ca&#322;y czas do tego kana&#322;u
-    </p>
-  </body>
-</html></richcontent>
-</node>
-</node>
-<node CREATED="1574754054673" ID="ID_755476824" MODIFIED="1574886499250" POSITION="right" TEXT="Dobre praktyki Rest">
+<node CREATED="1574754054673" ID="ID_755476824" MODIFIED="1574900026475" POSITION="right" TEXT="Dobre praktyki Rest">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1804,6 +2096,89 @@ Mamy odpowiednik RestTemplate(zawsze jest blokuj&#261;ce), nazywa si&#281; WebCl
     </p>
     <p>
       W body jest EntityModel, pierwszy argument to co ma by&#263; w ciele responsa(czyli Tweet), a drugi argument to linki kt&#243;re budujemy linkto(methodOn/*metoda w kontrolerze do kt&#243;rej ma by&#263; link*/) i nazwa symboliczna linku.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1574846109249" ID="ID_326552104" MODIFIED="1574846511409" POSITION="right" TEXT="Linki">
+<cloud COLOR="#cc99ff"/>
+<node CREATED="1574846113095" ID="ID_612735272" LINK="https://www.youtube.com/watch?v=wwi1wXOFaA8" MODIFIED="1574846487491" TEXT="Prezentacja po&#x15b;wi&#x119;cona TDD"/>
+<node CREATED="1574844439087" ID="ID_739718076" LINK="https://github.com/spring-projects/spring-boot/tree/master/spring-boot-project/spring-boot-starters" MODIFIED="1574844611680" TEXT="Spring boot kody na GitHub, lista starter&#xf3;w"/>
+<node CREATED="1574848630256" ID="ID_1657360382" LINK="http://www.querydsl.com/" MODIFIED="1574848645512" TEXT="QueryDSL"/>
+<node CREATED="1574853033040" ID="ID_1935823768" LINK="https://github.com/ddd-by-examples/library" MODIFIED="1574853071788" TEXT="DDD by Examples"/>
+<node CREATED="1574859554859" ID="ID_1647435931" LINK="https://medium.com/olivers-tech-blog/profiling-with-java-agents-part-1-a-hello-world-example-d5531189c418" MODIFIED="1574859567445" TEXT="Java agent (AOP)"/>
+<node CREATED="1574861009343" ID="ID_897775662" MODIFIED="1574861014191" TEXT="Reaktywne">
+<node CREATED="1574853721580" ID="ID_263345616" LINK="https://www.reactivemanifesto.org/" MODIFIED="1574853738695" TEXT="Manifest programowania reaktywnego"/>
+<node CREATED="1574862315685" ID="ID_878967681" LINK="https://ratpack.io/manual/current/streams.html" MODIFIED="1574862325277" TEXT="RatPack">
+<node CREATED="1574853933942" ID="ID_334741856" LINK="https://www.youtube.com/watch?v=gyMDRE_gg2k" MODIFIED="1574862349656" TEXT="Prezentacja dotycz&#x105;ca Ratpack"/>
+</node>
+<node CREATED="1574854908903" ID="ID_482096914" LINK="https://github.com/r2dbc" MODIFIED="1574854936856" TEXT="Reaktywne sterowniki do baz relacyjnych - projekt eksperymentalny"/>
+<node CREATED="1574860343731" ID="ID_1745772201" LINK="https://blog.softwaremill.com/how-not-to-use-reactive-streams-in-java-9-7a39ea9c2cb3" MODIFIED="1574860393046" TEXT="How (not) to use Reactive Streams in Java 9+"/>
+<node CREATED="1574860670772" ID="ID_668374872" LINK="https://rxmarbles.com/" MODIFIED="1574860727415" TEXT="Understanding Marble Diagrams for Reactive Streams">
+<arrowlink DESTINATION="ID_668374872" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1281085005" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_668374872" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1281085005" SOURCE="ID_668374872" STARTARROW="None" STARTINCLINATION="0;0;"/>
+</node>
+</node>
+<node CREATED="1574887329114" ID="ID_1554319135" LINK="https://rieckpil.de/howto-java-benchmarking-with-jmh-java-microbenchmark-harness/" MODIFIED="1574887483778" TEXT="Java-Microbenchmark Current">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Pozwala na mierzenie wydajno&#347;ci kodu w skali Micro. Izoluje od problem&#243;w z rozgrzewaniem maszyny.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1574895943467" ID="ID_1552065549" LINK="https://junit.org/junit5/docs/current/user-guide/" MODIFIED="1574895971656" TEXT="JUnit5 User Guide"/>
+</node>
+<node CREATED="1574848969456" ID="ID_33004900" MODIFIED="1574883490503" POSITION="left" TEXT="Repozytoria kodu">
+<cloud COLOR="#ff9933"/>
+<node CREATED="1574848975641" ID="ID_1141345053" LINK="https://github.com/mikewojtyna" MODIFIED="1574848994398" TEXT="Root"/>
+<node CREATED="1574854690320" ID="ID_1420432324" LINK="https://github.com/mikewojtyna/efficient-java" MODIFIED="1574859126999" TEXT="Efficient java - serwer NIO, minimalny system reaktywny">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://github.com/mikewojtyna/efficient-java/blob/master/src/main/java/pro/buildmysoftware/efficientjava/newio/server/EchoServer.java
+    </p>
+  </body>
+</html></richcontent>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1420432324" ENDARROW="Default" ENDINCLINATION="956;73;" ID="Arrow_ID_602685065" SOURCE="ID_1678386152" STARTARROW="None" STARTINCLINATION="1597;452;"/>
+</node>
+<node CREATED="1574855228730" ID="ID_1938294586" LINK="https://github.com/mikewojtyna/ddd-training" MODIFIED="1574855244091" TEXT="DDD"/>
+<node CREATED="1574855373811" ID="ID_885595811" LINK="https://github.com/mikewojtyna/rest-api-training" MODIFIED="1574855396788" TEXT="Rest API+HTEOAS(starsza wersja)"/>
+<node CREATED="1574855938802" ID="ID_1022438264" LINK="https://github.com/mikewojtyna/webflux-training" MODIFIED="1574856459443" TEXT="WebFlux-nowy framework wobowy Spring">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Jest w opozycji do Spring MVC, kontrolerem jest dowolna funkcja Consumer, odej&#347;cie od adnotacji. W tym frameworku nie startuje tomcat tylko netty, bo ma lepsze wsparcie, wstaje aplikacja nas&#322;uchuj&#261;ca.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ciekawym typem jest typ MediaType.TEXT_EVENT_STREAM_VALUE
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">@RestController<br />@RequestMapping(<font color="#008000"><b>&quot;/controller/hello&quot;</b></font>)<br /><font color="#000080"><b>public class </b></font>ReactiveHelloController {<br />    @GetMapping(produces = MediaType.TEXT_EVENT_STREAM_VALUE)<br />    <font color="#000080"><b>public </b></font>Flux&lt;Hello&gt; allMsgs() {<br />        <font color="#000080"><b>return </b></font>Flux.interval(Duration.ofSeconds(<font color="#0000ff">1</font>))<br />                .map(i -&gt; <font color="#000080"><b>new </b></font>Hello(<font color="#008000"><b>&quot;Hello &quot; </b></font>+ i));<br />    }<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Przegl&#261;darka nigdy nie dostaje responsa, serwer pisze ca&#322;y czas do tego kana&#322;u
     </p>
   </body>
 </html></richcontent>
