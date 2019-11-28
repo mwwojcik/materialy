@@ -1,8 +1,8 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node BACKGROUND_COLOR="#ffcc66" CREATED="1574754004883" ID="ID_222410746" MODIFIED="1574843072968" TEXT="Spring szkolenie" VGAP="0">
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1574754004883" ID="ID_222410746" MODIFIED="1574933128420" TEXT="Spring szkolenie" VGAP="0">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
-<node CREATED="1574754452242" ID="ID_679307258" MODIFIED="1574754619634" POSITION="left" TEXT="IntelIj - skr&#xf3;ty">
+<node CREATED="1574754452242" HGAP="205" ID="ID_679307258" MODIFIED="1574951647930" POSITION="left" TEXT="IntelIj - skr&#xf3;ty" VSHIFT="-85">
 <cloud COLOR="#ffff66"/>
 <node CREATED="1574754474099" ID="ID_1133473917" MODIFIED="1574754474099" TEXT="Tworzenie pola z parametru konstruktora:">
 <node CREATED="1574754474099" ID="ID_721454965" MODIFIED="1574754474099" TEXT="Najed&#x17a; na argument konstruktora -&gt; Alt+Enter"/>
@@ -74,7 +74,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1574886514086" ID="ID_1121240579" MODIFIED="1574886705109" TEXT="BeanFactory">
+<node CREATED="1574886514086" ID="ID_1121240579" MODIFIED="1574930148500" TEXT="BeanFactory">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -89,11 +89,9 @@
     <p>
       <font size="2">BeanFactory/a&gt; interface provides a simple, yet flexible configuration mechanism to manage objects of any nature via the Spring IoC container. Let's have a look at some basics before diving deep into this central Spring API.</font>
     </p>
-    <p>
-      
-    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1574887067797" ID="ID_482146332" MODIFIED="1574887071998" TEXT="Implementacja">
@@ -107,8 +105,7 @@
       Kontekst aplikacji standalone. Pozwala na wczytanie konfiguracji przy pomocy adnotacji. Podstawowy kontekst aplikacji SpringBoot.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574900254227" ID="ID_876600569" MODIFIED="1574900361657" TEXT="Klasy/interfejsy pomocnicze">
@@ -124,9 +121,8 @@
       Ka&#380;da adnotacja typu Enable, najcz&#281;&#347;ciej posiada klas&#281; template *Support, a je&#347;li nie to interfejs *Cofigurer, z kt&#243;rych wydziedziczenie si&#281; lub implementacja pozwala na zmian&#281; domy&#347;lnego zachowania.
     </p>
   </body>
-</html>
-</richcontent>
-<node CREATED="1574898340134" ID="ID_1175030303" MODIFIED="1574898352835" TEXT="Interfejsy typu *Configurer"/>
+</html></richcontent>
+<node CREATED="1574898340134" ID="ID_1175030303" MODIFIED="1574926405444" TEXT="Interfejsy typu *Configurer&quot;"/>
 <node CREATED="1574896276309" ID="ID_1695078347" MODIFIED="1574896449774" TEXT="Klasy pomocnicze typu *Support">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -138,6 +134,29 @@
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1574929384708" ID="ID_642845581" MODIFIED="1574930250712" TEXT="ApplicationRunner">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Implementacja tego interfejsu powoduje &#380;e metoda run() jest uruchamiana raz, przy starcie aplikacji.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Przyk&#322;ad u&#380;ycia:
+    </p>
+    <p>
+      MongoInit
+    </p>
+  </body>
+</html>
+</richcontent>
+<arrowlink DESTINATION="ID_1436022651" ENDARROW="Default" ENDINCLINATION="1109;0;" ID="Arrow_ID_637612000" STARTARROW="None" STARTINCLINATION="1109;0;"/>
 </node>
 </node>
 <node CREATED="1574887259095" ID="ID_486119116" MODIFIED="1574887262400" TEXT="Aspekty">
@@ -151,8 +170,7 @@
       Pozwala na kontrolowanie mechanizmu agent&#243;w. Dodaje si&#281; do proces&#243;w JVM i umo&#380;liwia modyfikacj&#281; bytecodu.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1574888016837" ID="ID_1031250469" MODIFIED="1574888087242" TEXT="Agent">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -244,8 +262,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1574888099379" ID="ID_441018223" MODIFIED="1574894816299" TEXT="AspectJ">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -280,8 +297,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574895351057" ID="ID_785829186" MODIFIED="1574895549713" TEXT="Przyk&#x142;ad">
@@ -323,8 +339,7 @@
       Hello
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574894878906" ID="ID_1566384778" MODIFIED="1574894882386" TEXT="Proxy">
@@ -338,8 +353,7 @@
       Domy&#347;lna strategia tworzenia Proxy, daje wi&#281;ksze mo&#380;liwo&#347;ci kontroli ni&#380; zwyk&#322;e javove dynamic proxy
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574894890637" ID="ID_964447875" MODIFIED="1574894972880" TEXT="Java Dynamic Proxy">
 <richcontent TYPE="NOTE"><html>
@@ -351,8 +365,7 @@
       U&#380;ywa natywnego javowego mechanizmu tworzenia proxy. Daje mniejsze mo&#380;liwo&#347;ci kontroli.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574895759311" ID="ID_1117030228" MODIFIED="1574896296663" TEXT="Przetwarzanie asynchroniczne @Async">
@@ -377,8 +390,7 @@
       UWAGA! Wszystkie aspekty &quot;before&quot; wykonaj&#261; si&#281; w w&#261;tku oryginalnym. Do nowego w&#261;tku trafi tylko to, co oznaczone zosta&#322;o adnotacj&#261;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1574896094751" ID="ID_1077123248" MODIFIED="1574896406098" TEXT="AsyncConfigurerSupport">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -393,8 +405,7 @@
     </p>
     <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@SpringBootApplication<br />@EnableAsync<br /></font><font color="#000080"><b>public class </b></font>AsyncApp <font color="#000080"><b>extends </b></font>AsyncConfigurerSupport {<br /><br />   <font color="#000080"><b>public static void </b></font>main(String[] args) {<br />      SpringApplication.<i>run</i>(AsyncApp.<font color="#000080"><b>class</b></font>, args);<br />   }<br /><br />   <font color="#808000">@Override<br />   </font><font color="#000080"><b>public </b></font>Executor getAsyncExecutor() {<br />      <font color="#000080"><b>return super</b></font>.getAsyncExecutor();<br />      <font color="#808080"><i>// configure the executor here<br />      // return Executors.newSingleThreadExecutor();<br />   </i></font>}<br />}<br /></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574896455209" ID="ID_1736447451" MODIFIED="1574896934627" TEXT="@EnableAsync na aplikacji">
 <richcontent TYPE="NOTE"><html>
@@ -409,8 +420,7 @@
       @EnableAsync samo podnosi egzekutory domy&#347;lne.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574896820053" ID="ID_203883637" MODIFIED="1574897387776" TEXT="Uwaga! transakcje">
 <richcontent TYPE="NOTE"><html>
@@ -428,8 +438,7 @@
       Oznaczenie Transactional.NEW r&#243;wnie&#380; nie wykona si&#281; w&#322;a&#347;ciwie.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="yes"/>
 </node>
 <node CREATED="1574897370533" ID="ID_262895414" MODIFIED="1574897532147" TEXT="Kontrolery asynchroniczne">
@@ -455,8 +464,7 @@
       Klient czeka i dopiero jak w&#261;tek wykonuj&#261;cy zadanie je zako&#324;czy to wtedy dostaje odpowied&#378;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574896549581" ID="ID_1460212368" MODIFIED="1574897388224" TEXT="Przyk&#x142;ad">
 <richcontent TYPE="NOTE"><html>
@@ -480,8 +488,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574897635969" ID="ID_780018507" MODIFIED="1574899819851" TEXT="Event Sourcing i Scheduler @Scheduled">
@@ -543,8 +550,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1574899622994" ID="ID_1374743167" MODIFIED="1574899979773" TEXT="SchedulingConfigurer">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -560,8 +566,7 @@
       See @<a href="https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/scheduling/annotation/EnableScheduling.html" title="annotation in org.springframework.scheduling.annotation"><code>EnableScheduling</code></a>&#160;for detailed usage examples.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574899774079" ID="ID_1617656753" MODIFIED="1574899804999" TEXT="@EnableScheduling - na aplikacji">
 <richcontent TYPE="NOTE"><html>
@@ -577,8 +582,7 @@
       aktywuje schedulery.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574899843217" ID="ID_320875141" MODIFIED="1574899901847" TEXT="@Scheduled">
 <richcontent TYPE="NOTE"><html>
@@ -603,8 +607,7 @@
       cron - mo&#380;na u&#380;ywa&#263; wyra&#380;e&#324; znanych z crona
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574899996853" ID="ID_1878521913" MODIFIED="1574900238592" TEXT="Przyk&#x142;ad">
 <richcontent TYPE="NOTE"><html>
@@ -638,9 +641,151 @@
       W te&#347;cie dokonujemy mockowania strategii realizuj&#261;cej biznes. Testujemy zatem tylko infrastruktur&#281;.
     </p>
   </body>
+</html></richcontent>
+</node>
+<node CREATED="1574927215050" ID="ID_783440755" MODIFIED="1574927345260" TEXT="ApplicationEventPublisher">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Jest to interfejs umo&#380;liwiaj&#261;cy wymian&#281; event&#243;w w ramach jednego kontekstu. Eventy te mog&#261; by&#263; konsumowane przez Camel, Rabbit
+    </p>
+  </body>
 </html>
 </richcontent>
 </node>
+</node>
+<node CREATED="1574926436458" ID="ID_681415160" MODIFIED="1574926714263" TEXT="Dokumentacja">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Przy nauce Springa nale&#380;y zwr&#243;ci&#263; uwag&#281; na fakt, &#380;e google promuje stare dokumentacje.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Nale&#380;y sprawdzi&#263; czy w url wyst&#281;puje wersja current
+    </p>
+    <p>
+      docs.spring.io/.../current/...
+    </p>
+    <p>
+      Najlepiej si&#281;ga&#263; do oficjalnej dokumentacj&#281;, wybiera si&#281; wersj&#281;, np:
+    </p>
+    <p>
+      wybieramy spring.io, spring data, overwiev, potem Learn, potem Reference documentation, potem znowu project, Learn i Reference do dokument&#243;w
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Spring Data JPA -&gt; samples
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Bealdung - mocno weryfikowna platforma publikacyjna.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574927359781" ID="ID_1820162142" MODIFIED="1574933660910" TEXT="Spring Cloud Contract">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Jest to narz&#281;dzie springowe, kt&#243;re sprawdza czy dochowane s&#261; sygnatury metod r&#243;&#380;nych cz&#281;&#347;ci serwisu.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574927799606" ID="ID_40023750" MODIFIED="1574927912415" TEXT="Dynamiczne tworzenie bean&#xf3;w -adnotacja @Bean w klasach konfiguracji (@Configuration)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@Configuration<br /></font><font color="#000080"><b>public class </b></font>MessageServiceConfiguration {<br /><br />   <font color="#808000">@Bean</font>(name = <font color="#008000"><b>&quot;inMem&quot;</b></font>)<br />   <font color="#000080"><b>public </b></font>MessageService messageService() {<br />      <font color="#000080"><b>return new </b></font>MessageService(inMemory());<br />   }<br /><br />   <font color="#808000">@Bean<br />   </font><font color="#000080"><b>public </b></font>MessageRepository messageRepo() {<br />      <font color="#000080"><b>return </b></font>defaultImpl();<br />   }<br /><br />   <font color="#808000">@Bean<br />   </font><font color="#000080"><b>public </b></font>MessageService defaultMsgService(MessageRepository repo) {<br />      <font color="#000080"><b>return new </b></font>MessageService(repo);<br />   }<br /><br />   <font color="#000080"><b>private </b></font>MessageRepository defaultImpl() {<br />      <font color="#000080"><b>return null</b></font>;<br />   }<br /><br />   <font color="#000080"><b>private </b></font>MessageRepository inMemory() {<br />      <font color="#000080"><b>return new </b></font>MessageRepository() {<br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public </b></font>&lt;<font color="#20999d">S </font><font color="#000080"><b>extends </b></font>Message&gt; <font color="#20999d">S </font>save(<font color="#20999d">S </font>s) {<br />            <font color="#000080"><b>return null</b></font>;<br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public </b></font>&lt;<font color="#20999d">S </font><font color="#000080"><b>extends </b></font>Message&gt; Iterable&lt;<font color="#20999d">S</font>&gt; saveAll(Iterable&lt;<font color="#20999d">S</font>&gt; iterable) {<br />            <font color="#000080"><b>return null</b></font>;<br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public </b></font>Optional&lt;Message&gt; findById(UUID uuid) {<br />            <font color="#000080"><b>return </b></font>Optional.<i>empty</i>();<br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public boolean </b></font>existsById(UUID uuid) {<br />            <font color="#000080"><b>return false</b></font>;<br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public </b></font>Iterable&lt;Message&gt; findAll() {<br />            <font color="#000080"><b>return null</b></font>;<br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public </b></font>Iterable&lt;Message&gt; findAllById(Iterable&lt;UUID&gt; iterable) {<br />            <font color="#000080"><b>return null</b></font>;<br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public long </b></font>count() {<br />            <font color="#000080"><b>return </b></font><font color="#0000ff">0</font>;<br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public void </b></font>deleteById(UUID uuid) {<br /><br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public void </b></font>delete(Message message) {<br /><br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public void </b></font>deleteAll(Iterable&lt;? <font color="#000080"><b>extends </b></font>Message&gt; iterable) {<br /><br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public void </b></font>deleteAll() {<br /><br />         }<br />      };<br />   }<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>class </b></font>MessageServiceTest {<br /><br />   <font color="#808080"><i>// @formatter:off<br />   </i></font><font color="#808000">@DisplayName</font>(<font color="#008000"><b>&quot;given any repo, then translate&quot;</b></font>)<br />   <font color="#808080"><i>// @formatter:on<br />   </i></font><font color="#808000">@Test<br />   @Disabled</font>(<font color="#008000"><b>&quot;this is just a showcase how we could write tests without &quot; </b></font>+ <font color="#008000"><b>&quot;spring framework, not a working example&quot;</b></font>)<br />   <font color="#000080"><b>void </b></font>test() <font color="#000080"><b>throws </b></font>Exception {<br />      <font color="#808080"><i>// given<br />      </i></font>MessageKey key = key(<font color="#008000"><b>&quot;hello.msg&quot;</b></font>);<br />      MessageRepository repo = inMemRepo();<br />      MessageService messageService = <font color="#000080"><b>new </b></font>MessageService(repo);<br />      Message expectedMsg = message(<font color="#008000"><b>&quot;Hi!&quot;</b></font>);<br /><br />      <font color="#808080"><i>// when<br />      </i></font>Optional&lt;Message&gt; translatedToEnglishMsg = messageService<br />         .findAndTranslate(key, Language.<font color="#660e7a"><b><i>EN</i></b></font>);<br /><br />      <font color="#808080"><i>// then<br />      </i></font><i>assertThat</i>(translatedToEnglishMsg).isEqualTo(expectedMsg);<br />   }<br /><br />   <font color="#000080"><b>private </b></font>Message message(String s) {<br />      <font color="#000080"><b>return null</b></font>;<br />   }<br /><br />   <font color="#000080"><b>private </b></font>MessageKey key(String key) {<br />      <font color="#000080"><b>return new </b></font>MessageKey(key);<br />   }<br /><br />   <font color="#000080"><b>private </b></font>MessageRepository inMemRepo() {<br />      <font color="#000080"><b>return new </b></font>MessageRepository() {<br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public </b></font>&lt;<font color="#20999d">S </font><font color="#000080"><b>extends </b></font>Message&gt; <font color="#20999d">S </font>save(<font color="#20999d">S </font>s) {<br />            <font color="#000080"><b>return null</b></font>;<br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public </b></font>&lt;<font color="#20999d">S </font><font color="#000080"><b>extends </b></font>Message&gt; Iterable&lt;<font color="#20999d">S</font>&gt; saveAll(Iterable&lt;<font color="#20999d">S</font>&gt; iterable) {<br />            <font color="#000080"><b>return null</b></font>;<br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public </b></font>Optional&lt;Message&gt; findById(UUID uuid) {<br />            <font color="#000080"><b>return </b></font>Optional.<i>empty</i>();<br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public boolean </b></font>existsById(UUID uuid) {<br />            <font color="#000080"><b>return false</b></font>;<br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public </b></font>Iterable&lt;Message&gt; findAll() {<br />            <font color="#000080"><b>return null</b></font>;<br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public </b></font>Iterable&lt;Message&gt; findAllById(Iterable&lt;UUID&gt; iterable) {<br />            <font color="#000080"><b>return null</b></font>;<br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public long </b></font>count() {<br />            <font color="#000080"><b>return </b></font><font color="#0000ff">0</font>;<br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public void </b></font>deleteById(UUID uuid) {<br /><br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public void </b></font>delete(Message message) {<br /><br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public void </b></font>deleteAll(Iterable&lt;? <font color="#000080"><b>extends </b></font>Message&gt; iterable) {<br /><br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public void </b></font>deleteAll() {<br /><br />         }<br />      };<br />   }<br />}</pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574927982380" ID="ID_175534688" MODIFIED="1574928108330" TEXT="Profile @Profile i @Configuration">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      application.yml
+    </p>
+    <p>
+      application-production.yml
+    </p>
+    <p>
+      -production to parametr active profiles
+    </p>
+    <p>
+      @Profile - dzia&#322;aj&#261; razem z @Configuration. Mo&#380;na w ten spos&#243;b sterowa&#263;&#160; beanami, kt&#243;rej si&#281; tworz&#261;.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574932016844" ID="ID_1181210874" MODIFIED="1574932486641" TEXT="Klasy Templates">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Opakowanie nad driverem javowym, abstrakcja, uproszczenie, wrappery na drivery, np. JDBC Template, MongoTemplate.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Architektura wygl&#261;da tak:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Repository
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;|
+    </p>
+    <p>
+      Template
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;|
+    </p>
+    <p>
+      Driver (klasy interfejsy dostarczane przez producenta)
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1574767521883" ID="ID_342452735" MODIFIED="1574846683796" POSITION="right" TEXT="Testy jednostkowe i integracyjne">
@@ -1586,34 +1731,24 @@ Mamy odpowiednik RestTemplate(zawsze jest blokuj&#261;ce), nazywa si&#281; WebCl
   </body>
 </html></richcontent>
 </node>
-</node>
-<node CREATED="1574843125039" ID="ID_328884833" MODIFIED="1574900511805" POSITION="left" TEXT="Architektura">
-<cloud COLOR="#ccccff"/>
-<node CREATED="1574841559632" ID="ID_1984439955" MODIFIED="1574841596509" TEXT="Domain Driven Development"/>
-<node CREATED="1574780218589" ID="ID_1502084458" MODIFIED="1574780242393" TEXT="Architektura warstwowa vs heksagonalna Ports -Adapters"/>
-<node CREATED="1574841576743" ID="ID_1831841956" MODIFIED="1574846067937" TEXT="Test Driven Development i Ports Adapters"/>
-<node CREATED="1574846378166" ID="ID_37503193" MODIFIED="1574846390891" TEXT=" Preferowany spos&#xf3;b konteneryzacji to ma&#x142;y kontener np tomcat, wrzucony na Dockera i zarz&#x105;dzany Qubernetesem)."/>
-<node CREATED="1574850424391" ID="ID_1407406561" MODIFIED="1574850439924" TEXT="Bazy rozproszone">
+<node CREATED="1574928214512" ID="ID_1339582137" MODIFIED="1574928968033" TEXT="Przyk&#x142;ad u&#x17c;ycia z MongoDB">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      Wyodr&#281;bniamy dokument rozumiany jako zbi&#243;r atrybut&#243;w stanowi&#261;cych ca&#322;o&#347;&#263;.
+      Uruchamiamy:
     </p>
     <p>
       
     </p>
-    <p>
-      Uzyskujemy ogromn&#261; skalowalno&#347;&#263; horyzontaln&#261;. Dokumenty nie s&#261; dzielone . Dany node mo&#380;e obs&#322;ugiwa&#263; dokumenty o id mniejsze od n, nast&#281;pny od n+1 do 2n itd...
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      R&#243;&#380;ne zapytania mog&#261; by&#263; kierowane do r&#243;&#380;nych cz&#281;&#347;ci infrastruktury.
-    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@SpringBootApplication<br /></font><font color="#000080"><b>public class </b></font>WebfluxTrainingApplication {<br /><br />&#160;&#160; <font color="#000080"><b>public static void </b></font>main(String[] args) {<br />&#160;&#160;&#160;&#160;&#160; SpringApplication.<i>run</i>(WebfluxTrainingApplication.<font color="#000080"><b>class</b></font>, args);<br />&#160;&#160;&#160;}<br /><br />}
+
+<font color="#808000">Tailable</font> coursor - je&#347;li nie b&#281;dzie ani jednego pasuj&#261;cego dokuemntu to kursor si&#281; nie utworzy. (Cecha Mongo) . Otwiera niesko&#324;czonego Fluxa na Mongo. </pre>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>public interface </b></font>MessageRepository <font color="#000080"><b>extends </b></font>ReactiveMongoRepository&lt;Message,<br />   String&gt; {<br />   <font color="#808000">@Tailable<br />   </font>Flux&lt;Message&gt; findByMsg(String msg);<br />}</pre>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"></pre>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@RestController<br />@RequestMapping</font>(<font color="#008000"><b>&quot;/controller/mongo&quot;</b></font>)<br /><font color="#000080"><b>public class </b></font>MongoController {<br />   <font color="#000080"><b>private </b></font>MessageRepository <font color="#660e7a"><b>messageRepository</b></font>;<br /><br />   <font color="#000080"><b>public </b></font>MongoController(MessageRepository messageRepository) {<br />      <font color="#000080"><b>this</b></font>.<font color="#660e7a"><b>messageRepository </b></font>= messageRepository;<br />   }<br /><br />   <font color="#808000">@GetMapping</font>(produces = MediaType.<font color="#660e7a"><b><i>TEXT_EVENT_STREAM_VALUE</i></b></font>)<br />   <font color="#000080"><b>public </b></font>Flux&lt;Message&gt; findMessagesByNameStreams(<font color="#808000">@RequestParam</font>(<font color="#008000"><b>&quot;msg&quot;</b></font>) String msg) {<br />      <font color="#000080"><b>return </b></font><b><font color="#660e7a">messageRepository</font></b>.findByMsg(msg).log();<br />   }<br /><br />   <font color="#808000">@PostMapping<br />   </font><font color="#000080"><b>public </b></font>Mono&lt;Message&gt; save(<font color="#808000">@RequestBody </font>Message message) {<br />      <font color="#000080"><b>return </b></font><b><font color="#660e7a">messageRepository</font></b>.save(message);<br />   }<br />}</pre>
     <p>
       
     </p>
@@ -1621,10 +1756,577 @@ Mamy odpowiednik RestTemplate(zawsze jest blokuj&#261;ce), nazywa si&#281; WebCl
       
     </p>
   </body>
+</html>
+</richcontent>
+<node CREATED="1574929009713" ID="ID_1436022651" MODIFIED="1574932356423" TEXT="MongoInit">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">Ten kod przygotowuje kolekcj&#281;. Nie zapisujemy odczytujemy obiekt&#243;w tylko reaktywne streamy. Mo&#380;na robi&#263; chain wywo&#322;a&#324;. Wszystko jest kaskad&#261;. 
+
+Musimy mie&#263; kolekcj&#281; kt&#243;ra nie mo&#380;e rosn&#261;&#263; w niesko&#324;czono&#347;&#263; (to jest ograniczenie MongoDB), musi mie&#263; ograniczony rozmmiar maksymalny jest to warunek dzia&#322;ania Tailable Cursor.
+
+Drugim warunkiem dzia&#322;ania otwartego po&#322;&#261;czenia jest adnotacja @Tailable
+
+reactiveMongoTemplate w operacji save() ma Mono i Flux. 
+
+Chainy publisher z jednego &#378;r&#243;d&#322;a mo&#380;e by&#263; sourcem w innym. 
+
+@Component<br /></font><font color="#000080"><b>public class </b></font>MongoInit <font color="#000080"><b>implements </b></font>ApplicationRunner {<br />&#160;&#160; <font color="#000080"><b>private </b></font>ReactiveMongoTemplate <font color="#660e7a"><b>reactiveMongoTemplate</b></font>;<br /><br />&#160;&#160; <font color="#000080"><b>public </b></font>MongoInit(ReactiveMongoTemplate reactiveMongoTemplate) {<br />&#160;&#160;&#160;&#160;&#160; <font color="#000080"><b>this</b></font>.<font color="#660e7a"><b>reactiveMongoTemplate </b></font>= reactiveMongoTemplate;<br />&#160;&#160;&#160;}<br /><br />&#160;&#160; <font color="#808000">@Override<br />&#160;&#160; </font><font color="#000080"><b>public void </b></font>run(ApplicationArguments args) <font color="#000080"><b>throws </b></font>Exception {<br />&#160;&#160;&#160;&#160;&#160; <font color="#660e7a"><b>reactiveMongoTemplate</b></font>.dropCollection(<font color="#008000"><b>&quot;message&quot;</b></font>)<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.then(<font color="#660e7a"><b>reactiveMongoTemplate<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </b></font>.createCollection(<font color="#008000"><b>&quot;message&quot;</b></font>, CollectionOptions<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.<i>empty</i>().capped().size(<font color="#0000ff">2048</font>)<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.maxDocuments(<font color="#0000ff">10000</font>))).subscribe();<br />&#160;&#160;&#160;}<br />}</pre>
+    <p>
+      &#160;subscribe() - inicjalizuje flow, bez tego si&#281; nie uruchomi.
+    </p>
+  </body>
+</html>
+</richcontent>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1436022651" ENDARROW="Default" ENDINCLINATION="1109;0;" ID="Arrow_ID_637612000" SOURCE="ID_642845581" STARTARROW="None" STARTINCLINATION="1109;0;"/>
+</node>
+<node CREATED="1574929712683" ID="ID_1013222573" MODIFIED="1574929781200" TEXT="Przyk&#x142;ad pobierania eventu, przetworzenie i wypchni&#x119;cie go dalej">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@GetMapping</font>(produces = MediaType.<font color="#660e7a"><b><i>TEXT_EVENT_STREAM_VALUE</i></b></font>) <br /><font color="#000080"><b>public </b></font>Flux&lt;String&gt; findMessagesByNameStreams(<font color="#808000">@RequestParam</font>(<font color="#008000"><b>&quot;msg&quot;</b></font>) String msg) {<br />   <font color="#808080"><i>//map(m-&gt;m.getMsg().toUpperCase()) to mapowanie odbywa si&#281; przy zasubskrybowaniu, <br />   //subskrybent uruchamia operatory przemapowanie odbywa si&#281; w subskrybencie<br />   </i></font><font color="#000080"><b>return </b></font><b><font color="#660e7a">messageRepository</font></b>.findByMsg(msg).map(m-&gt;m.getMsg().toUpperCase()).log();<br />}</pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574930430489" ID="ID_1707585434" MODIFIED="1574930458868" TEXT="Zasilenie MongoDB prostym dokumentem">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre class="c-mrkdwn__pre" data-stringify-type="pre">curl -H &quot;Content-Type: application/json&quot; -X POST -d &quot;{\&quot;msg\&quot;: \&quot;hi\&quot;}&quot; <a target="_blank" class="c-link" href="https://slack-redir.net/link?url=http%3A%2F%2Flocalhost%3A8080%2Fcontroller%2Fmongo&amp;v=3" rel="noopener noreferrer">http://localhost:8080/controller/mongo</a></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1574928750873" ID="ID_379369195" MODIFIED="1574928869249" TEXT="Async vs Ractive">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Przy async oddelegowujemy ca&#322;y du&#380;y w&#261;tek realizuj&#261;cy zadanie mimo &#380;e zwalniamy w&#261;tki obs&#322;uguj&#261;cych &#380;&#261;danie. Niewiele zyskujemy bo i tak czekamy na w&#261;tek workera.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      W przypadku reactive, gdy ca&#322;y stos jest reaktywny (w szczeg&#243;lno&#347;ci baza) nie ma tego ograniczenia.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574930690644" ID="ID_1808332193" MODIFIED="1574932179159" TEXT="Bridge pomi&#x119;dzy system klasycznym i reaktywnym - przyk&#x142;ad">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Stosujemy wtedy gdy nasz system jest klasyczny, ale spodziewamy si&#281; &#380;e kiedy&#347; wymienimy architektur&#281;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mo&#380;emy przykry&#263; go fasad&#261;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Maj&#261;c event publishera, kt&#243;ry jest klas&#261; do publikacji zdarze&#324; korzysta z klasycznego ApplicationEventPublisher, potem takie zdarzenie ma zosta&#263; przechwycone i&#160;&#160;zamienione na Flux.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      event-&gt;EventPublisher-&gt;przykrywamy fasad&#261; (adapterem), kt&#243;ry zwr&#243;ci Flux
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Tworzymy komponent nas&#322;uchuj&#261;cy na zdarzenie adnotacja @EventListener takiego eventa oddelegowujemy do ReactiveEventSource kt&#243;ry konsumuje zdarzenia i generuje FluxSink.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      LinkedBlockigQueue-&gt;mo&#380;e by&#263; u&#380;ywane przez dowoln&#261; liczb&#281; klient&#243;w, maksymalnie ograniczaj&#261;ca locki . Sprytna struktura nie blokuj&#261;ca w&#261;tk&#243;w, bardzo dobra do przetwarzania danych z kolejek.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      accept - metoda z Consumera , na egzekutorze uruchamiamy kod kt&#243;ry tak szybko jak si&#281; da wybiera elementy z kolejki. Nasz bufor jest 100 elementowy, jest to klasyczny wielow&#261;tkowy consumer publisher. To co we&#378;miemy z kolejki wysy&#322;amy jako Flux.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      BlockingQueue - symuluje system stary blokuj&#261;cy, natomiast accept jest consumerem cz&#281;&#347;ci blokuj&#261;cej, monitoruje j&#261; i je&#347;li co&#347; pojawi si&#281; w systemie blokuj&#261;cym i publikuje to od razu. Je&#347;li nikt nic nie doda&#322; to czeka (nawet d&#322;ugo) i potem je&#347;li pojawi si&#281; to uruchamia.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Poniewa&#380; pu&#347;cili&#347;my to na w&#261;tku (wstawianie do zasobu blokuj&#261;cego) . Po&#347;wi&#281;camy ca&#322;y w&#261;tek by czyta&#322; nam z fluxa. System blokuj&#261;cy dla ca&#322;ej reszty &#347;wiata wygl&#261;da i zachowuje si&#281; jak system reaktywny. Mimo &#380;e po&#347;wi&#281;camy jeden w&#261;tek kt&#243;ry blokuje, to je&#347;li mamy ca&#322;&#261;
+    </p>
+    <p>
+      mas&#281; klient&#243;w reaktywnych , kt&#243;rzy w klasycznym podej&#347;ciu przyblokowaliby w&#261;tki by pozyska&#263; dane klasycznie i zablokowaliby w&#261;tki, to teraz to si&#281; nie wydarzy.
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>public class </b></font>ReactiveEventSource <font color="#000080"><b>implements </b></font>Consumer&lt;FluxSink&lt;Event&gt;&gt; {<br />   <font color="#000080"><b>private </b></font>BlockingQueue&lt;Event&gt; <font color="#660e7a"><b>queue</b></font>;<br />   <font color="#000080"><b>private </b></font>Executor <font color="#660e7a"><b>executor</b></font>;<br /><br />   <font color="#000080"><b>public </b></font>ReactiveEventSource(Executor executor) {<br />      <font color="#000080"><b>this</b></font>.<font color="#660e7a"><b>executor </b></font>= executor;<br />      <font color="#660e7a"><b>queue </b></font>= <font color="#000080"><b>new </b></font>LinkedBlockingQueue&lt;&gt;(<font color="#0000ff">100</font>);<br />   }<br /><br />   <font color="#000080"><b>public void </b></font>handle(Event event) {<br />      <font color="#660e7a"><b>queue</b></font>.offer(event);<br />   }<br /><br />   <font color="#808000">@Override<br />   </font><font color="#000080"><b>public void </b></font>accept(FluxSink&lt;Event&gt; eventFluxSink) {<br />      <font color="#660e7a"><b>executor</b></font>.execute(() -&gt; {<br />         <font color="#000080"><b>try </b></font>{<br />            <font color="#000080"><b>while </b></font>(<font color="#000080"><b>true</b></font>) {<br />               <font color="#660e7a">eventFluxSink</font>.next(<font color="#660e7a"><b>queue</b></font>.take());<br />            }<br />         }<br />         <font color="#000080"><b>catch </b></font>(InterruptedException e) {<br />            <font color="#000080"><b>throw new </b></font>RuntimeException(e);<br />         }<br />      });<br />   }<br />}<br /></pre>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>public class </b></font>ReactiveEventSourceTest {<br />   <font color="#808000">@DisplayName</font>(<font color="#008000"><b>&quot;when add 3 elements, then source emits 3 signals&quot;</b></font>)<br />   <font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>test() <font color="#000080"><b>throws </b></font>Exception {<br />      <font color="#808080"><i>// given<br />      </i></font>Collection&lt;Event&gt; receivedEvents = <font color="#000080"><b>new </b></font>ArrayList&lt;&gt;();<br />      ReactiveEventSource eventSource =<br />         <font color="#000080"><b>new </b></font>ReactiveEventSource(Executors<br />         .<i>newSingleThreadExecutor</i>());<br />      Event event0 = <font color="#000080"><b>new </b></font>Event(<font color="#008000"><b>&quot;event 0&quot;</b></font>);<br />      eventSource.handle(event0);<br />      Event event1 = <font color="#000080"><b>new </b></font>Event(<font color="#008000"><b>&quot;event 1&quot;</b></font>);<br />      eventSource.handle(event1);<br />      Event event2 = <font color="#000080"><b>new </b></font>Event(<font color="#008000"><b>&quot;event 2&quot;</b></font>);<br />      eventSource.handle(event2);<br /><br />      <font color="#808080"><i>// when<br />      </i></font>Flux.<i>create</i>(eventSource).take(<font color="#0000ff">3</font>).log()<br />         .doOnNext(receivedEvents::add)<br />         .blockLast(Duration.<i>ofSeconds</i>(<font color="#0000ff">5</font>));<br /><br />      <font color="#808080"><i>// then<br />      </i></font><i>assertThat</i>(receivedEvents)<br />         .containsExactlyInAnyOrder(event0, event1, event2);<br />   }<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1574931372769" ID="ID_333000730" MODIFIED="1574931452219" TEXT="FluxSink">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Interfejs pasuj&#261;cy funkcyjnie do metody create, jest to API do dynamicznego tworzenia zdarze&#324; zwi&#261;zanych z eventami.
+    </p>
+  </body>
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1574843235419" ID="ID_125913200" MODIFIED="1574846584937" POSITION="left" TEXT="Spring Boot i dobre praktyki konfiguracji">
+</node>
+<node CREATED="1574846109249" HGAP="295" ID="ID_326552104" MODIFIED="1574955049707" POSITION="left" TEXT="Linki" VSHIFT="80">
+<cloud COLOR="#cc99ff"/>
+<node CREATED="1574846113095" ID="ID_612735272" LINK="https://www.youtube.com/watch?v=wwi1wXOFaA8" MODIFIED="1574846487491" TEXT="Prezentacja po&#x15b;wi&#x119;cona TDD"/>
+<node CREATED="1574844439087" ID="ID_739718076" LINK="https://github.com/spring-projects/spring-boot/tree/master/spring-boot-project/spring-boot-starters" MODIFIED="1574844611680" TEXT="Spring boot kody na GitHub, lista starter&#xf3;w"/>
+<node CREATED="1574848630256" ID="ID_1657360382" LINK="http://www.querydsl.com/" MODIFIED="1574848645512" TEXT="QueryDSL"/>
+<node CREATED="1574853033040" ID="ID_1935823768" LINK="https://github.com/ddd-by-examples/library" MODIFIED="1574853071788" TEXT="DDD by Examples"/>
+<node CREATED="1574859554859" ID="ID_1647435931" LINK="https://medium.com/olivers-tech-blog/profiling-with-java-agents-part-1-a-hello-world-example-d5531189c418" MODIFIED="1574859567445" TEXT="Java agent (AOP)"/>
+<node CREATED="1574861009343" ID="ID_897775662" MODIFIED="1574861014191" TEXT="Reaktywne">
+<node CREATED="1574853721580" ID="ID_263345616" LINK="https://www.reactivemanifesto.org/" MODIFIED="1574853738695" TEXT="Manifest programowania reaktywnego"/>
+<node CREATED="1574862315685" ID="ID_878967681" LINK="https://ratpack.io/manual/current/streams.html" MODIFIED="1574862325277" TEXT="RatPack">
+<node CREATED="1574853933942" ID="ID_334741856" LINK="https://www.youtube.com/watch?v=gyMDRE_gg2k" MODIFIED="1574862349656" TEXT="Prezentacja dotycz&#x105;ca Ratpack"/>
+</node>
+<node CREATED="1574854908903" ID="ID_482096914" LINK="https://github.com/r2dbc" MODIFIED="1574854936856" TEXT="Reaktywne sterowniki do baz relacyjnych - projekt eksperymentalny"/>
+<node CREATED="1574860343731" ID="ID_1745772201" LINK="https://blog.softwaremill.com/how-not-to-use-reactive-streams-in-java-9-7a39ea9c2cb3" MODIFIED="1574860393046" TEXT="How (not) to use Reactive Streams in Java 9+"/>
+<node CREATED="1574860670772" ID="ID_668374872" LINK="https://rxmarbles.com/" MODIFIED="1574860727415" TEXT="Understanding Marble Diagrams for Reactive Streams">
+<arrowlink DESTINATION="ID_668374872" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1281085005" STARTARROW="None" STARTINCLINATION="0;0;"/>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_668374872" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1281085005" SOURCE="ID_668374872" STARTARROW="None" STARTINCLINATION="0;0;"/>
+</node>
+</node>
+<node CREATED="1574887329114" ID="ID_1554319135" LINK="https://rieckpil.de/howto-java-benchmarking-with-jmh-java-microbenchmark-harness/" MODIFIED="1574955042728" TEXT="Java-Microbenchmark Current">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Pozwala na mierzenie wydajno&#347;ci kodu w skali Micro. Izoluje od problem&#243;w z rozgrzewaniem maszyny.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574895943467" ID="ID_1552065549" LINK="https://junit.org/junit5/docs/current/user-guide/" MODIFIED="1574895971656" TEXT="JUnit5 User Guide"/>
+<node CREATED="1574930525419" ID="ID_276591884" LINK="https://www.mongodb.com/" MODIFIED="1574930533780" TEXT="MongoDB"/>
+<node CREATED="1574949530637" ID="ID_205124482" LINK="https://www.neverletdown.net/2014/10/architectural-drivers.html" MODIFIED="1574949817049" TEXT="Architectural Drivers: Building Blocks for Decision Making"/>
+<node CREATED="1574949863712" ID="ID_652911141" MODIFIED="1574949868124" TEXT="Artyku&#x142;y DDD">
+<node CREATED="1574949908019" ID="ID_1705842475" LINK="https://www.baeldung.com/spring-data-ddd" MODIFIED="1574949928267" TEXT="DDD aggregates and @DomainEvents | Baeldung"/>
+<node CREATED="1574949931818" ID="ID_1561201473" LINK="https://www.baeldung.com/ddd-double-dispatch" MODIFIED="1574949966778" TEXT="Double Dispatch in DDD | Baeldung"/>
+<node CREATED="1574949981938" ID="ID_1173682394" LINK="https://www.baeldung.com/spring-persisting-ddd-aggregates" MODIFIED="1574950000939" TEXT="Persisting DDD Aggregates | Baeldung"/>
+</node>
+<node CREATED="1574955031404" ID="ID_1939331633" LINK="https://www.youtube.com/watch?v=wtY5MeMpgVM" MODIFIED="1574955064677" TEXT="Prezentacja &quot;obiekty gdzie jeste&#x15b;cie&quot;"/>
+</node>
+<node CREATED="1574848969456" HGAP="131" ID="ID_33004900" MODIFIED="1574948356136" POSITION="left" TEXT="Repozytoria kodu" VSHIFT="-130">
+<cloud COLOR="#ff9933"/>
+<node CREATED="1574848975641" ID="ID_1141345053" LINK="https://github.com/mikewojtyna" MODIFIED="1574848994398" TEXT="Root"/>
+<node CREATED="1574854690320" ID="ID_1420432324" LINK="https://github.com/mikewojtyna/efficient-java" MODIFIED="1574859126999" TEXT="Efficient java - serwer NIO, minimalny system reaktywny">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://github.com/mikewojtyna/efficient-java/blob/master/src/main/java/pro/buildmysoftware/efficientjava/newio/server/EchoServer.java
+    </p>
+  </body>
+</html></richcontent>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1420432324" ENDARROW="Default" ENDINCLINATION="956;73;" ID="Arrow_ID_602685065" SOURCE="ID_1678386152" STARTARROW="None" STARTINCLINATION="1597;452;"/>
+</node>
+<node CREATED="1574855228730" ID="ID_1938294586" LINK="https://github.com/mikewojtyna/ddd-training" MODIFIED="1574855244091" TEXT="DDD"/>
+<node CREATED="1574855373811" ID="ID_885595811" LINK="https://github.com/mikewojtyna/rest-api-training" MODIFIED="1574855396788" TEXT="Rest API+HTEOAS(starsza wersja)"/>
+<node CREATED="1574855938802" ID="ID_1022438264" LINK="https://github.com/mikewojtyna/webflux-training" MODIFIED="1574856459443" TEXT="WebFlux-nowy framework wobowy Spring">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Jest w opozycji do Spring MVC, kontrolerem jest dowolna funkcja Consumer, odej&#347;cie od adnotacji. W tym frameworku nie startuje tomcat tylko netty, bo ma lepsze wsparcie, wstaje aplikacja nas&#322;uchuj&#261;ca.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ciekawym typem jest typ MediaType.TEXT_EVENT_STREAM_VALUE
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">@RestController<br />@RequestMapping(<font color="#008000"><b>&quot;/controller/hello&quot;</b></font>)<br /><font color="#000080"><b>public class </b></font>ReactiveHelloController {<br />    @GetMapping(produces = MediaType.TEXT_EVENT_STREAM_VALUE)<br />    <font color="#000080"><b>public </b></font>Flux&lt;Hello&gt; allMsgs() {<br />        <font color="#000080"><b>return </b></font>Flux.interval(Duration.ofSeconds(<font color="#0000ff">1</font>))<br />                .map(i -&gt; <font color="#000080"><b>new </b></font>Hello(<font color="#008000"><b>&quot;Hello &quot; </b></font>+ i));<br />    }<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Przegl&#261;darka nigdy nie dostaje responsa, serwer pisze ca&#322;y czas do tego kana&#322;u
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1574931996229" ID="ID_1764086999" MODIFIED="1574932005091" TEXT="Mongo">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://github.com/mikewojtyna/mongodb-training
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574948659231" ID="ID_952276101" LINK="https://github.com/mikewojtyna/jpms-training" MODIFIED="1574948697111" TEXT="JPMS(Modularyzacja aplikacji springowej wed&#x142;ug JPMS)"/>
+</node>
+<node CREATED="1574843125039" HGAP="319" ID="ID_328884833" MODIFIED="1574950016176" POSITION="left" TEXT="Architektura" VSHIFT="-160">
+<cloud COLOR="#ccccff"/>
+<node CREATED="1574841559632" ID="ID_1984439955" MODIFIED="1574955016452" TEXT="Domain Driven Design">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      DDD zak&#322;ada rozmow&#281; z klientem, je&#347;li tego nie ma mo&#380;na zrobi&#263; DDD Lite.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Domena jest biznesem. Model jest rzutem domeny na oprogramowanie.Domena jest problematyk&#261; kt&#243;r&#261; zajmuje si&#281; dany biznes. Domena okre&#347;la problem do rozwi&#261;zania, model jest rozwi&#261;zaniem problemu tej domeny.
+    </p>
+    <p>
+      Metodyka zak&#322;ada
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Czym nie jest:
+    </p>
+    <ul>
+      <li>
+        frameworkiem
+      </li>
+      <li>
+        nie narzauca architektury (chocia&#380; mo&#380;e na ni&#261; wp&#322;ywa&#263;)
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      Jest:
+    </p>
+    <ul>
+      <li>
+        zbiorem technik wytwarzania w zgodzie z zapotrzebowaniem w taki spos&#243;b by domena by&#322;a w centrum, by domena sterowa&#322;a tym co powstaje, &#380;eby&#347;my zaczynali od zachowa&#324; biznesowych, w celu stworzenia modelu , wsp&#243;lnego j&#281;zyka domenowego dla wszystkich cz&#281;&#347;ci naszego rozwi&#261;z&#263;ania
+      </li>
+      <li>
+        podej&#347;ciem do tworzenia oprogramowania
+      </li>
+    </ul>
+    <p>
+      Kiedy stosowa&#263;:
+    </p>
+    <ul>
+      <li>
+        z&#322;o&#380;ona domena, gdy wyst&#281;puje proces kt&#243;rym chcemy sterowa&#263;
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Kiedy nie stosowa&#263;
+    </p>
+    <ul>
+      <li>
+        gdy logika jest czysto crudowa (np. formularz, stworzy&#263;, znale&#378;&#263;)
+      </li>
+      <li>
+        gdy nie ma z&#322;o&#380;onego procesu
+      </li>
+      <li>
+        gdy nie ma procesu kt&#243;rym chcemy sterowa&#263;
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mo&#380;e si&#281; zdarzy&#263; &#380;e na pocz&#261;tku dostaniemy wymagania pasuj&#261;ce do CRUDa , a potem wszystko si&#281; komplikuje.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      W momencie gdy zaczynaj&#261; pojawia&#263; si&#281; pierwsze regu&#322;y nale&#380;y zacz&#261;&#263; dr&#261;&#380;y&#263; dlaczego tak si&#281; dzieje.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1574950075269" ID="ID_1899105220" MODIFIED="1574950175835" TEXT="Wypracowanie wsp&#xf3;lnego j&#x119;zyka">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Najwa&#380;niejszy etap wdra&#380;ania DDD. Wypracowanie j&#281;zyka znaczeniowego wsp&#243;lnego dla biznesu i technicznych. Deweloperzy rozmawiaj&#261; tym samym j&#281;zykiem z biznesem.
+    </p>
+    <p>
+      <br />
+      U&#380;ywamy poj&#281;ciami
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574953590613" ID="ID_1815552147" MODIFIED="1574953800826" TEXT="Typy domen">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Biznes operuje na r&#243;&#380;nych domenach.&#160;&#160;Wyr&#243;&#380;niamy trzy rodzaje:
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        Core domain - bez niej biznes nie m&#243;g&#322;by funcjonowa&#263; - to na czym si&#281; zarabia, to co generuje biznes, np. zarz&#261;dzanie katalogiem dostaw produkt&#243;w, sprzeda&#380;y
+      </li>
+      <li>
+        Supporting domain - domena wspomagaj&#261;ca domen&#281; g&#322;&#243;wn&#261;, bez tej domeny mo&#380;emy funkcjonowa&#263;
+      </li>
+      <li>
+        Generic domain - wa&#380;na potrzebna, ale bardzo og&#243;lna, taka &#380;e mo&#380;na kupi&#263;, znale&#378;&#263; rozwi&#261;zania gotowe konteneryzacja, bezpiecze&#324;stwo , ksi&#281;gowo&#347;&#263;
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574953806499" ID="ID_650209952" MODIFIED="1574954004605" TEXT="Mapa domenowa">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Diagram, rodzaj mapy my&#347;li prezentuj&#261;ce domen&#281;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Je&#347;li kolejna iteracja naszego modelu nie powoduje rewolucyjnego wp&#322;ywu na inne cz&#281;&#347;ci domeny to znaczy &#380;e zbli&#380;amy si&#281; do modelu dobrze opisuj&#261;cego domen&#281;.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574954505380" ID="ID_374021133" MODIFIED="1574954702280" TEXT="Agregat">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Bardzo wa&#380;ne poj&#281;cie - jest to najmniejsza grupa obiekt&#243;w, kt&#243;ra musi wej&#347;&#263; ze sob&#261; w interakcj&#281;, by spe&#322;ni&#263; cel biznesowy. Wyst&#281;puje jedna encja (rozumiana jako obiekt z to&#380;samo&#347;ci&#261;) pilnuj&#261;ca poprawno&#347;ci realizacji regu&#322;y.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Prawid&#322;owe wyznaczenie agregat&#243;w wyewoluuje do zasi&#281;gu transakcji, mo&#380;e si&#281; okaza&#263; &#380;e komunikacja z zewn&#281;trzem mo&#380;e odbywa&#263; si&#281; poza transakcj&#261;.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1574780218589" ID="ID_1502084458" MODIFIED="1574780242393" TEXT="Architektura warstwowa vs heksagonalna Ports -Adapters"/>
+<node CREATED="1574841576743" ID="ID_1831841956" MODIFIED="1574846067937" TEXT="Test Driven Development i Ports Adapters"/>
+<node CREATED="1574846378166" ID="ID_37503193" MODIFIED="1574846390891" TEXT=" Preferowany spos&#xf3;b konteneryzacji to ma&#x142;y kontener np tomcat, wrzucony na Dockera i zarz&#x105;dzany Qubernetesem)."/>
+<node CREATED="1574946943219" ID="ID_704874938" MODIFIED="1574947037369" TEXT="JPMS(JIGSAW, Java Modules) ">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Modularyzacja wprowadzona w java 9. Jedna z najwi&#281;kszych rewolucji w java, niestety na razie jest problem ze &#347;rodowiskiem . Problem jest z bibliotekami, kt&#243;re zak&#322;adaj&#261; swobodny dost&#281;p (lombok, spring).
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574944180651" ID="ID_1094264374" MODIFIED="1574949507480" TEXT="Modularny monolit podzia&#x142; na modu&#x142;y">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Monolit jedna aplikacja zarz&#261;dzaj&#261;ca wszystkim. W opozycji architektura microserwis&#243;w kt&#243;ra stanowi odr&#281;bn&#261; funkcjonalno&#347;&#263; wystawiaj&#261;c&#261; jaki&#347; interfejs.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      W przypadku gdy microserwisy podzieli si&#281; niew&#322;a&#347;ciwie,&#160;&#160;z nadmiern&#261; liczb&#261; powi&#261;za&#324;. Integracji z innymi Microservisammi powinno by&#263; mo&#380;liwie ma&#322;o, gdy co chwil&#281; trzeba si&#281; &#322;&#261;czy&#263; to co&#347; jest &#378;le z podzia&#322;em.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Najwa&#380;niejsza jest odpowied&#378; czy jeste&#347;my w stanie skutecznie podzieli&#263; system na modu&#322;y. To pytanie jest kluczowe. Cech&#261; dobrej architektury modu&#322;owej jest to, &#380;e decyzj&#281; o sposobie komunikacji pomi&#281;dzy modu&#322;ami mo&#380;na od&#322;o&#380;y&#263; w czasie.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Je&#347;li w systemie jest b&#322;&#281;dna modularyzacja to wpadniemy w ogromne problemy.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      W systemach rozproszonych nic nie jest lokalne, o wszystko musimy zadba&#263;, odnalezienie serwis&#243;w, zakresy boundary transakcji, load balancing, zasoby. Nale&#380;y zwr&#243;ci&#263; uwag&#281; &#380;e nie mamy transakcji rozproszonej, tylko lokalna, bardzo wa&#380;ne jest wi&#281;c odpowiednio
+    </p>
+    <p>
+      wydzielone ich zakresy.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Jednym z wi&#281;kszych b&#322;&#281;d&#243;w jest adaptacja podej&#347;&#263; ze wzgl&#281;du na ich popularno&#347;&#263;, a nie wynikaj&#261; one z prawdziwych potrzeb.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Dobre granice modu&#322;&#243;w nie mog&#261; by&#263; wyznaczone przez programist&#243;w, musz&#261; wynika&#263; z rozm&#243;w z biznesem. Programista bierze udzia&#322; w procesie. Jest to podstawa do wej&#347;cia w dialog, kt&#243;ry jest podstaw&#261; do DDD.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Modularny monolit:
+    </p>
+    <ul>
+      <li>
+        archunit - testowanie czy pomi&#281;dzy klasami i pakietami nie ma niedozwolonych powi&#261;za&#324;. Narz&#281;dzie do JUnit pozwalaj&#261;ce na pisanie test&#243;w do naszej architektury.
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Granicami mog&#261; by&#263; (ale uwaga! przy pakietowaniu, modularyzacji musimy mie&#263; z ty&#322;u g&#322;owy &#380;e podzia&#322;y nie mog&#261; by&#263; warstwowe, ona musz&#261; by&#263; wskro&#347;ne, pionowe, funkcjonalne)
+    </p>
+    <ul>
+      <li>
+        pakiety - o ile zadbamy by obiekty z jednego pakietu nie za bardzo wi&#261;za&#322;y si&#281; z innymi pakietami
+      </li>
+      <li>
+        modu&#322;y javowe (od java9) - mo&#380;e, ale problemy ze springiem, lombokiem
+      </li>
+      <li>
+        modu&#322;y mavenowe, artefakty
+      </li>
+      <li>
+        mo&#380;e da&#322;oby si&#281; w wyodr&#281;bnionych modu&#322;ach wyr&#243;&#378;ni&#263; pakiet api, kt&#243;ry stanie si&#281; portem do innych modu&#322;&#243;w
+      </li>
+      <li>
+        potem umawiamy si&#281; &#380;e rozmawiamy przez pakiet api
+      </li>
+      <li>
+        z czasem wi&#281;kszo&#347;&#263; artefakt&#243;w porozumiewa si&#281; przez api
+      </li>
+      <li>
+        po osi&#261;gni&#281;ciu dojrza&#322;o&#347;ci technologicznej mo&#380;na pokusi&#263; si&#281; o u&#380;ycie JPMS(JIGSAW, Java Modules) - tu mo&#380;emy ju&#380; powiedzie&#263; &#380;e komunikacja MUSI odbywa&#263; si&#281; przez wyeksportowane API
+      </li>
+    </ul>
+    <p>
+      Architecture driver - to co jest
+    </p>
+    <p>
+      Jednostka modularna musi by&#263; tak okre&#347;lona by jeden zesp&#243;&#322; m&#243;g&#322; ogarn&#261;&#263;. Modu&#322; jest driverem logicznym a mikroservice
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1574843235419" HGAP="345" ID="ID_125913200" MODIFIED="1574948356152" POSITION="left" TEXT="Spring Boot i dobre praktyki konfiguracji" VSHIFT="-124">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1672,11 +2374,9 @@ Mamy odpowiednik RestTemplate(zawsze jest blokuj&#261;ce), nazywa si&#281; WebCl
     <p>
       spring-boot-starter-test dodaje dependency do junit4 i jupyter (junit5) -&gt; &#380;eby nie miesza&#322;y si&#281; importy mo&#380;na wyekskludowa&#263; junit &lt;exclusion&gt;&lt;groupId&gt;junit&lt;/groupId&gt;&lt;artifactId&gt;junit&lt;/artifactId&gt;&lt;/exclusion&gt;
     </p>
-    <p>
-      
-    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <cloud COLOR="#66ff66"/>
 <node CREATED="1574844088909" ID="ID_102057145" MODIFIED="1574844118942" TEXT="Umbralla projects">
 <richcontent TYPE="NOTE"><html>
@@ -1826,8 +2526,159 @@ Mamy odpowiednik RestTemplate(zawsze jest blokuj&#261;ce), nazywa si&#281; WebCl
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1574927649760" ID="ID_589193866" MODIFIED="1574927674106" TEXT="Dziedziczenie dependecy management ze starter&#xf3;w i dodawanie zale&#x17c;no&#x15b;ci"/>
+<node CREATED="1574944813733" FOLDED="true" ID="ID_272888566" LINK="https://github.com/ddd-by-examples/library#spring" MODIFIED="1574948329548" TEXT="SpringApplicationBuilder">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Uk&#322;adanie config&#243;w, mamy modu&#322;ki, artefakty mavenowe.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Spring Framework seems to be the most popular Java framework ever used. Unfortunately it is also quite common to overuse its features in the business code. What you find in this project is that the domain packages are fully focused on modelling business problems, and are free from any DI, which makes it easy to unit-test it which is invaluable in terms of code reliability and maintainability. It does not mean, though, that we do not use Spring Framework - we do. Below you will find some details:
+    </p>
+    <ul>
+      <li>
+        Each bounded context has its own independent application context. It means that we removed the runtime coupling, which is a step towards extracting modules (and microservices). How did we do that? Let's have a look:
+
+        <div class="highlight highlight-source-java">
+          <pre>@SpringBootConfiguration
+@EnableAutoConfiguration
+public class LibraryApplication {
+
+    public static void main(String[] args) {
+        new SpringApplicationBuilder()
+                .parent(LibraryApplication.class)
+                .child(LendingConfig.class).web(WebApplicationType.SERVLET)
+                .sibling(CatalogueConfiguration.class).web(WebApplicationType.NONE)
+                .run(args);
+    }
+}</pre>
+        </div>
+      </li>
+      <li>
+        As you could see above, we also try not to use component scan wherever possible. Instead we utilize <code>@Configuration</code>&#160;classes where we define module specific beans in the infrastructure layer. Those configuration classes are explicitly declared in the main application class.
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1574944944921" ID="ID_1112637764" MODIFIED="1574944944921" TEXT=""/>
 </node>
-<node CREATED="1574754054673" ID="ID_755476824" MODIFIED="1574900026475" POSITION="right" TEXT="Dobre praktyki Rest">
+<node CREATED="1574940769216" FOLDED="true" ID="ID_1979041171" MODIFIED="1574948335974" TEXT="obraz">
+<node CREATED="1574940773502" ID="ID_1281619527" MODIFIED="1574940788178">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="konfiguracja-moduly.jpg" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1574850424391" HGAP="472" ID="ID_1407406561" MODIFIED="1574948355296" POSITION="left" TEXT="Bazy rozproszone" VSHIFT="-99">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Wyodr&#281;bniamy dokument rozumiany jako zbi&#243;r atrybut&#243;w stanowi&#261;cych ca&#322;o&#347;&#263;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Uzyskujemy ogromn&#261; skalowalno&#347;&#263; horyzontaln&#261;. Dokumenty nie s&#261; dzielone . Dany node mo&#380;e obs&#322;ugiwa&#263; dokumenty o id mniejsze od n, nast&#281;pny od n+1 do 2n itd...
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      R&#243;&#380;ne zapytania mog&#261; by&#263; kierowane do r&#243;&#380;nych cz&#281;&#347;ci infrastruktury.
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<cloud COLOR="#ccffff"/>
+<node CREATED="1574931869354" ID="ID_1352098076" MODIFIED="1574932856925" TEXT="Integracja z MongoDB">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Mongo ma dwa tryby reaktywne i niereaktywne
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      S&#261; dwa dwa startery
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">&lt;<font color="#000080"><b>dependency</b></font>&gt;<br />   &lt;<font color="#000080"><b>groupId</b></font>&gt;org.springframework.boot&lt;/<font color="#000080"><b>groupId</b></font>&gt;<br />   &lt;<font color="#000080"><b>artifactId</b></font>&gt;spring-boot-starter-data-mongodb-reactive<br />   &lt;/<font color="#000080"><b>artifactId</b></font>&gt;<br />&lt;/<font color="#000080"><b>dependency</b></font>&gt;</pre>
+    <p>
+      
+    </p>
+    <p>
+      i
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">&lt;<font color="#000080"><b>dependency</b></font>&gt;<br />   &lt;<font color="#000080"><b>groupId</b></font>&gt;org.springframework.boot&lt;/<font color="#000080"><b>groupId</b></font>&gt;<br />   &lt;<font color="#000080"><b>artifactId</b></font>&gt;spring-boot-starter-data-mongodb<br />   &lt;/<font color="#000080"><b>artifactId</b></font>&gt;<br />&lt;/<font color="#000080"><b>dependency</b></font>&gt;</pre>
+    <p>
+      
+    </p>
+    <p>
+      Mongodb dostarcza javowy driver jest on dostarczany przez Mongo. Dosy&#263; niskopoziomowy. Spring integruje si&#281; przez przykrycie swoim interfejsem MongoOperation, a jego implementacja to MongoTemplate.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mongo mo&#380;na u&#380;ywa&#263; za pomoc&#261; tego templatea,&#160;&#160;lub bardziej wysokopoziomowym przy pomocy repositories.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Gdy chcemy zrobi&#263; co&#347; na niskopoziomowym poziomie to u&#380;ywamy Template (np w klasie MongoInit) przy dost&#281;pie do danych korzystamy z Repository.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Repository:
+    </p>
+    <p>
+      Tworzymy interfejs rozszerzaj&#261;cy ReactiveMongoRepository, mo&#380;na robi&#263; MixIn, customowe metody, obowi&#261;zuj&#261; te same zasady co dla innych repozytori&#243;w. Mo&#380;na wydziedziczy&#263; si&#281; z MongoRepository, to wtedy nie uzyskujemy obiekt&#243;w reaktywnych.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1574932999377" HGAP="311" ID="ID_1467906997" MODIFIED="1574940742023" POSITION="right" TEXT="Dobre praktyki" VSHIFT="36">
+<cloud COLOR="#99ff99"/>
+<node CREATED="1574754054673" ID="ID_755476824" MODIFIED="1574933050357" TEXT="Rest">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1952,7 +2803,6 @@ Mamy odpowiednik RestTemplate(zawsze jest blokuj&#261;ce), nazywa si&#281; WebCl
   </body>
 </html></richcontent>
 <edge COLOR="#ff9933"/>
-<cloud COLOR="#ccffcc"/>
 <font NAME="SansSerif" SIZE="14"/>
 <node CREATED="1574757826321" ID="ID_1724584093" MODIFIED="1574763655207" TEXT="Cykle">
 <richcontent TYPE="NOTE"><html>
@@ -2101,87 +2951,560 @@ Mamy odpowiednik RestTemplate(zawsze jest blokuj&#261;ce), nazywa si&#281; WebCl
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1574846109249" ID="ID_326552104" MODIFIED="1574846511409" POSITION="right" TEXT="Linki">
-<cloud COLOR="#cc99ff"/>
-<node CREATED="1574846113095" ID="ID_612735272" LINK="https://www.youtube.com/watch?v=wwi1wXOFaA8" MODIFIED="1574846487491" TEXT="Prezentacja po&#x15b;wi&#x119;cona TDD"/>
-<node CREATED="1574844439087" ID="ID_739718076" LINK="https://github.com/spring-projects/spring-boot/tree/master/spring-boot-project/spring-boot-starters" MODIFIED="1574844611680" TEXT="Spring boot kody na GitHub, lista starter&#xf3;w"/>
-<node CREATED="1574848630256" ID="ID_1657360382" LINK="http://www.querydsl.com/" MODIFIED="1574848645512" TEXT="QueryDSL"/>
-<node CREATED="1574853033040" ID="ID_1935823768" LINK="https://github.com/ddd-by-examples/library" MODIFIED="1574853071788" TEXT="DDD by Examples"/>
-<node CREATED="1574859554859" ID="ID_1647435931" LINK="https://medium.com/olivers-tech-blog/profiling-with-java-agents-part-1-a-hello-world-example-d5531189c418" MODIFIED="1574859567445" TEXT="Java agent (AOP)"/>
-<node CREATED="1574861009343" ID="ID_897775662" MODIFIED="1574861014191" TEXT="Reaktywne">
-<node CREATED="1574853721580" ID="ID_263345616" LINK="https://www.reactivemanifesto.org/" MODIFIED="1574853738695" TEXT="Manifest programowania reaktywnego"/>
-<node CREATED="1574862315685" ID="ID_878967681" LINK="https://ratpack.io/manual/current/streams.html" MODIFIED="1574862325277" TEXT="RatPack">
-<node CREATED="1574853933942" ID="ID_334741856" LINK="https://www.youtube.com/watch?v=gyMDRE_gg2k" MODIFIED="1574862349656" TEXT="Prezentacja dotycz&#x105;ca Ratpack"/>
-</node>
-<node CREATED="1574854908903" ID="ID_482096914" LINK="https://github.com/r2dbc" MODIFIED="1574854936856" TEXT="Reaktywne sterowniki do baz relacyjnych - projekt eksperymentalny"/>
-<node CREATED="1574860343731" ID="ID_1745772201" LINK="https://blog.softwaremill.com/how-not-to-use-reactive-streams-in-java-9-7a39ea9c2cb3" MODIFIED="1574860393046" TEXT="How (not) to use Reactive Streams in Java 9+"/>
-<node CREATED="1574860670772" ID="ID_668374872" LINK="https://rxmarbles.com/" MODIFIED="1574860727415" TEXT="Understanding Marble Diagrams for Reactive Streams">
-<arrowlink DESTINATION="ID_668374872" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1281085005" STARTARROW="None" STARTINCLINATION="0;0;"/>
-<linktarget COLOR="#b0b0b0" DESTINATION="ID_668374872" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_1281085005" SOURCE="ID_668374872" STARTARROW="None" STARTINCLINATION="0;0;"/>
-</node>
-</node>
-<node CREATED="1574887329114" ID="ID_1554319135" LINK="https://rieckpil.de/howto-java-benchmarking-with-jmh-java-microbenchmark-harness/" MODIFIED="1574887483778" TEXT="Java-Microbenchmark Current">
+<node CREATED="1574926719586" ID="ID_891973289" MODIFIED="1574947074277" TEXT="Dobre praktyki IoC i AOP">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      Pozwala na mierzenie wydajno&#347;ci kodu w skali Micro. Izoluje od problem&#243;w z rozgrzewaniem maszyny.
+      IoC - koncept polegaj&#261;cy na tym, &#380;e nie musimy mie&#263; pe&#322;nej wiedzy o otoczeniu, mo&#380;emy&#160;&#160;za&#322;o&#380;y&#263; &#380;e otoczenie pewne potrzebne nam zale&#380;no&#347;ci dostarczy z zewn&#261;trz
+    </p>
+    <p>
+      DI - dependency injection - spos&#243;b realizacji konceptu IoC.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Dobr&#261; praktyk&#261; jest u&#380;ywanie takich konstrukcji by da&#322;o si&#281; ich u&#380;ywa&#263; niezale&#380;nie od stosowanej technologii.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Sposoby realizacji DI:
+    </p>
+    <ol>
+      <li>
+        adnotacja @Autowired na property
+      </li>
+      <li>
+        setter
+      </li>
+      <li>
+        konstruktor
+      </li>
+    </ol>
+    <p>
+      Adnotacja na property jest najgorsza, bo nie b&#281;dzie zrealizowana&#160;&#160;bez kontenera.Ogranicza nam realizacj&#281; wstrzykni&#281;&#263; warunkowych.
+    </p>
+    <p>
+      Setter jest lepszy ale nale&#380;y pami&#281;ta&#263; &#380;e nic nie gwarantuje jego wywo&#322;ania
+    </p>
+    <p>
+      Konstruktor zdecydowanie najlepszy da si&#281; u&#380;ywa&#263; poza kontenerem&#160;&#160;(np przy testach)
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1574895943467" ID="ID_1552065549" LINK="https://junit.org/junit5/docs/current/user-guide/" MODIFIED="1574895971656" TEXT="JUnit5 User Guide"/>
 </node>
-<node CREATED="1574848969456" ID="ID_33004900" MODIFIED="1574883490503" POSITION="left" TEXT="Repozytoria kodu">
-<cloud COLOR="#ff9933"/>
-<node CREATED="1574848975641" ID="ID_1141345053" LINK="https://github.com/mikewojtyna" MODIFIED="1574848994398" TEXT="Root"/>
-<node CREATED="1574854690320" ID="ID_1420432324" LINK="https://github.com/mikewojtyna/efficient-java" MODIFIED="1574859126999" TEXT="Efficient java - serwer NIO, minimalny system reaktywny">
+<node CREATED="1574933130197" HGAP="-265" ID="ID_1745119334" MODIFIED="1574951178388" POSITION="right" TEXT="Spring Cloud Netflix (OSS)" VSHIFT="-265">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      https://github.com/mikewojtyna/efficient-java/blob/master/src/main/java/pro/buildmysoftware/efficientjava/newio/server/EchoServer.java
+      Jest to podprojekt Spring Cloud (kt&#243;ry sam w sobie jest projektem Umbrella , tak jak Spring Data).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Netflix OSS to grupa komponent&#243;w kt&#243;re wydewelopowa&#322; zesp&#243;&#322; netflix a spring je zaadaptowa&#322; do swoich potrzeb, obecnie te zespo&#322;y pracuj&#261; wsp&#243;lnie i rozwijaj&#261; nowe rozwi&#261;zania.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Wyzwania :
+    </p>
+    <ul>
+      <li>
+        Sp&#243;jno&#347;&#263;
+      </li>
+      <li>
+        Niezawodno&#347;&#263;
+      </li>
+      <li>
+        Bezpiecze&#324;stwo
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      W systemach klasycznych nie zabezpieczamy sie&#160;&#160;przed tym &#380;e metoda si&#281; nie wywo&#322;a. Je&#347;li wywo&#322;ania s&#261; na obiektach kt&#243;re s&#261; wrapperami na klasy dost&#281;powe do innych serwis&#243;w to wtedy szansa &#380;e metoda si&#281; nie wywo&#322;a staje si&#281; du&#380;o wi&#281;ksza.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Load Balancer - Ribbon - jest to load balancer rozwijany przez Spring, obecnie wygaszany zostanie zast&#261;piony przez Spring Cloud Balancer .Klient nie musi zna&#263; listy adres&#243;w serwier&#243;w Gateway, pos&#322;uguje si&#281; nazw&#261; hosta wirtualnego. To rozwi&#261;zanie rozwija sobie nazw&#281; hosta wirtualnego na faktyczne adresy.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Service Discovery , Service Discovery Server - rozwi&#261;zanie pozwalaj&#261;ce na zwr&#243;cenie listy us&#322;ug o zadanej nazwie. &#379;eby osi&#261;gn&#261;&#263; niezawodno&#347;&#263; serwer us&#322;ug dzia&#322;a podobnie jak P2P, ka&#380;dy nowy serwer rejestruje si&#281; jako klient do innych, tworzy si&#281; sie&#263;, je&#347;li w danym momencie nie odpowiedzia&#322;a nam &#380;adna Eureka z domy&#347;lnych (czekamy chwil&#281;), po osi&#261;gni&#281;ciu maksymalnego timeoutu wywo&#322;ywana jest metoda kt&#243;ra z cachea daje list&#281; kt&#243;ra obowi&#261;zywa&#322;a jaki&#347; czas temu.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Nad tym wszystkim jest Spring Cloud Configuration Server - repozytorium konfiguracji, propertis&#243;w .
+    </p>
+    <p>
+      
     </p>
   </body>
-</html></richcontent>
-<linktarget COLOR="#b0b0b0" DESTINATION="ID_1420432324" ENDARROW="Default" ENDINCLINATION="956;73;" ID="Arrow_ID_602685065" SOURCE="ID_1678386152" STARTARROW="None" STARTINCLINATION="1597;452;"/>
-</node>
-<node CREATED="1574855228730" ID="ID_1938294586" LINK="https://github.com/mikewojtyna/ddd-training" MODIFIED="1574855244091" TEXT="DDD"/>
-<node CREATED="1574855373811" ID="ID_885595811" LINK="https://github.com/mikewojtyna/rest-api-training" MODIFIED="1574855396788" TEXT="Rest API+HTEOAS(starsza wersja)"/>
-<node CREATED="1574855938802" ID="ID_1022438264" LINK="https://github.com/mikewojtyna/webflux-training" MODIFIED="1574856459443" TEXT="WebFlux-nowy framework wobowy Spring">
+</html>
+</richcontent>
+<cloud COLOR="#ccff66"/>
+<node CREATED="1574938207763" ID="ID_698972014" MODIFIED="1574938244219" TEXT="Przyk&#x142;ad - serwer/klient konfiguracji">
+<node CREATED="1574936074834" ID="ID_655616864" MODIFIED="1574936662158" TEXT="Konfiguracja">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      Jest w opozycji do Spring MVC, kontrolerem jest dowolna funkcja Consumer, odej&#347;cie od adnotacji. W tym frameworku nie startuje tomcat tylko netty, bo ma lepsze wsparcie, wstaje aplikacja nas&#322;uchuj&#261;ca.
+      Spring Cloud jest zarz&#261;dzany poza Spring Boot, importujemy zale&#380;no&#347;ci z umbrella project,
     </p>
     <p>
       
     </p>
     <p>
-      Ciekawym typem jest typ MediaType.TEXT_EVENT_STREAM_VALUE
-    </p>
-    <p>
-      
-    </p>
-    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">@RestController<br />@RequestMapping(<font color="#008000"><b>&quot;/controller/hello&quot;</b></font>)<br /><font color="#000080"><b>public class </b></font>ReactiveHelloController {<br />    @GetMapping(produces = MediaType.TEXT_EVENT_STREAM_VALUE)<br />    <font color="#000080"><b>public </b></font>Flux&lt;Hello&gt; allMsgs() {<br />        <font color="#000080"><b>return </b></font>Flux.interval(Duration.ofSeconds(<font color="#0000ff">1</font>))<br />                .map(i -&gt; <font color="#000080"><b>new </b></font>Hello(<font color="#008000"><b>&quot;Hello &quot; </b></font>+ i));<br />    }<br />}</pre>
-    <p>
-      
+      Umbrella project maj&#261; nazwy kodowe zamiast numerk&#243;w wersji. Tak samo jest np.&#160;&#160;w przypadku Spring Data.
     </p>
     <p>
       
     </p>
     <p>
-      Przegl&#261;darka nigdy nie dostaje responsa, serwer pisze ca&#322;y czas do tego kana&#322;u
+      Je&#380;eli mamy du&#380;e release trainy nale&#380;y po&#322;&#261;czy&#263; je w BOM,&#160;&#160;po&#322;&#261;czy&#263; te kt&#243;re ze sob&#261; dzia&#322;aj&#261;, nada&#263; im nazw&#281; kodow&#261;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      np. w tym przypadku Hoxton, Greenwich - tak te&#380; zorganizowana jest dokumentacja.
+    </p>
+    <p>
+      &#160;
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">&lt;<font color="#000080"><b>dependencyManagement</b></font>&gt;<br />   &lt;<font color="#000080"><b>dependencies</b></font>&gt;<br />      &lt;<font color="#000080"><b>dependency</b></font>&gt;<br />         &lt;<font color="#000080"><b>groupId</b></font>&gt;org.springframework.cloud&lt;/<font color="#000080"><b>groupId</b></font>&gt;<br />         &lt;<font color="#000080"><b>artifactId</b></font>&gt;spring-cloud-dependencies<br />         &lt;/<font color="#000080"><b>artifactId</b></font>&gt;<br />         &lt;<font color="#000080"><b>version</b></font>&gt;${spring-cloud.version}<br />         &lt;/<font color="#000080"><b>version</b></font>&gt;<br />         &lt;<font color="#000080"><b>type</b></font>&gt;pom&lt;/<font color="#000080"><b>type</b></font>&gt;<br />         &lt;<font color="#000080"><b>scope</b></font>&gt;import&lt;/<font color="#000080"><b>scope</b></font>&gt;<br />      &lt;/<font color="#000080"><b>dependency</b></font>&gt;<br />   &lt;/<font color="#000080"><b>dependencies</b></font>&gt;<br />&lt;/<font color="#000080"><b>dependencyManagement</b></font>&gt;</pre>
+    <p>
+      
+    </p>
+    <p>
+      Implementacja serwera:
+    </p>
+    <p>
+      Dodajemy jeden artefakt do zale&#380;no&#347;ci:
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">&lt;<font color="#000080"><b>dependencies</b></font>&gt;<br />   &lt;<font color="#000080"><b>dependency</b></font>&gt;<br />      &lt;<font color="#000080"><b>groupId</b></font>&gt;org.springframework.cloud&lt;/<font color="#000080"><b>groupId</b></font>&gt;<br />      &lt;<font color="#000080"><b>artifactId</b></font>&gt;spring-cloud-config-server&lt;/<font color="#000080"><b>artifactId</b></font>&gt;<br />   &lt;/<font color="#000080"><b>dependency</b></font>&gt;<br />&lt;/<font color="#000080"><b>dependencies</b></font>&gt;</pre>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"></pre>
+    <p>
+      
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1574936624554" ID="ID_1849048091" MODIFIED="1574937552919" TEXT="Implementacja serwera konfiguracji">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Tworzymy aplikacj&#281; z adnotacj&#261; @EnableConfigServer
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@SpringBootApplication<br />@EnableConfigServer<br /></font><font color="#000080"><b>public class </b></font>Server {<br /><br />   <font color="#000080"><b>public static void </b></font>main(String[] args) {<br />      SpringApplication.<i>run</i>(Server.<font color="#000080"><b>class</b></font>, args);<br />   }<br />}<br /></pre>
+    <p>
+      
+    </p>
+    <p>
+      Konfiguracja:
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>server</b></font>:<br />&#160; <font color="#000080"><b>port</b></font>: <font color="#0000ff">8888<br /></font><font color="#000080"><b>spring</b></font>:<br />&#160; <font color="#000080"><b>cloud</b></font>:<br />&#160;&#160;&#160; <font color="#000080"><b>config</b></font>:<br />&#160;&#160;&#160;&#160;&#160; <font color="#000080"><b>server</b></font>:<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#000080"><b>git</b></font>:<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#000080"><b>uri</b></font>: https://github.com/mikewojtyna/spring-training<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#000080"><b>search-paths</b></font>: cloud/cloud-config-server/config
+
+Taka konstrukcja powoduje &#380;e konfiguracja jest przechowywana na github. URI to nazwa us&#322;ugi (na github) a search-patch - to zag&#322;&#281;bienie w drzewie katalog&#243;w gdzie po&#322;o&#380;ony jest plik&#160;&#160;z konfiguracj&#261;.
+
+Po podniesieniu ten serwer udost&#281;pni endpoint gdzie klienci b&#281;d&#261; mogli pozyka&#263; konfiguracj&#281;. Jest to abstract nad propertisami.
+
+W tym przypadku actuator wystawia&#160;&#160;endpointa pozwalaj&#261;cego na pozyskanie tego serwisu. </pre>
+    <div style="font-family: Segoe UI, Helvetica Neue, Apple Color Emoji, Segoe UI Emoji, Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      curl <a href="http://localhost:8888/hello-app.properties" rel="noreferrer noopener" target="_blank" title="http://localhost:8888/hello-app.properties" tabindex="-1">http://localhost:8888/hello-app.properties</a>
+    </div>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">on tak naprawd&#281; uderzy do us&#322;ugi githuba. </pre>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1574936947807" ID="ID_192403122" MODIFIED="1574938116067" TEXT="Implementacja klienta konfiguracji (plik specjalny: bootstrap.yml)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">&lt;<font color="#000080"><b>dependencies</b></font>&gt;<br />   &lt;<font color="#000080"><b>dependency</b></font>&gt;<br />      &lt;<font color="#000080"><b>groupId</b></font>&gt;org.springframework.boot&lt;/<font color="#000080"><b>groupId</b></font>&gt;<br />      &lt;<font color="#000080"><b>artifactId</b></font>&gt;spring-boot-starter-actuator&lt;/<font color="#000080"><b>artifactId</b></font>&gt;<br />   &lt;/<font color="#000080"><b>dependency</b></font>&gt;<br />   &lt;<font color="#000080"><b>dependency</b></font>&gt;<br />      &lt;<font color="#000080"><b>groupId</b></font>&gt;org.springframework.cloud&lt;/<font color="#000080"><b>groupId</b></font>&gt;<br />      &lt;<font color="#000080"><b>artifactId</b></font>&gt;spring-cloud-starter-config&lt;/<font color="#000080"><b>artifactId</b></font>&gt;<br />   &lt;/<font color="#000080"><b>dependency</b></font>&gt;<br />   &lt;<font color="#000080"><b>dependency</b></font>&gt;<br />      &lt;<font color="#000080"><b>groupId</b></font>&gt;org.springframework.boot&lt;/<font color="#000080"><b>groupId</b></font>&gt;<br />      &lt;<font color="#000080"><b>artifactId</b></font>&gt;spring-boot-starter-web&lt;/<font color="#000080"><b>artifactId</b></font>&gt;<br />   &lt;/<font color="#000080"><b>dependency</b></font>&gt;<br />&lt;/<font color="#000080"><b>dependencies</b></font>&gt;</pre>
+    <p>
+      
+    </p>
+    <p>
+      Komponenty oznaczone jako RefreshScope, to gdy wy&#347;lemy POST na endpoint refresh (endpointa wystawia acuator, po to zale&#380;no&#347;&#263;).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      plik
+    </p>
+    <p>
+      bootstrap.yml - uruchamiane na sammym pocz&#261;tku za&#322;adowany w pierwszej kolejno&#347;ci, nawet przed wczytaniem innych propertis&#243;w . Klient musi zna&#263; nazw&#281; aplikacji hello-app jest to ta nazwa&#160;&#160;pliku z konfiguracj&#261; serwera.
+    </p>
+    <p>
+      w katalogu config na githubie (konf. serwera) musi le&#380;e&#263; plik hello-app.yml itd...
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>spring</b></font>:<br />  <font color="#000080"><b>application</b></font>:<br />    <font color="#000080"><b>name</b></font>: hello-app<br /><br />  <font color="#000080"><b>cloud</b></font>:<br />    <font color="#000080"><b>config</b></font>:<br />      <font color="#000080"><b>uri</b></font>: http://localhost:8888</pre>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      plik properties:
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>management</b></font>:<br />  <font color="#000080"><b>endpoints</b></font>:<br />    <font color="#000080"><b>web</b></font>:<br />      <font color="#000080"><b>exposure</b></font>:<br />        <font color="#000080"><b>include</b></font>: <font color="#008000"><b>&quot;*&quot;</b></font></pre>
+    <p>
+      Wystawia endpointy prze actuatora, wszystkie endpointy zwi&#261;zane z lokalnymi restami.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1574938269653" ID="ID_401124246" MODIFIED="1574938666734" TEXT="Przyk&#x142;ad - eureka  z  ribbonem + hystrix">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Mo&#380;e zdarzy&#263; si&#281; &#380;e jaka&#347; us&#322;uga nie odpowie. Mamy klienta kt&#243;ry ma problem sieciowy.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Pattern Circle Breaker - je&#347;li dana us&#322;uga nie dzia&#322;a lub dzia&#322;a wolno to nale&#380;y znale&#378;&#263; dla niej zast&#281;pnik. Service nie dzia&#322;a przerywamy obw&#243;d i pobieramy z cache - implementacja tej us&#322;ugi to Hystrix.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ______X____ SERVICE
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;|
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;|
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;----------CACHE
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Przyk&#322;ad:
+    </p>
+    <p>
+      mamy serwer eureka i dw&#243;ch klient&#243;w, klient si&#281; rejestruje , drugi uzywa pierwszzego, odnalezionego przez eureke &#380;eby co&#347; na nim zrobi&#263;, je&#347;li ten jest niedost&#281;pny to zamiast go pozyskiwa&#263; wywo&#322;uje prywatn&#261; metod&#281;.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1574938670372" ID="ID_1338657030" MODIFIED="1574938812869" TEXT="Serwer @EnableEurekaServer">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>server</b></font>:<br />  <font color="#000080"><b>port</b></font>: 8761<br /><br /><font color="#000080"><b>eureka</b></font>:<br />  <font color="#000080"><b>client</b></font>:<br />    <font color="#000080"><b>register-with-eureka</b></font>: false<br />    <font color="#000080"><b>fetch-registry</b></font>: false</pre>
+    <p>
+      
+    </p>
+    <p>
+      Nie rejestruj si&#281; (nie dzia&#322;amy jako P2P)
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">@SpringBootApplication<br />@EnableEurekaServer<br /><font color="#000080"><b>public class </b></font>EurekaServerApp {<br /><br />   <font color="#000080"><b>public static void </b></font>main(String[] args) {<br />      SpringApplication.run(EurekaServerApp.<font color="#000080"><b>class</b></font>, args);<br />   }<br />}<br /></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574938825743" ID="ID_1066463582" MODIFIED="1574939654337" TEXT="Klient @EnableDiscoveryClient @LoadBalanced">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">&lt;<font color="#000080"><b>dependency</b></font>&gt;<br />   &lt;<font color="#000080"><b>groupId</b></font>&gt;org.springframework.cloud&lt;/<font color="#000080"><b>groupId</b></font>&gt;<br />   &lt;<font color="#000080"><b>artifactId</b></font>&gt;<br />      spring-cloud-starter-netflix-eureka-client<br />   &lt;/<font color="#000080"><b>artifactId</b></font>&gt;<br />&lt;/<font color="#000080"><b>dependency</b></font>&gt;</pre>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>spring</b></font>:<br />  <font color="#000080"><b>application</b></font>:<br />    <font color="#000080"><b>name</b></font>: eureka-client-greetings</pre>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      -poniewa&#380; chcemy korzysta&#263; z RestTemplate musimy u&#380;y&#263;:
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">&lt;<font color="#000080"><b>dependency</b></font>&gt;<br />   &lt;<font color="#000080"><b>groupId</b></font>&gt;org.springframework.boot&lt;/<font color="#000080"><b>groupId</b></font>&gt;<br />   &lt;<font color="#000080"><b>artifactId</b></font>&gt;spring-boot-starter-web&lt;/<font color="#000080"><b>artifactId</b></font>&gt;<br />&lt;/<font color="#000080"><b>dependency</b></font>&gt;</pre>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@SpringBootApplication<br />@EnableDiscoveryClient<br /></font><font color="#000080"><b>public class </b></font>EurekaClientGreetingsApp {<br /><br />   <font color="#000080"><b>public static void </b></font>main(String[] args) {<br />      SpringApplication.<i>run</i>(EurekaClientGreetingsApp.<font color="#000080"><b>class</b></font>, args);<br /><br />   }<br /><br />   <font color="#808000">@Bean<br />   @LoadBalanced<br />   </font><font color="#000080"><b>public </b></font>RestTemplate restTemplate() {<br />      <font color="#000080"><b>return new </b></font>RestTemplate();<br />   }<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#808000">@LoadBalanced-powoduje &#380;e pod spodem u&#380;yty zostanie ribbon (load balancer) i umo&#380;liwia&#160;&#160;pos&#322;ugiwanie si&#281; wirtualn&#261; nazw&#261; hosta. </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Demo:
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@Component<br /></font><font color="#000080"><b>public class </b></font>EurekaDiscoverer <font color="#000080"><b>implements </b></font>ApplicationRunner {<br /><br />   <font color="#000080"><b>private </b></font>DiscoveryClient <font color="#660e7a"><b>discoveryClient</b></font>;<br />   <font color="#000080"><b>private </b></font>String <font color="#660e7a"><b>clientName</b></font>;<br />   <font color="#000080"><b>private </b></font>RestTemplate <font color="#660e7a"><b>restTemplate</b></font>;<br /><br />   <font color="#000080"><b>public </b></font>EurekaDiscoverer(DiscoveryClient discoveryClient, <font color="#808000">@Value</font>(<font color="#008000"><b>&quot;$&quot; </b></font>+<br />      <font color="#008000"><b>&quot;{spring.application.name}&quot;</b></font>) String appName,<br />            RestTemplate restTemplate) {<br />      <font color="#000080"><b>this</b></font>.<font color="#660e7a"><b>discoveryClient </b></font>= discoveryClient;<br />      <font color="#660e7a"><b>clientName </b></font>= appName;<br />      <font color="#000080"><b>this</b></font>.<font color="#660e7a"><b>restTemplate </b></font>= restTemplate;<br />   }<br /><br />   <font color="#808000">@Override<br />   </font><font color="#000080"><b>public void </b></font>run(ApplicationArguments args) <font color="#000080"><b>throws </b></font>Exception {<br />      <font color="#000080"><b>while </b></font>(<font color="#000080"><b>true</b></font>) {<br />         List&lt;ServiceInstance&gt; instances = <font color="#660e7a"><b>discoveryClient<br />            </b></font>.getInstances(<font color="#660e7a"><b>clientName</b></font>);<br /><br />         <font color="#000080"><b>if </b></font>(!instances.isEmpty()) {<br />            System.<font color="#660e7a"><b><i>out</i></b></font>.println(<font color="#008000"><b>&quot;Found instances!&quot;</b></font>);<br />            instances.stream().forEach(i -&gt; {<br />               System.<font color="#660e7a"><b><i>out<br />                  </i></b></font>.printf(<font color="#008000"><b>&quot;Instance: &quot; </b></font>+ <font color="#008000"><b>&quot;host &quot; </b></font>+ <font color="#008000"><b>&quot;%s, &quot; </b></font>+ <font color="#008000"><b>&quot;instanceId: &quot; </b></font>+ <font color="#008000"><b>&quot;%s, Uri %s</b></font><b><font color="#000080">\n</font><font color="#008000">&quot;</font></b>, i<br />                     .getHost(), i<br />                     .getInstanceId(), i<br />                     .getUri());<br /><br />               System.<font color="#660e7a"><b><i>out<br />                  </i></b></font>.printf(<font color="#008000"><b>&quot;Calling %s service&quot; </b></font>+ <font color="#008000"><b>&quot; to get all greetings </b></font><b><font color="#000080">\n</font><font color="#008000">&quot;</font></b>, <font color="#660e7a"><b>clientName</b></font>);<br /><br />               Greetings greetings = <font color="#660e7a"><b>restTemplate<br />                  </b></font>.getForObject(String<br />                     .<i>format</i>(<font color="#008000"><b>&quot;http://%s&quot; </b></font>+<br />                        <font color="#008000"><b>&quot;/api&quot; </b></font>+<br />                        <font color="#008000"><b>&quot;/greetings&quot;</b></font>,<br />                        <font color="#660e7a"><b>clientName</b></font>),<br />                     Greetings.<font color="#000080"><b>class</b></font>);<br /><br />               System.<font color="#660e7a"><b><i>out<br />                  </i></b></font>.println(<font color="#008000"><b>&quot;Received &quot; </b></font>+<br />                     <font color="#008000"><b>&quot;greetings: &quot; </b></font>+ greetings);<br />            });<br />            <font color="#000080"><b>break</b></font>;<br />         }<br />         <font color="#000080"><b>else </b></font>{<br />            System.<font color="#660e7a"><b><i>out<br />               </i></b></font>.println(<font color="#008000"><b>&quot;No instances found &quot; </b></font>+<br />                  <font color="#008000"><b>&quot;yet&quot;</b></font>);<br />         }<br />         Thread.<i>sleep</i>(<font color="#0000ff">1000</font>);<br />      }<br />   }<br />}<br /></pre>
+    <p>
+      
+    </p>
+    <p>
+      To &#380;e uda si&#281; takie wstrzykni&#281;cie:
+    </p>
+    <p>
+      &#160;<font color="#000080"><b>private </b></font>DiscoveryClient <font color="#660e7a"><b>discoveryClient</b></font>;
+    </p>
+    <p>
+      to zas&#322;uga tego &#380;e na aplikacji by&#322;o u&#380;yte EnableDiscoveryClient.
+    </p>
+    <p>
+      Wstrzykni&#281;ty discoveryclient b&#281;dzie pr&#243;bowa&#322; fetchowa&#263; konfiguracj&#281; czyli zsamego siebie pod nazw&#281; uzyskan&#261; w eureka.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;Greetings greetings = <font color="#660e7a"><b>restTemplate&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </b></font>.getForObject(String &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.<i>format</i>(<font color="#008000"><b>&quot;http://%s&quot; </b></font>+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#008000"><b>&quot;/api&quot; </b></font>+&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#008000"><b>&quot;/greetings&quot;</b></font>, &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#660e7a"><b>clientName</b></font>), &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Greetings.<font color="#000080"><b>class</b></font>);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      robimy strza&#322; pod zmienn&#261; kt&#243;r&#261; pozyskali&#347;my po rejestracji klienta, w naszym przypadku b&#281;dzie to
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">eureka-client-greetings
+
+Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
+    <p>
+      Co sekund&#281; sprawdzamy czy taki klient si&#281; zarejestrowa&#322;, je&#347;li tak si&#281; stanie to do niego uderzamy.
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@RestController<br />@RequestMapping</font>(<font color="#008000"><b>&quot;/api/greetings&quot;</b></font>)<br /><font color="#000080"><b>public class </b></font>GreetingsController {<br /><br />   <font color="#808000">@GetMapping<br />   </font><font color="#000080"><b>public </b></font>Greetings greetings() {<br />      <font color="#000080"><b>return new </b></font>Greetings(<font color="#008000"><b>&quot;hello, hi and welcome&quot;</b></font>);<br />   }<br />}<br /></pre>
+    <p>
+      
+    </p>
+    <p>
+      ten kod pokazuje &#380;e mo&#380;na do niego uderzy&#263; i co&#347; si&#281; pojawi. Rejestracja troch&#281; trwa.
+    </p>
+    <p>
+      No instances found yet
+    </p>
+    <p>
+      No instances found yet
+    </p>
+    <p>
+      No instances found yet
+    </p>
+    <p>
+      No instances found yet
+    </p>
+    <p>
+      No instances found yet
+    </p>
+    <p>
+      No instances found yet
+    </p>
+    <p>
+      No instances found yet
+    </p>
+    <p>
+      No instances found yet
+    </p>
+    <p>
+      Found instances!
+    </p>
+    <p>
+      Instance: host aps00066152-mb.poland.asseco.corp, instanceId: aps00066152-mb.poland.asseco.corp:eureka-client-greetings, Uri http://aps00066152-mb.poland.asseco.corp:8080
+    </p>
+    <p>
+      Calling eureka-client-greetings service to get all greetings
+    </p>
+    <p>
+      Received greetings: Greeting{msg='hello, hi and welcome'}
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574939657473" ID="ID_704466730" MODIFIED="1574940376113" TEXT="Klient hystrix @HystrixCommand">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">&lt;<font color="#000080"><b>dependencies</b></font>&gt;<br />   &lt;<font color="#000080"><b>dependency</b></font>&gt;<br />      &lt;<font color="#000080"><b>groupId</b></font>&gt;org.springframework.boot&lt;/<font color="#000080"><b>groupId</b></font>&gt;<br />      &lt;<font color="#000080"><b>artifactId</b></font>&gt;spring-boot-starter-web&lt;/<font color="#000080"><b>artifactId</b></font>&gt;<br />      &lt;<font color="#000080"><b>exclusions</b></font>&gt;<br />         &lt;<font color="#000080"><b>exclusion</b></font>&gt;<br />            &lt;<font color="#000080"><b>groupId</b></font>&gt;org.springframework.boot<br />            &lt;/<font color="#000080"><b>groupId</b></font>&gt;<br />            &lt;<font color="#000080"><b>artifactId</b></font>&gt;spring-boot-starter-tomcat<br />            &lt;/<font color="#000080"><b>artifactId</b></font>&gt;<br />         &lt;/<font color="#000080"><b>exclusion</b></font>&gt;<br />      &lt;/<font color="#000080"><b>exclusions</b></font>&gt;<br />   &lt;/<font color="#000080"><b>dependency</b></font>&gt;<br />   &lt;<font color="#000080"><b>dependency</b></font>&gt;<br />      &lt;<font color="#000080"><b>groupId</b></font>&gt;org.springframework.cloud&lt;/<font color="#000080"><b>groupId</b></font>&gt;<br />      &lt;<font color="#000080"><b>artifactId</b></font>&gt;<br />         spring-cloud-starter-netflix-hystrix<br />      &lt;/<font color="#000080"><b>artifactId</b></font>&gt;<br />   &lt;/<font color="#000080"><b>dependency</b></font>&gt;<br />   &lt;<font color="#000080"><b>dependency</b></font>&gt;<br />      &lt;<font color="#000080"><b>groupId</b></font>&gt;org.springframework.cloud&lt;/<font color="#000080"><b>groupId</b></font>&gt;<br />      &lt;<font color="#000080"><b>artifactId</b></font>&gt;<br />         spring-cloud-starter-netflix-eureka-client<br />      &lt;/<font color="#000080"><b>artifactId</b></font>&gt;<br />   &lt;/<font color="#000080"><b>dependency</b></font>&gt;<br />&lt;/<font color="#000080"><b>dependencies</b></font>&gt;</pre>
+    <p>
+      
+    </p>
+    <p>
+      Starter dodaje starter do tomcata, ale nie chcemy by wstawa&#322;o to jako serwer, dlatego wykluczenie. Mo&#380;na by&#322;oby wykluczy&#263; autokonfiguracje na poziomie java (ale lepiej tak bo w og&#243;le nie dostajemy zale&#380;no&#347;ci)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Sam nie jestem us&#322;ug&#261;,&#160;&#160;wi&#281;c nie rejestruj&#281; si&#281; w Eureka, chc&#281; tylko pozyska&#263; info od Eureka o innym kliencie (po id-klienta). Nie znam jego id, port, ip, tylko identyfiaktor logiczny
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#660e7a"><b>greetingsClient </b></font>= <font color="#008000"><b>&quot;eureka-client-greetings&quot;</b></font>;</pre>
+    <p>
+      &#160;
+    </p>
+    <p>
+      @HystrixCommand- traktuj to jako co&#347; co mo&#380;e by&#263; nara&#380;one na przerwanie obwodu, w takim przypadku nale&#380;y dostarczy&#263; warto&#347;ci defaultowej.
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@Bean<br />@LoadBalanced<br /></font><font color="#000080"><b>public </b></font>RestTemplate restTemplate() {<br />   <font color="#000080"><b>return new </b></font>RestTemplate();<br />}</pre>
+    <p>
+      
+    </p>
+    <p>
+      to powoduje &#380;e mo&#380;emy pos&#322;ugiwa&#263; si&#281; logicznymi nazwami pobranymi z eureka serwer.
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>public static void </b></font>main(String[] args) <font color="#000080"><b>throws </b></font>InterruptedException {<br />   <font color="#000080"><b>try </b></font>(ConfigurableApplicationContext context = SpringApplication<br />      .<i>run</i>(TranslatorApp.<font color="#000080"><b>class</b></font>, args)) {<br /><br />      TranslatorService translatorService = context<br />         .getBean(TranslatorService.<font color="#000080"><b>class</b></font>);<br />      <font color="#000080"><b>while </b></font>(<font color="#000080"><b>true</b></font>) {<br />         String translation = translatorService<br />            .translate();<br />         System.<font color="#660e7a"><b><i>out<br />            </i></b></font>.println(<font color="#008000"><b>&quot;Translation: &quot; </b></font>+ translation);<br />         <font color="#000080"><b>if </b></font>(!translation<br />            .equals(TranslatorService.<font color="#660e7a"><b><i>DEFAULT_MSG</i></b></font>)) {<br />            <font color="#000080"><b>break</b></font>;<br />         }<br />         Thread.<i>sleep</i>(<font color="#0000ff">1000</font>);<br />      }<br />   }</pre>
+    <p>
+      
+    </p>
+    <p>
+      Aplikacja tak d&#322;ugo b&#281;dzie zwraca&#322;a cache dot&#261;d a&#380; odpowie us&#322;uga &#380;&#261;dana.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Gdy dzia&#322;a eureka, client greetings&#160;&#160;wynik:
+    </p>
+    <p>
+      Server stats: [[Server:aps00066152-mb.poland.asseco.corp:8080; Zone:defaultZone; Total Requests:0; Successive connection failure:0; Total blackout seconds:0; Last connection made:Thu Jan 01 01:00:00 CET 1970; First connection made: Thu Jan 01 01:00:00 CET 1970; Active Connections:0; total failure count in last (1000) msecs:0; average resp time:0.0; 90 percentile resp time:0.0; 95 percentile resp time:0.0; min resp time:0.0; max resp time:0.0; stddev resp time:0.0]
+    </p>
+    <p>
+      ]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@410694d4
+    </p>
+    <p>
+      Translation: Cze&#347;&#263;!
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Je&#347;li po&#322;o&#380;ymy greeting client:
+    </p>
+    <p>
+      },Server stats: [[Server:aps00066152-mb.poland.asseco.corp:8080; Zone:defaultZone; Total Requests:0; Successive connection failure:0; Total blackout seconds:0; Last connection made:Thu Jan 01 01:00:00 CET 1970; First connection made: Thu Jan 01 01:00:00 CET 1970; Active Connections:0; total failure count in last (1000) msecs:0; average resp time:0.0; 90 percentile resp time:0.0; 95 percentile resp time:0.0; min resp time:0.0; max resp time:0.0; stddev resp time:0.0]
+    </p>
+    <p>
+      ]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@49edffa8
+    </p>
+    <p>
+      Translation: DEFAULT_MSG
+    </p>
+    <p>
+      2019-11-28 12:24:29.023&#160;&#160;INFO 3844 --- [erListUpdater-0] c.netflix.config.ChainedDynamicProperty&#160;&#160;: Flipping property: eureka-client-greetings.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+    </p>
+    <p>
+      Translation: DEFAULT_MSG
+    </p>
+    <p>
+      Translation: DEFAULT_MSG
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Gdy greetings-client wstanie:
+    </p>
+    <p>
+      Translation: DEFAULT_MSG
+    </p>
+    <p>
+      Translation: Cze&#347;&#263;!
+    </p>
+    <p>
+      i ko&#324;czy dzia&#322;anie.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1574940380669" ID="ID_777374641" LINK="https://github.com/Netflix/zuul" MODIFIED="1574940434828" TEXT="zuul - gateway"/>
+<node CREATED="1574947436014" FOLDED="true" ID="ID_507615338" MODIFIED="1574947506061" TEXT="obraz">
+<node CREATED="1574947447323" ID="ID_1245797928" MODIFIED="1574947464600">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="architektura-cloud-netflix.jpg" />
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </node>
