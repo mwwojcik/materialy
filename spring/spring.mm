@@ -19,13 +19,83 @@
 <node CREATED="1574754474119" ID="ID_1633146600" MODIFIED="1575026493927" TEXT="CTRL+ALT+T =&gt; otocz przez blok kodu"/>
 <node CREATED="1574773962954" ID="ID_368035535" LINK="https://www.jetbrains.com/help/idea/2016.1/refactoring-source-code.html" MODIFIED="1575026493927" TEXT="https://www.jetbrains.com/help/idea/2016.1/refactoring-source-code.html"/>
 <node CREATED="1575020800621" ID="ID_455230930" MODIFIED="1575026493927" TEXT="Live Templates">
-<node CREATED="1575020807861" ID="ID_1577425246" MODIFIED="1575026493927" TEXT="metoda"/>
-<node CREATED="1575020814104" ID="ID_1037861645" MODIFIED="1575026493927" TEXT="metoda testowa"/>
-<node CREATED="1575020820890" ID="ID_567435581" MODIFIED="1575026493927" TEXT="wy&#x142;&#x105;czenie z formatowania"/>
+<node CREATED="1575020807861" ID="ID_1577425246" MODIFIED="1575035550918" TEXT="metoda">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    public $RETURN$ $METHOD$($ARGS$) {
+
+    <p>
+      <br />
+      $BODY$<br />}
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //uwaga mozna doprecyzowa&#263; values
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1575020814104" ID="ID_1037861645" MODIFIED="1575035572329" TEXT="metoda testowa">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    @org.junit.jupiter.api.DisplayName(&quot;$END$&quot;)
+
+    <p>
+      <br />
+      @org.junit.jupiter.api.Test void test() throws java.lang.Exception {<br />// given&#160;// when&#160;// then<br />org.assertj.core.api.Fail.fail(&quot;Write your test&quot;);<br />}
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1575020820890" ID="ID_567435581" MODIFIED="1575035615155" TEXT="wy&#x142;&#x105;czenie z formatowania">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="c-message__gutter c-message__gutter--feature_sonic_inputs">
+      
+    </div>
+    <div class="c-message__content c-message__content--feature_sonic_inputs" data-qa="message_content">
+      <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+        <div class="p-block_kit_renderer p-block_kit_renderer--absorb_margin" data-qa="block-kit-renderer">
+          <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+            <div class="p-rich_text_block" dir="auto">
+              <div class="p-rich_text_section">
+                // @formatter:off<br />$SELECTION$<br />// @formatter:on
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p>
+      
+    </p>
+    <p>
+      //mozna zrobic sobie otoczenie kodu metoda
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1574758571416" ID="ID_1113805724" MODIFIED="1575026493927" POSITION="left" TEXT="Wykona&#x107; rozproszon&#x105; aplikacj&#x119; microserwisow&#x105;"/>
-<node CREATED="1575014293382" FOLDED="true" ID="ID_1642988862" MODIFIED="1575026493927" POSITION="left" TEXT="Spring Integration">
+<node CREATED="1575014293382" ID="ID_1642988862" MODIFIED="1575035454313" POSITION="left" TEXT="Spring Integration">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -296,20 +366,20 @@
 </html>
 </richcontent>
 </node>
-<node CREATED="1574886514086" ID="ID_1121240579" MODIFIED="1575026493927" TEXT="BeanFactory">
+<node CREATED="1574886514086" ID="ID_1121240579" MODIFIED="1575038236642" TEXT="BeanFactory">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font size="2">BeanFactory - abstrakcyjna fabryka bean&#243;w , jest to wzorzec Abstract Factory. Jest interfejsem wystarczaj&#261;cym do zarz&#261;dzania beanami. </font>
+      <font size="3">BeanFactory - abstrakcyjna fabryka bean&#243;w , jest to wzorzec Abstract Factory. Jest interfejsem wystarczaj&#261;cym do zarz&#261;dzania beanami. </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font size="2">BeanFactory/a&gt; interface provides a simple, yet flexible configuration mechanism to manage objects of any nature via the Spring IoC container. Let's have a look at some basics before diving deep into this central Spring API.</font>
+      <font size="3">BeanFactory/a&gt; interface provides a simple, yet flexible configuration mechanism to manage objects of any nature via the Spring IoC container. Let's have a look at some basics before diving deep into this central Spring API.</font>
     </p>
   </body>
 </html>
@@ -1073,6 +1143,22 @@
 </html>
 </richcontent>
 </node>
+<node CREATED="1575027943574" ID="ID_1968326119" MODIFIED="1575028127015" TEXT="@Cacheable">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      @Cacheable(key=&quot;operation&quot;) - ta metoda ma by&#263; przechowywana w cache (do cache trafia info jakie by&#322;y parametry i jaki wynik metody)
+    </p>
+    <p>
+      @CacheEvict(key=&quot;operation&quot;) - umieszczamy pod inna metod&#261; kt&#243;ra uniewa&#380;nia ten klucz
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1574767521883" ID="ID_342452735" MODIFIED="1575026493927" POSITION="right" TEXT="Testy jednostkowe i integracyjne">
 <richcontent TYPE="NOTE"><html>
@@ -1525,7 +1611,7 @@ U&#380;ycie:</pre>
 </node>
 <node CREATED="1574843125039" ID="ID_328884833" MODIFIED="1575026493927" POSITION="left" TEXT="Architektura">
 <cloud COLOR="#ccccff"/>
-<node CREATED="1574841559632" ID="ID_1984439955" MODIFIED="1575026493927" TEXT="Domain Driven Design">
+<node CREATED="1574841559632" ID="ID_1984439955" MODIFIED="1575032995437" TEXT="Domain Driven Design">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1680,7 +1766,7 @@ U&#380;ycie:</pre>
 </html>
 </richcontent>
 </node>
-<node CREATED="1574954505380" ID="ID_374021133" MODIFIED="1575026493927" TEXT="Agregat">
+<node CREATED="1574954505380" ID="ID_374021133" MODIFIED="1575036804805" TEXT="Agregat">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1722,13 +1808,123 @@ U&#380;ycie:</pre>
     <p>
       Dopiero ostatni krok powinien by&#263; w zakresie transakcji bazodanowej, by&#263; Transactional, (samo repo jest transactional)
     </p>
+    <p>
+      
+    </p>
+    <p>
+      Agregat decyduje o tym co ma si&#281; sta&#263; oraz publikuje zdarzenia zwi&#261;zane z danym eventem.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Agregat
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1575032969962" ID="ID_615694070" MODIFIED="1575032989269" TEXT="Fakty domenowe">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Zdarzenia kt&#243;re dziej&#261; si&#281; w procesie /domenie.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1575032995437" ID="ID_411511237" MODIFIED="1575035040855" TEXT="Event storming">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font size="3">Jedna z technik pozyskiwania wiedzy o domenie </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font size="3">Faza I&#160;&#160;-&#160;&#160;BIG PICTURE </font>
+    </p>
+    <ul>
+      <li>
+        <font size="3">Karteczki na kt&#243;rych piszemy wszystko co nam przyjdzie do g&#322;owy. </font>
+      </li>
+      <li>
+        <font size="3">Potem jak pomys&#322;y si&#281; wyczerpi&#261; porz&#261;dkujemy karteczki w jakie&#347; ci&#261;gi logiczne. </font>
+      </li>
+      <li>
+        <font size="3">Gdy pojawiaj&#261; si&#281; pytania mamy podejrzenie &#380;e pod kt&#243;r&#261;&#347; z karteczek kryje si&#281; co&#347; u&#380;ytecznego ,wtedy piszemy dodatkowe karteczki zwane &quot;hot spot&quot;. Zawieraj&#261; one pytanie. Sygnalizujemy sobie konieczno&#347;ci doprecyzowania, zaczynamy dowiadywa&#263; si&#281; czegokolwiek o procesie. Na tym etapie nie mo&#380;na wchodzi&#263; g&#322;&#281;biej. Jeste&#347;my w stanie &quot;big picture&quot; . Szukamy w szerz, a nie w g&#322;&#261;b. </font>
+      </li>
+    </ul>
+    <p>
+      <font size="3">Faza II- mamy sekwencyjno&#347;&#263; a teraz zastanawiamy si&#281; nad przyczynami staramy si&#281; wyr&#243;&#378;ni&#263; aktor&#243;w </font>
+    </p>
+    <ul>
+      <li>
+        <font size="3">Zastanawiamy si&#281; jaka &#347;wiadoma akcja wykonywana przez jaki&#347; byt (aktora) powoduje wyzwolenie tego zdarzenia.</font>
+      </li>
+    </ul>
+    <p>
+      <font size="3">Faza III - kto jest odbiorc&#261; tych zdarze&#324;, co przyjmuje komendy </font>
+    </p>
+    <p>
+      
+    </p>
   </body>
 </html>
 </richcontent>
 </node>
 </node>
-<node CREATED="1574780218589" ID="ID_1502084458" MODIFIED="1575026493927" TEXT="Architektura warstwowa vs heksagonalna Ports -Adapters"/>
-<node CREATED="1574841576743" ID="ID_1831841956" MODIFIED="1575026493927" TEXT="Test Driven Development i Ports Adapters"/>
+<node CREATED="1574780218589" ID="ID_1502084458" MODIFIED="1575038211338" TEXT="Architektura Ports - Adapters (Hexagonalna)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Mamy byty Bike, BikeRent,BikeRack. Trafiaj&#261; do jednego kontekstu rent. Powstaje inny kontekst zwi&#261;zany z serwisowaniem czyli service.
+    </p>
+    <p>
+      W obr&#281;bie ka&#380;dego modu&#322;u wyr&#243;&#380;niamy api i model (ale pod wyr&#243;&#380;nikami modu&#322;u).
+    </p>
+    <p>
+      Model w module staje si&#281;&#160;&#160;agregatem.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Interfejs do zarz&#261;dzania agregatem trafia do api.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Powstaje byt Client, kt&#243;ry jest prostym ValueObject ( w tym kontek&#347;cie nie jest on kluczowy, w innym mo&#380;e by&#263; &#380;yw&#261; identyfikowaln&#261; encj&#261;).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Uwaga! pos&#322;ugujemy si&#281; identyfikatorem bikeId a nie ca&#322;ym obiektem bo api zewn&#281;trzne nic nie wie o agregacie, na styku powinno pos&#322;ugiwa&#263; si&#281; tylko identyfikatorami.
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1575035411302" ID="ID_1516809404" LINK="https://softwarecampament.wordpress.com/portsadapters/" MODIFIED="1575035429414" TEXT="Opis architektury hexagonalnej"/>
+<node CREATED="1575036886469" ID="ID_1258883858" LINK="https://www.freecodecamp.org/news/implementing-a-hexagonal-architecture/" MODIFIED="1575036927168" TEXT="Case Study - Implementing Hexagonal Architecture"/>
+</node>
+<node CREATED="1575037139955" ID="ID_1330181442" LINK="https://bulldogjob.pl/news/732-clean-architecture-z-java-11" MODIFIED="1575037172113" TEXT="Architektura Clean Architecture (pokrewna do hexagonalnej)"/>
 <node CREATED="1574846378166" ID="ID_37503193" MODIFIED="1575026493927" TEXT=" Preferowany spos&#xf3;b konteneryzacji to ma&#x142;y kontener np tomcat, wrzucony na Dockera i zarz&#x105;dzany Qubernetesem)."/>
 <node CREATED="1574946943219" ID="ID_704874938" MODIFIED="1575026493927" TEXT="JPMS(JIGSAW, Java Modules) ">
 <richcontent TYPE="NOTE"><html>
@@ -2856,8 +3052,9 @@ org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConf
 </node>
 </node>
 <node CREATED="1574972168126" ID="ID_1820144862" MODIFIED="1575026493927" TEXT="Konwencje mapowania URI"/>
+<node CREATED="1575036559415" ID="ID_1308287874" MODIFIED="1575036563410" TEXT="RestTemplate"/>
 </node>
-<node CREATED="1574843073919" FOLDED="true" ID="ID_813334677" MODIFIED="1575026493927" POSITION="right" TEXT="Programowanie reaktywne">
+<node CREATED="1574843073919" ID="ID_813334677" MODIFIED="1575028193542" POSITION="right" TEXT="Programowanie reaktywne">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3786,8 +3983,86 @@ Chainy publisher z jednego &#378;r&#243;d&#322;a mo&#380;e by&#263; sourcem w in
 </node>
 </node>
 </node>
-<node CREATED="1575019120012" ID="ID_368808356" MODIFIED="1575026493927" POSITION="right" TEXT="Spring Data">
+<node CREATED="1575019120012" ID="ID_368808356" MODIFIED="1575032117108" POSITION="right" TEXT="Spring Data">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Jest to&#160;&#160;projekt umbrella, zawieraj&#261;cy wiele innych projekt&#243;w.
+    </p>
+  </body>
+</html>
+</richcontent>
 <cloud COLOR="#ffcc99"/>
+<node CREATED="1575032119178" ID="ID_1808233448" MODIFIED="1575032854423" TEXT="Repositories">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Dost&#281;p do danych realizowany jest za pomoc&#261; interfejs&#243;w rozszerzaj&#261;cych CrudRepository&lt;&gt;, wsp&#243;lna baza dla interfejs&#243;w specyficznych.<br />
+    </p>
+    <p>
+      Jest bardzo generyczny, nie ma w nim rzeczy wi&#261;&#380;&#261;cych si&#281; ze specyficznym rozwi&#261;zaniem.
+    </p>
+    <p>
+      Je&#347;li specyfikacja jest na classpathu to ma szans&#281; zosta&#263; automatycznie dopasowany . TODO ???
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Wyst&#281;puj&#261; repozytoria bardziej specyficzne, kt&#243;re dodaj&#261; rzeczy specyficzne, takie jak JPARepository, MongoRepository.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      SimpleJPARepository - jest to podstawowa implementacja, realizowana przez springa jako DynamicProxy. Jest on opakowany proxy i wstrzykiwany jako Repository.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Dostawca dostarcza implementacji metod wysokopoziomowych np. AND, Between, OR. Szuka CrudRepository parsuje nazw&#281; metody tworzy defaultowe implementacje, sk&#322;ada do ca&#322;o&#347;ci.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Uwaga! Repository nie jest dobrym mechanizmem realizuj&#261;cym crossjoiny.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1575037240159" ID="ID_906603811" MODIFIED="1575037636473" TEXT="Implementacja MixIn">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#333333" face="SansSerif" size="3">Implementacja MixIn jest metod&#261; na zmian&#281; defaultowego dzia&#322;ania repozytori&#243;w.
+
+</font><font color="#000080" size="3"><b>public interface </b></font><font size="3">DocumentRepository </font><font color="#000080" size="3"><b>extends </b></font><font size="3">CrudRepository&lt;Document, UUID&gt;,<br size="3" />&#160;&#160;&#160;MyCustomDocumentRepository {<br size="3" />&#160;&#160; Collection&lt;Document&gt; findByTitle(String title);<br size="3" />}</font></pre>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080" size="3"><b>public interface </b></font><font size="3">MyCustomDocumentRepository {<br size="3" />   Optional&lt;Document&gt; findAnyByTitle(String title);<br size="3" />}<br size="3" /></font></pre>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080" size="3"><b>public class </b></font><font size="3">MyCustomDocumentRepositoryImpl </font><font color="#000080" size="3"><b>implements </b></font><font size="3">MyCustomDocumentRepository {<br size="3" />   </font><font color="#808000" size="3">@Override<br size="3" />   </font><font color="#000080" size="3"><b>public </b></font><font size="3">Optional&lt;Document&gt; findAnyByTitle(String title) {<br size="3" />      </font><font color="#808080" size="3"><i>// return fake document<br size="3" />      </i></font><font color="#000080" size="3"><b>return </b></font><font size="3">Optional.<i>of</i>(</font><font color="#000080" size="3"><b>new </b></font><font size="3">Document());<br size="3" />   }<br size="3" />}</font></pre>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1574933130197" ID="ID_1745119334" MODIFIED="1575026493927" POSITION="right" TEXT="Spring Cloud Netflix (OSS)">
 <richcontent TYPE="NOTE"><html>
@@ -3983,7 +4258,7 @@ W tym przypadku actuator wystawia&#160;&#160;endpointa pozwalaj&#261;cego na poz
 </richcontent>
 </node>
 </node>
-<node CREATED="1574938269653" ID="ID_401124246" MODIFIED="1575026493927" TEXT="Przyk&#x142;ad - eureka  z  ribbonem + hystrix">
+<node CREATED="1574938269653" ID="ID_401124246" MODIFIED="1575038407242" TEXT="Przyk&#x142;ad - eureka  z  ribbonem + hystrix">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4278,7 +4553,19 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
 </richcontent>
 </node>
 </node>
-<node CREATED="1574940380669" ID="ID_777374641" LINK="https://github.com/Netflix/zuul" MODIFIED="1575026493927" TEXT="zuul - gateway"/>
+<node CREATED="1574940380669" ID="ID_777374641" LINK="https://github.com/Netflix/zuul" MODIFIED="1575028182341" TEXT="zuul - gateway">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Granuluje wiele microservice , oraz realizuje bezpiecze&#324;stwo dla tych microservice.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node CREATED="1574947436014" FOLDED="true" ID="ID_507615338" MODIFIED="1575026493927" TEXT="obraz">
 <node CREATED="1574947447323" ID="ID_1245797928" MODIFIED="1574947464600">
 <richcontent TYPE="NODE"><html>
@@ -4291,6 +4578,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1575028259281" ID="ID_363854973" LINK="https://zookeeper.apache.org/" MODIFIED="1575028284467" TEXT="ZooKeper - us&#x142;uga do monitu grupy microservice"/>
 </node>
 <node CREATED="1575022212201" ID="ID_864001006" MODIFIED="1575026493927" POSITION="right" TEXT="Spring Security">
 <richcontent TYPE="NOTE"><html>
