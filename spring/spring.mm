@@ -1572,7 +1572,7 @@ U&#380;ycie:</pre>
 <node CREATED="1574846113095" ID="ID_612735272" LINK="https://www.youtube.com/watch?v=wwi1wXOFaA8" MODIFIED="1575026493927" TEXT="Prezentacja po&#x15b;wi&#x119;cona TDD"/>
 <node CREATED="1574844439087" ID="ID_739718076" LINK="https://github.com/spring-projects/spring-boot/tree/master/spring-boot-project/spring-boot-starters" MODIFIED="1575026493927" TEXT="Spring boot kody na GitHub, lista starter&#xf3;w"/>
 <node CREATED="1574848630256" ID="ID_1657360382" LINK="http://www.querydsl.com/" MODIFIED="1575026493927" TEXT="QueryDSL"/>
-<node CREATED="1574853033040" ID="ID_1935823768" LINK="https://github.com/ddd-by-examples/library" MODIFIED="1575026493927" TEXT="DDD by Examples"/>
+<node CREATED="1574853033040" ID="ID_1935823768" LINK="https://github.com/ddd-by-examples/library" MODIFIED="1575040547557" TEXT="DDD by Examples(library)"/>
 <node CREATED="1574859554859" ID="ID_1647435931" LINK="https://medium.com/olivers-tech-blog/profiling-with-java-agents-part-1-a-hello-world-example-d5531189c418" MODIFIED="1575026493927" TEXT="Java agent (AOP)"/>
 <node CREATED="1574861009343" ID="ID_897775662" MODIFIED="1575026493927" TEXT="Reaktywne">
 <node CREATED="1574853721580" ID="ID_263345616" LINK="https://www.reactivemanifesto.org/" MODIFIED="1575026493927" TEXT="Manifest programowania reaktywnego"/>
@@ -1923,6 +1923,20 @@ U&#380;ycie:</pre>
 </richcontent>
 <node CREATED="1575035411302" ID="ID_1516809404" LINK="https://softwarecampament.wordpress.com/portsadapters/" MODIFIED="1575035429414" TEXT="Opis architektury hexagonalnej"/>
 <node CREATED="1575036886469" ID="ID_1258883858" LINK="https://www.freecodecamp.org/news/implementing-a-hexagonal-architecture/" MODIFIED="1575036927168" TEXT="Case Study - Implementing Hexagonal Architecture"/>
+<node CREATED="1575040722407" FOLDED="true" ID="ID_874241360" MODIFIED="1575040900466" TEXT="Przyk&#x142;ad dobrej implementacji architektury (gdzie Spring jestadapterem)">
+<arrowlink DESTINATION="ID_1938294586" ENDARROW="Default" ENDINCLINATION="765;0;" ID="Arrow_ID_196337677" STARTARROW="None" STARTINCLINATION="765;0;"/>
+<node CREATED="1575040747929" ID="ID_1126442963" LINK="przyklad_arch_dd.png" MODIFIED="1575040787058">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="przyklad_arch_dd.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1575037139955" ID="ID_1330181442" LINK="https://bulldogjob.pl/news/732-clean-architecture-z-java-11" MODIFIED="1575037172113" TEXT="Architektura Clean Architecture (pokrewna do hexagonalnej)"/>
 <node CREATED="1574846378166" ID="ID_37503193" MODIFIED="1575026493927" TEXT=" Preferowany spos&#xf3;b konteneryzacji to ma&#x142;y kontener np tomcat, wrzucony na Dockera i zarz&#x105;dzany Qubernetesem)."/>
@@ -2402,7 +2416,9 @@ public class LibraryApplication {
 </richcontent>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1420432324" ENDARROW="Default" ENDINCLINATION="956;73;" ID="Arrow_ID_602685065" SOURCE="ID_1678386152" STARTARROW="None" STARTINCLINATION="1597;452;"/>
 </node>
-<node CREATED="1574855228730" ID="ID_1938294586" LINK="https://github.com/mikewojtyna/ddd-training" MODIFIED="1575026493927" TEXT="DDD"/>
+<node CREATED="1574855228730" ID="ID_1938294586" LINK="https://github.com/mikewojtyna/ddd-training" MODIFIED="1575040900466" TEXT="DDD">
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1938294586" ENDARROW="Default" ENDINCLINATION="765;0;" ID="Arrow_ID_196337677" SOURCE="ID_874241360" STARTARROW="None" STARTINCLINATION="765;0;"/>
+</node>
 <node CREATED="1574855373811" ID="ID_885595811" LINK="https://github.com/mikewojtyna/rest-api-training" MODIFIED="1575026493927" TEXT="Rest API+HTEOAS(starsza wersja)"/>
 <node CREATED="1574855938802" ID="ID_1022438264" LINK="https://github.com/mikewojtyna/webflux-training" MODIFIED="1575026493927" TEXT="WebFlux-nowy framework wobowy Spring">
 <richcontent TYPE="NOTE"><html>
