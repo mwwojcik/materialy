@@ -4867,8 +4867,9 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
 <node CREATED="1575102313387" ID="ID_872103592" LINK="https://www.thepolyglotdeveloper.com/2019/01/getting-started-mongodb-docker-container-deployment/" MODIFIED="1575102359671" TEXT="Getting Started With MongoDB As A Docker Container Deployment">
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_872103592" ENDARROW="Default" ENDINCLINATION="262;0;" ID="Arrow_ID_963219456" SOURCE="ID_491641274" STARTARROW="None" STARTINCLINATION="262;0;"/>
 </node>
+<node CREATED="1575102622088" ID="ID_1078371156" LINK="https://www.guru99.com/top-20-mongodb-tools.html" MODIFIED="1575102727103" TEXT="9 Best MongoDB GUI Tools in 2019 "/>
 </node>
-<node CREATED="1575102107691" ID="ID_491641274" MODIFIED="1575102359671" TEXT="MongoDB w kontenerze dockera">
+<node CREATED="1575102107691" ID="ID_491641274" MODIFIED="1575102705505" TEXT="MongoDB w kontenerze dockera">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4900,6 +4901,22 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
 </html>
 </richcontent>
 <arrowlink DESTINATION="ID_872103592" ENDARROW="Default" ENDINCLINATION="262;0;" ID="Arrow_ID_963219456" STARTARROW="None" STARTINCLINATION="262;0;"/>
+</node>
+<node CREATED="1575102732155" ID="ID_27718323" LINK="https://nosqlbooster.com/downloads" MODIFIED="1575102811115" TEXT="NoSQLBooster for MongoDB">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      chmod 755 <font face="monospace" color="#000000">nosqlbooster4mongo-5.2.7.AppImage</font>
+    </p>
+    <p>
+      <font face="monospace" color="#000000">./nosqlbooster4mongo-5.2.7.AppImage</font><font face="monospace"><br /></font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
