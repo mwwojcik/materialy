@@ -4789,14 +4789,27 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1575065459348" ID="ID_101522441" MODIFIED="1575065793655" TEXT="docker run">
+<node CREATED="1575065459348" ID="ID_101522441" MODIFIED="1575100966225" TEXT="docker run">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      When you call run, the Docker client finds the image (busybox in this case), loads up the container and then runs a command in that container. When we run docker run busybox, we didn't provide a command, so the container booted up, ran an empty command and then exited.
+      Run: create a new container of an image, and execute the container. You can create N clones of the same image. The command is: docker run IMAGE_ID and not docker run CONTAINER_ID
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1575100967658" ID="ID_1698197689" MODIFIED="1575100997916" TEXT="docker start">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Start: Launch a container previously stopped. For example, if you had stopped a database with the command docker stop CONTAINER_ID, you can relaunch the same container with the command docker start CONTAINER_ID, and the data and settings will be the same.
     </p>
   </body>
 </html>
@@ -4812,10 +4825,9 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       Usuwa wszystkie nieaktywne kontenery
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node CREATED="1575066017353" ID="ID_810668884" MODIFIED="1575066405958" TEXT="docker container ls">
+<node CREATED="1575066017353" ID="ID_810668884" MODIFIED="1575100977572" TEXT="docker container ls">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4828,7 +4840,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
 </html>
 </richcontent>
 </node>
-<node CREATED="1575066026694" ID="ID_1142492023" MODIFIED="1575066416521" TEXT="docker container rm">
+<node CREATED="1575066026694" ID="ID_1142492023" MODIFIED="1575100977388" TEXT="docker container rm">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4840,6 +4852,54 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
   </body>
 </html>
 </richcontent>
+</node>
+<node CREATED="1575100849565" ID="ID_542283863" LINK="https://stackoverflow.com/questions/34782678/difference-between-running-and-starting-a-docker-container" MODIFIED="1575101015325" TEXT="Docker run vs docker start"/>
+</node>
+<node CREATED="1575101210767" ID="ID_1276228395" MODIFIED="1575102368304" POSITION="right" TEXT="Mongodb">
+<cloud COLOR="#ffccff"/>
+<node CREATED="1575101983667" ID="ID_1462804078" MODIFIED="1575101987472" TEXT="Materia&#x142;y">
+<node CREATED="1575101300579" ID="ID_893255806" LINK="https://dzone.com/articles/mongodb-cluster" MODIFIED="1575101893220" TEXT="MongoDB Tutorials and Articles: The Complete Collection">
+<node CREATED="1575101314324" ID="ID_1844015151" LINK="https://dzone.com/articles/learn-mongodb-with-me?utm_source=dzone&amp;utm_medium=article&amp;utm_campaign=mongodb-cluster" MODIFIED="1575101702099" TEXT="Learn MongoDB With Me - Part I"/>
+<node CREATED="1575101722928" ID="ID_1213761765" LINK="https://dzone.com/articles/learn-mongodb-with-me-part-2?utm_source=dzone&amp;utm_medium=article&amp;utm_campaign=mongodb-cluster" MODIFIED="1575101736192" TEXT="Learn MongoDB With Me (Part 2) "/>
+<node CREATED="1575101799286" ID="ID_48432755" LINK="https://dzone.com/articles/learn-mongodb-with-me-part-3?utm_source=dzone&amp;utm_medium=article&amp;utm_campaign=mongodb-cluster" MODIFIED="1575101815855" TEXT="Learn MongoDB With Me (Part 3) "/>
+</node>
+<node CREATED="1575101996074" ID="ID_1438738416" LINK="https://dzone.com/articles/why-mongodb" MODIFIED="1575102025232" TEXT="When to Use (and Not to Use) MongoDB "/>
+<node CREATED="1575102313387" ID="ID_872103592" LINK="https://www.thepolyglotdeveloper.com/2019/01/getting-started-mongodb-docker-container-deployment/" MODIFIED="1575102359671" TEXT="Getting Started With MongoDB As A Docker Container Deployment">
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_872103592" ENDARROW="Default" ENDINCLINATION="262;0;" ID="Arrow_ID_963219456" SOURCE="ID_491641274" STARTARROW="None" STARTINCLINATION="262;0;"/>
+</node>
+</node>
+<node CREATED="1575102107691" ID="ID_491641274" MODIFIED="1575102359671" TEXT="MongoDB w kontenerze dockera">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#000000" face="SansSerif">docker pull bitnami/mongodb </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#000000" face="SansSerif">//nie wiem czy potrzebne </font>
+    </p>
+    <p>
+      <font color="#000000" face="SansSerif">docker network create app-tier --driver bridge</font><font face="SansSerif"><br face="SansSerif" /><br face="SansSerif" /></font>
+    </p>
+    <p>
+      <font color="#000000" face="SansSerif">docker run -d -p 27017-27019:27017-27019 --name mongodb bitnami/mongodb </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="monospace"><br />
+      </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<arrowlink DESTINATION="ID_872103592" ENDARROW="Default" ENDINCLINATION="262;0;" ID="Arrow_ID_963219456" STARTARROW="None" STARTINCLINATION="262;0;"/>
 </node>
 </node>
 </node>
