@@ -90,8 +90,22 @@
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1575114880862" ID="ID_1193985266" MODIFIED="1575114904626" TEXT="CTRL+SHIFT+F6=&gt;refaktoring-zmiana typu"/>
 </node>
-<node CREATED="1574758571416" ID="ID_1113805724" MODIFIED="1575026493927" POSITION="left" TEXT="Wykona&#x107; rozproszon&#x105; aplikacj&#x119; microserwisow&#x105;"/>
+<node CREATED="1574758571416" ID="ID_1113805724" MODIFIED="1575129992131" POSITION="left" TEXT="Zadanie finalne">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Zbudowa&#263; kilka serwis&#243;w REST, kt&#243;re komunikuj&#261; si&#281; ze sob&#261;. U&#380;y&#263; Spring Cloud (Cloud Config, Eureka, Ribbon i Hystrix) w celu zapewnienia odpowiedniej trwa&#322;o&#347;ci us&#322;ugi. Serwisy te mog&#261; by&#263; reaktywne. W celu zwi&#281;kszenia przepustowo&#347;ci mo&#380;na wykorzysta&#263; MongoDb w wersji reaktywnej. Nast&#281;pnie wprowadzi&#263; Gateway (np. Zuul), kt&#243;ry wystawi na zewn&#261;trz te serwisy jako jednolite API i zadba o bezpiecze&#324;stwo. Zastanowi&#263; si&#281; nad odpowiedni&#261; granularnoscia tych serwis&#243;w tak, aby mia&#322;y odpowiedni poziom izolacji. Na koniec wprowadzi&#263; Spring Integration, kt&#243;re po&#322;&#261;czy API wystawione przez Zuula z RabbitMq. Wiadomo&#347;ci wys&#322;ane na kolejk&#281; Rabbita maj&#261; aktywowa&#263; wybrane endointy API Zuula.
+    </p>
+  </body>
+</html>
+</richcontent>
+<cloud COLOR="#ff66ff"/>
+</node>
 <node CREATED="1575014293382" ID="ID_1642988862" MODIFIED="1575035454313" POSITION="left" TEXT="Spring Integration">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -4891,6 +4905,8 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_872103592" ENDARROW="Default" ENDINCLINATION="262;0;" ID="Arrow_ID_963219456" SOURCE="ID_491641274" STARTARROW="None" STARTINCLINATION="262;0;"/>
 </node>
 <node CREATED="1575102622088" ID="ID_1078371156" LINK="https://www.guru99.com/top-20-mongodb-tools.html" MODIFIED="1575102727103" TEXT="9 Best MongoDB GUI Tools in 2019 "/>
+<node CREATED="1575123515511" ID="ID_1510349904" LINK="http://mod.erni.st/nosql-if-only-it-was-that-easy/" MODIFIED="1575123530976" TEXT="NoSQL: If Only It Was That Easy"/>
+<node CREATED="1575123631821" ID="ID_214280582" LINK="https://www.networkworld.com/article/2999856/10-use-cases-where-nosql-will-outperform-sql.html" MODIFIED="1575123645808" TEXT="10 use cases where NoSQL will outperform SQL"/>
 </node>
 <node CREATED="1575102732155" ID="ID_27718323" LINK="https://nosqlbooster.com/downloads" MODIFIED="1575103342913" TEXT="NoSQLBooster for MongoDB">
 <richcontent TYPE="NOTE"><html>
