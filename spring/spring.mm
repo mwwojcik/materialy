@@ -4827,7 +4827,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1575066017353" ID="ID_810668884" MODIFIED="1575100977572" TEXT="docker container ls">
+<node CREATED="1575066017353" ID="ID_810668884" MODIFIED="1575103438652" TEXT="docker container ls -all">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -4854,6 +4854,9 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
 </richcontent>
 </node>
 <node CREATED="1575100849565" ID="ID_542283863" LINK="https://stackoverflow.com/questions/34782678/difference-between-running-and-starting-a-docker-container" MODIFIED="1575101015325" TEXT="Docker run vs docker start"/>
+<node CREATED="1575103706308" ID="ID_1476055709" LINK="https://www.thepolyglotdeveloper.com/2017/03/connecting-detached-docker-container-terminal-interaction/" MODIFIED="1575104308047" TEXT="Connecting To A Detached Docker Container For Terminal Interaction">
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1476055709" ENDARROW="Default" ENDINCLINATION="317;0;" ID="Arrow_ID_1114083391" SOURCE="ID_1701253830" STARTARROW="None" STARTINCLINATION="317;0;"/>
+</node>
 </node>
 <node CREATED="1575101210767" ID="ID_1276228395" MODIFIED="1575102368304" POSITION="right" TEXT="Mongodb">
 <cloud COLOR="#ffccff"/>
@@ -4869,12 +4872,41 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
 </node>
 <node CREATED="1575102622088" ID="ID_1078371156" LINK="https://www.guru99.com/top-20-mongodb-tools.html" MODIFIED="1575102727103" TEXT="9 Best MongoDB GUI Tools in 2019 "/>
 </node>
-<node CREATED="1575102107691" ID="ID_491641274" MODIFIED="1575102705505" TEXT="MongoDB w kontenerze dockera">
+<node CREATED="1575102732155" ID="ID_27718323" LINK="https://nosqlbooster.com/downloads" MODIFIED="1575103342913" TEXT="NoSQLBooster for MongoDB">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
+    <p>
+      chmod 755 <font color="#000000" face="monospace">nosqlbooster4mongo-5.2.7.AppImage</font>
+    </p>
+    <p>
+      <font color="#000000" face="monospace">./nosqlbooster4mongo-5.2.7.AppImage</font><font face="monospace"><br /></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1575103331383" ID="ID_1880579579" MODIFIED="1575103340746" TEXT="MongoDB w kontenerze Docker">
+<node CREATED="1575102107691" ID="ID_491641274" MODIFIED="1575103416461" TEXT="MongoDB w kontenerze dockera instalacja i tworzenie kontenera">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#000000" face="monospace">//uruchomienie us&#322;ugi </font>
+    </p>
+    <p>
+      <font color="#000000" face="monospace">service docker start </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#000000" face="SansSerif">//sci&#261;ganie obrazu </font>
+    </p>
     <p>
       <font color="#000000" face="SansSerif">docker pull bitnami/mongodb </font>
     </p>
@@ -4888,35 +4920,160 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       <font color="#000000" face="SansSerif">docker network create app-tier --driver bridge</font><font face="SansSerif"><br face="SansSerif" /><br face="SansSerif" /></font>
     </p>
     <p>
+      <font color="#000000" face="SansSerif">//u&#380;ywamy pierwszy raz, tworzy kontener , eksponuje porty , uruchamia kontener</font>
+    </p>
+    <p>
       <font color="#000000" face="SansSerif">docker run -d -p 27017-27019:27017-27019 --name mongodb bitnami/mongodb </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font face="monospace"><br />
-      </font>
+      
     </p>
+    <p>
+      
+    </p>
+    <p>
+      <font face="monospace"><br />
+</font>    </p>
   </body>
 </html>
 </richcontent>
 <arrowlink DESTINATION="ID_872103592" ENDARROW="Default" ENDINCLINATION="262;0;" ID="Arrow_ID_963219456" STARTARROW="None" STARTINCLINATION="262;0;"/>
 </node>
-<node CREATED="1575102732155" ID="ID_27718323" LINK="https://nosqlbooster.com/downloads" MODIFIED="1575102811115" TEXT="NoSQLBooster for MongoDB">
+<node CREATED="1575103449858" ID="ID_930424322" MODIFIED="1575104276365" TEXT="Uruchomienie istniej&#x105;cego kontenera">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      chmod 755 <font face="monospace" color="#000000">nosqlbooster4mongo-5.2.7.AppImage</font>
+      <font color="#000000" face="monospace">//uruchomienie us&#322;ugi </font>
     </p>
     <p>
-      <font face="monospace" color="#000000">./nosqlbooster4mongo-5.2.7.AppImage</font><font face="monospace"><br /></font>
+      <font color="#000000" face="monospace">service docker start </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#000000" face="monospace">docker container ls -all</font><font face="monospace"><br /></font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#000000" face="monospace">docker container start 13531cb512b6</font><font face="monospace"><br /></font>
     </p>
   </body>
 </html>
 </richcontent>
+</node>
+<node CREATED="1575104282444" ID="ID_1701253830" LINK="https://www.thepolyglotdeveloper.com/2019/01/getting-started-mongodb-docker-container-deployment/" MODIFIED="1575104492814" TEXT="Uruchomienie klienta bazy MongoDB w kontenerze Dockerowym">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      If you&#8217;ve been following along so far, your container is currently running in detached mode. This means that we need to connect to it using the interactive terminal:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>docker exec -it mongodb bash</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      The above command will connect to our deployment named mongodb using the interactive terminal and start the bash shell. More details on connecting to detached Docker containers can be found in my previous tutorial titled, Connecting to a Detached Docker Container for Terminal Interaction.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      You&#8217;ll notice that you are now using your Terminal as if you were inside your container. This is where we can start using MongoDB.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      To launch the MongoDB shell client, execute the following:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>mongo</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      When inside the MongoDB shell client, you can access all the functionality that is outlined in the MongoDB documentation. For example, we can see what databases exist in our instance with the following:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>show dbs</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      To create a new database, we can use a multi-step process, the first being to define the database we wish to use:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>use thepolyglotdeveloper</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      We&#8217;re using the database thepolyglotdeveloper, but it doesn&#8217;t exist until we start creating collections and data. To create a collection with data, we can do something like this:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>db.people.save({ firstname: &quot;Nic&quot;, lastname: &quot;Raboy&quot; }) </b>
+    </p>
+    <p>
+      <b>db.people.save({ firstname: &quot;Maria&quot;, lastname: &quot;Raboy&quot; })</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      With two documents created in a new people collection in our thepolyglotdeveloper database, we can query for data using something like the following:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <b>db.people.find({ firstname: &quot;Nic&quot; })</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      There is a lot that you can accomplish with the shell client, but you can get the general idea. What we did prove is that we were able to interact with the container instance.
+    </p>
+  </body>
+</html>
+</richcontent>
+<arrowlink DESTINATION="ID_1476055709" ENDARROW="Default" ENDINCLINATION="317;0;" ID="Arrow_ID_1114083391" STARTARROW="None" STARTINCLINATION="317;0;"/>
+</node>
 </node>
 </node>
 </node>
