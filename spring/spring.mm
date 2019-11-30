@@ -1565,6 +1565,26 @@ U&#380;ycie:</pre>
 <node CREATED="1574949981938" ID="ID_1173682394" LINK="https://www.baeldung.com/spring-persisting-ddd-aggregates" MODIFIED="1575026493927" TEXT="Persisting DDD Aggregates | Baeldung"/>
 </node>
 <node CREATED="1574955031404" ID="ID_1939331633" LINK="https://www.youtube.com/watch?v=wtY5MeMpgVM" MODIFIED="1575026493927" TEXT="Prezentacja &quot;obiekty gdzie jeste&#x15b;cie&quot;"/>
+<node CREATED="1575104617780" ID="ID_696539023" LINK="spring-training-adv.slack.com" MODIFIED="1575104655732" TEXT="Slack">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Spring Training
+    </p>
+    <p>
+      URL: spring-training-adv.slack.com
+    </p>
+    <p>
+      Email: mariusz.wojcik@asseco.pl
+    </p>
+  </body>
+</html>
+</richcontent>
+<cloud COLOR="#ccccff"/>
+</node>
 </node>
 <node CREATED="1574843125039" ID="ID_328884833" MODIFIED="1575026493927" POSITION="left" TEXT="Architektura">
 <cloud COLOR="#ccccff"/>
