@@ -41,8 +41,7 @@
       //uwaga mozna doprecyzowa&#263; values
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1575020814104" ID="ID_1037861645" MODIFIED="1575035572329" TEXT="metoda testowa">
 <richcontent TYPE="NOTE"><html>
@@ -57,8 +56,7 @@
       @org.junit.jupiter.api.Test void test() throws java.lang.Exception {<br />// given&#160;// when&#160;// then<br />org.assertj.core.api.Fail.fail(&quot;Write your test&quot;);<br />}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1575020820890" ID="ID_567435581" MODIFIED="1575035615155" TEXT="wy&#x142;&#x105;czenie z formatowania">
 <richcontent TYPE="NOTE"><html>
@@ -89,8 +87,7 @@
       //mozna zrobic sobie otoczenie kodu metoda
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -111,8 +108,7 @@
       Mo&#380;na spi&#261;&#263; Camela,
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <cloud COLOR="#ccffcc"/>
 <node CREATED="1575014559667" ID="ID_15378250" LINK="https://www.enterpriseintegrationpatterns.com/" MODIFIED="1575014581928" TEXT="Enterprise Integration Patterns">
 <node CREATED="1575014638063" ID="ID_1982147353" LINK="https://www.enterpriseintegrationpatterns.com/patterns/messaging/" MODIFIED="1575014652810" TEXT="Katalog pattern&#xf3;w"/>
@@ -363,8 +359,7 @@
       <font size="2">&#160;&#160;&#160;&#160;ConfigurableApplicationContext, ConfigurableWebApplicationContext, WebApplicationContext </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574886514086" ID="ID_1121240579" MODIFIED="1575038236642" TEXT="BeanFactory">
 <richcontent TYPE="NOTE"><html>
@@ -382,8 +377,7 @@
       <font size="3">BeanFactory/a&gt; interface provides a simple, yet flexible configuration mechanism to manage objects of any nature via the Spring IoC container. Let's have a look at some basics before diving deep into this central Spring API.</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574887067797" ID="ID_482146332" MODIFIED="1575026493927" TEXT="Implementacja">
@@ -397,8 +391,7 @@
       Kontekst aplikacji standalone. Pozwala na wczytanie konfiguracji przy pomocy adnotacji. Podstawowy kontekst aplikacji SpringBoot.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574900254227" ID="ID_876600569" MODIFIED="1575026493927" TEXT="Klasy/interfejsy pomocnicze">
@@ -414,8 +407,7 @@
       Ka&#380;da adnotacja typu Enable, najcz&#281;&#347;ciej posiada klas&#281; template *Support, a je&#347;li nie to interfejs *Cofigurer, z kt&#243;rych wydziedziczenie si&#281; lub implementacja pozwala na zmian&#281; domy&#347;lnego zachowania.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1574898340134" ID="ID_1175030303" MODIFIED="1575026493927" TEXT="Interfejsy typu *Configurer&quot;"/>
 <node CREATED="1574896276309" ID="ID_1695078347" MODIFIED="1575026493927" TEXT="Klasy pomocnicze typu *Support">
 <richcontent TYPE="NOTE"><html>
@@ -427,8 +419,7 @@
       S&#261; to klasy z metodami template, dzi&#281;ki kt&#243;rym mo&#380;liwe jest wpi&#281;cie si&#281; w cykl &#380;ycia niekt&#243;rych operacji i wyconanie pewnych customizacji.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574929384708" ID="ID_642845581" MODIFIED="1575026493927" TEXT="ApplicationRunner">
 <richcontent TYPE="NOTE"><html>
@@ -449,8 +440,7 @@
       MongoInit
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <arrowlink COLOR="#b0b0b0" DESTINATION="ID_1436022651" ENDARROW="Default" ENDINCLINATION="1109;0;" ID="Arrow_ID_637612000" STARTARROW="None" STARTINCLINATION="1109;0;"/>
 </node>
 </node>
@@ -465,8 +455,7 @@
       Pozwala na kontrolowanie mechanizmu agent&#243;w. Dodaje si&#281; do proces&#243;w JVM i umo&#380;liwia modyfikacj&#281; bytecodu.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1574888016837" ID="ID_1031250469" MODIFIED="1575026493927" TEXT="Agent">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -540,8 +529,7 @@
       Next, we'll take a look at each type of load and explain how it works.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574895241914" ID="ID_1349910241" MODIFIED="1575026493927" TEXT="Sposoby realizacji aspekt&#xf3;w">
@@ -559,8 +547,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1574888099379" ID="ID_441018223" MODIFIED="1575026493927" TEXT="AspectJ">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -580,8 +567,7 @@
       dynamiczny - long time weaving - wykorzystuje kod agent&#243;w
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574887508850" ID="ID_708442675" MODIFIED="1575026493927" TEXT="Spring">
 <richcontent TYPE="NOTE"><html>
@@ -593,8 +579,7 @@
       Spring zaprojektowa&#322; w&#322;asne api do obs&#322;ugi aspekt&#243;w. Ma on s&#322;u&#380;y&#263; u&#322;atwieniu Long Time Weaving bez konieczno&#347;ci u&#380;ywania Agent&#243;w (technika u&#380;ywana przez AspectJ, polegaj&#261;ca na wkopilowywaniu agent&#243;w do kodu wykonwywalnego). Realizuje aspekty przy pomocy proxy.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574895351057" ID="ID_785829186" MODIFIED="1575026493927" TEXT="Przyk&#x142;ad">
@@ -636,8 +621,7 @@
       Hello
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574894878906" ID="ID_1566384778" MODIFIED="1575026493927" TEXT="Proxy">
@@ -651,8 +635,7 @@
       Domy&#347;lna strategia tworzenia Proxy, daje wi&#281;ksze mo&#380;liwo&#347;ci kontroli ni&#380; zwyk&#322;e javove dynamic proxy
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574894890637" ID="ID_964447875" MODIFIED="1575026493927" TEXT="Java Dynamic Proxy">
 <richcontent TYPE="NOTE"><html>
@@ -664,8 +647,7 @@
       U&#380;ywa natywnego javowego mechanizmu tworzenia proxy. Daje mniejsze mo&#380;liwo&#347;ci kontroli.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574895759311" ID="ID_1117030228" MODIFIED="1575026493927" TEXT="Przetwarzanie asynchroniczne @Async">
@@ -690,8 +672,7 @@
       UWAGA! Wszystkie aspekty &quot;before&quot; wykonaj&#261; si&#281; w w&#261;tku oryginalnym. Do nowego w&#261;tku trafi tylko to, co oznaczone zosta&#322;o adnotacj&#261;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1574896094751" ID="ID_1077123248" MODIFIED="1575026493927" TEXT="AsyncConfigurerSupport">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -706,8 +687,7 @@
     </p>
     <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@SpringBootApplication<br />@EnableAsync<br /></font><font color="#000080"><b>public class </b></font>AsyncApp <font color="#000080"><b>extends </b></font>AsyncConfigurerSupport {<br /><br />   <font color="#000080"><b>public static void </b></font>main(String[] args) {<br />      SpringApplication.<i>run</i>(AsyncApp.<font color="#000080"><b>class</b></font>, args);<br />   }<br /><br />   <font color="#808000">@Override<br />   </font><font color="#000080"><b>public </b></font>Executor getAsyncExecutor() {<br />      <font color="#000080"><b>return super</b></font>.getAsyncExecutor();<br />      <font color="#808080"><i>// configure the executor here<br />      // return Executors.newSingleThreadExecutor();<br />   </i></font>}<br />}<br /></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574896455209" ID="ID_1736447451" MODIFIED="1575026493927" TEXT="@EnableAsync na aplikacji">
 <richcontent TYPE="NOTE"><html>
@@ -722,8 +702,7 @@
       @EnableAsync samo podnosi egzekutory domy&#347;lne.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574896820053" ID="ID_203883637" MODIFIED="1575026493927" TEXT="Uwaga! transakcje">
 <richcontent TYPE="NOTE"><html>
@@ -741,8 +720,7 @@
       Oznaczenie Transactional.NEW r&#243;wnie&#380; nie wykona si&#281; w&#322;a&#347;ciwie.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <icon BUILTIN="yes"/>
 </node>
 <node CREATED="1574897370533" ID="ID_262895414" MODIFIED="1575026493927" TEXT="Kontrolery asynchroniczne">
@@ -768,8 +746,7 @@
       Klient czeka i dopiero jak w&#261;tek wykonuj&#261;cy zadanie je zako&#324;czy to wtedy dostaje odpowied&#378;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574896549581" ID="ID_1460212368" MODIFIED="1575026493927" TEXT="Przyk&#x142;ad">
 <richcontent TYPE="NOTE"><html>
@@ -790,8 +767,7 @@
     </p>
     <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@SpringBootTest<br /></font><font color="#000080"><b>class </b></font>AsyncServiceTest {<br /><br />   <font color="#808000">@Autowired<br />   </font><font color="#000080"><b>private </b></font>AsyncService <font color="#660e7a"><b>asyncService</b></font>;<br /><br />   <font color="#808000">@DisplayName</font>(<font color="#008000"><b>&quot;async example&quot;</b></font>)<br />   <font color="#808000">@Test<br />   </font><font color="#000080"><b>void </b></font>test() <font color="#000080"><b>throws </b></font>Exception {<br />      <font color="#808080"><i>// when<br />      </i></font>CompletableFuture&lt;Result&gt; result = <font color="#660e7a"><b>asyncService</b></font>.process();<br /><br />      <font color="#808080"><i>// then<br />      </i></font><i>assertThat</i>(result.isDone()).isFalse(); <font color="#808080"><i>// should return<br />      // immediately, since we are using @Async on AsyncService<br />      // method<br />      </i></font><i>assertThat</i>(result.get()).isEqualTo(<font color="#000080"><b>new </b></font>Result(<font color="#008000"><b>&quot;OK&quot;</b></font>));<br />   }<br />}</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574897635969" ID="ID_780018507" MODIFIED="1575026493927" TEXT="Event Sourcing i Scheduler @Scheduled">
@@ -853,8 +829,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1574899622994" ID="ID_1374743167" MODIFIED="1575026493927" TEXT="SchedulingConfigurer">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -870,8 +845,7 @@
       See @<a href="https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/scheduling/annotation/EnableScheduling.html" title="annotation in org.springframework.scheduling.annotation"><code>EnableScheduling</code></a>&#160;for detailed usage examples.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574899774079" ID="ID_1617656753" MODIFIED="1575026493927" TEXT="@EnableScheduling - na aplikacji">
 <richcontent TYPE="NOTE"><html>
@@ -887,8 +861,7 @@
       aktywuje schedulery.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574899843217" ID="ID_320875141" MODIFIED="1575026493927" TEXT="@Scheduled">
 <richcontent TYPE="NOTE"><html>
@@ -913,8 +886,7 @@
       cron - mo&#380;na u&#380;ywa&#263; wyra&#380;e&#324; znanych z crona
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574899996853" ID="ID_1878521913" MODIFIED="1575026493927" TEXT="Przyk&#x142;ad">
 <richcontent TYPE="NOTE"><html>
@@ -948,8 +920,7 @@
       W te&#347;cie dokonujemy mockowania strategii realizuj&#261;cej biznes. Testujemy zatem tylko infrastruktur&#281;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574927215050" ID="ID_783440755" MODIFIED="1575026493927" TEXT="ApplicationEventPublisher">
 <richcontent TYPE="NOTE"><html>
@@ -961,8 +932,7 @@
       Jest to interfejs umo&#380;liwiaj&#261;cy wymian&#281; event&#243;w w ramach jednego kontekstu. Eventy te mog&#261; by&#263; konsumowane przez Camel, Rabbit
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574926436458" ID="ID_681415160" MODIFIED="1575026493927" TEXT="Dokumentacja">
@@ -1002,8 +972,7 @@
       Bealdung - mocno weryfikowna platforma publikacyjna.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574927359781" ID="ID_1820162142" MODIFIED="1575026493927" TEXT="Spring Cloud Contract">
 <richcontent TYPE="NOTE"><html>
@@ -1015,8 +984,7 @@
       Jest to narz&#281;dzie springowe, kt&#243;re sprawdza czy dochowane s&#261; sygnatury metod r&#243;&#380;nych cz&#281;&#347;ci serwisu.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574927799606" ID="ID_40023750" MODIFIED="1575026493927" TEXT="Dynamiczne tworzenie bean&#xf3;w -adnotacja @Bean w klasach konfiguracji (@Configuration)">
 <richcontent TYPE="NOTE"><html>
@@ -1033,8 +1001,7 @@
     </p>
     <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>class </b></font>MessageServiceTest {<br /><br />   <font color="#808080"><i>// @formatter:off<br />   </i></font><font color="#808000">@DisplayName</font>(<font color="#008000"><b>&quot;given any repo, then translate&quot;</b></font>)<br />   <font color="#808080"><i>// @formatter:on<br />   </i></font><font color="#808000">@Test<br />   @Disabled</font>(<font color="#008000"><b>&quot;this is just a showcase how we could write tests without &quot; </b></font>+ <font color="#008000"><b>&quot;spring framework, not a working example&quot;</b></font>)<br />   <font color="#000080"><b>void </b></font>test() <font color="#000080"><b>throws </b></font>Exception {<br />      <font color="#808080"><i>// given<br />      </i></font>MessageKey key = key(<font color="#008000"><b>&quot;hello.msg&quot;</b></font>);<br />      MessageRepository repo = inMemRepo();<br />      MessageService messageService = <font color="#000080"><b>new </b></font>MessageService(repo);<br />      Message expectedMsg = message(<font color="#008000"><b>&quot;Hi!&quot;</b></font>);<br /><br />      <font color="#808080"><i>// when<br />      </i></font>Optional&lt;Message&gt; translatedToEnglishMsg = messageService<br />         .findAndTranslate(key, Language.<font color="#660e7a"><b><i>EN</i></b></font>);<br /><br />      <font color="#808080"><i>// then<br />      </i></font><i>assertThat</i>(translatedToEnglishMsg).isEqualTo(expectedMsg);<br />   }<br /><br />   <font color="#000080"><b>private </b></font>Message message(String s) {<br />      <font color="#000080"><b>return null</b></font>;<br />   }<br /><br />   <font color="#000080"><b>private </b></font>MessageKey key(String key) {<br />      <font color="#000080"><b>return new </b></font>MessageKey(key);<br />   }<br /><br />   <font color="#000080"><b>private </b></font>MessageRepository inMemRepo() {<br />      <font color="#000080"><b>return new </b></font>MessageRepository() {<br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public </b></font>&lt;<font color="#20999d">S </font><font color="#000080"><b>extends </b></font>Message&gt; <font color="#20999d">S </font>save(<font color="#20999d">S </font>s) {<br />            <font color="#000080"><b>return null</b></font>;<br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public </b></font>&lt;<font color="#20999d">S </font><font color="#000080"><b>extends </b></font>Message&gt; Iterable&lt;<font color="#20999d">S</font>&gt; saveAll(Iterable&lt;<font color="#20999d">S</font>&gt; iterable) {<br />            <font color="#000080"><b>return null</b></font>;<br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public </b></font>Optional&lt;Message&gt; findById(UUID uuid) {<br />            <font color="#000080"><b>return </b></font>Optional.<i>empty</i>();<br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public boolean </b></font>existsById(UUID uuid) {<br />            <font color="#000080"><b>return false</b></font>;<br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public </b></font>Iterable&lt;Message&gt; findAll() {<br />            <font color="#000080"><b>return null</b></font>;<br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public </b></font>Iterable&lt;Message&gt; findAllById(Iterable&lt;UUID&gt; iterable) {<br />            <font color="#000080"><b>return null</b></font>;<br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public long </b></font>count() {<br />            <font color="#000080"><b>return </b></font><font color="#0000ff">0</font>;<br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public void </b></font>deleteById(UUID uuid) {<br /><br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public void </b></font>delete(Message message) {<br /><br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public void </b></font>deleteAll(Iterable&lt;? <font color="#000080"><b>extends </b></font>Message&gt; iterable) {<br /><br />         }<br /><br />         <font color="#808000">@Override<br />         </font><font color="#000080"><b>public void </b></font>deleteAll() {<br /><br />         }<br />      };<br />   }<br />}</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574927982380" ID="ID_175534688" MODIFIED="1575026493927" TEXT="Profile @Profile i @Configuration">
 <richcontent TYPE="NOTE"><html>
@@ -1055,8 +1022,7 @@
       @Profile - dzia&#322;aj&#261; razem z @Configuration. Mo&#380;na w ten spos&#243;b sterowa&#263;&#160; beanami, kt&#243;rej si&#281; tworz&#261;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574932016844" ID="ID_1181210874" MODIFIED="1575026493927" TEXT="Klasy Templates">
 <richcontent TYPE="NOTE"><html>
@@ -1092,8 +1058,7 @@
       Driver (klasy interfejsy dostarczane przez producenta)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574926719586" ID="ID_891973289" MODIFIED="1575026493927" TEXT="Dobre praktyki IoC i AOP">
 <richcontent TYPE="NOTE"><html>
@@ -1140,8 +1105,7 @@
       Konstruktor zdecydowanie najlepszy da si&#281; u&#380;ywa&#263; poza kontenerem&#160;&#160;(np przy testach)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1575027943574" ID="ID_1968326119" MODIFIED="1575028127015" TEXT="@Cacheable">
 <richcontent TYPE="NOTE"><html>
@@ -1156,8 +1120,7 @@
       @CacheEvict(key=&quot;operation&quot;) - umieszczamy pod inna metod&#261; kt&#243;ra uniewa&#380;nia ten klucz
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574767521883" ID="ID_342452735" MODIFIED="1575026493927" POSITION="right" TEXT="Testy jednostkowe i integracyjne">
@@ -1358,8 +1321,7 @@ U&#380;ycie:</pre>
       private TweetAppService tweetService; - rejestruje mocka w kontenerze, je&#347;li go nie ma, ale je&#347;li jest to go zamieni na&#160;&#160;fejkowy!!!!
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <cloud COLOR="#ccff00"/>
 <node CREATED="1574773157813" ID="ID_756001144" MODIFIED="1575026493927" TEXT="Testy integracyjne">
 <richcontent TYPE="NOTE"><html>
@@ -1389,8 +1351,7 @@ U&#380;ycie:</pre>
       Web jest tylko adapterem modelu transportowego do modelu serwisowego, wi&#281;c dobrze zaprojektowany kontroler powinnien mie&#263; dost&#281;p do jednego Primary Port (je&#347;li nasza us&#322;uga potrzebuje czego&#347; od innych to wtedy mamy doczynienia z Secondary Port, Secondary Adapter) , dlatego nie powinien wstrzykiwa&#263; wielu us&#322;ug.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574779076711" ID="ID_923232096" MODIFIED="1575026493927" TEXT="Slices annotations">
 <richcontent TYPE="NOTE"><html>
@@ -1458,8 +1419,7 @@ U&#380;ycie:</pre>
       Uwaga ! Te adnotacje u&#380;ywa si&#281; nie &#322;&#261;cznie tylko zamiast SpringBootTest
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574781426419" ID="ID_1389132856" MODIFIED="1575026493927" TEXT="Kiedy stosowa&#x107; testy, wyr&#xf3;&#x17c;nianie jednostek DDD">
 <richcontent TYPE="NOTE"><html>
@@ -1542,8 +1502,7 @@ U&#380;ycie:</pre>
       W architekturze layer cz&#281;sto mamy do czynienia z prostym modelem encyjnym, bez &#380;adnej logiki a ta zosta&#322;a przeniesiona do warstwy service/application bo gdzie&#347; musi si&#281; pojawi&#263; to
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <arrowlink DESTINATION="ID_414147436" ENDARROW="Default" ENDINCLINATION="163;0;" ID="Arrow_ID_677796176" STARTARROW="None" STARTINCLINATION="331;0;"/>
 <node CREATED="1574841029066" ID="ID_285364157" MODIFIED="1575026493927" TEXT=""/>
 </node>
@@ -1562,8 +1521,7 @@ U&#380;ycie:</pre>
     </p>
     <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@Service<br /></font><font color="#000080"><b>public class </b></font>TweetAppServiceRepoDelegatingImpl <font color="#000080"><b>implements </b></font>TweetAppService {<br /><br />   <font color="#000080"><b>private </b></font>TweetRepo <font color="#660e7a"><b>tweetRepo</b></font>;<br /><br />   <font color="#000080"><b>public </b></font>TweetAppServiceRepoDelegatingImpl(TweetRepo tweetRepo) {<br />      <font color="#000080"><b>this</b></font>.<font color="#660e7a"><b>tweetRepo </b></font>= tweetRepo;<br />   }<br /><br />   <font color="#808000">@Override<br />   </font><font color="#000080"><b>public void </b></font>createNewTweet(String msg) {<br />      <font color="#660e7a"><b>tweetRepo</b></font>.save(<font color="#000080"><b>new </b></font>Tweet(msg, defaultAuthor()));<br />   }<br /><br />   <font color="#808000">@Override<br />   </font><font color="#000080"><b>public </b></font>Collection&lt;Tweet&gt; findByMsg(String msg) {<br />      <font color="#000080"><b>return </b></font><b><font color="#660e7a">tweetRepo</font></b>.findAll().stream()<br />         .filter(t -&gt; <font color="#660e7a">msg</font>.equals(t.getMessage()))<br />         .collect(Collectors.<i>toList</i>());<br />      <font color="#808080"><i>// Now, try to uncomment this code and run test &quot;find by<br />      // message using mocks&quot; again - now, this time it should pass<br />      // return tweetRepo.findByMessage(msg);<br />   </i></font>}<br /><br />   <font color="#000080"><b>private </b></font>String defaultAuthor() {<br />      <font color="#000080"><b>return </b></font><b><font color="#008000">&quot;goobar&quot;</font></b>;<br />   }<br />}</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_414147436" ENDARROW="Default" ENDINCLINATION="163;0;" ID="Arrow_ID_677796176" SOURCE="ID_1389132856" STARTARROW="None" STARTINCLINATION="331;0;"/>
 </node>
 </node>
@@ -1596,8 +1554,7 @@ U&#380;ycie:</pre>
       Pozwala na mierzenie wydajno&#347;ci kodu w skali Micro. Izoluje od problem&#243;w z rozgrzewaniem maszyny.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574895943467" ID="ID_1552065549" LINK="https://junit.org/junit5/docs/current/user-guide/" MODIFIED="1575026493927" TEXT="JUnit5 User Guide"/>
 <node CREATED="1574930525419" ID="ID_276591884" LINK="https://www.mongodb.com/" MODIFIED="1575026493927" TEXT="MongoDB"/>
@@ -1701,8 +1658,7 @@ U&#380;ycie:</pre>
       W momencie gdy zaczynaj&#261; pojawia&#263; si&#281; pierwsze regu&#322;y nale&#380;y zacz&#261;&#263; dr&#261;&#380;y&#263; dlaczego tak si&#281; dzieje.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1574950075269" ID="ID_1899105220" MODIFIED="1575026493927" TEXT="Wypracowanie wsp&#xf3;lnego j&#x119;zyka">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1717,8 +1673,7 @@ U&#380;ycie:</pre>
       U&#380;ywamy poj&#281;ciami
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574953590613" ID="ID_1815552147" MODIFIED="1575026493927" TEXT="Typy domen">
 <richcontent TYPE="NOTE"><html>
@@ -1744,8 +1699,7 @@ U&#380;ycie:</pre>
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574953806499" ID="ID_650209952" MODIFIED="1575026493927" TEXT="Mapa domenowa">
 <richcontent TYPE="NOTE"><html>
@@ -1763,8 +1717,7 @@ U&#380;ycie:</pre>
       Je&#347;li kolejna iteracja naszego modelu nie powoduje rewolucyjnego wp&#322;ywu na inne cz&#281;&#347;ci domeny to znaczy &#380;e zbli&#380;amy si&#281; do modelu dobrze opisuj&#261;cego domen&#281;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574954505380" ID="ID_374021133" MODIFIED="1575036804805" TEXT="Agregat">
 <richcontent TYPE="NOTE"><html>
@@ -1821,8 +1774,7 @@ U&#380;ycie:</pre>
       Agregat
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1575032969962" ID="ID_615694070" MODIFIED="1575032989269" TEXT="Fakty domenowe">
 <richcontent TYPE="NOTE"><html>
@@ -1834,8 +1786,7 @@ U&#380;ycie:</pre>
       Zdarzenia kt&#243;re dziej&#261; si&#281; w procesie /domenie.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1575032995437" ID="ID_411511237" MODIFIED="1575035040855" TEXT="Event storming">
 <richcontent TYPE="NOTE"><html>
@@ -1878,8 +1829,7 @@ U&#380;ycie:</pre>
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574780218589" ID="ID_1502084458" MODIFIED="1575038211338" TEXT="Architektura Ports - Adapters (Hexagonalna)">
@@ -1919,8 +1869,7 @@ U&#380;ycie:</pre>
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1575035411302" ID="ID_1516809404" LINK="https://softwarecampament.wordpress.com/portsadapters/" MODIFIED="1575035429414" TEXT="Opis architektury hexagonalnej"/>
 <node CREATED="1575036886469" ID="ID_1258883858" LINK="https://www.freecodecamp.org/news/implementing-a-hexagonal-architecture/" MODIFIED="1575036927168" TEXT="Case Study - Implementing Hexagonal Architecture"/>
 <node CREATED="1575040722407" FOLDED="true" ID="ID_874241360" MODIFIED="1575040900466" TEXT="Przyk&#x142;ad dobrej implementacji architektury (gdzie Spring jestadapterem)">
@@ -1933,8 +1882,7 @@ U&#380;ycie:</pre>
   <body>
     <img src="przyklad_arch_dd.png" />
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -1950,8 +1898,7 @@ U&#380;ycie:</pre>
       Modularyzacja wprowadzona w java 9. Jedna z najwi&#281;kszych rewolucji w java, niestety na razie jest problem ze &#347;rodowiskiem . Problem jest z bibliotekami, kt&#243;re zak&#322;adaj&#261; swobodny dost&#281;p (lombok, spring).
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574944180651" ID="ID_1094264374" MODIFIED="1575026493927" TEXT="Modularny monolit podzia&#x142; na modu&#x142;y">
 <richcontent TYPE="NOTE"><html>
@@ -2051,11 +1998,10 @@ U&#380;ycie:</pre>
       Jednostka modularna musi by&#263; tak okre&#347;lona by jeden zesp&#243;&#322; m&#243;g&#322; ogarn&#261;&#263;. Modu&#322; jest driverem logicznym a mikroservice
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1574843235419" ID="ID_125913200" MODIFIED="1575026493927" POSITION="left" TEXT="Spring Boot i dobre praktyki konfiguracji">
+<node CREATED="1574843235419" ID="ID_125913200" MODIFIED="1575065349829" POSITION="left" TEXT="Spring Boot i dobre praktyki konfiguracji">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2075,6 +2021,15 @@ U&#380;ycie:</pre>
     </p>
     <p>
       Otwieraj&#261;c starter widziemy jego zale&#380;no&#347;ci. Starter ma pewn&#261; wersj&#281;. Na jej podstawie okre&#347;la zgodno&#347;&#263; innych zale&#380;no&#347;ci.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      UWAGA! Starter dostarcza nam wersj&#281; zale&#380;no&#347;ci ale robi to w siekcji dependencyManagement, a nie w sekcji dependencies! znaczy to &#380;e samo do&#322;&#261;czenie startera nie pozwala na korzystanie z biblioteki,
+    </p>
+    <p>
+      je&#347;li chcemy z niej korzysta&#263; to nale&#380;y umie&#347;ci&#263; j&#261; w sekcji dependencies, ale bez wersji bo ta pochodzi ze startera.
     </p>
     <p>
       
@@ -2104,8 +2059,7 @@ U&#380;ycie:</pre>
       spring-boot-starter-test dodaje dependency do junit4 i jupyter (junit5) -&gt; &#380;eby nie miesza&#322;y si&#281; importy mo&#380;na wyekskludowa&#263; junit &lt;exclusion&gt;&lt;groupId&gt;junit&lt;/groupId&gt;&lt;artifactId&gt;junit&lt;/artifactId&gt;&lt;/exclusion&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <cloud COLOR="#66ff66"/>
 <node CREATED="1574844088909" ID="ID_102057145" MODIFIED="1575026493927" TEXT="Umbralla projects">
 <richcontent TYPE="NOTE"><html>
@@ -2117,8 +2071,7 @@ U&#380;ycie:</pre>
       Projekty parasolowe kt&#243;rych celem jest zarz&#261;dzanie zale&#380;no&#347;ciami.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574845673709" ID="ID_324475603" MODIFIED="1575026493927" TEXT="Importowanie dependency management">
 <richcontent TYPE="NOTE"><html>
@@ -2146,8 +2099,7 @@ U&#380;ycie:</pre>
     </p>
     <pre class="c-mrkdwn__pre" data-stringify-type="pre">&lt;dependencyManagement&gt;<br />&#x9;&#x9;&lt;dependencies&gt;<br />&#x9;&#x9;&#x9;&lt;dependency&gt;<br />&#x9;&#x9;&#x9;&#x9;&lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;<br />&#x9;&#x9;&#x9;&#x9;&lt;artifactId&gt;spring-boot-dependencies&lt;/artifactId&gt;<br />&#x9;&#x9;&#x9;&#x9;&lt;version&gt;${spring-boot.version}&lt;/version&gt;<br />&#x9;&#x9;&#x9;&#x9;&lt;type&gt;pom&lt;/type&gt;<br />&#x9;&#x9;&#x9;&#x9;&lt;scope&gt;import&lt;/scope&gt;<br />&#x9;&#x9;&#x9;&lt;/dependency&gt;<br />&#x9;&#x9;&lt;/dependencies&gt;<br />&#x9;&lt;/dependencyManagement&gt;</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574849015708" ID="ID_1544835948" MODIFIED="1575026493927" TEXT="Tworzenie nowego startera">
 <richcontent TYPE="NOTE"><html>
@@ -2204,8 +2156,7 @@ U&#380;ycie:</pre>
     </p>
     <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@TestConfiguration<br /></font><font color="#000080"><b>public static class </b></font>BenchmarkTestConfiguration {<br /><br />   <font color="#808000">@Bean<br />   </font><font color="#000080"><b>public </b></font>Benchmark benchmark() {<br />      <font color="#000080"><b>return new </b></font>CustomBenchmark();<br />   }<br />}</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574850832350" ID="ID_1008594554" MODIFIED="1575026493927" TEXT="Debugging &#x142;adowania autokonfiguracji">
 <richcontent TYPE="NOTE"><html>
@@ -2253,8 +2204,7 @@ U&#380;ycie:</pre>
       Je&#347;li aktywuje si&#281; co&#347; wi&#281;cej ni&#380; chcemy to mo&#380;emy u&#380;y&#263; adnotacji Exclude w konfiguracji, wtedy mimo &#380;e z warunk&#243;w &#322;adowania wyjdzie true, to zostanie ona excludowana.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574927649760" ID="ID_589193866" MODIFIED="1575026493927" TEXT="Dziedziczenie dependecy management ze starter&#xf3;w i dodawanie zale&#x17c;no&#x15b;ci"/>
 <node CREATED="1574944813733" FOLDED="true" ID="ID_272888566" LINK="https://github.com/ddd-by-examples/library#spring" MODIFIED="1575026493927" TEXT="SpringApplicationBuilder">
@@ -2299,8 +2249,7 @@ public class LibraryApplication {
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1574944944921" ID="ID_1112637764" MODIFIED="1574944944921" TEXT=""/>
 </node>
 <node CREATED="1574940769216" FOLDED="true" ID="ID_1979041171" MODIFIED="1575026493927" TEXT="obraz">
@@ -2338,8 +2287,7 @@ public class LibraryApplication {
       R&#243;&#380;ne zapytania mog&#261; by&#263; kierowane do r&#243;&#380;nych cz&#281;&#347;ci infrastruktury.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <cloud COLOR="#ccffff"/>
 <node CREATED="1574931869354" ID="ID_1352098076" MODIFIED="1575026493927" TEXT="Integracja z MongoDB">
 <richcontent TYPE="NOTE"><html>
@@ -2395,8 +2343,7 @@ public class LibraryApplication {
       Tworzymy interfejs rozszerzaj&#261;cy ReactiveMongoRepository, mo&#380;na robi&#263; MixIn, customowe metody, obowi&#261;zuj&#261; te same zasady co dla innych repozytori&#243;w. Mo&#380;na wydziedziczy&#263; si&#281; z MongoRepository, to wtedy nie uzyskujemy obiekt&#243;w reaktywnych.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574848969456" ID="ID_33004900" MODIFIED="1575026493927" POSITION="left" TEXT="Repozytoria kodu">
@@ -2412,8 +2359,7 @@ public class LibraryApplication {
       https://github.com/mikewojtyna/efficient-java/blob/master/src/main/java/pro/buildmysoftware/efficientjava/newio/server/EchoServer.java
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1420432324" ENDARROW="Default" ENDINCLINATION="956;73;" ID="Arrow_ID_602685065" SOURCE="ID_1678386152" STARTARROW="None" STARTINCLINATION="1597;452;"/>
 </node>
 <node CREATED="1574855228730" ID="ID_1938294586" LINK="https://github.com/mikewojtyna/ddd-training" MODIFIED="1575040900466" TEXT="DDD">
@@ -2449,8 +2395,7 @@ public class LibraryApplication {
       Przegl&#261;darka nigdy nie dostaje responsa, serwer pisze ca&#322;y czas do tego kana&#322;u
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574931996229" ID="ID_1764086999" MODIFIED="1575026493927" TEXT="Mongo">
 <richcontent TYPE="NOTE"><html>
@@ -2462,8 +2407,7 @@ public class LibraryApplication {
       https://github.com/mikewojtyna/mongodb-training
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574948659231" ID="ID_952276101" LINK="https://github.com/mikewojtyna/jpms-training" MODIFIED="1575026493927" TEXT="JPMS(Modularyzacja aplikacji springowej wed&#x142;ug JPMS)"/>
 </node>
@@ -2483,8 +2427,7 @@ public class LibraryApplication {
       spring-starter-web - u&#380;ywa jacksona, kt&#243;ry dostarcza standardowego ObjectMapper. Serializacja odbywa si&#281; przez u&#380;ycie ResponseBody, chyba &#380;e mamy adnotacj&#281; RestController
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <cloud COLOR="#99ff99"/>
 <node CREATED="1574754054673" ID="ID_755476824" MODIFIED="1575026493927" TEXT="Dobre praktyki">
 <richcontent TYPE="NOTE"><html>
@@ -2609,8 +2552,7 @@ public class LibraryApplication {
       Cz&#281;sto dla searchy realizuje si&#281; go jako osobny endpoint nie przypisany do zasobu, taki crosszas&#243;b.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <edge COLOR="#ff9933"/>
 <arrowlink DESTINATION="ID_755476824" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_609536244" STARTARROW="None" STARTINCLINATION="0;0;"/>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_755476824" ENDARROW="Default" ENDINCLINATION="0;0;" ID="Arrow_ID_609536244" SOURCE="ID_755476824" STARTARROW="None" STARTINCLINATION="0;0;"/>
@@ -2654,8 +2596,7 @@ public class LibraryApplication {
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574758979929" ID="ID_711920599" MODIFIED="1575026493927" TEXT="HTEOAS">
 <richcontent TYPE="NOTE"><html>
@@ -2712,8 +2653,7 @@ public class LibraryApplication {
       HTEOAS - nieco komplikuje spos&#243;b serializacji/deserializacji, klient musi by&#263; &#347;wiadomy link&#243;w. Zalety: uniezale&#380;nienie si&#281; od link&#243;w, je&#347;li jest sporo URL, resourc&#243;w
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1574766009198" ID="ID_701785038" MODIFIED="1575026493927" TEXT="Wersjonowanie api">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2727,8 +2667,7 @@ public class LibraryApplication {
       Accept:application/vnd.nazwa.v3+hal+json - klient w headerze informuje nas z jakiej wersji api chce korzysta&#263;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574759124706" ID="ID_1354499676" LINK="https://api.github.com/" MODIFIED="1575026493927" TEXT="https://api.github.com/"/>
@@ -2740,8 +2679,7 @@ public class LibraryApplication {
   <body>
     <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">@RequestMapping</font>(<font color="#008000"><b>&quot;/api/tweets&quot;</b></font>) <font color="#808080"><i>//liczba mnoga, wszystkie tweety<br /></i></font><font color="#000080"><b>public class </b></font>TweetController {<br /><br />    <font color="#000080"><b>private </b></font>TweetRepo <font color="#660e7a"><b>repo</b></font>;<br /><br />    <font color="#000080"><b>public </b></font>TweetController(TweetRepo repo) {<br />        <font color="#000080"><b>this</b></font>.<font color="#660e7a"><b>repo </b></font>= repo;<br />        repo.saveAll(Stream.<i>generate</i>(() -&gt; <font color="#000080"><b>new </b></font>Tweet(<font color="#008000"><b>&quot;message&quot; </b></font>+ UUID<br />                .<i>randomUUID</i>(), <font color="#008000"><b>&quot;author&quot; </b></font>+ UUID.<i>randomUUID</i>())).limit(<font color="#0000ff">100</font>)<br />                .collect(Collectors.<i>toList</i>()));<br />    }<br /><br />    <font color="#808000">@GetMapping<br />    </font><font color="#000080"><b>public </b></font>Collection&lt;Tweet&gt; findAllTweets() {<br />        <font color="#000080"><b>return </b></font><b><font color="#660e7a">repo</font></b>.findAll();<br />    }<br /><br />    <font color="#808080"><i>/*Domyslny sposob bindinnngu parametrow to po konwencji z ciala.<br />    Uzywajac odpowiednich adnotacji:<br />    * mozna ze sciezki<br />    * mozna z parametrow<br />    * */<br />    </i></font><font color="#808000">@GetMapping</font>(<font color="#008000"><b>&quot;/{id}&quot;</b></font>)<br />    <font color="#808080"><i>//jawne mapowanie id-&gt;uuid , przy zgodno&#347;ci nazw niekonieczne<br />    </i></font><font color="#000080"><b>public </b></font>ResponseEntity&lt;Tweet&gt; findTweet(<font color="#808000">@PathVariable</font>(<font color="#008000"><b>&quot;id&quot;</b></font>) String uuid) {<br />        <font color="#000080"><b>return </b></font><b><font color="#660e7a">repo</font></b>.findById(UUID.<i>fromString</i>(uuid)).map(t -&gt; ResponseEntity.<i>status</i>(HttpStatus.<font color="#660e7a"><b><i>OK</i></b></font>).body(t)).orElse(ResponseEntity.<i>notFound</i>().build());<br />    }<br /><br />    <font color="#808000">@GetMapping</font>(<font color="#008000"><b>&quot;/empty&quot;</b></font>)<br />    <font color="#000080"><b>public </b></font>Optional&lt;Tweet&gt; findEmpty() {<br />      <font color="#000080"><b>return </b></font>Optional.<i>empty</i>();<br />    }<br /><br />    <font color="#808080"><i>/*<br />     * PathVariable - szuka po pasuj&#261;cej cz&#281;&#347;ci na potrzeby placeholdera - zmienna ze &#347;cie&#380;ki user/tweet/{id} np user/tweet/11<br />     * RequestParam- parametry po znaku zapytania user/tweet?id=11<br />     * */<br />    </i></font><font color="#808000">@GetMapping</font>(params = <font color="#008000"><b>&quot;msg&quot;</b></font>)<br />    <font color="#000080"><b>public </b></font>Collection&lt;Tweet&gt; findByMessage(<font color="#808000">@RequestParam</font>(<font color="#008000"><b>&quot;msg&quot;</b></font>) String msg) {<br />      <font color="#000080"><b>return </b></font><b><font color="#660e7a">repo</font></b>.findByMessage();<br />    }<br /><br />   <font color="#808080"><i>//status domyslny - mozna ustawiac tylko je&#347;li z cia&#322;a nie zmieniamy statusu<br />   //@ResponseStatus(HttpStatus.CREATED)<br />    </i></font><font color="#808000">@PostMapping<br />    </font><font color="#000080"><b>public </b></font>ResponseEntity&lt;?&gt; createTweet(<font color="#808000">@RequestBody </font>Tweet tweet) {<br />      Tweet saveTweet = <font color="#660e7a"><b>repo</b></font>.save(tweet);<br />      <font color="#000080"><b>return </b></font>ResponseEntity.<i>created</i>(URI.<i>create</i>(String.<i>format</i>(<font color="#008000"><b>&quot;api/tweets/%s&quot;</b></font>,<font color="#008000"><b>&quot;1&quot;</b></font>))).build();<br /><br />    }<br /><br />    <font color="#808000">@GetMapping</font>(params = {<font color="#008000"><b>&quot;page&quot;</b></font>})<br />    <font color="#000080"><b>public </b></font>Page&lt;Tweet&gt; findTweetPage(Pageable pageable) {<br />        <font color="#000080"><b>return </b></font><b><font color="#660e7a">repo</font></b>.findAll(pageable);<br />    }<br /><br />    <font color="#808080"><i>//wynosz&#261;c id wymuszam jesgo istnienie<br />    </i></font><font color="#808000">@PutMapping</font>(<font color="#008000"><b>&quot;/{id}&quot;</b></font>)<br />   <font color="#000080"><b>public void </b></font>replace(<br />         <font color="#808000">@PathVariable</font>(<font color="#008000"><b>&quot;id&quot;</b></font>) String uuid,<br />         <font color="#808000">@RequestBody </font>Tweet tweet){<br />       <font color="#660e7a"><b>repo</b></font>.save(tweet);<br />   }<br /><br />    <font color="#808000">@PostMapping</font>(<font color="#008000"><b>&quot;/exception&quot;</b></font>)<br />    <font color="#000080"><b>public void </b></font>throwEx() {<br />        <font color="#000080"><b>throw new </b></font>RuntimeException(<font color="#008000"><b>&quot;This method throws &quot; </b></font>+<br />                <font color="#008000"><b>&quot;exception&quot;</b></font>);<br />    }<br /><br /><br />}</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574843323437" ID="ID_63865453" MODIFIED="1575026493927" TEXT="Metoda z HTEOAS">
 <richcontent TYPE="NOTE"><html>
@@ -2763,8 +2701,7 @@ public class LibraryApplication {
       W body jest EntityModel, pierwszy argument to co ma by&#263; w ciele responsa(czyli Tweet), a drugi argument to linki kt&#243;re budujemy linkto(methodOn/*metoda w kontrolerze do kt&#243;rej ma by&#263; link*/) i nazwa symboliczna linku.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574968909796" ID="ID_382440012" MODIFIED="1575026493927" TEXT="RestController - kontroler kt&#xf3;ry zwraca responseBody"/>
@@ -2787,8 +2724,7 @@ public class LibraryApplication {
       This class can be implemented by application developers, although this is not necessary, as <a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/servlet/handler/BeanNameUrlHandlerMapping.html" title="class in org.springframework.web.servlet.handler"><code>BeanNameUrlHandlerMapping</code></a>&#160;and <a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerMapping.html" title="class in org.springframework.web.servlet.mvc.method.annotation"><code>RequestMappingHandlerMapping</code></a>&#160; are included in the framework. The former is the default if no HandlerMapping bean is registered in the application context.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574968625382" ID="ID_325428316" MODIFIED="1575026493927" TEXT="HandlerMappingAdapter">
 <richcontent TYPE="NOTE"><html>
@@ -2800,8 +2736,7 @@ public class LibraryApplication {
       Realizuje przekierowania.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574968801676" ID="ID_745290641" MODIFIED="1575026493927" TEXT="RequestMappingHandlerAdapter">
 <richcontent TYPE="NOTE"><html>
@@ -2813,8 +2748,7 @@ public class LibraryApplication {
       Podczas wczytywania zbiera mapowania metod oznaczonych adotacj&#261; RequestMapping
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574969221710" ID="ID_122777030" MODIFIED="1575026493927" TEXT="Pageable">
 <richcontent TYPE="NOTE"><html>
@@ -2826,8 +2760,7 @@ public class LibraryApplication {
       Jest budowany przez seri&#281; builder&#243;w uruchamianych przez handlery. W parametrach GET wyszukiwane s&#261; parametry sk&#322;adaj&#261;ce si&#281; na atrybuty Pageable (size,page).
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574969146148" ID="ID_958831724" MODIFIED="1575026493927" TEXT="Adnotacje">
@@ -2846,8 +2779,7 @@ public class LibraryApplication {
       <code>@RequestMapping</code>&#160;maps all HTTP operations by default. Use <code>@GetMapping</code>&#160; or <code>@RequestMapping(method=GET)</code>&#160;to narrow this mapping.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574969313823" ID="ID_20020814" MODIFIED="1575026493927" TEXT="@GetMapping(params={&quot;page&quot;})">
 <richcontent TYPE="NOTE"><html>
@@ -2859,8 +2791,7 @@ public class LibraryApplication {
       uruchomi si&#281; tylko gdy w parametrach pojawi si&#281; page.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574969395193" ID="ID_317255719" MODIFIED="1575026493927" TEXT="@PostMapping">
 <richcontent TYPE="NOTE"><html>
@@ -2886,8 +2817,7 @@ public class LibraryApplication {
       <font color="#808000">@ResponseStatus</font>(HttpStatus.<font color="#660e7a"><b><i>CREATED</i></b></font>) - status domy&#347;lny wysy&#322;any je&#347;li wszystko p&#243;jdzie OK.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574969855033" ID="ID_293768412" MODIFIED="1575026493927" TEXT="@RestControllerAdvice i @ExceptionHandler">
 <richcontent TYPE="NOTE"><html>
@@ -2898,8 +2828,7 @@ public class LibraryApplication {
     <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#808000">Przechwytywanie wyj&#261;tk&#243;w, je&#347;li jakikolwiek kontroler rzuci bl&#261;d to trafi on tutaj.
 @RestControllerAdvice<br /></font><font color="#000080"><b>public class </b></font>ControllerExceptionHandler {<br /><br />&#160;&#160; <font color="#808000">@ExceptionHandler<br />&#160;&#160; </font><font color="#000080"><b>public </b></font>ResponseEntity&lt;ExceptionWrapper&gt; handle(Exception exception) {<br />&#160;&#160;&#160;&#160;&#160;&#160;ExceptionWrapper exceptionWrapper = <font color="#000080"><b>new </b></font>ExceptionWrapper();<br />&#160;&#160;&#160;&#160;&#160;&#160;exceptionWrapper.setExCode(<font color="#008000"><b>&quot;EX_ERR&quot;</b></font>);<br />&#160;&#160;&#160;&#160;&#160;&#160;exceptionWrapper.setMsg(exception.getMessage());<br />&#160;&#160;&#160;&#160;&#160; <font color="#000080"><b>return </b></font>ResponseEntity.<i>status</i>(HttpStatus.<font color="#660e7a"><b><i>INTERNAL_SERVER_ERROR</i></b></font>)<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;.body(exceptionWrapper);<br />&#160;&#160;&#160;}<br />}<br /></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574970122506" ID="ID_1312441885" MODIFIED="1575026493927" TEXT="ResponseEntity">
@@ -2919,8 +2848,7 @@ public class LibraryApplication {
     </p>
     <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>public </b></font>ResponseEntity&lt;?&gt; createTweet(<font color="#808000">@RequestBody </font>Tweet tweet) {<br />   Tweet savedTweet = <font color="#660e7a"><b>repo</b></font>.save(tweet);<br />   <font color="#000080"><b>return </b></font>ResponseEntity.<i>created</i>(URI.<i>create</i>(String<br />      .<i>format</i>(<font color="#008000"><b>&quot;/api/tweets/%s&quot;</b></font>, savedTweet.getId()<br />         .toString()))).build();<br />}</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574971151786" ID="ID_1057056123" MODIFIED="1575026493927" TEXT="Testowanie">
 <node CREATED="1574971155136" ID="ID_1450027685" MODIFIED="1575026493927" TEXT="@AutoConfigureMockMvc vs @AutoConfigureMockMvc vs @WebMvcTest">
@@ -3001,8 +2929,7 @@ org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConf
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574971460179" ID="ID_1619269401" MODIFIED="1575026493927" TEXT="MockMvc">
 <richcontent TYPE="NOTE"><html>
@@ -3037,8 +2964,7 @@ org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConf
       Dostarcza funkcjonalno&#347;ci pozwalaj&#261;cych na &#322;atwe wywo&#322;anie serwis&#243;w, jak i na sprawdzenie zawarto&#347;ci odpowiedzi.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574971831893" ID="ID_1430536131" MODIFIED="1575026493927" TEXT=".MockMvcRequestBuilders">
 <richcontent TYPE="NOTE"><html>
@@ -3063,8 +2989,7 @@ org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConf
       tak zwr&#243;cony builder trafia do argumentu metody perform()&#160;&#160;(MockMvc)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574972168126" ID="ID_1820144862" MODIFIED="1575026493927" TEXT="Konwencje mapowania URI"/>
@@ -3115,8 +3040,7 @@ org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConf
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <cloud COLOR="#ffcccc"/>
 <node CREATED="1574853583555" ID="ID_1678386152" LINK="https://github.com/mikewojtyna/efficient-java/blob/master/src/main/java/pro/buildmysoftware/efficientjava/newio/server/EchoServer.java" MODIFIED="1574859185982" TEXT="Standardowa obs&#x142;uga &#x17c;&#x105;dania">
 <richcontent TYPE="NOTE"><html>
@@ -4009,8 +3933,7 @@ Chainy publisher z jednego &#378;r&#243;d&#322;a mo&#380;e by&#263; sourcem w in
       Jest to&#160;&#160;projekt umbrella, zawieraj&#261;cy wiele innych projekt&#243;w.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <cloud COLOR="#ffcc99"/>
 <node CREATED="1575032119178" ID="ID_1808233448" MODIFIED="1575032854423" TEXT="Repositories">
 <richcontent TYPE="NOTE"><html>
@@ -4052,8 +3975,7 @@ Chainy publisher z jednego &#378;r&#243;d&#322;a mo&#380;e by&#263; sourcem w in
       Uwaga! Repository nie jest dobrym mechanizmem realizuj&#261;cym crossjoiny.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1575037240159" ID="ID_906603811" MODIFIED="1575037636473" TEXT="Implementacja MixIn">
 <richcontent TYPE="NOTE"><html>
@@ -4076,8 +3998,7 @@ Chainy publisher z jednego &#378;r&#243;d&#322;a mo&#380;e by&#263; sourcem w in
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574933130197" ID="ID_1745119334" MODIFIED="1575026493927" POSITION="right" TEXT="Spring Cloud Netflix (OSS)">
@@ -4137,8 +4058,7 @@ Chainy publisher z jednego &#378;r&#243;d&#322;a mo&#380;e by&#263; sourcem w in
       Nad tym wszystkim jest Spring Cloud Configuration Server - repozytorium konfiguracji, propertis&#243;w .
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <cloud COLOR="#ccff66"/>
 <node CREATED="1574938207763" ID="ID_698972014" MODIFIED="1575026493927" TEXT="Przyk&#x142;ad - serwer/klient konfiguracji">
 <node CREATED="1574936074834" ID="ID_655616864" MODIFIED="1575026493927" TEXT="Konfiguracja">
@@ -4187,8 +4107,7 @@ Chainy publisher z jednego &#378;r&#243;d&#322;a mo&#380;e by&#263; sourcem w in
     </p>
     <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574936624554" ID="ID_1849048091" MODIFIED="1575026493927" TEXT="Implementacja serwera konfiguracji">
 <richcontent TYPE="NOTE"><html>
@@ -4221,8 +4140,7 @@ W tym przypadku actuator wystawia&#160;&#160;endpointa pozwalaj&#261;cego na poz
     </div>
     <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">on tak naprawd&#281; uderzy do us&#322;ugi githuba. </pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574936947807" ID="ID_192403122" MODIFIED="1575026493927" TEXT="Implementacja klienta konfiguracji (plik specjalny: bootstrap.yml)">
 <richcontent TYPE="NOTE"><html>
@@ -4270,8 +4188,7 @@ W tym przypadku actuator wystawia&#160;&#160;endpointa pozwalaj&#261;cego na poz
       Wystawia endpointy prze actuatora, wszystkie endpointy zwi&#261;zane z lokalnymi restami.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574938269653" ID="ID_401124246" MODIFIED="1575038407242" TEXT="Przyk&#x142;ad - eureka  z  ribbonem + hystrix">
@@ -4314,8 +4231,7 @@ W tym przypadku actuator wystawia&#160;&#160;endpointa pozwalaj&#261;cego na poz
       mamy serwer eureka i dw&#243;ch klient&#243;w, klient si&#281; rejestruje , drugi uzywa pierwszzego, odnalezionego przez eureke &#380;eby co&#347; na nim zrobi&#263;, je&#347;li ten jest niedost&#281;pny to zamiast go pozyskiwa&#263; wywo&#322;uje prywatn&#261; metod&#281;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1574938670372" ID="ID_1338657030" MODIFIED="1575026493927" TEXT="Serwer @EnableEurekaServer">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -4334,8 +4250,7 @@ W tym przypadku actuator wystawia&#160;&#160;endpointa pozwalaj&#261;cego na poz
     </p>
     <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt">@SpringBootApplication<br />@EnableEurekaServer<br /><font color="#000080"><b>public class </b></font>EurekaServerApp {<br /><br />   <font color="#000080"><b>public static void </b></font>main(String[] args) {<br />      SpringApplication.run(EurekaServerApp.<font color="#000080"><b>class</b></font>, args);<br />   }<br />}<br /></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574938825743" ID="ID_1066463582" MODIFIED="1575026493927" TEXT="Klient @EnableDiscoveryClient @LoadBalanced">
 <richcontent TYPE="NOTE"><html>
@@ -4461,8 +4376,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       Received greetings: Greeting{msg='hello, hi and welcome'}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574939657473" ID="ID_704466730" MODIFIED="1575026493927" TEXT="Klient hystrix @HystrixCommand">
 <richcontent TYPE="NOTE"><html>
@@ -4565,8 +4479,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       i ko&#324;czy dzia&#322;anie.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1574940380669" ID="ID_777374641" LINK="https://github.com/Netflix/zuul" MODIFIED="1575028182341" TEXT="zuul - gateway">
@@ -4579,8 +4492,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       Granuluje wiele microservice , oraz realizuje bezpiecze&#324;stwo dla tych microservice.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574947436014" FOLDED="true" ID="ID_507615338" MODIFIED="1575026493927" TEXT="obraz">
 <node CREATED="1574947447323" ID="ID_1245797928" MODIFIED="1574947464600">
@@ -4654,8 +4566,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       Gdy permitAll() - to i tak przechodzi przez chain
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <cloud COLOR="#cccc00"/>
 <node CREATED="1575024913309" ID="ID_1245248449" MODIFIED="1575027816082" TEXT="Przyk&#x142;ad">
 <richcontent TYPE="NOTE"><html>
@@ -4846,9 +4757,89 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       <font color="#008000" size="3">w poszukiwaniu danych wzorcowych. W tym miejscu zaaplikowane zostan&#261; wszystkie dost&#281;pne evaluatory, je&#347;li kt&#243;rykolwiek z nich zwr&#243;ci poprawn&#261; warto&#347;&#263;, wtedy sukces. Tutaj nie wskazujemy evaluatora kt&#243;ry ma si&#281; uruchomi&#263;. </font>
     </p>
   </body>
+</html></richcontent>
+<font NAME="SansSerif" SIZE="12"/>
+</node>
+</node>
+<node CREATED="1575052289191" ID="ID_1425318647" MODIFIED="1575052318260" POSITION="right" TEXT="Docker">
+<cloud COLOR="#ffcc99"/>
+<node CREATED="1575052322731" ID="ID_1553472881" MODIFIED="1575052553698" TEXT="Start us&#x142;ugi docker">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#000000" face="monospace">service docker start</font><font face="monospace"><br /></font>
+    </p>
+    <p>
+      
+    </p>
+    sudo systemctl start docker
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1575065197335" ID="ID_451325089" MODIFIED="1575065221254" TEXT="docker images">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    command to see a list of all images on your system.
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1575065459348" ID="ID_101522441" MODIFIED="1575065793655" TEXT="docker run">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      When you call run, the Docker client finds the image (busybox in this case), loads up the container and then runs a command in that container. When we run docker run busybox, we didn't provide a command, so the container booted up, ran an empty command and then exited.
+    </p>
+  </body>
 </html>
 </richcontent>
-<font NAME="SansSerif" SIZE="12"/>
+</node>
+<node CREATED="1575065855459" ID="ID_1007736249" MODIFIED="1575065871544" TEXT="docker container prune">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Usuwa wszystkie nieaktywne kontenery
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1575066017353" ID="ID_810668884" MODIFIED="1575066405958" TEXT="docker container ls">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      wy&#347;wietl kontenery
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1575066026694" ID="ID_1142492023" MODIFIED="1575066416521" TEXT="docker container rm">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      usu&#324; kontener o danym id
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
