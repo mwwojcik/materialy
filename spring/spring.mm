@@ -92,7 +92,7 @@
 </node>
 <node CREATED="1575114880862" ID="ID_1193985266" MODIFIED="1575114904626" TEXT="CTRL+SHIFT+F6=&gt;refaktoring-zmiana typu"/>
 </node>
-<node CREATED="1574758571416" ID="ID_1113805724" MODIFIED="1575129992131" POSITION="left" TEXT="Zadanie finalne">
+<node CREATED="1574758571416" ID="ID_1113805724" MODIFIED="1575179865010" POSITION="left" TEXT="Zadanie finalne">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1595,8 +1595,7 @@ U&#380;ycie:</pre>
       Email: mariusz.wojcik@asseco.pl
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <cloud COLOR="#ccccff"/>
 </node>
 </node>
@@ -4833,8 +4832,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       Run: create a new container of an image, and execute the container. You can create N clones of the same image. The command is: docker run IMAGE_ID and not docker run CONTAINER_ID
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1575100967658" ID="ID_1698197689" MODIFIED="1575100997916" TEXT="docker start">
 <richcontent TYPE="NOTE"><html>
@@ -4846,8 +4844,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       Start: Launch a container previously stopped. For example, if you had stopped a database with the command docker stop CONTAINER_ID, you can relaunch the same container with the command docker start CONTAINER_ID, and the data and settings will be the same.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1575065855459" ID="ID_1007736249" MODIFIED="1575065871544" TEXT="docker container prune">
 <richcontent TYPE="NOTE"><html>
@@ -4871,8 +4868,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       wy&#347;wietl kontenery
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1575066026694" ID="ID_1142492023" MODIFIED="1575100977388" TEXT="docker container rm">
 <richcontent TYPE="NOTE"><html>
@@ -4884,8 +4880,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       usu&#324; kontener o danym id
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1575100849565" ID="ID_542283863" LINK="https://stackoverflow.com/questions/34782678/difference-between-running-and-starting-a-docker-container" MODIFIED="1575101015325" TEXT="Docker run vs docker start"/>
 <node CREATED="1575103706308" ID="ID_1476055709" LINK="https://www.thepolyglotdeveloper.com/2017/03/connecting-detached-docker-container-terminal-interaction/" MODIFIED="1575104308047" TEXT="Connecting To A Detached Docker Container For Terminal Interaction">
@@ -4921,8 +4916,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       <font color="#000000" face="monospace">./nosqlbooster4mongo-5.2.7.AppImage</font><font face="monospace"><br /></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1575103331383" ID="ID_1880579579" MODIFIED="1575103340746" TEXT="MongoDB w kontenerze Docker">
 <node CREATED="1575102107691" ID="ID_491641274" MODIFIED="1575103416461" TEXT="MongoDB w kontenerze dockera instalacja i tworzenie kontenera">
@@ -4974,8 +4968,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       <font face="monospace"><br />
 </font>    </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <arrowlink DESTINATION="ID_872103592" ENDARROW="Default" ENDINCLINATION="262;0;" ID="Arrow_ID_963219456" STARTARROW="None" STARTINCLINATION="262;0;"/>
 </node>
 <node CREATED="1575103449858" ID="ID_930424322" MODIFIED="1575104276365" TEXT="Uruchomienie istniej&#x105;cego kontenera">
@@ -5006,8 +4999,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       <font color="#000000" face="monospace">docker container start 13531cb512b6</font><font face="monospace"><br /></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1575104282444" ID="ID_1701253830" LINK="https://www.thepolyglotdeveloper.com/2019/01/getting-started-mongodb-docker-container-deployment/" MODIFIED="1575104492814" TEXT="Uruchomienie klienta bazy MongoDB w kontenerze Dockerowym">
 <richcontent TYPE="NOTE"><html>
@@ -5106,11 +5098,15 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       There is a lot that you can accomplish with the shell client, but you can get the general idea. What we did prove is that we were able to interact with the container instance.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <arrowlink DESTINATION="ID_1476055709" ENDARROW="Default" ENDINCLINATION="317;0;" ID="Arrow_ID_1114083391" STARTARROW="None" STARTINCLINATION="317;0;"/>
 </node>
 </node>
+</node>
+<node CREATED="1575180593342" ID="ID_392161624" MODIFIED="1575180615514" POSITION="left" TEXT="RabbitMQ">
+<cloud COLOR="#66cc00"/>
+<node CREATED="1575180619800" ID="ID_1081190844" LINK="https://hub.docker.com/r/bitnami/rabbitmq" MODIFIED="1575180644873" TEXT="Obraz dockerowy"/>
+<node CREATED="1575180651479" ID="ID_1915302124" LINK="http://www.appsdeveloperblog.com/run-rabbitmq-docker-container-command/" MODIFIED="1575180676414" TEXT="Run RabbitMQ Docker Container Command"/>
 </node>
 </node>
 </map>
