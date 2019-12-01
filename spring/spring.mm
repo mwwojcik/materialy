@@ -11,9 +11,9 @@
 <node CREATED="1574754474109" ID="ID_320039653" MODIFIED="1575026493927" TEXT="Najed&#x17a; na metod&#x119; potem -&gt; Alt+Enter"/>
 </node>
 <node CREATED="1574754474109" ID="ID_172867910" MODIFIED="1575026493927" TEXT="CTRL+ALT+INS  =&gt; utw&#xf3;rz klas&#x119; w danym pakiecie"/>
+<node CREATED="1574754474109" ID="ID_1174411277" MODIFIED="1575224266774" TEXT="ALT+INSERT (na metodzie interfejsu) =&gt; utw&#xf3;rz test"/>
 <node CREATED="1574754474109" ID="ID_1275738234" MODIFIED="1575026493927" TEXT="ALT+ENTER (na metodzie interfejsu) =&gt; utw&#xf3;rz implementacj&#x119;"/>
 <node CREATED="1574754474109" ID="ID_92390912" MODIFIED="1575026493927" TEXT="CTRL+SHIFT+T =&gt; skojarz metod&#x119; z testem i prze&#x142;&#x105;cz si&#x119;"/>
-<node CREATED="1574754474109" ID="ID_1174411277" MODIFIED="1575026493927" TEXT="ALT+INSERT (na metodzie interfejsu) =&gt; utw&#xf3;rz test"/>
 <node CREATED="1574754474109" ID="ID_848163199" MODIFIED="1575026493927" TEXT="CTRL+SHIFT+ Strza&#x142;ka w g&#xf3;r&#x119; =&gt; przenie&#x15b; linijk&#x119; w g&#xf3;r&#x119;"/>
 <node CREATED="1574754474109" ID="ID_1473534300" MODIFIED="1575026493927" TEXT="CTRL+SHIFT+Strza&#x142;ka w d&#xf3;&#x142; =&gt; przenie&#x15b; linijk&#x119; w d&#xf3;&#x142;"/>
 <node CREATED="1574754474119" ID="ID_1633146600" MODIFIED="1575026493927" TEXT="CTRL+ALT+T =&gt; otocz przez blok kodu"/>
@@ -91,6 +91,7 @@
 </node>
 </node>
 <node CREATED="1575114880862" ID="ID_1193985266" MODIFIED="1575114904626" TEXT="CTRL+SHIFT+F6=&gt;refaktoring-zmiana typu"/>
+<node CREATED="1575221975964" ID="ID_1830750757" MODIFIED="1575221995536" TEXT="CTRL+ALT+T- wywo&#x142;anie live templates dzia&#x142;aj&#x105;cych z SELECTION"/>
 </node>
 <node CREATED="1574758571416" ID="ID_1113805724" MODIFIED="1575179865010" POSITION="left" TEXT="Zadanie finalne">
 <richcontent TYPE="NOTE"><html>
@@ -2378,6 +2379,7 @@ public class LibraryApplication {
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1575206480631" ID="ID_60883848" LINK="https://stackoverflow.com/questions/23515295/spring-boot-and-how-to-configure-connection-details-to-mongodb" MODIFIED="1575206498259" TEXT="Konfiguracja dost&#x119;pu do MongoDB"/>
 </node>
 <node CREATED="1574848969456" ID="ID_33004900" MODIFIED="1575026493927" POSITION="left" TEXT="Repozytoria kodu">
 <cloud COLOR="#ff9933"/>
@@ -3955,6 +3957,7 @@ Chainy publisher z jednego &#378;r&#243;d&#322;a mo&#380;e by&#263; sourcem w in
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1575231493643" ID="ID_1290949534" LINK="https://techannotation.wordpress.com/2018/04/24/spring-reactive-a-real-use-case/" MODIFIED="1575231510077" TEXT="Spring Reactive &#x2013; A real use case"/>
 </node>
 <node CREATED="1575019120012" ID="ID_368808356" MODIFIED="1575032117108" POSITION="right" TEXT="Spring Data">
 <richcontent TYPE="NOTE"><html>
@@ -4887,7 +4890,30 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1476055709" ENDARROW="Default" ENDINCLINATION="317;0;" ID="Arrow_ID_1114083391" SOURCE="ID_1701253830" STARTARROW="None" STARTINCLINATION="317;0;"/>
 </node>
 </node>
-<node CREATED="1575101210767" ID="ID_1276228395" MODIFIED="1575102368304" POSITION="right" TEXT="Mongodb">
+<node CREATED="1575101210767" ID="ID_1276228395" MODIFIED="1575220858256" POSITION="right" TEXT="Mongodb">
+<richcontent TYPE="NOTE">&lt;html&gt;
+  &lt;head&gt;
+    
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    In terms of use cases, MongoDB is 
+    well-suited as a primary datastore 
+    for  web applications, analytics and 
+    logging applications, and any  
+    application requiring a medium-grade 
+    cache. In addition, because it  
+    easily stores schema-less data, 
+    MongoDB is also good for capturing 
+    data  whose structure can&amp;#25; t be known 
+    in advance. 
+
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</richcontent>
 <cloud COLOR="#ffccff"/>
 <node CREATED="1575101983667" ID="ID_1462804078" MODIFIED="1575101987472" TEXT="Materia&#x142;y">
 <node CREATED="1575101300579" ID="ID_893255806" LINK="https://dzone.com/articles/mongodb-cluster" MODIFIED="1575101893220" TEXT="MongoDB Tutorials and Articles: The Complete Collection">
@@ -4902,6 +4928,9 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
 <node CREATED="1575102622088" ID="ID_1078371156" LINK="https://www.guru99.com/top-20-mongodb-tools.html" MODIFIED="1575102727103" TEXT="9 Best MongoDB GUI Tools in 2019 "/>
 <node CREATED="1575123515511" ID="ID_1510349904" LINK="http://mod.erni.st/nosql-if-only-it-was-that-easy/" MODIFIED="1575123530976" TEXT="NoSQL: If Only It Was That Easy"/>
 <node CREATED="1575123631821" ID="ID_214280582" LINK="https://www.networkworld.com/article/2999856/10-use-cases-where-nosql-will-outperform-sql.html" MODIFIED="1575123645808" TEXT="10 use cases where NoSQL will outperform SQL"/>
+<node CREATED="1575183149160" ID="ID_1872663715" LINK="https://docs.mongodb.com/ecosystem/use-cases/" MODIFIED="1575183773413" TEXT="Mongo DB - Real UseCases">
+<icon BUILTIN="yes"/>
+</node>
 </node>
 <node CREATED="1575102732155" ID="ID_27718323" LINK="https://nosqlbooster.com/downloads" MODIFIED="1575103342913" TEXT="NoSQLBooster for MongoDB">
 <richcontent TYPE="NOTE"><html>
