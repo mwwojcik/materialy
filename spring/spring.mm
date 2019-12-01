@@ -103,8 +103,7 @@
       Zbudowa&#263; kilka serwis&#243;w REST, kt&#243;re komunikuj&#261; si&#281; ze sob&#261;. U&#380;y&#263; Spring Cloud (Cloud Config, Eureka, Ribbon i Hystrix) w celu zapewnienia odpowiedniej trwa&#322;o&#347;ci us&#322;ugi. Serwisy te mog&#261; by&#263; reaktywne. W celu zwi&#281;kszenia przepustowo&#347;ci mo&#380;na wykorzysta&#263; MongoDb w wersji reaktywnej. Nast&#281;pnie wprowadzi&#263; Gateway (np. Zuul), kt&#243;ry wystawi na zewn&#261;trz te serwisy jako jednolite API i zadba o bezpiecze&#324;stwo. Zastanowi&#263; si&#281; nad odpowiedni&#261; granularnoscia tych serwis&#243;w tak, aby mia&#322;y odpowiedni poziom izolacji. Na koniec wprowadzi&#263; Spring Integration, kt&#243;re po&#322;&#261;czy API wystawione przez Zuula z RabbitMq. Wiadomo&#347;ci wys&#322;ane na kolejk&#281; Rabbita maj&#261; aktywowa&#263; wybrane endointy API Zuula.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <cloud COLOR="#ff66ff"/>
 </node>
 <node CREATED="1575014293382" ID="ID_1642988862" MODIFIED="1575035454313" POSITION="left" TEXT="Spring Integration">
@@ -3958,6 +3957,9 @@ Chainy publisher z jednego &#378;r&#243;d&#322;a mo&#380;e by&#263; sourcem w in
 </node>
 </node>
 <node CREATED="1575231493643" ID="ID_1290949534" LINK="https://techannotation.wordpress.com/2018/04/24/spring-reactive-a-real-use-case/" MODIFIED="1575231510077" TEXT="Spring Reactive &#x2013; A real use case"/>
+<node CREATED="1575236577457" ID="ID_1748818503" LINK="https://www.slideshare.net/InfoQ/servlet-vs-reactive-stacks-in-five-use-cases" MODIFIED="1575236597853" TEXT="Servlet vs Reactive Stacks in Five Use Cases"/>
+<node CREATED="1575236679353" ID="ID_880661293" LINK="https://subscription.packtpub.com/book/application_development/9781787284951/1/ch01lvl1sec11/reactivity-use-cases" MODIFIED="1575236701988" TEXT="Reactivity use cases"/>
+<node CREATED="1575236941490" ID="ID_64342058" LINK="http://mdabrowski.net/spring-webflux-przykladowa-aplikacja/" MODIFIED="1575236953559" TEXT="Spring Webflux przyk&#x142;adowa aplikacja"/>
 </node>
 <node CREATED="1575019120012" ID="ID_368808356" MODIFIED="1575032117108" POSITION="right" TEXT="Spring Data">
 <richcontent TYPE="NOTE"><html>
@@ -4912,8 +4914,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       
     &lt;/p&gt;
   &lt;/body&gt;
-&lt;/html&gt;
-</richcontent>
+&lt;/html&gt;</richcontent>
 <cloud COLOR="#ffccff"/>
 <node CREATED="1575101983667" ID="ID_1462804078" MODIFIED="1575101987472" TEXT="Materia&#x142;y">
 <node CREATED="1575101300579" ID="ID_893255806" LINK="https://dzone.com/articles/mongodb-cluster" MODIFIED="1575101893220" TEXT="MongoDB Tutorials and Articles: The Complete Collection">
