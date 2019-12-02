@@ -929,7 +929,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1517473875896" ID="ID_751435581" MODIFIED="1535453716070" POSITION="right" TEXT="Podpowiedzi">
+<node CREATED="1517473875896" ID="ID_751435581" MODIFIED="1571922849119" POSITION="right" TEXT="Podpowiedzi">
 <cloud COLOR="#ffffcc"/>
 <node CREATED="1517473932122" ID="ID_671322508" MODIFIED="1559304665264" TEXT="git pull-pull z ca&#x142;kowitym zast&#x105;pieniem plik&#xf3;w lokalnych">
 <richcontent TYPE="NOTE"><html>
@@ -1014,8 +1014,7 @@ git reset --hard origin/master</code></pre>
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1517474607110" ID="ID_1554533457" MODIFIED="1529483746208" TEXT="git push - push do zdalnego brancha">
 <richcontent TYPE="NOTE"><html>
@@ -1372,7 +1371,7 @@ https://stackoverflow.com/questions/4811434/clone-only-one-branch?utm_medium=org
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1535456008011" ID="ID_1290428286" MODIFIED="1558959248371" TEXT="Wy&#x15b;wietlanie listy plik&#xf3;w wys&#x142;anych w danym commicie">
+<node CREATED="1535456008011" ID="ID_1290428286" MODIFIED="1571750678889" TEXT="Wy&#x15b;wietlanie listy plik&#xf3;w wys&#x142;anych w danym commicie">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1385,8 +1384,7 @@ https://stackoverflow.com/questions/4811434/clone-only-one-branch?utm_medium=org
     </p>
     <pre><code>git whatchanged -1 --format=oneline | wc -l</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1537884240802" ID="ID_788840859" MODIFIED="1537884240802" TEXT=""/>
 <node CREATED="1548420407003" ID="ID_1968301525" LINK="https://labs.consol.de/development/git/2017/02/22/gitignore.html" MODIFIED="1548420444391" TEXT=".gitignore - instrukcja poprawnego u&#x17c;ycia">
@@ -1400,6 +1398,129 @@ https://stackoverflow.com/questions/4811434/clone-only-one-branch?utm_medium=org
     </p>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1562663834408" ID="ID_664123522" LINK="https://pl.atlassian.com/git/tutorials/resetting-checking-out-and-reverting" MODIFIED="1562663877581" TEXT="R&#xf3;&#x17c;nica pomi&#x119;dzy checkout, reset,revert">
+<node CREATED="1571923217737" ID="ID_723747927" LINK="https://medium.com/@manivel45/git-merge-vs-rebase-reset-vs-revert-vs-checkout-dd5674d0e18a" MODIFIED="1571923237217" TEXT="Get Merge vs Rebase"/>
+</node>
+<node CREATED="1569842707753" ID="ID_957586965" MODIFIED="1569842797667" TEXT="Przywr&#xf3;cenie jednego pliku z ostatniego commita (pozostale zostaja)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://stackoverflow.com/questions/40095142/how-do-i-reset-the-working-tree-without-moving-head">https://stackoverflow.com/questions/40095142/how-do-i-reset-the-working-tree-without-moving-head</a>
+    </p>
+    <p>
+      
+    </p>
+    <div style="font-family: Menlo, Monaco, Consolas, Courier New, Courier, monospace; font-size: 14px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre-wrap; word-spacing: 0px">
+      git checkout HEAD~ -- .
+    </div>
+  </body>
+</html></richcontent>
+<node CREATED="1569842743272" LINK="https://stackoverflow.com/questions/40095142/how-do-i-reset-the-working-tree-without-moving-head" MODIFIED="1569842743272" TEXT="https://stackoverflow.com/questions/40095142/how-do-i-reset-the-working-tree-without-moving-head"/>
+</node>
+<node CREATED="1569945449567" ID="ID_1867406544" MODIFIED="1569945526503" TEXT="Usuniecie ostatniego commit a ze zdalnego repo">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="post-text" itemprop="text">
+      <p>
+        Be careful that this will create an &quot;alternate reality&quot; for people who have already fetch/pulled/cloned from the remote repository. But in fact, it's quite simple:
+      </p>
+      <pre><code>git reset HEAD^ # remove commit locally lub git rebase -i HEAD~1
+git push origin +HEAD # force-push the new HEAD commit</code></pre>
+      <p>
+        If you want to still have it in your local repository and only remove it from the remote, then you can use:
+      </p>
+      <pre><code>git push origin +HEAD^:&lt;name of your branch, most likely 'master'&gt;
+
+https://stackoverflow.com/questions/8225125/remove-last-commit-from-remote-git-repository/8225166</code></pre>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1571922857950" ID="ID_1786510159" LINK="http://www.pzielinski.com/?p=2667" MODIFIED="1571922876753" TEXT="Git merge vs gir rebase"/>
+<node CREATED="1573738053286" ID="ID_1568167848" LINK="https://gist.github.com/robmiller/6018582" MODIFIED="1573738255400" TEXT="Aliasy git">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <a href="https://gist.github.com/robmiller/6018582">https://gist.github.com/robmiller/6018582</a>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Uwaga! Rootem dla konsolki git bash jest personalny dysk sieciowy X!
+    </p>
+    <p>
+      
+    </p>
+    <p class="MsoNormal">
+      <font size="9.0pt" face="Lucida Console">git config --global alias.publish 'git status push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)'<o p="#DEFAULT"></o> </font>
+    </p>
+    <p class="MsoNormal">
+      
+    </p>
+    <p class="MsoNormal">
+      <font size="9.0pt" face="Lucida Console">taki alias trafia do </font>
+    </p>
+    <p class="MsoNormal">
+      
+    </p>
+    <p class="MsoNormal">
+      <font size="9.0pt" face="Lucida Console">.gitconfig </font>
+    </p>
+    <p class="MsoNormal">
+      [alias]
+    </p>
+    <p class="MsoNormal">
+      publish = status push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)
+    </p>
+    <p class="MsoNormal">
+      cm = commit -m
+    </p>
+    <p class="MsoNormal">
+      aliases = !git config --list | grep ^alias\\. | cut -c 7- | grep -Ei --color \&quot;$1\&quot; &quot;#&quot;
+    </p>
+    <p class="MsoNormal">
+      
+    </p>
+    <p class="MsoNormal">
+      mo&#380;na go doda&#263; bezpo&#347;rednio do pliku.
+    </p>
+    <p class="MsoNormal">
+      
+    </p>
+    <p class="MsoNormal">
+      Mo&#380;na r&#243;wnie&#380; zmodyfikowa&#263;
+    </p>
+    <p class="MsoNormal">
+      .bashrc
+    </p>
+    <p class="MsoNormal">
+      alias commit='git commit -m'
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1574082836115" ID="ID_1814995032" MODIFIED="1574082859832" TEXT="Poka&#x17c; pliki kt&#xf3;re s&#x105; w stagging area (bez nowododanych)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><code>git diff --name-only --cached</code></pre>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1518253670253" ID="ID_956937492" MODIFIED="1518253772083" POSITION="right" TEXT="Praca r&#xf3;wnoleg&#x142;a">
