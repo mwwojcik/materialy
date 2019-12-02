@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node BACKGROUND_COLOR="#ffcc66" CREATED="1574754004883" ID="ID_222410746" MODIFIED="1575022373454" TEXT="Spring szkolenie">
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1574754004883" ID="ID_222410746" MODIFIED="1575294429125" TEXT="Spring szkolenie">
 <font BOLD="true" NAME="SansSerif" SIZE="14"/>
 <node CREATED="1574754452242" ID="ID_679307258" MODIFIED="1575026493927" POSITION="left" TEXT="IntelIj - skr&#xf3;ty">
 <cloud COLOR="#ffff66"/>
@@ -3960,6 +3960,7 @@ Chainy publisher z jednego &#378;r&#243;d&#322;a mo&#380;e by&#263; sourcem w in
 <node CREATED="1575236577457" ID="ID_1748818503" LINK="https://www.slideshare.net/InfoQ/servlet-vs-reactive-stacks-in-five-use-cases" MODIFIED="1575236597853" TEXT="Servlet vs Reactive Stacks in Five Use Cases"/>
 <node CREATED="1575236679353" ID="ID_880661293" LINK="https://subscription.packtpub.com/book/application_development/9781787284951/1/ch01lvl1sec11/reactivity-use-cases" MODIFIED="1575236701988" TEXT="Reactivity use cases"/>
 <node CREATED="1575236941490" ID="ID_64342058" LINK="http://mdabrowski.net/spring-webflux-przykladowa-aplikacja/" MODIFIED="1575236953559" TEXT="Spring Webflux przyk&#x142;adowa aplikacja"/>
+<node CREATED="1575293794688" ID="ID_1930571052" LINK="https://allegro.tech/2019/07/migrating-microservice-to-spring-webflux.html" MODIFIED="1575293831360" TEXT="Migrating a microservice to Spring WebFlux"/>
 </node>
 <node CREATED="1575019120012" ID="ID_368808356" MODIFIED="1575032117108" POSITION="right" TEXT="Spring Data">
 <richcontent TYPE="NOTE"><html>

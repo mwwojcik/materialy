@@ -1371,7 +1371,7 @@ https://stackoverflow.com/questions/4811434/clone-only-one-branch?utm_medium=org
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1535456008011" ID="ID_1290428286" MODIFIED="1571750678889" TEXT="Wy&#x15b;wietlanie listy plik&#xf3;w wys&#x142;anych w danym commicie">
+<node CREATED="1535456008011" ID="ID_1290428286" MODIFIED="1575275484376" TEXT="Wy&#x15b;wietlanie listy plik&#xf3;w wys&#x142;anych w danym commicie">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1384,7 +1384,8 @@ https://stackoverflow.com/questions/4811434/clone-only-one-branch?utm_medium=org
     </p>
     <pre><code>git whatchanged -1 --format=oneline | wc -l</code></pre>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1537884240802" ID="ID_788840859" MODIFIED="1537884240802" TEXT=""/>
 <node CREATED="1548420407003" ID="ID_1968301525" LINK="https://labs.consol.de/development/git/2017/02/22/gitignore.html" MODIFIED="1548420444391" TEXT=".gitignore - instrukcja poprawnego u&#x17c;ycia">
@@ -1508,8 +1509,7 @@ https://stackoverflow.com/questions/8225125/remove-last-commit-from-remote-git-r
       alias commit='git commit -m'
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574082836115" ID="ID_1814995032" MODIFIED="1574082859832" TEXT="Poka&#x17c; pliki kt&#xf3;re s&#x105; w stagging area (bez nowododanych)">
 <richcontent TYPE="NOTE"><html>
@@ -1519,8 +1519,7 @@ https://stackoverflow.com/questions/8225125/remove-last-commit-from-remote-git-r
   <body>
     <pre><code>git diff --name-only --cached</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1518253670253" ID="ID_956937492" MODIFIED="1518253772083" POSITION="right" TEXT="Praca r&#xf3;wnoleg&#x142;a">
