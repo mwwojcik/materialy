@@ -92,6 +92,7 @@
 </node>
 <node CREATED="1575114880862" ID="ID_1193985266" MODIFIED="1575114904626" TEXT="CTRL+SHIFT+F6=&gt;refaktoring-zmiana typu"/>
 <node CREATED="1575221975964" ID="ID_1830750757" MODIFIED="1575221995536" TEXT="CTRL+ALT+T- wywo&#x142;anie live templates dzia&#x142;aj&#x105;cych z SELECTION"/>
+<node CREATED="1575361173944" ID="ID_1589690415" MODIFIED="1575361192090" TEXT="CTRL+ALT+SHIFT+T=&gt;Refactor this"/>
 </node>
 <node CREATED="1574758571416" ID="ID_1113805724" MODIFIED="1575179865010" POSITION="left" TEXT="Zadanie finalne">
 <richcontent TYPE="NOTE"><html>
@@ -1435,7 +1436,7 @@ U&#380;ycie:</pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1574781426419" ID="ID_1389132856" MODIFIED="1575026493927" TEXT="Kiedy stosowa&#x107; testy, wyr&#xf3;&#x17c;nianie jednostek DDD">
+<node CREATED="1574781426419" FOLDED="true" ID="ID_1389132856" MODIFIED="1575459695036" TEXT="Kiedy stosowa&#x107; testy, wyr&#xf3;&#x17c;nianie jednostek DDD">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1539,7 +1540,7 @@ U&#380;ycie:</pre>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_414147436" ENDARROW="Default" ENDINCLINATION="163;0;" ID="Arrow_ID_677796176" SOURCE="ID_1389132856" STARTARROW="None" STARTINCLINATION="331;0;"/>
 </node>
 </node>
-<node CREATED="1574846109249" ID="ID_326552104" MODIFIED="1575026493927" POSITION="left" TEXT="Linki">
+<node CREATED="1574846109249" ID="ID_326552104" MODIFIED="1575536048716" POSITION="left" TEXT="Linki">
 <cloud COLOR="#cc99ff"/>
 <node CREATED="1574846113095" ID="ID_612735272" LINK="https://www.youtube.com/watch?v=wwi1wXOFaA8" MODIFIED="1575026493927" TEXT="Prezentacja po&#x15b;wi&#x119;cona TDD"/>
 <node CREATED="1574844439087" ID="ID_739718076" LINK="https://github.com/spring-projects/spring-boot/tree/master/spring-boot-project/spring-boot-starters" MODIFIED="1575026493927" TEXT="Spring boot kody na GitHub, lista starter&#xf3;w"/>
@@ -1597,6 +1598,9 @@ U&#380;ycie:</pre>
   </body>
 </html></richcontent>
 <cloud COLOR="#ccccff"/>
+</node>
+<node CREATED="1575536048716" ID="ID_4581172" MODIFIED="1575536056795" TEXT="Rokuj&#x105;ce ale niezweryfikowane">
+<node CREATED="1575536059039" ID="ID_1917351331" LINK="https://github.com/rkmitra/eureka-zull" MODIFIED="1575536064048" TEXT="https://github.com/rkmitra/eureka-zull"/>
 </node>
 </node>
 <node CREATED="1574843125039" ID="ID_328884833" MODIFIED="1575026493927" POSITION="left" TEXT="Architektura">
@@ -2382,7 +2386,11 @@ public class LibraryApplication {
 </node>
 <node CREATED="1574848969456" ID="ID_33004900" MODIFIED="1575026493927" POSITION="left" TEXT="Repozytoria kodu">
 <cloud COLOR="#ff9933"/>
-<node CREATED="1574848975641" ID="ID_1141345053" LINK="https://github.com/mikewojtyna" MODIFIED="1575026493927" TEXT="Root"/>
+<node CREATED="1574848975641" ID="ID_1141345053" LINK="https://github.com/mikewojtyna" MODIFIED="1575026493927" TEXT="Root">
+<node CREATED="1575536025058" ID="ID_890442796" MODIFIED="1575536025058" TEXT="">
+<node CREATED="1575536030296" ID="ID_473196190" MODIFIED="1575536030296" TEXT=""/>
+</node>
+</node>
 <node CREATED="1574854690320" ID="ID_1420432324" LINK="https://github.com/mikewojtyna/efficient-java" MODIFIED="1575026493927" TEXT="Efficient java - serwer NIO, minimalny system reaktywny">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -5133,11 +5141,44 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
 <arrowlink DESTINATION="ID_1476055709" ENDARROW="Default" ENDINCLINATION="317;0;" ID="Arrow_ID_1114083391" STARTARROW="None" STARTINCLINATION="317;0;"/>
 </node>
 </node>
+<node CREATED="1575454920746" ID="ID_40689479" MODIFIED="1575454938762" TEXT="Weryfikacja poprawno&#x15b;ci po&#x142;&#x105;czenia Linux">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <code>nc -zv localhost 27017</code>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1575180593342" ID="ID_392161624" MODIFIED="1575180615514" POSITION="left" TEXT="RabbitMQ">
 <cloud COLOR="#66cc00"/>
 <node CREATED="1575180619800" ID="ID_1081190844" LINK="https://hub.docker.com/r/bitnami/rabbitmq" MODIFIED="1575180644873" TEXT="Obraz dockerowy"/>
 <node CREATED="1575180651479" ID="ID_1915302124" LINK="http://www.appsdeveloperblog.com/run-rabbitmq-docker-container-command/" MODIFIED="1575180676414" TEXT="Run RabbitMQ Docker Container Command"/>
+<node CREATED="1575539386837" ID="ID_105228471" LINK="https://czterytygodnie.pl/wprowadzenie-do-kolejkowania-rabbitmq/" MODIFIED="1575539409940" TEXT="Wprowadzenie do RabbitMQ"/>
+<node CREATED="1575541339003" ID="ID_779103226" LINK="https://hub.docker.com/_/rabbitmq?tab=description" MODIFIED="1575541349612" TEXT="Rabbit official Docker Image"/>
+</node>
+<node CREATED="1575459547791" ID="ID_234335498" MODIFIED="1575459621848" POSITION="right" TEXT="Tips and Tricks">
+<cloud COLOR="#ff9999"/>
+<node CREATED="1575459557328" ID="ID_1397287141" MODIFIED="1575459608272" TEXT="&#x141;&#x105;czenie Optional w &#x142;a&#x144;cuch">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Courier New; font-size: 9,0pt"><font color="#000080"><b>static </b></font>&lt;<font color="#20999d">T</font>&gt; Optional&lt;<font color="#20999d">T</font>&gt; or(Optional&lt;<font color="#20999d">T</font>&gt; first, Optional&lt;<font color="#20999d">T</font>&gt; second) {<br />&#160;&#160;&#160; <font color="#000080"><b>return </b></font>first.isPresent() ? first : second;<br />}
+
+U&#380;ycie:</pre>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Courier New; font-size: 9,0pt"><font color="#000080"><b>public static </b></font>ComparationUnit getComparationUnit(Path filepath) {<br />    CompilationUnit unit = <font color="#000080"><b>null</b></font>;<br />    String pClassName = filepath.getFileName().toString().split(<font color="#008000"><b>&quot;</b></font><b><font color="#000080">\\</font><font color="#008000">.&quot;</font></b>)[<font color="#0000ff">0</font>];<br />    <font color="#000080"><b>try </b></font>{<br />        unit = StaticJavaParser.<i>parse</i>(Files.<i>newInputStream</i>(filepath));<br />    } <font color="#000080"><b>catch </b></font>(IOException e) {<br />        <font color="#000080"><b>throw new </b></font>IllegalArgumentException(e);<br />    }<br /><br />    Optional&lt;ComparationUnit&gt; classWrapper = <i>wrapClass</i>(unit.getClassByName(pClassName));<br />    Optional&lt;ComparationUnit&gt; intWrapper = <i>wrapClass</i>(unit.getInterfaceByName(pClassName));<br />    Optional&lt;ComparationUnit&gt; enumWrapper = <i>wrapEnum</i>(unit.getEnumByName(pClassName));<br /><br />    <font color="#000080"><b>return </b></font><i>or</i>(classWrapper, <i>or</i>(intWrapper, enumWrapper))<br />            .orElseThrow(() -&gt; <font color="#000080"><b>new </b></font>IllegalArgumentException(<font color="#008000"><b>&quot;Class not found!!!!&quot;</b></font>));<br />}<br /><br /><font color="#000080"><b>static </b></font>Optional&lt;ComparationUnit&gt; wrapClass(Optional&lt;ClassOrInterfaceDeclaration&gt; opt) {<br />    <font color="#000080"><b>return </b></font>opt.isPresent() ? Optional.<i>of</i>(<font color="#000080"><b>new </b></font>ClassInterfaceCU(opt.get())) : Optional.<i>empty</i>();<br />}<br /><br /><font color="#000080"><b>static </b></font>Optional&lt;ComparationUnit&gt; wrapEnum(Optional&lt;EnumDeclaration&gt; opt) {<br />    <font color="#000080"><b>return </b></font>opt.isPresent() ? Optional.<i>of</i>(<font color="#000080"><b>new </b></font>EnumCU(opt.get())) : Optional.<i>empty</i>();<br />}<br /><br /><font color="#000080"><b>static </b></font>&lt;<font color="#20999d">T</font>&gt; Optional&lt;<font color="#20999d">T</font>&gt; or(Optional&lt;<font color="#20999d">T</font>&gt; first, Optional&lt;<font color="#20999d">T</font>&gt; second) {<br />    <font color="#000080"><b>return </b></font>first.isPresent() ? first : second;<br />}</pre>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Courier New; font-size: 9,0pt"></pre>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 </map>
