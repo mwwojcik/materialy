@@ -93,6 +93,7 @@
 <node CREATED="1575114880862" ID="ID_1193985266" MODIFIED="1575114904626" TEXT="CTRL+SHIFT+F6=&gt;refaktoring-zmiana typu"/>
 <node CREATED="1575221975964" ID="ID_1830750757" MODIFIED="1575221995536" TEXT="CTRL+ALT+T- wywo&#x142;anie live templates dzia&#x142;aj&#x105;cych z SELECTION"/>
 <node CREATED="1575361173944" ID="ID_1589690415" MODIFIED="1575361192090" TEXT="CTRL+ALT+SHIFT+T=&gt;Refactor this"/>
+<node CREATED="1575644615715" ID="ID_1554083912" MODIFIED="1575644625847" TEXT="Ctrl+Alt+F=&gt;Extract field"/>
 </node>
 <node CREATED="1574758571416" ID="ID_1113805724" MODIFIED="1575179865010" POSITION="left" TEXT="Zadanie finalne">
 <richcontent TYPE="NOTE"><html>
@@ -2382,7 +2383,7 @@ public class LibraryApplication {
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1575206480631" ID="ID_60883848" LINK="https://stackoverflow.com/questions/23515295/spring-boot-and-how-to-configure-connection-details-to-mongodb" MODIFIED="1575206498259" TEXT="Konfiguracja dost&#x119;pu do MongoDB"/>
+<node CREATED="1575206480631" ID="ID_60883848" LINK="https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#reference" MODIFIED="1575617394015" TEXT="Konfiguracja dost&#x119;pu do MongoDB"/>
 </node>
 <node CREATED="1574848969456" ID="ID_33004900" MODIFIED="1575026493927" POSITION="left" TEXT="Repozytoria kodu">
 <cloud COLOR="#ff9933"/>
@@ -5154,6 +5155,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
 </html>
 </richcontent>
 </node>
+<node CREATED="1575636474933" ID="ID_373606800" LINK="https://stackoverflow.com/questions/5224811/mongodb-schema-design-for-blogs" MODIFIED="1575636493443" TEXT="MongoDB schema design for blogs"/>
 </node>
 <node CREATED="1575180593342" ID="ID_392161624" MODIFIED="1575180615514" POSITION="left" TEXT="RabbitMQ">
 <cloud COLOR="#66cc00"/>
@@ -5175,6 +5177,21 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
 U&#380;ycie:</pre>
     <pre style="background-color: #ffffff; color: #000000; font-family: Courier New; font-size: 9,0pt"><font color="#000080"><b>public static </b></font>ComparationUnit getComparationUnit(Path filepath) {<br />    CompilationUnit unit = <font color="#000080"><b>null</b></font>;<br />    String pClassName = filepath.getFileName().toString().split(<font color="#008000"><b>&quot;</b></font><b><font color="#000080">\\</font><font color="#008000">.&quot;</font></b>)[<font color="#0000ff">0</font>];<br />    <font color="#000080"><b>try </b></font>{<br />        unit = StaticJavaParser.<i>parse</i>(Files.<i>newInputStream</i>(filepath));<br />    } <font color="#000080"><b>catch </b></font>(IOException e) {<br />        <font color="#000080"><b>throw new </b></font>IllegalArgumentException(e);<br />    }<br /><br />    Optional&lt;ComparationUnit&gt; classWrapper = <i>wrapClass</i>(unit.getClassByName(pClassName));<br />    Optional&lt;ComparationUnit&gt; intWrapper = <i>wrapClass</i>(unit.getInterfaceByName(pClassName));<br />    Optional&lt;ComparationUnit&gt; enumWrapper = <i>wrapEnum</i>(unit.getEnumByName(pClassName));<br /><br />    <font color="#000080"><b>return </b></font><i>or</i>(classWrapper, <i>or</i>(intWrapper, enumWrapper))<br />            .orElseThrow(() -&gt; <font color="#000080"><b>new </b></font>IllegalArgumentException(<font color="#008000"><b>&quot;Class not found!!!!&quot;</b></font>));<br />}<br /><br /><font color="#000080"><b>static </b></font>Optional&lt;ComparationUnit&gt; wrapClass(Optional&lt;ClassOrInterfaceDeclaration&gt; opt) {<br />    <font color="#000080"><b>return </b></font>opt.isPresent() ? Optional.<i>of</i>(<font color="#000080"><b>new </b></font>ClassInterfaceCU(opt.get())) : Optional.<i>empty</i>();<br />}<br /><br /><font color="#000080"><b>static </b></font>Optional&lt;ComparationUnit&gt; wrapEnum(Optional&lt;EnumDeclaration&gt; opt) {<br />    <font color="#000080"><b>return </b></font>opt.isPresent() ? Optional.<i>of</i>(<font color="#000080"><b>new </b></font>EnumCU(opt.get())) : Optional.<i>empty</i>();<br />}<br /><br /><font color="#000080"><b>static </b></font>&lt;<font color="#20999d">T</font>&gt; Optional&lt;<font color="#20999d">T</font>&gt; or(Optional&lt;<font color="#20999d">T</font>&gt; first, Optional&lt;<font color="#20999d">T</font>&gt; second) {<br />    <font color="#000080"><b>return </b></font>first.isPresent() ? first : second;<br />}</pre>
     <pre style="background-color: #ffffff; color: #000000; font-family: Courier New; font-size: 9,0pt"></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1575628086505" ID="ID_1324908798" MODIFIED="1575628232991" TEXT="Pobieranie pliku z Resources w testach (r&#xf3;&#x17c;nica Linux UNIX) (Illegal char &lt;:&gt; at index)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Courier New; font-size: 9,0pt"><font color="#000080"><b>https://stackoverflow.com/questions/9834776/java-nio-file-path-issue
+
+Przed przetworzeniem na Path nale&#380;y przej&#347;&#263; przez URI, inaczej wpadamy w pu&#322;apk&#281; niekompatybilnych &#347;cie&#380;ek pomi&#281;dzy Unix i Windows.
+
+private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160; <font color="#000080"><b>try </b></font>{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#000080"><b>return&#160; </b></font>Paths.<i>get</i>(RepositoryConverterTestUtil.<font color="#000080"><b>class</b></font>.getClassLoader().getResource(pathStr).toURI());<br />&#160;&#160;&#160;&#160;} <font color="#000080"><b>catch </b></font>(URISyntaxException e) {<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#000080"><b>throw new </b></font>IllegalArgumentException(e);<br />&#160;&#160;&#160;&#160;}<br />}</pre>
   </body>
 </html>
 </richcontent>
