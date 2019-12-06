@@ -93,7 +93,9 @@
 <node CREATED="1575114880862" ID="ID_1193985266" MODIFIED="1575114904626" TEXT="CTRL+SHIFT+F6=&gt;refaktoring-zmiana typu"/>
 <node CREATED="1575221975964" ID="ID_1830750757" MODIFIED="1575221995536" TEXT="CTRL+ALT+T- wywo&#x142;anie live templates dzia&#x142;aj&#x105;cych z SELECTION"/>
 <node CREATED="1575361173944" ID="ID_1589690415" MODIFIED="1575361192090" TEXT="CTRL+ALT+SHIFT+T=&gt;Refactor this"/>
-<node CREATED="1575644615715" ID="ID_1554083912" MODIFIED="1575644625847" TEXT="Ctrl+Alt+F=&gt;Extract field"/>
+<node CREATED="1575644615715" ID="ID_1554083912" MODIFIED="1575644625847" TEXT="Ctrl+Alt+F=&gt;Extract field">
+<node CREATED="1575647800363" ID="ID_1258718581" MODIFIED="1575647800363" TEXT=""/>
+</node>
 </node>
 <node CREATED="1574758571416" ID="ID_1113805724" MODIFIED="1575179865010" POSITION="left" TEXT="Zadanie finalne">
 <richcontent TYPE="NOTE"><html>
@@ -1541,7 +1543,7 @@ U&#380;ycie:</pre>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_414147436" ENDARROW="Default" ENDINCLINATION="163;0;" ID="Arrow_ID_677796176" SOURCE="ID_1389132856" STARTARROW="None" STARTINCLINATION="331;0;"/>
 </node>
 </node>
-<node CREATED="1574846109249" ID="ID_326552104" MODIFIED="1575536048716" POSITION="left" TEXT="Linki">
+<node CREATED="1574846109249" ID="ID_326552104" MODIFIED="1575647803149" POSITION="left" TEXT="Linki">
 <cloud COLOR="#cc99ff"/>
 <node CREATED="1574846113095" ID="ID_612735272" LINK="https://www.youtube.com/watch?v=wwi1wXOFaA8" MODIFIED="1575026493927" TEXT="Prezentacja po&#x15b;wi&#x119;cona TDD"/>
 <node CREATED="1574844439087" ID="ID_739718076" LINK="https://github.com/spring-projects/spring-boot/tree/master/spring-boot-project/spring-boot-starters" MODIFIED="1575026493927" TEXT="Spring boot kody na GitHub, lista starter&#xf3;w"/>
@@ -1603,6 +1605,7 @@ U&#380;ycie:</pre>
 <node CREATED="1575536048716" ID="ID_4581172" MODIFIED="1575536056795" TEXT="Rokuj&#x105;ce ale niezweryfikowane">
 <node CREATED="1575536059039" ID="ID_1917351331" LINK="https://github.com/rkmitra/eureka-zull" MODIFIED="1575536064048" TEXT="https://github.com/rkmitra/eureka-zull"/>
 </node>
+<node CREATED="1575647806406" ID="ID_1474126152" LINK="https://www.researchgate.net/publication/333719916_A_Blockchain-based_Scientific_Publishing_Platform" MODIFIED="1575647838982" TEXT="A Blockchain-based Scientific Publishing Platform"/>
 </node>
 <node CREATED="1574843125039" ID="ID_328884833" MODIFIED="1575026493927" POSITION="left" TEXT="Architektura">
 <cloud COLOR="#ccccff"/>
