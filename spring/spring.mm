@@ -3973,6 +3973,7 @@ Chainy publisher z jednego &#378;r&#243;d&#322;a mo&#380;e by&#263; sourcem w in
 <node CREATED="1575236679353" ID="ID_880661293" LINK="https://subscription.packtpub.com/book/application_development/9781787284951/1/ch01lvl1sec11/reactivity-use-cases" MODIFIED="1575236701988" TEXT="Reactivity use cases"/>
 <node CREATED="1575236941490" ID="ID_64342058" LINK="http://mdabrowski.net/spring-webflux-przykladowa-aplikacja/" MODIFIED="1575236953559" TEXT="Spring Webflux przyk&#x142;adowa aplikacja"/>
 <node CREATED="1575293794688" ID="ID_1930571052" LINK="https://allegro.tech/2019/07/migrating-microservice-to-spring-webflux.html" MODIFIED="1575293831360" TEXT="Migrating a microservice to Spring WebFlux"/>
+<node CREATED="1575843405574" ID="ID_178935502" LINK="https://www.journaldev.com/20763/spring-webflux-reactive-programming" MODIFIED="1575843422487" TEXT="Spring WebFlux &#x2013; Spring Reactive Programming"/>
 </node>
 <node CREATED="1575019120012" ID="ID_368808356" MODIFIED="1575032117108" POSITION="right" TEXT="Spring Data">
 <richcontent TYPE="NOTE"><html>
@@ -5155,8 +5156,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       <code>nc -zv localhost 27017</code>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1575636474933" ID="ID_373606800" LINK="https://stackoverflow.com/questions/5224811/mongodb-schema-design-for-blogs" MODIFIED="1575636493443" TEXT="MongoDB schema design for blogs"/>
 </node>
@@ -5181,8 +5181,7 @@ U&#380;ycie:</pre>
     <pre style="background-color: #ffffff; color: #000000; font-family: Courier New; font-size: 9,0pt"><font color="#000080"><b>public static </b></font>ComparationUnit getComparationUnit(Path filepath) {<br />    CompilationUnit unit = <font color="#000080"><b>null</b></font>;<br />    String pClassName = filepath.getFileName().toString().split(<font color="#008000"><b>&quot;</b></font><b><font color="#000080">\\</font><font color="#008000">.&quot;</font></b>)[<font color="#0000ff">0</font>];<br />    <font color="#000080"><b>try </b></font>{<br />        unit = StaticJavaParser.<i>parse</i>(Files.<i>newInputStream</i>(filepath));<br />    } <font color="#000080"><b>catch </b></font>(IOException e) {<br />        <font color="#000080"><b>throw new </b></font>IllegalArgumentException(e);<br />    }<br /><br />    Optional&lt;ComparationUnit&gt; classWrapper = <i>wrapClass</i>(unit.getClassByName(pClassName));<br />    Optional&lt;ComparationUnit&gt; intWrapper = <i>wrapClass</i>(unit.getInterfaceByName(pClassName));<br />    Optional&lt;ComparationUnit&gt; enumWrapper = <i>wrapEnum</i>(unit.getEnumByName(pClassName));<br /><br />    <font color="#000080"><b>return </b></font><i>or</i>(classWrapper, <i>or</i>(intWrapper, enumWrapper))<br />            .orElseThrow(() -&gt; <font color="#000080"><b>new </b></font>IllegalArgumentException(<font color="#008000"><b>&quot;Class not found!!!!&quot;</b></font>));<br />}<br /><br /><font color="#000080"><b>static </b></font>Optional&lt;ComparationUnit&gt; wrapClass(Optional&lt;ClassOrInterfaceDeclaration&gt; opt) {<br />    <font color="#000080"><b>return </b></font>opt.isPresent() ? Optional.<i>of</i>(<font color="#000080"><b>new </b></font>ClassInterfaceCU(opt.get())) : Optional.<i>empty</i>();<br />}<br /><br /><font color="#000080"><b>static </b></font>Optional&lt;ComparationUnit&gt; wrapEnum(Optional&lt;EnumDeclaration&gt; opt) {<br />    <font color="#000080"><b>return </b></font>opt.isPresent() ? Optional.<i>of</i>(<font color="#000080"><b>new </b></font>EnumCU(opt.get())) : Optional.<i>empty</i>();<br />}<br /><br /><font color="#000080"><b>static </b></font>&lt;<font color="#20999d">T</font>&gt; Optional&lt;<font color="#20999d">T</font>&gt; or(Optional&lt;<font color="#20999d">T</font>&gt; first, Optional&lt;<font color="#20999d">T</font>&gt; second) {<br />    <font color="#000080"><b>return </b></font>first.isPresent() ? first : second;<br />}</pre>
     <pre style="background-color: #ffffff; color: #000000; font-family: Courier New; font-size: 9,0pt"></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1575628086505" ID="ID_1324908798" MODIFIED="1575628232991" TEXT="Pobieranie pliku z Resources w testach (r&#xf3;&#x17c;nica Linux UNIX) (Illegal char &lt;:&gt; at index)">
 <richcontent TYPE="NOTE"><html>
@@ -5196,8 +5195,7 @@ Przed przetworzeniem na Path nale&#380;y przej&#347;&#263; przez URI, inaczej wp
 
 private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160; <font color="#000080"><b>try </b></font>{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#000080"><b>return&#160; </b></font>Paths.<i>get</i>(RepositoryConverterTestUtil.<font color="#000080"><b>class</b></font>.getClassLoader().getResource(pathStr).toURI());<br />&#160;&#160;&#160;&#160;} <font color="#000080"><b>catch </b></font>(URISyntaxException e) {<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#000080"><b>throw new </b></font>IllegalArgumentException(e);<br />&#160;&#160;&#160;&#160;}<br />}</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
