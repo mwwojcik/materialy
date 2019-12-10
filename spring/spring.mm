@@ -3041,7 +3041,7 @@ org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConf
 <node CREATED="1574972168126" ID="ID_1820144862" MODIFIED="1575026493927" TEXT="Konwencje mapowania URI"/>
 <node CREATED="1575036559415" ID="ID_1308287874" MODIFIED="1575036563410" TEXT="RestTemplate"/>
 </node>
-<node CREATED="1574843073919" ID="ID_813334677" MODIFIED="1575028193542" POSITION="right" TEXT="Programowanie reaktywne">
+<node CREATED="1574843073919" ID="ID_813334677" MODIFIED="1575882894066" POSITION="right" TEXT="Programowanie reaktywne">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3974,6 +3974,7 @@ Chainy publisher z jednego &#378;r&#243;d&#322;a mo&#380;e by&#263; sourcem w in
 <node CREATED="1575236941490" ID="ID_64342058" LINK="http://mdabrowski.net/spring-webflux-przykladowa-aplikacja/" MODIFIED="1575236953559" TEXT="Spring Webflux przyk&#x142;adowa aplikacja"/>
 <node CREATED="1575293794688" ID="ID_1930571052" LINK="https://allegro.tech/2019/07/migrating-microservice-to-spring-webflux.html" MODIFIED="1575293831360" TEXT="Migrating a microservice to Spring WebFlux"/>
 <node CREATED="1575843405574" ID="ID_178935502" LINK="https://www.journaldev.com/20763/spring-webflux-reactive-programming" MODIFIED="1575843422487" TEXT="Spring WebFlux &#x2013; Spring Reactive Programming"/>
+<node CREATED="1575882894070" ID="ID_1380097384" LINK="https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#webflux" MODIFIED="1575882909887" TEXT="Web on Reactive Stack - oficjalna dokumentacja"/>
 </node>
 <node CREATED="1575019120012" ID="ID_368808356" MODIFIED="1575032117108" POSITION="right" TEXT="Spring Data">
 <richcontent TYPE="NOTE"><html>
