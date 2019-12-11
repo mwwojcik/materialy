@@ -3204,8 +3204,7 @@ org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConf
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1574861867065" ID="ID_1882296978" MODIFIED="1574862208350" TEXT="Testy">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -3975,6 +3974,9 @@ Chainy publisher z jednego &#378;r&#243;d&#322;a mo&#380;e by&#263; sourcem w in
 <node CREATED="1575882894070" ID="ID_1380097384" LINK="https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#webflux" MODIFIED="1575882909887" TEXT="Web on Reactive Stack - oficjalna dokumentacja"/>
 <node CREATED="1576018356523" ID="ID_89036692" LINK="https://howtodoinjava.com/spring-webflux/spring-webflux-tutorial/" MODIFIED="1576018367639" TEXT="Spring-webflux-mongo-tutorial"/>
 <node CREATED="1576066615034" ID="ID_846356017" LINK="https://livebook.manning.com/book/mongodb-in-action-second-edition?origin=dashboard" MODIFIED="1576066628484" TEXT="MongoDB in Action"/>
+<node CREATED="1576101853199" ID="ID_1387243124" LINK="https://www.javaworld.com/article/3288219/mastering-spring-framework-5-part-2-spring-webflux.html" MODIFIED="1576101896047" TEXT="Mastering Spring framework 5, Part 2: Spring WebFlux">
+<icon BUILTIN="messagebox_warning"/>
+</node>
 </node>
 <node CREATED="1575019120012" ID="ID_368808356" MODIFIED="1575032117108" POSITION="right" TEXT="Spring Data">
 <richcontent TYPE="NOTE"><html>
@@ -5160,6 +5162,17 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
 </html></richcontent>
 </node>
 <node CREATED="1575636474933" ID="ID_373606800" LINK="https://stackoverflow.com/questions/5224811/mongodb-schema-design-for-blogs" MODIFIED="1575636493443" TEXT="MongoDB schema design for blogs"/>
+<node CREATED="1576105549158" ID="ID_1003934614" LINK="https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mongo.reactive.driver" MODIFIED="1576105584362" TEXT="https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mongo.reactive.driver">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Source Code Pro; font-size: 9,8pt"><font color="#000080"><b>spring.data.mongodb.uri</b></font>=<font color="#008000"><b>mongodb://root:root@10.22.33.78:27017/books</b></font></pre>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1575180593342" ID="ID_392161624" MODIFIED="1575180615514" POSITION="left" TEXT="RabbitMQ">
 <cloud COLOR="#66cc00"/>
@@ -5206,8 +5219,7 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
   <body>
     <pre style="background-color: #ffffff; color: #000000; font-family: Courier New; font-size: 9,0pt"><font color="#808000">@Value</font>(<font color="#008000"><b>&quot;#{'${otherModelRoot}'.split(',')}&quot;</b></font>)<br /><font color="#000080"><b>private </b></font>List&lt;Path&gt; <font color="#660e7a"><b>otherModelRoot</b></font>;</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
