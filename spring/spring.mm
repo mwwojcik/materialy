@@ -3146,7 +3146,7 @@ org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConf
 </html></richcontent>
 <arrowlink DESTINATION="ID_1420432324" ENDARROW="Default" ENDINCLINATION="956;73;" ID="Arrow_ID_602685065" STARTARROW="None" STARTINCLINATION="1597;452;"/>
 </node>
-<node CREATED="1574859581218" ID="ID_312242938" MODIFIED="1574868662775" TEXT="Reactor i WebFlux">
+<node CREATED="1574859581218" ID="ID_312242938" MODIFIED="1576060174954" TEXT="Reactor i WebFlux">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3203,11 +3203,9 @@ org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConf
     <p>
       
     </p>
-    <p>
-      
-    </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <node CREATED="1574861867065" ID="ID_1882296978" MODIFIED="1574862208350" TEXT="Testy">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -3976,6 +3974,7 @@ Chainy publisher z jednego &#378;r&#243;d&#322;a mo&#380;e by&#263; sourcem w in
 <node CREATED="1575843405574" ID="ID_178935502" LINK="https://www.journaldev.com/20763/spring-webflux-reactive-programming" MODIFIED="1575843422487" TEXT="Spring WebFlux &#x2013; Spring Reactive Programming"/>
 <node CREATED="1575882894070" ID="ID_1380097384" LINK="https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#webflux" MODIFIED="1575882909887" TEXT="Web on Reactive Stack - oficjalna dokumentacja"/>
 <node CREATED="1576018356523" ID="ID_89036692" LINK="https://howtodoinjava.com/spring-webflux/spring-webflux-tutorial/" MODIFIED="1576018367639" TEXT="Spring-webflux-mongo-tutorial"/>
+<node CREATED="1576066615034" ID="ID_846356017" LINK="https://livebook.manning.com/book/mongodb-in-action-second-edition?origin=dashboard" MODIFIED="1576066628484" TEXT="MongoDB in Action"/>
 </node>
 <node CREATED="1575019120012" ID="ID_368808356" MODIFIED="1575032117108" POSITION="right" TEXT="Spring Data">
 <richcontent TYPE="NOTE"><html>
@@ -5198,6 +5197,17 @@ Przed przetworzeniem na Path nale&#380;y przej&#347;&#263; przez URI, inaczej wp
 private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160; <font color="#000080"><b>try </b></font>{<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#000080"><b>return&#160; </b></font>Paths.<i>get</i>(RepositoryConverterTestUtil.<font color="#000080"><b>class</b></font>.getClassLoader().getResource(pathStr).toURI());<br />&#160;&#160;&#160;&#160;} <font color="#000080"><b>catch </b></font>(URISyntaxException e) {<br />&#160;&#160;&#160;&#160;&#160;&#160;&#160; <font color="#000080"><b>throw new </b></font>IllegalArgumentException(e);<br />&#160;&#160;&#160;&#160;}<br />}</pre>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1576065592083" ID="ID_1203116356" MODIFIED="1576065618286" TEXT="Wstrzykiwanie spring boot properties do listy warto&#x15b;ci">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Courier New; font-size: 9,0pt"><font color="#808000">@Value</font>(<font color="#008000"><b>&quot;#{'${otherModelRoot}'.split(',')}&quot;</b></font>)<br /><font color="#000080"><b>private </b></font>List&lt;Path&gt; <font color="#660e7a"><b>otherModelRoot</b></font>;</pre>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
