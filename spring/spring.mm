@@ -2041,6 +2041,21 @@ U&#380;ycie:</pre>
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1576538549982" ID="ID_211928443" LINK="https://c4model.com/" MODIFIED="1576538580285" TEXT="Diagramy architektoniczne C4">
+<node CREATED="1576538581660" ID="ID_1854626181" LINK="C4-PlantUML " MODIFIED="1576538687615" TEXT="Darmowe narz&#x119;dzie PlantUML">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font face="monospace" color="#000000">java -jar plantuml.jar test.pluml</font><font face="monospace"><br /></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 <node CREATED="1574843235419" ID="ID_125913200" MODIFIED="1575065349829" POSITION="left" TEXT="Spring Boot i dobre praktyki konfiguracji">
 <richcontent TYPE="NOTE"><html>
@@ -5162,7 +5177,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
 </html></richcontent>
 </node>
 <node CREATED="1575636474933" ID="ID_373606800" LINK="https://stackoverflow.com/questions/5224811/mongodb-schema-design-for-blogs" MODIFIED="1575636493443" TEXT="MongoDB schema design for blogs"/>
-<node CREATED="1576105549158" ID="ID_1003934614" LINK="https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mongo.reactive.driver" MODIFIED="1576105584362" TEXT="https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mongo.reactive.driver">
+<node CREATED="1576105549158" ID="ID_1003934614" LINK="https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mongo.reactive.driver" MODIFIED="1576405386070" TEXT="https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mongo.reactive.driver">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -5170,9 +5185,9 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
   <body>
     <pre style="background-color: #ffffff; color: #000000; font-family: Source Code Pro; font-size: 9,8pt"><font color="#000080"><b>spring.data.mongodb.uri</b></font>=<font color="#008000"><b>mongodb://root:root@10.22.33.78:27017/books</b></font></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
+<node CREATED="1576405406289" ID="ID_1213380238" LINK="https://www.youtube.com/watch?v=ILBX9fa9aJo&amp;t=1387s" MODIFIED="1576405436872" TEXT="WJUG #211 - Modularity and hexagonal architecture in real life: Jakub Nabrdalik"/>
 </node>
 <node CREATED="1575180593342" ID="ID_392161624" MODIFIED="1575180615514" POSITION="left" TEXT="RabbitMQ">
 <cloud COLOR="#66cc00"/>
