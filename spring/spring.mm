@@ -2042,7 +2042,7 @@ U&#380;ycie:</pre>
 </html></richcontent>
 </node>
 <node CREATED="1576538549982" ID="ID_211928443" LINK="https://c4model.com/" MODIFIED="1576538580285" TEXT="Diagramy architektoniczne C4">
-<node CREATED="1576538581660" ID="ID_1854626181" LINK="C4-PlantUML " MODIFIED="1576538687615" TEXT="Darmowe narz&#x119;dzie PlantUML">
+<node CREATED="1576538581660" ID="ID_1854626181" LINK="https://plantuml.com/" MODIFIED="1576614579885" TEXT="Darmowe narz&#x119;dzie PlantUML">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2052,9 +2052,13 @@ U&#380;ycie:</pre>
       <font face="monospace" color="#000000">java -jar plantuml.jar test.pluml</font><font face="monospace"><br /></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
+<node CREATED="1576614524886" ID="ID_836636715" LINK="https://github.com/RicardoNiepel/C4-PlantUML" MODIFIED="1576614538564" TEXT="C4-PlantUML "/>
+<node CREATED="1576616029656" ID="ID_1725154101" LINK="https://github.com/RicardoNiepel/C4-PlantUML/blob/master/samples/C4CoreDiagrams.md" MODIFIED="1576616047352" TEXT="C4 Plant UML - Core diagram samples"/>
+<node CREATED="1576616131578" ID="ID_1942898174" LINK="https://real-world-plantuml.com/" MODIFIED="1576616158385" TEXT="Real world PlantUML"/>
+<node CREATED="1576616184412" ID="ID_805424823" LINK="https://structurizr.com/express?src=/static/express/bigbankplc/dynamic.json" MODIFIED="1576616212330" TEXT="Structuriz - samples - Dynamic diagram C4"/>
+<node CREATED="1576616333109" ID="ID_1423966078" LINK="http://blog.fis-sst.pl/2019/03/04/model-c4-czyli-cztery-kroki-do-udokumentowania-architektury-oprogramowania/" MODIFIED="1576616352936" TEXT="Model C4, czyli cztery kroki do udokumentowania architektury oprogramowania"/>
 </node>
 </node>
 <node CREATED="1574843235419" ID="ID_125913200" MODIFIED="1575065349829" POSITION="left" TEXT="Spring Boot i dobre praktyki konfiguracji">
