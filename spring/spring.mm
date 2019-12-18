@@ -3996,6 +3996,7 @@ Chainy publisher z jednego &#378;r&#243;d&#322;a mo&#380;e by&#263; sourcem w in
 <node CREATED="1576101853199" ID="ID_1387243124" LINK="https://www.javaworld.com/article/3288219/mastering-spring-framework-5-part-2-spring-webflux.html" MODIFIED="1576101896047" TEXT="Mastering Spring framework 5, Part 2: Spring WebFlux">
 <icon BUILTIN="messagebox_warning"/>
 </node>
+<node CREATED="1576709514822" ID="ID_673124659" LINK="https://www.callicoder.com/spring-5-reactive-webclient-webtestclient-examples/" MODIFIED="1576709524063" TEXT="https://www.callicoder.com/spring-5-reactive-webclient-webtestclient-examples/"/>
 </node>
 <node CREATED="1575019120012" ID="ID_368808356" MODIFIED="1575032117108" POSITION="right" TEXT="Spring Data">
 <richcontent TYPE="NOTE"><html>
