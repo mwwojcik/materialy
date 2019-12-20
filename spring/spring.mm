@@ -2059,6 +2059,7 @@ U&#380;ycie:</pre>
 <node CREATED="1576616131578" ID="ID_1942898174" LINK="https://real-world-plantuml.com/" MODIFIED="1576616158385" TEXT="Real world PlantUML"/>
 <node CREATED="1576616184412" ID="ID_805424823" LINK="https://structurizr.com/express?src=/static/express/bigbankplc/dynamic.json" MODIFIED="1576616212330" TEXT="Structuriz - samples - Dynamic diagram C4"/>
 <node CREATED="1576616333109" ID="ID_1423966078" LINK="http://blog.fis-sst.pl/2019/03/04/model-c4-czyli-cztery-kroki-do-udokumentowania-architektury-oprogramowania/" MODIFIED="1576616352936" TEXT="Model C4, czyli cztery kroki do udokumentowania architektury oprogramowania"/>
+<node CREATED="1576681803197" ID="ID_1886526509" LINK="https://plantuml-documentation.readthedocs.io/en/latest/diagrams/usecase.html" MODIFIED="1576681822469" TEXT="Use case diagram PlantUML "/>
 </node>
 </node>
 <node CREATED="1574843235419" ID="ID_125913200" MODIFIED="1575065349829" POSITION="left" TEXT="Spring Boot i dobre praktyki konfiguracji">
@@ -3060,7 +3061,7 @@ org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConf
 <node CREATED="1574972168126" ID="ID_1820144862" MODIFIED="1575026493927" TEXT="Konwencje mapowania URI"/>
 <node CREATED="1575036559415" ID="ID_1308287874" MODIFIED="1575036563410" TEXT="RestTemplate"/>
 </node>
-<node CREATED="1574843073919" ID="ID_813334677" MODIFIED="1575882894066" POSITION="right" TEXT="Programowanie reaktywne">
+<node CREATED="1574843073919" ID="ID_813334677" MODIFIED="1576660478921" POSITION="right" TEXT="Programowanie reaktywne">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -3105,7 +3106,8 @@ org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConf
       </li>
     </ul>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 <cloud COLOR="#ffcccc"/>
 <node CREATED="1574853583555" ID="ID_1678386152" LINK="https://github.com/mikewojtyna/efficient-java/blob/master/src/main/java/pro/buildmysoftware/efficientjava/newio/server/EchoServer.java" MODIFIED="1574859185982" TEXT="Standardowa obs&#x142;uga &#x17c;&#x105;dania">
 <richcontent TYPE="NOTE"><html>
@@ -5241,6 +5243,7 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1576669417215" ID="ID_1839894487" LINK=" https://devhints.io/bash" MODIFIED="1576669442440" TEXT="Repozytorium snippet&#xf3;w - bash i inne"/>
 </node>
 </node>
 </map>

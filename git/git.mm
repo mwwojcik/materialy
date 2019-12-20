@@ -929,7 +929,7 @@
 </node>
 </node>
 </node>
-<node CREATED="1517473875896" ID="ID_751435581" MODIFIED="1571922849119" POSITION="right" TEXT="Podpowiedzi">
+<node CREATED="1517473875896" ID="ID_751435581" MODIFIED="1576667276501" POSITION="right" TEXT="Podpowiedzi">
 <cloud COLOR="#ffffcc"/>
 <node CREATED="1517473932122" ID="ID_671322508" MODIFIED="1559304665264" TEXT="git pull-pull z ca&#x142;kowitym zast&#x105;pieniem plik&#xf3;w lokalnych">
 <richcontent TYPE="NOTE"><html>
@@ -1371,7 +1371,7 @@ https://stackoverflow.com/questions/4811434/clone-only-one-branch?utm_medium=org
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1535456008011" ID="ID_1290428286" MODIFIED="1575275484376" TEXT="Wy&#x15b;wietlanie listy plik&#xf3;w wys&#x142;anych w danym commicie">
+<node CREATED="1535456008011" ID="ID_1290428286" MODIFIED="1575878643954" TEXT="Wy&#x15b;wietlanie listy plik&#xf3;w wys&#x142;anych w danym commicie">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1520,6 +1520,83 @@ https://stackoverflow.com/questions/8225125/remove-last-commit-from-remote-git-r
     <pre><code>git diff --name-only --cached</code></pre>
   </body>
 </html></richcontent>
+</node>
+<node CREATED="1576666973832" ID="ID_1044548283" MODIFIED="1576667006985" TEXT="Zresetowanie commita inicjalnego">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre><code>git update-ref -d HEAD</code></pre>
+    <p>
+      https://stackoverflow.com/questions/6632191/how-to-revert-initial-git-commit
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1576667073910" ID="ID_543502192" MODIFIED="1576667091758" TEXT="Wycofanie ostatniego commita z lokalnego repo">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="js-vote-count grid--cell fc-black-500 fs-title grid fd-column ai-center" itemprop="upvoteCount" data-value="193">
+      
+    </div>
+    <div class="js-accepted-answer-indicator grid--cell fc-green-500 ta-center py4" title="The question owner accepted this as the best answer Feb 11 '11 at 15:30." tabindex="0" role="note" aria-label="accepted">
+      <svg aria-hidden="true" class="svg-icon iconCheckmarkLg" width="36" height="36" viewbox="0 0 36 36">
+      </svg>
+      
+    </div>
+    <div class="post-text" itemprop="text">
+      <p>
+        The below <em>ORIGINAL</em>&#160;answer is what I thought the <em>OP</em>&#160;was looking for.
+      </p>
+      <p>
+        Although, per a helpful comment from @ChrisNevill, the original answer may not be what <em>YOU</em>&#160;are looking for, and I've updated the answer to clarify.
+      </p>
+      <p>
+        <strong>Nota Bene</strong>&#160;- <em>Destructive commands ahead.</em>
+      </p>
+      <p>
+        <strong>Mitigation to Caveat Emptor</strong>&#160;- <code>git reflog</code>&#160;<em>can save you if you need it.</em>
+      </p>
+      <hr />
+      
+
+      <p>
+        <strong>&#8594; UPDATED ANSWER</strong>
+      </p>
+      <p>
+        1) <strong>UNDO</strong>&#160;local file changes but <strong>NOT REMOVE</strong>&#160;your last commit
+      </p>
+      <pre><code>git reset --hard</code></pre>
+      <p>
+        2) <strong>UNDO</strong>&#160;local file changes <strong>AND REMOVE</strong>&#160;your last commit
+      </p>
+      <pre><code>git reset --hard HEAD^</code></pre>
+      <p>
+        3) <strong>KEEP</strong>&#160;local file changes and <strong>REMOVE ONLY</strong>&#160;your last commit
+      </p>
+      <pre><code>git reset --soft HEAD^</code></pre>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1576667276502" ID="ID_846790281" MODIFIED="1576667288235" TEXT="Wyczyszczenie stagging area">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;git rm --cached krus-ea2wsdl-plugin_v003 -r
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node CREATED="1518253670253" ID="ID_956937492" MODIFIED="1518253772083" POSITION="right" TEXT="Praca r&#xf3;wnoleg&#x142;a">
