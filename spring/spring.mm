@@ -1548,7 +1548,6 @@ U&#380;ycie:</pre>
 <node CREATED="1574846113095" ID="ID_612735272" LINK="https://www.youtube.com/watch?v=wwi1wXOFaA8" MODIFIED="1575026493927" TEXT="Prezentacja po&#x15b;wi&#x119;cona TDD"/>
 <node CREATED="1574844439087" ID="ID_739718076" LINK="https://github.com/spring-projects/spring-boot/tree/master/spring-boot-project/spring-boot-starters" MODIFIED="1575026493927" TEXT="Spring boot kody na GitHub, lista starter&#xf3;w"/>
 <node CREATED="1574848630256" ID="ID_1657360382" LINK="http://www.querydsl.com/" MODIFIED="1575026493927" TEXT="QueryDSL"/>
-<node CREATED="1574853033040" ID="ID_1935823768" LINK="https://github.com/ddd-by-examples/library" MODIFIED="1575040547557" TEXT="DDD by Examples(library)"/>
 <node CREATED="1574859554859" ID="ID_1647435931" LINK="https://medium.com/olivers-tech-blog/profiling-with-java-agents-part-1-a-hello-world-example-d5531189c418" MODIFIED="1575026493927" TEXT="Java agent (AOP)"/>
 <node CREATED="1574861009343" ID="ID_897775662" MODIFIED="1575026493927" TEXT="Reaktywne">
 <node CREATED="1574853721580" ID="ID_263345616" LINK="https://www.reactivemanifesto.org/" MODIFIED="1575026493927" TEXT="Manifest programowania reaktywnego"/>
@@ -1607,9 +1606,9 @@ U&#380;ycie:</pre>
 </node>
 <node CREATED="1575647806406" ID="ID_1474126152" LINK="https://www.researchgate.net/publication/333719916_A_Blockchain-based_Scientific_Publishing_Platform" MODIFIED="1575647838982" TEXT="A Blockchain-based Scientific Publishing Platform"/>
 </node>
-<node CREATED="1574843125039" ID="ID_328884833" MODIFIED="1575026493927" POSITION="left" TEXT="Architektura">
+<node CREATED="1574843125039" ID="ID_328884833" MODIFIED="1577096755126" POSITION="left" TEXT="Architektura">
 <cloud COLOR="#ccccff"/>
-<node CREATED="1574841559632" ID="ID_1984439955" MODIFIED="1575032995437" TEXT="Domain Driven Design">
+<node CREATED="1574841559632" ID="ID_1984439955" MODIFIED="1577112948379" TEXT="Domain Driven Design">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1872,6 +1871,8 @@ U&#380;ycie:</pre>
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1574853033040" ID="ID_1935823768" LINK="https://github.com/ddd-by-examples/library" MODIFIED="1577097196913" TEXT="DDD by Examples(library) - kompleksowy przyk&#x142;ad od event stormingu do realnie dzia&#x142;aj&#x105;cej implementacji"/>
+<node CREATED="1577112948380" ID="ID_1000013420" LINK="https://eventmodeling.org/posts/what-is-event-modeling/" MODIFIED="1577112960948" TEXT="Event modelling"/>
 </node>
 <node CREATED="1574780218589" ID="ID_1502084458" MODIFIED="1575038211338" TEXT="Architektura Ports - Adapters (Hexagonalna)">
 <richcontent TYPE="NOTE"><html>
@@ -2061,6 +2062,13 @@ U&#380;ycie:</pre>
 <node CREATED="1576616333109" ID="ID_1423966078" LINK="http://blog.fis-sst.pl/2019/03/04/model-c4-czyli-cztery-kroki-do-udokumentowania-architektury-oprogramowania/" MODIFIED="1576616352936" TEXT="Model C4, czyli cztery kroki do udokumentowania architektury oprogramowania"/>
 <node CREATED="1576681803197" ID="ID_1886526509" LINK="https://plantuml-documentation.readthedocs.io/en/latest/diagrams/usecase.html" MODIFIED="1576681822469" TEXT="Use case diagram PlantUML "/>
 </node>
+<node CREATED="1577096755127" ID="ID_289344810" MODIFIED="1577096838746" TEXT="Ciekawa polecana literatura">
+<node CREATED="1577096820668" ID="ID_226863221" LINK="https://www.amazon.com/o/asin/0321200683/ref=nosim/enterpriseint-20" MODIFIED="1577096842239" TEXT="Enterprise Integration Patterns"/>
+<node CREATED="1577096878891" ID="ID_220108883" LINK="https://leanpub.com/esversioning" MODIFIED="1577096905178" TEXT="Versioning in an Event Sourced System"/>
+<node CREATED="1577096953178" ID="ID_795813763" LINK="https://martinfowler.com/tags/" MODIFIED="1577096971329" TEXT="Ogromna baza wiedzy- blog Martin Fowler"/>
+<node CREATED="1577097057551" ID="ID_1545933782" LINK="https://www.amazon.com/dp/0321834577/ref=emc_b_5_i" MODIFIED="1577097072743" TEXT="Implementing Domain-Driven Design"/>
+</node>
+<node CREATED="1577114632410" ID="ID_561333697" LINK="https://www.youtube.com/watch?v=fV-TnFL9RWA" MODIFIED="1577114694791" TEXT="Think in events - prezentacja - case study, kafka, events DDD"/>
 </node>
 <node CREATED="1574843235419" ID="ID_125913200" MODIFIED="1575065349829" POSITION="left" TEXT="Spring Boot i dobre praktyki konfiguracji">
 <richcontent TYPE="NOTE"><html>
@@ -3106,8 +3114,7 @@ org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConf
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <cloud COLOR="#ffcccc"/>
 <node CREATED="1574853583555" ID="ID_1678386152" LINK="https://github.com/mikewojtyna/efficient-java/blob/master/src/main/java/pro/buildmysoftware/efficientjava/newio/server/EchoServer.java" MODIFIED="1574859185982" TEXT="Standardowa obs&#x142;uga &#x17c;&#x105;dania">
 <richcontent TYPE="NOTE"><html>
