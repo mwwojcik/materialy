@@ -1548,7 +1548,6 @@ U&#380;ycie:</pre>
 <node CREATED="1574846113095" ID="ID_612735272" LINK="https://www.youtube.com/watch?v=wwi1wXOFaA8" MODIFIED="1575026493927" TEXT="Prezentacja po&#x15b;wi&#x119;cona TDD"/>
 <node CREATED="1574844439087" ID="ID_739718076" LINK="https://github.com/spring-projects/spring-boot/tree/master/spring-boot-project/spring-boot-starters" MODIFIED="1575026493927" TEXT="Spring boot kody na GitHub, lista starter&#xf3;w"/>
 <node CREATED="1574848630256" ID="ID_1657360382" LINK="http://www.querydsl.com/" MODIFIED="1575026493927" TEXT="QueryDSL"/>
-<node CREATED="1574853033040" ID="ID_1935823768" LINK="https://github.com/ddd-by-examples/library" MODIFIED="1575040547557" TEXT="DDD by Examples(library)"/>
 <node CREATED="1574859554859" ID="ID_1647435931" LINK="https://medium.com/olivers-tech-blog/profiling-with-java-agents-part-1-a-hello-world-example-d5531189c418" MODIFIED="1575026493927" TEXT="Java agent (AOP)"/>
 <node CREATED="1574861009343" ID="ID_897775662" MODIFIED="1575026493927" TEXT="Reaktywne">
 <node CREATED="1574853721580" ID="ID_263345616" LINK="https://www.reactivemanifesto.org/" MODIFIED="1575026493927" TEXT="Manifest programowania reaktywnego"/>
@@ -1607,9 +1606,9 @@ U&#380;ycie:</pre>
 </node>
 <node CREATED="1575647806406" ID="ID_1474126152" LINK="https://www.researchgate.net/publication/333719916_A_Blockchain-based_Scientific_Publishing_Platform" MODIFIED="1575647838982" TEXT="A Blockchain-based Scientific Publishing Platform"/>
 </node>
-<node CREATED="1574843125039" ID="ID_328884833" MODIFIED="1575026493927" POSITION="left" TEXT="Architektura">
+<node CREATED="1574843125039" ID="ID_328884833" MODIFIED="1577096755126" POSITION="left" TEXT="Architektura">
 <cloud COLOR="#ccccff"/>
-<node CREATED="1574841559632" ID="ID_1984439955" MODIFIED="1575032995437" TEXT="Domain Driven Design">
+<node CREATED="1574841559632" ID="ID_1984439955" MODIFIED="1577112948379" TEXT="Domain Driven Design">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1872,6 +1871,8 @@ U&#380;ycie:</pre>
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1574853033040" ID="ID_1935823768" LINK="https://github.com/ddd-by-examples/library" MODIFIED="1577097196913" TEXT="DDD by Examples(library) - kompleksowy przyk&#x142;ad od event stormingu do realnie dzia&#x142;aj&#x105;cej implementacji"/>
+<node CREATED="1577112948380" ID="ID_1000013420" LINK="https://eventmodeling.org/posts/what-is-event-modeling/" MODIFIED="1577112960948" TEXT="Event modelling"/>
 </node>
 <node CREATED="1574780218589" ID="ID_1502084458" MODIFIED="1575038211338" TEXT="Architektura Ports - Adapters (Hexagonalna)">
 <richcontent TYPE="NOTE"><html>
