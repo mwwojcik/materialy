@@ -1928,7 +1928,7 @@ U&#380;ycie:</pre>
 </node>
 </node>
 <node CREATED="1575037139955" ID="ID_1330181442" LINK="https://bulldogjob.pl/news/732-clean-architecture-z-java-11" MODIFIED="1575037172113" TEXT="Architektura Clean Architecture (pokrewna do hexagonalnej)"/>
-<node CREATED="1574846378166" ID="ID_37503193" MODIFIED="1575026493927" TEXT=" Preferowany spos&#xf3;b konteneryzacji to ma&#x142;y kontener np tomcat, wrzucony na Dockera i zarz&#x105;dzany Qubernetesem)."/>
+<node CREATED="1574846378166" ID="ID_37503193" MODIFIED="1577313969223" TEXT=" Preferowany spos&#xf3;b konteneryzacji to ma&#x142;y kontener np tomcat, wrzucony na Dockera i zarz&#x105;dzany Kubernates)."/>
 <node CREATED="1574946943219" ID="ID_704874938" MODIFIED="1575026493927" TEXT="JPMS(JIGSAW, Java Modules) ">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2061,6 +2061,1002 @@ U&#380;ycie:</pre>
 <node CREATED="1576616333109" ID="ID_1423966078" LINK="http://blog.fis-sst.pl/2019/03/04/model-c4-czyli-cztery-kroki-do-udokumentowania-architektury-oprogramowania/" MODIFIED="1576616352936" TEXT="Model C4, czyli cztery kroki do udokumentowania architektury oprogramowania"/>
 <node CREATED="1576681803197" ID="ID_1886526509" LINK="https://plantuml-documentation.readthedocs.io/en/latest/diagrams/usecase.html" MODIFIED="1576681822469" TEXT="Use case diagram PlantUML "/>
 </node>
+<node CREATED="1577301385773" ID="ID_952203775" LINK="https://martinfowler.com/tags/domain%20driven%20design.html" MODIFIED="1577301412186" TEXT="domain driven design - Martin Fowler"/>
+<node CREATED="1576405406289" ID="ID_1213380238" LINK="https://www.youtube.com/watch?v=ILBX9fa9aJo&amp;t=1387s" MODIFIED="1576405436872" TEXT="WJUG #211 - Modularity and hexagonal architecture in real life: Jakub Nabrdalik">
+<node CREATED="1577314169312" ID="ID_1873600281" LINK="https://github.com/jakubnabrdalik/hentai" MODIFIED="1577314181014" TEXT="Repozytorium prezentacji"/>
+<node CREATED="1577314235671" ID="ID_1476719608" MODIFIED="1577315013508" TEXT="Kolejne kroki realizacji sytemu BDD/DDD">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <h1 http-equiv="content-type" content="text/html; charset=utf-8">
+      Example of Hexagonal architecture with high cohesion modularization, CQRS and fast BDD tests in Java
+    </h1>
+    <p>
+      This repo is an example of Hexagonal architecture with sensible modularization on a package level, that provides high cohesion, low coupling, and allows for Behaviour Driven Development that has
+    </p>
+    <ul>
+      <li>
+        allows for most tests to be run in milliseconds (unit tests without IO)
+      </li>
+      <li>
+        while at the same time not falling into the trap of testing INTERNALS of a module (no test-per-class mistake)
+      </li>
+      <li>
+        tests that focus on behaviour of each module (refactoring does not require changing test)
+      </li>
+      <li>
+        just enough intergration/acceptance tests with focus on performance (minimum waiting for tests to pass)
+      </li>
+      <li>
+        tests that describe requirements (living documentation)
+      </li>
+      <li>
+        modules that have high cohesion (everything hidden except for APIs) and low coupling (modules connected via their APIs
+      </li>
+      <li>
+        easy to explain, understand and follow
+      </li>
+    </ul>
+    <p>
+      This example follows the type of code I write at work on a daily basis. So while this is an artificial example, all the rules and architecture approach are the effect of what works for my teams in real life projects.
+    </p>
+    <p>
+      I use this project to teach Behaviour Driven Development, Domain Driven Design, Command Query Responsibility Segregation and to show Spring live-coding.
+    </p>
+    <p>
+      Pull requests are welcome.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1577314126713" ID="ID_332033908" MODIFIED="1577314234372" TEXT="Krok1: Zebranie wymaga&#x144; systemu">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <h1 http-equiv="content-type" content="text/html; charset=utf-8">
+      The problem
+    </h1>
+    <p>
+      Each project starst with a problem, from which we get a set of requirements. Here I'm using a task I once received as a homework from a company, that wanted to asses new candidates.
+    </p>
+    <h2>
+      <a id="user-content-project--video-rental-store" class="anchor" aria-hidden="true" href="https://github.com/jakubnabrdalik/hentai#project--video-rental-store"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+      </svg>
+      </a>
+    </h2>
+    <h2>
+      Project &#8211; Video rental store
+    </h2>
+    <p>
+      For a video rental store we want to create a system for managing the rental administration. We want three primary functions.
+    </p>
+    <ul>
+      <li>
+        Have an inventory of films
+      </li>
+      <li>
+        Calculate the price for rentals
+      </li>
+      <li>
+        Keep track of the customers &#8220;bonus&#8221; points
+      </li>
+    </ul>
+    <h2>
+      <a id="user-content-price" class="anchor" aria-hidden="true" href="https://github.com/jakubnabrdalik/hentai#price"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+      </svg>
+      </a>
+    </h2>
+    <h2>
+      Price
+    </h2>
+    <p>
+      The price of rentals is based type of film rented and how many days the film is rented for. The customers say when renting for how many days they want to rent for and pay up front. If the film is returned late, then rent for the extra days is charged when returning.
+    </p>
+    <h2>
+      <a id="user-content-film-types" class="anchor" aria-hidden="true" href="https://github.com/jakubnabrdalik/hentai#film-types"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+      </svg>
+      </a>
+    </h2>
+    <h2>
+      Film types
+    </h2>
+    <p>
+      The store has three types of films.
+    </p>
+    <ul>
+      <li>
+        New releases &#8211; Price is times number of days rented.
+      </li>
+      <li>
+        Regular films &#8211; Price is for the fist 3 days and then times the number of days over 3.
+      </li>
+      <li>
+        Old film - Price is for the fist 5 days and then times the number of days over 5
+      </li>
+    </ul>
+    <p>
+      is 40 SEK is 30 SEK
+    </p>
+    <p>
+      The program should expose a rest-ish HTTP API. The API should (at least) expose operations for
+    </p>
+    <ul>
+      <li>
+        Renting one or several films and calculating the price.
+      </li>
+      <li>
+        Returning films and calculating possible surcharges.
+      </li>
+    </ul>
+    <h2>
+      <a id="user-content-examples-of-price-calculations" class="anchor" aria-hidden="true" href="https://github.com/jakubnabrdalik/hentai#examples-of-price-calculations"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+      </svg>
+      </a>
+    </h2>
+    <h2>
+      Examples of price calculations
+    </h2>
+    <p>
+      Matrix 11 (New release) 1 days 40 SEK Spider Man (Regular rental) 5 days 90 SEK Spider Man 2 (Regular rental) 2 days 30 SEK Out of Africa (Old film) 7 days 90 SEK Total price: 250 SEK
+    </p>
+    <p>
+      When returning films late Matrix 11 (New release) 2 extra days 80 SEK Spider Man (Regular rental) 1 days 30 SEK Total late charge: 110 SEK
+    </p>
+    <h2>
+      <a id="user-content-bonus-points" class="anchor" aria-hidden="true" href="https://github.com/jakubnabrdalik/hentai#bonus-points"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+      </svg>
+      </a>
+    </h2>
+    <h2>
+      Bonus points
+    </h2>
+    <p>
+      Customers get bonus points when renting films. A new release gives 2 points and other films give one point per rental (regardless of the time rented).
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1577314260925" ID="ID_1950825021" MODIFIED="1577314590236" TEXT="Krok2: Zdefiniowanie szkieletu testu akceptacyjnego">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <h1 http-equiv="content-type" content="text/html; charset=utf-8">
+      <font size="3">Po etapie zebrania wymaga&#324; w postaci s&#322;ownomuzycznej tworzymy pozytywny scenariusz testowy dla naszej aplikacji. </font>
+    </h1>
+    <h1 http-equiv="content-type" content="text/html; charset=utf-8">
+      <font size="3">Mamy wymagania, trzeba sprawdzi&#263;. Optymistyczny scenariusz, &#380;adnych corner case, scenariusz zostanie odpalony na ca&#322;ej aplikacji i sprawdza czy on przechodzi, m&#243;wi czy aplikacja dzia&#322;a. </font>
+    </h1>
+    <h1 http-equiv="content-type" content="text/html; charset=utf-8">
+      
+    </h1>
+    <h1 http-equiv="content-type" content="text/html; charset=utf-8">
+      Acceptance specifications
+    </h1>
+    <p>
+      After gathering a problem description in a natural language, the next step is to crete Specifications for our project. That is, to split our requirements into a set of scenarios that describe the behaviour of a system.
+    </p>
+    <p>
+      Years ago this used to be done using Use Cases. Later on, the industry simplified this to user stories, and now we follow the best practices of BDD. For this very simple project, we can create one main happy path specification. If this specification is implemented, our project brings money.
+    </p>
+    <h2>
+      <a id="user-content-happy-path-scenario" class="anchor" aria-hidden="true" href="https://github.com/jakubnabrdalik/hentai#happy-path-scenario"><svg class="octicon octicon-link" viewbox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">
+      </svg>
+      </a>
+    </h2>
+    <h2>
+      Happy path scenario:
+    </h2>
+    <p>
+      As a hipster-deviant, to satisfy my weird desires, I want to:
+    </p>
+    <p>
+      given inventory has an old film &quot;American Clingon Bondage&quot; and a new release of &quot;50 shades of Trumpet&quot;
+    </p>
+    <p>
+      when I go to /films then I see both films
+    </p>
+    <p>
+      when I go to /points then I see I have no points
+    </p>
+    <p>
+      when I post to /calculate with both films for 3 days then I can see it will cost me 120 SEK for Trumpet and 90 SEK for Clingon
+    </p>
+    <p>
+      when I post to /rent with both firms for 3 days then I have rented both movies
+    </p>
+    <p>
+      when I go to /rent then I see both movies are rented
+    </p>
+    <p>
+      when I go to /points then I see I have 3 points
+    </p>
+    <p>
+      when I post to /return with Trumper then trumper is returned
+    </p>
+    <p>
+      when I go to /rent then I see only Clingon is rented
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1577314596987" ID="ID_979925351" LINK="films.png" MODIFIED="1577316338692" TEXT="Krok 3: Wydzielenie modu&#x142;&#xf3;w, okre&#x15b;lenie ich odpowiedzialno&#x15b;ci i zakresu komunikacji pomi&#x119;dzy nimi">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <h1 http-equiv="content-type" content="text/html; charset=utf-8">
+      Modules
+    </h1>
+    <p>
+      Now, let's do just enough design up front. Let's split the application into modules.
+    </p>
+    <p>
+      This is the list of our modules with their responsibilities
+    </p>
+    <p>
+      films
+    </p>
+    <ul>
+      <li>
+        list
+      </li>
+      <li>
+        show
+      </li>
+      <li>
+        add
+      </li>
+    </ul>
+    <p>
+      rentals
+    </p>
+    <ul>
+      <li>
+        rent
+      </li>
+      <li>
+        calculatePrice
+      </li>
+      <li>
+        return
+      </li>
+      <li>
+        list
+      </li>
+    </ul>
+    <p>
+      points
+    </p>
+    <ul>
+      <li>
+        list
+      </li>
+      <li>
+        addForRent
+      </li>
+    </ul>
+    <p>
+      user
+    </p>
+    <ul>
+      <li>
+        getLoggedUser
+      </li>
+    </ul>
+    <p>
+      We verify that our module design is solid by checking the number of communications between modules. High cohesion / low coupling means, that modules do not talk to often with each other, and that our API stays small.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1577316451777" ID="ID_909103722" MODIFIED="1577316710238" TEXT="Krok4:Implementacja">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Z naszym modu&#322;em komunikujemy si&#281; wy&#322;&#261;cznie przez fasad&#281;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Kontroler REST jest tak naprawd&#281; poza modu&#322;em i r&#243;wnie&#380; komunikuje si&#281; przez fasad&#281;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Fasada jest do niego wstrzykni&#281;ta przez CONFIG!!!
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1577316918247" ID="ID_1771352502" MODIFIED="1577317384954" TEXT="Struktura i organizacja wewn&#x119;trzna modu&#x142;u film">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      film ---
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|___ domain
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|__ dto ( to jest tak naprawd&#281; reprezentacja dto dla&#160;&#160;modelu Film) - ka&#380;da encja przez buildera zwraca swoj&#261; reprezentacj&#281; dto
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|__ FilmController.java
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1577316466698" ID="ID_480353551" MODIFIED="1577317084384" TEXT="Krok1 Implementacja fasady">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <table http-equiv="content-type" content="text/html; charset=utf-8" class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">
+          @Transactional
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">
+          @Log
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">
+          public&#160;class&#160;FilmFacade&#160;{
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">
+          private&#160;FilmRepository&#160;filmRepository;
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">
+          private&#160;FilmCreator&#160;filmCreator;
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">
+          
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">
+          public&#160;FilmFacade(FilmRepository&#160;filmRepository, FilmCreator&#160; filmCreator) {
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">
+          this.filmRepository =&#160;filmRepository;
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">
+          this.filmCreator =&#160;filmCreator;
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">
+          }
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">
+          
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">
+          public&#160;FilmDto&#160;add(FilmDto&#160;filmDto) {
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">
+          requireNonNull(filmDto);
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">
+          Film&#160;film =&#160;filmCreator.from(filmDto);
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">
+          film =&#160;filmRepository.save(film);
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">
+          return&#160;film.dto();
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">
+          }
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">
+          
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">
+          public&#160;FilmDto&#160;show(String&#160;filmDto) {
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">
+          requireNonNull(filmDto);
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">
+          Film&#160;film =&#160;filmRepository.findOneOrThrow(filmDto);
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">
+          return&#160;film.dto();
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">
+          }
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">
+          
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">
+          public&#160;Page&lt;FilmDto&gt;&#160;findAll(Pageable&#160;pageable) {
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line">
+          requireNonNull(pageable);
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line">
+          return&#160;filmRepository
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line">
+          .findAll(pageable)
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">
+          .map(film -&gt;&#160;film.dto());
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line">
+          }
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    }
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1577317085876" ID="ID_1194719497" MODIFIED="1577317194969" TEXT="Implementacja beana konfiguracyjnego CONFIG">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <table http-equiv="content-type" content="text/html; charset=utf-8" class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line">
+          Uwaga! fasada mo&#380;e dzia&#322;a&#263; w dw&#243;ch trybach, mo&#380;e dzia&#322;a&#263; w trybie InMemory (np. na potrzeby teste&#243;w) @Configuration
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line">
+          class&#160;FilmConfiguration&#160;{
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line">
+          
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line">
+          FilmFacade&#160;filmFacade() {
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line">
+          return&#160;filmFacade(new&#160;InMemoryFilmRepository());
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">
+          }
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">
+          
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">
+          @Bean
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">
+          FilmFacade&#160;filmFacade(FilmRepository&#160;filmRepository) {
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">
+          FilmCreator&#160;filmCreator =&#160;new&#160;FilmCreator();
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">
+          return&#160;new&#160;FilmFacade(filmRepository, filmCreator);
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">
+          }
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    }
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1577317225909" ID="ID_1861451214" MODIFIED="1577317243927" TEXT="Implementacja bazy &quot;in memory&quot; dla test&#xf3;w">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <table http-equiv="content-type" content="text/html; charset=utf-8" class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">
+          class&#160;InMemoryFilmRepository&#160;implements&#160;FilmRepository&#160; {
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">
+          private&#160;ConcurrentHashMap&lt;String, Film&gt;&#160;map =&#160;new&#160; ConcurrentHashMap&lt;&gt;();
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">
+          
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">
+          @Override
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">
+          public&#160;Film&#160;save(Film&#160;film) {
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">
+          requireNonNull(film);
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">
+          map.put(film.dto().getTitle(), film);
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">
+          return&#160;film;
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">
+          }
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">
+          
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">
+          @Override
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">
+          public&#160;Film&#160;findById(String&#160;title) {
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">
+          return&#160;map.get(title);
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">
+          }
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">
+          
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">
+          @Override
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">
+          public&#160;Page&lt;Film&gt;&#160;findAll(Pageable&#160;pageable) {
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">
+          return&#160;new&#160;PageImpl&lt;&gt;(new&#160;ArrayList&lt;&gt;(map.values()), pageable, map.size());
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    <table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">
+          }
+        </td>
+      </tr>
+      <tr>
+        
+      </tr>
+    </table>
+    }
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1577318020782" ID="ID_1735648620" MODIFIED="1577318041148" TEXT="Jakub Pilimon i Michal Michaluk &#x2013; Think in events - uwaga ! praktyczny przyk&#x142;ad jak u&#x17c;ywac event&#xf3;w"/>
 </node>
 <node CREATED="1574843235419" ID="ID_125913200" MODIFIED="1575065349829" POSITION="left" TEXT="Spring Boot i dobre praktyki konfiguracji">
 <richcontent TYPE="NOTE"><html>
@@ -3106,8 +4102,7 @@ org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConf
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <cloud COLOR="#ffcccc"/>
 <node CREATED="1574853583555" ID="ID_1678386152" LINK="https://github.com/mikewojtyna/efficient-java/blob/master/src/main/java/pro/buildmysoftware/efficientjava/newio/server/EchoServer.java" MODIFIED="1574859185982" TEXT="Standardowa obs&#x142;uga &#x17c;&#x105;dania">
 <richcontent TYPE="NOTE"><html>
@@ -3986,6 +4981,8 @@ Chainy publisher z jednego &#378;r&#243;d&#322;a mo&#380;e by&#263; sourcem w in
 </html></richcontent>
 </node>
 </node>
+<node CREATED="1576066615034" ID="ID_846356017" LINK="https://livebook.manning.com/book/mongodb-in-action-second-edition?origin=dashboard" MODIFIED="1576066628484" TEXT="MongoDB in Action"/>
+<node CREATED="1577313749641" ID="ID_1835238120" MODIFIED="1577313755241" TEXT="Artyku&#x142;y">
 <node CREATED="1575231493643" ID="ID_1290949534" LINK="https://techannotation.wordpress.com/2018/04/24/spring-reactive-a-real-use-case/" MODIFIED="1575231510077" TEXT="Spring Reactive &#x2013; A real use case"/>
 <node CREATED="1575236577457" ID="ID_1748818503" LINK="https://www.slideshare.net/InfoQ/servlet-vs-reactive-stacks-in-five-use-cases" MODIFIED="1575236597853" TEXT="Servlet vs Reactive Stacks in Five Use Cases"/>
 <node CREATED="1575236679353" ID="ID_880661293" LINK="https://subscription.packtpub.com/book/application_development/9781787284951/1/ch01lvl1sec11/reactivity-use-cases" MODIFIED="1575236701988" TEXT="Reactivity use cases"/>
@@ -3994,11 +4991,12 @@ Chainy publisher z jednego &#378;r&#243;d&#322;a mo&#380;e by&#263; sourcem w in
 <node CREATED="1575843405574" ID="ID_178935502" LINK="https://www.journaldev.com/20763/spring-webflux-reactive-programming" MODIFIED="1575843422487" TEXT="Spring WebFlux &#x2013; Spring Reactive Programming"/>
 <node CREATED="1575882894070" ID="ID_1380097384" LINK="https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#webflux" MODIFIED="1575882909887" TEXT="Web on Reactive Stack - oficjalna dokumentacja"/>
 <node CREATED="1576018356523" ID="ID_89036692" LINK="https://howtodoinjava.com/spring-webflux/spring-webflux-tutorial/" MODIFIED="1576018367639" TEXT="Spring-webflux-mongo-tutorial"/>
-<node CREATED="1576066615034" ID="ID_846356017" LINK="https://livebook.manning.com/book/mongodb-in-action-second-edition?origin=dashboard" MODIFIED="1576066628484" TEXT="MongoDB in Action"/>
 <node CREATED="1576101853199" ID="ID_1387243124" LINK="https://www.javaworld.com/article/3288219/mastering-spring-framework-5-part-2-spring-webflux.html" MODIFIED="1576101896047" TEXT="Mastering Spring framework 5, Part 2: Spring WebFlux">
 <icon BUILTIN="messagebox_warning"/>
 </node>
 <node CREATED="1576709514822" ID="ID_673124659" LINK="https://www.callicoder.com/spring-5-reactive-webclient-webtestclient-examples/" MODIFIED="1576709524063" TEXT="https://www.callicoder.com/spring-5-reactive-webclient-webtestclient-examples/"/>
+<node CREATED="1577298658467" ID="ID_524901006" LINK="https://developer.ibm.com/tutorials/reactive-in-practice-1/" MODIFIED="1577298692724" TEXT="Kompletny przyk&#x142;ad - programowanie reaktywne - events"/>
+</node>
 </node>
 <node CREATED="1575019120012" ID="ID_368808356" MODIFIED="1575032117108" POSITION="right" TEXT="Spring Data">
 <richcontent TYPE="NOTE"><html>
@@ -5171,20 +6169,8 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
 <arrowlink DESTINATION="ID_1476055709" ENDARROW="Default" ENDINCLINATION="317;0;" ID="Arrow_ID_1114083391" STARTARROW="None" STARTINCLINATION="317;0;"/>
 </node>
 </node>
-<node CREATED="1575454920746" ID="ID_40689479" MODIFIED="1575454938762" TEXT="Weryfikacja poprawno&#x15b;ci po&#x142;&#x105;czenia Linux">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <code>nc -zv localhost 27017</code>
-    </p>
-  </body>
-</html></richcontent>
-</node>
 <node CREATED="1575636474933" ID="ID_373606800" LINK="https://stackoverflow.com/questions/5224811/mongodb-schema-design-for-blogs" MODIFIED="1575636493443" TEXT="MongoDB schema design for blogs"/>
-<node CREATED="1576105549158" ID="ID_1003934614" LINK="https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mongo.reactive.driver" MODIFIED="1576405386070" TEXT="https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mongo.reactive.driver">
+<node CREATED="1576105549158" ID="ID_1003934614" LINK="https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mongo.reactive.driver" MODIFIED="1577314069180" TEXT="https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mongo.reactive.driver">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -5192,9 +6178,9 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
   <body>
     <pre style="background-color: #ffffff; color: #000000; font-family: Source Code Pro; font-size: 9,8pt"><font color="#000080"><b>spring.data.mongodb.uri</b></font>=<font color="#008000"><b>mongodb://root:root@10.22.33.78:27017/books</b></font></pre>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1576405406289" ID="ID_1213380238" LINK="https://www.youtube.com/watch?v=ILBX9fa9aJo&amp;t=1387s" MODIFIED="1576405436872" TEXT="WJUG #211 - Modularity and hexagonal architecture in real life: Jakub Nabrdalik"/>
 </node>
 <node CREATED="1575180593342" ID="ID_392161624" MODIFIED="1575180615514" POSITION="left" TEXT="RabbitMQ">
 <cloud COLOR="#66cc00"/>
@@ -5244,6 +6230,18 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 </html></richcontent>
 </node>
 <node CREATED="1576669417215" ID="ID_1839894487" LINK=" https://devhints.io/bash" MODIFIED="1576669442440" TEXT="Repozytorium snippet&#xf3;w - bash i inne"/>
+<node CREATED="1575454920746" ID="ID_40689479" MODIFIED="1577314026840" TEXT="Weryfikacja poprawno&#x15b;ci po&#x142;&#x105;czenia Linux(na przyk&#x142;adzie mongodb)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <code>nc -zv localhost 27017</code>
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 </node>
 </map>
