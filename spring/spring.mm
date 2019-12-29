@@ -2110,8 +2110,7 @@ U&#380;ycie:</pre>
       Pull requests are welcome.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1577314126713" ID="ID_332033908" MODIFIED="1577314234372" TEXT="Krok1: Zebranie wymaga&#x144; systemu">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2284,8 +2283,7 @@ U&#380;ycie:</pre>
       when I go to /rent then I see only Clingon is rented
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1577314596987" ID="ID_979925351" LINK="films.png" MODIFIED="1577316338692" TEXT="Krok 3: Wydzielenie modu&#x142;&#xf3;w, okre&#x15b;lenie ich odpowiedzialno&#x15b;ci i zakresu komunikacji pomi&#x119;dzy nimi">
 <richcontent TYPE="NOTE"><html>
@@ -2356,8 +2354,7 @@ U&#380;ycie:</pre>
       We verify that our module design is solid by checking the number of communications between modules. High cohesion / low coupling means, that modules do not talk to often with each other, and that our API stays small.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1577316451777" ID="ID_909103722" MODIFIED="1577316710238" TEXT="Krok4:Implementacja">
 <richcontent TYPE="NOTE"><html>
@@ -2381,8 +2378,7 @@ U&#380;ycie:</pre>
       Fasada jest do niego wstrzykni&#281;ta przez CONFIG!!!
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1577316918247" ID="ID_1771352502" MODIFIED="1577317384954" TEXT="Struktura i organizacja wewn&#x119;trzna modu&#x142;u film">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -2408,8 +2404,7 @@ U&#380;ycie:</pre>
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;|__ FilmController.java
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1577316466698" ID="ID_480353551" MODIFIED="1577317084384" TEXT="Krok1 Implementacja fasady">
 <richcontent TYPE="NOTE"><html>
@@ -2719,8 +2714,7 @@ U&#380;ycie:</pre>
     </table>
     }
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1577317085876" ID="ID_1194719497" MODIFIED="1577317194969" TEXT="Implementacja beana konfiguracyjnego CONFIG">
 <richcontent TYPE="NOTE"><html>
@@ -2850,8 +2844,7 @@ U&#380;ycie:</pre>
     </table>
     }
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1577317225909" ID="ID_1861451214" MODIFIED="1577317243927" TEXT="Implementacja bazy &quot;in memory&quot; dla test&#xf3;w">
 <richcontent TYPE="NOTE"><html>
@@ -3051,8 +3044,7 @@ U&#380;ycie:</pre>
     </table>
     }
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -5855,7 +5847,12 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1575065197335" ID="ID_451325089" MODIFIED="1575065221254" TEXT="docker images">
+<node CREATED="1575100849565" ID="ID_542283863" LINK="https://stackoverflow.com/questions/34782678/difference-between-running-and-starting-a-docker-container" MODIFIED="1575101015325" TEXT="Docker run vs docker start"/>
+<node CREATED="1575103706308" ID="ID_1476055709" LINK="https://www.thepolyglotdeveloper.com/2017/03/connecting-detached-docker-container-terminal-interaction/" MODIFIED="1575104308047" TEXT="Connecting To A Detached Docker Container For Terminal Interaction">
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1476055709" ENDARROW="Default" ENDINCLINATION="317;0;" ID="Arrow_ID_1114083391" SOURCE="ID_1701253830" STARTARROW="None" STARTINCLINATION="317;0;"/>
+</node>
+<node CREATED="1577620696735" ID="ID_1278234329" MODIFIED="1577620703325" TEXT="Operacje na obrazach">
+<node CREATED="1575065197335" ID="ID_451325089" MODIFIED="1577611364177" TEXT="docker images -&gt; wy&#x15b;wietlenie obraz&#xf3;w">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -5865,7 +5862,30 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1575065459348" ID="ID_101522441" MODIFIED="1575100966225" TEXT="docker run">
+<node CREATED="1577621176299" ID="ID_1126388826" MODIFIED="1577621186473" TEXT="docker image ls -&gt; wy&#x15b;wietlenie obraz&#xf3;w"/>
+<node CREATED="1577621200993" ID="ID_1744490732" MODIFIED="1577621244317" TEXT="docker image rm  I_ID -&gt; usuwanie obrazu"/>
+<node CREATED="1577621808689" ID="ID_799989201" MODIFIED="1577621883533" TEXT="docker image rm I_NAME -&gt;usuwanie po nazwie">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Mo&#380;e si&#281; zdarzy&#263; &#380;e b&#322;&#281;dnie nazwiemy ten sam obraz, ma wtedy takie samo id.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      docker image rm piotrskoska/lekcja007:v1
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1577620727011" ID="ID_1391401265" MODIFIED="1577620732282" TEXT="Opeacje na kontenerach">
+<node CREATED="1575065459348" ID="ID_101522441" MODIFIED="1577622518474" TEXT="docker container run">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -5874,34 +5894,38 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
     <p>
       Run: create a new container of an image, and execute the container. You can create N clones of the same image. The command is: docker run IMAGE_ID and not docker run CONTAINER_ID
     </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1575100967658" ID="ID_1698197689" MODIFIED="1575100997916" TEXT="docker start">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
     <p>
-      Start: Launch a container previously stopped. For example, if you had stopped a database with the command docker stop CONTAINER_ID, you can relaunch the same container with the command docker start CONTAINER_ID, and the data and settings will be the same.
+      - wszystko co jest po nim traktowane jest jako flaga jednoznakowa np: -it jest r&#243;wnoznaczne z -i -t
+    </p>
+    <p>
+      -- dwie kreski je&#347;li odwo&#322;ujemy si&#281; do flagi sk&#322;adaj&#261;cej si&#281; z wi&#281;cej ni&#380; jednej litery np: --it to flaga it
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      -i interactive
+    </p>
+    <p>
+      -t - otrzymamy konsol&#281;
+    </p>
+    <p>
+      --name (nazwa dla naszego kontenera)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      docker container rm -it --name FirstContainer I_ID -&gt; tworzy kontener z obrazu o I_ID i od razu wchodzi z nim w interakcj&#281; (daje konsol&#281;)
+    </p>
+    <p>
+      w przyk&#322;adzie mamy obraz linuxa, wi&#281;c od razu jeste&#347;my w jego konsoli zalogowani na root
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1575065855459" ID="ID_1007736249" MODIFIED="1575065871544" TEXT="docker container prune">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Usuwa wszystkie nieaktywne kontenery
-    </p>
-  </body>
-</html></richcontent>
-</node>
-<node CREATED="1575066017353" ID="ID_810668884" MODIFIED="1575103438652" TEXT="docker container ls -all">
+<node CREATED="1575066017353" ID="ID_810668884" MODIFIED="1577620787585" TEXT="docker container ls - a -&gt;wy&#x15b;wietlenie kontener&#xf3;w">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -5913,7 +5937,8 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1575066026694" ID="ID_1142492023" MODIFIED="1575100977388" TEXT="docker container rm">
+<node CREATED="1577611320756" ID="ID_170604112" MODIFIED="1577611330325" TEXT="docker ps -&gt; wy&#x15b;wietlenie kontener&#xf3;w"/>
+<node CREATED="1575066026694" ID="ID_1142492023" MODIFIED="1577621416470" TEXT="docker container rm ID -&gt; usuni&#x119;cie nieaktywnego kontenera">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -5923,69 +5948,44 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       usu&#324; kontener o danym id
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
-<node CREATED="1575100849565" ID="ID_542283863" LINK="https://stackoverflow.com/questions/34782678/difference-between-running-and-starting-a-docker-container" MODIFIED="1575101015325" TEXT="Docker run vs docker start"/>
-<node CREATED="1575103706308" ID="ID_1476055709" LINK="https://www.thepolyglotdeveloper.com/2017/03/connecting-detached-docker-container-terminal-interaction/" MODIFIED="1575104308047" TEXT="Connecting To A Detached Docker Container For Terminal Interaction">
-<linktarget COLOR="#b0b0b0" DESTINATION="ID_1476055709" ENDARROW="Default" ENDINCLINATION="317;0;" ID="Arrow_ID_1114083391" SOURCE="ID_1701253830" STARTARROW="None" STARTINCLINATION="317;0;"/>
-</node>
-</node>
-<node CREATED="1575101210767" ID="ID_1276228395" MODIFIED="1575220858256" POSITION="right" TEXT="Mongodb">
-<richcontent TYPE="NOTE">&lt;html&gt;
-  &lt;head&gt;
-    
-    
-  &lt;/head&gt;
-  &lt;body&gt;
-    In terms of use cases, MongoDB is 
-    well-suited as a primary datastore 
-    for  web applications, analytics and 
-    logging applications, and any  
-    application requiring a medium-grade 
-    cache. In addition, because it  
-    easily stores schema-less data, 
-    MongoDB is also good for capturing 
-    data  whose structure can&amp;#25; t be known 
-    in advance. 
-
-    &lt;p&gt;
-      
-    &lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;</richcontent>
-<cloud COLOR="#ffccff"/>
-<node CREATED="1575101983667" ID="ID_1462804078" MODIFIED="1575101987472" TEXT="Materia&#x142;y">
-<node CREATED="1575101300579" ID="ID_893255806" LINK="https://dzone.com/articles/mongodb-cluster" MODIFIED="1575101893220" TEXT="MongoDB Tutorials and Articles: The Complete Collection">
-<node CREATED="1575101314324" ID="ID_1844015151" LINK="https://dzone.com/articles/learn-mongodb-with-me?utm_source=dzone&amp;utm_medium=article&amp;utm_campaign=mongodb-cluster" MODIFIED="1575101702099" TEXT="Learn MongoDB With Me - Part I"/>
-<node CREATED="1575101722928" ID="ID_1213761765" LINK="https://dzone.com/articles/learn-mongodb-with-me-part-2?utm_source=dzone&amp;utm_medium=article&amp;utm_campaign=mongodb-cluster" MODIFIED="1575101736192" TEXT="Learn MongoDB With Me (Part 2) "/>
-<node CREATED="1575101799286" ID="ID_48432755" LINK="https://dzone.com/articles/learn-mongodb-with-me-part-3?utm_source=dzone&amp;utm_medium=article&amp;utm_campaign=mongodb-cluster" MODIFIED="1575101815855" TEXT="Learn MongoDB With Me (Part 3) "/>
-</node>
-<node CREATED="1575101996074" ID="ID_1438738416" LINK="https://dzone.com/articles/why-mongodb" MODIFIED="1575102025232" TEXT="When to Use (and Not to Use) MongoDB "/>
-<node CREATED="1575102313387" ID="ID_872103592" LINK="https://www.thepolyglotdeveloper.com/2019/01/getting-started-mongodb-docker-container-deployment/" MODIFIED="1575102359671" TEXT="Getting Started With MongoDB As A Docker Container Deployment">
-<linktarget COLOR="#b0b0b0" DESTINATION="ID_872103592" ENDARROW="Default" ENDINCLINATION="262;0;" ID="Arrow_ID_963219456" SOURCE="ID_491641274" STARTARROW="None" STARTINCLINATION="262;0;"/>
-</node>
-<node CREATED="1575102622088" ID="ID_1078371156" LINK="https://www.guru99.com/top-20-mongodb-tools.html" MODIFIED="1575102727103" TEXT="9 Best MongoDB GUI Tools in 2019 "/>
-<node CREATED="1575123515511" ID="ID_1510349904" LINK="http://mod.erni.st/nosql-if-only-it-was-that-easy/" MODIFIED="1575123530976" TEXT="NoSQL: If Only It Was That Easy"/>
-<node CREATED="1575123631821" ID="ID_214280582" LINK="https://www.networkworld.com/article/2999856/10-use-cases-where-nosql-will-outperform-sql.html" MODIFIED="1575123645808" TEXT="10 use cases where NoSQL will outperform SQL"/>
-<node CREATED="1575183149160" ID="ID_1872663715" LINK="https://docs.mongodb.com/ecosystem/use-cases/" MODIFIED="1575183773413" TEXT="Mongo DB - Real UseCases">
-<icon BUILTIN="yes"/>
-</node>
-</node>
-<node CREATED="1575102732155" ID="ID_27718323" LINK="https://nosqlbooster.com/downloads" MODIFIED="1575103342913" TEXT="NoSQLBooster for MongoDB">
+<node CREATED="1575100967658" ID="ID_1698197689" MODIFIED="1577621416021" TEXT="docker container start C_ID -&gt; wystartowanie kontenera">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      chmod 755 <font color="#000000" face="monospace">nosqlbooster4mongo-5.2.7.AppImage</font>
-    </p>
-    <p>
-      <font color="#000000" face="monospace">./nosqlbooster4mongo-5.2.7.AppImage</font><font face="monospace"><br /></font>
+      Start: Launch a container previously stopped. For example, if you had stopped a database with the command docker stop CONTAINER_ID, you can relaunch the same container with the command docker start CONTAINER_ID, and the data and settings will be the same.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
+<node CREATED="1577620966098" ID="ID_566550325" MODIFIED="1577620990438" TEXT="docker container stop C_ID -&gt; &#x142;agodne zatrzymanie kontenera"/>
+<node CREATED="1577621099775" ID="ID_1185298942" MODIFIED="1577622018072" TEXT="docker containe kill C_ID -&gt; natychmiastowe zamkni&#x119;cie kontenera"/>
+<node CREATED="1575065855459" ID="ID_1007736249" MODIFIED="1577622023111" TEXT="docker container prune -&gt; usuni&#x119;cie wszystkich nieaktywnych kontener&#xf3;w">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Usuwa wszystkie nieaktywne kontenery
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1577621422717" ID="ID_546692697" MODIFIED="1577621431233" TEXT="Operacje na repozytorium">
+<node CREATED="1577621433088" ID="ID_614199422" MODIFIED="1577621448554" TEXT="docker login -&gt; login do docker huba"/>
+<node CREATED="1577621579822" ID="ID_335337131" MODIFIED="1577621607466" TEXT="docker push IMAGE_REPO - wys&#x142;anie img na zdalne konto"/>
+<node CREATED="1577621614417" ID="ID_202393944" MODIFIED="1577621633852" TEXT="docker  IMAGE_REPO - pobranie obrazu z repo"/>
+</node>
+<node CREATED="1577621672594" ID="ID_1683940902" MODIFIED="1577621675339" TEXT="Przyk&#x142;ady">
 <node CREATED="1575103331383" ID="ID_1880579579" MODIFIED="1575103340746" TEXT="MongoDB w kontenerze Docker">
 <node CREATED="1575102107691" ID="ID_491641274" MODIFIED="1575103416461" TEXT="MongoDB w kontenerze dockera instalacja i tworzenie kontenera">
 <richcontent TYPE="NOTE"><html>
@@ -6170,6 +6170,67 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
 <arrowlink DESTINATION="ID_1476055709" ENDARROW="Default" ENDINCLINATION="317;0;" ID="Arrow_ID_1114083391" STARTARROW="None" STARTINCLINATION="317;0;"/>
 </node>
 </node>
+</node>
+<node CREATED="1577621911686" ID="ID_746308912" MODIFIED="1577621916649" TEXT="Materia&#x142;y ">
+<node CREATED="1577621918069" ID="ID_1334844680" LINK="https://www.youtube.com/playlist?list=PLh6V3IQZSBSaGZf409JmY3r33s6xreMUp" MODIFIED="1577621974073" TEXT="Kurs Docker - Piotr Ko&#x15b;ka"/>
+</node>
+</node>
+<node CREATED="1575101210767" ID="ID_1276228395" MODIFIED="1575220858256" POSITION="right" TEXT="Mongodb">
+<richcontent TYPE="NOTE">&lt;html&gt;
+  &lt;head&gt;
+    
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    In terms of use cases, MongoDB is 
+    well-suited as a primary datastore 
+    for  web applications, analytics and 
+    logging applications, and any  
+    application requiring a medium-grade 
+    cache. In addition, because it  
+    easily stores schema-less data, 
+    MongoDB is also good for capturing 
+    data  whose structure can&amp;#25; t be known 
+    in advance. 
+
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</richcontent>
+<cloud COLOR="#ffccff"/>
+<node CREATED="1575101983667" ID="ID_1462804078" MODIFIED="1575101987472" TEXT="Materia&#x142;y">
+<node CREATED="1575101300579" ID="ID_893255806" LINK="https://dzone.com/articles/mongodb-cluster" MODIFIED="1575101893220" TEXT="MongoDB Tutorials and Articles: The Complete Collection">
+<node CREATED="1575101314324" ID="ID_1844015151" LINK="https://dzone.com/articles/learn-mongodb-with-me?utm_source=dzone&amp;utm_medium=article&amp;utm_campaign=mongodb-cluster" MODIFIED="1575101702099" TEXT="Learn MongoDB With Me - Part I"/>
+<node CREATED="1575101722928" ID="ID_1213761765" LINK="https://dzone.com/articles/learn-mongodb-with-me-part-2?utm_source=dzone&amp;utm_medium=article&amp;utm_campaign=mongodb-cluster" MODIFIED="1575101736192" TEXT="Learn MongoDB With Me (Part 2) "/>
+<node CREATED="1575101799286" ID="ID_48432755" LINK="https://dzone.com/articles/learn-mongodb-with-me-part-3?utm_source=dzone&amp;utm_medium=article&amp;utm_campaign=mongodb-cluster" MODIFIED="1575101815855" TEXT="Learn MongoDB With Me (Part 3) "/>
+</node>
+<node CREATED="1575101996074" ID="ID_1438738416" LINK="https://dzone.com/articles/why-mongodb" MODIFIED="1575102025232" TEXT="When to Use (and Not to Use) MongoDB "/>
+<node CREATED="1575102313387" ID="ID_872103592" LINK="https://www.thepolyglotdeveloper.com/2019/01/getting-started-mongodb-docker-container-deployment/" MODIFIED="1575102359671" TEXT="Getting Started With MongoDB As A Docker Container Deployment">
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_872103592" ENDARROW="Default" ENDINCLINATION="262;0;" ID="Arrow_ID_963219456" SOURCE="ID_491641274" STARTARROW="None" STARTINCLINATION="262;0;"/>
+</node>
+<node CREATED="1575102622088" ID="ID_1078371156" LINK="https://www.guru99.com/top-20-mongodb-tools.html" MODIFIED="1575102727103" TEXT="9 Best MongoDB GUI Tools in 2019 "/>
+<node CREATED="1575123515511" ID="ID_1510349904" LINK="http://mod.erni.st/nosql-if-only-it-was-that-easy/" MODIFIED="1575123530976" TEXT="NoSQL: If Only It Was That Easy"/>
+<node CREATED="1575123631821" ID="ID_214280582" LINK="https://www.networkworld.com/article/2999856/10-use-cases-where-nosql-will-outperform-sql.html" MODIFIED="1575123645808" TEXT="10 use cases where NoSQL will outperform SQL"/>
+<node CREATED="1575183149160" ID="ID_1872663715" LINK="https://docs.mongodb.com/ecosystem/use-cases/" MODIFIED="1575183773413" TEXT="Mongo DB - Real UseCases">
+<icon BUILTIN="yes"/>
+</node>
+</node>
+<node CREATED="1575102732155" ID="ID_27718323" LINK="https://nosqlbooster.com/downloads" MODIFIED="1575103342913" TEXT="NoSQLBooster for MongoDB">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      chmod 755 <font color="#000000" face="monospace">nosqlbooster4mongo-5.2.7.AppImage</font>
+    </p>
+    <p>
+      <font color="#000000" face="monospace">./nosqlbooster4mongo-5.2.7.AppImage</font><font face="monospace"><br /></font>
+    </p>
+  </body>
+</html></richcontent>
+</node>
 <node CREATED="1575636474933" ID="ID_373606800" LINK="https://stackoverflow.com/questions/5224811/mongodb-schema-design-for-blogs" MODIFIED="1575636493443" TEXT="MongoDB schema design for blogs"/>
 <node CREATED="1576105549158" ID="ID_1003934614" LINK="https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mongo.reactive.driver" MODIFIED="1577314069180" TEXT="https://docs.spring.io/spring-data/mongodb/docs/current/reference/html/#mongo.reactive.driver">
 <richcontent TYPE="NOTE"><html>
@@ -6179,8 +6240,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
   <body>
     <pre style="background-color: #ffffff; color: #000000; font-family: Source Code Pro; font-size: 9,8pt"><font color="#000080"><b>spring.data.mongodb.uri</b></font>=<font color="#008000"><b>mongodb://root:root@10.22.33.78:27017/books</b></font></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1575180593342" ID="ID_392161624" MODIFIED="1575180615514" POSITION="left" TEXT="RabbitMQ">
