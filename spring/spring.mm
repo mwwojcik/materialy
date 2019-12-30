@@ -1542,6 +1542,73 @@ U&#380;ycie:</pre>
 </html></richcontent>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_414147436" ENDARROW="Default" ENDINCLINATION="163;0;" ID="Arrow_ID_677796176" SOURCE="ID_1389132856" STARTARROW="None" STARTINCLINATION="331;0;"/>
 </node>
+<node CREATED="1577743912215" ID="ID_1771193133" LINK="https://junit.org/junit5/docs/current/user-guide/#overview-what-is-junit-5" MODIFIED="1577743938163" TEXT="JUnit5">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <h3 http-equiv="content-type" content="text/html; charset=utf-8" id="overview-what-is-junit-5">
+      1.1. What is JUnit 5?
+    </h3>
+    <div class="paragraph">
+      <p>
+        Unlike previous versions of JUnit, JUnit 5 is composed of several different modules from three different sub-projects.
+      </p>
+    </div>
+    <div class="paragraph">
+      <p>
+        <strong>JUnit 5 = <em>JUnit Platform</em>&#160;+ <em>JUnit Jupiter</em>&#160;+ <em>JUnit Vintage</em></strong>
+      </p>
+    </div>
+    <div class="paragraph">
+      <p>
+        The <strong>JUnit Platform</strong>&#160;serves as a foundation for <a href="https://junit.org/junit5/docs/current/user-guide/#launcher-api">launching testing frameworks</a>&#160;on the JVM. It also defines the <code><a href="https://junit.org/junit5/docs/current/api/org/junit/platform/engine/TestEngine.html">TestEngine</a></code>&#160; API for developing a testing framework that runs on the platform. Furthermore, the platform provides a <a href="https://junit.org/junit5/docs/current/user-guide/#running-tests-console-launcher">Console Launcher</a>&#160;to launch the platform from the command line and a <a href="https://junit.org/junit5/docs/current/user-guide/#running-tests-junit-platform-runner">JUnit 4 based Runner</a>&#160;for running any <code>TestEngine</code>&#160;on the platform in a JUnit 4 based environment. First-class support for the JUnit Platform also exists in popular IDEs (see <a href="https://junit.org/junit5/docs/current/user-guide/#running-tests-ide-intellij-idea">IntelliJ IDEA</a>, <a href="https://junit.org/junit5/docs/current/user-guide/#running-tests-ide-eclipse">Eclipse</a>, <a href="https://junit.org/junit5/docs/current/user-guide/#running-tests-ide-netbeans">NetBeans</a>, and <a href="https://junit.org/junit5/docs/current/user-guide/#running-tests-ide-vscode">Visual Studio Code</a>) and build tools (see <a href="https://junit.org/junit5/docs/current/user-guide/#running-tests-build-gradle">Gradle</a>, <a href="https://junit.org/junit5/docs/current/user-guide/#running-tests-build-maven">Maven</a>, and <a href="https://junit.org/junit5/docs/current/user-guide/#running-tests-build-ant">Ant</a>).
+      </p>
+    </div>
+    <div class="paragraph">
+      <p>
+        <strong>JUnit Jupiter</strong>&#160;is the combination of the new <a href="https://junit.org/junit5/docs/current/user-guide/#writing-tests">programming model</a>&#160;and <a href="https://junit.org/junit5/docs/current/user-guide/#extensions">extension model</a>&#160;for writing tests and extensions in JUnit 5. The Jupiter sub-project provides a <code>TestEngine</code>&#160; for running Jupiter based tests on the platform.
+      </p>
+    </div>
+    <div class="paragraph">
+      <p>
+        <strong>JUnit Vintage</strong>&#160;provides a <code>TestEngine</code>&#160;for running JUnit 3 and JUnit 4 based tests on the platform.
+      </p>
+    </div>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1577744350023" ID="ID_1056424147" MODIFIED="1577744353101" TEXT="Asercje">
+<node CREATED="1577744354500" ID="ID_164030805" LINK="https://junit.org/junit5/docs/5.0.1/api/org/junit/jupiter/api/Assertions.html" MODIFIED="1577744530859" TEXT="JUnit"/>
+<node CREATED="1577744363263" ID="ID_975274986" LINK="https://joel-costigliola.github.io/assertj/assertj-core-quick-start.html" MODIFIED="1577744528128" TEXT="AssertJ - udogodnienia">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      U&#322;atwiony spos&#243;b pisania asercji, bardziej rozbudowany w stosunku do asercji JUnit5.
+    </p>
+    <p>
+      
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Source Code Pro; font-size: 9,8pt"><font color="#000080"><b>import static </b></font>org.assertj.core.api.Assertions.<i>assertThat</i>;</pre>
+    <p>
+      
+    </p>
+    <p>
+      https://www.baeldung.com/introduction-to-assertj
+    </p>
+    <p>
+      https://www.petrikainulainen.net/programming/testing/junit-5-tutorial-writing-assertions-with-assertj/
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 <node CREATED="1574846109249" ID="ID_326552104" MODIFIED="1575647803149" POSITION="left" TEXT="Linki">
 <cloud COLOR="#cc99ff"/>
@@ -3759,7 +3826,6 @@ public class LibraryApplication {
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1574968909796" ID="ID_382440012" MODIFIED="1575026493927" TEXT="RestController - kontroler kt&#xf3;ry zwraca responseBody"/>
 <node CREATED="1574969123983" ID="ID_653035384" MODIFIED="1575026493927" TEXT="Klasy/interfejsy">
 <node CREATED="1574968448137" ID="ID_37692266" MODIFIED="1575026493927" TEXT="HandlerMapping ">
 <richcontent TYPE="NOTE"><html>
@@ -3885,25 +3951,6 @@ public class LibraryApplication {
   </body>
 </html></richcontent>
 </node>
-</node>
-<node CREATED="1574970122506" ID="ID_1312441885" MODIFIED="1575026493927" TEXT="ResponseEntity">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      
-    </p>
-    <p>
-      Obiekt zwracany przez metody kontrolera, kt&#243;ry opr&#243;cz zawarto&#347;ci zwracanej przenosi r&#243;wnie&#380; status operacji.
-    </p>
-    <p>
-      
-    </p>
-    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>public </b></font>ResponseEntity&lt;?&gt; createTweet(<font color="#808000">@RequestBody </font>Tweet tweet) {<br />   Tweet savedTweet = <font color="#660e7a"><b>repo</b></font>.save(tweet);<br />   <font color="#000080"><b>return </b></font>ResponseEntity.<i>created</i>(URI.<i>create</i>(String<br />      .<i>format</i>(<font color="#008000"><b>&quot;/api/tweets/%s&quot;</b></font>, savedTweet.getId()<br />         .toString()))).build();<br />}</pre>
-  </body>
-</html></richcontent>
 </node>
 <node CREATED="1574971151786" ID="ID_1057056123" MODIFIED="1575026493927" TEXT="Testowanie">
 <node CREATED="1574971155136" ID="ID_1450027685" MODIFIED="1575026493927" TEXT="@AutoConfigureMockMvc vs @AutoConfigureMockMvc vs @WebMvcTest">
@@ -4047,8 +4094,106 @@ org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConf
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1574972168126" ID="ID_1820144862" MODIFIED="1575026493927" TEXT="Konwencje mapowania URI"/>
 <node CREATED="1575036559415" ID="ID_1308287874" MODIFIED="1575036563410" TEXT="RestTemplate"/>
+<node CREATED="1577742108680" ID="ID_381939983" MODIFIED="1577742746964" TEXT="RestController">
+<node CREATED="1574972168126" ID="ID_1820144862" MODIFIED="1577742765257" TEXT="Konwencje mapowania parametr&#xf3;w WE">
+<node CREATED="1577742124682" ID="ID_566254425" MODIFIED="1577742254034" TEXT="@PathVariable - user/tweet/11"/>
+<node CREATED="1577742217368" ID="ID_550508743" MODIFIED="1577742276570" TEXT="@RequestParam - user/tweet?id=11"/>
+<node CREATED="1577742307891" ID="ID_591208973" MODIFIED="1577742317630" TEXT="@RequestBody Tweet - cia&#x142;o"/>
+</node>
+<node CREATED="1577742769857" ID="ID_1157417805" MODIFIED="1577742888354" TEXT="Sposoby mapowania wyj&#x15b;&#x107;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      @RestController =
+    </p>
+    <p>
+      <em http-equiv="content-type" content="text/html; charset=utf-8">@Controller</em>&#160;and <em>@ResponseBody</em>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1574970122506" ID="ID_1312441885" MODIFIED="1577743420739" TEXT="ResponseEntity">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <code http-equiv="content-type" content="text/html; charset=utf-8">Opakowanie wyj&#347;cia w ResponsEntity pozwala na pe&#322;n&#261; kontrol&#281; nad zwracaym kodem, nag&#322;&#243;wkami i body. </code>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Schemat u&#380;ycia:
+    </p>
+    <p>
+      ResponseEntity.accepted().headers(headers).body(c);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Przyk&#322;ad:
+    </p>
+    <p>
+      Obiekt zwracany przez metody kontrolera, kt&#243;ry opr&#243;cz zawarto&#347;ci zwracanej przenosi r&#243;wnie&#380; status operacji.
+    </p>
+    <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>public </b></font>ResponseEntity&lt;?&gt; createTweet(<font color="#808000">@RequestBody </font>Tweet tweet) {<br />   Tweet savedTweet = <font color="#660e7a"><b>repo</b></font>.save(tweet);<br />   <font color="#000080"><b>return </b></font>ResponseEntity.<i>created</i>(URI.<i>create</i>(String<br />      .<i>format</i>(<font color="#008000"><b>&quot;/api/tweets/%s&quot;</b></font>, savedTweet.getId()<br />         .toString()))).build();<br />}</pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1577742831734" ID="ID_931540366" MODIFIED="1577742833008" TEXT="@ResponseBody. "/>
+<node CREATED="1577743019914" ID="ID_156508325" LINK="http://zetcode.com/springboot/responseentity/" MODIFIED="1577743458420" TEXT="Por&#xf3;wanie ResponsEntity i ResponseBody">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="explanation">var c = new Country();
+c.setName(&quot;France&quot;);
+c.setPopulation(66984000);</pre>
+    <pre http-equiv="content-type" content="text/html; charset=utf-8" class="explanation">var headers = new HttpHeaders();
+headers.add(&quot;Responded&quot;, &quot;MyController&quot;);return ResponseEntity.accepted().headers(headers).body(c);</pre>
+    We give
+
+    <p>
+      <code http-equiv="content-type" content="text/html; charset=utf-8">ResponseEntity</code>&#160;a custom status code, headers, and a body.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      @ResponseBody
+    </p>
+    With
+
+    <p>
+      <code http-equiv="content-type" content="text/html; charset=utf-8">@ResponseBody</code>, only the body is returned. The headers and status code are provided by Spring.
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1577742898700" ID="ID_1150312773" MODIFIED="1577742904742" TEXT="Konwencje mapowania URI">
+<node CREATED="1577742909345" ID="ID_1234003778" MODIFIED="1577742928766" TEXT="@RequestMapping(&quot;/api/tweets&quot;)"/>
+</node>
+</node>
+<node CREATED="1577747022683" ID="ID_822756527" MODIFIED="1577747025631" TEXT="OAuth">
+<node CREATED="1577747027276" ID="ID_1846246080" LINK="https://developer.allegro.pl/auth/" MODIFIED="1577747041868" TEXT="Allegro Oauth"/>
+</node>
 </node>
 <node CREATED="1574843073919" ID="ID_813334677" MODIFIED="1576660478921" POSITION="right" TEXT="Programowanie reaktywne">
 <richcontent TYPE="NOTE"><html>
@@ -5880,8 +6025,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       docker image rm piotrskoska/lekcja007:v1
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1577620727011" ID="ID_1391401265" MODIFIED="1577620732282" TEXT="Opeacje na kontenerach">
@@ -5922,8 +6066,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       w przyk&#322;adzie mamy obraz linuxa, wi&#281;c od razu jeste&#347;my w jego konsoli zalogowani na root
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1575066017353" ID="ID_810668884" MODIFIED="1577620787585" TEXT="docker container ls - a -&gt;wy&#x15b;wietlenie kontener&#xf3;w">
 <richcontent TYPE="NOTE"><html>
@@ -5948,8 +6091,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       usu&#324; kontener o danym id
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1575100967658" ID="ID_1698197689" MODIFIED="1577621416021" TEXT="docker container start C_ID -&gt; wystartowanie kontenera">
 <richcontent TYPE="NOTE"><html>
@@ -5961,8 +6103,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       Start: Launch a container previously stopped. For example, if you had stopped a database with the command docker stop CONTAINER_ID, you can relaunch the same container with the command docker start CONTAINER_ID, and the data and settings will be the same.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1577620966098" ID="ID_566550325" MODIFIED="1577620990438" TEXT="docker container stop C_ID -&gt; &#x142;agodne zatrzymanie kontenera"/>
 <node CREATED="1577621099775" ID="ID_1185298942" MODIFIED="1577622018072" TEXT="docker containe kill C_ID -&gt; natychmiastowe zamkni&#x119;cie kontenera"/>
@@ -5976,8 +6117,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       Usuwa wszystkie nieaktywne kontenery
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1577621422717" ID="ID_546692697" MODIFIED="1577621431233" TEXT="Operacje na repozytorium">
