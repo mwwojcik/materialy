@@ -1577,8 +1577,7 @@ U&#380;ycie:</pre>
       </p>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1577744350023" ID="ID_1056424147" MODIFIED="1577744353101" TEXT="Asercje">
 <node CREATED="1577744354500" ID="ID_164030805" LINK="https://junit.org/junit5/docs/5.0.1/api/org/junit/jupiter/api/Assertions.html" MODIFIED="1577744530859" TEXT="JUnit"/>
 <node CREATED="1577744363263" ID="ID_975274986" LINK="https://joel-costigliola.github.io/assertj/assertj-core-quick-start.html" MODIFIED="1577744528128" TEXT="AssertJ - udogodnienia">
@@ -1604,9 +1603,11 @@ U&#380;ycie:</pre>
       https://www.petrikainulainen.net/programming/testing/junit-5-tutorial-writing-assertions-with-assertj/
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
+</node>
+<node CREATED="1577779968033" ID="ID_1801472544" MODIFIED="1577779971151" TEXT="Matchery">
+<node CREATED="1577779972496" ID="ID_1218850551" LINK="http://hamcrest.org/JavaHamcrest/tutorial" MODIFIED="1577779980397" TEXT="Hamrecast"/>
 </node>
 </node>
 </node>
@@ -4114,8 +4115,7 @@ org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConf
       <em http-equiv="content-type" content="text/html; charset=utf-8">@Controller</em>&#160;and <em>@ResponseBody</em>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1574970122506" ID="ID_1312441885" MODIFIED="1577743420739" TEXT="ResponseEntity">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -4145,8 +4145,7 @@ org.springframework.boot.test.autoconfigure.web.servlet.MockMvcWebDriverAutoConf
     </p>
     <pre style="background-color: #ffffff; color: #000000; font-family: Consolas; font-size: 9,8pt"><font color="#000080"><b>public </b></font>ResponseEntity&lt;?&gt; createTweet(<font color="#808000">@RequestBody </font>Tweet tweet) {<br />   Tweet savedTweet = <font color="#660e7a"><b>repo</b></font>.save(tweet);<br />   <font color="#000080"><b>return </b></font>ResponseEntity.<i>created</i>(URI.<i>create</i>(String<br />      .<i>format</i>(<font color="#008000"><b>&quot;/api/tweets/%s&quot;</b></font>, savedTweet.getId()<br />         .toString()))).build();<br />}</pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1577742831734" ID="ID_931540366" MODIFIED="1577742833008" TEXT="@ResponseBody. "/>
 <node CREATED="1577743019914" ID="ID_156508325" LINK="http://zetcode.com/springboot/responseentity/" MODIFIED="1577743458420" TEXT="Por&#xf3;wanie ResponsEntity i ResponseBody">
@@ -4183,8 +4182,7 @@ headers.add(&quot;Responded&quot;, &quot;MyController&quot;);return ResponseEnti
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1577742898700" ID="ID_1150312773" MODIFIED="1577742904742" TEXT="Konwencje mapowania URI">
@@ -4193,6 +4191,170 @@ headers.add(&quot;Responded&quot;, &quot;MyController&quot;);return ResponseEnti
 </node>
 <node CREATED="1577747022683" ID="ID_822756527" MODIFIED="1577747025631" TEXT="OAuth">
 <node CREATED="1577747027276" ID="ID_1846246080" LINK="https://developer.allegro.pl/auth/" MODIFIED="1577747041868" TEXT="Allegro Oauth"/>
+</node>
+<node CREATED="1577776246507" ID="ID_854794636" MODIFIED="1577776249970" TEXT="Metody">
+<node CREATED="1577776251287" ID="ID_249066122" MODIFIED="1577776253983" TEXT="POST">
+<node CREATED="1577776255336" ID="ID_1163511519" MODIFIED="1577776346153" TEXT="Dodanie do kolekcji to POST na adres kolekcji">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Metoda powinna zwr&#243;ci&#263; status 201 i lokacj&#281; do zasobu
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      201 Created
+    </p>
+    <p>
+      link do zasobu:
+    </p>
+    <p>
+      Location: http://api.alledrogo.com/items/1234
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1577776347487" ID="ID_549238802" MODIFIED="1577776350150" TEXT="PUT">
+<node CREATED="1577776351839" ID="ID_1856173573" MODIFIED="1577776496972" TEXT="Tworzy zas&#xf3;b o znanym identyfikatorze">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Tworzy zas&#243;b o znanym identyfikatorze.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Robi&#160;&#160;aktualizacj&#281;, czyli de facto wykonuje totaln&#261; zamian&#281; ca&#322;o&#347;ci.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mo&#380;na u&#380;y&#263; do utworzenia zasobu o zak&#322;adanym adresie (np. je&#347;li mamy pewn&#261; konwencj&#281;)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      POST vs PUT - obydwa mog&#261; s&#322;u&#380;y&#263; do tworzenia
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      POST: ID from Server
+    </p>
+    <p>
+      PUT: ID from Client
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1577776514429" ID="ID_690580220" MODIFIED="1577776516793" TEXT="Statusy">
+<node CREATED="1577776518187" ID="ID_1141295114" MODIFIED="1577776542148" TEXT="200 OK">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Zawsze powinna by&#263; dodatkowo jaka&#347; tre&#347;&#263;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1577776543986" ID="ID_911175801" MODIFIED="1577776551474" TEXT="201 CREATED"/>
+<node CREATED="1577776553461" ID="ID_1529871440" MODIFIED="1577776561227" TEXT="202 ACCEPTED"/>
+<node CREATED="1577776563099" ID="ID_1260559495" MODIFIED="1577776642221" TEXT="204 NO CONTENT">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Nic nie by&#322;o stworzone, ale serwer nie ma co odpowiedzie&#263;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      To taki 200 tylko bez contentu. np. po skasowaniu zasobu
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1577776658071" ID="ID_1817342933" MODIFIED="1577776662034" TEXT="Redirecty">
+<node CREATED="1577776664273" ID="ID_669039183" MODIFIED="1577776717026" TEXT="301 MOVED PERMANENTLY">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Kliencie , nie powiniene&#347; wchodzi&#263; na ten adres
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1577776718022" ID="ID_1312129115" MODIFIED="1577776758778" TEXT="303 SEE OTHER">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Kliencie mam dla ciebie odpowied&#378;, ale znajduje si&#281; pod innym zasobem.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1577776764735" ID="ID_1959471073" MODIFIED="1577776844435" TEXT="304 - NOT MODIFIED">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Zwr&#243;&#263; zas&#243;b pod warunkiem &#380;e zosta&#322; spe&#322;niony jaki&#347; warunek. Jest to request warunkowy, je&#347;li nie zostanie spe&#322;niony mo&#380;na zw&#243;ri&#263; 304.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1577776853863" ID="ID_567501775" MODIFIED="1577776888780" TEXT="307 TEMPORARY REDIRECTED">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      w przypadku POST i PUT znaczy &#380;e serwer nie przyj&#261;&#322; &#380;&#261;dania.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1574843073919" ID="ID_813334677" MODIFIED="1576660478921" POSITION="right" TEXT="Programowanie reaktywne">
