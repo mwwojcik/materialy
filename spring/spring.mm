@@ -3118,6 +3118,7 @@ U&#380;ycie:</pre>
 </node>
 </node>
 <node CREATED="1577318020782" ID="ID_1735648620" MODIFIED="1577318041148" TEXT="Jakub Pilimon i Michal Michaluk &#x2013; Think in events - uwaga ! praktyczny przyk&#x142;ad jak u&#x17c;ywac event&#xf3;w"/>
+<node CREATED="1578249330205" ID="ID_1542092915" LINK="https://thedomaindrivendesign.io/" MODIFIED="1578249335318" TEXT="Blog DDD"/>
 </node>
 <node CREATED="1574843235419" ID="ID_125913200" MODIFIED="1575065349829" POSITION="left" TEXT="Spring Boot i dobre praktyki konfiguracji">
 <richcontent TYPE="NOTE"><html>
@@ -4219,8 +4220,7 @@ headers.add(&quot;Responded&quot;, &quot;MyController&quot;);return ResponseEnti
       Location: http://api.alledrogo.com/items/1234
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1577776347487" ID="ID_549238802" MODIFIED="1577776350150" TEXT="PUT">
@@ -4261,8 +4261,7 @@ headers.add(&quot;Responded&quot;, &quot;MyController&quot;);return ResponseEnti
       PUT: ID from Client
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -4277,8 +4276,7 @@ headers.add(&quot;Responded&quot;, &quot;MyController&quot;);return ResponseEnti
       Zawsze powinna by&#263; dodatkowo jaka&#347; tre&#347;&#263;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1577776543986" ID="ID_911175801" MODIFIED="1577776551474" TEXT="201 CREATED"/>
 <node CREATED="1577776553461" ID="ID_1529871440" MODIFIED="1577776561227" TEXT="202 ACCEPTED"/>
@@ -4298,8 +4296,7 @@ headers.add(&quot;Responded&quot;, &quot;MyController&quot;);return ResponseEnti
       To taki 200 tylko bez contentu. np. po skasowaniu zasobu
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1577776658071" ID="ID_1817342933" MODIFIED="1577776662034" TEXT="Redirecty">
 <node CREATED="1577776664273" ID="ID_669039183" MODIFIED="1577776717026" TEXT="301 MOVED PERMANENTLY">
@@ -4312,8 +4309,7 @@ headers.add(&quot;Responded&quot;, &quot;MyController&quot;);return ResponseEnti
       Kliencie , nie powiniene&#347; wchodzi&#263; na ten adres
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1577776718022" ID="ID_1312129115" MODIFIED="1577776758778" TEXT="303 SEE OTHER">
 <richcontent TYPE="NOTE"><html>
@@ -4325,8 +4321,7 @@ headers.add(&quot;Responded&quot;, &quot;MyController&quot;);return ResponseEnti
       Kliencie mam dla ciebie odpowied&#378;, ale znajduje si&#281; pod innym zasobem.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1577776764735" ID="ID_1959471073" MODIFIED="1577776844435" TEXT="304 - NOT MODIFIED">
 <richcontent TYPE="NOTE"><html>
@@ -4338,8 +4333,7 @@ headers.add(&quot;Responded&quot;, &quot;MyController&quot;);return ResponseEnti
       Zwr&#243;&#263; zas&#243;b pod warunkiem &#380;e zosta&#322; spe&#322;niony jaki&#347; warunek. Jest to request warunkowy, je&#347;li nie zostanie spe&#322;niony mo&#380;na zw&#243;ri&#263; 304.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1577776853863" ID="ID_567501775" MODIFIED="1577776888780" TEXT="307 TEMPORARY REDIRECTED">
 <richcontent TYPE="NOTE"><html>
@@ -4351,8 +4345,7 @@ headers.add(&quot;Responded&quot;, &quot;MyController&quot;);return ResponseEnti
       w przypadku POST i PUT znaczy &#380;e serwer nie przyj&#261;&#322; &#380;&#261;dania.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -6242,7 +6235,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1577611320756" ID="ID_170604112" MODIFIED="1577611330325" TEXT="docker ps -&gt; wy&#x15b;wietlenie kontener&#xf3;w"/>
+<node CREATED="1577611320756" ID="ID_170604112" MODIFIED="1578266982628" TEXT="docker ps -a -&gt; wy&#x15b;wietlenie kontener&#xf3;w"/>
 <node CREATED="1575066026694" ID="ID_1142492023" MODIFIED="1577621416470" TEXT="docker container rm ID -&gt; usuni&#x119;cie nieaktywnego kontenera">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -6605,6 +6598,7 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1578247703311" ID="ID_188909554" LINK="https://fedoramagazine.org/5-great-monospaced-fonts-for-coding-and-the-terminal-in-fedora/" MODIFIED="1578247714574" TEXT="6 great monospaced fonts for code and terminal in Fedora"/>
 </node>
 </node>
 </map>
