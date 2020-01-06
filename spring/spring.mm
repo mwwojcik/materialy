@@ -3127,6 +3127,8 @@ U&#380;ycie:</pre>
 <node CREATED="1578300595346" ID="ID_274498032" MODIFIED="1578300597683" TEXT="Query"/>
 <node CREATED="1578300599176" ID="ID_1035358482" MODIFIED="1578300601116" TEXT="Event"/>
 </node>
+<node CREATED="1578346935536" ID="ID_1436252865" LINK="https://leanpub.com/b/software-architecture" MODIFIED="1578346984977" TEXT="Simon Brown - Software Architecture for developers"/>
+<node CREATED="1578347054624" ID="ID_1087346020" LINK="https://en.wikipedia.org/wiki/Enterprise_Integration_Patterns" MODIFIED="1578347072545" TEXT="Enterprise Integration Patterns"/>
 </node>
 <node CREATED="1574843235419" ID="ID_125913200" MODIFIED="1575065349829" POSITION="left" TEXT="Spring Boot i dobre praktyki konfiguracji">
 <richcontent TYPE="NOTE"><html>
@@ -6607,6 +6609,7 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 </html></richcontent>
 </node>
 <node CREATED="1578247703311" ID="ID_188909554" LINK="https://fedoramagazine.org/5-great-monospaced-fonts-for-coding-and-the-terminal-in-fedora/" MODIFIED="1578247714574" TEXT="6 great monospaced fonts for code and terminal in Fedora"/>
+<node CREATED="1578335130375" ID="ID_1721488679" LINK="https://dzone.com/articles/java-8-optional-replace-your-get-calls" MODIFIED="1578335143785" TEXT="Optional - functional programming"/>
 </node>
 </node>
 </map>
