@@ -3118,7 +3118,8 @@ U&#380;ycie:</pre>
 </node>
 </node>
 <node CREATED="1577318020782" ID="ID_1735648620" MODIFIED="1577318041148" TEXT="Jakub Pilimon i Michal Michaluk &#x2013; Think in events - uwaga ! praktyczny przyk&#x142;ad jak u&#x17c;ywac event&#xf3;w"/>
-<node CREATED="1578249330205" ID="ID_1542092915" LINK="https://thedomaindrivendesign.io/" MODIFIED="1578249335318" TEXT="Blog DDD"/>
+<node CREATED="1578249330205" ID="ID_1542092915" LINK="https://thedomaindrivendesign.io/" MODIFIED="1578269323185" TEXT="Blog DDD - fajnie wyja&#x15b;nione niekt&#xf3;re poj&#x119;cia"/>
+<node CREATED="1578269290435" ID="ID_1194204059" LINK="https://dddcommunity.org/" MODIFIED="1578269300375" TEXT="https://dddcommunity.org/"/>
 </node>
 <node CREATED="1574843235419" ID="ID_125913200" MODIFIED="1575065349829" POSITION="left" TEXT="Spring Boot i dobre praktyki konfiguracji">
 <richcontent TYPE="NOTE"><html>
