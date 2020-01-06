@@ -3120,6 +3120,13 @@ U&#380;ycie:</pre>
 <node CREATED="1577318020782" ID="ID_1735648620" MODIFIED="1577318041148" TEXT="Jakub Pilimon i Michal Michaluk &#x2013; Think in events - uwaga ! praktyczny przyk&#x142;ad jak u&#x17c;ywac event&#xf3;w"/>
 <node CREATED="1578249330205" ID="ID_1542092915" LINK="https://thedomaindrivendesign.io/" MODIFIED="1578269323185" TEXT="Blog DDD - fajnie wyja&#x15b;nione niekt&#xf3;re poj&#x119;cia"/>
 <node CREATED="1578269290435" ID="ID_1194204059" LINK="https://dddcommunity.org/" MODIFIED="1578269300375" TEXT="https://dddcommunity.org/"/>
+<node CREATED="1578297000435" ID="ID_281347271" LINK="https://martinfowler.com/architecture/" MODIFIED="1578297025089" TEXT="Software Architecture Guide - Martin Fowler"/>
+<node CREATED="1578297326945" ID="ID_1477615075" LINK="https://martinfowler.com/bliki/CQRS.html" MODIFIED="1578297343659" TEXT="CQRS - Martin Fowler"/>
+<node CREATED="1578300581620" ID="ID_1935236339" MODIFIED="1578300586642" TEXT="Podzia&#x142; wiadomo&#x15b;ci">
+<node CREATED="1578300588623" ID="ID_35347606" MODIFIED="1578300593339" TEXT="Command"/>
+<node CREATED="1578300595346" ID="ID_274498032" MODIFIED="1578300597683" TEXT="Query"/>
+<node CREATED="1578300599176" ID="ID_1035358482" MODIFIED="1578300601116" TEXT="Event"/>
+</node>
 </node>
 <node CREATED="1574843235419" ID="ID_125913200" MODIFIED="1575065349829" POSITION="left" TEXT="Spring Boot i dobre praktyki konfiguracji">
 <richcontent TYPE="NOTE"><html>
