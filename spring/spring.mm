@@ -3128,7 +3128,7 @@ U&#380;ycie:</pre>
 <node CREATED="1578300599176" ID="ID_1035358482" MODIFIED="1578300601116" TEXT="Event"/>
 </node>
 <node CREATED="1578346935536" ID="ID_1436252865" LINK="https://leanpub.com/b/software-architecture" MODIFIED="1578346984977" TEXT="Simon Brown - Software Architecture for developers"/>
-<node CREATED="1578347054624" ID="ID_1087346020" LINK="https://en.wikipedia.org/wiki/Enterprise_Integration_Patterns" MODIFIED="1578347072545" TEXT="Enterprise Integration Patterns"/>
+<node CREATED="1578347054624" ID="ID_1087346020" LINK="https://en.wikipedia.org/wiki/Enterprise_Integration_Patterns" MODIFIED="1578510566837" TEXT="os"/>
 </node>
 <node CREATED="1574843235419" ID="ID_125913200" MODIFIED="1575065349829" POSITION="left" TEXT="Spring Boot i dobre praktyki konfiguracji">
 <richcontent TYPE="NOTE"><html>
@@ -6610,6 +6610,34 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 </node>
 <node CREATED="1578247703311" ID="ID_188909554" LINK="https://fedoramagazine.org/5-great-monospaced-fonts-for-coding-and-the-terminal-in-fedora/" MODIFIED="1578247714574" TEXT="6 great monospaced fonts for code and terminal in Fedora"/>
 <node CREATED="1578335130375" ID="ID_1721488679" LINK="https://dzone.com/articles/java-8-optional-replace-your-get-calls" MODIFIED="1578335143785" TEXT="Optional - functional programming"/>
+</node>
+<node CREATED="1578511300633" ID="ID_1936754049" MODIFIED="1578513551171" POSITION="left" TEXT="Literatura i materia&#x142;y (JAVA CORE)">
+<cloud COLOR="#00ffcc"/>
+<node CREATED="1578511323803" ID="ID_812819710" MODIFIED="1578511327411" TEXT="Prezentacje">
+<node CREATED="1578511328963" ID="ID_1882079873" LINK="https://www.youtube.com/results?search_query=nurkiewicz" MODIFIED="1578511349878" TEXT="Tomasz Nurkiewicz "/>
+<node CREATED="1578511379251" ID="ID_1325601839" LINK="https://www.youtube.com/results?search_query=adam+dubiel+java" MODIFIED="1578511385729" TEXT="Adam Dubiel"/>
+<node CREATED="1578511444222" ID="ID_1980940703" MODIFIED="1578511450498" TEXT="Jakub Kubry&#x144;ski">
+<node CREATED="1578511451526" ID="ID_1747969827" LINK="https://www.youtube.com/watch?v=LCr3XyHdaZk" MODIFIED="1578511461968" TEXT="Garbage Collector"/>
+<node CREATED="1578511482558" ID="ID_413730830" LINK="https://www.youtube.com/watch?v=j1cxF8WGM5I&amp;t=1899s" MODIFIED="1578511493469" TEXT="Co piszczy w Javie (profilowanie)">
+<node CREATED="1578519072400" ID="ID_975205061" MODIFIED="1578519080190" TEXT="standardowe narz&#x119;dzia jdk">
+<node CREATED="1578518855478" ID="ID_1511485986" MODIFIED="1578518873631" TEXT="jps -l - lista uruchomionych proces&#xf3;w java">
+<node CREATED="1578518882577" ID="ID_1774998196" MODIFIED="1578518882577" TEXT=""/>
+</node>
+<node CREATED="1578518888864" ID="ID_333343484" MODIFIED="1578518903752" TEXT="jinfo - wszystkie informacje o jvm,propertisach,flagach"/>
+<node CREATED="1578518906152" ID="ID_795909347" MODIFIED="1578518928359" TEXT="jmap -heap nr_procesu- algorytm garbage, ustawienia pami&#x119;ci, u&#x17c;ycie procentowe"/>
+<node CREATED="1578518930411" ID="ID_259595271" MODIFIED="1578518964469" TEXT="jstat - bogate statyski jvm -class ilo&#x15b;&#x107; klas za&#x142;adowanych -compiler czego nie uda&#x142;o si&#x119; zoptymalizowa&#x107;"/>
+<node CREATED="1578518973630" ID="ID_1331563654" MODIFIED="1578519013638" TEXT="jhat - narz&#x119;dzie do analizowania heapa - wystawia WS mo&#x17c;na ogl&#x105;da&#x107; heap, ronbi&#x107; na nim zapytania"/>
+<node CREATED="1578519015520" ID="ID_1170758102" MODIFIED="1578519021197" TEXT="jstack"/>
+<node CREATED="1578519022851" ID="ID_1035086758" MODIFIED="1578523409505" TEXT="visualvm (jvisualvm)- konsola profiluj&#x105;ca, pokazuje zachowanie garbage collectora (od Java 9 nie jest cz&#x119;&#x15b;ci&#x105; JDK)"/>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1578511391292" ID="ID_1654983462" MODIFIED="1578511393676" TEXT="Ksi&#x105;&#x17c;ki">
+<node CREATED="1578511394757" ID="ID_1412507556" LINK="https://www.amazon.com/Java-Performance-Depth-Advice-Programming/dp/1492056111/ref=dp_ob_title_bk" MODIFIED="1578513581247" TEXT="Java Performance (wznowienie JAVA 8 i wy&#x17c;ej)"/>
+<node CREATED="1578511757095" ID="ID_1937364751" LINK="https://www.amazon.com/HTTP-Definitive-Guide-Guides/dp/1565925092/ref=sr_1_1?keywords=http+book&amp;qid=1578511726&amp;sr=8-1" MODIFIED="1578511804960" TEXT="Http: The Definitive Guide (Definitive Guides) "/>
+<node CREATED="1578511808811" ID="ID_1297048374" MODIFIED="1578511880785" TEXT="Java Effective - Bloch"/>
+</node>
 </node>
 </node>
 </map>
