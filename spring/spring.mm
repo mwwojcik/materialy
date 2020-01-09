@@ -6611,8 +6611,8 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 <node CREATED="1578247703311" ID="ID_188909554" LINK="https://fedoramagazine.org/5-great-monospaced-fonts-for-coding-and-the-terminal-in-fedora/" MODIFIED="1578247714574" TEXT="6 great monospaced fonts for code and terminal in Fedora"/>
 <node CREATED="1578335130375" ID="ID_1721488679" LINK="https://dzone.com/articles/java-8-optional-replace-your-get-calls" MODIFIED="1578335143785" TEXT="Optional - functional programming"/>
 </node>
-<node CREATED="1578511300633" ID="ID_1936754049" MODIFIED="1578513551171" POSITION="left" TEXT="Literatura i materia&#x142;y (JAVA CORE)">
-<cloud COLOR="#00ffcc"/>
+<node CREATED="1578511300633" ID="ID_1936754049" MODIFIED="1578581117945" POSITION="left" TEXT="Literatura i materia&#x142;y (JAVA CORE)">
+<cloud COLOR="#ffcc66"/>
 <node CREATED="1578511323803" ID="ID_812819710" MODIFIED="1578511327411" TEXT="Prezentacje">
 <node CREATED="1578511328963" ID="ID_1882079873" LINK="https://www.youtube.com/results?search_query=nurkiewicz" MODIFIED="1578511349878" TEXT="Tomasz Nurkiewicz "/>
 <node CREATED="1578511379251" ID="ID_1325601839" LINK="https://www.youtube.com/results?search_query=adam+dubiel+java" MODIFIED="1578511385729" TEXT="Adam Dubiel"/>
@@ -6637,6 +6637,7 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 <node CREATED="1578511394757" ID="ID_1412507556" LINK="https://www.amazon.com/Java-Performance-Depth-Advice-Programming/dp/1492056111/ref=dp_ob_title_bk" MODIFIED="1578513581247" TEXT="Java Performance (wznowienie JAVA 8 i wy&#x17c;ej)"/>
 <node CREATED="1578511757095" ID="ID_1937364751" LINK="https://www.amazon.com/HTTP-Definitive-Guide-Guides/dp/1565925092/ref=sr_1_1?keywords=http+book&amp;qid=1578511726&amp;sr=8-1" MODIFIED="1578511804960" TEXT="Http: The Definitive Guide (Definitive Guides) "/>
 <node CREATED="1578511808811" ID="ID_1297048374" MODIFIED="1578511880785" TEXT="Java Effective - Bloch"/>
+<node CREATED="1578581050875" ID="ID_554939623" LINK="https://www.amazon.com/REST-Practice-Hypermedia-Systems-Architecture-ebook/dp/B0046RERXY/ref=sr_1_4?keywords=restful+in+practice&amp;qid=1578562068&amp;sr=8-4" MODIFIED="1578581098774" TEXT="REST in Practice: Hypermedia and Systems Architecture"/>
 </node>
 </node>
 </node>
