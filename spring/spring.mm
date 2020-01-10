@@ -6611,11 +6611,150 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 <node CREATED="1578247703311" ID="ID_188909554" LINK="https://fedoramagazine.org/5-great-monospaced-fonts-for-coding-and-the-terminal-in-fedora/" MODIFIED="1578247714574" TEXT="6 great monospaced fonts for code and terminal in Fedora"/>
 <node CREATED="1578335130375" ID="ID_1721488679" LINK="https://dzone.com/articles/java-8-optional-replace-your-get-calls" MODIFIED="1578335143785" TEXT="Optional - functional programming"/>
 </node>
-<node CREATED="1578511300633" ID="ID_1936754049" MODIFIED="1578581117945" POSITION="left" TEXT="Literatura i materia&#x142;y (JAVA CORE)">
+<node CREATED="1578511300633" ID="ID_1936754049" MODIFIED="1578649865154" POSITION="left" TEXT="Literatura i materia&#x142;y (JAVA CORE)">
 <cloud COLOR="#ffcc66"/>
 <node CREATED="1578511323803" ID="ID_812819710" MODIFIED="1578511327411" TEXT="Prezentacje">
 <node CREATED="1578511328963" ID="ID_1882079873" LINK="https://www.youtube.com/results?search_query=nurkiewicz" MODIFIED="1578511349878" TEXT="Tomasz Nurkiewicz "/>
-<node CREATED="1578511379251" ID="ID_1325601839" LINK="https://www.youtube.com/results?search_query=adam+dubiel+java" MODIFIED="1578511385729" TEXT="Adam Dubiel"/>
+<node CREATED="1578511379251" ID="ID_1325601839" LINK="https://www.youtube.com/results?search_query=adam+dubiel+java" MODIFIED="1578511385729" TEXT="Adam Dubiel">
+<node CREATED="1578643932076" ID="ID_553522580" LINK="https://www.youtube.com/watch?v=NDTLgTbyE9E" MODIFIED="1578643988694" TEXT="III Konferencja JAVIPS Adam Dubiel &quot;Przychodzi request do us&#x142;ugi&quot;">
+<node CREATED="1578649874635" ID="ID_101346883" MODIFIED="1578650032987" TEXT="Model OSI (protoko&#x142;y m&#xf3;wi&#x105;ce o sposobie przetwarzania &#x17c;&#x105;dania)">
+<node CREATED="1578650035927" ID="ID_1934807504" MODIFIED="1578650050917" TEXT="TCP/IP - warstwa transportu"/>
+<node CREATED="1578650053520" ID="ID_1557294004" MODIFIED="1578650061949" TEXT="HTTP - warstwa aplikacji"/>
+</node>
+<node CREATED="1578650101590" ID="ID_243325438" MODIFIED="1578650112736" TEXT="Jak obs&#x142;u&#x17c;y&#x107; du&#x17c;&#x105; liczb&#x119; klient&#xf3;w">
+<node CREATED="1578657640406" FOLDED="true" ID="ID_754678683" MODIFIED="1578657659120" TEXT="Liczba mo&#x17c;liwych do zestawienia po&#x142;&#x105;cze&#x144;">
+<node CREATED="1578650114559" ID="ID_1327162180" MODIFIED="1578657341782" TEXT="Ograniczenia systemu operacyjnego - liczba otwartych plik&#xf3;w">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Liczba filedescriptors otwartych na rzecz danego u&#380;ytkownika , dopuszczalna liczba otwartych plik&#243;w dla u&#380;ytkownika/systemu przedk&#322;ada si&#281; na liczb&#281; otwartych po&#322;&#261;cze&#324;, bo niskopoziomowo socket podlega tym samym ograniczeniom (jest traktowany jak plik)
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1578657381751" ID="ID_1083629573" MODIFIED="1578657597480" TEXT="Liczba otwartych po&#x142;&#x105;cze&#x144; z poziomu systemu - lsof (lub javowo UnixOperatingSystemMXBean)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Pozwalaj&#261; stwierdzi&#263; ile maksymalnie mo&#380;na utworzy&#263; po&#322;&#261;cze&#324; a ile zu&#380;ywa nasza aplikacja.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mo&#380;na wyeliminowa&#263; te deskryptory, kt&#243;re w imieniu klienta za&#322;o&#380;y&#322; kernel. Bean javowy od razu podaje to co trzeba).
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1578657605902" ID="ID_368017715" MODIFIED="1578659175639" TEXT="Liczba mo&#x17c;liwych do obs&#x142;u&#x17c;enia po&#x142;&#x105;cze&#x144;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Po&#322;&#261;czenia zosta&#322;y nawi&#261;zane teraz pytanie ile danych z nich jeste&#347;my w stanie obs&#322;u&#380;y&#263;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      W modelu nieblokuj&#261;cym aplikacje i systemy operacyjne posz&#322;y w swoje strony (ze wzgl&#281;du na abstrakcje).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      System operacyjny:
+    </p>
+    <p>
+      Chcemy by systemy nie skalowa&#322;y si&#281; liniowo wzgl&#281;dem liczb y po&#322;&#261;cze&#324; tylko danych.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Zeby wszystkiego nie blokowa&#263;:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Model select albo pool : jeden w&#261;tek kt&#243;ry sprawdza czy na w&#261;tkach s&#261; jakie&#347; dane do przyj&#281;cia, niewa&#380;ne czy dane s&#261; czy nie trzeba przeiterowa&#263; przez wszystko.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      nast&#281;pca to
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      epool - nie chcemy by wraz z wzrostem liczyby w&#261;tk&#243;w nie ros&#322;a z&#322;o&#380;ono&#347;&#263; sprawdzania czy s&#261; jakie&#347; dane. Informacja o danych zostaje zrobiona gdy dane si&#281; pojawiaj&#261;, wi&#281;c ma informacje o w&#261;tkach kt&#243;re maj&#261; dane, n ie musi iterowa&#263; i sprawdza&#263;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Aplikacja:
+    </p>
+    <p>
+      api blokuj&#261;ce: blokujemy, czekamy
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Po stronie aplikacji mamy w&#261;tki IoThread. Nie mog&#261; si&#281; blokowa&#263;, nie jest ich za du&#380;o, nie wi&#281;cej ni&#380; procesor&#243;w.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1578643935617" ID="ID_1119764754" LINK="https://youtu.be/RVBlCTK_3oA" MODIFIED="1578647019417" TEXT="bITconf 2019 - [Adam Dubiel] Powr&#xf3;t do podstaw: w&#x105;tki">
+<node CREATED="1578644190776" ID="ID_274677729" MODIFIED="1578644218371" TEXT="Co dzieje si&#x119; kiedy wstaje aplikacje (jakie procesy wstaj&#x105;, jakie w&#x105;tki s&#x105; uruchamiane)"/>
+<node CREATED="1578645567614" ID="ID_1578518770" MODIFIED="1578645577200" TEXT="R&#xf3;&#x17c;nica pomi&#x119;dzy w&#x105;tkiem a procesem"/>
+<node CREATED="1578646029477" ID="ID_1993069407" MODIFIED="1578646039664" TEXT="W&#x105;tek systemowy == w&#x105;tek systemowy"/>
+<node CREATED="1578646155847" ID="ID_1724638562" MODIFIED="1578646287763" TEXT="Narz&#x119;dzia systemowe do ogl&#x105;dania w&#x105;tk&#xf3;w javowych">
+<node CREATED="1578646212075" ID="ID_1437430276" MODIFIED="1578646279397" TEXT="ps H -p &lt;pid&gt; -0 -&gt; w&#x105;tki w procesie o zadanym pid"/>
+<node CREATED="1578646302819" ID="ID_1823790031" MODIFIED="1578646332118" TEXT="top -H -p &lt;pid&gt; -&gt; automatycznie od&#x15b;wie&#x17c;alna lista w&#x105;tk&#xf3;w pwocesie o zadanym pid"/>
+</node>
+<node CREATED="1578646472969" ID="ID_1579548360" MODIFIED="1578646496872" TEXT="Jak po&#x142;&#x105;czy&#x107; w&#x105;tki systemowe (listowane ps) a w&#x105;tkami w javie (&#x17c;eby do nich zajrze&#x107;)">
+<node CREATED="1578646499441" ID="ID_337959029" MODIFIED="1578646525772" TEXT="jstack &lt;pid&gt;"/>
+</node>
+<node CREATED="1578646746107" ID="ID_1270783204" MODIFIED="1578647005545" TEXT="Od java 9 wywo&#x142;anie sytemowego top podaje nam nazw&#x119; w&#x105;tku javowego (du&#x17c;e u&#x142;atwnienie)"/>
+<node CREATED="1578647019417" ID="ID_343415258" MODIFIED="1578647027187" TEXT="Ile kosztuje w&#x105;tek ?">
+<node CREATED="1578647035872" ID="ID_1840188639" MODIFIED="1578647040347" TEXT="pami&#x119;&#x107; stack"/>
+<node CREATED="1578647043104" ID="ID_1617990071" MODIFIED="1578647047547" TEXT="context switch"/>
+<node CREATED="1578647049744" ID="ID_1034707450" MODIFIED="1578647054657" TEXT="safepoint"/>
+<node CREATED="1578647058103" ID="ID_510966610" MODIFIED="1578647061667" TEXT="gc root"/>
+<node CREATED="1578647281789" ID="ID_62405799" MODIFIED="1578647295304" TEXT="Sposoby alokacji"/>
+</node>
+<node CREATED="1578644130433" ID="ID_1925701471" MODIFIED="1578644164341" TEXT="Zarz&#x105;dzanie w&#x142;asn&#x105; pul&#x105; w&#x105;tk&#xf3;w w SpringBoot (druga cz&#x119;&#x15b;&#x107; prezentacji)">
+<node CREATED="1578648903031" ID="ID_4787282" MODIFIED="1578648914603" TEXT="Executors.fixedThreadPool()"/>
+</node>
+<node CREATED="1578648939079" ID="ID_1213344595" MODIFIED="1578648943536" TEXT="@Async">
+<node CREATED="1578648978631" ID="ID_398520930" MODIFIED="1578649123734" TEXT="Standardowo u&#x17c;ywa SimpleAsyncTaskExecutor kt&#xf3;ry dla ka&#x17c;dego zadania odpala nowy w&#x105;tek, nie u&#x17c;ywa puli, nie zak&#x142;ada reu&#x17c;ycia w&#x105;tk&#xf3;w !!! TRZEBA DODA&#x106; OBS&#x141;UG&#x118; W&#x141;ASNEJ PULI!"/>
+</node>
+<node CREATED="1578649161877" ID="ID_47733150" MODIFIED="1578649310344" TEXT="Je&#x15b;li zada&#x144; jest wi&#x119;cej ni&#x17c; puli to trafia na kolejk&#x119;, r&#xf3;&#x17c;ne strategie obs&#x142;ugi - mo&#x17c;na u&#x17c;y&#x107; w&#x142;asn&#x105; implementacj&#x119; kolejki ( podaj&#x105;c przez konstruktor ThreadPoolExecutor. taskQueue - implementacja kolejki, rejectrion policy - zasady post&#x119;powania je&#x15b;li kolejka si&#x119; przepe&#x142;ni)"/>
+<node CREATED="1578649549619" ID="ID_1382140963" MODIFIED="1578649687964" TEXT="Sposoby alokacji pami&#x119;ci - leniwy od systemu dostajemy wi&#x119;cej ni&#x17c; tak naprawd&#x119; ma -metryka VSZ i RES"/>
+</node>
+</node>
 <node CREATED="1578511444222" ID="ID_1980940703" MODIFIED="1578511450498" TEXT="Jakub Kubry&#x144;ski">
 <node CREATED="1578511451526" ID="ID_1747969827" LINK="https://www.youtube.com/watch?v=LCr3XyHdaZk" MODIFIED="1578511461968" TEXT="Garbage Collector"/>
 <node CREATED="1578511482558" ID="ID_413730830" LINK="https://www.youtube.com/watch?v=j1cxF8WGM5I&amp;t=1899s" MODIFIED="1578511493469" TEXT="Co piszczy w Javie (profilowanie)">
