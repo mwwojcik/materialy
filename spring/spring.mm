@@ -6616,7 +6616,8 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 <node CREATED="1578511323803" ID="ID_812819710" MODIFIED="1578511327411" TEXT="Prezentacje">
 <node CREATED="1578511328963" ID="ID_1882079873" LINK="https://www.youtube.com/results?search_query=nurkiewicz" MODIFIED="1578511349878" TEXT="Tomasz Nurkiewicz "/>
 <node CREATED="1578511379251" ID="ID_1325601839" LINK="https://www.youtube.com/results?search_query=adam+dubiel+java" MODIFIED="1578511385729" TEXT="Adam Dubiel">
-<node CREATED="1578643932076" ID="ID_553522580" LINK="https://www.youtube.com/watch?v=NDTLgTbyE9E" MODIFIED="1578643988694" TEXT="III Konferencja JAVIPS Adam Dubiel &quot;Przychodzi request do us&#x142;ugi&quot;">
+<node CREATED="1578643932076" ID="ID_553522580" LINK="https://www.youtube.com/watch?v=NDTLgTbyE9E" MODIFIED="1578866816207" TEXT="III Konferencja JAVIPS Adam Dubiel &quot;Przychodzi request do us&#x142;ugi&quot;">
+<node CREATED="1578866831123" ID="ID_912405984" MODIFIED="1578866856283" TEXT="Komponent I - sytem operacyjny">
 <node CREATED="1578649874635" ID="ID_101346883" MODIFIED="1578650032987" TEXT="Model OSI (protoko&#x142;y m&#xf3;wi&#x105;ce o sposobie przetwarzania &#x17c;&#x105;dania)">
 <node CREATED="1578650035927" ID="ID_1934807504" MODIFIED="1578650050917" TEXT="TCP/IP - warstwa transportu"/>
 <node CREATED="1578650053520" ID="ID_1557294004" MODIFIED="1578650061949" TEXT="HTTP - warstwa aplikacji"/>
@@ -6721,8 +6722,105 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
       Po stronie aplikacji mamy w&#261;tki IoThread. Nie mog&#261; si&#281; blokowa&#263;, nie jest ich za du&#380;o, nie wi&#281;cej ni&#380; procesor&#243;w.
     </p>
   </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1578866816209" ID="ID_400909439" MODIFIED="1578866828857" TEXT="Komponent II - aplikacja">
+<node CREATED="1578866888335" ID="ID_1605708508" MODIFIED="1578866955143" TEXT="Pula w&#x105;tk&#xf3;w IO">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Jest to niewielka pula w&#261;tk&#243;w odpowiedzialna za komunikacj&#281; z SO.
+    </p>
+    <p>
+      Nie mo&#380;e ich by&#263; wiele, zwykle tyle ile CPU, bo nie mog&#261; si&#281; blokowa&#263; wzajemnie.
+    </p>
+  </body>
 </html>
 </richcontent>
+</node>
+<node CREATED="1578866959436" ID="ID_1530437733" MODIFIED="1578867838627" TEXT="Pula w&#x105;tk&#xf3;w workery">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      S&#261; to w&#261;tki do kt&#243;rej przekierowywane s&#261; wszystkie &#380;&#261;dania, to s&#261; kontrolery w aplikacji, to w nich dzia&#322;a nasza aplikacja.
+    </p>
+  </body>
+</html>
+</richcontent>
+<arrowlink DESTINATION="ID_1479902824" ENDARROW="Default" ENDINCLINATION="63;0;" ID="Arrow_ID_217215036" STARTARROW="None" STARTINCLINATION="63;0;"/>
+</node>
+<node CREATED="1578866969392" ID="ID_337963719" MODIFIED="1578867168028" TEXT="Kolejka">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Kolejka kt&#243;ra steruje zasobem sko&#324;czonym jakim jest pula w&#261;tk&#243;w worker&#243;w.
+    </p>
+    <p>
+      Je&#347;li workery s&#261; zaj&#281;te to &#380;&#261;dania ustawiane s&#261; one w kolejce.
+    </p>
+    <p>
+      <br />
+      Je&#347;li robimy pomiary czasu na poziomie kontrolera to nie jest uwzgl&#281;dniony czas pobytu w kolejce.
+    </p>
+    <p>
+      Mo&#380;e si&#281; wi&#281;c okaza&#263; &#380;e na poziomie uderze&#324; do kontroler&#243;w czasy odpowiedzi s&#261; szybkie, a klient otrzymuje swoje odpowiedzi po d&#322;ugim czasie, wtedy podejrzenie pada na kolejk&#281;.
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1578867175243" ID="ID_65452615" MODIFIED="1578867195436" TEXT="Komponent III - kontroler (request i odpowied&#x17a;)">
+<node CREATED="1578867202108" ID="ID_1479902824" MODIFIED="1578867998138" TEXT="Worker">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Mamy w&#261;tek workera, wi&#281;kszo&#347;&#263; czasu sp&#281;dzamy czekaj&#261;c, kod uruchamiany zajmuje okruch czasu z ca&#322;o&#347;ci.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Worker i drug&#261; aplikacj&#281; kt&#243;ra przestaje ddzia&#322;a&#263;. Nasz w&#261;tek si&#281; blokuje , wraz z nast&#281;puj&#261;cymi &#380;&#261;daniami zaczynaj&#261; blokowa&#263; si&#281; nast&#281;pne, wi&#281;c nast&#281;puje kaskada braku responsywno&#347;ci (domino &#347;mierci).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Jak si&#281; broni&#263;:
+    </p>
+    <ol>
+      <li>
+        timeout - np na bazie danych, na klientach powinny by&#263; poustawiane<br />
+      </li>
+      <li>
+        do us&#322;ugi dok&#322;adamy jeszcze jedn&#261; us&#322;ug&#281; czyli nasza rozmawia z dwoma, z kt&#243;rych jedna umiera, timeouty ustawia si&#281; dosy&#263;&#160;tolerancyjnie, pami&#281;tajmy &#380;e s&#261; dwa &#378;r&#243;d&#322;a danych, nie chcemy by jedno &#378;r&#243;d&#322;o ca&#322;kowicie blokowa&#322;o odczyty z drugiego. Nale&#380;y wprowadzi&#263; izolacj&#281; w&#261;tk&#243;w, nale&#380;y dzia&#322;anie przekazywa&#263; do r&#243;&#380;nych pul w&#261;tk&#243;w. Oryginalna pula workera przetwarza &#380;&#261;danie i przekierowuje go do osobnej puli (customowej), worker nie jest blokowany.Jest to mo&#380;liwe dzi&#281;ki specyfikacji Servlet 3.0 kt&#243;ra umo&#380;liwia asynchroniczne przetwarzanie, do osobnej puli przesy&#322;any jest kontekst w&#261;tku AsyncContext. Dodatkowo specyfikacja Servlet 3.1 pozwala na rejestracj&#281; WriteListener i ReadListener kt&#243;ry jest callbackiem, uruchamiany wtedy gdy nie b&#281;dzie blokowa&#322; strumienia, co zostanie wrzucone to zostanie przekazane, aplikacja b&#281;dzie responsywna.
+      </li>
+      <li>
+        Circle broker - w zale&#380;no&#347;ci od tego ile b&#322;&#281;d&#243;w jest rejestrowanych w po&#322;&#261;czeniu z zasobem to potrafi przeci&#261;&#263; po&#322;&#261;czenie do tej zale&#380;no&#347;ci. Przy ich korzystaniu trzeba uwa&#380;a&#263; na dwie sprawy po pierwsze cicle broker zwykle tworzy swoj&#261; pul&#281; w&#261;tk&#243;w, gdy tworzymy swoj&#261; trzeba to zablokowa&#263;, druga sprawa to timeout bo jeden jest ten niskopoziomowy http i ten na circlebrokerze, trzeba zobaczy&#263; ich wzajemn&#261; relacj&#281;.
+      </li>
+    </ol>
+  </body>
+</html>
+</richcontent>
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1479902824" ENDARROW="Default" ENDINCLINATION="63;0;" ID="Arrow_ID_217215036" SOURCE="ID_1530437733" STARTARROW="None" STARTINCLINATION="63;0;"/>
 </node>
 </node>
 </node>
