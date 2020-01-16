@@ -1384,8 +1384,7 @@ https://stackoverflow.com/questions/4811434/clone-only-one-branch?utm_medium=org
     </p>
     <pre><code>git whatchanged -1 --format=oneline | wc -l</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1537884240802" ID="ID_788840859" MODIFIED="1537884240802" TEXT=""/>
 <node CREATED="1548420407003" ID="ID_1968301525" LINK="https://labs.consol.de/development/git/2017/02/22/gitignore.html" MODIFIED="1548420444391" TEXT=".gitignore - instrukcja poprawnego u&#x17c;ycia">
@@ -1402,6 +1401,9 @@ https://stackoverflow.com/questions/4811434/clone-only-one-branch?utm_medium=org
 </node>
 <node CREATED="1562663834408" ID="ID_664123522" LINK="https://pl.atlassian.com/git/tutorials/resetting-checking-out-and-reverting" MODIFIED="1562663877581" TEXT="R&#xf3;&#x17c;nica pomi&#x119;dzy checkout, reset,revert">
 <node CREATED="1571923217737" ID="ID_723747927" LINK="https://medium.com/@manivel45/git-merge-vs-rebase-reset-vs-revert-vs-checkout-dd5674d0e18a" MODIFIED="1571923237217" TEXT="Get Merge vs Rebase"/>
+<node CREATED="1579176616274" ID="ID_744236999" LINK="https://www.atlassian.com/git/tutorials/resetting-checking-out-and-reverting" MODIFIED="1579176639779" TEXT="Resetting, Checking Out &amp; Reverting">
+<icon BUILTIN="messagebox_warning"/>
+</node>
 </node>
 <node CREATED="1569842707753" ID="ID_957586965" MODIFIED="1569842797667" TEXT="Przywr&#xf3;cenie jednego pliku z ostatniego commita (pozostale zostaja)">
 <richcontent TYPE="NOTE"><html>
@@ -1532,8 +1534,7 @@ https://stackoverflow.com/questions/8225125/remove-last-commit-from-remote-git-r
       https://stackoverflow.com/questions/6632191/how-to-revert-initial-git-commit
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1576667073910" ID="ID_543502192" MODIFIED="1576667091758" TEXT="Wycofanie ostatniego commita z lokalnego repo">
 <richcontent TYPE="NOTE"><html>
@@ -1582,8 +1583,7 @@ https://stackoverflow.com/questions/8225125/remove-last-commit-from-remote-git-r
       <pre><code>git reset --soft HEAD^</code></pre>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1576667276502" ID="ID_846790281" MODIFIED="1576667288235" TEXT="Wyczyszczenie stagging area">
 <richcontent TYPE="NOTE"><html>
@@ -1595,8 +1595,7 @@ https://stackoverflow.com/questions/8225125/remove-last-commit-from-remote-git-r
       &#160;git rm --cached krus-ea2wsdl-plugin_v003 -r
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1518253670253" ID="ID_956937492" MODIFIED="1518253772083" POSITION="right" TEXT="Praca r&#xf3;wnoleg&#x142;a">

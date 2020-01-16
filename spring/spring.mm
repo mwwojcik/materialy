@@ -6610,6 +6610,7 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 </node>
 <node CREATED="1578247703311" ID="ID_188909554" LINK="https://fedoramagazine.org/5-great-monospaced-fonts-for-coding-and-the-terminal-in-fedora/" MODIFIED="1578247714574" TEXT="6 great monospaced fonts for code and terminal in Fedora"/>
 <node CREATED="1578335130375" ID="ID_1721488679" LINK="https://dzone.com/articles/java-8-optional-replace-your-get-calls" MODIFIED="1578335143785" TEXT="Optional - functional programming"/>
+<node CREATED="1579184042671" ID="ID_932084047" LINK="https://dzone.com/articles/using-optional-correctly-is-not-optional" MODIFIED="1579184074690" TEXT="26 Reasons Why Using Optional Correctly Is Not Optional"/>
 </node>
 <node CREATED="1578511300633" ID="ID_1936754049" MODIFIED="1578649865154" POSITION="left" TEXT="Literatura i materia&#x142;y (JAVA CORE)">
 <cloud COLOR="#ffcc66"/>
@@ -6740,8 +6741,7 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
       Nie mo&#380;e ich by&#263; wiele, zwykle tyle ile CPU, bo nie mog&#261; si&#281; blokowa&#263; wzajemnie.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1578866959436" ID="ID_1530437733" MODIFIED="1578867838627" TEXT="Pula w&#x105;tk&#xf3;w workery">
 <richcontent TYPE="NOTE"><html>
@@ -6753,8 +6753,7 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
       S&#261; to w&#261;tki do kt&#243;rej przekierowywane s&#261; wszystkie &#380;&#261;dania, to s&#261; kontrolery w aplikacji, to w nich dzia&#322;a nasza aplikacja.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <arrowlink DESTINATION="ID_1479902824" ENDARROW="Default" ENDINCLINATION="63;0;" ID="Arrow_ID_217215036" STARTARROW="None" STARTINCLINATION="63;0;"/>
 </node>
 <node CREATED="1578866969392" ID="ID_337963719" MODIFIED="1578867168028" TEXT="Kolejka">
@@ -6780,8 +6779,7 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1578867175243" ID="ID_65452615" MODIFIED="1578867195436" TEXT="Komponent III - kontroler (request i odpowied&#x17a;)">
@@ -6818,8 +6816,7 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
       </li>
     </ol>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <linktarget COLOR="#b0b0b0" DESTINATION="ID_1479902824" ENDARROW="Default" ENDINCLINATION="63;0;" ID="Arrow_ID_217215036" SOURCE="ID_1530437733" STARTARROW="None" STARTINCLINATION="63;0;"/>
 </node>
 </node>
