@@ -6851,7 +6851,19 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 </node>
 </node>
 <node CREATED="1578511444222" ID="ID_1980940703" MODIFIED="1578511450498" TEXT="Jakub Kubry&#x144;ski">
-<node CREATED="1578511451526" ID="ID_1747969827" LINK="https://www.youtube.com/watch?v=LCr3XyHdaZk" MODIFIED="1578511461968" TEXT="Garbage Collector"/>
+<node CREATED="1578511451526" ID="ID_1747969827" LINK="https://www.youtube.com/watch?v=LCr3XyHdaZk" MODIFIED="1579283349641" TEXT="Garbage Collector w pigu&#x142;ce">
+<node CREATED="1579283350769" ID="ID_1753909084" MODIFIED="1579290894659" TEXT="PermGen/Metaspace - obszary pami&#x119;ci w JAVA"/>
+<node CREATED="1579283359463" ID="ID_1945529223" MODIFIED="1579287401563" TEXT="Jak optymalizowa&#x107;  wydajno&#x15b;&#x107; aplikajci /typy danych/ilo&#x15b;&#x107; w&#x105;tk&#xf3;w">
+<node CREATED="1579283422431" ID="ID_228813771" MODIFIED="1579283435131" TEXT="Parametry pami&#x119;ci i ich wp&#x142;yw na dzia&#x142;anie"/>
+</node>
+<node CREATED="1579283389503" ID="ID_924009310" MODIFIED="1579283395535" TEXT="Jak dzia&#x142;a GC">
+<node CREATED="1579283397100" ID="ID_1583548089" MODIFIED="1579283409035" TEXT="Strategie GC i r&#xf3;&#x17c;ne typy aplikacji"/>
+<node CREATED="1579287335029" ID="ID_344165278" MODIFIED="1579287369064" TEXT="Dlaczego po wprowadzeniu usprawnie&#x144; (np. cache) uzyskujemy skutek odwrotny (ze wzgl&#x119;du na dzia&#x142;anie GC)"/>
+</node>
+<node CREATED="1579283410625" ID="ID_1265716954" MODIFIED="1579283420488" TEXT="Layout pami&#x119;ciowy obiektu">
+<node CREATED="1579287314083" ID="ID_1868988108" MODIFIED="1579287332094" TEXT="Jaki rodzaj pami&#x119;ci nale&#x17c;y zbada&#x107; gdy mamy wycieki"/>
+</node>
+</node>
 <node CREATED="1578511482558" ID="ID_413730830" LINK="https://www.youtube.com/watch?v=j1cxF8WGM5I&amp;t=1899s" MODIFIED="1578511493469" TEXT="Co piszczy w Javie (profilowanie)">
 <node CREATED="1578519072400" ID="ID_975205061" MODIFIED="1578519080190" TEXT="standardowe narz&#x119;dzia jdk">
 <node CREATED="1578518855478" ID="ID_1511485986" MODIFIED="1578518873631" TEXT="jps -l - lista uruchomionych proces&#xf3;w java">
