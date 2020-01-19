@@ -90,11 +90,19 @@
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1575114880862" ID="ID_1193985266" MODIFIED="1575114904626" TEXT="CTRL+SHIFT+F6=&gt;refaktoring-zmiana typu"/>
 <node CREATED="1575221975964" ID="ID_1830750757" MODIFIED="1575221995536" TEXT="CTRL+ALT+T- wywo&#x142;anie live templates dzia&#x142;aj&#x105;cych z SELECTION"/>
+<node CREATED="1579421320486" ID="ID_1685721463" MODIFIED="1579421341692" TEXT="CTRL+W =&gt; zaznaczanie blok&#xf3;w"/>
+<node CREATED="1579421694146" ID="ID_1981592632" LINK="https://www.jetbrains.com/help/idea/navigating-through-the-source-code.html#" MODIFIED="1579421757569" TEXT="Nawigacja w kodzie">
+<node CREATED="1579421475594" ID="ID_1989785024" MODIFIED="1579421491980" TEXT="CTRL+E =&gt; nawigacja pomi&#x119;dzy ostatnio otwartymi plikami"/>
+<node CREATED="1579421671624" ID="ID_1390660419" MODIFIED="1579421691115" TEXT="ALT-DOWN/ALT+UP =&gt; nawiguj pomi&#x119;dzy metodami w pliku"/>
+<node CREATED="1579421275896" ID="ID_1230290071" MODIFIED="1579421302850" TEXT="CTRL+ALT+LEFT-&gt;nawigacja do poprzedniej pozycji kursora"/>
+</node>
+<node CREATED="1579421713041" ID="ID_874543208" MODIFIED="1579421717052" TEXT="Refaktoryzacja">
+<node CREATED="1575114880862" ID="ID_1193985266" MODIFIED="1575114904626" TEXT="CTRL+SHIFT+F6=&gt;refaktoring-zmiana typu"/>
 <node CREATED="1575361173944" ID="ID_1589690415" MODIFIED="1575361192090" TEXT="CTRL+ALT+SHIFT+T=&gt;Refactor this"/>
 <node CREATED="1575644615715" ID="ID_1554083912" MODIFIED="1575644625847" TEXT="Ctrl+Alt+F=&gt;Extract field">
 <node CREATED="1575647800363" ID="ID_1258718581" MODIFIED="1575647800363" TEXT=""/>
+</node>
 </node>
 </node>
 <node CREATED="1574758571416" ID="ID_1113805724" MODIFIED="1575179865010" POSITION="left" TEXT="Zadanie finalne">
@@ -6884,6 +6892,27 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 <node CREATED="1578511757095" ID="ID_1937364751" LINK="https://www.amazon.com/HTTP-Definitive-Guide-Guides/dp/1565925092/ref=sr_1_1?keywords=http+book&amp;qid=1578511726&amp;sr=8-1" MODIFIED="1578511804960" TEXT="Http: The Definitive Guide (Definitive Guides) "/>
 <node CREATED="1578511808811" ID="ID_1297048374" MODIFIED="1578511880785" TEXT="Java Effective - Bloch"/>
 <node CREATED="1578581050875" ID="ID_554939623" LINK="https://www.amazon.com/REST-Practice-Hypermedia-Systems-Architecture-ebook/dp/B0046RERXY/ref=sr_1_4?keywords=restful+in+practice&amp;qid=1578562068&amp;sr=8-4" MODIFIED="1578581098774" TEXT="REST in Practice: Hypermedia and Systems Architecture"/>
+</node>
+</node>
+<node CREATED="1579417243405" ID="ID_990217187" MODIFIED="1579417344296" POSITION="right" TEXT="Notatki z ksi&#x105;&#x17c;ek">
+<cloud COLOR="#ccffff"/>
+<node CREATED="1579417255054" ID="ID_1976256917" MODIFIED="1579417266176" TEXT="Vernon">
+<node CREATED="1579417268646" ID="ID_601226065" MODIFIED="1579417302189" TEXT="DDD Integration Patterns">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Page 100
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1579417303539" ID="ID_333185176" MODIFIED="1579417308984" TEXT="Open Host Service"/>
+<node CREATED="1579417310552" ID="ID_807090691" MODIFIED="1579417318686" TEXT="Published Language"/>
+<node CREATED="1579417320772" ID="ID_1090871936" MODIFIED="1579417331855" TEXT="Anticorruption Layer"/>
+</node>
 </node>
 </node>
 </node>
