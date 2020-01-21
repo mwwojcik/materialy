@@ -4283,7 +4283,7 @@ headers.add(&quot;Responded&quot;, &quot;MyController&quot;);return ResponseEnti
 </node>
 </node>
 </node>
-<node CREATED="1577776514429" ID="ID_690580220" MODIFIED="1577776516793" TEXT="Statusy">
+<node CREATED="1577776514429" FOLDED="true" ID="ID_690580220" MODIFIED="1579524840376" TEXT="Statusy">
 <node CREATED="1577776518187" ID="ID_1141295114" MODIFIED="1577776542148" TEXT="200 OK">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -6563,7 +6563,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
 <node CREATED="1575539386837" ID="ID_105228471" LINK="https://czterytygodnie.pl/wprowadzenie-do-kolejkowania-rabbitmq/" MODIFIED="1575539409940" TEXT="Wprowadzenie do RabbitMQ"/>
 <node CREATED="1575541339003" ID="ID_779103226" LINK="https://hub.docker.com/_/rabbitmq?tab=description" MODIFIED="1575541349612" TEXT="Rabbit official Docker Image"/>
 </node>
-<node CREATED="1575459547791" ID="ID_234335498" MODIFIED="1575459621848" POSITION="right" TEXT="Tips and Tricks">
+<node CREATED="1575459547791" FOLDED="true" ID="ID_234335498" MODIFIED="1579524922576" POSITION="right" TEXT="Tips and Tricks">
 <cloud COLOR="#ff9999"/>
 <node CREATED="1575459557328" ID="ID_1397287141" MODIFIED="1575459608272" TEXT="&#x141;&#x105;czenie Optional w &#x142;a&#x144;cuch">
 <richcontent TYPE="NOTE"><html>
@@ -6858,7 +6858,7 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 <node CREATED="1578649549619" ID="ID_1382140963" MODIFIED="1578649687964" TEXT="Sposoby alokacji pami&#x119;ci - leniwy od systemu dostajemy wi&#x119;cej ni&#x17c; tak naprawd&#x119; ma -metryka VSZ i RES"/>
 </node>
 </node>
-<node CREATED="1578511444222" ID="ID_1980940703" MODIFIED="1578511450498" TEXT="Jakub Kubry&#x144;ski">
+<node CREATED="1578511444222" ID="ID_1980940703" MODIFIED="1579620362820" TEXT="Jakub Kubry&#x144;ski">
 <node CREATED="1578511451526" ID="ID_1747969827" LINK="https://www.youtube.com/watch?v=LCr3XyHdaZk" MODIFIED="1579283349641" TEXT="Garbage Collector w pigu&#x142;ce">
 <node CREATED="1579283350769" ID="ID_1753909084" MODIFIED="1579290894659" TEXT="PermGen/Metaspace - obszary pami&#x119;ci w JAVA"/>
 <node CREATED="1579283359463" ID="ID_1945529223" MODIFIED="1579287401563" TEXT="Jak optymalizowa&#x107;  wydajno&#x15b;&#x107; aplikajci /typy danych/ilo&#x15b;&#x107; w&#x105;tk&#xf3;w">
@@ -6885,6 +6885,15 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 <node CREATED="1578519022851" ID="ID_1035086758" MODIFIED="1578523409505" TEXT="visualvm (jvisualvm)- konsola profiluj&#x105;ca, pokazuje zachowanie garbage collectora (od Java 9 nie jest cz&#x119;&#x15b;ci&#x105; JDK)"/>
 </node>
 </node>
+<node CREATED="1579620362820" ID="ID_1077138697" LINK="https://youtu.be/rWdgla54bcc" MODIFIED="1579620392665" TEXT="Jinkubator #40 - JVM Internals - Jakub Kubry&#x144;ski">
+<node CREATED="1579620395670" ID="ID_1360776694" MODIFIED="1579620404144" TEXT="JVM jako zwyk&#x142;a aplikacja"/>
+<node CREATED="1579620406990" ID="ID_996688823" MODIFIED="1579620412796" TEXT="Czym jest bytecode"/>
+<node CREATED="1579620415428" ID="ID_1066484055" MODIFIED="1579620430693" TEXT="Instrukcje JVM"/>
+<node CREATED="1579620424157" ID="ID_1501284984" MODIFIED="1579620454692" TEXT="Ingerencje w bytecode, jak dzia&#x142;a kompilator, wzbogacanie bytecode"/>
+<node CREATED="1579620458755" ID="ID_1548837273" MODIFIED="1579620558349" TEXT="Czym jest classloader, fajny opis jak dzia&#x142;a/fazy dzia&#x142;ania ClassLoadera"/>
+<node CREATED="1579620481739" ID="ID_454805099" MODIFIED="1579620524493" TEXT="Czym jest optymalizacja  bytecode /JIT,Hotspot"/>
+<node CREATED="1579620580040" ID="ID_1879754231" MODIFIED="1579620589103" TEXT="Przej&#x15b;cie od kodu &#x17a;rod&#x142;owego do bytecode"/>
+</node>
 </node>
 </node>
 <node CREATED="1578511391292" ID="ID_1654983462" MODIFIED="1578511393676" TEXT="Ksi&#x105;&#x17c;ki">
@@ -6907,11 +6916,10 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
       Page 100
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1579417303539" ID="ID_333185176" MODIFIED="1579417308984" TEXT="Open Host Service"/>
 <node CREATED="1579417310552" ID="ID_807090691" MODIFIED="1579417318686" TEXT="Published Language"/>
-<node CREATED="1579417320772" ID="ID_1090871936" MODIFIED="1579417331855" TEXT="Anticorruption Layer"/>
+<node CREATED="1579417320772" ID="ID_1090871936" MODIFIED="1579524922224" TEXT="Anticorruption Layer"/>
 </node>
 </node>
 </node>
