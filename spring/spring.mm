@@ -6885,7 +6885,7 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 <node CREATED="1578519022851" ID="ID_1035086758" MODIFIED="1578523409505" TEXT="visualvm (jvisualvm)- konsola profiluj&#x105;ca, pokazuje zachowanie garbage collectora (od Java 9 nie jest cz&#x119;&#x15b;ci&#x105; JDK)"/>
 </node>
 </node>
-<node CREATED="1579620362820" ID="ID_1077138697" LINK="https://youtu.be/rWdgla54bcc" MODIFIED="1579620392665" TEXT="Jinkubator #40 - JVM Internals - Jakub Kubry&#x144;ski">
+<node CREATED="1579620362820" ID="ID_1077138697" LINK="https://youtu.be/rWdgla54bcc" MODIFIED="1579642500328" TEXT="Jinkubator #40 - JVM Internals - Jakub Kubry&#x144;ski">
 <node CREATED="1579620395670" ID="ID_1360776694" MODIFIED="1579620404144" TEXT="JVM jako zwyk&#x142;a aplikacja"/>
 <node CREATED="1579620406990" ID="ID_996688823" MODIFIED="1579620412796" TEXT="Czym jest bytecode"/>
 <node CREATED="1579620415428" ID="ID_1066484055" MODIFIED="1579620430693" TEXT="Instrukcje JVM"/>
@@ -6893,6 +6893,178 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 <node CREATED="1579620458755" ID="ID_1548837273" MODIFIED="1579620558349" TEXT="Czym jest classloader, fajny opis jak dzia&#x142;a/fazy dzia&#x142;ania ClassLoadera"/>
 <node CREATED="1579620481739" ID="ID_454805099" MODIFIED="1579620524493" TEXT="Czym jest optymalizacja  bytecode /JIT,Hotspot"/>
 <node CREATED="1579620580040" ID="ID_1879754231" MODIFIED="1579620589103" TEXT="Przej&#x15b;cie od kodu &#x17a;rod&#x142;owego do bytecode"/>
+<node CREATED="1579642345240" ID="ID_1027647471" MODIFIED="1579642583208">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="model_pamieci_java.png" />
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1579642708387" ID="ID_1957836950" MODIFIED="1579642711913" TEXT="Pami&#x119;&#x107;">
+<node CREATED="1579642714130" ID="ID_1544697680" MODIFIED="1579642731358" TEXT="Program Counter - miejsce gdzie aktualnie si&#x119; znajdujemy"/>
+<node CREATED="1579642741626" ID="ID_1537966246" MODIFIED="1579642752669" TEXT="Stos sk&#x142;adaj&#x105;cy si&#x119; z ramek">
+<node CREATED="1579642753916" ID="ID_954172428" MODIFIED="1579642767673" TEXT="Ramka - kontekst wykonywnego kodu, wywo&#x142;anie metody"/>
+</node>
+<node CREATED="1579642787213" ID="ID_680709795" MODIFIED="1579642791330" TEXT="Memory Layout">
+<node CREATED="1579642821677" ID="ID_1346118001" MODIFIED="1579643676178" TEXT=" Heap -sterta">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Tutaj &#380;yj&#261; obiekty
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1579643681135" ID="ID_979912680" MODIFIED="1579643692342" TEXT="Obiekty m&#x142;ode"/>
+<node CREATED="1579643694203" ID="ID_1787404722" MODIFIED="1579643698494" TEXT="Obiekty stare"/>
+<node CREATED="1579643701158" ID="ID_1029091266" MODIFIED="1579644001489" TEXT="Zasada generyczno&#x15b;ci">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Zasada m&#243;wi&#261;ca o tym &#380;e obiekty m&#322;ode b&#281;d&#261; usuwane cz&#281;&#347;ciej ni&#380; te istniej&#261;ce d&#322;ugo ale uwaga!
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Istniej&#261; obiekty kt&#243;re przecz&#261; tej zasadzie :
+    </p>
+    <p>
+      
+    </p>
+    <ol>
+      <li>
+        Obiekty Cache
+      </li>
+      <li>
+        Sesje HTTP - jak d&#322;ugo &#380;yj&#261; to pewnie zaraz trzeba je b&#281;dzie usun&#261;&#263;
+      </li>
+    </ol>
+    <p>
+      
+    </p>
+    <p>
+      Uwaga Problem!
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Garbage Collector dzia&#322;a wed&#322;ug tej zasady i nagle w tej samej przestrzeni dzia&#322;a mu Cache. GB uczy si&#281; swoich obiekt&#243;w i ma problem bo nasze zwyczajne obiekty zachowuj&#261; si&#281; inaczej ni&#380; te odpowiadaj&#261;ce za cache. Nie mo&#380;e wypracowa&#263; sobie zasady bo s&#261; one sprzeczne.
+    </p>
+    <p>
+      Mo&#380;e doj&#347;&#263; do sytuacji &#380;e cache spowoduje spowolnienie aplikacji bo b&#281;dzie j&#261; zamula&#322; GB. &#379;eby tego unikn&#261;&#263; nale&#380;y wynie&#347;&#263; Cache do innego poziomu pami&#281;ci (przez biblioteki) lub do innego JVM.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1579642826397" ID="ID_90276022" MODIFIED="1579642865327" TEXT="Nie Heap : - Off Heap - cz&#x119;&#x15b;&#x107; natywna pami&#x119;ci">
+<node CREATED="1579642896891" ID="ID_1649718083" MODIFIED="1579642908932" TEXT="Obszar pami&#x119;ci wsp&#xf3;&#x142;dzielony przez w&#x105;tki"/>
+<node CREATED="1579642910762" ID="ID_147553764" MODIFIED="1579643116693" TEXT="Pami&#x119;&#x107; dedykowana dla w&#x105;tku">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Ka&#380;dy w&#261;tek ma program counter + stos (javowy i natywny)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Rozmiar stosu jest wymiarowany per w&#261;tek.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Xss - rozmiar stosu ale uwaga! PER W&#261;tek,
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      je&#347;li przyjmiemy &#380;e xss b&#281;dzie ustawiony na 1MB to przy 1000 w&#261;tk&#243;w to 1GB pami&#281;ci zostanie zu&#380;yty na przechowywanie stos&#243;w
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1579643175720" ID="ID_1466060802" MODIFIED="1579643475689" TEXT="Metaspace">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Metaspace - Bajtkod, sygnatury kod, metod, metaopis klas
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Sygnatury metod, maj&#261; litera&#322;y - ConstantPool po wczytaniu powstaje RuntimeConstantPool
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      I teraz szacowanie ile zajmuje nasza aplikacja: Mamy dost&#281;pne 4GB pami&#281;ci, ustawiamy Xmx na 4GB, ale pope&#322;niamy b&#322;&#261;d, bo parametr ten to wielko&#347;&#263; HEAPa, nie obejmuje on tego co znajduje si&#281; w Metaspace,
+    </p>
+    <p>
+      CodeCache, pami&#281;ci natywnej, pami&#281;ci w&#261;tk&#243;w, a to mo&#380;e zaj&#261;&#263; nawet wi&#281;cej ni&#380; HEAP.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1579643477678" ID="ID_1409958783" MODIFIED="1579643626012" TEXT="Code Cache">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Obszar w pami&#281;ci wykorzystywany przez JIT do optymalizacji metod (kompilacja i dekompilacja just in time).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Je&#347;li ta pami&#281;&#263; si&#281; zape&#322;ni to JIT przestaje dzia&#322;a&#263;. Ten obszar potrafi zaj&#261;&#263; wiele MB.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      InitialCodeCacheSize i ReservedCodeCacheSize - s&#261; to parametry do zarz&#261;dzania tym kawa&#322;kiem pami&#281;ci.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Bardzo wa&#380;ne dla wydajno&#347;ci.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
 </node>
 </node>
 </node>
