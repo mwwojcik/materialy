@@ -104,6 +104,7 @@
 <node CREATED="1575647800363" ID="ID_1258718581" MODIFIED="1575647800363" TEXT=""/>
 </node>
 </node>
+<node CREATED="1579688797759" ID="ID_1604692758" MODIFIED="1579688832409" TEXT="CTRL+F12 +: Pokayuje struktur pliku"/>
 </node>
 <node CREATED="1574758571416" ID="ID_1113805724" MODIFIED="1575179865010" POSITION="left" TEXT="Zadanie finalne">
 <richcontent TYPE="NOTE"><html>
@@ -6885,7 +6886,7 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 <node CREATED="1578519022851" ID="ID_1035086758" MODIFIED="1578523409505" TEXT="visualvm (jvisualvm)- konsola profiluj&#x105;ca, pokazuje zachowanie garbage collectora (od Java 9 nie jest cz&#x119;&#x15b;ci&#x105; JDK)"/>
 </node>
 </node>
-<node CREATED="1579620362820" ID="ID_1077138697" LINK="https://youtu.be/rWdgla54bcc" MODIFIED="1579642500328" TEXT="Jinkubator #40 - JVM Internals - Jakub Kubry&#x144;ski">
+<node CREATED="1579620362820" ID="ID_1077138697" LINK="https://youtu.be/rWdgla54bcc" MODIFIED="1579681400645" TEXT="Jinkubator #40 - JVM Internals - Jakub Kubry&#x144;ski">
 <node CREATED="1579620395670" ID="ID_1360776694" MODIFIED="1579620404144" TEXT="JVM jako zwyk&#x142;a aplikacja"/>
 <node CREATED="1579620406990" ID="ID_996688823" MODIFIED="1579620412796" TEXT="Czym jest bytecode"/>
 <node CREATED="1579620415428" ID="ID_1066484055" MODIFIED="1579620430693" TEXT="Instrukcje JVM"/>
@@ -6893,17 +6894,6 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 <node CREATED="1579620458755" ID="ID_1548837273" MODIFIED="1579620558349" TEXT="Czym jest classloader, fajny opis jak dzia&#x142;a/fazy dzia&#x142;ania ClassLoadera"/>
 <node CREATED="1579620481739" ID="ID_454805099" MODIFIED="1579620524493" TEXT="Czym jest optymalizacja  bytecode /JIT,Hotspot"/>
 <node CREATED="1579620580040" ID="ID_1879754231" MODIFIED="1579620589103" TEXT="Przej&#x15b;cie od kodu &#x17a;rod&#x142;owego do bytecode"/>
-<node CREATED="1579642345240" ID="ID_1027647471" MODIFIED="1579642583208">
-<richcontent TYPE="NODE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <img src="model_pamieci_java.png" />
-  </body>
-</html>
-</richcontent>
-</node>
 <node CREATED="1579642708387" ID="ID_1957836950" MODIFIED="1579642711913" TEXT="Pami&#x119;&#x107;">
 <node CREATED="1579642714130" ID="ID_1544697680" MODIFIED="1579642731358" TEXT="Program Counter - miejsce gdzie aktualnie si&#x119; znajdujemy"/>
 <node CREATED="1579642741626" ID="ID_1537966246" MODIFIED="1579642752669" TEXT="Stos sk&#x142;adaj&#x105;cy si&#x119; z ramek">
@@ -6920,8 +6910,7 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
       Tutaj &#380;yj&#261; obiekty
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1579643681135" ID="ID_979912680" MODIFIED="1579643692342" TEXT="Obiekty m&#x142;ode"/>
 <node CREATED="1579643694203" ID="ID_1787404722" MODIFIED="1579643698494" TEXT="Obiekty stare"/>
 <node CREATED="1579643701158" ID="ID_1029091266" MODIFIED="1579644001489" TEXT="Zasada generyczno&#x15b;ci">
@@ -6966,8 +6955,7 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
       Mo&#380;e doj&#347;&#263; do sytuacji &#380;e cache spowoduje spowolnienie aplikacji bo b&#281;dzie j&#261; zamula&#322; GB. &#379;eby tego unikn&#261;&#263; nale&#380;y wynie&#347;&#263; Cache do innego poziomu pami&#281;ci (przez biblioteki) lub do innego JVM.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1579642826397" ID="ID_90276022" MODIFIED="1579642865327" TEXT="Nie Heap : - Off Heap - cz&#x119;&#x15b;&#x107; natywna pami&#x119;ci">
@@ -7000,8 +6988,7 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
       je&#347;li przyjmiemy &#380;e xss b&#281;dzie ustawiony na 1MB to przy 1000 w&#261;tk&#243;w to 1GB pami&#281;ci zostanie zu&#380;yty na przechowywanie stos&#243;w
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1579643175720" ID="ID_1466060802" MODIFIED="1579643475689" TEXT="Metaspace">
 <richcontent TYPE="NOTE"><html>
@@ -7028,8 +7015,7 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
       CodeCache, pami&#281;ci natywnej, pami&#281;ci w&#261;tk&#243;w, a to mo&#380;e zaj&#261;&#263; nawet wi&#281;cej ni&#380; HEAP.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1579643477678" ID="ID_1409958783" MODIFIED="1579643626012" TEXT="Code Cache">
 <richcontent TYPE="NOTE"><html>
@@ -7059,9 +7045,20 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
       Bardzo wa&#380;ne dla wydajno&#347;ci.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
+</node>
+</node>
+<node CREATED="1579681483815" ID="ID_1549006895" MODIFIED="1579685145989" TEXT="Mapa pami&#x119;ci">
+<node CREATED="1579642345240" ID="ID_1027647471" MODIFIED="1579642583208">
+<richcontent TYPE="NODE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <img src="model_pamieci_java.png" />
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
