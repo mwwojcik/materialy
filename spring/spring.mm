@@ -110,6 +110,49 @@
 <node CREATED="1579800762759" ID="ID_527419871" LINK="https://youtu.be/CmPJzEqFS4s" MODIFIED="1579800831425" TEXT="Be More Productive With IntelliJ IDEA by Trisha Gee"/>
 <node CREATED="1579800843546" ID="ID_1095850292" LINK="https://youtu.be/9AMcN-wkspU" MODIFIED="1579800856626" TEXT="More IntelliJ IDEA Tips and Tricks by Trisha Gee"/>
 </node>
+<node CREATED="1579806846079" ID="ID_1324658804" MODIFIED="1579807065444" TEXT="Wy&#x142;&#x105;czenie ma&#x142;o u&#x17c;ytecznych okien">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      2xSHIFT
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Tab placement -&gt; None
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      breadcrumbs-&gt; Dont show
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Show navigation bar -&gt; OFF
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Zamiast tego:
+    </p>
+    <p>
+      Ctrl+E
+    </p>
+    <p>
+      CTRL+SHIFT+E
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node CREATED="1574758571416" ID="ID_1113805724" MODIFIED="1575179865010" POSITION="left" TEXT="Zadanie finalne">
 <richcontent TYPE="NOTE"><html>
