@@ -105,6 +105,11 @@
 </node>
 </node>
 <node CREATED="1579688797759" ID="ID_1604692758" MODIFIED="1579688832409" TEXT="CTRL+F12 +: Pokayuje struktur pliku"/>
+<node CREATED="1579800722911" ID="ID_1323160578" MODIFIED="1579800732774" TEXT="Prezentacje Trisha Gee">
+<node CREATED="1579800734516" ID="ID_1902347278" LINK="https://youtu.be/uu7j1_jhiU4" MODIFIED="1579800760164" TEXT="MOAR IntelliJ IDEA Tips and Tricks by Trisha Gee"/>
+<node CREATED="1579800762759" ID="ID_527419871" LINK="https://youtu.be/CmPJzEqFS4s" MODIFIED="1579800831425" TEXT="Be More Productive With IntelliJ IDEA by Trisha Gee"/>
+<node CREATED="1579800843546" ID="ID_1095850292" LINK="https://youtu.be/9AMcN-wkspU" MODIFIED="1579800856626" TEXT="More IntelliJ IDEA Tips and Tricks by Trisha Gee"/>
+</node>
 </node>
 <node CREATED="1574758571416" ID="ID_1113805724" MODIFIED="1575179865010" POSITION="left" TEXT="Zadanie finalne">
 <richcontent TYPE="NOTE"><html>
