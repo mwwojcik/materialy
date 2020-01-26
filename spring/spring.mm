@@ -92,10 +92,14 @@
 </node>
 <node CREATED="1575221975964" ID="ID_1830750757" MODIFIED="1575221995536" TEXT="CTRL+ALT+T- wywo&#x142;anie live templates dzia&#x142;aj&#x105;cych z SELECTION"/>
 <node CREATED="1579421320486" ID="ID_1685721463" MODIFIED="1579421341692" TEXT="CTRL+W =&gt; zaznaczanie blok&#xf3;w"/>
-<node CREATED="1579421694146" ID="ID_1981592632" LINK="https://www.jetbrains.com/help/idea/navigating-through-the-source-code.html#" MODIFIED="1579421757569" TEXT="Nawigacja w kodzie">
+<node CREATED="1579421694146" ID="ID_1981592632" LINK="https://www.jetbrains.com/help/idea/navigating-through-the-source-code.html#" MODIFIED="1579905047968" TEXT="Nawigacja w kodzie">
 <node CREATED="1579421475594" ID="ID_1989785024" MODIFIED="1579421491980" TEXT="CTRL+E =&gt; nawigacja pomi&#x119;dzy ostatnio otwartymi plikami"/>
 <node CREATED="1579421671624" ID="ID_1390660419" MODIFIED="1579421691115" TEXT="ALT-DOWN/ALT+UP =&gt; nawiguj pomi&#x119;dzy metodami w pliku"/>
 <node CREATED="1579421275896" ID="ID_1230290071" MODIFIED="1579421302850" TEXT="CTRL+ALT+LEFT-&gt;nawigacja do poprzedniej pozycji kursora"/>
+<node CREATED="1579904910618" ID="ID_1360930315" MODIFIED="1579904936352" TEXT="CTRL+ALT+RIGHT=&gt;Nawigacja do nast&#x119;pnej pozycji kursora"/>
+<node CREATED="1579904941394" ID="ID_431151486" MODIFIED="1579905022150" TEXT="CTRL+SHIFT+BACKSPACE=&gt;Przesuni&#x119;cie do miejsca ostatniej edycji - UWAGA! Linux to twardy restart XServera!!!"/>
+<node CREATED="1579905047969" ID="ID_1548595397" MODIFIED="1579905067962" TEXT="CTRL+LEFT, CTRL+RIGHT=&gt;przesuni&#x119;cia pomi&#x119;dzy s&#x142;owami"/>
+<node CREATED="1579905117610" ID="ID_1578819345" MODIFIED="1579905162086" TEXT="CTRL+SHIFT+LEFT,CTRL+SHIFT+RIGHT=&gt;przesuni&#x119;ciea pomi&#x119;dzy s&#x142;owami z selekcj&#x105;"/>
 </node>
 <node CREATED="1579421713041" ID="ID_874543208" MODIFIED="1579421717052" TEXT="Refaktoryzacja">
 <node CREATED="1575114880862" ID="ID_1193985266" MODIFIED="1575114904626" TEXT="CTRL+SHIFT+F6=&gt;refaktoring-zmiana typu"/>
@@ -150,9 +154,13 @@
       CTRL+SHIFT+E
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
+<node CREATED="1580026601431" ID="ID_951053459" MODIFIED="1580026609469" TEXT="RUN/DEBUG">
+<node CREATED="1580026611031" ID="ID_122837577" MODIFIED="1580026630196" TEXT="SHIFT+F9=&gt;DEBUG"/>
+<node CREATED="1580026631965" ID="ID_1153642135" MODIFIED="1580026640472" TEXT="SHIFT+F10=&gt;RUN"/>
+</node>
+<node CREATED="1580026646297" ID="ID_1209244632" MODIFIED="1580026669734" TEXT="SHIFT+F12=&gt;Restore default layout - szybkie zamkniecie otwartych okienek"/>
 </node>
 <node CREATED="1574758571416" ID="ID_1113805724" MODIFIED="1575179865010" POSITION="left" TEXT="Zadanie finalne">
 <richcontent TYPE="NOTE"><html>
