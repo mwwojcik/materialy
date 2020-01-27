@@ -107,6 +107,8 @@
 <node CREATED="1575644615715" ID="ID_1554083912" MODIFIED="1575644625847" TEXT="Ctrl+Alt+F=&gt;Extract field">
 <node CREATED="1575647800363" ID="ID_1258718581" MODIFIED="1575647800363" TEXT=""/>
 </node>
+<node CREATED="1580111956145" ID="ID_643809259" MODIFIED="1580111975322" TEXT="Ctrl+Alt+M=&gt;Extract method"/>
+<node CREATED="1580111978216" ID="ID_1358299383" MODIFIED="1580111998338" TEXT="Ctrl+Alt+C=&gt;Extract constans"/>
 </node>
 <node CREATED="1579688797759" ID="ID_1604692758" MODIFIED="1579688832409" TEXT="CTRL+F12 +: Pokayuje struktur pliku"/>
 <node CREATED="1579800722911" ID="ID_1323160578" MODIFIED="1579800732774" TEXT="Prezentacje Trisha Gee">
@@ -161,6 +163,46 @@
 <node CREATED="1580026631965" ID="ID_1153642135" MODIFIED="1580026640472" TEXT="SHIFT+F10=&gt;RUN"/>
 </node>
 <node CREATED="1580026646297" ID="ID_1209244632" MODIFIED="1580026669734" TEXT="SHIFT+F12=&gt;Restore default layout - szybkie zamkniecie otwartych okienek"/>
+<node CREATED="1580111866201" ID="ID_656233273" MODIFIED="1580111911398" TEXT="CTRL+ALT+H=&gt; Pokazuje hierchi&#x119; u&#x17c;y&#x107; danej metody"/>
+<node CREATED="1580159213087" ID="ID_708703554" MODIFIED="1580159455004" TEXT="Maven">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Skr&#243;ty u&#380;ytkownika ustawione w
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ctrl+Shift+S
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      KeyMap-&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Tool Windows-&gt; Maven-&gt; Keybord shortcut-&gt; Ctrl+Shift+O
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Plug Ins -&gt; Maven -&gt; Run Maven Build -&gt; Ctrl+Shift+P
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1580159219919" ID="ID_1223664652" MODIFIED="1580159235739" TEXT="Ctrl+Shift+O=&gt; poka&#x17c; okno maven"/>
+<node CREATED="1580159237555" ID="ID_1450229160" MODIFIED="1580159256229" TEXT="Ctrl+Shift+P=&gt;Uruchom zaznaczone fazy"/>
+</node>
 </node>
 <node CREATED="1574758571416" ID="ID_1113805724" MODIFIED="1575179865010" POSITION="left" TEXT="Zadanie finalne">
 <richcontent TYPE="NOTE"><html>
