@@ -1585,7 +1585,7 @@ https://stackoverflow.com/questions/8225125/remove-last-commit-from-remote-git-r
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1576667276502" ID="ID_846790281" MODIFIED="1576667288235" TEXT="Wyczyszczenie stagging area">
+<node CREATED="1576667276502" ID="ID_846790281" MODIFIED="1580209679103" TEXT="Wyczyszczenie stagging area">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1594,8 +1594,19 @@ https://stackoverflow.com/questions/8225125/remove-last-commit-from-remote-git-r
     <p>
       &#160;git rm --cached krus-ea2wsdl-plugin_v003 -r
     </p>
+    <p>
+      
+    </p>
+    <p>
+      od wersji 2.24.0
+    </p>
+    <p>
+      
+    </p>
+    <pre><code>git restore --staged .</code></pre>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1579701369763" ID="ID_1614530537" MODIFIED="1579701386229" TEXT="Czyszczenie nieu&#x17c;ywanych branchy kt&#xf3;e nie istniej&#x105; na origin">
 <node CREATED="1579701387872" ID="ID_282382880" MODIFIED="1579701410533" TEXT="wy&#x15b;wietlenie bez usuwania =&gt; git remote prune origin --dry-run"/>
