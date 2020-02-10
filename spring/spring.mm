@@ -100,6 +100,7 @@
 <node CREATED="1579904941394" ID="ID_431151486" MODIFIED="1579905022150" TEXT="CTRL+SHIFT+BACKSPACE=&gt;Przesuni&#x119;cie do miejsca ostatniej edycji - UWAGA! Linux to twardy restart XServera!!!"/>
 <node CREATED="1579905047969" ID="ID_1548595397" MODIFIED="1579905067962" TEXT="CTRL+LEFT, CTRL+RIGHT=&gt;przesuni&#x119;cia pomi&#x119;dzy s&#x142;owami"/>
 <node CREATED="1579905117610" ID="ID_1578819345" MODIFIED="1579905162086" TEXT="CTRL+SHIFT+LEFT,CTRL+SHIFT+RIGHT=&gt;przesuni&#x119;ciea pomi&#x119;dzy s&#x142;owami z selekcj&#x105;"/>
+<node CREATED="1581349663324" ID="ID_1050643986" MODIFIED="1581349683457" TEXT="CTRL+Home, CTRL+End =&gt; Skocz na pocz&#x105;tek/koniec pliku"/>
 </node>
 <node CREATED="1579421713041" ID="ID_874543208" MODIFIED="1579421717052" TEXT="Refaktoryzacja">
 <node CREATED="1575114880862" ID="ID_1193985266" MODIFIED="1580376740372" TEXT="CTRL+SHIFT+F6=&gt;refaktoring-zmiana typu UWAGA najed&#x17a; na typ zmiennej"/>
@@ -198,8 +199,7 @@
       Plug Ins -&gt; Maven -&gt; Run Maven Build -&gt; Ctrl+Shift+P
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1580159219919" ID="ID_1223664652" MODIFIED="1580159235739" TEXT="Ctrl+Shift+O=&gt; poka&#x17c; okno maven"/>
 <node CREATED="1580159237555" ID="ID_1450229160" MODIFIED="1580159256229" TEXT="Ctrl+Shift+P=&gt;Uruchom zaznaczone fazy"/>
 </node>
