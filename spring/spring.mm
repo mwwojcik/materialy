@@ -6740,7 +6740,22 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 <node CREATED="1578511300633" ID="ID_1936754049" MODIFIED="1578649865154" POSITION="left" TEXT="Literatura i materia&#x142;y (JAVA CORE)">
 <cloud COLOR="#ffcc66"/>
 <node CREATED="1578511323803" ID="ID_812819710" MODIFIED="1578511327411" TEXT="Prezentacje">
-<node CREATED="1578511328963" ID="ID_1882079873" LINK="https://www.youtube.com/results?search_query=nurkiewicz" MODIFIED="1578511349878" TEXT="Tomasz Nurkiewicz "/>
+<node CREATED="1578511328963" ID="ID_1882079873" LINK="https://www.youtube.com/results?search_query=nurkiewicz" MODIFIED="1578511349878" TEXT="Tomasz Nurkiewicz ">
+<node CREATED="1581540270123" ID="ID_408570236" LINK="https://youtu.be/WxCb6TMkNd8" MODIFIED="1581540549868" TEXT="Programowanie reaktywne: czego si&#x119; nauczy&#x142;em">
+<node CREATED="1581540291872" ID="ID_1665084032" MODIFIED="1581540308712" TEXT="Czym jest programowanie reaktywne, jakie problemy mo&#x17c;na rozwi&#x105;za&#x107;"/>
+<node CREATED="1581540354981" ID="ID_1261196523" MODIFIED="1581540366481" TEXT="Krytyczne spojrzenie na programowanie reaktywne"/>
+<node CREATED="1581540368361" ID="ID_632217033" MODIFIED="1581540379709" TEXT="Konsekwencje u&#x17c;ycia programowania reaktywnego"/>
+<node CREATED="1581540414226" ID="ID_361845281" MODIFIED="1581540436350" TEXT="Wady kodu reaktywnego / z&#x142;o&#x17c;ono&#x15b;&#x107;"/>
+<node CREATED="1581540481460" ID="ID_521723285" MODIFIED="1581540491039" TEXT="Mono i Flux zaciemniaj&#x105; domen&#x119;"/>
+<node CREATED="1581540549869" ID="ID_523469759" MODIFIED="1581540555394" TEXT="Dobry kod jest nudny"/>
+<node CREATED="1581540564759" ID="ID_1944856076" MODIFIED="1581540601497" TEXT="Por&#xf3;wnanie programowani reaktywnego vs blokuj&#x105;cego - nale&#x17c;y uwa&#x17c;a&#x107; na pomy&#x142;ki, w pulach w&#x105;tkach, blokowaniu"/>
+<node CREATED="1581540605813" ID="ID_1484921126" MODIFIED="1581540613415" TEXT="Kod reaktywny jest skomplikowany"/>
+<node CREATED="1581540615762" ID="ID_1324053424" MODIFIED="1581540627614" TEXT="Por&#xf3;wnanie koszt&#xf3;w rozwijania kodu reaktywnego"/>
+<node CREATED="1581540634927" ID="ID_1068932150" MODIFIED="1581540645137" TEXT="Prawo Littlea - szacowanie zasob&#xf3;w"/>
+<node CREATED="1581540651165" ID="ID_674137432" MODIFIED="1581540664273" TEXT="Problemy ze &#x15b;ledzeniem stacktracea"/>
+<node CREATED="1581540675451" ID="ID_436743253" MODIFIED="1581540703973" TEXT="uwaga na zr&#xf3;wnoleglenie - nie wszystkie operatory gwarantuj&#x105; kolejno&#x15b;&#x107;"/>
+</node>
+</node>
 <node CREATED="1578511379251" ID="ID_1325601839" LINK="https://www.youtube.com/results?search_query=adam+dubiel+java" MODIFIED="1578511385729" TEXT="Adam Dubiel">
 <node CREATED="1578643932076" ID="ID_553522580" LINK="https://www.youtube.com/watch?v=NDTLgTbyE9E" MODIFIED="1578866816207" TEXT="III Konferencja JAVIPS Adam Dubiel &quot;Przychodzi request do us&#x142;ugi&quot;">
 <node CREATED="1578866831123" ID="ID_912405984" MODIFIED="1578866856283" TEXT="Komponent I - sytem operacyjny">
@@ -6973,6 +6988,35 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 </node>
 <node CREATED="1578649161877" ID="ID_47733150" MODIFIED="1578649310344" TEXT="Je&#x15b;li zada&#x144; jest wi&#x119;cej ni&#x17c; puli to trafia na kolejk&#x119;, r&#xf3;&#x17c;ne strategie obs&#x142;ugi - mo&#x17c;na u&#x17c;y&#x107; w&#x142;asn&#x105; implementacj&#x119; kolejki ( podaj&#x105;c przez konstruktor ThreadPoolExecutor. taskQueue - implementacja kolejki, rejectrion policy - zasady post&#x119;powania je&#x15b;li kolejka si&#x119; przepe&#x142;ni)"/>
 <node CREATED="1578649549619" ID="ID_1382140963" MODIFIED="1578649687964" TEXT="Sposoby alokacji pami&#x119;ci - leniwy od systemu dostajemy wi&#x119;cej ni&#x17c; tak naprawd&#x119; ma -metryka VSZ i RES"/>
+</node>
+<node CREATED="1581539731578" ID="ID_102484999" LINK="https://www.youtube.com/watch?v=wTwL1NOLcs0" MODIFIED="1581539768083" TEXT="2017 - Adam Dubiel - Klienci HTTP: bohaterowie system&#xf3;w rozproszonych">
+<node CREATED="1581539788455" ID="ID_983214545" MODIFIED="1581539798266" TEXT="Wybieramy klienta HTTP do naszego projektu"/>
+<node CREATED="1581539800376" ID="ID_697499230" MODIFIED="1581539812114" TEXT="Cz&#x119;sto skupiamy si&#x119; na API">
+<node CREATED="1581539821233" ID="ID_1037679312" MODIFIED="1581539822713" TEXT="API">
+<node CREATED="1581539823853" ID="ID_1257478181" MODIFIED="1581539827640" TEXT="RestTemplate"/>
+<node CREATED="1581539829090" ID="ID_1339863637" MODIFIED="1581539832507" TEXT="Jersey"/>
+<node CREATED="1581539834025" ID="ID_148292297" MODIFIED="1581539842301" TEXT="AsyncRestTemplate"/>
+<node CREATED="1581539844021" ID="ID_1533355524" MODIFIED="1581539847482" TEXT="Retrofit"/>
+</node>
+</node>
+<node CREATED="1581539855196" ID="ID_1612945835" MODIFIED="1581539861658" TEXT="A powinni&#x15b;my na implementacji">
+<node CREATED="1581539863586" ID="ID_911990727" MODIFIED="1581539870093" TEXT="HttpUrlConnection"/>
+<node CREATED="1581539871735" ID="ID_1668034789" MODIFIED="1581539874699" TEXT="Apache Client"/>
+<node CREATED="1581539875994" ID="ID_1653322227" MODIFIED="1581539892401" TEXT="Apache NIO (Async) Client"/>
+<node CREATED="1581539894210" ID="ID_856628257" MODIFIED="1581539898388" TEXT="OkHTTP"/>
+</node>
+<node CREATED="1581539908392" ID="ID_1739574547" MODIFIED="1581539914077" TEXT="Jak wybra&#x107; implementacj&#x119;"/>
+<node CREATED="1581539961421" ID="ID_1382003932" MODIFIED="1581539971761" TEXT="Fallacies of distributed computing">
+<node CREATED="1581539972827" ID="ID_150063357" MODIFIED="1581539986015" TEXT="Jakie problemy wynikaj&#x105; z komunikajci sieciowej"/>
+<node CREATED="1581539988449" ID="ID_1320750816" MODIFIED="1581540002455" TEXT="Czy op&#xf3;&#x17a;nienia s&#x105; zerowe ? Moe"/>
+<node CREATED="1581540005377" ID="ID_911910605" MODIFIED="1581540011607" TEXT="Kiedy musimy czeka&#x107;"/>
+<node CREATED="1581540030885" ID="ID_1571363802" MODIFIED="1581540035575" TEXT="Koszty po&#x142;&#x105;cze&#x144;"/>
+</node>
+<node CREATED="1581540079520" ID="ID_1392880379" MODIFIED="1581540092879" TEXT="Przegl&#x105;d pu&#x142;apek wynikaj&#x105;cych z ustawie&#x144; defaultowych"/>
+<node CREATED="1581540111692" ID="ID_1337304452" MODIFIED="1581540117790" TEXT="Jak dzia&#x142;a pula po&#x142;&#x105;cze&#x144;"/>
+<node CREATED="1581540157542" ID="ID_1974171409" MODIFIED="1581540164507" TEXT="Model w&#x105;tk&#xf3;w">
+<node CREATED="1581540186259" ID="ID_1085779163" MODIFIED="1581540196191" TEXT="W&#x105;tki blokuj&#x105;ce i nieblokuj&#x105;ce"/>
+</node>
 </node>
 </node>
 <node CREATED="1578511444222" ID="ID_1980940703" MODIFIED="1579620362820" TEXT="Jakub Kubry&#x144;ski">
