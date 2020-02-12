@@ -101,6 +101,8 @@
 <node CREATED="1579905047969" ID="ID_1548595397" MODIFIED="1579905067962" TEXT="CTRL+LEFT, CTRL+RIGHT=&gt;przesuni&#x119;cia pomi&#x119;dzy s&#x142;owami"/>
 <node CREATED="1579905117610" ID="ID_1578819345" MODIFIED="1579905162086" TEXT="CTRL+SHIFT+LEFT,CTRL+SHIFT+RIGHT=&gt;przesuni&#x119;ciea pomi&#x119;dzy s&#x142;owami z selekcj&#x105;"/>
 <node CREATED="1581349663324" ID="ID_1050643986" MODIFIED="1581349683457" TEXT="CTRL+Home, CTRL+End =&gt; Skocz na pocz&#x105;tek/koniec pliku"/>
+<node CREATED="1581434063293" ID="ID_661942145" MODIFIED="1581434106367" TEXT="CTRL+B =&gt; przejd&#x17a; do deklaracji, a potem poka&#x17c; u&#x17c;ycia"/>
+<node CREATED="1581434115587" ID="ID_1880132471" MODIFIED="1581434135623" TEXT="CTRL+ALT+B =&gt; przejd&#x17a; od razu do implementacji"/>
 </node>
 <node CREATED="1579421713041" ID="ID_874543208" MODIFIED="1579421717052" TEXT="Refaktoryzacja">
 <node CREATED="1575114880862" ID="ID_1193985266" MODIFIED="1580376740372" TEXT="CTRL+SHIFT+F6=&gt;refaktoring-zmiana typu UWAGA najed&#x17a; na typ zmiennej"/>
