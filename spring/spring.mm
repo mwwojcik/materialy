@@ -7224,6 +7224,10 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 </node>
 </node>
 </node>
+<node CREATED="1581663377915" ID="ID_1044343008" MODIFIED="1581663381997" TEXT="Mikroserwisy">
+<node CREATED="1581663383112" ID="ID_1138585550" LINK="https://youtu.be/2CVJuPtlNVU?list=PLVbNBx5Phg3DkJO00oMB2ETHFmG7RUujm" MODIFIED="1581663414134" TEXT="2018 - Tomasz Fija&#x142;kowski - Micro-monolith anti-pattern"/>
+<node CREATED="1581663482881" ID="ID_238034227" LINK="https://youtu.be/yXoaqGGEY8Q" MODIFIED="1581663496954" TEXT="4Developers 2017: Utrzymywalne mikroserwisy - naga prawda (Jakub Kubry&#x144;ski)"/>
+</node>
 </node>
 <node CREATED="1578511391292" ID="ID_1654983462" MODIFIED="1578511393676" TEXT="Ksi&#x105;&#x17c;ki">
 <node CREATED="1578511394757" ID="ID_1412507556" LINK="https://www.amazon.com/Java-Performance-Depth-Advice-Programming/dp/1492056111/ref=dp_ob_title_bk" MODIFIED="1578513581247" TEXT="Java Performance (wznowienie JAVA 8 i wy&#x17c;ej)"/>
