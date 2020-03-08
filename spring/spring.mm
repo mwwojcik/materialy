@@ -221,6 +221,7 @@
 <node CREATED="1580396379801" ID="ID_434462236" MODIFIED="1580396399852" TEXT="Ctrl+Backspace=&gt;Skasuj od pozycji kursora do pocz&#x105;tku s&#x142;owa"/>
 </node>
 </node>
+<node CREATED="1582880527854" ID="ID_1031665264" MODIFIED="1582880874065" TEXT="CTRL+ALT+SHIFT+F7 =&gt; Settingsy wyszukiwania - bardzo pomocne, mo&#x17c;na ogranicza&#x107; opcje u&#x17c;ycia"/>
 </node>
 <node CREATED="1574758571416" ID="ID_1113805724" MODIFIED="1575179865010" POSITION="left" TEXT="Zadanie finalne">
 <richcontent TYPE="NOTE"><html>
