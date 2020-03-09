@@ -3255,6 +3255,11 @@ U&#380;ycie:</pre>
 </node>
 <node CREATED="1578346935536" ID="ID_1436252865" LINK="https://leanpub.com/b/software-architecture" MODIFIED="1578346984977" TEXT="Simon Brown - Software Architecture for developers"/>
 <node CREATED="1578347054624" ID="ID_1087346020" LINK="https://en.wikipedia.org/wiki/Enterprise_Integration_Patterns" MODIFIED="1578510566837" TEXT="os"/>
+<node CREATED="1583745154798" ID="ID_1912124777" MODIFIED="1583745161760" TEXT="Event Storming">
+<node CREATED="1583745163950" ID="ID_818802996" LINK="https://leanpub.com/introducing_eventstorming" MODIFIED="1583745212713" TEXT="Alberto Brandolini - Introducing EventStorming"/>
+<node CREATED="1583745232686" ID="ID_1797628115" LINK="https://radekmaziarka.pl/2019/01/26/event-storming-co-dalej/" MODIFIED="1583745298959" TEXT="Event Storming i co dalej ? "/>
+<node CREATED="1583745307812" ID="ID_175465153" LINK="https://buildplease.com/pages/fpc-1/" MODIFIED="1583745364351" TEXT="Warsztat - odkrywanie dziedziny - Coffee Company"/>
+</node>
 </node>
 <node CREATED="1574843235419" ID="ID_125913200" MODIFIED="1575065349829" POSITION="left" TEXT="Spring Boot i dobre praktyki konfiguracji">
 <richcontent TYPE="NOTE"><html>
@@ -6738,7 +6743,7 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 <node CREATED="1578335130375" ID="ID_1721488679" LINK="https://dzone.com/articles/java-8-optional-replace-your-get-calls" MODIFIED="1578335143785" TEXT="Optional - functional programming"/>
 <node CREATED="1579184042671" ID="ID_932084047" LINK="https://dzone.com/articles/using-optional-correctly-is-not-optional" MODIFIED="1579184074690" TEXT="26 Reasons Why Using Optional Correctly Is Not Optional"/>
 </node>
-<node CREATED="1578511300633" ID="ID_1936754049" MODIFIED="1578649865154" POSITION="left" TEXT="Literatura i materia&#x142;y (JAVA CORE)">
+<node CREATED="1578511300633" ID="ID_1936754049" MODIFIED="1583744386937" POSITION="left" TEXT="Literatura i materia&#x142;y (JAVA CORE)">
 <cloud COLOR="#ffcc66"/>
 <node CREATED="1578511323803" ID="ID_812819710" MODIFIED="1578511327411" TEXT="Prezentacje">
 <node CREATED="1578511328963" ID="ID_1882079873" LINK="https://www.youtube.com/results?search_query=nurkiewicz" MODIFIED="1578511349878" TEXT="Tomasz Nurkiewicz ">
@@ -7235,6 +7240,9 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 <node CREATED="1578511757095" ID="ID_1937364751" LINK="https://www.amazon.com/HTTP-Definitive-Guide-Guides/dp/1565925092/ref=sr_1_1?keywords=http+book&amp;qid=1578511726&amp;sr=8-1" MODIFIED="1578511804960" TEXT="Http: The Definitive Guide (Definitive Guides) "/>
 <node CREATED="1578511808811" ID="ID_1297048374" MODIFIED="1578511880785" TEXT="Java Effective - Bloch"/>
 <node CREATED="1578581050875" ID="ID_554939623" LINK="https://www.amazon.com/REST-Practice-Hypermedia-Systems-Architecture-ebook/dp/B0046RERXY/ref=sr_1_4?keywords=restful+in+practice&amp;qid=1578562068&amp;sr=8-4" MODIFIED="1578581098774" TEXT="REST in Practice: Hypermedia and Systems Architecture"/>
+</node>
+<node CREATED="1583744386937" ID="ID_1362040854" MODIFIED="1583744388810" TEXT="Linki">
+<node CREATED="1583744391444" ID="ID_474442299" LINK="https://devcave.pl/archiwum#effective-java" MODIFIED="1583744427454" TEXT="Java Effective - archiwum materia&#x142;&#xf3;w"/>
 </node>
 </node>
 <node CREATED="1579417243405" ID="ID_990217187" MODIFIED="1579417344296" POSITION="right" TEXT="Notatki z ksi&#x105;&#x17c;ek">
