@@ -1,11 +1,11 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node BACKGROUND_COLOR="#ffffcc" CREATED="1585423420139" ID="ID_1493379729" MODIFIED="1585509483430" TEXT="DNA">
+<node BACKGROUND_COLOR="#ffffcc" CREATED="1585423420139" ID="ID_1493379729" MODIFIED="1585518070508" STYLE="fork" TEXT="DNA">
 <font BOLD="true" NAME="SansSerif" SIZE="23"/>
-<node CREATED="1585423520402" HGAP="108" ID="ID_1017278685" MODIFIED="1585510861475" POSITION="right" TEXT="Modelowanie architektury C4" VSHIFT="6">
+<node CREATED="1585423520402" HGAP="108" ID="ID_1017278685" MODIFIED="1585518070507" POSITION="right" TEXT="Modelowanie architektury C4" VSHIFT="6">
 <cloud COLOR="#9999ff"/>
-<node CREATED="1585423563343" ID="ID_804172323" MODIFIED="1585423570021" TEXT="Poziomy szczeg&#xf3;&#x142;owo&#x15b;ci">
-<node CREATED="1585423571443" ID="ID_1857196169" MODIFIED="1585439804832" TEXT="System">
+<node CREATED="1585423563343" ID="ID_804172323" MODIFIED="1585518070507" TEXT="Poziomy szczeg&#xf3;&#x142;owo&#x15b;ci">
+<node CREATED="1585423571443" ID="ID_1857196169" MODIFIED="1585518070507" TEXT="System">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -16,7 +16,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1585439843659" ID="ID_1516907933" MODIFIED="1585509198015" TEXT="C1">
+<node CREATED="1585439843659" ID="ID_1516907933" MODIFIED="1585518070507" TEXT="C1">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -92,7 +92,7 @@
 </richcontent>
 </node>
 </node>
-<node CREATED="1585423577336" ID="ID_1300381984" MODIFIED="1585439769965" TEXT="Kontener">
+<node CREATED="1585423577336" ID="ID_1300381984" MODIFIED="1585518070507" TEXT="Kontener">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -103,7 +103,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1585439936396" ID="ID_1447573369" MODIFIED="1585508974667" TEXT="C2">
+<node CREATED="1585439936396" ID="ID_1447573369" MODIFIED="1585518070507" TEXT="C2">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -122,7 +122,7 @@
 </richcontent>
 </node>
 </node>
-<node CREATED="1585423582374" ID="ID_1314991883" MODIFIED="1585439821845" TEXT="Komponent">
+<node CREATED="1585423582374" ID="ID_1314991883" MODIFIED="1585518070507" TEXT="Komponent">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -133,7 +133,7 @@
     </p>
   </body>
 </html></richcontent>
-<node CREATED="1585508983938" ID="ID_1644108288" MODIFIED="1585509035873" TEXT="C3">
+<node CREATED="1585508983938" ID="ID_1644108288" MODIFIED="1585518070507" TEXT="C3">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -147,9 +147,9 @@
 </node>
 </node>
 </node>
-<node CREATED="1585509328709" HGAP="62" ID="ID_1751279895" MODIFIED="1585510859924" POSITION="left" TEXT="DDD">
+<node CREATED="1585509328709" HGAP="62" ID="ID_1751279895" MODIFIED="1585518070507" POSITION="left" TEXT="DDD">
 <cloud COLOR="#ccffcc"/>
-<node CREATED="1585509356321" ID="ID_1651176478" MODIFIED="1585509504174" TEXT="DDD by example - library">
+<node CREATED="1585509356321" ID="ID_1651176478" MODIFIED="1585518070507" TEXT="DDD by example - library">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -185,14 +185,236 @@
 </richcontent>
 </node>
 </node>
-<node CREATED="1585510867352" ID="ID_9447650" MODIFIED="1585511238953" POSITION="right" TEXT="Architektura">
-<cloud COLOR="#ffffcc"/>
+<node CREATED="1585510867352" ID="ID_9447650" MODIFIED="1585518107810" POSITION="right" TEXT="Architektura">
+<cloud COLOR="#ffcc00"/>
+<node CREATED="1585512666672" ID="ID_1054512773" MODIFIED="1585518070507" TEXT="Drivery architektoniczne">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Drivery architektoniczne odpowiadaj&#261; na pytanie dlaczego system powsta&#322; w takim a nie innym kszta&#322;cie, jakie by&#322;y przyczyny powzi&#281;cia takich a nie inych decyzji architektonicznych.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1585513095793" ID="ID_1679792906" MODIFIED="1585518070507" TEXT="klasy ">
+<node CREATED="1585512750981" ID="ID_1138739831" MODIFIED="1585518070507" TEXT="wymagania funkcjonalne">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Lista funkcji okre&#347;laj&#261;ca system.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      np. rozliczenia musz&#261; by&#263; dost&#281;pne dla wszystkich u&#380;ytkownik&#243;w = trzeba u&#380;y&#263; bazy danych
+    </p>
+  </body>
+</html></richcontent>
 </node>
-<node CREATED="1585511135630" HGAP="46" ID="ID_338746357" MODIFIED="1585511244881" POSITION="left" TEXT="Linki" VSHIFT="21">
+<node CREATED="1585512758388" ID="ID_1334474625" MODIFIED="1585518070507" TEXT="atrybuty jako&#x15b;ciowe">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      np:
+    </p>
+    <p>
+      system ma by&#263; skalowalny, rozszerzalny ,bezpieczny, monitorowalny, audytowalny, konfigurowalny.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1585512764156" ID="ID_648594180" MODIFIED="1585518070507" TEXT="ograniczenia projektowe">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      system powstaje w &#347;wiecie rzeczywistym, w ograniczonym czasie, bud&#380;ecie, wiedzy.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Wybieramy technologi&#281; na kt&#243;rej si&#281; znamy.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1585512770860" ID="ID_1551932337" MODIFIED="1585518070507" TEXT="konwencje">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Szereg zasad stosowanych w ramach organizacji . Promujemy sp&#243;jne rozwi&#261;zania, biblioteki.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Wyb&#243;r architektury tak by uatrakcyjni&#263; projekt.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1585512774823" ID="ID_642423137" MODIFIED="1585518070507" TEXT="cele projektowe">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      np. gdy tworzymy prototyp to stosujemy inne rozwi&#261;zania, a je&#347;li system produkcyjny to inne.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Dob&#243;r architektury zale&#380;y od celu.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1585513112403" ID="ID_1982032764" MODIFIED="1585518070507" TEXT="&#x179;r&#xf3;d&#x142;em informacji o driverach s&#x105; interesariusz"/>
+</node>
+<node CREATED="1585513186095" ID="ID_314361871" MODIFIED="1585518070507" TEXT="Architecture Decision Record">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Dokument w kt&#243;rym zapisujemy powzi&#281;te decyzje architektoniczne.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1585513257190" ID="ID_1457175356" MODIFIED="1585518070507" TEXT="Struktura ADR">
+<node CREATED="1585513266005" ID="ID_1631675840" MODIFIED="1585518070507" TEXT="Tytu&#x142; - czego dotyczy decyzja"/>
+<node CREATED="1585513277950" ID="ID_983168880" MODIFIED="1585518070507" TEXT="kontekst - jakie s&#x105; znane drivery"/>
+<node CREATED="1585513297435" ID="ID_751058250" MODIFIED="1585518070507" TEXT="decyzja: wyb&#xf3;r i uzasadnienie"/>
+<node CREATED="1585513306423" ID="ID_1987253771" MODIFIED="1585518070508" TEXT="konsekwencje: znane skutki decyzji"/>
+<node CREATED="1585513324652" ID="ID_1725297605" MODIFIED="1585518070508" TEXT="dlaczego nie zosta&#x142;y wybrane inne rozwi&#x105;zania"/>
+</node>
+<node CREATED="1585513365954" ID="ID_1003787243" MODIFIED="1585518070508" TEXT="Dobre praktyki">
+<node CREATED="1585513371200" ID="ID_264917622" MODIFIED="1585518070508" TEXT="jeden dokument opisuj&#x105;cy jedn&#x105; decyzj&#x119;"/>
+<node CREATED="1585513387338" ID="ID_580096622" MODIFIED="1585518070508" TEXT="dokument zawiera czas podj&#x119;cia decyzji"/>
+<node CREATED="1585513401318" ID="ID_430596637" MODIFIED="1585518070508" TEXT="dokument wyja&#x15b;nia aktualn&#x105; sytuacj&#x119; organizacyjn&#x105; i priorytety"/>
+<node CREATED="1585513434671" ID="ID_1737123577" MODIFIED="1585518070508" TEXT="opisujemy te drivery kt&#xf3;re mia&#x142;y wp&#x142;yw na decyzj&#x119;"/>
+<node CREATED="1585513500850" ID="ID_1053350260" MODIFIED="1585518070508" TEXT="dokument powinien by&#x107; niemutowalny (powstaje nowy rekord z odniesieniem do starego )"/>
+<node CREATED="1585513544431" ID="ID_790253854" MODIFIED="1585518070508" TEXT="ADR stosowany jest przez wszystkich cz&#x142;onk&#xf3;w zespo&#x142;u"/>
+<node CREATED="1585513560802" ID="ID_1879716010" MODIFIED="1585518070508" TEXT="Kod &#x17a;r&#xf3;d&#x142;owy mo&#x17c;e mie&#x107; linki na ADR"/>
+</node>
+<node CREATED="1585513702916" ID="ID_1923919324" MODIFIED="1585518070508" TEXT="Przyk&#x142;ad">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Tytu&#322;:Narz&#281;dzie do testowania jednostkowego
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Kontekst (znane drivery):
+    </p>
+    <p>
+      &#322;atwo&#347;&#263; obs&#322;ugi
+    </p>
+    <p>
+      czytelno&#347;&#263;
+    </p>
+    <p>
+      powszechno&#347;&#263; u&#380;ycia
+    </p>
+    <p>
+      kontekst organizacyjny np. j&#281;zyk Java
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Status decyzji: proponowana
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Decyzja: wybrano narz&#281;dzie JUnit ze wzgl&#281;du na
+    </p>
+    <p>
+      &#322;atwo&#347;&#263; obs&#322;ugi
+    </p>
+    <p>
+      czytelno&#347;&#263;
+    </p>
+    <p>
+      powszechno&#347;&#263; zastosowania
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      czas: 01-01-2020
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Inne rozwa&#380;ane mo&#380;liwo&#347;ci
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Spock (bardziej czytelne, ale mniej popularne, wi&#281;kszy pr&#243;g wej&#347;cia)
+    </p>
+    <p>
+      TestNG (mniej popularne), wi&#281;szy pr&#243;g wej&#347;cia
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1585513616016" ID="ID_669173422" MODIFIED="1585518070508" TEXT="Architecture Decision Log">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Zbi&#243;r wskaza&#324; na dokumenty ADR
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1585513668744" ID="ID_84361058" MODIFIED="1585518070508" TEXT="Jira, kod &#x17a;r&#xf3;d&#x142;owy , itp."/>
+</node>
+</node>
+<node CREATED="1585511135630" HGAP="46" ID="ID_338746357" MODIFIED="1585518070508" POSITION="left" TEXT="Linki" VSHIFT="21">
 <cloud COLOR="#ff9900"/>
-<node CREATED="1585511140114" ID="ID_1750157851" LINK="https://dna-pl.slack.com/" MODIFIED="1585511147917" TEXT="https://dna-pl.slack.com/"/>
-<node CREATED="1585511153616" ID="ID_1092957864" LINK="https://edu.devstyle.pl/architektura/" MODIFIED="1585511182554" TEXT="https://edu.devstyle.pl/architektura/"/>
-<node CREATED="1585511205663" ID="ID_11883161" LINK="https://structurizr.com/dashboard" MODIFIED="1585511212762" TEXT="https://structurizr.com/dashboard"/>
+<node CREATED="1585511140114" ID="ID_1750157851" LINK="https://dna-pl.slack.com/" MODIFIED="1585518070508" TEXT="https://dna-pl.slack.com/"/>
+<node CREATED="1585511153616" ID="ID_1092957864" LINK="https://edu.devstyle.pl/architektura/" MODIFIED="1585518070508" TEXT="https://edu.devstyle.pl/architektura/"/>
+<node CREATED="1585511205663" ID="ID_11883161" LINK="https://structurizr.com/dashboard" MODIFIED="1585518070508" TEXT="https://structurizr.com/dashboard"/>
 </node>
 </node>
 </map>
