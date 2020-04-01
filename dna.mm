@@ -88,8 +88,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1585423577336" ID="ID_1300381984" MODIFIED="1585518070507" TEXT="Kontener">
@@ -118,8 +117,7 @@
       mog&#261; stanowi&#263; je grupy komponent&#243;w, kt&#243;re s&#261; faktycznie od siebie niezale&#380;ne (nieistotne jak je wdra&#380;amy) .
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1585423582374" ID="ID_1314991883" MODIFIED="1585518070507" TEXT="Komponent">
@@ -141,15 +139,114 @@
   <body>
     Komponent to zestaw klas, kt&#243;re razem tworz&#261; wy&#380;szego poziomu kontrakt. Mo&#380;e to by&#263; fasada oraz DTO.
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
 <node CREATED="1585509328709" HGAP="62" ID="ID_1751279895" MODIFIED="1585518070507" POSITION="left" TEXT="DDD">
 <cloud COLOR="#ccffcc"/>
-<node CREATED="1585509356321" ID="ID_1651176478" MODIFIED="1585518070507" TEXT="DDD by example - library">
+<node CREATED="1585643378096" ID="ID_1707799" MODIFIED="1585643464795" TEXT="Slack">
+<node CREATED="1585643468840" ID="ID_507315727" MODIFIED="1585643484208" TEXT="Modelowanie przep&#x142;ywu zdarze&#x144;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      
+    </p>
+    <p>
+      Ja chcia&#322;bym zapyta&#263; jak mo&#380;na zamodelowa&#263; dynamik&#281; systemu rozproszonego z&#322;o&#380;onego z kilkunastu/kilkudziesi&#281;ciu/kilkuset microserwis&#243;w ? C4 &#347;wietnie nadaje si&#281; do modelowania struktury ale nie dostarcza niczego co pomog&#322;oby ogarn&#261;&#263; komunikacj&#281;. A przecie&#380; model przep&#322;ywu zdarze&#324; w takiej sytuacji wydaje si&#281; by&#263; kluczowy. Bo np. chcia&#322;bym zrefaktorowa&#263; jakie&#347; zdarzenie, sk&#261;d dowiedzie&#263; si&#281; kto z niego korzysta ? Kogo nale&#380;a&#322;oby powiadomi&#263; o takich planach ? Czy jest jaki&#347; rodzaj modelu kt&#243;ry pokazywa&#322;by nasz system rozproszony z &quot;lotu ptaka&quot;, ale skupia&#322; si&#281; na eventach przez niego przep&#322;ywaj&#261;cych ? Jak w og&#243;le porusza&#263; si&#281; w &#347;wiecie event&#243;w i w nim nie zagin&#261;&#263; ?
+    </p>
+    <p>
+      O czym&#347; takim m&#243;wi Jakub Nabrdalik w tej prezentacji https://youtu.be/jo46-CP6ywU?t=272 , ale niestety nie pokazuje takiego diagramu. (edited)
+    </p>
+    <p>
+      YouTubeYouTube | confiturapl
+    </p>
+    <p>
+      2019 - Jakub Nabrdalik - Common mistakes when moving to microservices &amp; cloud
+    </p>
+    <p>
+      10 replies
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Zerknij na to (jeszcze nie sprawdza&#322;em)
+    </p>
+    <p>
+      https://c4model.com/#DynamicDiagramDaj zna&#263;, czy pomog&#322;o i jak?
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      dzi&#281;ki nie zauwa&#380;y&#322;em wcze&#347;niej tego diagramu, wygl&#261;da ciekawie :slightly_smiling_face: , na pewno sprawdz&#281; bo wygl&#261;da obiecuj&#261;co. Teraz przysz&#322;o&#160;&#160;mi do g&#322;owy kolejne pytanie,&#160;&#160;czy tak&#261; komunikacj&#281; modelujemy na poziomie koncepcyjnym (tak jak na przyk&#322;adach) czy te&#380; projektowym (i czy z takiego diagramu programi&#347;ci powinni m&#243;c dowiedzie&#263; si&#281; jakiej klasy event jest wysy&#322;any z mojego ms).
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Z opisu do diagramu (&quot;Intended audience: Technical and non-technical people, inside and outside of the software development team.) wychodzi, &#380;e na dowolnym.
+    </p>
+    <p>
+      Wiadomo ka&#380;da dodatkowa informacja powoduje wi&#281;ksze zrozumienie, pytanie tylko, czy chcesz modelowa&#263; 50, 100, 500 event&#243;w, mo&#380;e s&#261; inne narz&#281;dzia do tego ale my&#347;l&#281;, &#380;e mo&#380;na na dowolnym poziomie.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Wiesz co, ja mam chyba problem z koncepcj&#261; tego typu modelu, czuj&#281; potrzeb&#281; jego istnienia, ale nie za bardzo go sobie mog&#281; wyobrazi&#263;. Bo to bardzo trudna sprawa. &#321;atwo prze&#322;adowa&#263; go informacjami i uczyni&#263; bezu&#380;ytecznym.&#160;&#160;Zastanawiam si&#281; jak firmy radz&#261; sobie z tym problemem w realu.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Przy takiej skali lepiej ni&#380; diagram b&#281;dzie sprawdza&#322;o si&#281; dobre narz&#281;dzie wizualizacji metryk i trace-&#243;w ze &#347;rodowiska uruchomieniowego. Co&#347; ala &#8220;Service map&#8221; w datadog. New Relic te&#380; to ma. Sprawdza si&#281; w komunikacji synchronicznej, Dla zdarze&#324; niestety nie ma tego. Wi&#281;kszo&#347;&#263; firm albo nie posiada takich informacji w jednym miejscu, albo pisze swoje w&#322;asne narz&#281;dzia do tego.&#160;&#160;By&#263; mo&#380;e do rozwi&#261;zania tego problemu mo&#380;na by u&#380;y&#263; kontrakt&#243;w dla zdarze&#324;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Absolutnie, mo&#380;e to zadzia&#322;a&#263;. W momencie, w kt&#243;rym messaging te&#380; jest obs&#322;u&#380;ony za pomoc&#261; kontrakt&#243;w, to jeste&#347;my w stanie wy&#322;apa&#263; wstecznie niekompatybilne zmiany API wiadomo&#347;ci. Ponadto mo&#380;emy wiedzie&#263; dok&#322;adnie kto nas s&#322;ucha i jak u&#380;ywa naszych wiadomo&#347;ci
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Dobrze rozumiem, &#380;e trzeba by sobie takie informacje samemu z repo wyci&#261;gn&#261;&#263; ?
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Tak. &#379;eby zrobi&#263; map&#281; komunikacji musia&#322;by&#347; trzyma&#263; kontrakty w osobnym repo i trzyma&#263; si&#281; konwencji nazewniczej. Tzn. &#380;e pod katalogiem producenta wiadomo&#347;ci masz katalogi jego konsument&#243;w. Przyk&#322;ad z RESTem https://github.com/spring-cloud-samples/spring-cloud-contract-samples/tree/master/beer_contracts#dependency-visualization
+    </p>
+    <p>
+      GitHubGitHub
+    </p>
+    <p>
+      spring-cloud-samples/spring-cloud-contract-samples
+    </p>
+    <p>
+      Samples for Spring Cloud Contract project. Contribute to spring-cloud-samples/spring-cloud-contract-samples development by creating an account on GitHub.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Bardzo Wam dzi&#281;kuj&#281; za cenne wskaz&#243;wki.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1585509356321" ID="ID_1651176478" MODIFIED="1585643386072" TEXT="DDD by example - library">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -181,12 +278,12 @@
     </p>
     Jakby by&#322;y obs&#322;ugiwane osobno, to by&#322;aby szansa, ze hold si&#281; nie uda, mimo ze masz 4 rezerwacje, 5 rezerwacje w&#322;a&#347;nie kto&#347; za Ciebie odebra&#322; (checkout) ale ciagle masz w systemie 5 (wy&#347;cig). W bibliotece pewnie to nie jest problem, chodzi&#322;o o dydaktyczne przekazanie idei agregatu
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node CREATED="1585510867352" ID="ID_9447650" MODIFIED="1585518107810" POSITION="right" TEXT="Architektura">
-<cloud COLOR="#ffcc00"/>
+</node>
+<node CREATED="1585510867352" ID="ID_9447650" MODIFIED="1585643520825" POSITION="right" TEXT="Architektura">
+<cloud COLOR="#66ffcc"/>
 <node CREATED="1585512666672" ID="ID_1054512773" MODIFIED="1585518070507" TEXT="Drivery architektoniczne">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -197,8 +294,7 @@
       Drivery architektoniczne odpowiadaj&#261; na pytanie dlaczego system powsta&#322; w takim a nie innym kszta&#322;cie, jakie by&#322;y przyczyny powzi&#281;cia takich a nie inych decyzji architektonicznych.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1585513095793" ID="ID_1679792906" MODIFIED="1585518070507" TEXT="klasy ">
 <node CREATED="1585512750981" ID="ID_1138739831" MODIFIED="1585518070507" TEXT="wymagania funkcjonalne">
 <richcontent TYPE="NOTE"><html>
@@ -300,8 +396,7 @@
       Dokument w kt&#243;rym zapisujemy powzi&#281;te decyzje architektoniczne.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1585513257190" ID="ID_1457175356" MODIFIED="1585518070507" TEXT="Struktura ADR">
 <node CREATED="1585513266005" ID="ID_1631675840" MODIFIED="1585518070507" TEXT="Tytu&#x142; - czego dotyczy decyzja"/>
 <node CREATED="1585513277950" ID="ID_983168880" MODIFIED="1585518070507" TEXT="kontekst - jakie s&#x105; znane drivery"/>
@@ -391,9 +486,9 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
+<node CREATED="1585719511965" ID="ID_1092201129" LINK="https://github.com/joelparkerhenderson/architecture_decision_record" MODIFIED="1585719547898" TEXT="Architecture decision record (ADR)"/>
 </node>
 <node CREATED="1585513616016" ID="ID_669173422" MODIFIED="1585518070508" TEXT="Architecture Decision Log">
 <richcontent TYPE="NOTE"><html>
@@ -405,13 +500,12 @@
       Zbi&#243;r wskaza&#324; na dokumenty ADR
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1585513668744" ID="ID_84361058" MODIFIED="1585518070508" TEXT="Jira, kod &#x17a;r&#xf3;d&#x142;owy , itp."/>
 </node>
 </node>
-<node CREATED="1585511135630" HGAP="46" ID="ID_338746357" MODIFIED="1585518070508" POSITION="left" TEXT="Linki" VSHIFT="21">
-<cloud COLOR="#ff9900"/>
+<node CREATED="1585511135630" HGAP="46" ID="ID_338746357" MODIFIED="1585643529489" POSITION="left" TEXT="Linki" VSHIFT="21">
+<cloud COLOR="#ccff33"/>
 <node CREATED="1585511140114" ID="ID_1750157851" LINK="https://dna-pl.slack.com/" MODIFIED="1585518070508" TEXT="https://dna-pl.slack.com/"/>
 <node CREATED="1585511153616" ID="ID_1092957864" LINK="https://edu.devstyle.pl/architektura/" MODIFIED="1585518070508" TEXT="https://edu.devstyle.pl/architektura/"/>
 <node CREATED="1585511205663" ID="ID_11883161" LINK="https://structurizr.com/dashboard" MODIFIED="1585518070508" TEXT="https://structurizr.com/dashboard"/>
