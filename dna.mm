@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node BACKGROUND_COLOR="#ffffcc" CREATED="1585423420139" ID="ID_1493379729" MODIFIED="1585518070508" STYLE="fork" TEXT="DNA">
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1585423420139" ID="ID_1493379729" MODIFIED="1585724961424" STYLE="fork" TEXT="         DNA        ">
 <font BOLD="true" NAME="SansSerif" SIZE="23"/>
 <node CREATED="1585423520402" HGAP="108" ID="ID_1017278685" MODIFIED="1585518070507" POSITION="right" TEXT="Modelowanie architektury C4" VSHIFT="6">
 <cloud COLOR="#9999ff"/>
@@ -280,6 +280,94 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1585726461358" ID="ID_895600408" MODIFIED="1585726511223" TEXT="Narz&#x119;dzie do EventStormingu">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Cze&#347;&#263;, czy mo&#380;ecie poleci&#263; darmowe narz&#281;dzie, kt&#243;re dobrze symulowa&#322;oby &#347;cian&#281; z kolorowymi karteczkami i da&#322;oby si&#281; go u&#380;y&#263; w celu wiadomym ?
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Ch&#322;opaki z zespo&#322;u polecali Miro https://miro.com/ Pr&#243;bowa&#322;e&#347; ju&#380;?
+    </p>
+    <p>
+      https://miro.com/https://miro.com/
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Miro | Free Online Collaborative Whiteboard
+    </p>
+    <p>
+      Scalable, secure, cross-device and enterprise-ready team collaboration whiteboard for distributed teams. Join 4M+ users from around the world.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Do retro u&#380;ywamy tego https://jamboard.google.com/
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      dzi&#281;ki , na razie nie mia&#322;em okazji wypr&#243;bowa&#263; &#380;adnego z narz&#281;dzi, dopiero si&#281; rozgl&#261;dam bo ddd p&#243;ki co przede mn&#261;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      https://miro.com/
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Je&#347;li to nie musi wygl&#261;da&#263; jak karteczka to mo&#380;e trello :) (edited)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Obecnie nr 1 to Miro. A od kiedy dodano tam obs&#322;ug&#281; OCR i rozpoznawanie tekstu z post-it&#243;w, to jeszcze wygodniej si&#281; tego u&#380;ywa :slightly_smiling_face:Wysoko w stawce jest u mnie tak&#380;e Inspect IO, ale to narz&#281;dzie nie jest jeszcze otwarte publicznie, a ja korzystam z dost&#281;pu do bety, kt&#243;r&#261; dosta&#322;em od autor&#243;w.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Tak wygl&#261;da board w Inspect IO
+    </p>
+    <p>
+      Zrzut ekranu 2020-03-2 o 22.29.59.png
+    </p>
+    <p>
+      Zrzut ekranu 2020-03-2 o 22.29.59.png
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      w https://app.diagrams.net/ tez mo&#380;na, ale nie tak wygodne jak miro
+    </p>
+    <p>
+      app.diagrams.netapp.diagrams.net
+    </p>
+    <p>
+      Flowchart Maker &amp; Online Diagram Software
+    </p>
+    <p>
+      diagrams.net is free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1585510867352" ID="ID_9447650" MODIFIED="1585643520825" POSITION="right" TEXT="Architektura">
@@ -509,6 +597,10 @@
 <node CREATED="1585511140114" ID="ID_1750157851" LINK="https://dna-pl.slack.com/" MODIFIED="1585518070508" TEXT="https://dna-pl.slack.com/"/>
 <node CREATED="1585511153616" ID="ID_1092957864" LINK="https://edu.devstyle.pl/architektura/" MODIFIED="1585518070508" TEXT="https://edu.devstyle.pl/architektura/"/>
 <node CREATED="1585511205663" ID="ID_11883161" LINK="https://structurizr.com/dashboard" MODIFIED="1585518070508" TEXT="https://structurizr.com/dashboard"/>
+</node>
+<node CREATED="1585732517529" ID="ID_1677479757" MODIFIED="1585732543170" POSITION="right" TEXT="DDD">
+<cloud COLOR="#ffff66"/>
+<node CREATED="1585732546026" ID="ID_292527878" MODIFIED="1585732564481" TEXT="Modelowanie strategiczne - Event Storming - Big Picture"/>
 </node>
 </node>
 </map>
