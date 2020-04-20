@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node BACKGROUND_COLOR="#ffcc66" CREATED="1585423420139" ID="ID_1493379729" MODIFIED="1585724961424" STYLE="fork" TEXT="         DNA        ">
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1585423420139" ID="ID_1493379729" MODIFIED="1587371591443" STYLE="fork" TEXT="         DNA        ">
 <font BOLD="true" NAME="SansSerif" SIZE="23"/>
 <node CREATED="1585423520402" HGAP="108" ID="ID_1017278685" MODIFIED="1585518070507" POSITION="right" TEXT="Modelowanie architektury C4" VSHIFT="6">
 <cloud COLOR="#9999ff"/>
@@ -146,7 +146,7 @@
 </node>
 <node CREATED="1585509328709" HGAP="62" ID="ID_1751279895" MODIFIED="1585518070507" POSITION="left" TEXT="DDD">
 <cloud COLOR="#ccffcc"/>
-<node CREATED="1585643378096" ID="ID_1707799" MODIFIED="1585643464795" TEXT="Slack">
+<node CREATED="1585643378096" ID="ID_1707799" MODIFIED="1585894999755" TEXT="Slack">
 <node CREATED="1585643468840" ID="ID_507315727" MODIFIED="1585643484208" TEXT="Modelowanie przep&#x142;ywu zdarze&#x144;">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -365,8 +365,290 @@
       diagrams.net is free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
+</node>
+<node CREATED="1585895003186" ID="ID_248783350" MODIFIED="1585918255594" TEXT="Zale&#x17c;no&#x15b;ci pomi&#x119;dzy agregatami">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      
+    </p>
+    <p>
+      Hejka, czy serwis domenowy mo&#380;e w konstruktorze przyjmowa&#263; jako zale&#380;no&#347;&#263; repozytorium? Jak korzysta&#263; z takiego serwisu, budowanie jego zale&#380;no&#347;ci w agregacie to chybiony pomys&#322;. Mo&#380;e IoC, chocia&#380; wyczyta&#322;em, &#380;e IoC w domenie to te&#380; nie najlepszy pomys&#322;. A mo&#380;e fakt, &#380;e w serwisie domenowym potrzebuje dane z innego agregatu, &#347;wiadczy o z&#322;ym wyznaczeniu granic pomi&#281;dzy agregatami?
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mo&#380;e otaguj kogo&#347; z bottegi tym pytaniem, bo jest ciekawe. Moim zdaniem nie do ko&#324;ca bo dane z bazy mo&#380;e mu przekaza&#263; np komand w warstwie aplikacyjnej, kt&#243;ry to komand zapuka po nie bezpo&#347;rednio do bazy przez repozytorium. (edited)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Dop&#243;ki wyci&#261;gasz dane z jednego agregatu (query), na potrzeby zmiany (command) drugiego, to jest OK, bo transakcja nie jest z&#322;amana. Je&#347;li nie wiesz, kt&#243;ry agregat powinien dosta&#263; drugi jako zale&#380;no&#347;c, bo oba przypadki wygl&#261;daj&#261; &quot;dziwie&quot; - to dodaj serwis domenowy. W takim wypadku serwis aplikacyjny wyci&#261;gnie oba agregaty i przeka&#380;e ni&#380;ej do serwisu (wi&#281;c zale&#380;nosci do repo nie b&#281;dzie). Na slajdach jest taki przyk&#322;ad z serwisem do pauzowania
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      W seriwsie domenowym jako cz&#281;sci domeny chcesz osiagn&#261;&#263; wysok&#261; testowalno&#347;&#263; - jednostowko, bez mockow i stubow, bez transakcji bazodanowych, komunikacji ze swiatem zewnetrznym
+    </p>
+    <p>
+      
+    </p>
+    <div http-equiv="content-type" content="text/html; charset=utf-8" class="c-virtual_list__item" role="listitem" id="CN0C7LP7U-1585859542.046600-thread-list_1585890440.047600" data-qa="virtual-list-item" tabindex="-1">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            jakie slajdy masz na my&#347;li?
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1585859542.046600-thread-list_1585898556.049000" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+              
+            </div>
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__left">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1585859542.046600-thread-list_1585898556.049000" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <br />
+                
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            Z tygodnia 7, Bartek chyba jest z DNA 1 (wnioskuje po pytaniu)
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1585859542.046600-thread-list_1585902730.049400" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+              
+            </div>
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__left">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1585859542.046600-thread-list_1585902730.049400" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <br />
+                
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            Czy odpowied&#378; jest taka, &#380;e to serwis aplikacyjny powinien komunikowa&#263; si&#281; z repo, a serwis domenowy dostaje ju&#380; agregaty?
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    
+
+    <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+      <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+        <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+          <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+            <div class="p-rich_text_block" dir="auto">
+              <div class="p-rich_text_section">
+                Tak
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__reaction_bar c-reaction_bar c-reaction_bar--light" role="group" aria-label="Reactions" data-stringify-ignore="true">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+            
+          </div>
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <br />
+                
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            nawet je&#347;li ten serwis domenowy bedzie tak naprawd&#281; przelotk&#261;? tzn, ze pobierze dane z innego repozytorium i je zwr&#243;ci?
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1585859542.046600-thread-list_1585904181.050200" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+              
+            </div>
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__left">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1585859542.046600-thread-list_1585904181.050200" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            &#160;a czemu nie aplikacyjny?
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1585859542.046600-thread-list_1585904683.051000" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    
+
+    <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+      <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+        <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+          <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+            <div class="p-rich_text_block" dir="auto">
+              <div class="p-rich_text_section">
+                Jak b&#281;dzie przelotka, to oznacza ze logik&#281; mo&#380;na umie&#347;ci&#263; w jednym z 2 agregat&#243;w
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__reaction_bar c-reaction_bar c-reaction_bar--light" role="group" aria-label="Reactions" data-stringify-ignore="true">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__background--hovered c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+        <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+          <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+            <div class="p-rich_text_block" dir="auto">
+              <div class="p-rich_text_section">
+                bo moim zdaniem, serwis aplikacyjny powinien albo byc takim agregatorem domen serwisow albo miec jakis message bus lub adapter do zewnetrzengo serwisu.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
 </node>
 </node>
 </node>
@@ -601,6 +883,694 @@
 <node CREATED="1585732517529" ID="ID_1677479757" MODIFIED="1585732543170" POSITION="right" TEXT="DDD">
 <cloud COLOR="#ffff66"/>
 <node CREATED="1585732546026" ID="ID_292527878" MODIFIED="1585732564481" TEXT="Modelowanie strategiczne - Event Storming - Big Picture"/>
+<node CREATED="1586496222202" ID="ID_228606111" MODIFIED="1586496225073" TEXT="Linki">
+<node CREATED="1586496226220" ID="ID_1876423794" LINK="https://github.com/mariuszgil/awesome-eventstorming" MODIFIED="1586496238259" TEXT="Awesome EventStorming"/>
+</node>
+</node>
+<node CREATED="1587361728598" ID="ID_1700140763" MODIFIED="1587371904656" POSITION="left" TEXT="Style architektury (korporacyjnej i systemowej)">
+<cloud COLOR="#ccccff"/>
+<node CREATED="1587361790772" ID="ID_1244102112" MODIFIED="1587362955407" TEXT="Systemy monolityczne">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      system zaimplementowany jako jedna aplikacja
+    </p>
+    <p>
+      cz&#281;sto pozbawiony modularno&#347;ci
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1587362010723" ID="ID_259748967" MODIFIED="1587362012232" TEXT="zalety">
+<node CREATED="1587362014979" ID="ID_644790233" MODIFIED="1587362020266" TEXT="szybka komunikacja"/>
+<node CREATED="1587362022103" ID="ID_365227690" MODIFIED="1587362027392" TEXT="transakcyjno&#x15b;&#x107;"/>
+<node CREATED="1587362029062" ID="ID_1495658495" MODIFIED="1587362033453" TEXT="bezpieczna komunikacja"/>
+<node CREATED="1587362035351" ID="ID_897543942" MODIFIED="1587362043828" TEXT="prosta infrastruktura"/>
+<node CREATED="1587362045441" ID="ID_81517080" MODIFIED="1587362053343" TEXT="&#x142;atwy dewelopment na starcie"/>
+</node>
+<node CREATED="1587362139617" ID="ID_1054911558" MODIFIED="1587362142469" TEXT="wady">
+<node CREATED="1587362145470" ID="ID_775995209" MODIFIED="1587362195005" TEXT="kruchy i nieodporny">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      nie ma znaczenia gdzie wyst&#261;pi b&#322;&#261;d, ma on wp&#322;yw na ca&#322;&#261; aplikacj&#281;. Np. wycieki pami&#281;ci utylizacja procesora skaluje si&#281; na ca&#322;&#261; aplikacj&#281;.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1587362195917" ID="ID_1702740539" MODIFIED="1587362212150" TEXT="ograniczona skalowalno&#x15b;&#x107;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      skalowaniu podlega ca&#322;a aplikacja
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1587362315646" ID="ID_496695419" MODIFIED="1587362320902" TEXT="trudny w utrzymaniu"/>
+<node CREATED="1587362324773" ID="ID_1072511205" MODIFIED="1587362332212" TEXT="trudno&#x15b;&#x107; zachowania struktury"/>
+</node>
+</node>
+<node CREATED="1587362381779" ID="ID_436315742" MODIFIED="1587362957464" TEXT="Modularny monolit">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      wci&#261;&#380; pojedyncza jednostka wdro&#380;eniowa
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ale modularna struktura wewn&#281;trzna
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      z&#322;o&#380;ony jest z modu&#322;&#243;w autonomicznych biznesowo
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1587362522208" ID="ID_1633183738" MODIFIED="1587362523459" TEXT="wady">
+<node CREATED="1587362524701" ID="ID_1039956752" MODIFIED="1587362609774" TEXT="duplikacja danych"/>
+<node CREATED="1587362611324" ID="ID_739254411" MODIFIED="1587362620537" TEXT="trudniejsze zachowanie sp&#xf3;jno&#x15b;ci"/>
+<node CREATED="1587362622111" ID="ID_538449506" MODIFIED="1587362632124" TEXT="ograniczone stosowanie kluczy obcych"/>
+</node>
+<node CREATED="1587362635421" ID="ID_81834882" MODIFIED="1587362637306" TEXT="zalety">
+<node CREATED="1587362496172" ID="ID_1557592929" MODIFIED="1587362501972" TEXT="lepsza testowalno&#x15b;c"/>
+<node CREATED="1587362503756" ID="ID_1490257649" MODIFIED="1587362512597" TEXT="&#x142;atwiejsza migracja do architektury rozproszonej"/>
+<node CREATED="1587362513946" ID="ID_1872924066" MODIFIED="1587362519165" TEXT="prostsze utrzymanie"/>
+<node CREATED="1587362691517" ID="ID_965998437" MODIFIED="1587362705384" TEXT="monolit wybacza b&#x142;&#x119;dne wyznaczenie granic"/>
+</node>
+</node>
+<node CREATED="1587362770526" ID="ID_1323246965" MODIFIED="1587362828313" TEXT="Systemy rozproszone">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      System zaimplementowany jako zestaw niezale&#380;nych komponent&#243;w komunikuj&#261;cych si&#281; za pomoc&#261; sieci.
+    </p>
+  </body>
+</html></richcontent>
+<node CREATED="1587361887084" ID="ID_1790423203" MODIFIED="1587361889312" TEXT="zalety">
+<node CREATED="1587361912439" ID="ID_358946541" MODIFIED="1587361915555" TEXT="skalowalno&#x15b;&#x107;"/>
+<node CREATED="1587361917389" ID="ID_1005421223" MODIFIED="1587361922126" TEXT="odporno&#x15b;&#x107;"/>
+<node CREATED="1587361923758" ID="ID_1899988242" MODIFIED="1587361930603" TEXT="heterogeniczno&#x15b;&#x107; technologii"/>
+<node CREATED="1587361932375" ID="ID_470120497" MODIFIED="1587361937396" TEXT="regulacje i bezpiecze&#x144;stwo"/>
+<node CREATED="1587361939332" ID="ID_895384890" MODIFIED="1587361942828" TEXT="produktywno&#x15b;&#x107;"/>
+</node>
+<node CREATED="1587363337007" ID="ID_1502711956" MODIFIED="1587363338898" TEXT="wady">
+<node CREATED="1587363339879" ID="ID_1507526266" MODIFIED="1587363363760" TEXT="skokowy i lawinowy wzrost z&#x142;o&#x17c;ono&#x15b;ci architektury"/>
+<node CREATED="1587363373637" ID="ID_1149736886" MODIFIED="1587363382543" TEXT="brak transakcyjno&#xa0;&#x15b;ci"/>
+<node CREATED="1587363414222" ID="ID_87154652" MODIFIED="1587363424544" TEXT="cz&#x119;sto wymagaj&#x105; us&#x142;ug kompensacyjnych"/>
+<node CREATED="1587363442419" ID="ID_1940072538" MODIFIED="1587363462804" TEXT="utrudniona implementacja - problem z zestawieniem lokalnych &#x15b;rodowisk deweloperskich"/>
+<node CREATED="1587363480566" ID="ID_1039549951" MODIFIED="1587363519363" TEXT="zmany przecinaj&#x105;ce wiele modu&#x142;&#xf3;w wymagaj&#x105; nak&#x142;adu komunikacji pomi&#x119;dzy zespo&#x142;ami"/>
+<node CREATED="1587363538633" ID="ID_170235160" MODIFIED="1587363614354" TEXT="zapewnienie bezpiecze&#x144;stwa w systemie">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ka&#380;dy krok komunikacji sieciowej musi by&#263; zabezpieczony niezale&#380;nie
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1587363615339" ID="ID_619308983" MODIFIED="1587363711210" TEXT="analiza i debugowanie">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#346;ledzenie b&#322;&#281;d&#243;w jest bardzo ci&#281;&#380;kie bo trudno jest uzyska&#263; informacj&#281; jaki by&#322; przep&#322;yw poprzedzaj&#261;cy wyst&#261;pienie b&#322;&#281;du. Czasem ci&#281;&#380;ko jest znale&#378;&#263; faktyczne miejsce wyst&#261;pienia b&#322;&#281;du.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Czasem obserwujemy tylko skutek, a przyczyna b&#322;&#281;du jest ukryta w zupe&#322;nie innej cz&#281;&#347;ci systemu.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1587363732717" ID="ID_611304939" MODIFIED="1587363748103" TEXT="B&#x142;&#x119;dne za&#x142;o&#x17c;enia - Peter Deutsch">
+<node CREATED="1587363749054" ID="ID_523624550" MODIFIED="1587363753651" TEXT="Sie&#x107; jest niezawodna"/>
+<node CREATED="1587363755069" ID="ID_968389298" MODIFIED="1587363760442" TEXT="Nie wyst&#x119;puj&#x105; op&#xf3;&#x17a;nienia"/>
+<node CREATED="1587363762750" ID="ID_1032794179" MODIFIED="1587363769233" TEXT="Sie&#x107; jest bezpieczna"/>
+<node CREATED="1587363771845" ID="ID_1700587105" MODIFIED="1587363776531" TEXT="Topologia jest niezmienna"/>
+<node CREATED="1587363779467" ID="ID_140949639" MODIFIED="1587363785260" TEXT="Transport jest bezkosztowy"/>
+</node>
+<node CREATED="1587363819599" ID="ID_1614083750" MODIFIED="1587364054710" TEXT="Service-oriented architecture (SOA)">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Jest to styl arichitektoniczny , kt&#243;ry obecnie b&#322;&#281;dnie uto&#380;samiany jest z ESB.
+    </p>
+    <p>
+      Styl nie narzuca implementacji w postaci szyny ESB.
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        Us&#322;ugi niezale&#380;ne od technologii i dostawcy
+      </li>
+      <li>
+        Us&#322;ugi niezale&#380;ne pod k&#261;tem biznesowym (decyduj&#261;ca jest orientacja biznesowa)
+      </li>
+      <li>
+        Us&#322;ugi maj&#261; wyra&#378;ne granice
+      </li>
+      <li>
+        Us&#322;ugi s&#261; od siebie izolowane
+      </li>
+      <li>
+        Us&#322;ugi wsp&#243;&#322;dziel&#261; kontrakt a nie implementacj&#281;
+      </li>
+    </ul>
+  </body>
+</html></richcontent>
+<node CREATED="1587363920320" ID="ID_486095172" MODIFIED="1587373110894" TEXT="Implementacje">
+<node CREATED="1587363925689" FOLDED="true" ID="ID_1330328561" MODIFIED="1587373118721" TEXT=" Enterprise Service Bus">
+<node CREATED="1587364545725" ID="ID_229984773" MODIFIED="1587365222046" TEXT="Nastawiona na Orkiestracj&#x119;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    Szyna jako dyrygent kontroluje przep&#322;yw ca&#322;ej komunikacji w systemie. M
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1587364861135" ID="ID_471526345" MODIFIED="1587364862850" TEXT="zalety">
+<node CREATED="1587364875822" ID="ID_1669309610" MODIFIED="1587364876640" TEXT="Szyna stabilizuje i hermetyzuje komunikacj&#x119;, wymusza stosowanie wsp&#xf3;lnego modelu szyny."/>
+<node CREATED="1587364885893" ID="ID_1920257528" MODIFIED="1587364886930" TEXT="Szyna przejmuje od klienta obowi&#x105;zki zwi&#x105;zane z wyszukiwaniem w&#x142;a&#x15b;ciwych us&#x142;ug realizuj&#x105;cych jego &#x17c;&#x105;danie oraz r&#xf3;&#x17c;ne protoko&#x142;y komunikacji tych us&#x142;ug."/>
+<node CREATED="1587364897746" ID="ID_1469227404" MODIFIED="1587364900101" TEXT="Szyna zapewnia bezpiecze&#x144;stwo , weryfikacj&#x119; uprawnie&#x144;, uwierzytelnianie klienta. Zapewnia audytowalno&#x15b;&#x107;, tracking, logowanie."/>
+<node CREATED="1587364910420" ID="ID_807296483" MODIFIED="1587364911328" TEXT="Pozwala &#x142;atwo &#x15b;ledzi&#x107; punkty wyst&#x105;pie&#x144; b&#x142;&#x119;d&#xf3;w biznesowych."/>
+<node CREATED="1587364919744" ID="ID_1473319550" MODIFIED="1587364920761" TEXT="Wsp&#xf3;&#x142;dzieli bibliteki systemu klienckiego "/>
+<node CREATED="1587364939206" ID="ID_627262889" MODIFIED="1587364947496" TEXT="us&#x142;ugi s&#x105; &#x142;atwo salowalne"/>
+</node>
+<node CREATED="1587364950128" ID="ID_1332772491" MODIFIED="1587364951892" TEXT="wady">
+<node CREATED="1587364953477" ID="ID_1111515206" MODIFIED="1587364961012" TEXT="szyna jest kompletnie nieskalowalna"/>
+<node CREATED="1587364969158" ID="ID_38643364" MODIFIED="1587364974069" TEXT="pojedynczy punkt awarii"/>
+<node CREATED="1587365007748" ID="ID_1992292114" MODIFIED="1587365100725" TEXT="wymaga du&#x17c;ego wyspecjalizowanego zespo&#x142;u"/>
+<node CREATED="1587365030617" ID="ID_1721487425" MODIFIED="1587365042345" TEXT="szyna staje si&#x119; cz&#x119;sto pot&#x119;&#x17c;nym monolitem"/>
+<node CREATED="1587365066964" ID="ID_1364974760" MODIFIED="1587365078273" TEXT="wsp&#xf3;lny model wymusza wsp&#xf3;lne wprowadzanie zmian"/>
+</node>
+</node>
+<node CREATED="1587363928364" FOLDED="true" ID="ID_1658706233" MODIFIED="1587373120432" TEXT="Mikrous&#x142;ugi">
+<node CREATED="1587365116089" ID="ID_551722764" MODIFIED="1587365186606" TEXT="Nastawiona na choreografi&#x119;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    Czyli nie ma centralnego dyrygenta, tylko mam poszczeg&#243;lne us&#322;ugi, kt&#243;re same najlepiej wiedz&#261;, jak si&#281; ze sob&#261; skomunikowa&#263;.
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1587365402707" ID="ID_310056879" MODIFIED="1587365404858" TEXT="zalety">
+<node CREATED="1587365393180" ID="ID_64858923" MODIFIED="1587365400407" TEXT="brak centralnych punkt&#xf3;w awarii"/>
+<node CREATED="1587367512446" ID="ID_1006618103" MODIFIED="1587367517818" TEXT="lepsza skalowalno&#x15b;&#x107;"/>
+<node CREATED="1587367850767" ID="ID_971433212" MODIFIED="1587367867538" TEXT="dobrze sprawdzaj&#x105; si&#x119; gdy potrzebna jest autonomia us&#x142;ug"/>
+<node CREATED="1587367874494" ID="ID_882350169" MODIFIED="1587367937789" TEXT="brak release/og&#xf3;lnych  wdro&#x17c;e&#x144; - ka&#x17c;dy z komponent&#xf3;w mo&#x17c;e by&#x107; stosowane niezale&#x17c;nie"/>
+<node CREATED="1587368035261" ID="ID_420309088" MODIFIED="1587368068187" TEXT="zapewnienie wysokiej i szybkiej skalowalno&#x15b;ci"/>
+<node CREATED="1587368094571" ID="ID_137013266" MODIFIED="1587368118494" TEXT="istnieje mo&#x17c;liwo&#x15b;&#x107; dynamicznej skalowalno&#x15b;ci w zale&#x17c;no&#x15b;ci od obci&#x105;&#x17c;enia (Cloude Native)"/>
+</node>
+<node CREATED="1587365411896" ID="ID_541898835" MODIFIED="1587365413179" TEXT="wady">
+<node CREATED="1587367526775" ID="ID_1594228608" MODIFIED="1587367559866" TEXT="nale&#x17c;y dba&#x107; o lu&#x17a;ne powi&#x105;zania - w przeciwnym razie zmiana w jednej us&#x142;udze wymusza na&#x15b;cie innych zmian"/>
+<node CREATED="1587367579169" ID="ID_931638683" MODIFIED="1587367589398" TEXT="du&#x17c;a dowolno&#x15b;&#x107; technologiczna prowadzi do chaosu"/>
+<node CREATED="1587367598156" ID="ID_714455176" MODIFIED="1587367610321" TEXT="ogromna z&#x142;o&#x17c;ono&#x15b;&#x107; technologiczna"/>
+<node CREATED="1587367615911" ID="ID_1512632097" MODIFIED="1587367699451" TEXT="z&#x142;o&#x17c;ono&#x15b;&#x107; infrastruktury  ro&#x15b;nie lawinowo w por&#xf3;wnaniu do innych architektur"/>
+<node CREATED="1587367704429" ID="ID_305150374" MODIFIED="1587367717192" TEXT="bardzo trudna analiza komunikacji"/>
+<node CREATED="1587367719022" ID="ID_1402825083" MODIFIED="1587367767630" TEXT="trzeba zadba&#x107; o logowalno&#x15b;&#x107;, audytowalno&#x15b;&#x107;"/>
+<node CREATED="1587368006414" ID="ID_198215053" MODIFIED="1587368020496" TEXT="architektura trudna, wymaga bardzo duzych kompetencji w zespole"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node CREATED="1587368894238" ID="ID_675765299" MODIFIED="1587368898727" TEXT="Autonomia">
+<node CREATED="1587368899697" ID="ID_140276228" MODIFIED="1587369029778" TEXT="Biznesowa">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Uniezale&#380;nienie si&#281; od r&#243;&#380;nych oczekiwa&#324; ekspert&#243;w.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1587368906392" ID="ID_1237268200" MODIFIED="1587369003204" TEXT="Techniczna">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Jej przejawem jest skalowalno&#347;&#263;. Mo&#380;emy kierowa&#263; wi&#281;ksze zasoby do punkt&#243;w gdzie to jest potrzebne.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1587368910558" ID="ID_1145176715" MODIFIED="1587368966226" TEXT="Technologiczna">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      W ka&#380;dej z us&#322;ug mo&#380;emy zastosowa&#263; inn&#261; technologi&#281;.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1587371592922" ID="ID_496787979" MODIFIED="1587371615835" POSITION="right" TEXT="Style architektury aplikacyjnej">
+<cloud COLOR="#ccffcc"/>
+<node CREATED="1587374217464" ID="ID_528594894" MODIFIED="1587374220086" TEXT="Rodzaje">
+<node CREATED="1587373461577" ID="ID_980904284" MODIFIED="1587407915646" TEXT="Architektura warstwowa">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Najcz&#281;&#347;ciej spotykana jest architektura tr&#243;jwarstwowa.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Warstwy zale&#380;&#261; od siebie. Warstwy maj&#261; charakter techniczny, nie biznesowy. Warstwa wy&#380;sza mo&#380;e dosta&#263; si&#281; do dowolnego modu&#322;u z warstwy ni&#380;szej.&#160;&#160;Powoduje to stworzenie rozbudowanej sieci powi&#261;za&#324;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Architektura ta zastosowana dla ca&#322;ego systemu prowadzi do silnego couplingu.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mo&#380;na j&#261; stosowa&#263; ale w ramach autonomicznego modu&#322;u biznesowego.
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1587407915634" ID="ID_710538232" MODIFIED="1587408010466" TEXT="Architektura sztywna">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Posiada dodatkowe ograniczenie zak&#322;adaj&#261;ce &#380;e dana warstwa komunikuje si&#281; tylko z wartstw&#261; poni&#380;ej.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1587408022131" ID="ID_1875719591" MODIFIED="1587408130485" TEXT="Architektura rozlu&#x17a;niona">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Dopuszczamy &#380;e w niekt&#243;rych sytuacjach warstwa poni&#380;ej jest prze&#378;roczysta i mo&#380;na si&#281;gn&#261;&#263; bezpo&#347;rednio do warstwy poni&#380;ej.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1587408267335" ID="ID_1199995481" MODIFIED="1587408370497" TEXT="Modu&#x142;y utility,commons">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Modu&#322;y biblioteczne commons , utility mog&#261; by&#263; modu&#322;ami wsp&#243;&#322;dzielonymi w ka&#380;dej warstwie.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      W takim module musi by&#263; kod generyczny narz&#281;dziowy.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1587408439290" ID="ID_1543157762" MODIFIED="1587408530172" TEXT="wady i zalety">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        znana i prosta
+      </li>
+      <li>
+        zmniejsza z&#322;o&#380;ono&#347;&#263;
+      </li>
+      <li>
+        separacja odpowiedzialno&#347;ci
+      </li>
+    </ul>
+    <p>
+      Wady:
+    </p>
+    <ul>
+      <li>
+        zmiana przechodz&#261;ca przez warstwy
+      </li>
+      <li>
+        utrudniona testowalno&#347;c
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1587373513612" ID="ID_1028002552" MODIFIED="1587410550935" TEXT="Architektura heksagonalna">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    Onion Architecture albo Screaming Architecture
+
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      W tej architekturze nast&#281;puje odwr&#243;cenie kierunkowo&#347;ci.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Warstwa wy&#380;sza pos&#322;uguje si&#281; interfejsem, kt&#243;rego implementacji dostarcza warstwa ni&#380;sza.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Warstwy niskopoziomowe musz&#261; rozumie&#263; koncepty warst wy&#380;szych.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Warstwy wy&#380;sze wystawiaj&#261; PORTY (interfejsy), przez kt&#243;re komunikuje si&#281; z nimi warstwa ni&#380;sza.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Porty mog&#261; by&#263; implementowane w r&#243;&#380;ny spos&#243;b w zale&#380;no&#347;ci od sytuacji. Np. na potrzeby test&#243;w warstwa persystencji mo&#380;e by&#263; baz&#261; inmemory. To konfiguracja decyduje jaki ADAPTER (implementacja) zostanie podpi&#281;ty pod dany PORT.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mog&#261; istnie&#263; r&#243;wnie&#380; PORTY WEJ&#346;CIOWE, kt&#243;re stanowi&#261; bram&#281; wej&#347;ciow&#261; do logiki biznesowej.
+    </p>
+    Nazewnictwo serwis&#243;w odpowiadaj&#261;cych za te porty nie b&#281;dzie nigdy nic m&#243;wi&#322;o o sposobie komunikacji, tylko o intencyjno&#347;ci.
+
+    <p>
+      
+    </p>
+    <p>
+      Logika biznesowe nie ma poj&#281;cia kto j&#261; wywo&#322;uje.
+    </p>
+    <p>
+      
+    </p>
+    Porty wej&#347;ciowe cz&#281;sto nazywamy &#8222;driver port&#8221;/&#8222;primary port&#8221;, dlatego &#380;e steruj&#261; one nasz&#261; aplikacj&#261;, a porty wyj&#347;ciowe &#8211; &#8222;diven&#8221; albo &#8222;secondary&#8221;, bo one s&#261; sterowane
+
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1587410122708" ID="ID_1543384846" MODIFIED="1587410124212" TEXT="Alistair Cockburn"/>
+<node CREATED="1587410177635" ID="ID_778223318" MODIFIED="1587410217089" TEXT="warstwa aplikacjyjna">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      M&#243;wi o tym co nale&#380;y zrobi&#263; ale spos&#243;b wykonania deleguje do warstwy domenowej.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1587410184469" ID="ID_1567274927" MODIFIED="1587410242919" TEXT="warstwa domenowa">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Warstwa domenowa nie ma &#347;wiadomo&#347;ci istnienia port&#243;w i adapter&#243;w.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1587410276439" ID="ID_189904868" MODIFIED="1587410537622" TEXT="Wady i zalety">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Zalety
+    </p>
+    <ul>
+      <li>
+        testowalno&#347;&#263;
+      </li>
+      <li>
+        kolejne koncepty mog&#261; by&#263; doprecyzowane w trakcie trwania bo wstrzykiwane mog&#261; by&#263; inne rzeczy
+      </li>
+      <li>
+        &#322;atwo stworzy&#263; protoyp
+      </li>
+      <li>
+        tworzenie logiki biznesowej mo&#380;e by&#263; oddzielone od etapu wyboru infrastruktury
+      </li>
+      <li>
+        wzrasta utrzymywalno&#347;&#263; i rozwijalno&#347;&#263;
+      </li>
+      <li>
+        IO znajduj&#261; si&#281; na skraju hexagonu
+      </li>
+    </ul>
+    <p>
+      
+    </p>
+    <p>
+      Wady:
+    </p>
+    <ul>
+      <li>
+        Im wi&#281;cej adapter&#243;w tym wi&#281;cej test&#243;w integracyjnych
+      </li>
+      <li>
+        Trudniejsza nawigacja po kodzie, bo o tym co realizuje dan&#261; logik&#281; b&#281;dziemy wiedzieli dopiero w chwili wykonania. Decyduje o tym konfiguracja. W kodzie mamy tylko interfejs.
+      </li>
+    </ul>
+    <p>
+      Jest to architektura odpowiednia dla modu&#322;&#243;w o du&#380;ej z&#322;o&#380;ono&#347;ci biznesowej.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1587373540317" ID="ID_1848283599" MODIFIED="1587411341421" TEXT="Architektura Pipes and Filters">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Architektura odpowiednia&#160;&#160;do sekwencyjnego przetwarzania strumieni danych.
+    </p>
+    <p>
+      Nazwa u&#380;ywana w dw&#243;ch kontekstach:
+    </p>
+    <p>
+      Pipes and Filters jako wzorzec do integracji system&#243;w, czyli jako styl w obr&#281;bie architektury systemowej, szczeg&#243;lnie w systemach rozproszonych oraz: Pipes and Filters jako styl architektury aplikacyjnej (w obr&#281;bie jednego modu&#322;u) Wyst&#281;puj&#261; dwa specyficzne filtry:
+    </p>
+    <ul>
+      <li>
+        Pierwszy: &#378;r&#243;d&#322;o, producent
+      </li>
+      <li>
+        Ostani: zlew
+      </li>
+    </ul>
+    <p>
+      Pomi&#281;dzy nimi s&#261; dwa rodzaje filtr&#243;w transforery i testery
+    </p>
+    <p>
+      
+    </p>
+    <ul>
+      <li>
+        &#377;r&#243;d&#322;o - Mo&#380;e by&#263; na przyk&#322;ad event listenerem, jobem chodz&#261;cym w tle i raz na jaki&#347; czas pobieraj&#261;cych dane z kolejki lub te&#380; z bazy danych, a mo&#380;e by&#263; po prostu zwyk&#322;&#261; metod&#261; fasadow&#261;, kt&#243;ra nas&#322;uchuje na jaki&#347; request, kt&#243;ry p&#243;&#378;niej nale&#380;y w filtrze przetworzy&#263;.
+      </li>
+      <li>
+        Transformatory - odpowiadaj&#261; za tranformacj&#281; danych. Dane wchodz&#261;, s&#261; przetwarzane i wypychane do kolejnej rurki, &#380;eby przesz&#322;y do kolejnego filtra. To nie musi by&#263; tylko przetwarzanie wy&#322;&#261;cznie na podstawie danych wej&#347;ciowych. Jednym z takich styl&#243;w przetwarzania jest wzbogacanie (enrichment), czyli dostajemy jakie&#347; dane, nast&#281;pnie filtr wo&#322;a na przyk&#322;ad kilka system&#243;w zewn&#281;trznych, z kt&#243;rych musi dane doci&#261;gn&#261;&#263;, wzbogaca je i przekazuje do kolejnego filtra, kt&#243;ry zn&#243;w robi jaki&#347; test.
+      </li>
+      <li>
+        Ostatnim elementem to jest zlew. Najcz&#281;&#347;ciej jest to jakiego&#347; rodzaju storage, czyli b&#281;dzie nam chodzi&#322;o o to, &#380;eby gdzie&#347; zapisa&#263; przetwarzane dane, najcz&#281;&#347;ciej w postaci persystentnej.
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1587411407683" ID="ID_583076484" MODIFIED="1587411504529" TEXT="Wady i zalety">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Zalety
+    </p>
+    <ul>
+      <li>
+        Elastyczno&#347;&#263;
+      </li>
+      <li>
+        Konfigurowalno&#347;&#263; - filtry mo&#380;na zamienia&#263; i &#322;&#261;czy&#263;
+      </li>
+      <li>
+        Zr&#243;wnoleglanie
+      </li>
+      <li>
+        mo&#380;liwo&#347;&#263; rozpraszanai
+      </li>
+      <li>
+        Testowalno&#347;&#263;
+      </li>
+    </ul>
+    <p>
+      Wady:
+    </p>
+    <ul>
+      <li>
+        elementy odseparowane bardzo trudno obs&#322;uguje si&#281; b&#322;&#281;dy
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node CREATED="1587373574468" ID="ID_1151322344" MODIFIED="1587411705521" TEXT="Architektura typu mikroj&#x105;dro">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Architektura pluginowa.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Tworzymy minimalny zestaw element&#243;w potrzebnych do u&#322;o&#380;enia procesu biznesowego we wn&#281;trzu j&#261;dra. Poszczeg&#243;lne kroki procesu realizowane s&#261; przez pluginy dostarczane z zewn&#261;trz.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      W mikroj&#261;drze znajduje si&#281; rejestr plugin&#243;w oraz kontrakt standardowy.
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1587411705515" ID="ID_1372348839" MODIFIED="1587411792619" TEXT="Wady i zalety">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <ul>
+      <li>
+        konfigurowalno&#347;&#263; (mo&#380;emy na r&#243;&#380;ne sposoby skonfigurowa&#263; ten sam proces) oraz rozszerzalno&#347;&#263; (dodawanie nowych plugin&#243;w jest bezproblemowe).
+      </li>
+      <li>
+        Testowalno&#347;&#263;<br />
+      </li>
+    </ul>
+    <p>
+      Wady:
+    </p>
+    <ul>
+      <li>
+        skalowalno&#347;&#263;, mikroj&#261;dro funkcjonuje w ramach jednego modu&#322;u. Jest niepodzielne.<br />
+      </li>
+      <li>
+        z&#322;o&#380;ono&#347;&#263; - ten styl jest ksoplikowany.<br />
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node CREATED="1587374243154" ID="ID_1535888335" MODIFIED="1587374245374" TEXT="Dob&#xf3;r architektury do modu&#x142;u">
+<node CREATED="1587374246402" ID="ID_1619036227" MODIFIED="1587374250701" TEXT="Modu&#x142;y p&#x142;ytkie"/>
+<node CREATED="1587374252065" ID="ID_1956363681" MODIFIED="1587374257510" TEXT="Modu&#x142;y g&#x142;&#x119;bokie"/>
+</node>
 </node>
 </node>
 </map>
