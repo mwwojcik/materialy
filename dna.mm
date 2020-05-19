@@ -280,7 +280,7 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1585726461358" ID="ID_895600408" MODIFIED="1585726511223" TEXT="Narz&#x119;dzie do EventStormingu">
+<node CREATED="1585726461358" ID="ID_895600408" MODIFIED="1588308563833" TEXT="Narz&#x119;dzie do EventStormingu">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -364,6 +364,94 @@
     <p>
       diagrams.net is free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams
     </p>
+    <p>
+      
+    </p>
+    <div http-equiv="content-type" content="text/html; charset=utf-8" class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <br />
+        
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    <a target="_blank" class="c-link" delay="150" aria-describedby="slack-kit-tooltip" href="https://slack-redir.net/link?url=https%3A%2F%2Fapp.diagrams.net%2F&amp;v=3" rel="noopener noreferrer">https://app.diagrams.net/</a>&#160;jest o tyle fajne, &#380;e mo&#380;na robi&#263; te&#380; tam wszystkie inne diagramy nie tylko te karteczkowe
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="c-message_kit__attachments">
+          <div class="c-message_attachment">
+            <div class="c-message_attachment__border">
+              
+            </div>
+            <div class="c-message_attachment__body">
+              <div class="c-message_attachment__row">
+                <img class="c-message_attachment__author_icon" alt="app.diagrams.net" src="https://slack-imgs.com/?c=1&amp;o1=wi32.he32.si&amp;url=https%3A%2F%2Fapp.diagrams.net%2Fimages%2Fapple-touch-icon.png" data-qa="message_attachment_author_icon" data-stringify-ignore="true" width="16" height="16" />
+                app.diagrams.net
+              </div>
+              <div class="c-message_attachment__row">
+                <a target="_blank" rel="noreferrer noopener" data-qa="message_attachment_title_link" class="c-link c-message_attachment__title_link" href="https://app.diagrams.net/">Flowchart Maker &amp; Online Diagram Software</a>
+              </div>
+              <div class="c-message_attachment__row">
+                <a target="_blank" class="c-link" delay="150" aria-describedby="slack-kit-tooltip" href="https://slack-redir.net/link?url=http%3A%2F%2Fdiagrams.net&amp;v=3" rel="noopener noreferrer">diagrams.net</a>&#160;is free online diagram software for making flowcharts, process diagrams, org charts, UML, ER and network diagrams
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__background--hovered c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover c-message_kit__hover--hovered" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    
+
+    <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+      <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+        <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+          <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+            <div class="p-rich_text_block" dir="auto">
+              <div class="p-rich_text_section">
+                <a target="_blank" class="c-link" delay="150" aria-describedby="slack-kit-tooltip" href="https://slack-redir.net/link?url=https%3A%2F%2Fwww.mural.co%2F&amp;v=3" rel="noopener noreferrer">https://www.mural.co/</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__attachments">
+      <div class="c-message_attachment">
+        <div class="c-message_attachment__border">
+          
+        </div>
+        <div class="c-message_attachment__body">
+          <div class="c-message_attachment__row">
+            mural.co
+          </div>
+          <div class="c-message_attachment__row">
+            <a target="_blank" rel="noreferrer noopener" data-qa="message_attachment_title_link" class="c-link c-message_attachment__title_link" href="https://www.mural.co/">MURAL is a digital workspace for visual collaboration</a>
+          </div>
+          <div class="c-message_attachment__row">
+            Our platform and professional services enable innovative teams to think and collaborate visually to solve important problems.
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html></richcontent>
 </node>
@@ -650,6 +738,1360 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1588048354882" ID="ID_1968304834" MODIFIED="1588048401162" TEXT="Agregat a us&#x142;uga domenowa">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div http-equiv="content-type" content="text/html; charset=utf-8" class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+      <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+        <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+          <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+            <div class="p-rich_text_block" dir="auto">
+              <div class="p-rich_text_section">
+                Cze&#347;&#263;W ramach &#263;wicze&#324; modeluj&#281; sobie aplikacj&#281; do obs&#322;ugi rezerwacji bilet&#243;w. Z sesji ES wyszed&#322; mi pierwszy agregat - Reservation. Ma sw&#243;j stan, regu&#322;y i zachowania, do tego momentu wszystko ok . Problem pojawia mi si&#281; gdy pr&#243;buj&#281; znale&#378;&#263; miejsce, w kt&#243;rym umiejscowiona ma by&#263; logika odpowiadaj&#261;ca za wyliczenie kwoty nale&#380;no&#347;ci. Jest ona dosy&#263; z&#322;o&#380;ona, bo musi uwzgl&#281;dni&#263; punkty lojalno&#347;ciowe u&#380;ytkownika, wybrane przez niego bonusy itp. Wydaje mi si&#281; &#380;e jest ona zwi&#261;zana z agregatem Reservation, ale jak ma wygl&#261;da&#263; to powi&#261;zanie ? Czy mam stworzy&#263; dedykowany Value Object &quot;Price&quot;, kt&#243;ry potrafi si&#281; sam wyliczy&#263; przy stworzeniu (i doda&#263; taki atrybut do agregatu), czy po prostu stworzy&#263; atrybut typu systemowego &quot;price&quot;, kt&#243;ry zostanie ustawiony przez jak&#261;&#347; metod&#261; agregatu Reservation (typu calculate)? &#379;adne z tych rozwi&#261;za&#324; nie wydaje mi si&#281; dobre, bo wymaga &quot;wepchni&#281;cia&quot; do agregatu danych kt&#243;re nie dotycz&#261; samej rezerwacji (cena nominalna miejsca bez bonus&#243;w, punkty lojalno&#347;ciowe, przyznane zni&#380;ki). A mo&#380;e taka warto&#347;&#263; rezerwacji powinna by&#263; osobnym agregatem ( z racji tego &#380;e ma w&#322;asne regu&#322;y), tylko jak wtedy wi&#261;za&#263; to z rezerwacj&#261;, co by&#322;oby rootem utrwalanym jako ca&#322;o&#347;&#263;? Pomo&#380;ecie co&#347; wymy&#347;le&#263; ?&#160;(edited)&#160;
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__reaction_bar c-reaction_bar c-reaction_bar--light" role="group" aria-label="Reactions" data-stringify-ignore="true">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1587923627.123100-thread-list_separator" data-qa="virtual-list-item">
+      <div class="p-thread_separator">
+        <div class="p-threads_flexpane__separator">
+          4 replies<hr class="p-threads_flexpane__separator_line" />
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1587923627.123100-thread-list_1588008103.123900" data-qa="virtual-list-item" aria-label="First message from yesterday. [Bottega] Marcin Markowski at 7:21 PM. Je&#x17c;eli Reservation pilnuje dost&#x119;pno&#x15b;ci bilet&#xf3;w, to ceny najprawdopodobniej nie maj&#x105; z tym nic wsp&#xf3;lnego. Je&#x17c;eli tak jest to nie powinny si&#x119; znale&#x17a;&#x107; w tym agregacie. Agregaty agreguj&#x105; powi&#x105;zane regu&#x142;y i skupione wok&#xf3;&#x142; nich zachowania, a nie dane lu&#x17a;no zwi&#x105;zana z jak&#x105;&#x15b; koncepcj&#x105; biznesow&#x105;. Agregat potrzebuje tylko tych danych, kt&#xf3;re s&#x105; potrzebne do sprawdzenia regu&#x142;. &#x17b;eby odpowiedzie&#x107;, gdzie powinny trafi&#x107; ceny, musia&#x142;bym zna&#x107; lepiej domen&#x119;. Niezale&#x17c;nie od tego gdzie trafi&#x105;, b&#x119;d&#x105; wiedzia&#x142;y dla jakich bilet&#xf3;w, rezerwacji, lub czego&#x15b; jeszcze innego by&#x142;y naliczone. Technicznie mo&#x17c;emy do tego u&#x17c;y&#x107; np. ReservationId (a nie ca&#x142;ego Reservation). Je&#x17c;eli z cenami zwi&#x105;zane s&#x105; jakie&#x15b; regu&#x142;y, to trzeba je umie&#x15b;ci&#x107; w odpowiednim agregacie. Mo&#x17c;e si&#x119; tak zdarzy&#x107;, &#x17c;e agregat wcale nie b&#x119;dzie potrzebny, bo nie b&#x119;dzie &#x17c;adnych regu&#x142; tego typu. Do samego algorytmu wyliczania cen raczej przydadz&#x105; si&#x119; polityki, a sama warto&#x15b;&#x107; mo&#x17c;e by&#x107; przechowana jeszcze gdzie indziej np. w zam&#xf3;wieniu, ofercie, etc. Scenariuszy mo&#x17c;e tu by&#x107; naprawd&#x119; sporo.">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+              
+            </div>
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__left">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <br />
+        
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Je&#380;eli Reservation pilnuje dost&#281;pno&#347;ci bilet&#243;w, to ceny najprawdopodobniej nie maj&#261; z tym nic wsp&#243;lnego. Je&#380;eli tak jest to nie powinny si&#281; znale&#378;&#263; w tym agregacie. Agregaty agreguj&#261; powi&#261;zane regu&#322;y i skupione wok&#243;&#322; nich zachowania, a nie dane lu&#378;no zwi&#261;zana z jak&#261;&#347; koncepcj&#261; biznesow&#261;. Agregat potrzebuje tylko tych danych, kt&#243;re s&#261; potrzebne do sprawdzenia regu&#322;. &#379;eby odpowiedzie&#263;, gdzie powinny trafi&#263; ceny, musia&#322;bym zna&#263; lepiej domen&#281;. Niezale&#380;nie od tego gdzie trafi&#261;, b&#281;d&#261; wiedzia&#322;y dla jakich bilet&#243;w, rezerwacji, lub czego&#347; jeszcze innego by&#322;y naliczone. Technicznie mo&#380;emy do tego u&#380;y&#263; np. ReservationId (a nie ca&#322;ego Reservation). Je&#380;eli z cenami zwi&#261;zane s&#261; jakie&#347; regu&#322;y, to trzeba je umie&#347;ci&#263; w odpowiednim agregacie. Mo&#380;e si&#281; tak zdarzy&#263;, &#380;e agregat wcale nie b&#281;dzie potrzebny, bo nie b&#281;dzie &#380;adnych regu&#322; tego typu. Do samego algorytmu wyliczania cen raczej przydadz&#261; si&#281; polityki, a sama warto&#347;&#263; mo&#380;e by&#263; przechowana jeszcze gdzie indziej np. w zam&#243;wieniu, ofercie, etc. Scenariuszy mo&#380;e tu by&#263; naprawd&#281; sporo.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+            
+          </div>
+          <div class="c-message_kit__gutter">
+            <div class="c-message_kit__gutter__left">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+      <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+        <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+          <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+            <div class="p-rich_text_block" dir="auto">
+              <div class="p-rich_text_section">
+                bardzo Ci dzi&#281;kuj&#281; za wyja&#347;nienie. Swoj&#261; domen&#281; opisa&#322;em tutaj: <a target="_blank" class="c-link" delay="150" aria-describedby="slack-kit-tooltip" href="https://slack-redir.net/link?url=https%3A%2F%2Fgithub.com%2Fmwwojcik%2Fairline-reservation-system%23table-of-contents&amp;v=3" rel="noopener noreferrer">https://github.com/mwwojcik/airline-reservation-system#table-of-contents</a>&#160; . Chyba rzeczywi&#347;cie jest tak jak napisa&#322;e&#347;, pomyli&#322;em sobie regu&#322;y biznesowe z politykami. Znaczy&#322;oby to &#380;e wyliczenie nale&#380;no&#347;ci powinno by&#263; poza jakimkolwiek agregatem. Czy by&#322;by to dobry kandydat na us&#322;ug&#281; domenow&#261; ?
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__attachments">
+      <div class="c-message_attachment">
+        <div class="c-message_attachment__delete_container">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <div class="c-message_kit__attachments">
+          <div class="c-message_attachment">
+            <div class="c-message_attachment__border">
+              
+            </div>
+            <div class="c-message_attachment__body">
+              <div class="c-message_attachment__row">
+                <img class="c-message_attachment__author_icon" alt="GitHub" src="https://slack-imgs.com/?c=1&amp;o1=wi32.he32.si&amp;url=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Funfurl_icons%2Fgithub.png" data-qa="message_attachment_author_icon" data-stringify-ignore="true" width="16" height="16" />
+                GitHub
+              </div>
+              <div class="c-message_attachment__row">
+                <a target="_blank" rel="noreferrer noopener" data-qa="message_attachment_title_link" class="c-link c-message_attachment__title_link" href="https://github.com/mwwojcik/airline-reservation-system#table-of-contents">mwwojcik/airline-reservation-system</a>
+              </div>
+              <div class="c-message_attachment__row">
+                Contribute to mwwojcik/airline-reservation-system development by creating an account on GitHub.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__background--hovered c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover c-message_kit__hover--hovered" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+            
+          </div>
+        </div>
+      </div>
+      <br />
+      
+
+      <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+        <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+          <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+            <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+              <div class="p-rich_text_block" dir="auto">
+                <div class="p-rich_text_section">
+                  Tak, mo&#380;e tak by&#263;. R&#243;&#380;nego rodzaju wyliczenia zwykle najlepiej jest zrobi&#263;&#160;przy u&#380;yciu serwis&#243;w domenowych i polityk (czasami te&#380; w po&#322;&#261;czeniu z fabrykami).
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1588048451120" ID="ID_25489710" MODIFIED="1588048481014" TEXT="Rzucanie wyj&#x105;tk&#xf3;w w warstwie domeny">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div http-equiv="content-type" content="text/html; charset=utf-8" class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Nie natrafi&#322;em jeszcze na temat opisuj&#261;cy poprawne rzucanie wyj&#261;tkow.<br />Mam par&#281; pyta&#324;, oraz jakby kto&#347; mia&#322; ciekawe artyku&#322;y to b&#281;d&#281; wdzi&#281;czny.<br />Przyk&#322;ad - usuwanie wiadomo&#347;ci.<br />Czy powinienem sprawdza&#263; w repozytorium(infrastruktura) czy wiadomo&#347;&#263; istnieje? Jak nie istnieje to rzuca&#263; wyj&#261;tek?<br />A mo&#380;e zwraca&#263; null/undefined i w warstwie aplikacji w handlerze sprawdza&#263; czy repo nie zwr&#243;ci&#322;o agregatu i wtedy rzuca&#263; wyj&#261;tek?<br />Czy mo&#380;na rzuca&#263; wyj&#261;tki domenowe w warstwie aplikacji/infrastruktury czy mo&#380;e powinno si&#281; tworzy&#263; wyj&#261;tki per&#160;&#160;warstwa?&#160;(edited)&#160;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1587041025.090900-thread-list_separator" data-qa="virtual-list-item">
+      <div class="p-thread_separator">
+        <div class="p-threads_flexpane__separator">
+          3 replies<hr class="p-threads_flexpane__separator_line" />
+        </div>
+      </div>
+    </div>
+    <br />
+    
+
+    <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+      <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+        <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+          <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+            <div class="p-rich_text_block" dir="auto">
+              <div class="p-rich_text_section">
+                Pierwsze pytanie jest czy rzuca&#263; wyj&#261;tek czy zwraca&#263; jaki&#347;&#160;Result&lt;T&gt;. Ta kwestia jest poruszana w jednej z lekcji.<br />Je&#380;eli rzucamy wyj&#261;tek to wed&#322;ug mnie trzeba to zrobi&#263; w miejscu gdzie orientujemy si&#281;, &#380;e co&#347; posz&#322;o nie tak i nie jeste&#347;my w stanie spe&#322;ni&#263; kontraktu metody. Je&#380;eli repozytorium zwraca agregat po Id i kontrakt nie przewiduje informowania o braku agregatu o danym Id, to rzuca&#322;bym w repozytorium. Zwracanie null jest myl&#261;ce i powoduje nieoczekiwane wyj&#261;tki w innych miejscach aplikacji, co trudniej si&#281;&#160;p&#243;&#378;niej debuguje. Je&#380;eli kontrakt repozytorium przewiduje mo&#380;liwo&#347;&#263; poinformowania o braku agregatu to powinno to by&#263; zrobione explicite np. Mayby&lt;T&gt;. W takim przypadku inna warstwa np. aplikacji rzuci wyj&#261;tek je&#380;eli nie b&#281;dzie w stanie sensownie zareagowa&#263; na tak&#261; sytuacj&#281;. Mo&#380;e si&#281; zdarzy&#263;, &#380;e w niekt&#243;rych scenariuszach b&#281;dziemy w stanie to jako&#347; obs&#322;u&#380;y&#263; i wyj&#261;tki nie b&#281;d&#261; potrzebne, a w innych b&#281;dziemy je rzuca&#263;.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__reaction_bar c-reaction_bar c-reaction_bar--light" role="group" aria-label="Reactions" data-stringify-ignore="true">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+            
+          </div>
+        </div>
+        <br />
+        
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    dopiero zaczynam przygod&#281; z dna wi&#281;c jeszcze nie dotar&#322;em do tej lekcji. Jak kto&#347; z czytaj&#261;cy kojarzy to mo&#380;e podrzucic nr lekcji.<br />&#379;eby nie dopu&#347;ci&#263; do niekt&#243;rych sytuacji mo&#380;na w warstwie UI wykona&#263; query i przeprowadzi&#263; wst&#281;pn&#261; walidacje np czy zasob istnieje. Czy to dobra praktyka? Cz&#281;sto widz&#281; ze nie jest to robione, tylko w&#322;a&#347;nie obs&#322;ugiwane p&#243;&#378;niej wyj&#261;tkami. Np w handlerze throw new MessageNotFound(id)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__background--hovered c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover c-message_kit__hover--hovered" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+            
+          </div>
+          <div class="c-message_kit__gutter">
+            <div class="c-message_kit__gutter__left">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    
+
+    <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+      <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+        <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+          <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+            <div class="p-rich_text_block" dir="auto">
+              <div class="p-rich_text_section">
+                ta lekcja jest w tygodniu 7, ja osobi&#347;cie nie zwraca&#322;bym wyj&#261;tk&#243;w z warstwy domenowej, tylko rezultaty. Wyj&#261;tki zostawmy na sytuacje wyj&#261;tkowe - b&#322;&#261;d infrastrukury, czyli wyj&#261;tki infrastrukturalne. Co do braku agregatu - dla mnie te&#380; nie jest to sytuacja wyj&#261;tkowa, w serwisie aplikacyjnym zwracam odpowiedni&#261; informacj&#281;, a je&#347;li to jest REST to warstwa wy&#380;ej mo&#380;e sobie to przet&#322;umaczy&#263; na 404. Aczkolwiek cz&#281;sto ogarnia to si&#281; wyj&#261;tkiem bo frameworki &#322;atwo to wspieraj&#261; poprzez &#322;apanie takiego wyj&#261;tku i mapowanie do kodu http
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1588308347499" ID="ID_203418558" MODIFIED="1588308494092" TEXT="Us&#x142;uga domenowa-builder">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div http-equiv="content-type" content="text/html; charset=utf-8" class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+      <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+        <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+          <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+            <div class="p-rich_text_block" dir="auto">
+              <div class="p-rich_text_section">
+                Stworzy&#322;em sobie agregat reprezentuj&#261;cy rezerwacj&#281; biletu lotniczego:<br /><a target="_blank" class="c-link" delay="150" aria-describedby="slack-kit-tooltip" href="https://slack-redir.net/link?url=https%3A%2F%2Fgithub.com%2Fmwwojcik%2Fairline-reservation-system%23aggregates&amp;v=3" rel="noopener noreferrer">https://github.com/mwwojcik/airline-reservation-system#aggregates</a>&#160; , oraz szkielet implementacji kt&#243;ry znajduje si&#281; poni&#380;ej karteczek. Uda&#322;o mi si&#281; wyodr&#281;bni&#263; kilka metod (create()/activate(), lock(),confirm(), reschedule() i cancel() ) . Mam jednak problem z metod&#261; zmieniaj&#261;c&#261; termin rezerwacji- reschedule(), bo o ile 4 pozosta&#322;e metody operuj&#261; tylko na stanie rezerwacji i w zasadzie mog&#322;yby by&#263; bezparametrowe, to reschedule() jest zupe&#322;nie inna. Wi&#261;&#380;e si&#281; z ca&#322;kowit&#261; zmian&#261; danych agregatu, inny jest numer lotu, numer siedzenia, cena, data odlotu itd... Je&#347;li metoda ta przyj&#281;&#322;aby te wszystkie warto&#347;ci w parametrach a potem je powymienia&#322;a, to obiekt Reservation sta&#322;by si&#281; mutowalny. By&#263; mo&#380;e metoda ta powinna zmieni&#263; stan swojego obiektu na Rescheduled, podbi&#263; licznik wykonanych zmian termin&#243;w i powo&#322;a&#263; do &#380;ycia nowy obiekt Reservation, a mo&#380;e w og&#243;le nowy agregat np. RescheduledReservation, kt&#243;ry trzyma&#322;by referencj&#281; do rezerwacji oryginalnej. Nie wiem tylko czym w takiej sytuacji by&#322;by ten nowy byt, bo nie wiedz&#281; regu&#322; kt&#243;re uprawnia&#322;yby mnie od stworzenia nowego agregatu . Pozatym powsta&#322;by problem r&#243;wnoczesnej modyfikacji.&#160;&#160;Jak rozwi&#261;zaliby&#347;cie taki problem ?&#160;(edited)&#160;
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__attachments">
+      <div class="c-message_attachment">
+        <div class="c-message_attachment__delete_container">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <div class="c-message_kit__attachments">
+          <div class="c-message_attachment">
+            <div class="c-message_attachment__border">
+              
+            </div>
+            <div class="c-message_attachment__body">
+              <div class="c-message_attachment__row">
+                <img class="c-message_attachment__author_icon" alt="GitHub" src="https://slack-imgs.com/?c=1&amp;o1=wi32.he32.si&amp;url=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Funfurl_icons%2Fgithub.png" data-qa="message_attachment_author_icon" data-stringify-ignore="true" width="16" height="16" />
+                GitHub
+              </div>
+              <div class="c-message_attachment__row">
+                <a target="_blank" rel="noreferrer noopener" data-qa="message_attachment_title_link" class="c-link c-message_attachment__title_link" href="https://github.com/mwwojcik/airline-reservation-system#aggregates">mwwojcik/airline-reservation-system</a>
+              </div>
+              <div class="c-message_attachment__row">
+                Contribute to mwwojcik/airline-reservation-system development by creating an account on GitHub.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1588184143.127900-thread-list_separator" data-qa="virtual-list-item">
+      <div class="p-thread_separator">
+        <div class="p-threads_flexpane__separator">
+          10 replies<hr class="p-threads_flexpane__separator_line" />
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1588184143.127900-thread-list_1588184696.128200" data-qa="virtual-list-item" aria-label="Kamil &#x141;uszczki at 8:24 PM. O ile dobrze rozumiem to reschedule() w zasadzie tworzy now&#x105; instancj&#x119; agregatu zmieniaj&#x105;c wi&#x119;kszo&#x15b;&#x107; jego danych wiec wydaje mi sie ze to dobrym pomys&#x142;em jest to wyci&#x105;gni&#x119;cie wy&#x17c;ej, po za agregat do serwisu domenowego kt&#xf3;ry b&#x119;dzie robi&#x107; reschedule - je&#x17c;eli jest to mo&#x17c;liwe to stara rezerwacja jest anulowana i tworzona jest nowa rezerwacja.">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+              
+            </div>
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__left">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <br />
+        
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    O ile dobrze rozumiem to <code data-stringify-type="code" class="c-mrkdwn__code">reschedule()</code>&#160;w zasadzie tworzy now&#261; instancj&#281; agregatu zmieniaj&#261;c wi&#281;kszo&#347;&#263; jego danych wiec wydaje mi sie ze to dobrym pomys&#322;em jest to wyci&#261;gni&#281;cie wy&#380;ej, po za agregat do serwisu domenowego kt&#243;ry b&#281;dzie robi&#263; reschedule - je&#380;eli jest to mo&#380;liwe to stara rezerwacja jest anulowana i tworzona jest nowa rezerwacja.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+            
+          </div>
+          <div class="c-message_kit__gutter">
+            <div class="c-message_kit__gutter__left">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <br />
+        
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Chyba te&#380;&#160;&#160;zrobi&#322;bym jak &#160;(maj&#261;c te informacje co wymieni&#322;e&#347;)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+            
+          </div>
+          <div class="c-message_kit__gutter">
+            <div class="c-message_kit__gutter__left">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <br />
+        
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    tylko z wyniesieniem tej logiki do serwisu domenowego te&#380; jest pewien problem - mianowicie s&#261; dwie regu&#322;y, kt&#243;re powinny by&#263; sprawdzone na obiekcie pierwotnej rezerwacji - musi by&#263; ona w odpowiednim stanie (zatwierdzona) i dopuszczalne s&#261; tylko 2 zmiany terminu na jedn&#261; rezerwacj&#281;. Oznacza&#322;oby &#380;e cz&#281;&#347;&#263; regu&#322; wymaganych do zachowania sp&#243;jno&#347;ci agregatu zostanie wykonana poza nim. A on sam musi upubliczni&#263; na zewn&#261;trz np. sw&#243;j stan , czy liczb&#281; dotychczasowych zmian terminu (to b&#281;d&#261; takie prawie gettery).&#160;&#160;Czy to rozwi&#261;zanie nie nabierze cech modelu anemicznego ?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+            
+          </div>
+          <div class="c-message_kit__gutter">
+            <div class="c-message_kit__gutter__left">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <br />
+        
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    &#160;my&#347;l&#281;, &#380;e metoda reschedule mo&#380;e pozosta&#263; na agregacie, ale mo&#380;esz u&#380;y&#263; wzorca prototype, kt&#243;ry zbuduje nowa rezerwacj&#281; w oparciu o star&#261; przyjmuj&#261;c jedynie parametry kt&#243;re maj&#261; ulec zmianie. M&#243;g&#322;by&#347; tutaj wprowadzi&#263; te&#380; po&#347;rednio jakiego&#347; buildera. Czyli np. <code data-stringify-type="code" class="c-mrkdwn__code">reschedule()</code>&#160; zwraca buildera, w kt&#243;rym mo&#380;esz chainowac metody, np. <code data-stringify-type="code" class="c-mrkdwn__code">reschedule().withFlightNumber(flight).and().withSeat(seat).build()</code>&#160;(edited)&#160;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+            
+          </div>
+          <div class="c-message_kit__gutter">
+            <div class="c-message_kit__gutter__left">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <br />
+        
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Mariusz, te regu&#322;y ciagle pozostan&#261; w agregacie. Po prostu jak si&#281; uda&#322;o (regu&#322;y przejd&#261;), to serwis domenowy kontynuuje, w przeciwnym wypadku nie. Zwrotka z metody rescheduled mo&#380;e by&#263; podsumowanie starej rezerwacji (wiem, wiem, purystyczne CQS z&#322;amane - ale wlanie, tylko pod wzgl&#281;dem dogmatu a nie faktycznej zasady, bo zwrotka reprezentuje Ci tu sukces lub jego brak)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+            
+          </div>
+          <div class="c-message_kit__gutter">
+            <div class="c-message_kit__gutter__left">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <br />
+        
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Zajrz&#281; jeszcze w Tw&#243;j kod dzi&#347;, bo do tej pory nie widzia&#322;em - prosz&#281; pingnij dzi&#347; ten w&#261;tek
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+            
+          </div>
+          <div class="c-message_kit__gutter">
+            <div class="c-message_kit__gutter__left">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    
+
+    <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+      <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+        <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+          <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+            <div class="p-rich_text_block" dir="auto">
+              <div class="p-rich_text_section">
+                dzi&#281;ki wielkie, chyba mi spasowa&#322;o <img src="https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f642.png" aria-label="slightly smiling face emoji" alt=":slightly_smiling_face:" data-stringify-type="emoji" data-stringify-emoji=":slightly_smiling_face:" /><a target="_blank" class="c-link" delay="150" aria-describedby="slack-kit-tooltip" href="https://slack-redir.net/link?url=https%3A%2F%2Fgithub.com%2Fmwwojcik%2Fairline-reservation-system%23rescheduling&amp;v=3" rel="noopener noreferrer">https://github.com/mwwojcik/airline-reservation-system#rescheduling</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__attachments">
+      <div class="c-message_attachment">
+        <div class="c-message_attachment__delete_container">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__attachments">
+      <div class="c-message_attachment">
+        <div class="c-message_attachment__border">
+          
+        </div>
+        <div class="c-message_attachment__body">
+          <div class="c-message_attachment__row">
+            <img class="c-message_attachment__author_icon" alt="GitHub" src="https://slack-imgs.com/?c=1&amp;o1=wi32.he32.si&amp;url=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Funfurl_icons%2Fgithub.png" data-qa="message_attachment_author_icon" data-stringify-ignore="true" width="16" height="16" />
+            GitHub
+          </div>
+          <div class="c-message_attachment__row">
+            <a target="_blank" rel="noreferrer noopener" data-qa="message_attachment_title_link" class="c-link c-message_attachment__title_link" href="https://github.com/mwwojcik/airline-reservation-system#rescheduling">mwwojcik/airline-reservation-system</a>
+          </div>
+          <div class="c-message_attachment__row">
+            Contribute to mwwojcik/airline-reservation-system development by creating an account on GitHub.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__reaction_bar c-reaction_bar c-reaction_bar--light" role="group" aria-label="Reactions" data-stringify-ignore="true">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+            
+          </div>
+          <div class="c-message_kit__gutter">
+            <div class="c-message_kit__gutter__left">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <br />
+        
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Super, ze kod wrzuci&#322;e&#347;. Tak patrz&#281;, du&#380;y ten agregat. Z ciekawo&#347;ci, jak doinstalujesz plugin, np CodeMr to zmierzy Ci metryk&#281; LCOM albo LCAM - ile ma klasa Rezerwacji?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__background--hovered c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover c-message_kit__hover--hovered" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+            
+          </div>
+          <div class="c-message_kit__gutter">
+            <div class="c-message_kit__gutter__left">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+      <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+        <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+          <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+            <div class="p-rich_text_block" dir="auto">
+              <div class="p-rich_text_section">
+                Dziedzin&#281; wymy&#347;la&#322;em sam , st&#261;d by&#263; mo&#380;e niekt&#243;re regu&#322;y s&#261; wrzucone na si&#322;&#281; i sztucznie pompuj&#261; agregat, ale zale&#380;a&#322;o mi na uzyskaniu z&#322;o&#380;ono&#347;ci uzasadniaj&#261;cej u&#380;ycie DDD i architektury hexagonalnej.&#160;&#160;Niestety raport wykaza&#322;&#160;&#160;mi spory brak kohezji w klasie Reservation. To pewnie dlatego &#380;e jedynym polem &#322;&#261;cz&#261;cym metody jest currentStatus. Reszt&#281; walidacji przenios&#322;em do takich ma&#322;ych ValueObjects z kt&#243;rych ka&#380;dy sprawdza swoj&#261; regu&#322;&#281; (chocia&#380; wszystkie dotycz&#261; rezerwacji). Zastanawiam si&#281; czy taka niekorzystna metryka stanowi podstaw&#281; do rozbijania agregatu na mniejsze jednostki (pomimo tego &#380;e wszystkie regu&#322;y dotycz&#261; przecie&#380; tej samej rezerwacji i biznesowo wskazywa&#322;oby to na jeden agregat).&#160;&#160; Tak w og&#243;le to fajny ten plugin do analizy kodu, mam nadziej&#281; &#380;e w nast&#281;pnych tygodniach poruszycie temat tego typu metryk bo wygl&#261;daj&#261; mega ciekawie.&#160;(edited)&#160;
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-files_container">
+      <div class="c-message_kit__file__meta">
+        image.png&#160;
+      </div>
+    </div>
+    <div class="c-file_gallery c-file_gallery__single_image" style="width: 403px">
+      <div class="c-aspect_box__outer p-message_image_file c-file_gallery_image_file" style="width: 360px">
+        <div class="c-aspect_box__inner" style="padding-top: 38.3333%">
+          <div class="c-aspect_box__content">
+            <a data-file-id="F013K3U3J48" target="_blank" rel="noopener noreferrer" class="c-link p-file_image_thumbnail__wrapper" href="https://files.slack.com/files-pri/TM5HESPC1-F013K3U3J48/image.png">
+</a>
+            <div class="p-file_image_thumbnail__tiny_thumb_wrapper">
+              
+            </div>
+            <div class="c-file__actions c-file__actions--image">
+              <a target="_blank" class="c-link c-button-unstyled c-file__action_button c-file__action_button--icon" aria-label="Download image.png" data-qa="download_action" delay="300" aria-describedby="slack-kit-tooltip" href="https://files.slack.com/files-pri/TM5HESPC1-F013K3U3J48/download/image.png" rel="noopener noreferrer">
+</a>            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter">
+      <br />
+      
+
+      <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+        <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+          <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+            <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+              <div class="p-rich_text_block" dir="auto">
+                <div class="p-rich_text_section">
+                  W 8 tygodniu bardzo du&#380;o o tym jest
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1588762379438" ID="ID_300190895" MODIFIED="1588762406777" TEXT="Dekmpozycja encji">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div http-equiv="content-type" content="text/html; charset=utf-8" class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="U010M5PDH4Z" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010M5PDH4Z">Mariusz W&#243;jcik(opens in new tab)</a>&#160;<a data-stringify-type="replace" data-stringify-text="[12:32 PM]" data-stringify-requires-siblings="true" delay="300" aria-describedby="slack-kit-tooltip" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1588674752463600">Yesterday at 12:32 PM</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    W tygodniu 7 w lekcji o implementacji encji jest mowa o mo&#380;liwo&#347;ci rozbicia jej na mniejsze obiekty reprezentuj&#261;ce &quot;encj&#281; w stanie&quot; . Czym semantycznie s&#261; te nowe, zdekomponowane obiekty ? Bo rozumiem &#380;e nie s&#261; to osobne agregaty, nawet&#160;&#160;nie osobne encje bo ci&#261;gle reprezentuj&#261; ten sam byt, nie pasuj&#261; mi te&#380; do Value Object bo maj&#261; identyfikacj&#281; to&#380;samo&#347;ciow&#261;.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CNFDWA6G6-1588674752.463600-thread-list_separator" data-qa="virtual-list-item">
+      <div class="p-thread_separator">
+        <div class="p-threads_flexpane__separator">
+          4 replies<hr class="p-threads_flexpane__separator_line" />
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CNFDWA6G6-1588674752.463600-thread-list_1588674843.463700" data-qa="virtual-list-item" aria-label="[Team] Jakub Pilimon at 12:34 PM. To mog&#x105;&#xa0;by&#x107;&#xa0;agregaty, je&#x15b;li znajdziemy odpowiednie granice transakcyjne w stosunku co do zmian stan&#xf3;w. Wi&#x119;c wtedy te&#x17c; mog&#x105; by&#x107; to encje. BTW, encja domenowa nie musi r&#xf3;wna&#x107; si&#x119; 1 klasie w kodzie, mo&#x17c;emy mie&#x107; r&#xf3;&#x17c;ne reprezentacje tej encji (w zalezno&#x15b;ci od stanu - YoungPerson, OldPerson, MiddleAgedPerson to ci&#x105;gle ta sama encja PErson)">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <br />
+        
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    To mog&#261;&#160;by&#263;&#160;agregaty, je&#347;li znajdziemy odpowiednie granice transakcyjne w stosunku co do zmian stan&#243;w. Wi&#281;c wtedy te&#380; mog&#261; by&#263; to encje. BTW, encja domenowa nie musi r&#243;wna&#263; si&#281; 1 klasie w kodzie, mo&#380;emy mie&#263; r&#243;&#380;ne reprezentacje tej encji (w zalezno&#347;ci od stanu - YoungPerson, OldPerson, MiddleAgedPerson to ci&#261;gle ta sama encja PErson)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__background--hovered c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover c-message_kit__hover--hovered" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+            
+          </div>
+          <div class="c-message_kit__gutter">
+            <div class="c-message_kit__gutter__left">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="U010M5PDH4Z" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010M5PDH4Z">Mariusz W&#243;jcik(opens in new tab)</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[12:48 PM]" data-stringify-requires-siblings="true" delay="300" aria-describedby="slack-kit-tooltip" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1588675683463900?thread_ts=1588674752.463600&amp;cid=CNFDWA6G6">1 day ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    A jak ma si&#281; poj&#281;cie Encji DDD do Encji persystentnej ? Czy wiele encji domenowych mo&#380;e mapowa&#263; si&#281; na t&#281; sam&#261; encj&#281; persystentn&#261; ? Bo wydaje mi si&#281; &#380;e te obiekty zdekomponowane mog&#322;yby by&#263; utrwalane w tej samej tabeli. Rozumiem &#380;e w tym modelu mieliby&#347;my do czynienia z jedn&#261; encj&#261; domenow&#261; (chocia&#380; reprezentowan&#261; przez r&#243;&#380;ne klasy) i jedn&#261; encj&#261; persystentn&#261;.&#160;&#160;Encja persystentna mia&#322;aby pola b&#281;d&#261;ce sum&#261; p&#243;l z wszystkich reprezentacji. Przy mapowaniu zwrotnym mo&#380;naby podejmowa&#263; decyzj&#281; np. na podstawie pola status i instancjonowa&#263; odpowiedni&#261; reprezentacj&#281; encji domenowej. Czy takie rozwi&#261;zanie jest poprawne ?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+            
+          </div>
+          <div class="c-message_kit__gutter">
+            <div class="c-message_kit__gutter__left">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <br />
+        
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Mo&#380;esz mie&#263; kilka strategii - 1 tabelka na wszystko, osobne tabelki, tabelka z czescia wspolna + kilka tabelek &quot;specyficznych&quot;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          <div class="c-message_kit__labels__offscreen_message" aria-live="assertive">
+            
+          </div>
+          <div class="c-message_kit__gutter">
+            <div class="c-message_kit__gutter__left">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__right" data-qa="message_content">
+      <a target="_blank" rel="noopener noreferrer" data-message-sender="U010M5PDH4Z" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010M5PDH4Z">Mariusz W&#243;jcik(opens in new tab)</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[12:53 PM]" data-stringify-requires-siblings="true" delay="300" aria-describedby="slack-kit-tooltip" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1588676002464300?thread_ts=1588674752.463600&amp;cid=CNFDWA6G6">24 hours ago</a><br />
+
+      <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+        <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+          <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+            <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+              <div class="p-rich_text_block" dir="auto">
+                <div class="p-rich_text_section">
+                  ok, czyli traktuj&#281; to strategiami realizacji dziedziczenia, dzi&#281;ki&#160;(edited)&#160;
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1589179098494" ID="ID_506244579" MODIFIED="1589179121451" TEXT="Agregaty i ddd taktyczne - kana&#x142;">
+<richcontent TYPE="NOTE">&lt;html&gt;
+  &lt;head&gt;
+    
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p&gt;
+      &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; data-message-sender=&quot;UNY57KCQY&quot; data-qa=&quot;message_sender_name&quot; aria-haspopup=&quot;true&quot; class=&quot;c-link c-message__sender_link &quot; href=&quot;https://app.slack.com/team/UNY57KCQY&quot;&gt;[Bottega] Mariusz Gil(opens in new tab)&lt;/a&gt;&amp;#160;&lt;a data-stringify-type=&quot;replace&quot; data-stringify-text=&quot;[8:41 PM]&quot; data-stringify-requires-siblings=&quot;true&quot; delay=&quot;300&quot; data-sk=&quot;tooltip_parent&quot; aria-describedby=&quot;sk-tooltip-df37302a-06b4-44f1-8ac4-bbf35557568b&quot; class=&quot;c-link c-timestamp&quot; href=&quot;https://dna-pl.slack.com/archives/CN0C7LP7U/p1588876898169700&quot;&gt;May 7th at 8:41 PM&lt;/a&gt;&lt;br&gt;
+      &lt;div class=&quot;c-message_kit__blocks c-message_kit__blocks--rich_text&quot;&gt;
+        &lt;div class=&quot;c-message__message_blocks c-message__message_blocks--rich_text&quot;&gt;
+          &lt;div class=&quot;p-block_kit_renderer&quot; data-qa=&quot;block-kit-renderer&quot;&gt;
+            &lt;div class=&quot;p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first&quot;&gt;
+              &lt;div class=&quot;p-rich_text_block&quot; dir=&quot;auto&quot;&gt;
+                &lt;div class=&quot;p-rich_text_section&quot;&gt;
+                  Je&amp;#347;li kto&amp;#347; mia&amp;#322;by ochot&amp;#281; zag&amp;#322;&amp;#281;bi&amp;#263; si&amp;#281; w temat agregat&amp;#243;w i 
+                  taktycznego DDD, to zach&amp;#281;cam do pos&amp;#322;uchania odcink&amp;#243;w 
+                  BetterSoftwareDesign, gdzie razem &lt;a class=&quot;c-link c-member_slug c-member_slug--light c-member_slug--link &quot; data-member-id=&quot;UM0GTMVPC&quot; data-member-label=&quot;@[Team] Jakub Pilimon&quot; data-stringify-type=&quot;mention&quot; data-stringify-id=&quot;UM0GTMVPC&quot; data-stringify-label=&quot;@[Team] Jakub Pilimon&quot; tabindex=&quot;0&quot; aria-hidden=&quot;false&quot; aria-haspopup=&quot;true&quot; href=&quot;https://dna-pl.slack.com/team/UM0GTMVPC&quot; rel=&quot;noopener noreferrer&quot;&gt;@[Team] Jakub Pilimon&lt;/a&gt;&amp;#160;
+                  rozmawiamy w&amp;#322;a&amp;#347;nie na te tematy. Trudno je wyczerpa&amp;#263; w 
+                  jednej czy dw&amp;#243;ch rozmowach, dlatego mo&amp;#380;na spodziewa&amp;#263; si&amp;#281; 
+                  wi&amp;#281;cej takich odcink&amp;#243;w &lt;img src=&quot;https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f609.png&quot; aria-label=&quot;wink emoji&quot; alt=&quot;:wink:&quot; data-stringify-type=&quot;emoji&quot; data-stringify-emoji=&quot;:wink:&quot;&gt;Odsy&amp;#322;am do pierwszego 
+                  odcinka BSD, ale w innych te&amp;#380; co&amp;#347; ciekawego powinno si&amp;#281; 
+                  znale&amp;#378;&amp;#263;. Np. rozmowa z Alberto Brandolinim o Remote 
+                  EventStorming i jego do&amp;#347;wiadczeniach w tym temacie :)&lt;a target=&quot;_blank&quot; class=&quot;c-link&quot; delay=&quot;150&quot; data-sk=&quot;tooltip_parent&quot; aria-describedby=&quot;sk-tooltip-c6dc4d6e-8b88-4b62-8c65-c8ef4444d57d&quot; href=&quot;https://slack-redir.net/link?url=https%3A%2F%2Fwww.bettersoftwaredesign.pl%2Fepisodes%2F1&amp;v=3&quot; rel=&quot;noopener noreferrer&quot;&gt;https://www.bettersoftwaredesign.pl/episodes/1&lt;/a&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;c-message_kit__attachments&quot;&gt;
+        &lt;div class=&quot;c-message_attachment&quot;&gt;
+          &lt;div class=&quot;c-message_attachment__border&quot;&gt;
+            
+          &lt;/div&gt;
+          &lt;div class=&quot;c-message_attachment__body&quot;&gt;
+            &lt;div class=&quot;c-message_attachment__row&quot;&gt;
+              &lt;img class=&quot;c-message_attachment__author_icon&quot; alt=&quot;Better Software Design&quot; src=&quot;https://slack-imgs.com/?c=1&amp;o1=wi32.he32.si&amp;url=https%3A%2F%2Fcdn.simplecast.com%2Fassets%2Fsimplecast-logo-16.png&quot; data-qa=&quot;message_attachment_author_icon&quot; data-stringify-ignore=&quot;true&quot; width=&quot;16&quot; height=&quot;16&quot;&gt;
+              Better Software Design
+            &lt;/div&gt;
+            &lt;div class=&quot;c-message_attachment__row&quot;&gt;
+              &lt;a target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot; data-qa=&quot;message_attachment_title_link&quot; class=&quot;c-link c-message_attachment__title_link&quot; href=&quot;https://www.bettersoftwaredesign.pl/episodes/1&quot;&gt;1. O modelowaniu agregat&amp;#243;w z Kub&amp;#261; Pilimonem | Better Software 
+              Design(opens in new tab)&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;c-message_attachment__row&quot;&gt;
+              Wsp&amp;#243;lnie z Kub&amp;#261; siadamy przy pierwszym Domain Driven Design 
+              Roundtable i rozk&amp;#322;adamy koncept agregatu na czynniki pierwsze. W 
+              premierowym odcinku podcastu skupiamy si&amp;#281; na zasadach i 
+              heurystykach modelowania agregat&amp;#243;w.
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;c-message_kit__reaction_bar c-reaction_bar c-reaction_bar--light&quot; role=&quot;group&quot; aria-label=&quot;Reactions&quot; data-stringify-ignore=&quot;true&quot;&gt;
+        
+      &lt;/div&gt;
+      &lt;div class=&quot;c-virtual_list__item&quot; tabindex=&quot;-1&quot; role=&quot;listitem&quot; id=&quot;CN0C7LP7U-1588876898.169700-thread-list_separator&quot; data-qa=&quot;virtual-list-item&quot;&gt;
+        &lt;div class=&quot;p-thread_separator&quot;&gt;
+          &lt;div class=&quot;p-threads_flexpane__separator&quot;&gt;
+            4 replies&lt;hr class=&quot;p-threads_flexpane__separator_line&quot;&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;c-virtual_list__item&quot; tabindex=&quot;-1&quot; role=&quot;listitem&quot; id=&quot;CN0C7LP7U-1588876898.169700-thread-list_1588877025.170100&quot; data-qa=&quot;virtual-list-item&quot; aria-label=&quot;Kamil &#x141;uszczki at 8:43 PM. Dzi&#x119;ki, da&#x142;em follow na spotify  wink emoji  B&#x119;dzie o czym s&#x142;ucha&#x107;. https://open.spotify.com/show/0QCDOJNUWnJkaq73FasfkY?si=QVFtAHcER6CvSPMvYWDvuA 2 reactions. 1 attachment. Better Software Design https://open.spotify.com/show/0QCDOJNUWnJkaq73FasfkY?si=QVFtAHcER6CvSPMvYWDvuA .&quot;&gt;
+        &lt;div role=&quot;document&quot; class=&quot;c-message_kit__background c-message_kit__message c-message_kit__thread_message&quot; data-qa=&quot;message_container&quot; data-qa-unprocessed=&quot;false&quot; data-qa-placeholder=&quot;false&quot;&gt;
+          &lt;div role=&quot;document&quot; class=&quot;c-message_kit__hover&quot; data-qa-hover=&quot;true&quot;&gt;
+            &lt;div class=&quot;c-message_kit__actions c-message_kit__actions--default&quot;&gt;
+              &lt;div class=&quot;c-message_kit__labels__offscreen_message&quot; aria-live=&quot;assertive&quot;&gt;
+                
+              &lt;/div&gt;
+              &lt;div class=&quot;c-message_kit__gutter&quot;&gt;
+                &lt;div class=&quot;c-message_kit__gutter__left&quot;&gt;
+                  
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; data-message-sender=&quot;UNF5QJ3MW&quot; data-qa=&quot;message_sender_name&quot; aria-haspopup=&quot;true&quot; class=&quot;c-link c-message__sender_link &quot; href=&quot;https://app.slack.com/team/UNF5QJ3MW&quot;&gt;Kamil &amp;#321;uszczki(opens in new tab)&lt;/a&gt;&lt;img src=&quot;https://slack-imgs.com/?c=1&amp;o1=gu&amp;url=https%3A%2F%2Femoji.slack-edge.com%2FTM5HESPC1%2Fpython%2Fd46d53048ebbe8bd.png&quot; aria-label=&quot;python emoji&quot; alt=&quot;:python:&quot; data-stringify-type=&quot;emoji&quot; data-stringify-emoji=&quot;:python:&quot;&gt;&amp;#160;&amp;#160;&lt;a data-stringify-type=&quot;replace&quot; data-stringify-text=&quot;[8:43 PM]&quot; data-stringify-requires-siblings=&quot;true&quot; delay=&quot;300&quot; data-sk=&quot;tooltip_parent&quot; aria-describedby=&quot;sk-tooltip-ddb3fbf5-6d0c-4b01-98ab-f739761cfae2&quot; class=&quot;c-link c-timestamp&quot; href=&quot;https://dna-pl.slack.com/archives/CN0C7LP7U/p1588877025170100?thread_ts=1588876898.169700&amp;cid=CN0C7LP7U&quot;&gt;3 days ago&lt;/a&gt;&lt;br&gt;
+      &lt;div class=&quot;c-message_kit__blocks c-message_kit__blocks--rich_text&quot;&gt;
+        &lt;div class=&quot;c-message__message_blocks c-message__message_blocks--rich_text&quot;&gt;
+          &lt;div class=&quot;p-block_kit_renderer&quot; data-qa=&quot;block-kit-renderer&quot;&gt;
+            &lt;div class=&quot;p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first&quot;&gt;
+              &lt;div class=&quot;p-rich_text_block&quot; dir=&quot;auto&quot;&gt;
+                &lt;div class=&quot;p-rich_text_section&quot;&gt;
+                  Dzi&amp;#281;ki, da&amp;#322;em follow na spotify &lt;img src=&quot;https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f609.png&quot; aria-label=&quot;wink emoji&quot; alt=&quot;:wink:&quot; data-stringify-type=&quot;emoji&quot; data-stringify-emoji=&quot;:wink:&quot;&gt;B&amp;#281;dzie o czym 
+                  s&amp;#322;ucha&amp;#263;. &lt;a target=&quot;_blank&quot; class=&quot;c-link&quot; delay=&quot;150&quot; data-sk=&quot;tooltip_parent&quot; aria-describedby=&quot;sk-tooltip-c238a743-752b-4fe7-8985-ff29f17911a9&quot; href=&quot;https://slack-redir.net/link?url=https%3A%2F%2Fopen.spotify.com%2Fshow%2F0QCDOJNUWnJkaq73FasfkY%3Fsi%3DQVFtAHcER6CvSPMvYWDvuA&amp;v=3&quot; rel=&quot;noopener noreferrer&quot;&gt;https://open.spotify.com/show/0QCDOJNUWnJkaq73FasfkY?si=QVFtAHcER6CvSPMvYWDvuA&lt;/a&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;c-message_kit__attachments&quot;&gt;
+        &lt;div class=&quot;c-message_attachment&quot;&gt;
+          &lt;div class=&quot;c-message_attachment__border&quot;&gt;
+            
+          &lt;/div&gt;
+          &lt;div class=&quot;c-message_attachment__body&quot;&gt;
+            &lt;div class=&quot;c-message_attachment__row&quot;&gt;
+              &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;c-link c-message_attachment__author_link&quot; href=&quot;https://www.spotify.com&quot;&gt;&lt;img class=&quot;c-message_attachment__author_icon&quot; alt=&quot;Spotify&quot; src=&quot;https://slack-imgs.com/?c=1&amp;o1=wi32.he32.si&amp;url=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Funfurl_icons%2Fspotify.png&quot; data-qa=&quot;message_attachment_author_icon&quot; data-stringify-ignore=&quot;true&quot; width=&quot;16&quot; height=&quot;16&quot;&gt;
+              (opens in new tab)Spotify(opens in new tab)&lt;/a&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;c-message_attachment__row&quot;&gt;
+              &lt;a target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot; data-qa=&quot;message_attachment_title_link&quot; class=&quot;c-link c-message_attachment__title_link&quot; href=&quot;https://open.spotify.com/show/0QCDOJNUWnJkaq73FasfkY?si=QVFtAHcER6CvSPMvYWDvuA&quot;&gt;Better Software Design(opens in new tab)&lt;/a&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;c-message_kit__attachments&quot;&gt;
+        &lt;div class=&quot;c-message_attachment&quot;&gt;
+          &lt;div class=&quot;c-message_attachment__body&quot;&gt;
+            &lt;div class=&quot;c-message_attachment__row&quot;&gt;
+              &lt;div class=&quot;c-message_attachment__audio&quot; aria-label=&quot;toggle content&quot; data-expanded=&quot;true&quot; data-qa-expandable-container-is-expanded=&quot;true&quot; data-qa-expandable-container-key=&quot;aud_msg_1588877025.1701001threads-flexpane&quot;&gt;
+                &lt;div style=&quot;height: 232px&quot;&gt;
+                  &lt;iframe allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot; title=&quot;Spotify Embed: Better Software Design&quot; src=&quot;https://open.spotify.com/embed-podcast/show/0QCDOJNUWnJkaq73FasfkY?si=QVFtAHcER6CvSPMvYWDvuA&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot;&gt;
+                  &lt;/iframe&gt;
+                  
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;c-message_kit__reaction_bar c-reaction_bar c-reaction_bar--light&quot; role=&quot;group&quot; aria-label=&quot;Reactions&quot; data-stringify-ignore=&quot;true&quot;&gt;
+        
+      &lt;/div&gt;
+      &lt;div role=&quot;document&quot; class=&quot;c-message_kit__background c-message_kit__message c-message_kit__thread_message&quot; data-qa=&quot;message_container&quot; data-qa-unprocessed=&quot;false&quot; data-qa-placeholder=&quot;false&quot;&gt;
+        &lt;div role=&quot;document&quot; class=&quot;c-message_kit__hover&quot; data-qa-hover=&quot;true&quot;&gt;
+          &lt;div class=&quot;c-message_kit__actions c-message_kit__actions--default&quot;&gt;
+            &lt;div class=&quot;c-message_kit__labels__offscreen_message&quot; aria-live=&quot;assertive&quot;&gt;
+              
+            &lt;/div&gt;
+            &lt;div class=&quot;c-message_kit__gutter&quot;&gt;
+              &lt;div class=&quot;c-message_kit__gutter__left&quot;&gt;
+                
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;c-message_kit__gutter&quot;&gt;
+        &lt;div class=&quot;c-message_kit__gutter__right&quot; data-qa=&quot;message_content&quot;&gt;
+          &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; data-message-sender=&quot;UNY57KCQY&quot; data-qa=&quot;message_sender_name&quot; aria-haspopup=&quot;true&quot; class=&quot;c-link c-message__sender_link &quot; href=&quot;https://app.slack.com/team/UNY57KCQY&quot;&gt;[Bottega] Mariusz Gil(opens in new tab)&lt;/a&gt;&amp;#160;&amp;#160;&lt;a data-stringify-type=&quot;replace&quot; data-stringify-text=&quot;[9:20 PM]&quot; data-stringify-requires-siblings=&quot;true&quot; delay=&quot;300&quot; data-sk=&quot;tooltip_parent&quot; aria-describedby=&quot;sk-tooltip-3cf6bf39-4a6b-4b6f-bf46-86fa7f839bfb&quot; class=&quot;c-link c-timestamp&quot; href=&quot;https://dna-pl.slack.com/archives/CN0C7LP7U/p1588879247170800?thread_ts=1588876898.169700&amp;cid=CN0C7LP7U&quot;&gt;3 days ago&lt;/a&gt;&lt;br&gt;
+          &lt;div class=&quot;c-message_kit__blocks c-message_kit__blocks--rich_text&quot;&gt;
+            &lt;div class=&quot;c-message__message_blocks c-message__message_blocks--rich_text&quot;&gt;
+              &lt;div class=&quot;p-block_kit_renderer&quot; data-qa=&quot;block-kit-renderer&quot;&gt;
+                &lt;div class=&quot;p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first&quot;&gt;
+                  &lt;div class=&quot;p-rich_text_block&quot; dir=&quot;auto&quot;&gt;
+                    &lt;div class=&quot;p-rich_text_section&quot;&gt;
+                      &lt;a class=&quot;c-link c-member_slug c-member_slug--light c-member_slug--link &quot; data-member-id=&quot;UNF5QJ3MW&quot; data-member-label=&quot;@Kamil &#x141;uszczki&quot; data-stringify-type=&quot;mention&quot; data-stringify-id=&quot;UNF5QJ3MW&quot; data-stringify-label=&quot;@Kamil &#x141;uszczki&quot; tabindex=&quot;0&quot; aria-hidden=&quot;false&quot; aria-haspopup=&quot;true&quot; href=&quot;https://dna-pl.slack.com/team/UNF5QJ3MW&quot; rel=&quot;noopener noreferrer&quot;&gt;@Kamil &amp;#321;uszczki&lt;/a&gt;&amp;#160;Podzi&amp;#281;kowa&amp;#322; &lt;img src=&quot;https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f642.png&quot; aria-label=&quot;slightly smiling face emoji&quot; alt=&quot;:slightly_smiling_face:&quot; data-stringify-type=&quot;emoji&quot; data-stringify-emoji=&quot;:slightly_smiling_face:&quot;&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;c-message_actions__container c-message__actions c-message__actions--offscreen&quot; role=&quot;group&quot; aria-label=&quot;Message shortcuts&quot; data-qa=&quot;message-actions&quot;&gt;
+        
+      &lt;/div&gt;
+      &lt;div role=&quot;document&quot; class=&quot;c-message_kit__background c-message_kit__background--hovered c-message_kit__message c-message_kit__thread_message&quot; data-qa=&quot;message_container&quot; data-qa-unprocessed=&quot;false&quot; data-qa-placeholder=&quot;false&quot;&gt;
+        &lt;div role=&quot;document&quot; class=&quot;c-message_kit__hover c-message_kit__hover--hovered&quot; data-qa-hover=&quot;true&quot;&gt;
+          &lt;div class=&quot;c-message_kit__actions c-message_kit__actions--default&quot;&gt;
+            &lt;div class=&quot;c-message_kit__labels__offscreen_message&quot; aria-live=&quot;assertive&quot;&gt;
+              
+            &lt;/div&gt;
+            &lt;div class=&quot;c-message_kit__gutter&quot;&gt;
+              &lt;div class=&quot;c-message_kit__gutter__left&quot;&gt;
+                
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;c-message_kit__gutter&quot;&gt;
+        &lt;div class=&quot;c-message_kit__gutter__right&quot; data-qa=&quot;message_content&quot;&gt;
+          &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; data-message-sender=&quot;UN7BNL9LJ&quot; data-qa=&quot;message_sender_name&quot; aria-haspopup=&quot;true&quot; class=&quot;c-link c-message__sender_link &quot; href=&quot;https://app.slack.com/team/UN7BNL9LJ&quot;&gt;Grzegorz Domaga&amp;#322;a(opens in new tab)&lt;/a&gt;&amp;#160;&amp;#160;&lt;a data-stringify-type=&quot;replace&quot; data-stringify-text=&quot;[11:21 PM]&quot; data-stringify-requires-siblings=&quot;true&quot; delay=&quot;300&quot; data-sk=&quot;tooltip_parent&quot; aria-describedby=&quot;sk-tooltip-75b74a22-e205-44f1-abad-a05761fd5206&quot; class=&quot;c-link c-timestamp&quot; href=&quot;https://dna-pl.slack.com/archives/CN0C7LP7U/p1588886516171700?thread_ts=1588876898.169700&amp;cid=CN0C7LP7U&quot;&gt;3 days ago&lt;/a&gt;&lt;br&gt;
+          &lt;div class=&quot;c-message_kit__blocks c-message_kit__blocks--rich_text&quot;&gt;
+            &lt;div class=&quot;c-message__message_blocks c-message__message_blocks--rich_text&quot;&gt;
+              &lt;div class=&quot;p-block_kit_renderer&quot; data-qa=&quot;block-kit-renderer&quot;&gt;
+                &lt;div class=&quot;p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first&quot;&gt;
+                  &lt;div class=&quot;p-rich_text_block&quot; dir=&quot;auto&quot;&gt;
+                    &lt;div class=&quot;p-rich_text_section&quot;&gt;
+                      @[Bottega]&lt;a class=&quot;c-link c-member_slug c-member_slug--light c-member_slug--link &quot; data-member-id=&quot;UNY57KCQY&quot; data-member-label=&quot;@[Bottega] Mariusz Gil&quot; data-stringify-type=&quot;mention&quot; data-stringify-id=&quot;UNY57KCQY&quot; data-stringify-label=&quot;@[Bottega] Mariusz Gil&quot; tabindex=&quot;0&quot; aria-hidden=&quot;false&quot; aria-haspopup=&quot;true&quot; href=&quot;https://dna-pl.slack.com/team/UNY57KCQY&quot; rel=&quot;noopener noreferrer&quot;&gt;@[Bottega] Mariusz Gil&lt;/a&gt;&amp;#160;polecam doda&amp;#263; Tw&amp;#243;j 
+                      podcast na &lt;a target=&quot;_blank&quot; class=&quot;c-link&quot; delay=&quot;150&quot; data-sk=&quot;tooltip_parent&quot; aria-describedby=&quot;sk-tooltip-7f225b82-4a60-4ba4-aa70-9542266a4f72&quot; href=&quot;https://slack-redir.net/link?url=http%3A%2F%2Fjvm-bloggers.com&amp;v=3&quot; rel=&quot;noopener noreferrer&quot;&gt;jvm-bloggers.com&lt;/a&gt;&amp;#160;bo jest bardzo spoko, 
+                      zawsze troch&amp;#281; si&amp;#281; wypromuje
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;c-message_actions__container c-message__actions&quot; role=&quot;group&quot; aria-label=&quot;Message shortcuts&quot; data-qa=&quot;message-actions&quot;&gt;
+        
+      &lt;/div&gt;
+      &lt;div role=&quot;document&quot; class=&quot;c-message_kit__background c-message_kit__message c-message_kit__thread_message&quot; data-qa=&quot;message_container&quot; data-qa-unprocessed=&quot;false&quot; data-qa-placeholder=&quot;false&quot;&gt;
+        &lt;div role=&quot;document&quot; class=&quot;c-message_kit__hover&quot; data-qa-hover=&quot;true&quot;&gt;
+          &lt;div class=&quot;c-message_kit__actions c-message_kit__actions--default&quot;&gt;
+            &lt;div class=&quot;c-message_kit__labels__offscreen_message&quot; aria-live=&quot;assertive&quot;&gt;
+              
+            &lt;/div&gt;
+            &lt;div class=&quot;c-message_kit__gutter&quot;&gt;
+              &lt;div class=&quot;c-message_kit__gutter__left&quot;&gt;
+                
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;c-message_kit__gutter__right&quot; data-qa=&quot;message_content&quot;&gt;
+        &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; data-message-sender=&quot;UNFFBLRL5&quot; data-qa=&quot;message_sender_name&quot; aria-haspopup=&quot;true&quot; class=&quot;c-link c-message__sender_link &quot; href=&quot;https://app.slack.com/team/UNFFBLRL5&quot;&gt;Mateusz.M(opens in new tab)&lt;/a&gt;&amp;#160;&amp;#160;&lt;a data-stringify-type=&quot;replace&quot; data-stringify-text=&quot;[7:24 AM]&quot; data-stringify-requires-siblings=&quot;true&quot; delay=&quot;300&quot; data-sk=&quot;tooltip_parent&quot; aria-describedby=&quot;sk-tooltip-f5d5abbc-4e99-4c69-af50-5ca23d4e28c7&quot; class=&quot;c-link c-timestamp&quot; href=&quot;https://dna-pl.slack.com/archives/CN0C7LP7U/p1588915449171900?thread_ts=1588876898.169700&amp;cid=CN0C7LP7U&quot;&gt;3 days ago&lt;/a&gt;&lt;br&gt;
+        &lt;div class=&quot;c-message_kit__blocks c-message_kit__blocks--rich_text&quot;&gt;
+          &lt;div class=&quot;c-message__message_blocks c-message__message_blocks--rich_text&quot;&gt;
+            &lt;div class=&quot;p-block_kit_renderer&quot; data-qa=&quot;block-kit-renderer&quot;&gt;
+              &lt;div class=&quot;p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first&quot;&gt;
+                &lt;div class=&quot;p-rich_text_block&quot; dir=&quot;auto&quot;&gt;
+                  &lt;div class=&quot;p-rich_text_section&quot;&gt;
+                    &lt;a class=&quot;c-link c-member_slug c-member_slug--light c-member_slug--link &quot; data-member-id=&quot;UNY57KCQY&quot; data-member-label=&quot;@[Bottega] Mariusz Gil&quot; data-stringify-type=&quot;mention&quot; data-stringify-id=&quot;UNY57KCQY&quot; data-stringify-label=&quot;@[Bottega] Mariusz Gil&quot; tabindex=&quot;0&quot; aria-hidden=&quot;false&quot; aria-haspopup=&quot;true&quot; href=&quot;https://dna-pl.slack.com/team/UNY57KCQY&quot; rel=&quot;noopener noreferrer&quot;&gt;@[Bottega] Mariusz Gil&lt;/a&gt;&amp;#160;Ja z kolei polecam, &amp;#380;eby&amp;#347; 
+                    dorzuci&amp;#322; na g&amp;#322;&amp;#243;wnej stronie kr&amp;#243;tkie info o autorze, bo jak 
+                    kto&amp;#347; nie kojarzy Ci&amp;#281; ze zdj&amp;#281;cia, to nie b&amp;#281;dzie mia&amp;#322; 
+                    poj&amp;#281;cia, na czyjej stronie wyl&amp;#261;dowa&amp;#322;
+                  &lt;/div&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/p&gt;
+    &lt;p&gt;
+      
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</richcontent>
+</node>
+<node CREATED="1589874694547" ID="ID_1615088652" MODIFIED="1589875525795" TEXT="Read Model a bazy dokumentowe">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Mariusz W&#243;jcik&#160;&#160;18 days ago
+    </p>
+    <p>
+      Co my&#347;licie o wykorzystaniu bazy dokumentowej (MongoDB) do utrwalania danych agregatu?&#160;&#160;Jak wtedy poradzi&#263; sobie z Read Modelem, kt&#243;ry &#322;&#261;czy dane z r&#243;&#380;nych agregat&#243;w. Czy w architekturze modularnego monolitu i przy wykorzystaniu relacyjnych baz danych Read Model mo&#380;na przygotowywa&#263; przy pomocy join&#243;w pomi&#281;dzy tabelami r&#243;&#380;nych agregat&#243;w, a nawet bounded context&#243;w ? Czy traktowane to jest jako naruszenie zasady niezale&#380;no&#347;ci ?
+    </p>
+    <p>
+      [Team] &#321;ukasz Szyd&#322;o&#160;&#160;18 days ago
+    </p>
+    <p>
+      Hej, agregaty maj&#261; to do siebie, &#380;e po stronie zapisu (najcz&#281;&#347;ciej) wyci&#261;gamy je z bazy po ID i zapisujemy w ca&#322;o&#347;ci. Ta cecha sprawia, &#380;e mo&#380;emy je persystowa&#263; zar&#243;wno w bazach dokumentowych (mongo) wide column (Casandra) czy nawet na upartego w key-value (redis). Trudno&#347;&#263; pojawia si&#281; przy odczycie, a w&#322;a&#347;ciwie tylko w&#160;&#160;jednym jego aspekcie - wyszukiwaniu, gdzie w sekcji WHERE chcemy mie&#263; kolumny z r&#243;&#380;nych agregat&#243;w.
+    </p>
+    <p>
+      Je&#347;li np. potrzebujemy wy&#347;wietli&#263; szczeg&#243;&#322;y jakiego&#347; bytu, kt&#243;ry pod spodem jest zamodelowany jako wiele agregat&#243;w mo&#380;emy zrobi&#263; to tak:
+    </p>
+    <p>
+      2 files
+    </p>
+    <p>
+      Slides pictures - BFF.pdf
+    </p>
+    <p>
+      15 kB PDF
+    </p>
+    <p>
+      &#8212; Click to view
+    </p>
+    <p>
+      Slides pictures - composite view.pdf
+    </p>
+    <p>
+      11 kB PDF
+    </p>
+    <p>
+      &#8212; Click to view
+    </p>
+    <p>
+      [Team] &#321;ukasz Szyd&#322;o&#160;&#160;18 days ago
+    </p>
+    <p>
+      Je&#347;li musimy robi&#263; WHERE, o kt&#243;rym pisa&#322;em, to mamy dwie opcje:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;dedykowany widok
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Slides pictures - Dedicated read (1).jpg
+    </p>
+    <p>
+      [Team] &#321;ukasz Szyd&#322;o&#160;&#160;18 days ago
+    </p>
+    <p>
+      jest to do&#347;&#263; trudne rozwi&#261;zanie, nawet w modularnym monolicie, bo wymaga replikacji i dbania o sp&#243;jno&#347;&#263; danych
+    </p>
+    <p>
+      [Team] &#321;ukasz Szyd&#322;o&#160;&#160;18 days ago
+    </p>
+    <p>
+      Umo&#380;liwia za to utrzymanie autonomii naszych modu&#322;&#243;w
+    </p>
+    <p>
+      [Team] &#321;ukasz Szyd&#322;o&#160;&#160;18 days ago
+    </p>
+    <p>
+      W przypadku mniejszych aplikacji rozwa&#380;y&#322;bym opcje z JOIN-em kt&#243;r&#261; wspomnia&#322;e&#347;. W tym wypadku wa&#380;ne aby w kodzie danego modu&#322;u znalaz&#322;a si&#281; informacja (np. w komentarzu) &#380;e jaki&#347; inny modu&#322; korzysta z mojego schematu do odczytu.
+    </p>
+    <p>
+      Mariusz W&#243;jcik&#160;&#160;18 days ago
+    </p>
+    <p>
+      dzi&#281;ki :slightly_smiling_face:
+    </p>
+    <p>
+      Mateusz Nowak&#160;&#160;16 days ago
+    </p>
+    <p>
+      @[Team] &#321;ukasz Szyd&#322;o doda&#322;em nowe pytanie praktycznie o to samo wi&#281;c si&#281; tutaj podczepi&#281; :slightly_smiling_face: https://dna-pl.slack.com/archives/CN84X20F3/p1588465013456300 . Czy te Eventy z kt&#243;rych budujesz ReadModel to s&#261; eventy domenowe z warstwy Domain, czy jakie&#347; IntegrationEvent, kt&#243;re okre&#347;laj&#261; kontrakt aggregatu? Czy budujesz jeden Read Model dla kliku kontekst&#243;w w tym przypadku? (edited)
+    </p>
+    <p>
+      CQRS / EVENT SOURCING / READ MODEL / PROJEKCJECze&#347;&#263; :slightly_smiling_face: Czy tworzenie projekcji / modelu do odczytu mo&#380;e miesza&#263; w sobie eventy z r&#243;&#380;nych kontekst&#243;w (projekcja nas&#322;uchuj&#261;ca na eventy z wi&#281;cej ni&#380; jednego Bounded Contextu)? Jak dot&#261;d my&#347;la&#322;em, &#380;e tak. Ale robi&#322;em kurs Udi Dahana https://particular.net/adsd gdzie wspomina&#322;, &#380;e CQRS jest w obr&#281;bie jednego BC - Business Component (Komponentu Biznesowego), m&#243;wi&#322; te&#380;, &#380;e z punktu widzenia DDD by&#322;yby to Bounded Contexty. I &#380;e architektur&#281; dobiera si&#281; w ramach niego. Tym samym CQRS jest w granicach kontekstu, to te&#380; spoko, zgadzam si&#281; i by&#322;o na DNA. Ale jako&#347; gryzie mi si&#281; to z tworzeniem projekcji. W&#322;a&#347;nie te&#380; po to je robi&#281;, &#380;eby &#322;&#261;czy&#263; wiele danych, z r&#243;&#380;nych modeli do zapisu, na jednym model do odczytu. Je&#347;li ReadModel jest w granicach kontekstu to wtedy u&#380;ywa&#322;bym do projekcji DomainEvent&#243;w, je&#347;li za&#347; jest poza kontekstem to u&#380;y&#322;bym IntegrationEvent&#243;w, kt&#243;re okre&#347;laj&#261; kontrakt danego kontakstu.
+    </p>
+    <p>
+      Czy kto&#347; podzieli si&#281; swoimi do&#347;wiadczeniami / spostrze&#380;eniami :slightly_smiling_face: ? @[Team] &#321;ukasz Szyd&#322;o / @[Bottega] Mariusz Gil?
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Mariusz W&#243;jcik&#160;&#160;7 days ago
+    </p>
+    <p>
+      @[Team] Jakub Pilimon @[Team] Jakub Kubry&#324;ski @[Team] &#321;ukasz Szyd&#322;o cze&#347;&#263;, chcia&#322;em zapyta&#263; czy my&#347;leli&#347;cie o tym by pokaza&#263; jaki&#347; materia&#322; w kt&#243;rym rozwini&#281;ty by&#322;by temat utrwalania agregat&#243;w w bazach nierelacyjnych np. MongoDB. Mo&#380;e np zechcieliby&#347;cie przekaza&#263; jakie&#347; wskaz&#243;wki o tym jak planowa&#263; struktur&#281; dokumentu, kolekcje w kontek&#347;cie agregat&#243;w, jak poradzi&#263; sobie z brakiem relacji (co warto a co nale&#380;y redundowa&#263;) itd...
+    </p>
+    <p>
+      [Team] &#321;ukasz Szyd&#322;o&#160;&#160;7 days ago
+    </p>
+    <p>
+      Hej, b&#281;dziemy m&#243;wi&#263; o tym wi&#281;cej w XI tygodniu o event sourcing-u.
+    </p>
+    <p>
+      &#321;ukasz Kowalik&#160;&#160;5 days ago
+    </p>
+    <p>
+      @[Team] &#321;ukasz Szyd&#322;o, podpisuj&#281; si&#281; pod tematem. Takie troch&#281; rozszerzenie tel lekcji: https://edu.devstyle.pl/architektura/tydzien-x/lekcja-10-02-anomalie-wspolbieznego-dostepu/
+    </p>
+    <p>
+      ale w kontek&#347;cie bazy nosql. Jak sobie radzi&#263; gdy nie mam dirty checking, optimistic locking, bo baza tego nie wspiera.
+    </p>
+    <p>
+      [Team] &#321;ukasz Szyd&#322;o&#160;&#160;4 days ago
+    </p>
+    <p>
+      @Mariusz W&#243;jcik dodam &#380;e regu&#322;a jest prosta - agregat = dokument. Relacje w wi&#281;kszo&#347;ci przypadk&#243;w&#160;&#160;nie s&#261; konieczne. Mo&#380;esz ewentualnie napisa&#263; jaki problem przy pomocy relacji chcia&#322;by&#347; rozwi&#261;za&#263;.
+    </p>
+    <p>
+      @&#321;ukasz Kowalik Ditty checking (poziom ORM), i optimistic locking(https://jimmybogard.com/document-level-optimistic-concurrency-in-mongodb/) to techniki implementowane na poziomie kodu aplikacji, baza nie musi ich wspiera&#263;.
+    </p>
+    <p>
+      Jimmy BogardJimmy Bogard
+    </p>
+    <p>
+      Document-Level Optimistic Concurrency in MongoDB
+    </p>
+    <p>
+      I've had a number of projects now that have used MongoDB, and each time, I've needed to dig deep into the transaction support. But in addition to transaction support, I needed to understand the concurrency and locking models of Mongo. Unlike many other NoSQL databases, Mongo has locks at the
+    </p>
+    <p>
+      Written by
+    </p>
+    <p>
+      Jimmy Bogard
+    </p>
+    <p>
+      Filed under
+    </p>
+    <p>
+      MongoDB
+    </p>
+    <p>
+      Oct 30th, 2019
+    </p>
+    <p>
+      Mariusz W&#243;jcik&#160;&#160;22 hours ago
+    </p>
+    <p>
+      @[Team] &#321;ukasz Szyd&#322;o dla mnie ca&#322;y czas problemem jest Read Model, jaki&#347; czas temu ju&#380; o to pyta&#322;em i odpowiedzia&#322;e&#347; mi &#380;e dla prostszych aplikacji, w architekturze modularnego monolitu najszybsz&#261; dzia&#322;aj&#261;c&#261; opcj&#261; przygotowania widoku jest JOIN. W przypadku baz dokumentowych ta opcja odpada. I teraz pojawia si&#281; pytanie czy lepiej skorzysta&#263; z Mongo i mie&#263; bardzo wygodny spos&#243;b zapisu agregatu ale zap&#322;aci&#263; cen&#281; przy tworzeniu Read Modelu, czy te&#380; lepiej u&#380;y&#263; bazy relacyjnej kt&#243;ra nie jest ju&#380; tak wygodna przy zapisie, ale pozwala na &#322;&#261;czenie modelu. Jaki&#347; czas temu wydawa&#322;o mi si&#281; &#380;e MongoDB jest &#347;wietnym wyborem, potem m&#243;j zapa&#322; si&#281; ostudzi&#322; (jak u&#347;wiadomi&#322;em sobie istnienie tego nieszcz&#281;snego Read Modelu). Ostanio wys&#322;ucha&#322;em z kolei wywiadu z Jakubem Nabrdalikiem (materia&#322; dodatkowy do lekcji VIII) i po nim znowu odnios&#322;em wra&#380;enie &#380;e jest on sporym entuzjast&#261; u&#380;ywania bazy dokumentowej razem z DDD. Znaczy to &#380;e praktyka wskazuje &#380;e&#160;&#160;z tym nieszcz&#281;snym modelem crossagregatowym te&#380; mo&#380;na sobie jako&#347; poradzi&#263;. (edited)
+    </p>
+    <p>
+      [Team] &#321;ukasz Szyd&#322;o&#160;&#160;22 hours ago
+    </p>
+    <p>
+      Przy read modelach mamy g&#322;&#243;wnie dwie sytuacje
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;wy&#347;wietlanie szczeg&#243;&#322;&#243;w jakiego&#347; bytu np. produktu w e-commers, kt&#243;ry mo&#380;e by&#263; podzielony na wiele agregat&#243;w
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;wyszukiwanie/raporty
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      W przypadku 1 mo&#380;emy sobie poradzi&#263; robi&#261;c &#8220;JOIN&#8221; na froncie, poprzez wys&#322;anie kliku request&#243;w z tym samym ID produktu i po&#322;&#261;czenie wynik&#243;w ju&#380; na UI lub zrobienie tego na back end u&#380;ywaj&#261;c BFF. dzi&#281;ki temu nie potrzebujemy joinowa&#263; w bazieW przypadku 2 je&#347;li mamy baz&#281; nierelacyjn&#261; nie mo&#380;emy i&#347;&#263; na skr&#243;ty tylko musimy denormalizowa&#263; i tworzy&#263; dedykowane read modele.
+    </p>
+    <p>
+      Mariusz W&#243;jcik&#160;&#160;22 hours ago
+    </p>
+    <p>
+      Dla mnie najtrudniejszy jest w&#322;a&#347;nie ten pierwszy scenariusz, gdzie widok jest niejako &quot;wpleciony&quot; w przebieg procesu. W drugim scenariuszu jest &#322;atwiej, bo zar&#243;wno raporty jak i wyszukiwanie to najcz&#281;&#347;ciej b&#281;d&#261; s&#322;abiej lub mocniej, ale jednak zarysowane, odr&#281;bne ca&#322;o&#347;ci.&#160;&#160;Dzi&#281;ki za wyja&#347;nienie tego zagadnienia .
+    </p>
+    <p>
+      &#321;ukasz Kowalik&#160;&#160;10 hours ago
+    </p>
+    <p>
+      Dzi&#281;kuje @[Team] &#321;ukasz Szyd&#322;o za podpowied&#378;.&#160;&#160;Brzmi ciekawie:
+    </p>
+    <p>
+      &quot;dodam &#380;e regu&#322;a jest prosta - agregat = dokument. Relacje w wi&#281;kszo&#347;ci przypadk&#243;w&#160;&#160;nie s&#261; konieczne&quot;.
+    </p>
+    <p>
+      W moim zespole wyst&#281;puje raczej tendencja, kt&#243;ra prowadzi czasem do tego, &#380;e dokument - agregat mocno &quot;puchnie&quot;.
+    </p>
+    <p>
+      Nie wiem z czego to wynika - taka troch&#281; ch&#281;&#263; patrzenia na kolekcj&#281; z perspektywy ReadModelu?, mo&#380;e problemem jest z&#322;e wyznaczone bounded contexty.
+    </p>
+    <p>
+      Bywa, &#380;e dokument ma sporo tzw. nested objects, r&#243;wnie&#380; w formie list.
+    </p>
+    <p>
+      &quot;DokumentA: &quot; { &quot;atrA&quot; :&#160;&#160;&quot;valueA&quot;, &quot;someNestedCollection&quot; : []}
+    </p>
+    <p>
+      Jeden z argument&#243;w jaki s&#322;ysza&#322;em by&#322; taki, &#380;e: w &#347;wiecie rzeczywistym &quot;someNestedCollection&quot; nie b&#281;dzie nigdy istnia&#322;a niezale&#380;nie wi&#281;c warto j&#261; wpakowa&#263; do &#347;rodka dokumentu np: konkretny samoch&#243;d ma jakie&#347; wyposa&#380;enie: VehicleEquipment. Na wyposa&#380;eniu takiego samochodu jest sporo elektroniki i warto taka ewidencj&#281; zrobi&#263;. Np. dzisiejszy nowoczesny samoch&#243;d mo&#380;e jednostk&#281; steruj&#261;c&#261; do poduszek, do ABS, silnika itd itd. Ka&#380;da taka jednostka ma sw&#243;j nr seryjny nr. softu itd.
+    </p>
+    <p>
+      @[Team] &#321;ukasz Szyd&#322;o, czym si&#281; kierowa&#263; aby agregat by&#322;&#160;&#160;jak najprostszy?
+    </p>
+    <p>
+      Kuba Wi&#261;cek&#160;&#160;1 hour ago
+    </p>
+    <p>
+      @&#321;ukasz Kowalik Rzeczami, kt&#243;re musz&#261; by&#263; sp&#243;jne natychmiast. Je&#380;eli regu&#322;a biznesowa m&#243;wi, &#380;e jak zmieniasz co&#347; w nadwoziu to natychmiast musisz zmodyfikowa&#263; te&#380; podzespo&#322;y elektroniczne to wtedy pewnie b&#281;dzie to jeden agregat. Ale je&#380;eli biznes dopuszcza chwilow&#261; niesp&#243;jno&#347;&#263; to wszystko co mo&#380;e by&#263; poddane eventual consistency mo&#380;e wylecie&#263; z twojego agregatu do innego, obs&#322;ugiwanego p&#243;&#378;niej (synchronicznie, lub asynchronicznie, dla tej dyskusji nie ma to znaczenia)Co do ReadModelu to lepiej, w my&#347;l separacji odpowiedzialno&#347;ci, rozdzieli&#263; zapis od odczytu i wtedy nie b&#281;dziesz mia&#322; pokusy napycha&#263; agregatu bardziej i bardziej. (edited)
+    </p>
+  </body>
+</html>
+</richcontent>
+<node CREATED="1589875449356" ID="ID_1788449580" LINK="dna/Slides%20pictures%20-%20Dedicated%20read.jpg" MODIFIED="1589875528931" TEXT="Slides pictures - Dedicated read (1).jpg"/>
+<node CREATED="1589875481207" ID="ID_1816376291" LINK="dna/Slides%20pictures%20-%20BFF.pdf" MODIFIED="1589875609440" TEXT="Slides pictures - BFF.pdf"/>
+<node CREATED="1589875584881" ID="ID_789541199" LINK="dna/Slides%20pictures%20-%20composite%20view.pdf" MODIFIED="1589875632800" TEXT="Slides pictures - composite view.pdf"/>
+</node>
 </node>
 </node>
 <node CREATED="1585510867352" ID="ID_9447650" MODIFIED="1585643520825" POSITION="right" TEXT="Architektura">
@@ -885,6 +2327,65 @@
 <node CREATED="1585732546026" ID="ID_292527878" MODIFIED="1585732564481" TEXT="Modelowanie strategiczne - Event Storming - Big Picture"/>
 <node CREATED="1586496222202" ID="ID_228606111" MODIFIED="1586496225073" TEXT="Linki">
 <node CREATED="1586496226220" ID="ID_1876423794" LINK="https://github.com/mariuszgil/awesome-eventstorming" MODIFIED="1586496238259" TEXT="Awesome EventStorming"/>
+</node>
+<node CREATED="1588762420670" ID="ID_813343752" MODIFIED="1588762424934" TEXT="Wzorce">
+<node CREATED="1588762426008" ID="ID_1664394455" MODIFIED="1588762433812" TEXT="Policy vs Specification">
+<node CREATED="1588762485703" ID="ID_1385514138" LINK="https://stackoverflow.com/questions/14185139/difference-between-specification-and-a-policy" MODIFIED="1588765098248" TEXT="https://stackoverflow.com/questions/14185139/difference-between-specification-and-a-policy">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div http-equiv="content-type" content="text/html; charset=utf-8" class="post-text" itemprop="text">
+      <p>
+        The main idea behind SPECIFICATION is that it's a predicate, which often implies using logical operators with it
+      </p>
+      <blockquote>
+        <p>
+          SPECIFICATION is an adaptation of an established formalism (Eric Evans DDD, p. 274)
+        </p>
+      </blockquote>
+      <p>
+        for example we can say that the box is red, i.e. satisfies some RedSpecification. We can declare some GreenSpecification, and even a composite RedOrGreenSpecification. If we have some advanced framework that supports logical operations for specifications it can be something like
+      </p>
+      <pre class="lang-java prettyprint prettyprinted"><code>BoxSpecification redBoxSpec = BoxSpecification.forColor(BoxColor.RED);BoxSpecification greenBoxSpec = BoxSpecification.forColor(BoxColor.GREEN);BoxSpecification redOrGreenBoxSpec = redBoxSpec.or(greenBoxSpec);</code></pre>
+      <p>
+        then we can use the specification for example to query all red/green boxes from some repository:
+      </p>
+      <pre class="lang-java prettyprint prettyprinted"><code>Collection&lt;Box&gt; boxes = boxRepository.findAll(redOrGreenBoxSpec);</code></pre>
+      <p>
+        As for POLICY - it's a variant of STRATEGY pattern, but its main purpose is encapsulating the business rules is some declarative form.
+      </p>
+      <p>
+        Technically - it's not always a direct implementation of STRATEGY - in first stages it can be just a separate class(as it's shown in the first chapter of the blue book), but it can be easily extended later
+      </p>
+      <blockquote>
+        <p>
+          <em>Policy</em>&#160;is another name for the design pattern known as STRATEGY It is usually motivated by the need to substitute different rules, which is not needed here, as far we know. But the concept we are trying to capture does fit the <em>meaning</em>&#160;of a policy, which is an equally important motivation in domain-driven-design
+        </p>
+      </blockquote>
+      <p>
+        For example we pack presents in yellow boxes in January, and in red boxes in February
+      </p>
+      <pre class="lang-java prettyprint prettyprinted"><code>public class Box{  public BoxColor getColor(){}  public void recolor(BoxColor color){} }
+public class BoxFactory{    public Box createDefaultBox(SomeDate date){         NewBoxPolicy boxPolicy = PolicyRegistry.getNewBoxPolicyForDate(date);         Box box = new Box();         boxPolicy.prepareBox(box);         return box;   }}public interface NewBoxPolicy{   void prepareBox(Box box);}public class FebruaryNewBoxPolicy implements NewBoxPolicy{    public void prepareBox(Box box) { box.recolor(BoxColor.RED}; }}public class JanuaryNewBoxPolicy implements NewBoxPolicy{    public void prepareBox(Box box) { box.recolor(BoxColor.YELLOW}; }}public class PolicyRegistry{   public static NewBoxPolicy getNewBoxPolicyForDate(SomeDate date){      switch (date.month()){         case SomeMonth.JANUARY: return JANUARY_NEW_BOX_POLICY;         case SomeMonth.FEBRUARY: return FEBRUARY_NEW_BOX_POLICY;         default: throw new AssertionError();      }}</code></pre>
+      <p>
+        It's important to understand that POLICY can encapsulate actions, while SPECIFICATION only describes the properties of an object(these properties can both satisfy or DO NOT satisfy the business requirements). Some validation POLICY can use SPECIFICATIONs to check that the requirements are satisfied, of course.
+      </p>
+      <p>
+        So you can have many different SPECIFICATION instances in your project, and they can describe both the valid and invalid objects from the business point of view. Actually, specifications can make no sense at all: for example if you have a product searching site, user can specify a request to search for a product named &quot;XBOX&quot;, but with the vendor name &quot;Sony&quot;, if the knowledge that only the specific vendors can produce the specific products is not captured in your model.
+      </p>
+      <p>
+        The important aspect of POLICY is that its intent is to encapsulate the <em>actual</em>&#160;business rules(so the code is not scattered the different parts of the project), so when the rules change you can easily find the corresponding class. So you can have many SPECIFICATIONs in your project, but a manageable number of POLICIES, and those POLICIES should be easy to find and to change.
+      </p>
+      <p>
+        P.S. please note that this post is just an example and not a license to do over-engineering, of course you should use the simplest design possible, it's a matter of common sense.
+      </p>
+    </div>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 </node>
 <node CREATED="1587361728598" ID="ID_1700140763" MODIFIED="1587371904656" POSITION="left" TEXT="Style architektury (korporacyjnej i systemowej)">
@@ -1203,8 +2704,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1587407915634" ID="ID_710538232" MODIFIED="1587408010466" TEXT="Architektura sztywna">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1215,8 +2715,7 @@
       Posiada dodatkowe ograniczenie zak&#322;adaj&#261;ce &#380;e dana warstwa komunikuje si&#281; tylko z wartstw&#261; poni&#380;ej.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1587408022131" ID="ID_1875719591" MODIFIED="1587408130485" TEXT="Architektura rozlu&#x17a;niona">
 <richcontent TYPE="NOTE"><html>
@@ -1228,8 +2727,7 @@
       Dopuszczamy &#380;e w niekt&#243;rych sytuacjach warstwa poni&#380;ej jest prze&#378;roczysta i mo&#380;na si&#281;gn&#261;&#263; bezpo&#347;rednio do warstwy poni&#380;ej.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1587408267335" ID="ID_1199995481" MODIFIED="1587408370497" TEXT="Modu&#x142;y utility,commons">
 <richcontent TYPE="NOTE"><html>
@@ -1247,8 +2745,7 @@
       W takim module musi by&#263; kod generyczny narz&#281;dziowy.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1587408439290" ID="ID_1543157762" MODIFIED="1587408530172" TEXT="wady i zalety">
 <richcontent TYPE="NOTE"><html>
@@ -1279,8 +2776,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1587373513612" ID="ID_1028002552" MODIFIED="1587410550935" TEXT="Architektura heksagonalna">
@@ -1350,8 +2846,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1587410122708" ID="ID_1543384846" MODIFIED="1587410124212" TEXT="Alistair Cockburn"/>
 <node CREATED="1587410177635" ID="ID_778223318" MODIFIED="1587410217089" TEXT="warstwa aplikacjyjna">
 <richcontent TYPE="NOTE"><html>
@@ -1363,8 +2858,7 @@
       M&#243;wi o tym co nale&#380;y zrobi&#263; ale spos&#243;b wykonania deleguje do warstwy domenowej.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1587410184469" ID="ID_1567274927" MODIFIED="1587410242919" TEXT="warstwa domenowa">
 <richcontent TYPE="NOTE"><html>
@@ -1376,8 +2870,7 @@
       Warstwa domenowa nie ma &#347;wiadomo&#347;ci istnienia port&#243;w i adapter&#243;w.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1587410276439" ID="ID_189904868" MODIFIED="1587410537622" TEXT="Wady i zalety">
 <richcontent TYPE="NOTE"><html>
@@ -1426,8 +2919,7 @@
       Jest to architektura odpowiednia dla modu&#322;&#243;w o du&#380;ej z&#322;o&#380;ono&#347;ci biznesowej.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1587373540317" ID="ID_1848283599" MODIFIED="1587411341421" TEXT="Architektura Pipes and Filters">
@@ -1471,8 +2963,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1587411407683" ID="ID_583076484" MODIFIED="1587411504529" TEXT="Wady i zalety">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1508,8 +2999,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node CREATED="1587373574468" ID="ID_1151322344" MODIFIED="1587411705521" TEXT="Architektura typu mikroj&#x105;dro">
@@ -1534,8 +3024,7 @@
       W mikroj&#261;drze znajduje si&#281; rejestr plugin&#243;w oraz kontrakt standardowy.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1587411705515" ID="ID_1372348839" MODIFIED="1587411792619" TEXT="Wady i zalety">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1562,8 +3051,7 @@
       </li>
     </ul>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
