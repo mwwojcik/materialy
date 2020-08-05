@@ -1620,247 +1620,20 @@
   </body>
 </html></richcontent>
 </node>
-<node CREATED="1589179098494" ID="ID_506244579" MODIFIED="1589179121451" TEXT="Agregaty i ddd taktyczne - kana&#x142;">
-<richcontent TYPE="NOTE">&lt;html&gt;
-  &lt;head&gt;
+<node CREATED="1589179098494" ID="ID_506244579" LINK="https://bettersoftwaredesign.pl/episodes" MODIFIED="1596607695706" TEXT="Agregaty i ddd taktyczne - kana&#x142;">
+<richcontent TYPE="NOTE"><html>
+  <head>
     
-    
-  &lt;/head&gt;
-  &lt;body&gt;
-    &lt;p&gt;
-      &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; data-message-sender=&quot;UNY57KCQY&quot; data-qa=&quot;message_sender_name&quot; aria-haspopup=&quot;true&quot; class=&quot;c-link c-message__sender_link &quot; href=&quot;https://app.slack.com/team/UNY57KCQY&quot;&gt;[Bottega] Mariusz Gil(opens in new tab)&lt;/a&gt;&amp;#160;&lt;a data-stringify-type=&quot;replace&quot; data-stringify-text=&quot;[8:41 PM]&quot; data-stringify-requires-siblings=&quot;true&quot; delay=&quot;300&quot; data-sk=&quot;tooltip_parent&quot; aria-describedby=&quot;sk-tooltip-df37302a-06b4-44f1-8ac4-bbf35557568b&quot; class=&quot;c-link c-timestamp&quot; href=&quot;https://dna-pl.slack.com/archives/CN0C7LP7U/p1588876898169700&quot;&gt;May 7th at 8:41 PM&lt;/a&gt;&lt;br&gt;
-      &lt;div class=&quot;c-message_kit__blocks c-message_kit__blocks--rich_text&quot;&gt;
-        &lt;div class=&quot;c-message__message_blocks c-message__message_blocks--rich_text&quot;&gt;
-          &lt;div class=&quot;p-block_kit_renderer&quot; data-qa=&quot;block-kit-renderer&quot;&gt;
-            &lt;div class=&quot;p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first&quot;&gt;
-              &lt;div class=&quot;p-rich_text_block&quot; dir=&quot;auto&quot;&gt;
-                &lt;div class=&quot;p-rich_text_section&quot;&gt;
-                  Je&amp;#347;li kto&amp;#347; mia&amp;#322;by ochot&amp;#281; zag&amp;#322;&amp;#281;bi&amp;#263; si&amp;#281; w temat agregat&amp;#243;w i 
-                  taktycznego DDD, to zach&amp;#281;cam do pos&amp;#322;uchania odcink&amp;#243;w 
-                  BetterSoftwareDesign, gdzie razem &lt;a class=&quot;c-link c-member_slug c-member_slug--light c-member_slug--link &quot; data-member-id=&quot;UM0GTMVPC&quot; data-member-label=&quot;@[Team] Jakub Pilimon&quot; data-stringify-type=&quot;mention&quot; data-stringify-id=&quot;UM0GTMVPC&quot; data-stringify-label=&quot;@[Team] Jakub Pilimon&quot; tabindex=&quot;0&quot; aria-hidden=&quot;false&quot; aria-haspopup=&quot;true&quot; href=&quot;https://dna-pl.slack.com/team/UM0GTMVPC&quot; rel=&quot;noopener noreferrer&quot;&gt;@[Team] Jakub Pilimon&lt;/a&gt;&amp;#160;
-                  rozmawiamy w&amp;#322;a&amp;#347;nie na te tematy. Trudno je wyczerpa&amp;#263; w 
-                  jednej czy dw&amp;#243;ch rozmowach, dlatego mo&amp;#380;na spodziewa&amp;#263; si&amp;#281; 
-                  wi&amp;#281;cej takich odcink&amp;#243;w &lt;img src=&quot;https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f609.png&quot; aria-label=&quot;wink emoji&quot; alt=&quot;:wink:&quot; data-stringify-type=&quot;emoji&quot; data-stringify-emoji=&quot;:wink:&quot;&gt;Odsy&amp;#322;am do pierwszego 
-                  odcinka BSD, ale w innych te&amp;#380; co&amp;#347; ciekawego powinno si&amp;#281; 
-                  znale&amp;#378;&amp;#263;. Np. rozmowa z Alberto Brandolinim o Remote 
-                  EventStorming i jego do&amp;#347;wiadczeniach w tym temacie :)&lt;a target=&quot;_blank&quot; class=&quot;c-link&quot; delay=&quot;150&quot; data-sk=&quot;tooltip_parent&quot; aria-describedby=&quot;sk-tooltip-c6dc4d6e-8b88-4b62-8c65-c8ef4444d57d&quot; href=&quot;https://slack-redir.net/link?url=https%3A%2F%2Fwww.bettersoftwaredesign.pl%2Fepisodes%2F1&amp;v=3&quot; rel=&quot;noopener noreferrer&quot;&gt;https://www.bettersoftwaredesign.pl/episodes/1&lt;/a&gt;
-                &lt;/div&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;c-message_kit__attachments&quot;&gt;
-        &lt;div class=&quot;c-message_attachment&quot;&gt;
-          &lt;div class=&quot;c-message_attachment__border&quot;&gt;
-            
-          &lt;/div&gt;
-          &lt;div class=&quot;c-message_attachment__body&quot;&gt;
-            &lt;div class=&quot;c-message_attachment__row&quot;&gt;
-              &lt;img class=&quot;c-message_attachment__author_icon&quot; alt=&quot;Better Software Design&quot; src=&quot;https://slack-imgs.com/?c=1&amp;o1=wi32.he32.si&amp;url=https%3A%2F%2Fcdn.simplecast.com%2Fassets%2Fsimplecast-logo-16.png&quot; data-qa=&quot;message_attachment_author_icon&quot; data-stringify-ignore=&quot;true&quot; width=&quot;16&quot; height=&quot;16&quot;&gt;
-              Better Software Design
-            &lt;/div&gt;
-            &lt;div class=&quot;c-message_attachment__row&quot;&gt;
-              &lt;a target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot; data-qa=&quot;message_attachment_title_link&quot; class=&quot;c-link c-message_attachment__title_link&quot; href=&quot;https://www.bettersoftwaredesign.pl/episodes/1&quot;&gt;1. O modelowaniu agregat&amp;#243;w z Kub&amp;#261; Pilimonem | Better Software 
-              Design(opens in new tab)&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;c-message_attachment__row&quot;&gt;
-              Wsp&amp;#243;lnie z Kub&amp;#261; siadamy przy pierwszym Domain Driven Design 
-              Roundtable i rozk&amp;#322;adamy koncept agregatu na czynniki pierwsze. W 
-              premierowym odcinku podcastu skupiamy si&amp;#281; na zasadach i 
-              heurystykach modelowania agregat&amp;#243;w.
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;c-message_kit__reaction_bar c-reaction_bar c-reaction_bar--light&quot; role=&quot;group&quot; aria-label=&quot;Reactions&quot; data-stringify-ignore=&quot;true&quot;&gt;
-        
-      &lt;/div&gt;
-      &lt;div class=&quot;c-virtual_list__item&quot; tabindex=&quot;-1&quot; role=&quot;listitem&quot; id=&quot;CN0C7LP7U-1588876898.169700-thread-list_separator&quot; data-qa=&quot;virtual-list-item&quot;&gt;
-        &lt;div class=&quot;p-thread_separator&quot;&gt;
-          &lt;div class=&quot;p-threads_flexpane__separator&quot;&gt;
-            4 replies&lt;hr class=&quot;p-threads_flexpane__separator_line&quot;&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;c-virtual_list__item&quot; tabindex=&quot;-1&quot; role=&quot;listitem&quot; id=&quot;CN0C7LP7U-1588876898.169700-thread-list_1588877025.170100&quot; data-qa=&quot;virtual-list-item&quot; aria-label=&quot;Kamil &#x141;uszczki at 8:43 PM. Dzi&#x119;ki, da&#x142;em follow na spotify  wink emoji  B&#x119;dzie o czym s&#x142;ucha&#x107;. https://open.spotify.com/show/0QCDOJNUWnJkaq73FasfkY?si=QVFtAHcER6CvSPMvYWDvuA 2 reactions. 1 attachment. Better Software Design https://open.spotify.com/show/0QCDOJNUWnJkaq73FasfkY?si=QVFtAHcER6CvSPMvYWDvuA .&quot;&gt;
-        &lt;div role=&quot;document&quot; class=&quot;c-message_kit__background c-message_kit__message c-message_kit__thread_message&quot; data-qa=&quot;message_container&quot; data-qa-unprocessed=&quot;false&quot; data-qa-placeholder=&quot;false&quot;&gt;
-          &lt;div role=&quot;document&quot; class=&quot;c-message_kit__hover&quot; data-qa-hover=&quot;true&quot;&gt;
-            &lt;div class=&quot;c-message_kit__actions c-message_kit__actions--default&quot;&gt;
-              &lt;div class=&quot;c-message_kit__labels__offscreen_message&quot; aria-live=&quot;assertive&quot;&gt;
-                
-              &lt;/div&gt;
-              &lt;div class=&quot;c-message_kit__gutter&quot;&gt;
-                &lt;div class=&quot;c-message_kit__gutter__left&quot;&gt;
-                  
-                &lt;/div&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; data-message-sender=&quot;UNF5QJ3MW&quot; data-qa=&quot;message_sender_name&quot; aria-haspopup=&quot;true&quot; class=&quot;c-link c-message__sender_link &quot; href=&quot;https://app.slack.com/team/UNF5QJ3MW&quot;&gt;Kamil &amp;#321;uszczki(opens in new tab)&lt;/a&gt;&lt;img src=&quot;https://slack-imgs.com/?c=1&amp;o1=gu&amp;url=https%3A%2F%2Femoji.slack-edge.com%2FTM5HESPC1%2Fpython%2Fd46d53048ebbe8bd.png&quot; aria-label=&quot;python emoji&quot; alt=&quot;:python:&quot; data-stringify-type=&quot;emoji&quot; data-stringify-emoji=&quot;:python:&quot;&gt;&amp;#160;&amp;#160;&lt;a data-stringify-type=&quot;replace&quot; data-stringify-text=&quot;[8:43 PM]&quot; data-stringify-requires-siblings=&quot;true&quot; delay=&quot;300&quot; data-sk=&quot;tooltip_parent&quot; aria-describedby=&quot;sk-tooltip-ddb3fbf5-6d0c-4b01-98ab-f739761cfae2&quot; class=&quot;c-link c-timestamp&quot; href=&quot;https://dna-pl.slack.com/archives/CN0C7LP7U/p1588877025170100?thread_ts=1588876898.169700&amp;cid=CN0C7LP7U&quot;&gt;3 days ago&lt;/a&gt;&lt;br&gt;
-      &lt;div class=&quot;c-message_kit__blocks c-message_kit__blocks--rich_text&quot;&gt;
-        &lt;div class=&quot;c-message__message_blocks c-message__message_blocks--rich_text&quot;&gt;
-          &lt;div class=&quot;p-block_kit_renderer&quot; data-qa=&quot;block-kit-renderer&quot;&gt;
-            &lt;div class=&quot;p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first&quot;&gt;
-              &lt;div class=&quot;p-rich_text_block&quot; dir=&quot;auto&quot;&gt;
-                &lt;div class=&quot;p-rich_text_section&quot;&gt;
-                  Dzi&amp;#281;ki, da&amp;#322;em follow na spotify &lt;img src=&quot;https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f609.png&quot; aria-label=&quot;wink emoji&quot; alt=&quot;:wink:&quot; data-stringify-type=&quot;emoji&quot; data-stringify-emoji=&quot;:wink:&quot;&gt;B&amp;#281;dzie o czym 
-                  s&amp;#322;ucha&amp;#263;. &lt;a target=&quot;_blank&quot; class=&quot;c-link&quot; delay=&quot;150&quot; data-sk=&quot;tooltip_parent&quot; aria-describedby=&quot;sk-tooltip-c238a743-752b-4fe7-8985-ff29f17911a9&quot; href=&quot;https://slack-redir.net/link?url=https%3A%2F%2Fopen.spotify.com%2Fshow%2F0QCDOJNUWnJkaq73FasfkY%3Fsi%3DQVFtAHcER6CvSPMvYWDvuA&amp;v=3&quot; rel=&quot;noopener noreferrer&quot;&gt;https://open.spotify.com/show/0QCDOJNUWnJkaq73FasfkY?si=QVFtAHcER6CvSPMvYWDvuA&lt;/a&gt;
-                &lt;/div&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;c-message_kit__attachments&quot;&gt;
-        &lt;div class=&quot;c-message_attachment&quot;&gt;
-          &lt;div class=&quot;c-message_attachment__border&quot;&gt;
-            
-          &lt;/div&gt;
-          &lt;div class=&quot;c-message_attachment__body&quot;&gt;
-            &lt;div class=&quot;c-message_attachment__row&quot;&gt;
-              &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; class=&quot;c-link c-message_attachment__author_link&quot; href=&quot;https://www.spotify.com&quot;&gt;&lt;img class=&quot;c-message_attachment__author_icon&quot; alt=&quot;Spotify&quot; src=&quot;https://slack-imgs.com/?c=1&amp;o1=wi32.he32.si&amp;url=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Funfurl_icons%2Fspotify.png&quot; data-qa=&quot;message_attachment_author_icon&quot; data-stringify-ignore=&quot;true&quot; width=&quot;16&quot; height=&quot;16&quot;&gt;
-              (opens in new tab)Spotify(opens in new tab)&lt;/a&gt;
-            &lt;/div&gt;
-            &lt;div class=&quot;c-message_attachment__row&quot;&gt;
-              &lt;a target=&quot;_blank&quot; rel=&quot;noreferrer noopener&quot; data-qa=&quot;message_attachment_title_link&quot; class=&quot;c-link c-message_attachment__title_link&quot; href=&quot;https://open.spotify.com/show/0QCDOJNUWnJkaq73FasfkY?si=QVFtAHcER6CvSPMvYWDvuA&quot;&gt;Better Software Design(opens in new tab)&lt;/a&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;c-message_kit__attachments&quot;&gt;
-        &lt;div class=&quot;c-message_attachment&quot;&gt;
-          &lt;div class=&quot;c-message_attachment__body&quot;&gt;
-            &lt;div class=&quot;c-message_attachment__row&quot;&gt;
-              &lt;div class=&quot;c-message_attachment__audio&quot; aria-label=&quot;toggle content&quot; data-expanded=&quot;true&quot; data-qa-expandable-container-is-expanded=&quot;true&quot; data-qa-expandable-container-key=&quot;aud_msg_1588877025.1701001threads-flexpane&quot;&gt;
-                &lt;div style=&quot;height: 232px&quot;&gt;
-                  &lt;iframe allowtransparency=&quot;true&quot; allow=&quot;encrypted-media&quot; title=&quot;Spotify Embed: Better Software Design&quot; src=&quot;https://open.spotify.com/embed-podcast/show/0QCDOJNUWnJkaq73FasfkY?si=QVFtAHcER6CvSPMvYWDvuA&quot; width=&quot;100%&quot; height=&quot;232&quot; frameborder=&quot;0&quot;&gt;
-                  &lt;/iframe&gt;
-                  
-                &lt;/div&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;c-message_kit__reaction_bar c-reaction_bar c-reaction_bar--light&quot; role=&quot;group&quot; aria-label=&quot;Reactions&quot; data-stringify-ignore=&quot;true&quot;&gt;
-        
-      &lt;/div&gt;
-      &lt;div role=&quot;document&quot; class=&quot;c-message_kit__background c-message_kit__message c-message_kit__thread_message&quot; data-qa=&quot;message_container&quot; data-qa-unprocessed=&quot;false&quot; data-qa-placeholder=&quot;false&quot;&gt;
-        &lt;div role=&quot;document&quot; class=&quot;c-message_kit__hover&quot; data-qa-hover=&quot;true&quot;&gt;
-          &lt;div class=&quot;c-message_kit__actions c-message_kit__actions--default&quot;&gt;
-            &lt;div class=&quot;c-message_kit__labels__offscreen_message&quot; aria-live=&quot;assertive&quot;&gt;
-              
-            &lt;/div&gt;
-            &lt;div class=&quot;c-message_kit__gutter&quot;&gt;
-              &lt;div class=&quot;c-message_kit__gutter__left&quot;&gt;
-                
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;c-message_kit__gutter&quot;&gt;
-        &lt;div class=&quot;c-message_kit__gutter__right&quot; data-qa=&quot;message_content&quot;&gt;
-          &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; data-message-sender=&quot;UNY57KCQY&quot; data-qa=&quot;message_sender_name&quot; aria-haspopup=&quot;true&quot; class=&quot;c-link c-message__sender_link &quot; href=&quot;https://app.slack.com/team/UNY57KCQY&quot;&gt;[Bottega] Mariusz Gil(opens in new tab)&lt;/a&gt;&amp;#160;&amp;#160;&lt;a data-stringify-type=&quot;replace&quot; data-stringify-text=&quot;[9:20 PM]&quot; data-stringify-requires-siblings=&quot;true&quot; delay=&quot;300&quot; data-sk=&quot;tooltip_parent&quot; aria-describedby=&quot;sk-tooltip-3cf6bf39-4a6b-4b6f-bf46-86fa7f839bfb&quot; class=&quot;c-link c-timestamp&quot; href=&quot;https://dna-pl.slack.com/archives/CN0C7LP7U/p1588879247170800?thread_ts=1588876898.169700&amp;cid=CN0C7LP7U&quot;&gt;3 days ago&lt;/a&gt;&lt;br&gt;
-          &lt;div class=&quot;c-message_kit__blocks c-message_kit__blocks--rich_text&quot;&gt;
-            &lt;div class=&quot;c-message__message_blocks c-message__message_blocks--rich_text&quot;&gt;
-              &lt;div class=&quot;p-block_kit_renderer&quot; data-qa=&quot;block-kit-renderer&quot;&gt;
-                &lt;div class=&quot;p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first&quot;&gt;
-                  &lt;div class=&quot;p-rich_text_block&quot; dir=&quot;auto&quot;&gt;
-                    &lt;div class=&quot;p-rich_text_section&quot;&gt;
-                      &lt;a class=&quot;c-link c-member_slug c-member_slug--light c-member_slug--link &quot; data-member-id=&quot;UNF5QJ3MW&quot; data-member-label=&quot;@Kamil &#x141;uszczki&quot; data-stringify-type=&quot;mention&quot; data-stringify-id=&quot;UNF5QJ3MW&quot; data-stringify-label=&quot;@Kamil &#x141;uszczki&quot; tabindex=&quot;0&quot; aria-hidden=&quot;false&quot; aria-haspopup=&quot;true&quot; href=&quot;https://dna-pl.slack.com/team/UNF5QJ3MW&quot; rel=&quot;noopener noreferrer&quot;&gt;@Kamil &amp;#321;uszczki&lt;/a&gt;&amp;#160;Podzi&amp;#281;kowa&amp;#322; &lt;img src=&quot;https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f642.png&quot; aria-label=&quot;slightly smiling face emoji&quot; alt=&quot;:slightly_smiling_face:&quot; data-stringify-type=&quot;emoji&quot; data-stringify-emoji=&quot;:slightly_smiling_face:&quot;&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/div&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;c-message_actions__container c-message__actions c-message__actions--offscreen&quot; role=&quot;group&quot; aria-label=&quot;Message shortcuts&quot; data-qa=&quot;message-actions&quot;&gt;
-        
-      &lt;/div&gt;
-      &lt;div role=&quot;document&quot; class=&quot;c-message_kit__background c-message_kit__background--hovered c-message_kit__message c-message_kit__thread_message&quot; data-qa=&quot;message_container&quot; data-qa-unprocessed=&quot;false&quot; data-qa-placeholder=&quot;false&quot;&gt;
-        &lt;div role=&quot;document&quot; class=&quot;c-message_kit__hover c-message_kit__hover--hovered&quot; data-qa-hover=&quot;true&quot;&gt;
-          &lt;div class=&quot;c-message_kit__actions c-message_kit__actions--default&quot;&gt;
-            &lt;div class=&quot;c-message_kit__labels__offscreen_message&quot; aria-live=&quot;assertive&quot;&gt;
-              
-            &lt;/div&gt;
-            &lt;div class=&quot;c-message_kit__gutter&quot;&gt;
-              &lt;div class=&quot;c-message_kit__gutter__left&quot;&gt;
-                
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;c-message_kit__gutter&quot;&gt;
-        &lt;div class=&quot;c-message_kit__gutter__right&quot; data-qa=&quot;message_content&quot;&gt;
-          &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; data-message-sender=&quot;UN7BNL9LJ&quot; data-qa=&quot;message_sender_name&quot; aria-haspopup=&quot;true&quot; class=&quot;c-link c-message__sender_link &quot; href=&quot;https://app.slack.com/team/UN7BNL9LJ&quot;&gt;Grzegorz Domaga&amp;#322;a(opens in new tab)&lt;/a&gt;&amp;#160;&amp;#160;&lt;a data-stringify-type=&quot;replace&quot; data-stringify-text=&quot;[11:21 PM]&quot; data-stringify-requires-siblings=&quot;true&quot; delay=&quot;300&quot; data-sk=&quot;tooltip_parent&quot; aria-describedby=&quot;sk-tooltip-75b74a22-e205-44f1-abad-a05761fd5206&quot; class=&quot;c-link c-timestamp&quot; href=&quot;https://dna-pl.slack.com/archives/CN0C7LP7U/p1588886516171700?thread_ts=1588876898.169700&amp;cid=CN0C7LP7U&quot;&gt;3 days ago&lt;/a&gt;&lt;br&gt;
-          &lt;div class=&quot;c-message_kit__blocks c-message_kit__blocks--rich_text&quot;&gt;
-            &lt;div class=&quot;c-message__message_blocks c-message__message_blocks--rich_text&quot;&gt;
-              &lt;div class=&quot;p-block_kit_renderer&quot; data-qa=&quot;block-kit-renderer&quot;&gt;
-                &lt;div class=&quot;p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first&quot;&gt;
-                  &lt;div class=&quot;p-rich_text_block&quot; dir=&quot;auto&quot;&gt;
-                    &lt;div class=&quot;p-rich_text_section&quot;&gt;
-                      @[Bottega]&lt;a class=&quot;c-link c-member_slug c-member_slug--light c-member_slug--link &quot; data-member-id=&quot;UNY57KCQY&quot; data-member-label=&quot;@[Bottega] Mariusz Gil&quot; data-stringify-type=&quot;mention&quot; data-stringify-id=&quot;UNY57KCQY&quot; data-stringify-label=&quot;@[Bottega] Mariusz Gil&quot; tabindex=&quot;0&quot; aria-hidden=&quot;false&quot; aria-haspopup=&quot;true&quot; href=&quot;https://dna-pl.slack.com/team/UNY57KCQY&quot; rel=&quot;noopener noreferrer&quot;&gt;@[Bottega] Mariusz Gil&lt;/a&gt;&amp;#160;polecam doda&amp;#263; Tw&amp;#243;j 
-                      podcast na &lt;a target=&quot;_blank&quot; class=&quot;c-link&quot; delay=&quot;150&quot; data-sk=&quot;tooltip_parent&quot; aria-describedby=&quot;sk-tooltip-7f225b82-4a60-4ba4-aa70-9542266a4f72&quot; href=&quot;https://slack-redir.net/link?url=http%3A%2F%2Fjvm-bloggers.com&amp;v=3&quot; rel=&quot;noopener noreferrer&quot;&gt;jvm-bloggers.com&lt;/a&gt;&amp;#160;bo jest bardzo spoko, 
-                      zawsze troch&amp;#281; si&amp;#281; wypromuje
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/div&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;c-message_actions__container c-message__actions&quot; role=&quot;group&quot; aria-label=&quot;Message shortcuts&quot; data-qa=&quot;message-actions&quot;&gt;
-        
-      &lt;/div&gt;
-      &lt;div role=&quot;document&quot; class=&quot;c-message_kit__background c-message_kit__message c-message_kit__thread_message&quot; data-qa=&quot;message_container&quot; data-qa-unprocessed=&quot;false&quot; data-qa-placeholder=&quot;false&quot;&gt;
-        &lt;div role=&quot;document&quot; class=&quot;c-message_kit__hover&quot; data-qa-hover=&quot;true&quot;&gt;
-          &lt;div class=&quot;c-message_kit__actions c-message_kit__actions--default&quot;&gt;
-            &lt;div class=&quot;c-message_kit__labels__offscreen_message&quot; aria-live=&quot;assertive&quot;&gt;
-              
-            &lt;/div&gt;
-            &lt;div class=&quot;c-message_kit__gutter&quot;&gt;
-              &lt;div class=&quot;c-message_kit__gutter__left&quot;&gt;
-                
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;c-message_kit__gutter__right&quot; data-qa=&quot;message_content&quot;&gt;
-        &lt;a target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot; data-message-sender=&quot;UNFFBLRL5&quot; data-qa=&quot;message_sender_name&quot; aria-haspopup=&quot;true&quot; class=&quot;c-link c-message__sender_link &quot; href=&quot;https://app.slack.com/team/UNFFBLRL5&quot;&gt;Mateusz.M(opens in new tab)&lt;/a&gt;&amp;#160;&amp;#160;&lt;a data-stringify-type=&quot;replace&quot; data-stringify-text=&quot;[7:24 AM]&quot; data-stringify-requires-siblings=&quot;true&quot; delay=&quot;300&quot; data-sk=&quot;tooltip_parent&quot; aria-describedby=&quot;sk-tooltip-f5d5abbc-4e99-4c69-af50-5ca23d4e28c7&quot; class=&quot;c-link c-timestamp&quot; href=&quot;https://dna-pl.slack.com/archives/CN0C7LP7U/p1588915449171900?thread_ts=1588876898.169700&amp;cid=CN0C7LP7U&quot;&gt;3 days ago&lt;/a&gt;&lt;br&gt;
-        &lt;div class=&quot;c-message_kit__blocks c-message_kit__blocks--rich_text&quot;&gt;
-          &lt;div class=&quot;c-message__message_blocks c-message__message_blocks--rich_text&quot;&gt;
-            &lt;div class=&quot;p-block_kit_renderer&quot; data-qa=&quot;block-kit-renderer&quot;&gt;
-              &lt;div class=&quot;p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first&quot;&gt;
-                &lt;div class=&quot;p-rich_text_block&quot; dir=&quot;auto&quot;&gt;
-                  &lt;div class=&quot;p-rich_text_section&quot;&gt;
-                    &lt;a class=&quot;c-link c-member_slug c-member_slug--light c-member_slug--link &quot; data-member-id=&quot;UNY57KCQY&quot; data-member-label=&quot;@[Bottega] Mariusz Gil&quot; data-stringify-type=&quot;mention&quot; data-stringify-id=&quot;UNY57KCQY&quot; data-stringify-label=&quot;@[Bottega] Mariusz Gil&quot; tabindex=&quot;0&quot; aria-hidden=&quot;false&quot; aria-haspopup=&quot;true&quot; href=&quot;https://dna-pl.slack.com/team/UNY57KCQY&quot; rel=&quot;noopener noreferrer&quot;&gt;@[Bottega] Mariusz Gil&lt;/a&gt;&amp;#160;Ja z kolei polecam, &amp;#380;eby&amp;#347; 
-                    dorzuci&amp;#322; na g&amp;#322;&amp;#243;wnej stronie kr&amp;#243;tkie info o autorze, bo jak 
-                    kto&amp;#347; nie kojarzy Ci&amp;#281; ze zdj&amp;#281;cia, to nie b&amp;#281;dzie mia&amp;#322; 
-                    poj&amp;#281;cia, na czyjej stronie wyl&amp;#261;dowa&amp;#322;
-                  &lt;/div&gt;
-                &lt;/div&gt;
-              &lt;/div&gt;
-            &lt;/div&gt;
-          &lt;/div&gt;
-        &lt;/div&gt;
-      &lt;/div&gt;
-    &lt;/p&gt;
-    &lt;p&gt;
-      
-    &lt;/p&gt;
-  &lt;/body&gt;
-&lt;/html&gt;</richcontent>
+  </head>
+  <body>
+    <p>
+      https://bettersoftwaredesign.pl/episodes
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node CREATED="1589874694547" ID="ID_1615088652" MODIFIED="1589875525795" TEXT="Read Model a bazy dokumentowe">
+<node CREATED="1589874694547" ID="ID_1615088652" MODIFIED="1596606869615" TEXT="Read Model a bazy dokumentowe">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -2110,8 +1883,7 @@
       Je&#380;eli kto&#347; robi zadanie 01.01.C4 w C4-PlantUML to mo&#380;e sobie to u&#322;atwi&#263; stosuj&#261;c https://github.com/stawirej/c4-intellij-live-template.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
