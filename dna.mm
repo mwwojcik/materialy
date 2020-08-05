@@ -1885,6 +1885,3948 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1596607803574" ID="ID_176008722" MODIFIED="1596607818449" TEXT="Literatura - testy">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="U010M5PDH4Z" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010M5PDH4Z">Mariusz W&#243;jcik</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[9:33 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3237" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1596396806170400">2 days ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Cze&#347;&#263;, czy mogliby&#347;cie poleci&#263; jak&#261;&#347; dobr&#261; literatur&#281; dotycz&#261;c&#261; zagadnie&#324; testowania aplikacji, doboru w&#322;a&#347;ciwych rodzaj&#243;w test&#243;w itd... ?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div class="p-threads_view__default_background" data-droppable-thread="CNFDWA6G6-1596396806.170400">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message p-threads_view_reply" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="threads_view_CNFDWA6G6-1596396806.170400-1596403312.170500" data-qa="virtual-list-item">
+      <div class="p-threads_view__default_background" data-droppable-thread="CNFDWA6G6-1596396806.170400">
+        <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message p-threads_view_reply" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+          <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+            <div class="c-message_kit__actions c-message_kit__actions--default">
+              <div class="c-message_kit__gutter">
+                <div class="c-message_kit__gutter__right" data-qa="message_content">
+                  <a target="_blank" rel="noopener noreferrer" data-message-sender="UM0JE8V3L" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UM0JE8V3L">[Team] Jakub Kubry&#324;ski</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[11:21 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3293" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1596403312170500?thread_ts=1596396806.170400&amp;cid=CNFDWA6G6">2 days ago</a><br />
+
+                  <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                    <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                      <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                        <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                          <div class="p-rich_text_block" dir="auto">
+                            <div class="p-rich_text_section">
+                              Na pewno mog&#281; wymieni&#263; &#8220;Growing Object-Oriented Software, Guided by Tests&#8221;. A wi&#281;cej pewnie podrzuci <a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="UNTCNG0G0" data-member-label="@[Ekspert] Marcin Grzejszczak" data-stringify-type="mention" data-stringify-id="UNTCNG0G0" data-stringify-label="@[Ekspert] Marcin Grzejszczak" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/UNTCNG0G0" rel="noopener noreferrer">@[Ekspert] Marcin Grzejszczak</a>&#160;, bo przygotowywa&#322; bibliografi&#281; do swojego szkolenia. Tylko nie czytaj tych o Mockito <img src="https://emoji.slack-edge.com/TM5HESPC1/troll/25dc8e5e53df7808.jpg" aria-label="troll emoji" alt=":troll:" data-stringify-type="emoji" data-stringify-emoji=":troll:" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="threads_view_CNFDWA6G6-1596396806.170400-1596431683.172300" data-qa="virtual-list-item">
+      <div class="p-threads_view__default_background" data-droppable-thread="CNFDWA6G6-1596396806.170400">
+        <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message p-threads_view_reply" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+          <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+            <div class="c-message_kit__actions c-message_kit__actions--default">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="threads_view_CNFDWA6G6-1596396806.170400-1596431683.172300" data-qa="virtual-list-item">
+      <div class="p-threads_view__default_background" data-droppable-thread="CNFDWA6G6-1596396806.170400">
+        <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message p-threads_view_reply" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+          <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+            <div class="c-message_kit__actions c-message_kit__actions--default">
+              <div class="c-message_kit__gutter">
+                <div class="c-message_kit__gutter__right" data-qa="message_content">
+                  <a target="_blank" rel="noopener noreferrer" data-message-sender="UM0GTMVPC" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UM0GTMVPC">[Team] Jakub Pilimon</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[7:14 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3296" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1596431683172300?thread_ts=1596396806.170400&amp;cid=CNFDWA6G6">2 days ago</a><br />
+
+                  <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                    <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                      <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                        <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                          <div class="p-rich_text_block" dir="auto">
+                            <div class="p-rich_text_section">
+                              &#8220;Unit Testing Principles, Practices, and Patterns&#8221; oraz &#8220;TDD by example&#8221;. Plus to co wrzuci&#322; Kuba tworzy moje top 3
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="threads_view_CNFDWA6G6-1596396806.170400-1596433784.172500" data-qa="virtual-list-item">
+      <div class="p-threads_view__default_background" data-droppable-thread="CNFDWA6G6-1596396806.170400">
+        <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message p-threads_view_reply" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+          <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+            <div class="c-message_kit__actions c-message_kit__actions--default">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="threads_view_CNFDWA6G6-1596396806.170400-1596433784.172500" data-qa="virtual-list-item">
+      <div class="p-threads_view__default_background" data-droppable-thread="CNFDWA6G6-1596396806.170400">
+        <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message p-threads_view_reply" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+          <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+            <div class="c-message_kit__actions c-message_kit__actions--default">
+              <div class="c-message_kit__gutter">
+                <div class="c-message_kit__gutter__right" data-qa="message_content">
+                  <a target="_blank" rel="noopener noreferrer" data-message-sender="U010M5PDH4Z" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010M5PDH4Z">Mariusz W&#243;jcik</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[7:49 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3297" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1596433784172500?thread_ts=1596396806.170400&amp;cid=CNFDWA6G6">2 days ago</a><br />
+
+                  <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                    <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                      <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                        <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                          <div class="p-rich_text_block" dir="auto">
+                            <div class="p-rich_text_section">
+                              Dzi&#281;ki :)
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="threads_view_CNFDWA6G6-1596396806.170400-1596443941.174200" data-qa="virtual-list-item">
+      <div class="p-threads_view__default_background" data-droppable-thread="CNFDWA6G6-1596396806.170400">
+        <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message p-threads_view_reply" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+          <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+            <div class="c-message_kit__actions c-message_kit__actions--default">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="threads_view_CNFDWA6G6-1596396806.170400-1596443941.174200" data-qa="virtual-list-item">
+      <div class="p-threads_view__default_background" data-droppable-thread="CNFDWA6G6-1596396806.170400">
+        <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message p-threads_view_reply" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+          <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+            <div class="c-message_kit__actions c-message_kit__actions--default">
+              <div class="c-message_kit__gutter">
+                <div class="c-message_kit__gutter__right" data-qa="message_content">
+                  <a target="_blank" rel="noopener noreferrer" data-message-sender="UNTCNG0G0" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UNTCNG0G0">[Ekspert] Marcin Grzejszczak</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[10:39 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3298" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1596443941174200?thread_ts=1596396806.170400&amp;cid=CNFDWA6G6">1 day ago</a><br />
+
+                  <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                    <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                      <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                        <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                          <div class="p-rich_text_block" dir="auto">
+                            <div class="p-rich_text_section">
+                              <img src="https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f604.png" aria-label="smile emoji" alt=":smile:" data-stringify-type="emoji" data-stringify-emoji=":smile:" />
+                              Growing Object-Oriented software... jest przefantastyczny
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="threads_view_CNFDWA6G6-1596396806.170400-1596443955.174400" data-qa="virtual-list-item">
+      <div class="p-threads_view__default_background" data-droppable-thread="CNFDWA6G6-1596396806.170400">
+        <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message p-threads_view_reply" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+          <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+            <div class="c-message_kit__actions c-message_kit__actions--default">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="threads_view_CNFDWA6G6-1596396806.170400-1596443955.174400" data-qa="virtual-list-item">
+      <div class="p-threads_view__default_background" data-droppable-thread="CNFDWA6G6-1596396806.170400">
+        <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message p-threads_view_reply" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+          <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+            <div class="c-message_kit__actions c-message_kit__actions--default">
+              <div class="c-message_kit__gutter">
+                <div class="c-message_kit__gutter__right" data-qa="message_content">
+                  <a target="_blank" rel="noopener noreferrer" data-message-sender="UNTCNG0G0" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UNTCNG0G0">[Ekspert] Marcin Grzejszczak</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[10:39 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3300" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1596443955174400?thread_ts=1596396806.170400&amp;cid=CNFDWA6G6">1 day ago</a><br />
+
+                  <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                    <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                      <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                        <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                          <div class="p-rich_text_block" dir="auto">
+                            <div class="p-rich_text_section">
+                              no i oczywiscie Mockito Cookbook (nie sluchaj Kuby <img src="https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f609.png" aria-label="wink emoji" alt=":wink:" data-stringify-type="emoji" data-stringify-emoji=":wink:" />)
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="threads_view_CNFDWA6G6-1596396806.170400-1596463613.175500" data-qa="virtual-list-item">
+      <div class="p-threads_view__default_background" data-droppable-thread="CNFDWA6G6-1596396806.170400">
+        <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message p-threads_view_reply" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+          <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+            <div class="c-message_kit__actions c-message_kit__actions--default">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="threads_view_CNFDWA6G6-1596396806.170400-1596463613.175500" data-qa="virtual-list-item">
+      <div class="p-threads_view__default_background" data-droppable-thread="CNFDWA6G6-1596396806.170400">
+        <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message p-threads_view_reply" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+          <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+            <div class="c-message_kit__actions c-message_kit__actions--default">
+              <div class="c-message_kit__gutter">
+                <div class="c-message_kit__gutter__right" data-qa="message_content">
+                  <a target="_blank" rel="noopener noreferrer" data-message-sender="U010M5PDH4Z" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010M5PDH4Z">Mariusz W&#243;jcik</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[4:06 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3302" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1596463613175500?thread_ts=1596396806.170400&amp;cid=CNFDWA6G6">1 day ago</a><br />
+
+                  <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                    <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                      <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                        <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                          <div class="p-rich_text_block" dir="auto">
+                            <div class="p-rich_text_section">
+                              Skoro sprawa tak si&#281; ma to Growing zakupiony,&#160;&#160;a Mockito w kolejce (bo zdanie trzeba sobie wyrobi&#263;) , dzi&#281;kuj&#281; Wam :)
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="threads_view_CNFDWA6G6-1596396806.170400-1596463649.175700" data-qa="virtual-list-item">
+      <div class="p-threads_view__default_background" data-droppable-thread="CNFDWA6G6-1596396806.170400">
+        <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message p-threads_view_reply" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+          <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+            <div class="c-message_kit__actions c-message_kit__actions--default">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="threads_view_CNFDWA6G6-1596396806.170400-1596463649.175700" data-qa="virtual-list-item">
+      <div class="p-threads_view__default_background" data-droppable-thread="CNFDWA6G6-1596396806.170400">
+        <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message p-threads_view_reply" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+          <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+            <div class="c-message_kit__actions c-message_kit__actions--default">
+              <div class="c-message_kit__gutter">
+                <div class="c-message_kit__gutter__right" data-qa="message_content">
+                  <a target="_blank" rel="noopener noreferrer" data-message-sender="UNTCNG0G0" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UNTCNG0G0">[Ekspert] Marcin Grzejszczak</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[4:07 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3303" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1596463649175700?thread_ts=1596396806.170400&amp;cid=CNFDWA6G6">1 day ago</a><br />
+
+                  <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                    <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                      <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                        <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                          <div class="p-rich_text_block" dir="auto">
+                            <div class="p-rich_text_section">
+                              spoko, to oczywiscie na poczatek, bo ksiazek od przecyztania jest sporo
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" role="listitem" id="threads_view_CNFDWA6G6-1596396806.170400-1596463655.175900" data-qa="virtual-list-item" tabindex="-1">
+      <div class="p-threads_view__default_background" data-droppable-thread="CNFDWA6G6-1596396806.170400">
+        <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message p-threads_view_reply" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+          <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+            <div class="c-message_kit__actions c-message_kit__actions--default">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" role="listitem" id="threads_view_CNFDWA6G6-1596396806.170400-1596463655.175900" data-qa="virtual-list-item" tabindex="-1">
+      <div class="p-threads_view__default_background" data-droppable-thread="CNFDWA6G6-1596396806.170400">
+        <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message p-threads_view_reply" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+          <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+            <div class="c-message_kit__actions c-message_kit__actions--default">
+              <div class="c-message_kit__gutter">
+                <div class="c-message_kit__gutter__right" data-qa="message_content">
+                  <a target="_blank" rel="noopener noreferrer" data-message-sender="UNTCNG0G0" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UNTCNG0G0">[Ekspert] Marcin Grzejszczak</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[4:07 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3304" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1596463655175900?thread_ts=1596396806.170400&amp;cid=CNFDWA6G6">1 day ago</a><br />
+
+                  <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                    <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                      <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                        <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                          <div class="p-rich_text_block" dir="auto">
+                            <div class="p-rich_text_section">
+                              natomiast Growing zrylo mi banie
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" role="listitem" id="threads_view_CNFDWA6G6-1596396806.170400-1596463675.176100" data-qa="virtual-list-item" tabindex="-1">
+      <div class="p-threads_view__default_background" data-droppable-thread="CNFDWA6G6-1596396806.170400">
+        <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message p-threads_view_reply" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+          <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+            <div class="c-message_kit__actions c-message_kit__actions--default">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter__right" data-qa="message_content">
+      <a target="_blank" rel="noopener noreferrer" data-message-sender="UNTCNG0G0" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UNTCNG0G0">[Ekspert] Marcin Grzejszczak</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[4:07 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3238" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1596463675176100?thread_ts=1596396806.170400&amp;cid=CNFDWA6G6">1 day ago</a><br />
+
+      <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+        <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+          <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+            <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+              <div class="p-rich_text_block" dir="auto">
+                <div class="p-rich_text_section">
+                  zupelnie inaczej patrzylem na testy i na software po przeczytaniu tamtej ksaizki
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1596607968511" ID="ID_1742368259" MODIFIED="1596607984321" TEXT="R&#xf3;&#x17c;nica pomi&#x119;dzy modelem anemicznym a Read Model">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="UND6T9TUG" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UND6T9TUG">Szymon Kondratowicz</a>&#160;<a data-stringify-type="replace" data-stringify-text="[8:53 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3752" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1586587984071600">Apr 11th at 8:53 AM</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    <a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="UM0GTMVPC" data-member-label="@[Team] Jakub Pilimon" data-stringify-type="mention" data-stringify-id="UM0GTMVPC" data-stringify-label="@[Team] Jakub Pilimon" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/UM0GTMVPC" rel="noopener noreferrer">@[Team] Jakub Pilimon</a>&#160;or / and <a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="UMUULD002" data-member-label="@[Team] &#x141;ukasz Szyd&#x142;o" data-stringify-type="mention" data-stringify-id="UMUULD002" data-stringify-label="@[Team] &#x141;ukasz Szyd&#x142;o" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/UMUULD002" rel="noopener noreferrer">@[Team] &#321;ukasz Szyd&#322;o</a>&#160;or / and <a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="UNQF2NP6J" data-member-label="@[Bottega] Marcin Markowski" data-stringify-type="mention" data-stringify-id="UNQF2NP6J" data-stringify-label="@[Bottega] Marcin Markowski" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/UNQF2NP6J" rel="noopener noreferrer">@[Bottega] Marcin Markowski</a>&#160; jak jest r&#243;&#380;nica mi&#281;dzy <b data-stringify-type="bold">anemicznym modelem</b>&#160; i <b data-stringify-type="bold">read modelem</b>? Z tego co kojarz&#281;, obydwa nie maj&#261; zachowa&#324; i s&#322;u&#380;&#261; do persystencji danych na cele poxniejszego odczytu, np. &#380;eby podj&#261;&#263; jak&#261;&#347; decyzj&#281; <b data-stringify-type="bold">komend&#261;</b>. Czy&#160;&#160;anemiczny model to bardziej mapping orm-a, a read model to jakby ca&#322;a infrastruktura flow odczyt&#243;w w kodzie - tak jak w solucji kursik, event handler reagujacy na konieczno&#347;&#263; zapisu danych do odczytu i repo z modelami do odczytu?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1586587984.071600-thread-list_separator" data-qa="virtual-list-item">
+      <div class="p-thread_separator">
+        <div class="p-threads_flexpane__separator">
+          3 replies<hr class="p-threads_flexpane__separator_line" />
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1586587984.071600-thread-list_1586592357.071700" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__background--hovered c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover c-message_kit__hover--hovered" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="UNYTLU1TR" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UNYTLU1TR">Piotr Zaj&#261;c</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[10:05 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3756" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1586592357071700?thread_ts=1586587984.071600&amp;cid=CN0C7LP7U">4 months ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Model anemiczny to taki byt, kt&#243;ry mia&#322; by&#263; modelem domenowym, ale zabrak&#322;o w nim logiki biznesowej, bo na przyk&#322;ad zosta&#322;a umieszczona w ServiceLayer. Je&#380;eli u&#380;ywasz np. CQRS, to model odczytu rzeczywi&#347;cie b&#281;dzie odpowiada&#263; za przygotowanie warstwy prezentacji. Przy prostszej architekturze Query mo&#380;e by&#263; uznane za model odczytu, ale model anemiczny bierze si&#281; z czego&#347; zupe&#322;nie innego.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <a target="_blank" rel="noopener noreferrer" data-message-sender="UMUULD002" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UMUULD002">[Team] &#321;ukasz Szyd&#322;o</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[2:12 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3757" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1586607135072000?thread_ts=1586587984.071600&amp;cid=CN0C7LP7U">4 months ago</a><br />
+
+    <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+      <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+        <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+          <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+            <div class="p-rich_text_block" dir="auto">
+              <div class="p-rich_text_section">
+                Gdy m&#243;wimy o modelu domenowym to mamy na my&#347;li dane + zachowania (ko&#324;cz&#261;ce si&#281; zmian&#261; stanu), czyli<br />
+              </div>
+              <ol data-stringify-type="ordered-list" class="p-rich_text_list p-rich_text_list__ordered" data-indent="0">
+                <li>
+                  model anemiczne = anemiczne encje + zachowania w serwisach
+                </li>
+                <li>
+                  model bogaty = dane i zachowania w encjach
+                </li>
+              </ol>
+              <div class="p-rich_text_section">
+                Model odczytu to najcz&#281;&#347;ciej same dane (na potrzeby wy&#347;wietlenia), st&#261;d implementacyjne bywa identyczny z anemiczn&#261; encj&#261; (nie modelem) . W prostych modu&#322;ach ala CRUD anemiczna encja jest jednocze&#347;nie modelem odczytu.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__reaction_bar c-reaction_bar c-reaction_bar--light" role="group" aria-label="Reactions" data-stringify-ignore="true">
+      
+    </div>
+    <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <a target="_blank" rel="noopener noreferrer" data-message-sender="UM0GTMVPC" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UM0GTMVPC">[Team] Jakub Pilimon</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[2:51 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3760" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1586609471072900?thread_ts=1586587984.071600&amp;cid=CN0C7LP7U">4 months ago</a><br />
+
+    <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+      <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+        <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+          <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+            <div class="p-rich_text_block" dir="auto">
+              <div class="p-rich_text_section">
+                Uwa&#380;a&#322;bym z tymi podobie&#324;stwami. ReadModel nie ma setterow (nie powinien mie&#263;)
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1596608030527" ID="ID_483231175" MODIFIED="1596608045641" TEXT="Agregaty VO  Commands">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;<a data-stringify-type="replace" data-stringify-text="[8:10 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3827" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1586887828083200">Apr 14th at 8:10 PM</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Hej. Mam agregat kt&#243;ry ma sporo p&#243;l kt&#243;re s&#261; wype&#322;niane na UI, wi&#281;c podzieli&#322;em to sobie logicznie na kilka VO. W agregacie mam metod&#281; kt&#243;ra jako parametr przyjmuj&#281; komend&#281;. Czy w tej komencie powinienem u&#380;y&#263; tych VO z agregatu, czy raczej wrzu&#263;i&#263; jak leci do niej pola a potem w metodzie agregatu potworzy&#263; z tych p&#243;l VO i przypisa&#263; do stanu agregatu? No i czy w og&#243;le w metodach agregatu u&#380;ywa&#263; jako parametry klasy komend ?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1586887828.083200-thread-list_separator" data-qa="virtual-list-item">
+      <div class="p-thread_separator">
+        <div class="p-threads_flexpane__separator">
+          9 replies<hr class="p-threads_flexpane__separator_line" />
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1586887828.083200-thread-list_1586890241.083700" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="UNQF2NP6J" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UNQF2NP6J">[Bottega] Marcin Markowski</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[8:50 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3828" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1586890241083700?thread_ts=1586887828.083200&amp;cid=CN0C7LP7U">4 months ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Tu s&#261;&#160;r&#243;&#380;ne szko&#322;y. Ja nie u&#380;ywam komend jako argument&#243;w w metodach agregat&#243;w. Komenda to dla mnie co&#347; co definiuje intencj&#281; pochodz&#261;c&#261; od klienta naszego systemu. Z tego wzgl&#281;du jest to co&#347;&#160;co jest na pograniczu naszego systemu i &#347;wiata zewn&#281;trznego. W takich obiektach nie u&#380;ywam nigdy obiekt&#243;w z modelu domenowego (jak VO), tylko same typy proste. To istotne gdy&#380; nie chcemy, &#380;eby &#347;wiat zewn&#281;trzny wi&#261;za&#322; si&#281;&#160;z naszym modelem domenowym, bo b&#281;dzie go wtedy trudno zmienia&#263;. Handler reaguj&#261;c na komend&#281;, tworzy odpowiednie obiekty z modelu domenowego i wywo&#322;uje zachowania np. agregat&#243;w. Agregat jako argumenty w sowich metodach oczywi&#347;cie mo&#380;e przyjmowa&#263; VO, jest to znacznie lepsze rozwi&#261;zanie ni&#380; przekazywanie typ&#243;w prostych o ile oczywi&#347;cie dany VO ma sens biznesowy, a nie jest tylko sztucznym workiem na dane. Na koniec jeszcze jedna uwaga. Je&#380;eli UI wie o naszych VO i agregatach, w kt&#243;rych sk&#322;ad one wchodz&#261;, to mo&#380;e jest to CRUD i wtedy to nie jest miejsce na g&#322;&#281;boki model i taktyczne wzorce DDD. Nie m&#243;wi&#281;, &#380;e tak jest w Twoim przypadku, ale zawsze warto sobie zada&#263; takie pytanie, zanim u&#380;yje si&#281; jaki&#347; wyrafinowanych &#347;rodk&#243;w modelarskich / architektonicznych.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[9:15 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3829" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1586891734084300?thread_ts=1586887828.083200&amp;cid=CN0C7LP7U">4 months ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Troch&#281; tylko nie kumam tego zdania o worku na dane w kontek&#347;cie VO. My&#347;la&#322;em &#380;e VO powinny by&#263; w&#322;a&#347;nie workami na dane bez logiki biznesowej, co wi&#281;cej powinny by&#263; immutable, a sam agregat mo&#380;e sobie z nich pobiera&#263; dane do wylicze&#324; itd. Je&#380;eli mam 30 atrybut&#243;w i mog&#281; je podzieli&#263; na 5 VO, kt&#243;re s&#261; cz&#281;&#347;ci&#261; agregatu to dla mnie to jest czytelniejsze.... i chyba p&#243;jd&#281; w t&#261; stron&#281;. Co do komend to chyba jednak wywal&#281; je z argument&#243;w.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[9:16 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3830" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1586891786084500?thread_ts=1586887828.083200&amp;cid=CN0C7LP7U">4 months ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Dodatkowo ten podzia&#322; ma sens biznesowy... to czemu ?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[9:21 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3831" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1586892065084700?thread_ts=1586887828.083200&amp;cid=CN0C7LP7U">4 months ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    &quot;czemu nie?&quot; mia&#322;o by&#263; <img src="https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f642.png" aria-label="slightly smiling face emoji" alt=":slightly_smiling_face:" data-stringify-type="emoji" data-stringify-emoji=":slightly_smiling_face:" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="UNQF2NP6J" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UNQF2NP6J">[Bottega] Marcin Markowski</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[9:50 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3833" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1586893815084900?thread_ts=1586887828.083200&amp;cid=CN0C7LP7U">4 months ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Chodzi&#322;o mi tylko o to, &#380;e granice VO powinny bazowa&#263; na koncepcjach biznesowych, a nie by&#263; sztucznym grupowaniem danych, kt&#243;re akurat w danym momencie trafiaj&#261; razem do wywo&#322;ania jakiej&#347; metody. Co do zachowa&#324;, to VO mog&#261; je jak najbardziej mie&#263; np. Money mo&#380;e umie&#263; si&#281; dodawa&#263;, mno&#380;y&#263; (co przy obs&#322;udze walut ju&#380; nie jest prost&#261;&#160;arytmetyk&#261;).
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[9:56 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3834" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1586894166085100?thread_ts=1586887828.083200&amp;cid=CN0C7LP7U">4 months ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Racja w sumie sam mam takie VO <img src="https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f609.png" aria-label="wink emoji" alt=":wink:" data-stringify-type="emoji" data-stringify-emoji=":wink:" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[9:57 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3836" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1586894225085300?thread_ts=1586887828.083200&amp;cid=CN0C7LP7U">4 months ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Ale b&#281;d&#281; mia&#322; te&#380; tylko &quot;worki&quot; ze wzgl&#281;du na czytelno&#347;&#263; kodu. Dzi&#281;ki za pomoc w decyzji o wywaleniu komend z sygnatur <img src="https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f642.png" aria-label="slightly smiling face emoji" alt=":slightly_smiling_face:" data-stringify-type="emoji" data-stringify-emoji=":slightly_smiling_face:" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="UNFCENVDL" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UNFCENVDL">[Bottega] Bartek Piech</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[7:21 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3838" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1587014466087300?thread_ts=1586887828.083200&amp;cid=CN0C7LP7U">4 months ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    <a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="UNQF2NP6J" data-member-label="@[Bottega] Marcin Markowski" data-stringify-type="mention" data-stringify-id="UNQF2NP6J" data-stringify-label="@[Bottega] Marcin Markowski" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/UNQF2NP6J" rel="noopener noreferrer">@[Bottega] Marcin Markowski</a>&#160;co robisz gdy metoda ma zbyt du&#380;o parametr&#243;w?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__background--hovered c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover c-message_kit__hover--hovered" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <a target="_blank" rel="noopener noreferrer" data-message-sender="UNQF2NP6J" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UNQF2NP6J">[Bottega] Marcin Markowski</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[11:30 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-3840" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1587029427088400?thread_ts=1586887828.083200&amp;cid=CN0C7LP7U">4 months ago</a><br />
+
+    <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+      <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+        <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+          <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+            <div class="p-rich_text_block" dir="auto">
+              <div class="p-rich_text_section">
+                Zastanawiam si&#281; czy ta metoda ma sens i czy faktycznie jest ich tam tyle potrzebnych. W g&#322;&#281;bokim modelu zwykle ju&#380; mam VO kt&#243;rych mog&#281; u&#380;y&#263;, wi&#281;c ten problem nie wyst&#281;puje. Je&#380;eli ich nie mam, to jest to dla mnie sygna&#322;, &#380;eby si&#281; zastanowi&#263; jakie koncepcje biznesowe stoj&#261; za tymi argumentami i uwzgl&#281;dni&#263;&#160;je w modelu.<br />W anemicznym modelu, gdy mam same worki na dane (np. jakie&#347; CRUDy), to ma mniejsze znaczenie i wtedy czasami tworz&#281;&#160;jaki&#347;&#160;worek tylko na potrzeby przesy&#322;ania zestawu argument&#243;w, gdy jest ich du&#380;o. Jednak nawet w takich przypadkach staram si&#281;&#160;do tych work&#243;w wk&#322;ada&#263; rzeczy powi&#261;zane. Minimalizacja ilo&#347;ci argument&#243;w nie jest dla mnie nigdy jedynym lub nadrz&#281;dnym kryterium.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1596608301997" ID="ID_294612060" MODIFIED="1596608327332" TEXT="Read modele">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="text-align: left">
+      <a target="_blank" rel="noopener noreferrer" data-message-sender="U010M5PDH4Z" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010M5PDH4Z">Mariusz W&#243;jcik</a>&#160;<a data-stringify-type="replace" data-stringify-text="[9:50 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4228" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1589269845179500">May 12th at 9:50 AM</a><br />
+    </p>
+    <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+      <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+        <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+          <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+            <div class="p-rich_text_block" dir="auto">
+              <div class="p-rich_text_section">
+                <a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="UM0GTMVPC" data-member-label="@[Team] Jakub Pilimon" data-stringify-type="mention" data-stringify-id="UM0GTMVPC" data-stringify-label="@[Team] Jakub Pilimon" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/UM0GTMVPC" rel="noopener noreferrer">@[Team] Jakub Pilimon</a>&#160;<a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="UM0JE8V3L" data-member-label="@[Team] Jakub Kubry&#x144;ski" data-stringify-type="mention" data-stringify-id="UM0JE8V3L" data-stringify-label="@[Team] Jakub Kubry&#x144;ski" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/UM0JE8V3L" rel="noopener noreferrer">@[Team] Jakub Kubry&#324;ski</a>&#160; <a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="UMUULD002" data-member-label="@[Team] &#x141;ukasz Szyd&#x142;o" data-stringify-type="mention" data-stringify-id="UMUULD002" data-stringify-label="@[Team] &#x141;ukasz Szyd&#x142;o" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/UMUULD002" rel="noopener noreferrer">@[Team] &#321;ukasz Szyd&#322;o</a>&#160;cze&#347;&#263;, chcia&#322;em zapyta&#263; czy my&#347;leli&#347;cie o tym by pokaza&#263; jaki&#347; materia&#322; w kt&#243;rym rozwini&#281;ty by&#322;by temat utrwalania agregat&#243;w w bazach nierelacyjnych np. MongoDB. Mo&#380;e np zechcieliby&#347;cie przekaza&#263; jakie&#347; wskaz&#243;wki o tym jak planowa&#263; struktur&#281; dokumentu, kolekcje w kontek&#347;cie agregat&#243;w, jak poradzi&#263; sobie z brakiem relacji (co warto a co nale&#380;y redundowa&#263;) itd...
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__reaction_bar c-reaction_bar c-reaction_bar--light" role="group" aria-label="Reactions" data-stringify-ignore="true">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1589269845.179500-thread-list_separator" data-qa="virtual-list-item">
+      <div class="p-thread_separator">
+        <div class="p-threads_flexpane__separator">
+          8 replies<hr class="p-threads_flexpane__separator_line" />
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1589269845.179500-thread-list_1589273093.180000" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1589269845.179500-thread-list_1589273093.180000" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="UMUULD002" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UMUULD002">[Team] &#321;ukasz Szyd&#322;o</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[10:44 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4234" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1589273093180000?thread_ts=1589269845.179500&amp;cid=CN0C7LP7U">3 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            Hej, b&#281;dziemy m&#243;wi&#263; o tym wi&#281;cej w XI tygodniu o event sourcing-u.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1589269845.179500-thread-list_1589406493.180400" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1589269845.179500-thread-list_1589406493.180400" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="UNFH2UDL2" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UNFH2UDL2">&#321;ukasz Kowalik</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[11:48 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4235" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1589406493180400?thread_ts=1589269845.179500&amp;cid=CN0C7LP7U">3 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            <a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="UMUULD002" data-member-label="@[Team] &#x141;ukasz Szyd&#x142;o" data-stringify-type="mention" data-stringify-id="UMUULD002" data-stringify-label="@[Team] &#x141;ukasz Szyd&#x142;o" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/UMUULD002" rel="noopener noreferrer">@[Team] &#321;ukasz Szyd&#322;o</a>, podpisuj&#281; si&#281; pod tematem. Takie troch&#281; rozszerzenie tel lekcji: <a target="_blank" class="c-link" data-stringify-link="https://edu.devstyle.pl/architektura/tydzien-x/lekcja-10-02-anomalie-wspolbieznego-dostepu/" delay="150" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4237" href="https://slack-redir.net/link?url=https%3A%2F%2Fedu.devstyle.pl%2Farchitektura%2Ftydzien-x%2Flekcja-10-02-anomalie-wspolbieznego-dostepu%2F&amp;v=3" rel="noopener noreferrer">https://edu.devstyle.pl/architektura/tydzien-x/lekcja-10-02-anomalie-wspolbieznego-dostepu/</a><br />ale w kontek&#347;cie bazy nosql. Jak sobie radzi&#263; gdy nie mam dirty checking, optimistic locking, bo baza tego nie wspiera.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1589269845.179500-thread-list_1589535922.180700" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1589269845.179500-thread-list_1589535922.180700" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="UMUULD002" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UMUULD002">[Team] &#321;ukasz Szyd&#322;o</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[11:45 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4238" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1589535922180700?thread_ts=1589269845.179500&amp;cid=CN0C7LP7U">3 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            <a class="c-link c-member_slug c-member_slug--light c-member_slug--link c-member_slug--mention " data-member-id="U010M5PDH4Z" data-member-label="@Mariusz W&#xf3;jcik" data-stringify-type="mention" data-stringify-id="U010M5PDH4Z" data-stringify-label="@Mariusz W&#xf3;jcik" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/U010M5PDH4Z" rel="noopener noreferrer">@Mariusz W&#243;jcik</a>&#160;dodam &#380;e regu&#322;a jest prosta - agregat = dokument. Relacje w wi&#281;kszo&#347;ci przypadk&#243;w&#160;&#160;nie s&#261; konieczne. Mo&#380;esz ewentualnie napisa&#263; jaki problem przy pomocy relacji chcia&#322;by&#347; rozwi&#261;za&#263;.<br /><a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="UNFH2UDL2" data-member-label="@&#x141;ukasz Kowalik" data-stringify-type="mention" data-stringify-id="UNFH2UDL2" data-stringify-label="@&#x141;ukasz Kowalik" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/UNFH2UDL2" rel="noopener noreferrer">@&#321;ukasz Kowalik</a>&#160;Ditty checking (poziom ORM), i optimistic locking(<a target="_blank" class="c-link" data-stringify-link="https://jimmybogard.com/document-level-optimistic-concurrency-in-mongodb/" delay="150" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4241" href="https://slack-redir.net/link?url=https%3A%2F%2Fjimmybogard.com%2Fdocument-level-optimistic-concurrency-in-mongodb%2F&amp;v=3" rel="noopener noreferrer">https://jimmybogard.com/document-level-optimistic-concurrency-in-mongodb/</a>) to techniki implementowane na poziomie kodu aplikacji, baza nie musi ich wspiera&#263;.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-message_kit__attachments">
+                  <div class="c-message_attachment">
+                    <div class="c-message_attachment__border">
+                      
+                    </div>
+                    <div class="c-message_attachment__body">
+                      <div class="c-message_attachment__row">
+                        <img class="c-message_attachment__author_icon" alt="Jimmy Bogard" src="https://slack-imgs.com/?c=1&amp;o1=wi32.he32.si&amp;url=https%3A%2F%2Fjimmybogard.com%2Ffavicon.ico" data-qa="message_attachment_author_icon" data-stringify-ignore="true" width="16" height="16" />
+                        Jimmy Bogard
+                      </div>
+                      <div class="c-message_attachment__row">
+                        <a target="_blank" rel="noreferrer noopener" data-qa="message_attachment_title_link" class="c-link c-message_attachment__title_link" href="https://jimmybogard.com/document-level-optimistic-concurrency-in-mongodb/">Document-Level Optimistic Concurrency in MongoDB</a>
+                      </div>
+                      <div class="c-message_attachment__row">
+                        I've had a number of projects now that have used MongoDB, and each time, I've needed to dig deep into the transaction support. But in addition to transaction support, I needed to understand the concurrency and locking models of Mongo. Unlike many other NoSQL databases, Mongo has locks at the
+                      </div>
+                      <div class="c-message_attachment__field c-message_attachment__field--short">
+                        <div class="c-message_attachment__field_title" data-qa="message_attachment_field_title">
+                          Written by
+                        </div>
+                        <div class="c-message_attachment__field_value" data-qa="message_attachment_field_value">
+                          Jimmy Bogard
+                        </div>
+                      </div>
+                      <div class="c-message_attachment__field c-message_attachment__field--short">
+                        <div class="c-message_attachment__field_title" data-qa="message_attachment_field_title">
+                          Filed under
+                        </div>
+                        <div class="c-message_attachment__field_value" data-qa="message_attachment_field_value">
+                          MongoDB
+                        </div>
+                      </div>
+                      <div class="c-message_attachment__row">
+                        Oct 30th, 2019
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1589269845.179500-thread-list_1589794595.185000" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1589269845.179500-thread-list_1589794595.185000" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="U010M5PDH4Z" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010M5PDH4Z">Mariusz W&#243;jcik</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[11:36 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4242" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1589794595185000?thread_ts=1589269845.179500&amp;cid=CN0C7LP7U">3 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            <a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="UMUULD002" data-member-label="@[Team] &#x141;ukasz Szyd&#x142;o" data-stringify-type="mention" data-stringify-id="UMUULD002" data-stringify-label="@[Team] &#x141;ukasz Szyd&#x142;o" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/UMUULD002" rel="noopener noreferrer">@[Team] &#321;ukasz Szyd&#322;o</a>&#160;dla mnie ca&#322;y czas problemem jest Read Model, jaki&#347; czas temu ju&#380; o to pyta&#322;em i odpowiedzia&#322;e&#347; mi &#380;e dla prostszych aplikacji, w architekturze modularnego monolitu najszybsz&#261; dzia&#322;aj&#261;c&#261; opcj&#261; przygotowania widoku jest JOIN. W przypadku baz dokumentowych ta opcja odpada. I teraz pojawia si&#281; pytanie czy lepiej skorzysta&#263; z Mongo i mie&#263; bardzo wygodny spos&#243;b zapisu agregatu ale zap&#322;aci&#263; cen&#281; przy tworzeniu Read Modelu, czy te&#380; lepiej u&#380;y&#263; bazy relacyjnej kt&#243;ra nie jest ju&#380; tak wygodna przy zapisie, ale pozwala na &#322;&#261;czenie modelu. Jaki&#347; czas temu wydawa&#322;o mi si&#281; &#380;e MongoDB jest &#347;wietnym wyborem, potem m&#243;j zapa&#322; si&#281; ostudzi&#322; (jak u&#347;wiadomi&#322;em sobie istnienie tego nieszcz&#281;snego Read Modelu). Ostanio wys&#322;ucha&#322;em z kolei wywiadu z Jakubem Nabrdalikiem (materia&#322; dodatkowy do lekcji VIII) i po nim znowu odnios&#322;em wra&#380;enie &#380;e jest on sporym entuzjast&#261; u&#380;ywania bazy dokumentowej razem z DDD. Znaczy to &#380;e praktyka wskazuje &#380;e&#160; z tym nieszcz&#281;snym modelem crossagregatowym te&#380; mo&#380;na sobie jako&#347; poradzi&#263;.&#160;(edited)&#160;
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1589269845.179500-thread-list_1589795098.185300" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1589269845.179500-thread-list_1589795098.185300" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="UMUULD002" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UMUULD002">[Team] &#321;ukasz Szyd&#322;o</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[11:44 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4245" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1589795098185300?thread_ts=1589269845.179500&amp;cid=CN0C7LP7U">3 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            Przy read modelach mamy g&#322;&#243;wnie dwie sytuacje<br />
+                          </div>
+                          <ol data-stringify-type="ordered-list" class="p-rich_text_list p-rich_text_list__ordered" data-indent="0">
+                            <li>
+                              wy&#347;wietlanie szczeg&#243;&#322;&#243;w jakiego&#347; bytu np. produktu w e-commers, kt&#243;ry mo&#380;e by&#263; podzielony na wiele agregat&#243;w
+                            </li>
+                            <li>
+                              wyszukiwanie/raporty
+                            </li>
+                          </ol>
+                          <div class="p-rich_text_section">
+                            W przypadku 1 mo&#380;emy sobie poradzi&#263; robi&#261;c &#8220;JOIN&#8221; na froncie, poprzez wys&#322;anie kliku request&#243;w z tym samym ID produktu i po&#322;&#261;czenie wynik&#243;w ju&#380; na UI lub zrobienie tego na back end u&#380;ywaj&#261;c BFF. dzi&#281;ki temu nie potrzebujemy joinowa&#263; w bazieW przypadku 2 je&#347;li mamy baz&#281; nierelacyjn&#261; nie mo&#380;emy i&#347;&#263; na skr&#243;ty tylko musimy denormalizowa&#263; i tworzy&#263; dedykowane read modele.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1589269845.179500-thread-list_1589797226.185500" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1589269845.179500-thread-list_1589797226.185500" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="U010M5PDH4Z" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010M5PDH4Z">Mariusz W&#243;jcik</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[12:20 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4246" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1589797226185500?thread_ts=1589269845.179500&amp;cid=CN0C7LP7U">3 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            Dla mnie najtrudniejszy jest w&#322;a&#347;nie ten pierwszy scenariusz, gdzie widok jest niejako &quot;wpleciony&quot; w przebieg procesu. W drugim scenariuszu jest &#322;atwiej, bo zar&#243;wno raporty jak i wyszukiwanie to najcz&#281;&#347;ciej b&#281;d&#261; s&#322;abiej lub mocniej, ale jednak zarysowane, odr&#281;bne ca&#322;o&#347;ci.&#160;&#160;Dzi&#281;ki za wyja&#347;nienie tego zagadnienia .
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1589269845.179500-thread-list_1589837255.186000" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1589269845.179500-thread-list_1589837255.186000" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="UNFH2UDL2" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UNFH2UDL2">&#321;ukasz Kowalik</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[11:27 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4199" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1589837255186000?thread_ts=1589269845.179500&amp;cid=CN0C7LP7U">3 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            Dzi&#281;kuje <a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="UMUULD002" data-member-label="@[Team] &#x141;ukasz Szyd&#x142;o" data-stringify-type="mention" data-stringify-id="UMUULD002" data-stringify-label="@[Team] &#x141;ukasz Szyd&#x142;o" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/UMUULD002" rel="noopener noreferrer">@[Team] &#321;ukasz Szyd&#322;o</a>&#160; za podpowied&#378;.&#160;&#160;Brzmi ciekawie:<br />&quot;dodam &#380;e regu&#322;a jest prosta - agregat = dokument. Relacje w wi&#281;kszo&#347;ci przypadk&#243;w&#160;&#160;nie s&#261; konieczne&quot;.<br />W moim zespole wyst&#281;puje raczej tendencja, kt&#243;ra prowadzi czasem do tego, &#380;e dokument - agregat mocno &quot;puchnie&quot;.<br />Nie wiem z czego to wynika - taka troch&#281; ch&#281;&#263; patrzenia na kolekcj&#281; z perspektywy ReadModelu?, mo&#380;e problemem jest z&#322;e wyznaczone bounded contexty.<br />Bywa, &#380;e dokument ma sporo tzw. nested objects, r&#243;wnie&#380; w formie list.<br />&quot;DokumentA: &quot; { &quot;atrA&quot; :&#160;&#160;&quot;valueA&quot;, &quot;someNestedCollection&quot; : []}<br />Jeden z argument&#243;w jaki s&#322;ysza&#322;em by&#322; taki, &#380;e: w &#347;wiecie rzeczywistym &quot;someNestedCollection&quot; nie b&#281;dzie nigdy istnia&#322;a niezale&#380;nie wi&#281;c warto j&#261; wpakowa&#263; do &#347;rodka dokumentu np: konkretny samoch&#243;d ma jakie&#347; wyposa&#380;enie: VehicleEquipment. Na wyposa&#380;eniu takiego samochodu jest sporo elektroniki i warto taka ewidencj&#281; zrobi&#263;. Np. dzisiejszy nowoczesny samoch&#243;d mo&#380;e jednostk&#281; steruj&#261;c&#261; do poduszek, do ABS, silnika itd itd. Ka&#380;da taka jednostka ma sw&#243;j nr seryjny nr. softu itd.<br /><a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="UMUULD002" data-member-label="@[Team] &#x141;ukasz Szyd&#x142;o" data-stringify-type="mention" data-stringify-id="UMUULD002" data-stringify-label="@[Team] &#x141;ukasz Szyd&#x142;o" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/UMUULD002" rel="noopener noreferrer">@[Team] &#321;ukasz Szyd&#322;o</a>, czym si&#281; kierowa&#263; aby agregat by&#322;&#160;&#160;jak najprostszy?
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1589269845.179500-thread-list_1589869507.186300" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__background--hovered c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover c-message_kit__hover--hovered" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1589269845.179500-thread-list_1589869507.186300" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__background--hovered c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover c-message_kit__hover--hovered" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="UNDD0AT6G" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UNDD0AT6G">Kuba Wi&#261;cek</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[8:25 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4202" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1589869507186300?thread_ts=1589269845.179500&amp;cid=CN0C7LP7U">3 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            <a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="UNFH2UDL2" data-member-label="@&#x141;ukasz Kowalik" data-stringify-type="mention" data-stringify-id="UNFH2UDL2" data-stringify-label="@&#x141;ukasz Kowalik" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/UNFH2UDL2" rel="noopener noreferrer">@&#321;ukasz Kowalik</a>&#160;Rzeczami, kt&#243;re musz&#261; by&#263; sp&#243;jne natychmiast. Je&#380;eli regu&#322;a biznesowa m&#243;wi, &#380;e jak zmieniasz co&#347; w nadwoziu to natychmiast musisz zmodyfikowa&#263; te&#380; podzespo&#322;y elektroniczne to wtedy pewnie b&#281;dzie to jeden agregat. Ale je&#380;eli biznes dopuszcza chwilow&#261; niesp&#243;jno&#347;&#263; to wszystko co mo&#380;e by&#263; poddane eventual consistency mo&#380;e wylecie&#263; z twojego agregatu do innego, obs&#322;ugiwanego p&#243;&#378;niej (synchronicznie, lub asynchronicznie, dla tej dyskusji nie ma to znaczenia)Co do ReadModelu to lepiej, w my&#347;l separacji odpowiedzialno&#347;ci, rozdzieli&#263; zapis od odczytu i wtedy nie b&#281;dziesz mia&#322; pokusy napycha&#263; agregatu bardziej i bardziej.&#160;(edited)&#160;
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="c-message_actions__container c-message__actions" role="group">
+              <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1589269845.179500-thread-list_input" data-qa="virtual-list-item">
+      <div class="p-threads_footer__input_container p-threads_footer__input_container--sticky_composer" data-qa="reply_container">
+        <div class="p-threads_footer__input p-message_input">
+          <div class="c-texty_input__container c-texty_input__container--multi_line" data-buttons="0">
+            <div class="p-message_input_field c-texty_input ql-container c-texty_input--sticky_composer c-texty_input--double_decker" data-qa="message_input" data-message-input="true" data-channel-id="CN0C7LP7U" data-thread-ts="1589269845.179500" data-thread-key="CN0C7LP7U-1589269845.179500" data-view-context="threads-flexpane" data-min-lines="1" data-max-lines="8">
+              <div class="ql-editor ql-blank" data-gramm="false" id="undefined" dir="auto" role="textbox" tabindex="0" data-team-id="TM5HESPC1" aria-label="Reply&#x2026;" aria-describedby="context_bar_text-d1123898" aria-multiline="true" aria-autocomplete="list" aria-expanded="false" aria-owns="chat_input_tab_ui" spellcheck="true" contenteditable="true">
+                <p>
+                  <br />
+                  
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1596608459365" ID="ID_1203578025" MODIFIED="1596608475041" TEXT="Snapshoty dla encji z kolekcjami">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;<a data-stringify-type="replace" data-stringify-text="[6:07 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4477" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1590854821216500">May 30th at 6:07 PM</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Jak implementowa&#263; snapshoty dla agregat&#243;w kt&#243;re maj&#261; np. kolekcj&#281; jakich&#347; encji? Doda&#263; kolejn&#261; klas&#281; snapshotu reprezentuj&#261;c&#261; stan tej encji i zrobi&#263; kolekcj&#281; w tym nadrz&#281;dnym snapshocie czy macie jaki&#347; lepszy spos&#243;b/wzorzec?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_separator" data-qa="virtual-list-item">
+      <div class="p-thread_separator">
+        <div class="p-threads_flexpane__separator">
+          32 replies<hr class="p-threads_flexpane__separator_line" />
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1590994863.220400" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__background--hovered c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover c-message_kit__hover--hovered" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1590994863.220400" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__background--hovered c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover c-message_kit__hover--hovered" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="UMUULD002" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UMUULD002">[Team] &#321;ukasz Szyd&#322;o</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[9:01 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4478" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1590994863220400?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            Pytasz o snapshot w kontek&#347;cie event sourcing-u czy jakim&#347; innym?
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="c-message_actions__container c-message__actions" role="group">
+              <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591013874.222400" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591013874.222400" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[2:17 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4479" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591013874222400?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            Chyba nie ma znaczenia. W kontek&#347;cie zapisania aktualnego stanu agregatu kt&#243;ry zawiera jak&#261;&#347; kolekcj&#281; encji. Za&#322;&#243;&#380;my &#380;e nie mam ES.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591013935.222600" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591013935.222600" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[2:18 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4480" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591013935222600?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            Agregat bez geter&#243;w, bez &#347;mieci typu adnotacje JPA i tak ma zosta&#263; <img src="https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f642.png" aria-label="slightly smiling face emoji" alt=":slightly_smiling_face:" data-stringify-type="emoji" data-stringify-emoji=":slightly_smiling_face:" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591014691.222900" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591014691.222900" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[2:31 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4482" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591014691222900?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            w waszym przyk&#322;adowym projekcie jest zwyk&#322;a klasa kt&#243;ra trzyma stan dla agregatu. No i super, tylko &#380;e ja mam w &#347;rodku kolekcj&#281; encji i pytam o to czy w snapshot te&#380; dorobi&#263; kolekcje kt&#243;ra b&#281;dzie mia&#322;a zn&#243;w jaki&#347; snapshot (dla stanu encji), czy co&#347; mo&#380;e bardziej eleganckiego o czym nie wiem &#380;e istnieje ? <img src="https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f642.png" aria-label="slightly smiling face emoji" alt=":slightly_smiling_face:" data-stringify-type="emoji" data-stringify-emoji=":slightly_smiling_face:" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591019152.223200" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591019152.223200" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="UN2HJBCRH" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UN2HJBCRH">Tymoteusz Dzienniak</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[3:45 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4484" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591019152223200?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            <a target="_blank" class="c-link" data-stringify-link="https://itlibrium.com/4-sposoby-persystencji-agregatow-ddd/" delay="150" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4485" href="https://slack-redir.net/link?url=https%3A%2F%2Fitlibrium.com%2F4-sposoby-persystencji-agregatow-ddd%2F&amp;v=3" rel="noopener noreferrer">https://itlibrium.com/4-sposoby-persystencji-agregatow-ddd/</a>&#160; tu jest opisanych kilka sposob&#243;w persystencji agregat&#243;w. IMHO skoro wybra&#322;e&#347; podej&#347;cie z generowaniem snapshotu to naturalnym jest w przypadku struktury zagnie&#380;d&#380;onej zrobi&#263; kolekcj&#281; snapshot&#243;w.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591019440.223400" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591019440.223400" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[3:50 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4486" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591019440223400?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            <a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="UN2HJBCRH" data-member-label="@Tymoteusz Dzienniak" data-stringify-type="mention" data-stringify-id="UN2HJBCRH" data-stringify-label="@Tymoteusz Dzienniak" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/UN2HJBCRH" rel="noopener noreferrer">@Tymoteusz Dzienniak</a>&#160;widzia&#322;em to, wiem &#380;e jest naturalne, ale pytam czy kto&#347; mo&#380;e nie zna czego&#347; innego. Jestem tu po to &#380;eby dowiedzie&#263; si&#281; o czym&#347; wi&#281;cej ni&#380; tylko &quot;naturalne&quot; rozwi&#261;zania <img src="https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f642.png" aria-label="slightly smiling face emoji" alt=":slightly_smiling_face:" data-stringify-type="emoji" data-stringify-emoji=":slightly_smiling_face:" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591020169.223600" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591020169.223600" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="UN2HJBCRH" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UN2HJBCRH">Tymoteusz Dzienniak</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[4:02 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4489" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591020169223600?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            naturalne rozwi&#261;zania cz&#281;sto s&#261; dobre. Wszystko zale&#380;y od problemu, jaki chcesz rozwi&#261;za&#263;. Rozwi&#261;zaniem problemu jaki przedstawi&#322;e&#347; jest zrobienie kolekcji snapshot&#243;w. IMHO nie ma sensu ju&#380; tutaj nic kombinowa&#263;. Natomiast mo&#380;na zada&#263; inne pytanie: czy na pewno potrzebujesz tych encji wewn&#261;trz tego agregatu? By&#263; mo&#380;e jest on za du&#380;y? Czy na pewno wszystkie dane z tych encji s&#261; konieczne do pilnowania niezmiennik&#243;w?
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591020243.223800" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591020243.223800" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="UMUULD002" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UMUULD002">[Team] &#321;ukasz Szyd&#322;o</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[4:04 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4490" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591020243223800?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            <a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="U010B8YJFRV" data-member-label="@Sebastian &#x141;ukasiewicz" data-stringify-type="mention" data-stringify-id="U010B8YJFRV" data-stringify-label="@Sebastian &#x141;ukasiewicz" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/U010B8YJFRV" rel="noopener noreferrer">@Sebastian &#321;ukasiewicz</a>&#160;a w jaki spos&#243;b planujesz persytowa&#263; snapshot? Przy pomocy ORM ?
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591021210.224000" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591021210.224000" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[4:20 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4492" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591021210224000?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            <i data-stringify-type="italic">mongo</i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591021487.224200" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591021487.224200" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[4:24 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4493" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591021487224200?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            <a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="UN2HJBCRH" data-member-label="@Tymoteusz Dzienniak" data-stringify-type="mention" data-stringify-id="UN2HJBCRH" data-stringify-label="@Tymoteusz Dzienniak" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/UN2HJBCRH" rel="noopener noreferrer">@Tymoteusz Dzienniak</a>&#160;tak s&#261; potrzebne niestety. Ale wiesz co, jak sobie teraz my&#347;l&#281; to mo&#380;e nie do ko&#324;ca. Mo&#380;na z tej listy pewnie wyci&#261;gn&#261;&#263;/wyliczy&#263; informacj&#281; na kt&#243;rej b&#281;d&#261; opiera&#263; si&#281; niezmienniki.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591021543.224400" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591021543.224400" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[4:25 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4495" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591021543224400?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            ale tak czy siak pytanie aktualne, musia&#322;bym jeszcze dok&#322;adnie przeanalizowa&#263; opcj&#281; z wyliczeniem <img src="https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f609.png" aria-label="wink emoji" alt=":wink:" data-stringify-type="emoji" data-stringify-emoji=":wink:" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591023207.224700" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591023207.224700" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[4:53 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4497" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591023207224700?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            Musz&#281; mie&#263; kolekcj&#281; <img src="https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f642.png" aria-label="slightly smiling face emoji" alt=":slightly_smiling_face:" data-stringify-type="emoji" data-stringify-emoji=":slightly_smiling_face:" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591095053.225100" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591095053.225100" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="UMUULD002" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UMUULD002">[Team] &#321;ukasz Szyd&#322;o</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[12:50 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4499" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591095053225100?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            Jak planujesz&#160;&#160;zrobi&#263; mapowanie&#160;&#160;encja -&gt; snapshot-&gt; encja ?&#160;(edited)&#160;
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591102203.229700" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591102203.229700" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[2:50 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4501" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591102203229700?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            W agregacie statyczna faktoruj&#261;ca metoda kt&#243;ra zwr&#243;ci mi instancje agregatu na podstawie snapshotu i druga metoda zwyk&#322;a kt&#243;ra zwr&#243;ci mi snapshot ze stanem i to samo w encji. Taki mam boski plan na razie ;)
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591102291.229900" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591102291.229900" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="UMUULD002" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UMUULD002">[Team] &#321;ukasz Szyd&#322;o</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[2:51 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4502" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591102291229900?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            a b&#281;dziesz jako&#347; sprawdza&#322; kt&#243;re pola si&#281; zmieni&#322;y, czy mapujesz zawsze ca&#322;o&#347;&#263; ?
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591102570.230100" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591102570.230100" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[2:56 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4503" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591102570230100?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            zawsze ca&#322;o&#347;&#263;, tych p&#243;l b&#281;dzie kilka dos&#322;ownie
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591102853.230300" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591102853.230300" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="UMUULD002" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UMUULD002">[Team] &#321;ukasz Szyd&#322;o</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[3:00 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4504" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591102853230300?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            W takim razie nie ma du&#380;ego znaczenia jak&#261; struktur&#281; nadasz snapshot-owi, wa&#380;ne &#380;eby &#322;atwo si&#281; mapowa&#322;o z encji i vice versa. Je&#347;li tych p&#243;l jest niedu&#380;o zastanowi&#322;bym si&#281; czy warto to robi&#263;. Zak&#322;adam &#380;e wyjd&#261; Ci dwie bardzo podobne struktury i cz&#281;sto zmiany b&#281;dziesz musia&#322; robi&#263; w dw&#243;ch miejscach.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591103756.230500" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591103756.230500" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[3:15 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4505" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591103756230500?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            W sensie czy robic w ogole agregat?
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591103888.230700" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591103888.230700" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="UMUULD002" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UMUULD002">[Team] &#321;ukasz Szyd&#322;o</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[3:18 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4506" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591103888230700?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            nie, czy robi&#263; osobny model na potrzeby persystencji. Mo&#380;e wystarczy persystowa&#263; bezpo&#347;rednio agregat&#160;(edited)&#160;
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591103940.231200" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591103940.231200" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="UMUULD002" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UMUULD002">[Team] &#321;ukasz Szyd&#322;o</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[3:19 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4508" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591103940231200?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            Pragmatyzm vs puryzm <img src="https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f642.png" aria-label="slightly smiling face emoji" alt=":slightly_smiling_face:" data-stringify-type="emoji" data-stringify-emoji=":slightly_smiling_face:" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591104126.231400" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591104126.231400" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[3:22 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4510" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591104126231400?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            no i w&#322;a&#347;nie takiej odpowiedzi si&#281; ba&#322;em
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591104270.231600" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591104270.231600" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[3:24 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4511" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591104270231600?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            zazwyczaj staram si&#281; by&#263; pragmatykiem ale w tym przypadku wybior&#281; puryzm <img src="https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f642.png" aria-label="slightly smiling face emoji" alt=":slightly_smiling_face:" data-stringify-type="emoji" data-stringify-emoji=":slightly_smiling_face:" />bo i wymaganie si&#281; zmieni&#322;o i musz&#281; mie&#263; histori&#281; zmian wi&#281;c odtworz&#281; sobie stan z event&#243;w
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591104275.231800" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591104275.231800" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[3:24 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4513" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591104275231800?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            <img src="https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-large/1f642.png" aria-label="slightly smiling face emoji" alt=":slightly_smiling_face:" class="c-emoji c-emoji__large" data-qa="emoji" data-stringify-type="emoji" data-stringify-emoji=":slightly_smiling_face:" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4514" />
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591104317.232000" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591104317.232000" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="UMUULD002" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UMUULD002">[Team] &#321;ukasz Szyd&#322;o</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[3:25 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4515" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591104317232000?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            czyli jednak event sourcing ?
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591104410.232200" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591104410.232200" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[3:26 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4516" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591104410232200?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            tak
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591104427.232400" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591104427.232400" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[3:27 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4517" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591104427232400?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            to case z negocjacja ceny wi&#281;c idealnie pasuje
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591104476.232600" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591104476.232600" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="UMUULD002" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UMUULD002">[Team] &#321;ukasz Szyd&#322;o</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[3:27 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4518" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591104476232600?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            to w takim razie lepszym rozwi&#261;zaniem by&#322;oby budowanie snapshotu z event&#243;w
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591104510.232800" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591104510.232800" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="UMUULD002" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UMUULD002">[Team] &#321;ukasz Szyd&#322;o</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[3:28 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4519" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591104510232800?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            i robiebie tego w tle
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591104567.233000" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591104567.233000" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[3:29 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4600" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591104567233000?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            no i tak zrobie pewnie <img src="https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f642.png" aria-label="slightly smiling face emoji" alt=":slightly_smiling_face:" data-stringify-type="emoji" data-stringify-emoji=":slightly_smiling_face:" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591104576.233200" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591104576.233200" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[3:29 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4602" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591104576233200?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            Dzi&#281;ki
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591123200.233600" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591123200.233600" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[8:40 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4603" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591123200233600?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            <a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="UMUULD002" data-member-label="@[Team] &#x141;ukasz Szyd&#x142;o" data-stringify-type="mention" data-stringify-id="UMUULD002" data-stringify-label="@[Team] &#x141;ukasz Szyd&#x142;o" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/UMUULD002" rel="noopener noreferrer">@[Team] &#321;ukasz Szyd&#322;o</a>&#160;jeszcze jedna rzecz w takim razie <img src="https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f642.png" aria-label="slightly smiling face emoji" alt=":slightly_smiling_face:" data-stringify-type="emoji" data-stringify-emoji=":slightly_smiling_face:" />Gdybym chcia&#322; zrobi&#263;&#160;RM obok swojego event store'a, czyli na tej samej bazie, to gdzie powinienem wywo&#322;a&#263; projekcj&#281; na ten RM? Dla mnie naturalnym miejscem jest serwis domenowy, w kt&#243;rym wywo&#322;uj&#281; komend&#281; na agregacie, kt&#243;ra to zwraca mi event, kt&#243;ry to przekazuje w tym serwisie do jakiego&#347; komponentu, kt&#243;ry to na jego podstawie aktualizuje mi RM. Dobrze kombinuj&#281;?
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" role="listitem" id="CN0C7LP7U-1590854821.216500-thread-list_1591204591.234000" data-qa="virtual-list-item" tabindex="-1">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter__right" data-qa="message_content">
+      <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[7:16 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-4606" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CN0C7LP7U/p1591204591234000?thread_ts=1590854821.216500&amp;cid=CN0C7LP7U">2 months ago</a><br />
+
+      <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+        <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+          <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+            <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+              <div class="p-rich_text_block" dir="auto">
+                <div class="p-rich_text_section">
+                  bo z tego co zrozumia&#322;em to do synchronizacji RM u&#380;ywam publicznych event&#243;w jak wychodz&#281; poza BC.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1596609333604" ID="ID_1121516664" MODIFIED="1596609430550" TEXT="REST API">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="c-virtual_list__item" role="listitem" id="CNFDWA6G6-1590826386.034400-thread-list_1590826386.034400" data-qa="virtual-list-item" tabindex="-1">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message c-message_kit__thread_message--root" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--inside">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            Cze&#347;&#263;, mam pytanie dotycz&#261;ce dobrych praktyk tworzenia REST API. Jak post&#261;pi&#263; je&#347;li metody mojego kontrolera w og&#243;le nie pasuj&#261; do klasycznego API i s&#261; &quot;czasownikowe&quot; . Przyk&#322;adem jest klasyczna zmiana stanu dajmy na to artyku&#322;u. Jak zamapowa&#263; akcj&#281; &quot;aktywuj&quot;, &quot;publikuj&quot;, &quot;weryfikuj&quot; itp...
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CNFDWA6G6-1590826386.034400-thread-list_separator" data-qa="virtual-list-item">
+      <div class="p-thread_separator">
+        <div class="p-threads_flexpane__separator">
+          9 replies<hr class="p-threads_flexpane__separator_line" />
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CNFDWA6G6-1590826386.034400-thread-list_1590828367.036500" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CNFDWA6G6-1590826386.034400-thread-list_1590828367.036500" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="UNVNL3ANA" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UNVNL3ANA">&#321;ukasz Duda</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[10:46 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-6829" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1590828367036500?thread_ts=1590826386.034400&amp;cid=CNFDWA6G6">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            A musi by&#263; REST? <img src="https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f60b.png" aria-label="yum emoji" alt=":yum:" data-stringify-type="emoji" data-stringify-emoji=":yum:" /><br />Zachowania i zasoby to dwa &#347;wiaty, a mapowanie jednego na drugi mo&#380;e by&#263; trudne.<br />Ale jak kto&#347; ma lepsz&#261; odpowied&#378;, to te&#380; jestem ciekaw.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CNFDWA6G6-1590826386.034400-thread-list_1590828763.036900" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CNFDWA6G6-1590826386.034400-thread-list_1590828763.036900" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="UVCJ1GMJP" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UVCJ1GMJP">Micha&#322; Mackiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[10:52 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-6831" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1590828763036900?thread_ts=1590826386.034400&amp;cid=CNFDWA6G6">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            Mo&#380;na mie&#263; stan jako w&#322;a&#347;ciwo&#347;&#263; obiektu np. state: &quot;aktywny&quot;, &quot;opublikowany&quot; itd. Potem zmiany tego stanu robi&#263; za pomoc&#261; PATCH
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CNFDWA6G6-1590826386.034400-thread-list_1590835108.037100" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CNFDWA6G6-1590826386.034400-thread-list_1590835108.037100" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="UNVNL3ANA" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UNVNL3ANA">&#321;ukasz Duda</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[12:38 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-6832" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1590835108037100?thread_ts=1590826386.034400&amp;cid=CNFDWA6G6">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            Ciekawe rozwi&#261;zanie, tylko pewnie wtedy trzeba niepotrzebnie pobra&#263; zas&#243;b, &#380;eby zmieni&#263; w&#322;a&#347;ciwo&#347;&#263; i wys&#322;a&#263; ponownie.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CNFDWA6G6-1590826386.034400-thread-list_1590835145.037300" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <a target="_blank" rel="noopener noreferrer" data-message-sender="UN6M0FG49" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UN6M0FG49">Wojciech Bal</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[12:39 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-6833" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1590835145037300?thread_ts=1590826386.034400&amp;cid=CNFDWA6G6">2 months ago</a><br />
+
+    <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+      <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+        <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+          <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+            <div class="p-rich_text_block" dir="auto">
+              <div class="p-rich_text_section">
+                czesc od 59:51 powinna cie zainteresowac <a target="_blank" class="c-link" data-stringify-link="https://youtu.be/do-xqIbKZ_8?t=3592" delay="150" data-sk="tooltip_parent" aria-describedby="sk-tooltip-6834" href="https://slack-redir.net/link?url=https%3A%2F%2Fyoutu.be%2Fdo-xqIbKZ_8%3Ft%3D3592&amp;v=3" rel="noopener noreferrer">https://youtu.be/do-xqIbKZ_8?t=3592</a><br />procesy i czasowniki tez sa mozliwe do zamodelowania restem, i wcale nie sa ci potrzebne czasowniki w endpointach <img src="https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f609.png" aria-label="wink emoji" alt=":wink:" data-stringify-type="emoji" data-stringify-emoji=":wink:" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__attachments">
+      <div class="c-message_attachment">
+        <div class="c-message_attachment__border">
+          
+        </div>
+        <div class="c-message_attachment__body">
+          <div class="c-message_attachment__row">
+            <a target="_blank" rel="noopener noreferrer" class="c-link c-message_attachment__author_link" href="https://www.youtube.com/"><img class="c-message_attachment__author_icon" alt="YouTube" src="https://slack-imgs.com/?c=1&amp;o1=wi32.he32.si&amp;url=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Funfurl_icons%2Fyoutube.png" data-qa="message_attachment_author_icon" data-stringify-ignore="true" width="16" height="16" />
+            YouTube</a>&#160;| <a target="_blank" rel="noopener noreferrer" data-qa="message_attachment_link" class="c-link c-message_attachment__part c-message_attachment__author_link" href="https://www.youtube.com/channel/UCNeyWe1dv6dRl9iypnFqHdA">Bottega IT Minds</a>
+          </div>
+          <div class="c-message_attachment__row">
+            <a target="_blank" rel="noreferrer noopener" data-qa="message_attachment_title_link" class="c-link c-message_attachment__title_link" href="https://youtu.be/do-xqIbKZ_8?t=3592">S&#322;awomir Sob&#243;tka - DDD Q&amp;A - wersja rozszerzona</a>&#160;
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_attachment__video" aria-label="toggle S&#x142;awomir Sob&#xf3;tka - DDD Q&amp;amp;A - wersja rozszerzona video" data-expanded="true" data-qa-expandable-container-is-expanded="true" data-qa-expandable-container-key="vid_msg_1590835145.0373001threads-flexpane">
+      <div class="c-aspect_box__outer c-message_attachment__video_container" style="width: 360px">
+        <div class="c-aspect_box__inner" style="padding-top: 75%">
+          <div class="c-aspect_box__content">
+            <div class="c-message_attachment__video_thumb" style="background-image: url(https://slack-imgs.com/?c=1&amp;o1=wi360.he270.si&amp;url=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fdo-xqIbKZ_8%2Fhqdefault.jpg)">
+              <div class="c-message_attachment__video_buttons">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__attachments">
+      <div class="c-message_attachment">
+        <div class="c-message_attachment__body">
+          <div class="c-message_attachment__row">
+            <div class="c-message_attachment__video" aria-label="toggle S&#x142;awomir Sob&#xf3;tka - DDD Q&amp;amp;A - wersja rozszerzona video" data-expanded="true" data-qa-expandable-container-is-expanded="true" data-qa-expandable-container-key="vid_msg_1590835145.0373001threads-flexpane">
+              <div class="c-aspect_box__outer c-message_attachment__video_container" style="width: 360px">
+                <div class="c-aspect_box__inner" style="padding-top: 75%">
+                  <div class="c-aspect_box__content">
+                    <div class="c-message_attachment__video_thumb" style="background-image: url(https://slack-imgs.com/?c=1&amp;o1=wi360.he270.si&amp;url=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fdo-xqIbKZ_8%2Fhqdefault.jpg)">
+                      <div class="c-message_attachment__video_buttons">
+                        <a target="_blank" rel="noopener noreferrer" class="c-link c-message_attachment__video_link" href="https://youtu.be/do-xqIbKZ_8?t=3592">
+</a>                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__reaction_bar c-reaction_bar c-reaction_bar--light" role="group" aria-label="Reactions" data-stringify-ignore="true">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CNFDWA6G6-1590826386.034400-thread-list_1590835462.037600" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="UN6M0FG49" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UN6M0FG49">Wojciech Bal</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[12:44 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-6838" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1590835462037600?thread_ts=1590826386.034400&amp;cid=CNFDWA6G6">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            wystawienie takiego api to jednak kupa roboty, wiec ewentualnie mozna to rozegrac jeszcze tak -&gt; <a target="_blank" class="c-link" data-stringify-link="https://stripe.com/docs/billing/invoices/overview#workflow-transitions" delay="150" data-sk="tooltip_parent" aria-describedby="sk-tooltip-6839" href="https://slack-redir.net/link?url=https%3A%2F%2Fstripe.com%2Fdocs%2Fbilling%2Finvoices%2Foverview%23workflow-transitions&amp;v=3" rel="noopener noreferrer">https://stripe.com/docs/billing/invoices/overview#workflow-transitions</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="c-message_kit__attachments">
+                  <div class="c-message_attachment">
+                    <div class="c-message_attachment__border">
+                      
+                    </div>
+                    <div class="c-message_attachment__body">
+                      <div class="c-message_attachment__row">
+                        <img class="c-message_attachment__author_icon" alt="stripe.com" src="https://slack-imgs.com/?c=1&amp;o1=wi32.he32.si&amp;url=https%3A%2F%2Fstripe.com%2Fimg%2Fapple-touch-icon%2F180x180.png" data-qa="message_attachment_author_icon" data-stringify-ignore="true" width="16" height="16" />
+                        stripe.com
+                      </div>
+                      <div class="c-message_attachment__row">
+                        <a target="_blank" rel="noreferrer noopener" data-qa="message_attachment_title_link" class="c-link c-message_attachment__title_link" href="https://stripe.com/docs/billing/invoices/overview#workflow-transitions">How invoices work | Stripe Billing</a>
+                      </div>
+                      <div class="c-message_attachment__row">
+                        Online payment processing for internet businesses. Stripe is a suite of payment APIs that powers commerce for businesses of all sizes.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CNFDWA6G6-1590826386.034400-thread-list_1590848305.038000" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <a target="_blank" rel="noopener noreferrer" data-message-sender="UNY57KCQY" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UNY57KCQY">[Bottega] Mariusz Gil</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[4:18 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-6840" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1590848305038000?thread_ts=1590826386.034400&amp;cid=CNFDWA6G6">2 months ago</a><br />
+
+    <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+      <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+        <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+          <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+            <div class="p-rich_text_block" dir="auto">
+              <div class="p-rich_text_section">
+                <a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="UNVNL3ANA" data-member-label="@&#x141;ukasz Duda" data-stringify-type="mention" data-stringify-id="UNVNL3ANA" data-stringify-label="@&#x141;ukasz Duda" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/UNVNL3ANA" rel="noopener noreferrer">@&#321;ukasz Duda</a>&#160;Troch&#281;&#160;musz&#281; skorygowa&#263;, poniewa&#380; zachowania mo&#380;na wyrazi&#263; w REST. Ale po prostu si&#281; z tego nie korzysta, bo (z moich obserwacji) ma&#322;o os&#243;b w og&#243;le kojarzy ten temat.REST obejmuje 4 archetypy zasob&#243;w: kolekcje, magazyny, dokumenty i kontrolery. Ten ostatni, kontroler, to po prostu czasownik, czyli operacja wykonywana na zasobie. Oczywi&#347;cie nie nale&#380;y tym modelowa&#263; operacji, kt&#243;re mo&#380;na wyrazi&#263; metod&#261; HTTP, jest to przeznaczone do tych pozosta&#322;ych przypadk&#243;w.Tutaj jest kilka przyk&#322;ad&#243;w <a target="_blank" class="c-link" data-stringify-link="https://medium.com/@cagline/restful-web-services-ddafb8019f2e" delay="150" data-sk="tooltip_parent" aria-describedby="sk-tooltip-6842" href="https://slack-redir.net/link?url=https%3A%2F%2Fmedium.com%2F%40cagline%2Frestful-web-services-ddafb8019f2e&amp;v=3" rel="noopener noreferrer">https://medium.com/@cagline/restful-web-services-ddafb8019f2e</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__attachments">
+      <div class="c-message_attachment">
+        <div class="c-message_attachment__border">
+          
+        </div>
+        <div class="c-message_attachment__body">
+          <div class="c-message_attachment__row">
+            <img class="c-message_attachment__author_icon" alt="Medium" src="https://slack-imgs.com/?c=1&amp;o1=wi32.he32.si&amp;url=https%3A%2F%2Fcdn-images-1.medium.com%2Ffit%2Fc%2F152%2F152%2F1*8I-HPL0bfoIzGied-dzOvA.png" data-qa="message_attachment_author_icon" data-stringify-ignore="true" width="16" height="16" />
+            Medium
+          </div>
+          <div class="c-message_attachment__row">
+            <a target="_blank" rel="noreferrer noopener" data-qa="message_attachment_title_link" class="c-link c-message_attachment__title_link" href="https://medium.com/@cagline/restful-web-services-ddafb8019f2e">REST API standards &#8212; REST Web Services</a>
+          </div>
+          <div class="c-message_attachment__row">
+            I would say this article is a summary of REST API Design Rulebook By Mark Masse
+          </div>
+          <div class="c-message_attachment__field c-message_attachment__field--short">
+            <div class="c-message_attachment__field_title" data-qa="message_attachment_field_title">
+              Reading time
+            </div>
+            <div class="c-message_attachment__field_value" data-qa="message_attachment_field_value">
+              7 min read
+            </div>
+          </div>
+          <div class="c-message_attachment__row c-message_attachment__row--has_trigger">
+            May 28th&#160;(29 kB)
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__attachments">
+      <div class="c-message_attachment">
+        <div class="c-message_attachment__body">
+          <div class="c-message_attachment__row">
+            <div aria-label="toggle REST API standards &#x2014; REST Web Services image" data-expanded="true" data-qa-expandable-container-is-expanded="true" data-qa-expandable-container-key="img_msg_1590848305.0380001threads-flexpane">
+              <div class="c-aspect_box__outer c-message_attachment__image_container" style="width: 360px">
+                <div class="c-aspect_box__inner" style="padding-top: 30%">
+                  <div class="c-aspect_box__content">
+                    <a target="_blank" class="c-link c-message_attachment__image" title="REST API standards &#x2014; REST Web Services" data-qa="attachment_image" href="https://slack-redir.net/link?url=https%3A%2F%2Fmiro.medium.com%2Fmax%2F1200%2F1*3aSgZ3EsufyiJip0plQsaw.png&amp;v=3" rel="noopener noreferrer" style="background-image: url(https://slack-imgs.com/?c=1&amp;o1=wi720.he216.si.ro&amp;url=https%3A%2F%2Fmiro.medium.com%2Fmax%2F1200%2F1*3aSgZ3EsufyiJip0plQsaw.png)">https://miro.medium.com/max/1200/1*3aSgZ3EsufyiJip0plQsaw.png</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__reaction_bar c-reaction_bar c-reaction_bar--light" role="group" aria-label="Reactions" data-stringify-ignore="true">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CNFDWA6G6-1590826386.034400-thread-list_1590863121.038600" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <a target="_blank" rel="noopener noreferrer" data-message-sender="U010M5PDH4Z" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010M5PDH4Z">Mariusz W&#243;jcik</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[8:25 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-6845" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1590863121038600?thread_ts=1590826386.034400&amp;cid=CNFDWA6G6">2 months ago</a><br />
+
+                <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+                  <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+                    <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+                      <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                        <div class="p-rich_text_block" dir="auto">
+                          <div class="p-rich_text_section">
+                            serdecznie dzi&#281;kuj&#281; <img src="https://a.slack-edge.com/production-standard-emoji-assets/10.2/google-medium/1f642.png" aria-label="slightly smiling face emoji" alt=":slightly_smiling_face:" data-stringify-type="emoji" data-stringify-emoji=":slightly_smiling_face:" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CNFDWA6G6-1590826386.034400-thread-list_1590923823.039000" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <a target="_blank" rel="noopener noreferrer" data-message-sender="U011JBKTG7R" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U011JBKTG7R">Patryk Semeniuk</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[1:17 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-6801" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1590923823039000?thread_ts=1590826386.034400&amp;cid=CNFDWA6G6">2 months ago</a><br />
+
+    <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+      <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+        <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+          <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+            <div class="p-rich_text_block" dir="auto">
+              <div class="p-rich_text_section">
+                <a target="_blank" class="c-link" data-stringify-link="https://github.com/allegro/restapi-guideline#adding-the-command" delay="150" data-sk="tooltip_parent" aria-describedby="sk-tooltip-6802" href="https://slack-redir.net/link?url=https%3A%2F%2Fgithub.com%2Fallegro%2Frestapi-guideline%23adding-the-command&amp;v=3" rel="noopener noreferrer">https://github.com/allegro/restapi-guideline#adding-the-command</a><a target="_blank" class="c-link" data-stringify-link="https://cloud.google.com/apis/design/custom_methods" delay="150" data-sk="tooltip_parent" aria-describedby="sk-tooltip-6803" href="https://slack-redir.net/link?url=https%3A%2F%2Fcloud.google.com%2Fapis%2Fdesign%2Fcustom_methods&amp;v=3" rel="noopener noreferrer">https://cloud.google.com/apis/design/custom_methods</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__attachments">
+      <div class="c-message_attachment">
+        <div class="c-message_attachment__border">
+          
+        </div>
+        <div class="c-message_attachment__body">
+          <div class="c-message_attachment__row">
+            <img class="c-message_attachment__author_icon" alt="GitHub" src="https://slack-imgs.com/?c=1&amp;o1=wi32.he32.si&amp;url=https%3A%2F%2Fa.slack-edge.com%2F80588%2Fimg%2Funfurl_icons%2Fgithub.png" data-qa="message_attachment_author_icon" data-stringify-ignore="true" width="16" height="16" />
+            GitHub
+          </div>
+          <div class="c-message_attachment__row">
+            <a target="_blank" rel="noreferrer noopener" data-qa="message_attachment_title_link" class="c-link c-message_attachment__title_link" href="https://github.com/allegro/restapi-guideline#adding-the-command">allegro/restapi-guideline</a>
+          </div>
+          <div class="c-message_attachment__row">
+            Allegro REST API Guideline. Contribute to allegro/restapi-guideline development by creating an account on GitHub.
+          </div>
+        </div>
+      </div>
+      <div class="c-message_attachment">
+        <div class="c-message_attachment__border">
+          
+        </div>
+        <div class="c-message_attachment__body">
+          <div class="c-message_attachment__row">
+            <img class="c-message_attachment__author_icon" alt="Google Cloud" src="https://slack-imgs.com/?c=1&amp;o1=wi32.he32.si&amp;url=https%3A%2F%2Fwww.gstatic.com%2Fdevrel-devsite%2Fprod%2Fvf4ca28c48392b1412e7b030290622a0dd55b62dec1202c59f119b1e23227c988%2Fcloud%2Fimages%2Ffavicons%2Fonecloud%2Fsuper_cloud.png" data-qa="message_attachment_author_icon" data-stringify-ignore="true" width="16" height="16" />
+            Google Cloud
+          </div>
+          <div class="c-message_attachment__row">
+            <a target="_blank" rel="noreferrer noopener" data-qa="message_attachment_title_link" class="c-link c-message_attachment__title_link" href="https://cloud.google.com/apis/design/custom_methods">Custom Methods &#160;|&#160;&#160;Cloud APIs &#160;|&#160;&#160;Google Cloud</a>&#160; (17 kB)
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CNFDWA6G6-1590826386.034400-thread-list_1590923823.039000" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            <div class="c-message_kit__gutter">
+              <div class="c-message_kit__gutter__right" data-qa="message_content">
+                <div class="c-message_kit__attachments">
+                  <div class="c-message_attachment">
+                    <div class="c-message_attachment__body">
+                      <div class="c-message_attachment__row">
+                        <div aria-label="toggle Custom Methods &#xa0;|&#xa0; Cloud APIs &#xa0;|&#xa0; Google Cloud image" data-expanded="true" data-qa-expandable-container-is-expanded="true" data-qa-expandable-container-key="img_msg_1590923823.0390002threads-flexpane">
+                          <div class="c-aspect_box__outer c-message_attachment__image_container" style="width: 360px">
+                            <div class="c-aspect_box__inner" style="padding-top: 52.5%">
+                              <div class="c-aspect_box__content">
+                                <a target="_blank" class="c-link c-message_attachment__image" title="Custom Methods &#xa0;|&#xa0; Cloud APIs &#xa0;|&#xa0; Google Cloud" data-qa="attachment_image" href="https://slack-redir.net/link?url=https%3A%2F%2Fcloud.google.com%2Fimages%2Fsocial-icon-google-cloud-1200-630.png&amp;v=3" rel="noopener noreferrer" style="background-image: url(https://slack-imgs.com/?c=1&amp;o1=wi720.he378.si.ro&amp;url=https%3A%2F%2Fcloud.google.com%2Fimages%2Fsocial-icon-google-cloud-1200-630.png)">https://cloud.google.com/images/social-icon-google-cloud-1200-630.png</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CNFDWA6G6-1590826386.034400-thread-list_1591951095.082900" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter__right" data-qa="message_content">
+      <a target="_blank" rel="noopener noreferrer" data-message-sender="UVCBDFZDG" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UVCBDFZDG">Kamil</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[10:38 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-6804" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1591951095082900?thread_ts=1590826386.034400&amp;cid=CNFDWA6G6">2 months ago</a><br />
+
+      <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+        <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+          <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+            <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+              <div class="p-rich_text_block" dir="auto">
+                <div class="p-rich_text_section">
+                  troch&#281; odgrzej&#281; temat (bo nadrabiam zaleg&#322;o&#347;ci w DNA). Spotka&#322;em si&#281; r&#243;wnie&#380; z takim podej&#347;ciem (cz&#281;sto bardzo &#322;adnie &#322;&#261;cz&#261;cym si&#281; z CQRS), &#380;e u&#380;ywa si&#281; w nazwach rzeczownik&#243;w odczasownikowych. To np by by&#322;o POST /resources/id/activations - czyli ju&#380; nie masz metody &quot;aktywuj&quot;, tylko pod-zas&#243;b &quot;aktywacja&quot;. Je&#347;li za API jest CQRS (lub inny mechanizm, kt&#243;ry nie gubi informacji) to w sumie chyba dobrze to do siebie pasuje. Je&#347;li natomiast masz tylko zmiany stanu to mo&#380;na by pomy&#347;le&#263; czy eleganckim rozwi&#261;zaniem nie jest PUT /resources/id z body&#160;&#160;{&quot;status&quot;: &quot;active&quot;}.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1596609431894" ID="ID_867903031" MODIFIED="1596609464376" TEXT="Unikalno&#x15b;&#x107; danych w Event Sourcing">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Cze&#347;&#263;. Jakie znacie sposoby na zapewnienie unikalno&#347;ci danych w przypadku Event Sourcingu? Zak&#322;adaj&#261;c, &#380;e nie mo&#380;na obej&#347;&#263; tego wymagania i do trzymania zdarze&#324; u&#380;ywamy relacyjnej bazy danych. Ja widz&#281; g&#322;&#243;wny problem w tym, &#380;e te dane b&#281;d&#261; w kolumnie z payloadem, lub eventData, kt&#243;ra jest jakim&#347; jsonem i mam obawy, &#380;e przeszukiwanie payload&#243;w wszystkich zdarze&#324; szybko mo&#380;e sta&#263; si&#281; wolne.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CNFDWA6G6-1591261799.052700-thread-list_separator" data-qa="virtual-list-item">
+      <div class="p-thread_separator">
+        <div class="p-threads_flexpane__separator">
+          3 replies<hr class="p-threads_flexpane__separator_line" />
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CNFDWA6G6-1591261799.052700-thread-list_1591268193.053500" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="UMUULD002" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UMUULD002">[Team] &#321;ukasz Szyd&#322;o</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[12:56 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-6959" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1591268193053500?thread_ts=1591261799.052700&amp;cid=CNFDWA6G6">2 months ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Chodzi Ci o przypadek np. rejestracji gdzie zdarzenie to UserWasRegistered i jednym z p&#243;l jest email, kt&#243;ry powinien by&#263; unikalny ?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="UN1KW9FH9" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UN1KW9FH9">Mateusz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[12:59 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-6960" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1591268383053700?thread_ts=1591261799.052700&amp;cid=CNFDWA6G6">2 months ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Tak.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter__right" data-qa="message_content">
+      <a target="_blank" rel="noopener noreferrer" data-message-sender="UMUULD002" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UMUULD002">[Team] &#321;ukasz Szyd&#322;o</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[1:57 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-6961" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1591271822054000?thread_ts=1591261799.052700&amp;cid=CNFDWA6G6">2 months ago</a><br />
+
+      <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+        <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+          <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+            <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+              <div class="p-rich_text_block" dir="auto">
+                <div class="p-rich_text_section">
+                  Je&#347;li mia&#322;bym to robi&#263; to pewnie<br />
+                </div>
+                <ol data-stringify-type="ordered-list" class="p-rich_text_list p-rich_text_list__ordered" data-indent="0">
+                  <li>
+                    stara&#322;bym si&#281; zapewni&#263; &#380;e tylko jeden w&#261;tek na raz jest odpowiedzialny za obs&#322;ug&#281; komend tego typu i zapis zdarzenia i na poziomie serwisu sprawdza&#322; unikalno&#347;&#263; odpytuj&#261;c synchroniczny read model.
+                  </li>
+                  <li>
+                    w tabelce trzymaj&#261;cej te zdarzenia doda&#322;bym osobn&#261; kolumn&#281; na email i za&#322;o&#380;y&#322; na niej index unikalny
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1596609560612" ID="ID_1999227800" MODIFIED="1596609584475" TEXT="Correlation ID - Event Sourcing">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Cze&#347;&#263;!Mam dwa pytania do <b data-stringify-type="bold">Lekcji 7.05. Implementacja zdarze&#324; <a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="UM0GTMVPC" data-member-label="@[Team] Jakub Pilimon" data-stringify-type="mention" data-stringify-id="UM0GTMVPC" data-stringify-label="@[Team] Jakub Pilimon" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/UM0GTMVPC" rel="noopener noreferrer">@[Team] Jakub Pilimon</a>&#8217;a.1.</b>&#160; Na przedostatnim slajdzie mowa jest o tym, &#380;e zdarzenia:<br />
+                  </div>
+                  <ul data-stringify-type="unordered-list" class="p-rich_text_list p-rich_text_list__bullet" data-indent="0">
+                    <li>
+                      &#8220;mog&#261; mie&#263; identyfikator przyczyny&#8221;; w wideo pada przyk&#322;ad umieszczenia ID komendy
+                    </li>
+                    <li>
+                      &#8220;maj&#261; identyfikator obiektu, kt&#243;ry wygenerowa&#322; obiekt&#8221;; w wideo mowa jest o obiekcie, kt&#243;ry wyemitowa&#322; zdarzenie: subskrypcja zosta&#322;a zapauzowana &#8212; interesuje nas jaka subskrypcja zosta&#322;a zapauzowana.
+                    </li>
+                  </ul>
+                  <div class="p-rich_text_section">
+                    Pierwszy punkt rozumiem, chodzi o ID tego, co wywo&#322;a&#322;o zdarzenie, np. ID konkretnej komendy &#8220;pauzuj subskrypcj&#281;&#8220;.<br />Drugi punkt troch&#281; mi umyka. Czy chodzi mo&#380;e o ID obiektu, kt&#243;ry zosta&#322; wygenerowany <i data-stringify-type="italic">przez</i>&#160;zdarzenie? Np. zdarzenie &#8220;tw&#243;rz subskrypcj&#281;&#8221; dostaje ID subskrypcji, kt&#243;ra zosta&#322;a stworzona (dla tracingu np.)? Czy o co innego chodzi? (Na pocz&#261;tku pomy&#347;la&#322;em, &#380;e chodzi o przyczyn&#281; zdarzenia, ale wtedy by&#322;oby to powt&#243;rzeniem punktu poprzedniego.) My&#347;l&#281;, &#380;e warto u&#347;ci&#347;li&#263; opis tego punktu.<b data-stringify-type="bold">2.</b>&#160;W wideo mowa te&#380; o <b data-stringify-type="bold">Correlation ID</b>&#160;(na slajdzie nie ma tego). Opis podany na filmiku jest tylko zasygnalizowaniem tematu, chcia&#322;bym dowiedzie&#263; si&#281; czego&#347; wi&#281;cej. Czy b&#281;dzie o tym mowa na kolejnych lekcjach?&#160;(edited)&#160;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CNFDWA6G6-1592130744.083600-thread-list_separator" data-qa="virtual-list-item">
+      <div class="p-thread_separator">
+        <div class="p-threads_flexpane__separator">
+          8 replies<hr class="p-threads_flexpane__separator_line" />
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CNFDWA6G6-1592130744.083600-thread-list_1592137488.084600" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="UM0GTMVPC" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UM0GTMVPC">[Team] Jakub Pilimon</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[2:24 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-7134" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1592137488084600?thread_ts=1592130744.083600&amp;cid=CNFDWA6G6">2 months ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Hej, postaram si&#281; odpowiedzie&#263; na pytanie dzi&#347; wieczorem
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="U010Z6U07H6" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010Z6U07H6">pawelswiecki</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[2:30 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-7135" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1592137829084800?thread_ts=1592130744.083600&amp;cid=CNFDWA6G6">2 months ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Dzi&#281;ki!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[5:22 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-7136" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1592148170086700?thread_ts=1592130744.083600&amp;cid=CNFDWA6G6">2 months ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    A to dzi&#347; jest? Jaki&#347; link mo&#380;na prosi&#263;? Bo rozumiem &#380;e jutro jest tem Staszkowy?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="U010B8YJFRV" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010B8YJFRV">Sebastian &#321;ukasiewicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[8:08 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-7137" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1592158083087400?thread_ts=1592130744.083600&amp;cid=CNFDWA6G6">2 months ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Chyba co&#347; &#378;le zrozumia&#322;em ;)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="UM0GTMVPC" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UM0GTMVPC">[Team] Jakub Pilimon</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[8:51 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-7138" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1592203900090300?thread_ts=1592130744.083600&amp;cid=CNFDWA6G6">2 months ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <ol data-stringify-type="ordered-list" class="p-rich_text_list p-rich_text_list__ordered" data-indent="0">
+                    <li>
+                      To b&#322;&#261;d - mia&#322;o by&#263; &#8222;identyfikator obiektu, kt&#243;ry wygenerowa&#322; zdarzenie&#8221; :)
+                    </li>
+                    <li>
+                      O correletion ID i diatributed tracing b&#281;dzie w kolejnych tygodniach
+                    </li>
+                    <li>
+                      Zdarzenie mo&#380;e mie&#263; Id komendy/zdarzenia, kt&#243;re spowodowa&#322;o owe zdarzenie (causation ID)
+                    </li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="UM0GTMVPC" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UM0GTMVPC">[Team] Jakub Pilimon</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[8:52 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-7139" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1592203936091300?thread_ts=1592130744.083600&amp;cid=CNFDWA6G6">2 months ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    <a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="U010B8YJFRV" data-member-label="@Sebastian &#x141;ukasiewicz" data-stringify-type="mention" data-stringify-id="U010B8YJFRV" data-stringify-label="@Sebastian &#x141;ukasiewicz" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/U010B8YJFRV" rel="noopener noreferrer">@Sebastian &#321;ukasiewicz</a>&#160;nic nie by&#322;o, po prostu wczoraj sta&#322;em sobie dumnie ca&#322;y wiecz&#243;r i popo&#322;udnie na A1 :)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <a target="_blank" rel="noopener noreferrer" data-message-sender="UMUULD002" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UMUULD002">[Team] &#321;ukasz Szyd&#322;o</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[9:02 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-7141" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1592204544091500?thread_ts=1592130744.083600&amp;cid=CNFDWA6G6">2 months ago</a><br />
+
+    <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+      <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+        <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+          <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+            <div class="p-rich_text_block" dir="auto">
+              <div class="p-rich_text_section">
+                Fajnie jest to te&#380; opisane tu: <a target="_blank" class="c-link" data-stringify-link="https://blog.arkency.com/correlation-id-and-causation-id-in-evented-systems/" delay="150" data-sk="tooltip_parent" aria-describedby="sk-tooltip-7142" href="https://slack-redir.net/link?url=https%3A%2F%2Fblog.arkency.com%2Fcorrelation-id-and-causation-id-in-evented-systems%2F&amp;v=3" rel="noopener noreferrer">https://blog.arkency.com/correlation-id-and-causation-id-in-evented-systems/</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__attachments">
+      <div class="c-message_attachment">
+        <div class="c-message_attachment__border">
+          
+        </div>
+        <div class="c-message_attachment__body">
+          <div class="c-message_attachment__row">
+            <img class="c-message_attachment__author_icon" alt="Arkency Blog" src="https://slack-imgs.com/?c=1&amp;o1=wi32.he32.si&amp;url=https%3A%2F%2Fblog.arkency.com%2Ffavicon.ico" data-qa="message_attachment_author_icon" data-stringify-ignore="true" width="16" height="16" />
+            Arkency Blog
+          </div>
+          <div class="c-message_attachment__row">
+            <a target="_blank" rel="noreferrer noopener" data-qa="message_attachment_title_link" class="c-link c-message_attachment__title_link" href="https://blog.arkency.com/correlation-id-and-causation-id-in-evented-systems/">Correlation id and causation id in evented systems</a>
+          </div>
+          <div class="c-message_attachment__row">
+            Debugging can be one of the challenges when building asynchronous, evented systems. Why did this happen, what caused all of that?. But there are patterns which might make your life easier. We just need to keep track of what is happening as a result of what.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__reaction_bar c-reaction_bar c-reaction_bar--light" role="group" aria-label="Reactions" data-stringify-ignore="true">
+      
+    </div>
+    <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter__right" data-qa="message_content">
+      <a target="_blank" rel="noopener noreferrer" data-message-sender="U010Z6U07H6" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010Z6U07H6">pawelswiecki</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[9:54 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-7145" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1592207654091800?thread_ts=1592130744.083600&amp;cid=CNFDWA6G6">2 months ago</a><br />
+
+      <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+        <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+          <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+            <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+              <div class="p-rich_text_block" dir="auto">
+                <div class="p-rich_text_section">
+                  <a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="UM0GTMVPC" data-member-label="@[Team] Jakub Pilimon" data-stringify-type="mention" data-stringify-id="UM0GTMVPC" data-stringify-label="@[Team] Jakub Pilimon" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/UM0GTMVPC" rel="noopener noreferrer">@[Team] Jakub Pilimon</a>&#160;Dzi&#281;ki!Czym r&#243;&#380;ni si&#281; 1 od 3? A inaczej: czym r&#243;&#380;ni si&#281; &#8220;wygenerowanie&#8221; od &#8220;spowodowania&#8221;? Czy chodzi mo&#380;e o to, &#380;e klasa/funkcja w kodze <i data-stringify-type="italic">generuje</i>&#160;zdarzenie, a inne zdarzenie/komenda <i data-stringify-type="italic">powoduje</i>&#160; zdarzenie? Czyli inny poziom abstrakcji?
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1596609652188" ID="ID_1228166540" MODIFIED="1596609670716" TEXT="Architektura rozproszona - cykle">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="UNDD0AT6G" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UNDD0AT6G">Kuba Wi&#261;cek</a>&#160;<a data-stringify-type="replace" data-stringify-text="[9:52 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-7336" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1594151534129400">Jul 7th at 9:52 PM</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    <a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="UM0JE8V3L" data-member-label="@[Team] Jakub Kubry&#x144;ski" data-stringify-type="mention" data-stringify-id="UM0JE8V3L" data-stringify-label="@[Team] Jakub Kubry&#x144;ski" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/UM0JE8V3L" rel="noopener noreferrer">@[Team] Jakub Kubry&#324;ski</a>&#160;[Temporal coupling, komunikacja asynchroniczna] Wyja&#347;niaj&#261;c zagadnienie podajesz przyk&#322;ad, w kt&#243;rym serwis X wysy&#322;a co&#347; na kolejk&#281;, co odczytuje serwis Y. Serwis Y na zako&#324;czenie przetwarzania wrzuca na kolejk&#281; zdarzenie, kt&#243;re odczytuje serwis X. Asynchroniczno&#347;&#263; i pozbycie si&#281; temporal couplingu s&#261; dla mnie jasne. Zacz&#261;&#322;em si&#281; zastanawia&#263; nad cyklem, kt&#243;ry powsta&#322; w takim rozwi&#261;zniu. Czy architektury, w kt&#243;rych pojawiaj&#261; si&#281; cykle nie tworz&#261; jakich&#347; zagro&#380;e&#324;/ryzyk? Oczywi&#347;cie rozumiem, &#380;e jest to odpowiednik request/response, ale w podanym przypadku request i response id&#261; dwoma r&#243;&#380;nymi kana&#322;ami (dwie r&#243;&#380;ne kolejki), co zwi&#281;ksza z&#322;o&#380;no&#347;&#263; infrastruktury.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CNFDWA6G6-1594151534.129400-thread-list_separator" data-qa="virtual-list-item">
+      <div class="p-thread_separator">
+        <div class="p-threads_flexpane__separator">
+          9 replies<hr class="p-threads_flexpane__separator_line" />
+        </div>
+      </div>
+    </div>
+    <div class="c-virtual_list__item" tabindex="-1" role="listitem" id="CNFDWA6G6-1594151534.129400-thread-list_1594151737.132600" data-qa="virtual-list-item">
+      <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+        <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+          <div class="c-message_kit__actions c-message_kit__actions--default">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="UM0JE8V3L" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UM0JE8V3L">[Team] Jakub Kubry&#324;ski</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[9:55 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-7338" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1594151737132600?thread_ts=1594151534.129400&amp;cid=CNFDWA6G6">28 days ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Zwi&#281;ksza zlozonosc ale za to kupujemy niezawodno&#347;&#263;. S&#261; tez opcje request-response np na rabbitmq, ale popularniejsze jest rozwi&#261;zanie z dwoma kolejkami. Wi&#281;kszego ryzyka tutaj nie wiedz&#281;. Trzeba jednak pami&#281;ta&#263;, ze pomimo pozbycia si&#281; &#347;cis&#322;ego couplingu, dalej mamy SLA na ca&#322;y proces, kt&#243;ry wymaga wykorzystania obu aplikacji
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="UNDD0AT6G" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UNDD0AT6G">Kuba Wi&#261;cek</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[8:15 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-7339" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1594188958132800?thread_ts=1594151534.129400&amp;cid=CNFDWA6G6">28 days ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Hipotetycznie mo&#380;na te&#380; robi&#263; cykliczny asynchroniczny HTTP request z aplikacji X do aplikacji Y z pytaniem o status przetwarzania. Eliminuje to cykl, ale odbiera zalet&#281; zako&#324;czenia przetwarzania procesu w najkr&#243;tszym mo&#380;liwym czasie, bo stajemy si&#281; uzale&#380;nieni od interwa&#322;u cz&#281;stotliwo&#347;ci odpytywania. Widzia&#322;e&#347;, &#380;eby stosowano co&#347; takiego w praktyce? Kiedy sprawdza si&#281;&#160;takie podej&#347;cie, a kiedy dwie kolejki?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <a target="_blank" rel="noopener noreferrer" data-message-sender="UM0JE8V3L" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UM0JE8V3L">[Team] Jakub Kubry&#324;ski</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[8:44 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-7340" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1594190686135600?thread_ts=1594151534.129400&amp;cid=CNFDWA6G6">28 days ago</a><br />
+
+    <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+      <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+        <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+          <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+            <div class="p-rich_text_block" dir="auto">
+              <div class="p-rich_text_section">
+                Widzia&#322;em :) Og&#243;lnie nie poleca&#322; bo taki http-pulling generuje ton&#281; niepotrzebnego ruchu. Wykorzystujemy go tam gdzie np ze wzgl&#281;d&#243;w bezpiecze&#324;stwa ruch jest puszczony tylko w jedna stron&#281;. Aczkolwiek nawet wtedy warto rozwa&#380;y&#263; WebSocket. Tylko tutaj ca&#322;y czas mam wra&#380;enie ze s&#261; problemy ze stabilno&#347;ci&#261;
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__reaction_bar c-reaction_bar c-reaction_bar--light" role="group" aria-label="Reactions" data-stringify-ignore="true">
+      
+    </div>
+    <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+      
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="UNDD0AT6G" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UNDD0AT6G">Kuba Wi&#261;cek</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[9:10 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-7343" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1594192218135800?thread_ts=1594151534.129400&amp;cid=CNFDWA6G6">28 days ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Ok, dzi&#281;ki!
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="UNRE14LJU" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UNRE14LJU">Jakub Kotorowicz</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[5:54 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-7344" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1594223640136200?thread_ts=1594151534.129400&amp;cid=CNFDWA6G6">28 days ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    <a class="c-link c-member_slug c-member_slug--light c-member_slug--link " data-member-id="UM0JE8V3L" data-member-label="@[Team] Jakub Kubry&#x144;ski" data-stringify-type="mention" data-stringify-id="UM0JE8V3L" data-stringify-label="@[Team] Jakub Kubry&#x144;ski" tabindex="0" aria-hidden="false" aria-haspopup="true" href="https://dna-pl.slack.com/team/UM0JE8V3L" rel="noopener noreferrer">@[Team] Jakub Kubry&#324;ski</a>&#160;a mo&#380;esz co&#347; wi&#281;cej powiedzie&#263; lub podlinkowa&#263; o problemach z websockets?
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="UM0JE8V3L" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UM0JE8V3L">[Team] Jakub Kubry&#324;ski</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[6:02 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-7346" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1594224135136400?thread_ts=1594151534.129400&amp;cid=CNFDWA6G6">28 days ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    nie mam konkretnych linkow, ale szukalbym pod katem fallback&#8217;&#243;w w bibliotekach do websocket
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="UM0JE8V3L" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UM0JE8V3L">[Team] Jakub Kubry&#324;ski</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[6:02 PM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-7347" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1594224153136600?thread_ts=1594151534.129400&amp;cid=CNFDWA6G6">28 days ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    u nas w logach np widze, ze czasem websockety przepijnaja sie na http get
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <div class="c-message_kit__gutter">
+      <div class="c-message_kit__gutter__right" data-qa="message_content">
+        <a target="_blank" rel="noopener noreferrer" data-message-sender="U010GUTKS73" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/U010GUTKS73">Marcin Ziolo</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[11:41 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-7348" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1594633293137500?thread_ts=1594151534.129400&amp;cid=CNFDWA6G6">23 days ago</a><br />
+
+        <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+          <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+            <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+              <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+                <div class="p-rich_text_block" dir="auto">
+                  <div class="p-rich_text_section">
+                    Z t&#261; kolejk&#261; jest jeszcze taki problem:<br />X ma dwie instancj&#281;: X1, X2<br />Y te&#380; ma dwie instancj&#281;: Y1, Y2X1 -&gt; kolejkka -&gt; Y1 lub Y2(oboj&#281;tne)Z powrotem jednak w wielu przypadkach chcemy aby przetworzona wiadomo&#347;&#263; trafi&#322;a do X1 je&#347;li to ma by&#263; odpowiednik request/response a domy&#347;lnie jest tak:Y1 lub Y2 -&gt; kolejka -&gt; X1 lub X2I trzeba kombinowa&#263;.&#160;(edited)&#160;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="c-message_actions__container c-message__actions c-message__actions--offscreen" role="group">
+      <div class="c-message_actions__group" role="group" aria-label="Message shortcuts" data-qa="message-actions">
+        
+      </div>
+    </div>
+    <div role="document" class="c-message_kit__background c-message_kit__background--hovered c-message_kit__message c-message_kit__thread_message" data-qa="message_container" data-qa-unprocessed="false" data-qa-placeholder="false">
+      <div role="document" class="c-message_kit__hover c-message_kit__hover--hovered" data-qa-hover="true">
+        <div class="c-message_kit__actions c-message_kit__actions--default">
+          
+        </div>
+      </div>
+    </div>
+    <div class="c-message_kit__gutter__left">
+      
+    </div>
+    <a target="_blank" rel="noopener noreferrer" data-message-sender="UNDD0AT6G" data-qa="message_sender_name" aria-haspopup="true" class="c-link c-message__sender_link " href="https://app.slack.com/team/UNDD0AT6G">Kuba Wi&#261;cek</a>&#160;&#160;<a data-stringify-type="replace" data-stringify-text="[11:54 AM]" data-stringify-requires-siblings="true" delay="300" data-sk="tooltip_parent" aria-describedby="sk-tooltip-7350" class="c-link c-timestamp" href="https://dna-pl.slack.com/archives/CNFDWA6G6/p1594634049137900?thread_ts=1594151534.129400&amp;cid=CNFDWA6G6">23 days ago</a><br />
+
+    <div class="c-message_kit__blocks c-message_kit__blocks--rich_text">
+      <div class="c-message__message_blocks c-message__message_blocks--rich_text">
+        <div class="p-block_kit_renderer" data-qa="block-kit-renderer">
+          <div class="p-block_kit_renderer__block_wrapper p-block_kit_renderer__block_wrapper--first">
+            <div class="p-rich_text_block" dir="auto">
+              <div class="p-rich_text_section">
+                Je&#380;eli potrzebujesz, &#380;eby odpowied&#378; wr&#243;ci&#322;a do tej samej instancji to strzelam, &#380;e z powodu przechowywanego stanu przez aplikacj&#281;, kt&#243;ra robi&#322;a request. Je&#380;eli stan przechowujesz w bazie danych/globalnym cache'u to nie ma problemu, kt&#243;ra instancja to z&#322;apie. Je&#380;eli z kolei przetrzymujesz stan w pami&#281;ci aplikacji to tak naprawd&#281; nie pozby&#322;e&#347; si&#281; temporal coupling'u, bo aplikacja X musi &#380;y&#263; przez ca&#322;y okres przetwarzania przez aplikacj&#281; Y. Je&#380;eli padnie to straci stan i wtedy nie uda si&#281; proces biznesowy.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1585510867352" ID="ID_9447650" MODIFIED="1585643520825" POSITION="right" TEXT="Architektura">
