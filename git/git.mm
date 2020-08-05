@@ -1611,7 +1611,7 @@ https://stackoverflow.com/questions/8225125/remove-last-commit-from-remote-git-r
 <node CREATED="1579701387872" ID="ID_282382880" MODIFIED="1579701410533" TEXT="wy&#x15b;wietlenie bez usuwania =&gt; git remote prune origin --dry-run"/>
 <node CREATED="1579701416176" ID="ID_1481262866" MODIFIED="1579701581259" TEXT="automatyczne skasowanie branchy nieistniej&#x105;cych na origin =&gt; git remote prune origin"/>
 <node CREATED="1579701657999" ID="ID_1795814647" LINK="https://openclassrooms.com/en/courses/5671626-manage-your-code-project-with-git-github/6152276-use-branch-cleanup-techniques" MODIFIED="1579701670921" TEXT="Use branch cleanup techniques"/>
-<node CREATED="1582815800230" ID="ID_1124050437" MODIFIED="1582815823650" TEXT="Skrypt dokonujacy skutecznego usuniecia lokalnych niesledzonych branchy">
+<node CREATED="1582815800230" ID="ID_1124050437" MODIFIED="1596606680378" TEXT="Skrypt dokonujacy skutecznego usuniecia lokalnych niesledzonych branchy">
 <richcontent TYPE="NOTE"><html>
   <head>
     

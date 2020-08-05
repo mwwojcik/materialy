@@ -1478,7 +1478,7 @@ U&#380;ycie:</pre>
   </body>
 </html></richcontent>
 <cloud COLOR="#ccff00"/>
-<node CREATED="1574773157813" ID="ID_756001144" MODIFIED="1575026493927" TEXT="Testy integracyjne">
+<node CREATED="1574773157813" ID="ID_756001144" MODIFIED="1596606679965" TEXT="Testy integracyjne">
 <richcontent TYPE="NOTE"><html>
   <head>
     
@@ -1506,7 +1506,8 @@ U&#380;ycie:</pre>
       Web jest tylko adapterem modelu transportowego do modelu serwisowego, wi&#281;c dobrze zaprojektowany kontroler powinnien mie&#263; dost&#281;p do jednego Primary Port (je&#347;li nasza us&#322;uga potrzebuje czego&#347; od innych to wtedy mamy doczynienia z Secondary Port, Secondary Adapter) , dlatego nie powinien wstrzykiwa&#263; wielu us&#322;ug.
     </p>
   </body>
-</html></richcontent>
+</html>
+</richcontent>
 </node>
 <node CREATED="1574779076711" ID="ID_923232096" MODIFIED="1575026493927" TEXT="Slices annotations">
 <richcontent TYPE="NOTE"><html>
@@ -6754,7 +6755,7 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 <node CREATED="1578335130375" ID="ID_1721488679" LINK="https://dzone.com/articles/java-8-optional-replace-your-get-calls" MODIFIED="1578335143785" TEXT="Optional - functional programming"/>
 <node CREATED="1579184042671" ID="ID_932084047" LINK="https://dzone.com/articles/using-optional-correctly-is-not-optional" MODIFIED="1579184074690" TEXT="26 Reasons Why Using Optional Correctly Is Not Optional"/>
 </node>
-<node CREATED="1578511300633" ID="ID_1936754049" MODIFIED="1583744386937" POSITION="left" TEXT="Literatura i materia&#x142;y (JAVA CORE)">
+<node CREATED="1578511300633" FOLDED="true" ID="ID_1936754049" MODIFIED="1591113694206" POSITION="left" TEXT="Literatura i materia&#x142;y (JAVA CORE)">
 <cloud COLOR="#ffcc66"/>
 <node CREATED="1578511323803" ID="ID_812819710" MODIFIED="1578511327411" TEXT="Prezentacje">
 <node CREATED="1578511328963" ID="ID_1882079873" LINK="https://www.youtube.com/results?search_query=nurkiewicz" MODIFIED="1578511349878" TEXT="Tomasz Nurkiewicz ">
@@ -7058,7 +7059,30 @@ private static </b></font>Path getPath(String pathStr) {<br />&#160;&#160;&#160;
 <node CREATED="1578518888864" ID="ID_333343484" MODIFIED="1578518903752" TEXT="jinfo - wszystkie informacje o jvm,propertisach,flagach"/>
 <node CREATED="1578518906152" ID="ID_795909347" MODIFIED="1578518928359" TEXT="jmap -heap nr_procesu- algorytm garbage, ustawienia pami&#x119;ci, u&#x17c;ycie procentowe"/>
 <node CREATED="1578518930411" ID="ID_259595271" MODIFIED="1578518964469" TEXT="jstat - bogate statyski jvm -class ilo&#x15b;&#x107; klas za&#x142;adowanych -compiler czego nie uda&#x142;o si&#x119; zoptymalizowa&#x107;"/>
-<node CREATED="1578518973630" ID="ID_1331563654" MODIFIED="1578519013638" TEXT="jhat - narz&#x119;dzie do analizowania heapa - wystawia WS mo&#x17c;na ogl&#x105;da&#x107; heap, ronbi&#x107; na nim zapytania"/>
+<node CREATED="1578518973630" ID="ID_1331563654" MODIFIED="1590126147563" TEXT="jhat - narz&#x119;dzie do analizowania heapa - wystawia WS mo&#x17c;na ogl&#x105;da&#x107; heap, ronbi&#x107; na nim zapytania">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#9679; 204 No Content &#8211;&#160;wszystko zako&#324;czone prawid&#322;owo, natomiast nie ma kontentu,
+    </p>
+    <p>
+      nie ma tre&#347;ci, czyli nie ma Response Body. Bardzo cz&#281;sto to w&#322;a&#347;nie DELETE.
+    </p>
+    <p>
+      Mo&#380;e te&#380; by&#263; tak, &#380;e je&#380;eli robisz metod&#281; GET, kt&#243;ra zwraca list&#281;, i ta lista jest
+    </p>
+    <p>
+      pusta, to zamiast zwraca&#263; pust&#261; list&#281; w JSON czy XML-u, zwraca informacj&#281; No
+    </p>
+    <p>
+      Content, czyli nic nie znaleziono.
+    </p>
+  </body>
+</html></richcontent>
+</node>
 <node CREATED="1578519015520" ID="ID_1170758102" MODIFIED="1578519021197" TEXT="jstack"/>
 <node CREATED="1578519022851" ID="ID_1035086758" MODIFIED="1578523409505" TEXT="visualvm (jvisualvm)- konsola profiluj&#x105;ca, pokazuje zachowanie garbage collectora (od Java 9 nie jest cz&#x119;&#x15b;ci&#x105; JDK)"/>
 </node>

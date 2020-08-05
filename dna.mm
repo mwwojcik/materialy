@@ -2086,11 +2086,32 @@
       @&#321;ukasz Kowalik Rzeczami, kt&#243;re musz&#261; by&#263; sp&#243;jne natychmiast. Je&#380;eli regu&#322;a biznesowa m&#243;wi, &#380;e jak zmieniasz co&#347; w nadwoziu to natychmiast musisz zmodyfikowa&#263; te&#380; podzespo&#322;y elektroniczne to wtedy pewnie b&#281;dzie to jeden agregat. Ale je&#380;eli biznes dopuszcza chwilow&#261; niesp&#243;jno&#347;&#263; to wszystko co mo&#380;e by&#263; poddane eventual consistency mo&#380;e wylecie&#263; z twojego agregatu do innego, obs&#322;ugiwanego p&#243;&#378;niej (synchronicznie, lub asynchronicznie, dla tej dyskusji nie ma to znaczenia)Co do ReadModelu to lepiej, w my&#347;l separacji odpowiedzialno&#347;ci, rozdzieli&#263; zapis od odczytu i wtedy nie b&#281;dziesz mia&#322; pokusy napycha&#263; agregatu bardziej i bardziej. (edited)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node CREATED="1589875449356" ID="ID_1788449580" LINK="dna/Slides%20pictures%20-%20Dedicated%20read.jpg" MODIFIED="1589875528931" TEXT="Slides pictures - Dedicated read (1).jpg"/>
 <node CREATED="1589875481207" ID="ID_1816376291" LINK="dna/Slides%20pictures%20-%20BFF.pdf" MODIFIED="1589875609440" TEXT="Slides pictures - BFF.pdf"/>
 <node CREATED="1589875584881" ID="ID_789541199" LINK="dna/Slides%20pictures%20-%20composite%20view.pdf" MODIFIED="1589875632800" TEXT="Slides pictures - composite view.pdf"/>
+</node>
+<node CREATED="1590335255191" ID="ID_1137894045" MODIFIED="1590335328736" TEXT="C4-poprawione-i-nowe funkcjonalnosci">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Piotr Stawirej&#160;&#160;8:12 PM A je&#380;eli kto&#347; chcia&#322;by stosowa&#263; C4-PlantUML w powa&#380;niejszych projektach to&#160;&#160;zapraszam do sprawdzenia forka https://github.com/stawirej/C4-PlantUML kt&#243;ry jest przeportowany do najnowszego preprocesora plantumla, ma dodatkowe artefakty wspomagaj&#261;ce prac&#281; z Big Ball of Mud (wprowadzone podczas wizualizacji ogromnego monolitu nad kt&#243;rym pracuje kilkana&#347;cie zespo&#322;&#243;w), dodanej ikony osoby do artefaktu &#8220;person&#8221; oraz naprawia b&#322;&#281;dy uk&#322;adu diagram&#243;w z oryginalnego repo.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Piotr Stawirej&#160;&#160;8:02 PM
+    </p>
+    <p>
+      Je&#380;eli kto&#347; robi zadanie 01.01.C4 w C4-PlantUML to mo&#380;e sobie to u&#322;atwi&#263; stosuj&#261;c https://github.com/stawirej/c4-intellij-live-template.
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 </node>
@@ -2321,6 +2342,8 @@
 <node CREATED="1585511140114" ID="ID_1750157851" LINK="https://dna-pl.slack.com/" MODIFIED="1585518070508" TEXT="https://dna-pl.slack.com/"/>
 <node CREATED="1585511153616" ID="ID_1092957864" LINK="https://edu.devstyle.pl/architektura/" MODIFIED="1585518070508" TEXT="https://edu.devstyle.pl/architektura/"/>
 <node CREATED="1585511205663" ID="ID_11883161" LINK="https://structurizr.com/dashboard" MODIFIED="1585518070508" TEXT="https://structurizr.com/dashboard"/>
+<node CREATED="1590335336116" ID="ID_152780996" LINK="https://github.com/stawirej/c4-intellij-live-template" MODIFIED="1590335359837" TEXT="https://github.com/stawirej/c4-intellij-live-template"/>
+<node CREATED="1590335374224" ID="ID_1058432885" LINK="https://github.com/stawirej/C4-PlantUML" MODIFIED="1590335381345" TEXT="https://github.com/stawirej/C4-PlantUML"/>
 </node>
 <node CREATED="1585732517529" ID="ID_1677479757" MODIFIED="1585732543170" POSITION="right" TEXT="DDD">
 <cloud COLOR="#ffff66"/>
@@ -3058,6 +3081,371 @@ public class BoxFactory{    public Box createDefaultBox(SomeDate date){         
 <node CREATED="1587374243154" ID="ID_1535888335" MODIFIED="1587374245374" TEXT="Dob&#xf3;r architektury do modu&#x142;u">
 <node CREATED="1587374246402" ID="ID_1619036227" MODIFIED="1587374250701" TEXT="Modu&#x142;y p&#x142;ytkie"/>
 <node CREATED="1587374252065" ID="ID_1956363681" MODIFIED="1587374257510" TEXT="Modu&#x142;y g&#x142;&#x119;bokie"/>
+</node>
+</node>
+<node CREATED="1589914967367" ID="ID_286125320" MODIFIED="1589915000795" POSITION="left" TEXT="REST">
+<cloud COLOR="#ccffcc"/>
+<node CREATED="1589915105126" ID="ID_1532390389" MODIFIED="1589915107974" TEXT="Kody b&#x142;&#x119;d&#xf3;w w protokole HTTP dziel&#x105; si&#x119; na cztery grupy.">
+<node CREATED="1589915121325" ID="ID_641458061" MODIFIED="1589915121325" TEXT="1. Wszystkie, kt&#xf3;re zaczynaj&#x105; si&#x119; od 2 &#x2013; uda&#x142;o si&#x119;.">
+<node CREATED="1589915152567" ID="ID_619640926" MODIFIED="1589915354541" TEXT="200 OK &#x2013; standardowa odpowied&#x17a;, wszystko si&#x119; uda&#x142;o. Ten kod odpowiedzi">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      200 OK &#8211;&#160;standardowa odpowied&#378;, wszystko si&#281; uda&#322;o. Ten kod odpowiedzi
+    </p>
+    <p>
+      zawsze zak&#322;ada istnienie Response Body. S&#261; biblioteki, kt&#243;re przy 200 zawsze
+    </p>
+    <p>
+      parsuj&#261; Response Body. Je&#347;li si&#281; to nie uda, wyrzucaj&#261; wyj&#261;tek. Warto o tym
+    </p>
+    <p>
+      pami&#281;ta&#263;.
+    </p>
+    <p>
+      &#9679; 201 Created &#8211;&#160;zas&#243;b utworzony. M&#243;wili&#347;my o tym dok&#322;adniej przy metodzie
+    </p>
+    <p>
+      POST.
+    </p>
+    <p>
+      &#9679; 202 Accepted &#8211;&#160;przyj&#261;&#322;em co&#347; do przetwarzania. Sprawa jest za&#322;atwiona.
+    </p>
+    <p>
+      Rezultatu jeszcze nie ma.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1589915152573" ID="ID_196273942" MODIFIED="1589915333599" TEXT="&#x25cf; 204 No Content &#x2013; wszystko zako&#x144;czone prawid&#x142;owo, natomiast nie ma kontentu,">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#9679; 204 No Content &#8211;&#160;wszystko zako&#324;czone prawid&#322;owo, natomiast nie ma kontentu,
+    </p>
+    <p>
+      nie ma tre&#347;ci, czyli nie ma Response Body. Bardzo cz&#281;sto to w&#322;a&#347;nie DELETE.
+    </p>
+    <p>
+      Mo&#380;e te&#380; by&#263; tak, &#380;e je&#380;eli robisz metod&#281; GET, kt&#243;ra zwraca list&#281;, i ta lista jest
+    </p>
+    <p>
+      pusta, to zamiast zwraca&#263; pust&#261; list&#281; w JSON czy XML-u, zwraca informacj&#281; No
+    </p>
+    <p>
+      Content, czyli nic nie znaleziono.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1589915379638" ID="ID_1807860333" MODIFIED="1589915406260" TEXT="201 Created &#x2013; zas&#xf3;b utworzony. M&#xf3;wili&#x15b;my o tym dok&#x142;adniej przy metodzie">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      201 Created &#8211;&#160;zas&#243;b utworzony. M&#243;wili&#347;my o tym dok&#322;adniej przy metodzie
+    </p>
+    <p>
+      POST.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1589915379640" ID="ID_949615545" MODIFIED="1589915396276" TEXT="&#x25cf; 202 Accepted &#x2013; przyj&#x105;&#x142;em co&#x15b; do przetwarzania. Sprawa jest za&#x142;atwiona.">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#9679; 202 Accepted &#8211;&#160;przyj&#261;&#322;em co&#347; do przetwarzania. Sprawa jest za&#322;atwiona.
+    </p>
+    <p>
+      Rezultatu jeszcze nie ma.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1589915121326" ID="ID_1026487671" MODIFIED="1589915121326" TEXT="2. Wszystkie, kt&#xf3;re zaczynaj&#x105; si&#x119; od 3 &#x2013; nie wiem, zapytaj kogo&#x15b; innego.">
+<node CREATED="1589915186472" ID="ID_914986381" MODIFIED="1589915314976" TEXT="301 Moved Permanently &#x2013; trwa&#x142;e przeniesienie. Warto pami&#x119;ta&#x107; o tym, &#x17c;e">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      301 Moved Permanently &#8211;&#160;trwa&#322;e przeniesienie. Warto pami&#281;ta&#263; o tym, &#380;e
+    </p>
+    <p>
+      trwa&#322;e przeniesienie &#8211;&#160;jak nazwa wskazuje &#8211;&#160;jest trwa&#322;e, w zwi&#261;zku z czym
+    </p>
+    <p>
+      niekt&#243;re przegl&#261;darki (na przyk&#322;ad Firefox) cachuj&#261; te odpowiedzi. Dop&#243;ki dany
+    </p>
+    <p>
+      u&#380;ytkownik nie usunie historii przegl&#261;dania dla danej strony, przekierowanie
+    </p>
+    <p>
+      b&#281;dzie obs&#322;ugiwane. Nawet je&#347;li pozmieniamy wszystko po stronie swojej
+    </p>
+    <p>
+      serwerowni, strza&#322; nigdy do nas nie dotrze, poniewa&#380; 301 jest dla przegl&#261;darki
+    </p>
+    <p>
+      naprawd&#281; trwa&#322;e.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1589915186477" ID="ID_151009830" MODIFIED="1589915298285" TEXT="&#x25cf; 304 Not Modified &#x2013; nie zmodyfikowano. Standardowa odpowiedz na przyk&#x142;ad">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#9679; 304 Not Modified &#8211;&#160;nie zmodyfikowano. Standardowa odpowiedz na przyk&#322;ad
+    </p>
+    <p>
+      cache&#8217;a. Robimy jakie&#347; zapytanie, serwer nam odpowiada: &#8222;To, co masz, jest
+    </p>
+    <p>
+      OK&#8221;. O tym dok&#322;adnie porozmawiamy w odcinku dotycz&#261;cym cachowania.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1589915186479" ID="ID_679834305" MODIFIED="1589915286049" TEXT="&#x25cf; 307 Temporary Redirect &#x2013; tymczasowe przekierowanie. W danej chwili dana">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#9679; 307 Temporary Redirect &#8211;&#160;tymczasowe przekierowanie. W danej chwili dana
+    </p>
+    <p>
+      rezerwacja jest dost&#281;pna gdzie indziej. 301 bardziej wykorzystujemy, &#380;eby
+    </p>
+    <p>
+      powiedzie&#263;: &#8222;Adresu rest.dna.dev ju&#380; nie ma, teraz jest adres api.dna.dev, taki
+    </p>
+    <p>
+      b&#281;dzie do ko&#324;ca &#347;wiata i o jeden dzie&#324; d&#322;u&#380;ej&#8221;.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1589915121327" ID="ID_1988923773" MODIFIED="1589915121327" TEXT="3. Wszystkie, kt&#xf3;re zaczynaj&#x105; si&#x119; od 4 &#x2013; b&#x142;&#x105;d klienta.">
+<node CREATED="1589915204398" ID="ID_951670238" MODIFIED="1589915229725" TEXT="400 Bad Request &#x2013; co&#x15b; si&#x119; nie uda&#x142;o, nie mam poj&#x119;cia co. Ten kod jest bardzo">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      400 Bad Request &#8211;&#160;co&#347; si&#281; nie uda&#322;o, nie mam poj&#281;cia co. Ten kod jest bardzo
+    </p>
+    <p>
+      cz&#281;sto nadu&#380;ywany. Prosz&#281;, nie r&#243;b tego. Ten kod mi jako klientowi Twojego
+    </p>
+    <p>
+      systemu nie m&#243;wi absolutnie nic poza tym, &#380;e musz&#281; si&#281; skontaktowa&#263; z
+    </p>
+    <p>
+      supportem, &#380;eby si&#281; dowiedzie&#263;, &#380;e na przyk&#322;ad by&#322; b&#322;&#281;dny format daty albo
+    </p>
+    <p>
+      metoda GET nie jest obs&#322;ugiwana, albo nie mo&#380;na mi wys&#322;a&#263; danych XML.
+    </p>
+    <p>
+      Starajmy si&#281; zwraca&#263; bardzo specyficzne kody b&#322;&#281;d&#243;w.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1589915204402" ID="ID_467812036" MODIFIED="1589915249705" TEXT="&#x25cf; 401 Unauthorized &#x2013; brak uwierzytelniania. Ja jako u&#x17c;ytkownik wiem: OK, musz&#x119;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#9679; 401 Unauthorized &#8211;&#160;brak uwierzytelniania. Ja jako u&#380;ytkownik wiem: OK, musz&#281;
+    </p>
+    <p>
+      ponownie wys&#322;a&#263; dane autoryzacyjne, &#380;eby otrzyma&#263; identyfikator sesji czy
+    </p>
+    <p>
+      tokena.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1589915204404" ID="ID_1250881871" MODIFIED="1589915204404" TEXT="&#x25cf; 403 Forbidden &#x2013; brak uprawnie&#x144;. Bardzo jasny b&#x142;&#x105;d m&#xf3;wi&#x105;cy o tym, &#x17c;e nie mam"/>
+<node CREATED="1589915434236" ID="ID_1023209763" MODIFIED="1589915463018" TEXT="404 Not Found &#x2013; zas&#xf3;b nieodnaleziony. Kolejny bardzo problematyczny kod">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      404 Not Found &#8211;&#160;zas&#243;b nieodnaleziony. Kolejny bardzo problematyczny kod
+    </p>
+    <p>
+      b&#322;&#281;d&#243;w, bo jako u&#380;ytkownik, wykonuj&#261;c &#380;&#261;danie i dostaj&#261;c 404, nie wiem, czy
+    </p>
+    <p>
+      istnieje ta konkretna subskrypcja, ten konkretny lot, kt&#243;ry pr&#243;buj&#281; pobra&#263;. Czy
+    </p>
+    <p>
+      mo&#380;e &#380;&#261;danie, kt&#243;re wykona&#322;em, jest niew&#322;a&#347;ciwe, poniewa&#380; ca&#322;y zas&#243;b nazywa
+    </p>
+    <p>
+      si&#281; inaczej (nie bookings, tylko accounts). Warto w takim przypadku zwr&#243;ci&#263;
+    </p>
+    <p>
+      informacj&#281;, czy nie istnieje dany zas&#243;b, czy jest to b&#322;&#281;dny URL, kt&#243;rego nie uda&#322;o
+    </p>
+    <p>
+      si&#281; zmapowa&#263; po stronie serwera, i st&#261;d kod 404. Je&#380;eli co&#347; by&#322;o dost&#281;pne, ale
+    </p>
+    <p>
+      ju&#380; nie jest (na przyk&#322;ad subskrypcja wygas&#322;a, nie da si&#281; ju&#380; jej pobra&#263;), warto
+    </p>
+    <p>
+      rozr&#243;&#380;nia&#263; 404 &#8222;to nie istnieje&#8221; od 404 &#8222;to ju&#380; nie jest dost&#281;pne&#8221; (tak, ta
+    </p>
+    <p>
+      subskrypcja, ta rezerwacja by&#322;a, ale ona ju&#380; jest niedost&#281;pna &#8211;&#160;410 Gone).
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1589915434240" ID="ID_1268805148" MODIFIED="1589915478709" TEXT="&#x25cf; 405 Method Not Allowed &#x2013; metoda niedozwolona. Na tej subskrypcji, w tym">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#9679; 405 Method Not Allowed &#8211;&#160;metoda niedozwolona. Na tej subskrypcji, w tym
+    </p>
+    <p>
+      statusie nie wolno wykona&#263; metody GET. Mog&#281; operowa&#263; w ten spos&#243;b, mog&#281;
+    </p>
+    <p>
+      te&#380; wcze&#347;niej zrobi&#263; zapytanie OPTIONS i dowiedzie&#263; si&#281;, czy w og&#243;le warto tam
+    </p>
+    <p>
+      wysy&#322;a&#263; GET.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1589915434241" ID="ID_1213938986" MODIFIED="1589915498627" TEXT="&#x25cf; 409 Conflict &#x2013; konflikt z obecnym stanem zasobu. Masz inn&#x105; wersj&#x119;, b&#x142;&#x119;dny">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#9679; 409 Conflict &#8211;&#160;konflikt z obecnym stanem zasobu. Masz inn&#261; wersj&#281;, b&#322;&#281;dny
+    </p>
+    <p>
+      stan tego zasobu. O tym b&#281;dziemy m&#243;wi&#263; wi&#281;cej w kontek&#347;cie cachowania i
+    </p>
+    <p>
+      optymistycznego blokowania w przypadku API REST.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1589915434242" ID="ID_645205769" MODIFIED="1589915514637" TEXT="&#x25cf; 415 Unsupported Media Type &#x2013; nieobs&#x142;ugiwana reprezentacja zasobu.">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#9679; 415 Unsupported Media Type &#8211;&#160;nieobs&#322;ugiwana reprezentacja zasobu.
+    </p>
+    <p>
+      &#8222;Przepraszam, jest 2019. Nie u&#380;ywamy ju&#380; XML-a w naszej firmie, prosz&#281; si&#281; ze
+    </p>
+    <p>
+      mn&#261; skontaktowa&#263; JSON-em&#8221; albo &#8222;Tej wersji API ju&#380; nie wspieram, prosz&#281;
+    </p>
+    <p>
+      skontaktowa&#263; si&#281; ze mn&#261; nowsz&#261; wersj&#261;&#8221;.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
+<node CREATED="1589915121330" ID="ID_1252048195" MODIFIED="1589915121330" TEXT="4. Wszystkie, kt&#xf3;re zaczynaj&#x105; si&#x119; od 5 &#x2013; b&#x142;&#x105;d serwera.">
+<node CREATED="1589915533562" ID="ID_970797162" MODIFIED="1589915544668" TEXT="&#x25cf; 500 Internal Server Error &#x2013; b&#x142;&#x105;d bardzo og&#xf3;lny. Dok&#x142;adnie tak jak 400 m&#xf3;wi mi">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#9679; 500 Internal Server Error &#8211;&#160;b&#322;&#261;d bardzo og&#243;lny. Dok&#322;adnie tak jak 400 m&#243;wi mi
+    </p>
+    <p>
+      tyle, &#380;e co&#347; si&#281; nie uda&#322;o, ale nie mam poj&#281;cia co. Warto te&#380; stosowa&#263; albo
+    </p>
+    <p>
+      dodatkow&#261; informacj&#281; w postaci opisu tego b&#322;&#281;du w ciele odpowiedzi, albo
+    </p>
+    <p>
+      konkretne informacje.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1589915533565" ID="ID_356418592" MODIFIED="1589915558554" TEXT="&#x25cf; 503 Service Unavailable &#x2013; serwis jest w tej chwili niedost&#x119;pny. Mo&#x17c;e si&#x119;">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#9679; 503 Service Unavailable &#8211;&#160;serwis jest w tej chwili niedost&#281;pny. Mo&#380;e si&#281;
+    </p>
+    <p>
+      restartuje. Spr&#243;buj za chwil&#281;, na pewno si&#281; uda.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1589915533567" ID="ID_415879910" MODIFIED="1589915567306" TEXT="&#x25cf; 504 Gateway Timeout &#x2013; za d&#x142;ugo trwa&#x142;o przetwarzanie tego &#x17c;&#x105;dania. Jasna,">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#9679; 504 Gateway Timeout &#8211;&#160;za d&#322;ugo trwa&#322;o przetwarzanie tego &#380;&#261;dania. Jasna,
+    </p>
+    <p>
+      klarowna odpowied&#378;, co si&#281; nie uda&#322;o.
+    </p>
+  </body>
+</html></richcontent>
+</node>
+</node>
 </node>
 </node>
 </node>
