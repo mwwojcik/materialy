@@ -146,7 +146,7 @@
 </node>
 <node CREATED="1585509328709" HGAP="62" ID="ID_1751279895" MODIFIED="1585518070507" POSITION="left" TEXT="DDD">
 <cloud COLOR="#ccffcc"/>
-<node CREATED="1585643378096" ID="ID_1707799" MODIFIED="1585894999755" TEXT="Slack">
+<node CREATED="1585643378096" ID="ID_1707799" MODIFIED="1602616745979" TEXT="Slack">
 <node CREATED="1585643468840" ID="ID_507315727" MODIFIED="1585643484208" TEXT="Modelowanie przep&#x142;ywu zdarze&#x144;">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -1630,8 +1630,7 @@
       https://bettersoftwaredesign.pl/episodes
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1589874694547" ID="ID_1615088652" MODIFIED="1596606869615" TEXT="Read Model a bazy dokumentowe">
 <richcontent TYPE="NOTE"><html>
@@ -2290,8 +2289,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1596607968511" ID="ID_1742368259" MODIFIED="1596607984321" TEXT="R&#xf3;&#x17c;nica pomi&#x119;dzy modelem anemicznym a Read Model">
 <richcontent TYPE="NOTE"><html>
@@ -2437,8 +2435,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1596608030527" ID="ID_483231175" MODIFIED="1596608045641" TEXT="Agregaty VO  Commands">
 <richcontent TYPE="NOTE"><html>
@@ -2777,8 +2774,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1596608301997" ID="ID_294612060" MODIFIED="1596608327332" TEXT="Read modele">
 <richcontent TYPE="NOTE"><html>
@@ -3195,8 +3191,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1596608459365" ID="ID_1203578025" MODIFIED="1596608475041" TEXT="Snapshoty dla encji z kolekcjami">
 <richcontent TYPE="NOTE"><html>
@@ -4475,8 +4470,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1596609333604" ID="ID_1121516664" MODIFIED="1596609430550" TEXT="REST API">
 <richcontent TYPE="NOTE"><html>
@@ -5002,8 +4996,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1596609431894" ID="ID_867903031" MODIFIED="1596609464376" TEXT="Unikalno&#x15b;&#x107; danych w Event Sourcing">
 <richcontent TYPE="NOTE"><html>
@@ -5146,8 +5139,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1596609560612" ID="ID_1999227800" MODIFIED="1596609584475" TEXT="Correlation ID - Event Sourcing">
 <richcontent TYPE="NOTE"><html>
@@ -5487,8 +5479,7 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1596609652188" ID="ID_1228166540" MODIFIED="1596609670716" TEXT="Architektura rozproszona - cykle">
 <richcontent TYPE="NOTE"><html>
@@ -5824,10 +5815,16 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
+<node CREATED="1602616413825" ID="ID_1846411220" LINK="https://devstyle.pl/2020/10/12/najobszerniejsze-wprowadzenie-do-event-stormingu-z-przykladem/" MODIFIED="1602616923736" TEXT="Pe&#x142;ny opis sesji ES (devstyle)"/>
+<node CREATED="1602616565361" ID="ID_1702053299" MODIFIED="1602616910263" TEXT="Sesja ES online (pi&#x105;tki na produkcji)">
+<node CREATED="1602616575229" ID="ID_112784982" LINK="https://youtu.be/uDrAYXo7spA" MODIFIED="1602616682439" TEXT="Dzie&#x144; pierwszy - teoria"/>
+<node CREATED="1602616583515" ID="ID_1888306873" LINK="https://youtu.be/ymGVWEIWnjY" MODIFIED="1602616741934" TEXT="Dzie&#x144; drugi - warsztat"/>
+</node>
+<node CREATED="1602617047200" ID="ID_149235529" LINK="https://www.youtube.com/channel/UCvNne80z8XObPYIhDwnKDrg" MODIFIED="1602617068714" TEXT="DEVUPGRADE - Kurs Staszek i Junior"/>
+<node CREATED="1602617123744" ID="ID_834546194" LINK="https://bettersoftwaredesign.pl/" MODIFIED="1602617152834" TEXT="bettersoftwaredesign.pl - Mariusz Gil"/>
 </node>
 <node CREATED="1585510867352" ID="ID_9447650" MODIFIED="1585643520825" POSITION="right" TEXT="Architektura">
 <cloud COLOR="#66ffcc"/>
@@ -7161,6 +7158,10 @@ public class BoxFactory{    public Box createDefaultBox(SomeDate date){         
 </node>
 </node>
 </node>
+</node>
+<node CREATED="1602616836740" ID="ID_47028654" MODIFIED="1602616864517" POSITION="right" TEXT="Testowanie architektury">
+<cloud COLOR="#ffccff"/>
+<node CREATED="1602616867702" ID="ID_1654611939" LINK="https://devstyle.pl/2020/06/25/mega-pigula-wiedzy-o-testach-jednostkowych" MODIFIED="1602616886558" TEXT="Pigu&#x142;a wiedzy o testach jednostkowych"/>
 </node>
 </node>
 </map>
