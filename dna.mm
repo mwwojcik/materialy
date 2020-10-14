@@ -1,6 +1,6 @@
 <map version="1.0.1">
 <!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
-<node BACKGROUND_COLOR="#ffcc66" CREATED="1585423420139" ID="ID_1493379729" MODIFIED="1587371591443" STYLE="fork" TEXT="         DNA        ">
+<node BACKGROUND_COLOR="#ffcc66" CREATED="1585423420139" ID="ID_1493379729" MODIFIED="1602660814821" STYLE="fork" TEXT="         DNA        ">
 <font BOLD="true" NAME="SansSerif" SIZE="23"/>
 <node CREATED="1585423520402" HGAP="108" ID="ID_1017278685" MODIFIED="1585518070507" POSITION="right" TEXT="Modelowanie architektury C4" VSHIFT="6">
 <cloud COLOR="#9999ff"/>
@@ -5817,6 +5817,7 @@
   </body>
 </html></richcontent>
 </node>
+<node CREATED="1602660834725" ID="ID_1998155773" LINK="dna/slack_dna_notatki.docx" MODIFIED="1602660866143" TEXT="Notatki ze slacka - snapshot"/>
 </node>
 <node CREATED="1602616413825" ID="ID_1846411220" LINK="https://devstyle.pl/2020/10/12/najobszerniejsze-wprowadzenie-do-event-stormingu-z-przykladem/" MODIFIED="1602616923736" TEXT="Pe&#x142;ny opis sesji ES (devstyle)"/>
 <node CREATED="1602616565361" ID="ID_1702053299" MODIFIED="1602616910263" TEXT="Sesja ES online (pi&#x105;tki na produkcji)">
