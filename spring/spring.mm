@@ -1506,8 +1506,7 @@ U&#380;ycie:</pre>
       Web jest tylko adapterem modelu transportowego do modelu serwisowego, wi&#281;c dobrze zaprojektowany kontroler powinnien mie&#263; dost&#281;p do jednego Primary Port (je&#347;li nasza us&#322;uga potrzebuje czego&#347; od innych to wtedy mamy doczynienia z Secondary Port, Secondary Adapter) , dlatego nie powinien wstrzykiwa&#263; wielu us&#322;ug.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1574779076711" ID="ID_923232096" MODIFIED="1575026493927" TEXT="Slices annotations">
 <richcontent TYPE="NOTE"><html>
@@ -6434,7 +6433,17 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
 <node CREATED="1577621614417" ID="ID_202393944" MODIFIED="1577621633852" TEXT="docker  IMAGE_REPO - pobranie obrazu z repo"/>
 </node>
 <node CREATED="1577621672594" ID="ID_1683940902" MODIFIED="1577621675339" TEXT="Przyk&#x142;ady">
-<node CREATED="1575103331383" ID="ID_1880579579" MODIFIED="1575103340746" TEXT="MongoDB w kontenerze Docker">
+<node CREATED="1575103331383" ID="ID_1880579579" MODIFIED="1606820494887" TEXT="MongoDB w kontenerze Docker">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      docker run -p 5432:5432 --name postgres -e POSTGRESQL_PASSWORD=postgres -d bitnami/postgresql:latest
+    </p>
+  </body>
+</html></richcontent>
 <node CREATED="1575102107691" ID="ID_491641274" MODIFIED="1575103416461" TEXT="MongoDB w kontenerze dockera instalacja i tworzenie kontenera">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -6487,33 +6496,36 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
 </html></richcontent>
 <arrowlink DESTINATION="ID_872103592" ENDARROW="Default" ENDINCLINATION="262;0;" ID="Arrow_ID_963219456" STARTARROW="None" STARTINCLINATION="262;0;"/>
 </node>
-<node CREATED="1575103449858" ID="ID_930424322" MODIFIED="1575104276365" TEXT="Uruchomienie istniej&#x105;cego kontenera">
+<node CREATED="1575103449858" ID="ID_930424322" MODIFIED="1606813965164" TEXT="Uruchomienie istniej&#x105;cego kontenera">
 <richcontent TYPE="NOTE"><html>
   <head>
     
   </head>
   <body>
     <p>
-      <font color="#000000" face="monospace">//uruchomienie us&#322;ugi </font>
+      <font face="monospace" color="#000000">//uruchomienie us&#322;ugi </font>
     </p>
     <p>
-      <font color="#000000" face="monospace">service docker start </font>
-    </p>
-    <p>
-      
+      <font face="monospace" color="#000000">service docker start </font>
     </p>
     <p>
       
     </p>
     <p>
-      <font color="#000000" face="monospace">docker container ls -all</font><font face="monospace"><br /></font>
+      
+    </p>
+    <p>
+      <font face="monospace" color="#000000">docker container ls -all</font><font face="monospace"><br /></font>
     </p>
     <p>
       
     </p>
     <p>
-      <font color="#000000" face="monospace">docker container start 13531cb512b6</font><font face="monospace"><br /></font>
+      <font face="monospace" color="#000000">docker container start 13531cb512b6</font><font face="monospace"><br /></font>
     </p>
+    <p>
+      <font face="monospace"><br />
+</font>    </p>
   </body>
 </html></richcontent>
 </node>
@@ -6618,9 +6630,89 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
 <arrowlink DESTINATION="ID_1476055709" ENDARROW="Default" ENDINCLINATION="317;0;" ID="Arrow_ID_1114083391" STARTARROW="None" STARTINCLINATION="317;0;"/>
 </node>
 </node>
+<node CREATED="1606820203156" ID="ID_893147271" MODIFIED="1607288022834" TEXT="Postgresql w kontenerze">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      docker container run --name postgresql-main-db -p 5433:5432 -e POSTGRESQL_USERNAME=postgres -e POSTGRESQL_PASSWORD=postgres bitnami/postgresql
+    </p>
+  </body>
+</html></richcontent>
+</node>
+<node CREATED="1607247161401" ID="ID_1700101511" MODIFIED="1607289258454" TEXT="KeyCloak w kontenerze">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <div style="text-transform: none; font-family: Segoe UI, system-ui, Apple Color Emoji, Segoe UI Emoji, sans-serif; text-align: start; font-style: normal; font-weight: 400; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; white-space: normal; font-size: 14px">
+      docker network create keycloak_network
+    </div>
+    <p>
+      docker container run --name postgres_keycloak --net keycloak_network -p 5435:5432&#160;&#160;-e POSTGRESQL_USERNAME=postgres -e POSTGRESQL_PASSWORD=postgres &#160;bitnami/postgresql
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      docker run --name keycloak --net keycloak_network -p 8080:8080 -e DB_VENDOR=postgres -e DB_USER=postgres -e DB_PASSWORD=postgres -e DB_ADDR=192.168.0.116 -e DB_DATABASE=postgres -e DB_PORT=5435 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin jboss/keycloak
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html></richcontent>
+</node>
 </node>
 <node CREATED="1577621911686" ID="ID_746308912" MODIFIED="1577621916649" TEXT="Materia&#x142;y ">
 <node CREATED="1577621918069" ID="ID_1334844680" LINK="https://www.youtube.com/playlist?list=PLh6V3IQZSBSaGZf409JmY3r33s6xreMUp" MODIFIED="1577621974073" TEXT="Kurs Docker - Piotr Ko&#x15b;ka"/>
+</node>
+<node CREATED="1609841029389" ID="ID_1807154797" MODIFIED="1609841111457" TEXT="Budowanie aplikacji SpringBoot jako docker">
+<node CREATED="1609841054533" ID="ID_1161918105" MODIFIED="1609841108086" TEXT="Uruchomienie dockera w taki spos&#xf3;b by nas&#x142;uchiwa&#x142; na port tcp">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://stackoverflow.com/questions/26561963/how-to-detect-a-docker-daemon-port
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Zadzia&#322;a&#322;o:
+    </p>
+    <p>
+      1) Configuring at <strong>/etc/default/docker</strong>&#160;file:
+    </p>
+    <pre><code>DOCKER_OPTS=&quot;-H tcp://127.0.0.1:5000 -H unix:///var/run/docker.sock&quot;</code></pre>
+  </body>
+</html>
+</richcontent>
+</node>
+<node CREATED="1609841114909" ID="ID_1748696555" MODIFIED="1609841207441" TEXT="Tutorial Eluwina Byku!">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      https://youtu.be/b9dPc_rhBxE
+    </p>
+    <p>
+      
+    </p>
+    <h1 class="title style-scope ytd-video-primary-info-renderer">
+      SPRING BOOT 2.3 - &#321;ATWE TWORZENIE OBRAZ&#211;W DOCKEROWYCH Z BUILDPACKS
+    </h1>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1575101210767" ID="ID_1276228395" MODIFIED="1575220858256" POSITION="right" TEXT="Mongodb">
