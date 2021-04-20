@@ -4503,51 +4503,6 @@ headers.add(&quot;Responded&quot;, &quot;MyController&quot;);return ResponseEnti
 </node>
 </node>
 <node CREATED="1574843073919" ID="ID_813334677" MODIFIED="1576660478921" POSITION="right" TEXT="Programowanie reaktywne">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Java 9 ma wsparcie do programowania reaktywnego:
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Publisher,Subscriber, Subscription, Processor(Publisher+Subscriber) - standardowe interfejsy zgodne z specyfikacj&#261; Reactive Streams, p&#243;ki co Reactive Streams korzysta ze swoich interfejs&#243;w, ale
-    </p>
-    <p>
-      to si&#281; zmieni i przejd&#261; na te kt&#243;re dostarczy Java.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Implementacji dostarczaj&#261; dostawcy: RxJava2, ProjectReactor, AkkaStreams.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Te interfejsy s&#261; niewystarczaj&#261;ce i komunikacja z ich po&#347;rednictwem by&#322;aby niewygodna.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      Istnieje pewne podobie&#324;stwo pomi&#281;dzy strumieniami Java8 i Rx
-    </p>
-    <ul>
-      <li>
-        jedne s&#261; push(rx) a drugie pop(java)
-      </li>
-      <li>
-        strumienie javowe s&#261; jednokrotne a rx wielokrotne
-      </li>
-    </ul>
-  </body>
-</html></richcontent>
 <cloud COLOR="#ffcccc"/>
 <node CREATED="1574853583555" ID="ID_1678386152" LINK="https://github.com/mikewojtyna/efficient-java/blob/master/src/main/java/pro/buildmysoftware/efficientjava/newio/server/EchoServer.java" MODIFIED="1574859185982" TEXT="Standardowa obs&#x142;uga &#x17c;&#x105;dania">
 <richcontent TYPE="NOTE"><html>
@@ -5105,24 +5060,7 @@ Chainy publisher z jednego &#378;r&#243;d&#322;a mo&#380;e by&#263; sourcem w in
 </html></richcontent>
 </node>
 </node>
-<node CREATED="1574928750873" ID="ID_379369195" MODIFIED="1574928869249" TEXT="Async vs Ractive">
-<richcontent TYPE="NOTE"><html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      Przy async oddelegowujemy ca&#322;y du&#380;y w&#261;tek realizuj&#261;cy zadanie mimo &#380;e zwalniamy w&#261;tki obs&#322;uguj&#261;cych &#380;&#261;danie. Niewiele zyskujemy bo i tak czekamy na w&#261;tek workera.
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      W przypadku reactive, gdy ca&#322;y stos jest reaktywny (w szczeg&#243;lno&#347;ci baza) nie ma tego ograniczenia.
-    </p>
-  </body>
-</html></richcontent>
-</node>
+<node CREATED="1574928750873" ID="ID_379369195" MODIFIED="1574928869249" TEXT="Async vs Ractive"/>
 <node CREATED="1574930690644" ID="ID_1808332193" MODIFIED="1574932179159" TEXT="Bridge pomi&#x119;dzy system klasycznym i reaktywnym - przyk&#x142;ad">
 <richcontent TYPE="NOTE"><html>
   <head>
@@ -5441,6 +5379,21 @@ Chainy publisher z jednego &#378;r&#243;d&#322;a mo&#380;e by&#263; sourcem w in
 </node>
 <node CREATED="1576709514822" ID="ID_673124659" LINK="https://www.callicoder.com/spring-5-reactive-webclient-webtestclient-examples/" MODIFIED="1576709524063" TEXT="https://www.callicoder.com/spring-5-reactive-webclient-webtestclient-examples/"/>
 <node CREATED="1577298658467" ID="ID_524901006" LINK="https://developer.ibm.com/tutorials/reactive-in-practice-1/" MODIFIED="1577298692724" TEXT="Kompletny przyk&#x142;ad - programowanie reaktywne - events"/>
+</node>
+<node CREATED="1618947237949" ID="ID_142222897" MODIFIED="1618947243818" TEXT="CURL">
+<node CREATED="1618947248711" ID="ID_863247518" MODIFIED="1618947253227" TEXT="POST">
+<richcontent TYPE="NOTE"><html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      curl -i -X POST -H &quot;Content-Type: application/json&quot;&#160;&#160;-d &quot;hello&quot; http://localhost:8080/api/messages
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node CREATED="1575019120012" ID="ID_368808356" MODIFIED="1575032117108" POSITION="right" TEXT="Spring Data">
@@ -6691,8 +6644,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
     </p>
     <pre><code>DOCKER_OPTS=&quot;-H tcp://127.0.0.1:5000 -H unix:///var/run/docker.sock&quot;</code></pre>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node CREATED="1609841114909" ID="ID_1748696555" MODIFIED="1609841207441" TEXT="Tutorial Eluwina Byku!">
 <richcontent TYPE="NOTE"><html>
@@ -6710,8 +6662,7 @@ Pod spodem niejawnie uruchomi si&#281; ribbon. </pre>
       SPRING BOOT 2.3 - &#321;ATWE TWORZENIE OBRAZ&#211;W DOCKEROWYCH Z BUILDPACKS
     </h1>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
